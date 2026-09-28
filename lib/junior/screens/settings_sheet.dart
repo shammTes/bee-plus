@@ -183,6 +183,14 @@ class _SettingsSheetState extends State<SettingsSheet> {
                     ),
             ),
             ClayButton(label: k.t('close'), onTap: () => Shell.of(context).closeSettings()),
+            Padding(
+              padding: const EdgeInsets.only(top: 18),
+              child: Tx(
+                'Developed by Shamm Tesfalem 07162947',
+                textAlign: TextAlign.center,
+                style: ts(15, FontWeight.w800, p.ink2),
+              ),
+            ),
           ],
         ),
       ),
