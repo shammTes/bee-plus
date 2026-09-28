@@ -80,7 +80,7 @@ class _UnlockScreenState extends State<UnlockScreen>
                 padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
                 children: [
                   const Text(
-                    'ንብ ፓሉስ',
+                    'Bee Plus',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Color(0xFFFFC9A3),
