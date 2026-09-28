@@ -24,9 +24,9 @@ jobs:
       - name: Accept Android licenses
         run: yes | flutter doctor --android-licenses || true
 
-      - name: Icons + Junior UI pack
+      - name: Icons + Junior preview pack
         run: |
-          mkdir -p android/app/src/main/res/mipmap-hdpi assets/junior
+          mkdir -p android/app/src/main/res/mipmap-hdpi assets/junior assets/junior_notes
           python3 - << 'PY'
 from pathlib import Path
 try:
@@ -44,17 +44,22 @@ for name in ('mdpi', 'hdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi'):
     img.save(p / 'ic_launcher.png')
 print('icons ok')
 PY
-          pip install -q 'gdown>=5.0' || true
-          gdown "https://drive.google.com/uc?id=1lAyYjkTuMSnQmP_aqQL2vyL5vD3Xtlqm&export=download" -O /tmp/Junior-UI-source.zip || true
-          if [ -s /tmp/Junior-UI-source.zip ]; then
-            unzip -qo /tmp/Junior-UI-source.zip -d /tmp/junior_src
-            if [ -f /tmp/junior_src/junior-ui/preview/demo.html ]; then
-              cp -f /tmp/junior_src/junior-ui/preview/demo.html assets/junior/index.html
-            elif [ -f /tmp/junior_src/junior-ui/preview/index.html ]; then
-              cp -f /tmp/junior_src/junior-ui/preview/index.html assets/junior/index.html
-            fi
+          pip install -q 'gdown>=5.0'
+          gdown "https://drive.google.com/uc?id=1mGLL8a0-WcWx26XHJv1h0wsy7G-_MGWh&export=download" -O /tmp/junior_latest.zip
+          ls -lh /tmp/junior_latest.zip
+          test -s /tmp/junior_latest.zip
+          unzip -qo /tmp/junior_latest.zip -d /tmp/junior_pack
+          if [ -f /tmp/junior_pack/Junior-preview-latest.html ]; then
+            cp -f /tmp/junior_pack/Junior-preview-latest.html assets/junior/index.html
+          else
+            find /tmp/junior_pack -name 'Junior-preview*.html' -o -name 'index.html'
+            exit 1
+          fi
+          if [ -d /tmp/junior_pack/notes ]; then
+            cp -a /tmp/junior_pack/notes/. assets/junior_notes/ || true
           fi
           wc -c assets/junior/index.html
+          test $(wc -c < assets/junior/index.html) -gt 1000000
 
       - name: Pub get
         run: flutter pub get
