@@ -153,7 +153,12 @@ class _LockScreenState extends State<LockScreen> with SingleTickerProviderStateM
                                   dataModuleStyle: const QrDataModuleStyle(dataModuleShape: QrDataModuleShape.square, color: Color(0xFF3E3129)),
                                 ),
                               const SizedBox(height: 6),
-                              SelectableText(_id ?? '…', textAlign: TextAlign.center, style: ts(13, FontWeight.w800, p.ink)),
+                              GestureDetector(
+                                onTap: _id == null
+                                    ? null
+                                    : () => Clipboard.setData(ClipboardData(text: _id!)),
+                                child: Text(_id ?? '…', textAlign: TextAlign.center, style: ts(13, FontWeight.w800, p.ink)),
+                              ),
                             ],
                           ),
                         ),
