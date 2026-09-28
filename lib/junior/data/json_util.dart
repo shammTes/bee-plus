@@ -5,7 +5,14 @@ typedef Json = Map<String, dynamic>;
 class J {
   final Json m;
   final String where;
-  J(Object? o, this.where) : m = o is Map<String, dynamic> ? o : throw FormatException('$where: expected an object, got ${o.runtimeType}');
+  J(Object? o, this.where) : m = _asJson(o, where);
+
+  /// Isolate messages rebuild maps as Map<dynamic, dynamic>. Coerce one level; nested objects pass through J again.
+  static Json _asJson(Object? o, String where) {
+    if (o is Json) return o;
+    if (o is Map) return <String, dynamic>{for (final e in o.entries) '${e.key}': e.value};
+    throw FormatException('$where: expected an object, got ${o.runtimeType}');
+  }
 
   bool has(String k) => m.containsKey(k) && m[k] != null;
 

@@ -35,13 +35,16 @@ class _ExamsPageState extends State<ExamsPage> {
               child: Tx('Exams did not load.\n${snap.error}', style: ts(16, FontWeight.w700, p.ink)),
             );
           }
+          if (!snap.hasData) {
+            return Center(child: Tx('…', style: ts(28, FontWeight.w900, p.ink2)));
+          }
+          final papers = snap.data!;
           return ScreenScroll(
             children: [
               Padding(padding: const EdgeInsets.only(top: 4, bottom: 18), child: lead(k.t('examLead'), p.ink2)),
-              if (snap.hasData) const _RunContinue(),
+              const _RunContinue(),
               for (final s in ExamSubject.all)
-                if ((snap.data ?? const <Paper>[]).any((e) => e.subject?.id == s.id))
-                  _SubjectExams(subject: s, papers: (snap.data ?? const <Paper>[]).where((e) => e.subject?.id == s.id).toList()),
+                if (papers.any((e) => e.subject?.id == s.id)) _SubjectExams(subject: s, papers: papers.where((e) => e.subject?.id == s.id).toList()),
             ],
           );
         },

@@ -20,13 +20,35 @@ class GradePage extends StatefulWidget {
 }
 
 class _GradePageState extends State<GradePage> {
-  late final Future<List<NotesBook>> _load;
   List<String>? open;
+  final _books = <String, NotesBook>{};
+  final _loading = <String>{};
 
   @override
   void initState() {
     super.initState();
-    _load = AppScope.read(context).repo.booksOfGrade(widget.grade);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final books = AppScope.read(context).repo.manifest!.grade(widget.grade);
+      if (books.isNotEmpty) _ensure(books.first.id);
+    });
+  }
+
+  void _ensure(String id) {
+    if (_books.containsKey(id) || _loading.contains(id)) return;
+    final cached = AppScope.read(context).repo.bookIfLoaded(id);
+    if (cached != null) {
+      setState(() => _books[id] = cached);
+      return;
+    }
+    _loading.add(id);
+    AppScope.read(context).repo.book(id).then((b) {
+      if (!mounted) return;
+      setState(() {
+        _books[id] = b;
+        _loading.remove(id);
+      });
+    });
   }
 
   @override
@@ -36,31 +58,21 @@ class _GradePageState extends State<GradePage> {
     open ??= books.isEmpty ? [] : [books.first.id];
     return PageShell(
       top: BackTop(k.t('gradeN', {'n': widget.grade}), onBack: () => Shell.of(context).pop()),
-      body: FutureBuilder<List<NotesBook>>(
-        future: _load,
-        initialData: k.s.repo.booksOfGradeIfLoaded(widget.grade),
-        builder: (context, snap) {
-          if (snap.hasError) {
-            return Padding(
-              padding: const EdgeInsets.all(24),
-              child: Tx('Notes did not load.\n${snap.error}', style: ts(16, FontWeight.w700, p.ink)),
-            );
-          }
-          final loaded = {for (final b in snap.data ?? const <NotesBook>[]) b.info.id: b};
-          return ScreenScroll(
-            children: [
-              Padding(padding: const EdgeInsets.only(top: 4, bottom: 16), child: lead(k.t('gradeLead'), p.ink2)),
-              for (final b in books)
-                _SubjectSection(
-                  book: b,
-                  notes: loaded[b.id],
-                  loading: snap.data == null && !snap.hasError,
-                  open: open!.contains(b.id),
-                  onToggle: () => setState(() => open!.contains(b.id) ? open!.remove(b.id) : open!.add(b.id)),
-                ),
-            ],
-          );
-        },
+      body: ScreenScroll(
+        children: [
+          Padding(padding: const EdgeInsets.only(top: 4, bottom: 16), child: lead(k.t('gradeLead'), p.ink2)),
+          for (final b in books)
+            _SubjectSection(
+              book: b,
+              notes: _books[b.id],
+              loading: _loading.contains(b.id),
+              open: open!.contains(b.id),
+              onToggle: () {
+                setState(() => open!.contains(b.id) ? open!.remove(b.id) : open!.add(b.id));
+                if (open!.contains(b.id)) _ensure(b.id);
+              },
+            ),
+        ],
       ),
     );
   }
@@ -78,7 +90,7 @@ class _SubjectSection extends StatelessWidget {
     final k = Kit.of(context), p = k.p, s = k.s;
     final sub = notesSubject(book.subject), tone = p.tone(sub.tone);
     final ready = notes == null ? 0 : book.units.where((x) => x.notesId != null && notes!.unit(x.notesId!) != null).length;
-    final showReady = !loading && ready < book.units.length;
+    final showReady = notes != null && ready < book.units.length;
     return Padding(
       padding: const EdgeInsets.only(bottom: 16),
       child: Column(
@@ -180,7 +192,7 @@ class _UnitRow extends StatelessWidget {
         child: Center(child: Tx('${mu.n}', style: ts(20, FontWeight.w900, t?.deep ?? p.ink, height: 1))),
       ),
     );
-    if (u == null) {
+    if (u == null && mu.notesId == null) {
       // "Soon" (or still loading)
       return Padding(
         padding: const EdgeInsets.only(bottom: 14),
@@ -216,11 +228,12 @@ class _UnitRow extends StatelessWidget {
         ),
       );
     }
-    final pct = s.unitPct(u);
+    final pct = u == null ? 0 : s.unitPct(u);
+    final title = u?.title ?? mu.title;
     return Padding(
       padding: const EdgeInsets.only(bottom: 14),
       child: Press(
-        onTap: () => Shell.of(context).push(UnitPage(bookId: book.id, unitId: u.id)),
+        onTap: () => Shell.of(context).push(UnitPage(bookId: book.id, unitId: u?.id ?? mu.notesId!)),
         deco: k.c.puffyTone(tone, radius: 28),
         pressedDeco: k.c.puffyTonePressed(tone, radius: 28),
         dy: 3,
@@ -236,9 +249,12 @@ class _UnitRow extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Tx(u.title, style: ts(19, FontWeight.w900, p.ink, normal: true)),
-                  Tx('${k.t('unitN', {'n': mu.n})} · ${s.nQ(u.exercise.questions.length)}', style: ts(16, FontWeight.w700, p.ink2, normal: true)),
-                  MiniBar(pct),
+                  Tx(title, style: ts(19, FontWeight.w900, p.ink, normal: true)),
+                  Tx(
+                    u == null ? k.t('unitN', {'n': mu.n}) : '${k.t('unitN', {'n': mu.n})} · ${s.nQ(u.exercise.questions.length)}',
+                    style: ts(16, FontWeight.w700, p.ink2, normal: true),
+                  ),
+                  if (u != null) MiniBar(pct),
                 ],
               ),
             ),

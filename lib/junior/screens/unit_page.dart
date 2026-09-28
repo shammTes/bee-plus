@@ -62,11 +62,6 @@ class UnitPageState extends State<UnitPage> {
     try {
       final s = AppScope.read(context);
       final b = await s.repo.book(widget.bookId);
-      final u = b.unit(widget.unitId);
-      if (u != null) {
-        final ctx = UnitCtx(u, widget.bookId, s.repo.svgPath);
-        await SvgStore.preload(s.repo.bundle, ctx.svgPaths);
-      }
       if (!mounted) return;
       s.setLast(widget.bookId, widget.unitId);
       setState(() {
@@ -74,6 +69,13 @@ class UnitPageState extends State<UnitPage> {
         _error = null;
         _ready = true;
       });
+      final u = b.unit(widget.unitId);
+      if (u != null) {
+        final ctx = UnitCtx(u, widget.bookId, s.repo.svgPath);
+        SvgStore.preload(s.repo.bundle, ctx.svgPaths).then((_) {
+          if (mounted) setState(() {});
+        });
+      }
       WidgetsBinding.instance.addPostFrameCallback((_) => _afterFirstLayout());
     } catch (e) {
       if (!mounted) return;
@@ -109,8 +111,25 @@ class UnitPageState extends State<UnitPage> {
 
   // ---- scrolling
   /// scroll an element just under the sticky jump bar (web `scroll-margin-top: 84px`, lands 96px below the screen top): smooth when near, a jump when far
-  void scrollToKey(GlobalKey key, {bool smooth = true}) {
+  void scrollToKey(GlobalKey key, {bool smooth = true, int hops = 0}) {
     final ctx = key.currentContext;
+    if (ctx == null && hops < 48 && _scroll.hasClients) {
+      final pos = _scroll.position;
+      if (hops == 0) {
+        if (pos.pixels != 0) pos.jumpTo(pos.minScrollExtent);
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (mounted) scrollToKey(key, smooth: false, hops: 1);
+        });
+        return;
+      }
+      final next = (pos.pixels + pos.viewportDimension * .9).clamp(pos.minScrollExtent, pos.maxScrollExtent);
+      if (next == pos.pixels) return;
+      pos.jumpTo(next);
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) scrollToKey(key, smooth: false, hops: hops + 1);
+      });
+      return;
+    }
     if (ctx == null || !_scroll.hasClients) return;
     final ro = ctx.findRenderObject() as RenderBox?;
     final vpBox = _scroll.position.context.notificationContext?.findRenderObject() as RenderBox?;
@@ -127,7 +146,15 @@ class UnitPageState extends State<UnitPage> {
     }
   }
 
-  void _onScroll() => _track();
+  bool _trackQueued = false;
+  void _onScroll() {
+    if (_trackQueued) return;
+    _trackQueued = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _trackQueued = false;
+      if (mounted) _track();
+    });
+  }
 
   /// reading progress (a card counts once ≥30 % of it is on screen) + the jump bar's section (band 18 %–28 % of the screen)
   void _track() {
@@ -193,7 +220,13 @@ class UnitPageState extends State<UnitPage> {
         ),
       );
     }
-    if (!_ready || u == null) return PageShell(top: top, body: const SizedBox.shrink());
+    if (!_ready || u == null) {
+      return PageShell(
+        top: top,
+        body: Center(child: Tx('…', style: ts(28, FontWeight.w900, k.p.ink2))),
+      );
+    }
+    final pieces = _pieces(context, k, u);
     return PageShell(
       top: top,
       body: ScrollConfiguration(
@@ -208,17 +241,20 @@ class UnitPageState extends State<UnitPage> {
                   if (mounted && _holdKey == hk) scrollToKey(hk, smooth: false);
                 });
               }
-              _track();
+              _onScroll();
             }
             return false;
           },
           child: CustomScrollView(
             controller: _scroll,
+            cacheExtent: 900,
             slivers: [
               SliverPersistentHeader(pinned: true, delegate: _JumpDelegate(this, u, k)),
               SliverPadding(
                 padding: EdgeInsets.fromLTRB(20, 6, 20, 30 + MediaQuery.paddingOf(context).bottom),
-                sliver: SliverToBoxAdapter(child: _content(context, k, u)),
+                sliver: SliverList(
+                  delegate: SliverChildBuilderDelegate((context, i) => pieces[i], childCount: pieces.length),
+                ),
               ),
             ],
           ),
@@ -242,7 +278,7 @@ class UnitPageState extends State<UnitPage> {
 
   String? get jumpOn => _jumpOn;
 
-  Widget _content(BuildContext context, Kit k, Unit u) {
+  List<Widget> _pieces(BuildContext context, Kit k, Unit u) {
     final p = k.p, s = k.s, b = _book!.info, sub = notesSubject(b.subject), tone = p.tone(sub.tone);
     final ctx = UnitCtx(u, widget.bookId, s.repo.svgPath);
     final pct = s.unitPct(u), rc = richColors(p);
@@ -267,14 +303,14 @@ class UnitPageState extends State<UnitPage> {
         ),
       ),
     );
-    Widget section(String key, String icon, String title, Tone t, List<Widget> kids) => Padding(
-      padding: const EdgeInsets.only(top: 34),
-      child: Column(
+    List<Widget> section(String key, String icon, String title, Tone t, List<Widget> kids) => [
+      Padding(
         key: _secKeys.putIfAbsent(key, GlobalKey.new),
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [secPill(key, icon, title, t), ...kids],
+        padding: const EdgeInsets.only(top: 34),
+        child: secPill(key, icon, title, t),
       ),
-    );
+      ...kids,
+    ];
 
     // notes: lesson heads + cards
     final notes = <Widget>[];
@@ -395,9 +431,7 @@ class UnitPageState extends State<UnitPage> {
       ),
     ];
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
+    return [
         // uhead
         Tx(u.title, style: ts(30, FontWeight.w900, p.ink, height: 1.15, spacing: -.3)),
         Padding(
@@ -420,10 +454,10 @@ class UnitPageState extends State<UnitPage> {
               ],
             ),
           ),
-        section('notes', 'book', k.t('notes'), p.butter, notes),
-        section('memory', 'tip', k.t('tipsTricks'), p.lilac, memory),
-        if (u.games.isNotEmpty) section('games', 'star', k.t('games'), p.blue, games),
-        section('questions', 'check', k.t('questions'), p.sage, qs),
+        ...section('notes', 'book', k.t('notes'), p.butter, notes),
+        ...section('memory', 'tip', k.t('tipsTricks'), p.lilac, memory),
+        if (u.games.isNotEmpty) ...section('games', 'star', k.t('games'), p.blue, games),
+        ...section('questions', 'check', k.t('questions'), p.sage, qs),
         if (u.links.isNotEmpty) ...[
           Padding(
             padding: const EdgeInsets.only(top: 24, bottom: 12),
@@ -455,8 +489,7 @@ class UnitPageState extends State<UnitPage> {
             ),
           ),
         ],
-      ],
-    );
+    ];
   }
 }
 

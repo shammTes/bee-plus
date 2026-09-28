@@ -9,7 +9,7 @@ import 'exam_models.dart';
 import 'notes_models.dart';
 
 class ContentRepo {
-  ContentRepo({AssetBundle? bundle, this.useIsolate = false}) : bundle = bundle ?? rootBundle;
+  ContentRepo({AssetBundle? bundle, this.useIsolate = true}) : bundle = bundle ?? rootBundle;
   final AssetBundle bundle;
   final bool useIsolate;
   static const base = 'assets/junior/content';
@@ -29,7 +29,11 @@ class ContentRepo {
     manifest = NotesManifest.fromJson(jsonDecode(await bundle.loadString('$base/notes/manifest.json')));
   }
 
-  Future<Object?> _decode(String s) => useIsolate ? Isolate.run(() => jsonDecode(s)) : Future.value(jsonDecode(s));
+  /// Decode off the UI isolate. The model is built on the caller isolate (custom objects cannot cross isolates).
+  Future<Object?> _decode(String s) {
+    if (!useIsolate) return Future.value(jsonDecode(s));
+    return Isolate.run(() => jsonDecode(s));
+  }
 
   bool hasBook(String id) => bookFiles.contains('$id.json');
   NotesBook? bookIfLoaded(String id) => _books[id];
@@ -68,8 +72,17 @@ class ContentRepo {
     return _paperLoad ??= () async {
       final raw = await Future.wait([for (final f in examFiles) bundle.loadString('$base/exams/$f', cache: false)]);
       final files = examFiles;
-      final decoded = await Future.wait([for (final s in raw) _decode(s)]);
-      final list = [for (var i = 0; i < decoded.length; i++) Paper.fromJson(decoded[i], files[i])];
+      final decoded = <Object?>[];
+      for (var i = 0; i < raw.length; i += 4) {
+        final end = i + 4 > raw.length ? raw.length : i + 4;
+        decoded.addAll(await Future.wait([for (final s in raw.sublist(i, end)) _decode(s)]));
+        await Future<void>.delayed(Duration.zero);
+      }
+      final list = <Paper>[];
+      for (var i = 0; i < decoded.length; i++) {
+        list.add(Paper.fromJson(decoded[i], files[i]));
+        if (i % 3 == 2) await Future<void>.delayed(Duration.zero);
+      }
       return _papers = list;
     }();
   }
