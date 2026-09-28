@@ -24,40 +24,22 @@ jobs:
       - name: Accept Android licenses
         run: yes | flutter doctor --android-licenses || true
 
-      - name: Icons + Junior preview pack
+      - name: Make launcher icons
         run: |
-          mkdir -p android/app/src/main/res/mipmap-hdpi assets/junior assets/junior_notes
-          python3 - << 'PY'
-from pathlib import Path
-try:
-    from PIL import Image, ImageDraw
-except ImportError:
-    import subprocess, sys
-    subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-q', 'pillow'])
-    from PIL import Image, ImageDraw
-img = Image.new('RGBA', (192, 192), (238, 123, 95, 255))
-d = ImageDraw.Draw(img)
-d.ellipse((36, 36, 156, 156), fill=(255, 250, 242, 255))
-for name in ('mdpi', 'hdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi'):
-    p = Path(f'android/app/src/main/res/mipmap-{name}')
-    p.mkdir(parents=True, exist_ok=True)
-    img.save(p / 'ic_launcher.png')
-print('icons ok')
-PY
+          pip install -q pillow
+          python3 tools/make_icon.py
+
+      - name: Fetch Junior preview pack
+        run: |
+          mkdir -p assets/junior assets/junior_notes
           pip install -q 'gdown>=5.0'
           gdown "https://drive.google.com/uc?id=1mGLL8a0-WcWx26XHJv1h0wsy7G-_MGWh&export=download" -O /tmp/junior_latest.zip
           ls -lh /tmp/junior_latest.zip
           test -s /tmp/junior_latest.zip
           unzip -qo /tmp/junior_latest.zip -d /tmp/junior_pack
-          if [ -f /tmp/junior_pack/Junior-preview-latest.html ]; then
-            cp -f /tmp/junior_pack/Junior-preview-latest.html assets/junior/index.html
-          else
-            find /tmp/junior_pack -name 'Junior-preview*.html' -o -name 'index.html'
-            exit 1
-          fi
-          if [ -d /tmp/junior_pack/notes ]; then
-            cp -a /tmp/junior_pack/notes/. assets/junior_notes/ || true
-          fi
+          test -f /tmp/junior_pack/Junior-preview-latest.html
+          cp -f /tmp/junior_pack/Junior-preview-latest.html assets/junior/index.html
+          if [ -d /tmp/junior_pack/notes ]; then cp -a /tmp/junior_pack/notes/. assets/junior_notes/; fi
           wc -c assets/junior/index.html
           test $(wc -c < assets/junior/index.html) -gt 1000000
 
