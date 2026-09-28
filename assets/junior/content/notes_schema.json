@@ -1,0 +1,1815 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "junior-notes-v1",
+ "title": "Junior notes book (one file per textbook: content/notes/<subject>_<grade>.json)",
+ "type": "object",
+ "required": [
+  "book",
+  "units"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "$schema": {
+   "type": "string"
+  },
+  "book": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "subject",
+    "grade",
+    "title",
+    "pdf",
+    "page_offset"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z_]+_[678]$"
+    },
+    "subject": {
+     "enum": [
+      "citizenship",
+      "english",
+      "ict",
+      "life_skills",
+      "mathematics",
+      "science",
+      "social_studies",
+      "tigrigna"
+     ]
+    },
+    "grade": {
+     "enum": [
+      6,
+      7,
+      8
+     ]
+    },
+    "title": {
+     "type": "string"
+    },
+    "pdf": {
+     "type": "string"
+    },
+    "page_offset": {
+     "type": "integer",
+     "description": "PDF page = printed page + page_offset"
+    },
+    "source": {
+     "type": "string"
+    },
+    "lang": {
+     "enum": [
+      "en",
+      "ti"
+     ],
+     "description": "content language; default: ti for tigrigna books, else en"
+    }
+   }
+  },
+  "units": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "$ref": "#/$defs/unit"
+   }
+  }
+ },
+ "$defs": {
+  "page": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "range": {
+   "type": "array",
+   "items": {
+    "type": "integer",
+    "minimum": 1
+   },
+   "minItems": 2,
+   "maxItems": 2
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+  },
+  "text": {
+   "type": "string",
+   "minLength": 1
+  },
+  "paras": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   },
+   "minItems": 1
+  },
+  "unit": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "number",
+    "title",
+    "status",
+    "pages",
+    "lessons",
+    "glossary",
+    "tips",
+    "games",
+    "exercise"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/id"
+    },
+    "number": {
+     "type": "integer"
+    },
+    "title": {
+     "$ref": "#/$defs/text"
+    },
+    "status": {
+     "enum": [
+      "draft",
+      "done"
+     ]
+    },
+    "pages": {
+     "$ref": "#/$defs/range"
+    },
+    "tone": {
+     "enum": [
+      "sage",
+      "peach",
+      "butter",
+      "blue",
+      "lilac",
+      "mint"
+     ]
+    },
+    "intro": {
+     "type": "string"
+    },
+    "intro_page": {
+     "$ref": "#/$defs/page"
+    },
+    "diagrams": {
+     "type": "object",
+     "additionalProperties": {
+      "$ref": "#/$defs/diagram"
+     }
+    },
+    "lessons": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "$ref": "#/$defs/lesson"
+     }
+    },
+    "glossary": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "term",
+       "meaning",
+       "page"
+      ],
+      "properties": {
+       "term": {
+        "$ref": "#/$defs/text"
+       },
+       "meaning": {
+        "$ref": "#/$defs/text"
+       },
+       "page": {
+        "$ref": "#/$defs/page"
+       },
+       "forms": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "tips": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "text"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "text": {
+        "$ref": "#/$defs/text"
+       },
+       "page": {
+        "$ref": "#/$defs/page"
+       }
+      }
+     }
+    },
+    "games": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "$ref": "#/$defs/game"
+     }
+    },
+    "exercise": {
+     "type": "object",
+     "required": [
+      "questions"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "questions": {
+       "type": "array",
+       "minItems": 8,
+       "maxItems": 15,
+       "items": {
+        "$ref": "#/$defs/question"
+       }
+      }
+     }
+    },
+    "links": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "title",
+       "url",
+       "license"
+      ],
+      "properties": {
+       "title": {
+        "type": "string"
+       },
+       "url": {
+        "type": "string",
+        "pattern": "^https://"
+       },
+       "license": {
+        "type": "string"
+       },
+       "note": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  },
+  "diagram": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "svg",
+    "title",
+    "page",
+    "pins"
+   ],
+   "properties": {
+    "svg": {
+     "type": "string",
+     "pattern": "^svg/[a-z0-9_]+/[a-z0-9_]+\\.svg$"
+    },
+    "title": {
+     "type": "string"
+    },
+    "figure": {
+     "type": "string"
+    },
+    "page": {
+     "$ref": "#/$defs/page"
+    },
+    "pins": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "id",
+       "text",
+       "x",
+       "y"
+      ],
+      "properties": {
+       "id": {
+        "type": "string"
+       },
+       "text": {
+        "type": "string"
+       },
+       "x": {
+        "type": "number"
+       },
+       "y": {
+        "type": "number"
+       }
+      }
+     }
+    }
+   }
+  },
+  "lesson": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "number",
+    "title",
+    "pages",
+    "cards"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/id"
+    },
+    "number": {
+     "type": "string"
+    },
+    "title": {
+     "type": "string"
+    },
+    "pages": {
+     "$ref": "#/$defs/range"
+    },
+    "cards": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "$ref": "#/$defs/card"
+     }
+    }
+   }
+  },
+  "card": {
+   "type": "object",
+   "required": [
+    "type",
+    "page"
+   ],
+   "properties": {
+    "type": {
+     "enum": [
+      "text",
+      "remember",
+      "mnemonic",
+      "diagram",
+      "steps",
+      "states",
+      "table",
+      "check",
+      "grammar",
+      "vocab",
+      "worked",
+      "graph",
+      "reading",
+      "model"
+     ]
+    },
+    "page": {
+     "$ref": "#/$defs/page"
+    }
+   },
+   "allOf": [
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "enum": [
+         "check",
+         "vocab"
+        ]
+       }
+      }
+     },
+     "else": {
+      "required": [
+       "title"
+      ]
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "enum": [
+         "text",
+         "remember"
+        ]
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "body"
+      ],
+      "properties": {
+       "body": {
+        "$ref": "#/$defs/paras"
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "mnemonic"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "body"
+      ],
+      "properties": {
+       "letters": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "required": [
+          "l",
+          "w",
+          "m"
+         ]
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "diagram"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "diagram",
+       "mode"
+      ],
+      "properties": {
+       "mode": {
+        "enum": [
+         "explore",
+         "labels",
+         "plain"
+        ]
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "steps"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "diagram",
+       "steps"
+      ],
+      "properties": {
+       "steps": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+         "type": "object",
+         "required": [
+          "text"
+         ],
+         "additionalProperties": false,
+         "properties": {
+          "text": {
+           "type": "string"
+          },
+          "show": {
+           "type": "string"
+          },
+          "pins": {
+           "type": "array",
+           "items": {
+            "type": "string"
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "states"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "diagram",
+       "states"
+      ],
+      "properties": {
+       "states": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+         "type": "object",
+         "required": [
+          "key",
+          "label",
+          "text"
+         ],
+         "additionalProperties": false,
+         "properties": {
+          "key": {
+           "type": "string"
+          },
+          "label": {
+           "type": "string"
+          },
+          "text": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "table"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "head",
+       "rows"
+      ]
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "check"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "q",
+       "options",
+       "answer",
+       "why"
+      ]
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "grammar"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "title",
+       "rule",
+       "examples"
+      ],
+      "properties": {
+       "rule": {
+        "$ref": "#/$defs/paras"
+       },
+       "pattern": {
+        "type": "string"
+       },
+       "body": {
+        "$ref": "#/$defs/paras"
+       },
+       "examples": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "text",
+          "ok"
+         ],
+         "properties": {
+          "text": {
+           "type": "string",
+           "minLength": 1
+          },
+          "ok": {
+           "type": "boolean"
+          },
+          "fix": {
+           "type": "string"
+          },
+          "note": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "vocab"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "word",
+       "meaning",
+       "example"
+      ],
+      "properties": {
+       "word": {
+        "type": "string",
+        "minLength": 1
+       },
+       "meaning": {
+        "type": "string",
+        "minLength": 1
+       },
+       "example": {
+        "type": "string",
+        "minLength": 1
+       },
+       "pos": {
+        "type": "string"
+       },
+       "say": {
+        "type": "string"
+       },
+       "picture": {
+        "type": "string",
+        "description": "name of a unit diagram (SVG)"
+       },
+       "body": {
+        "$ref": "#/$defs/paras"
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "worked"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "problem",
+       "steps"
+      ],
+      "properties": {
+       "problem": {
+        "anyOf": [
+         {
+          "type": "string",
+          "minLength": 1
+         },
+         {
+          "$ref": "#/$defs/paras"
+         }
+        ]
+       },
+       "problem_math": {
+        "type": "string"
+       },
+       "mode": {
+        "enum": [
+         "show",
+         "try"
+        ]
+       },
+       "answer": {
+        "type": "string"
+       },
+       "diagram": {
+        "type": "string"
+       },
+       "graph": {
+        "$ref": "#/$defs/graph"
+       },
+       "show": {
+        "type": "string"
+       },
+       "body": {
+        "$ref": "#/$defs/paras"
+       },
+       "steps": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 10,
+        "items": {
+         "$ref": "#/$defs/mstep"
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "graph"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "graph"
+      ],
+      "properties": {
+       "graph": {
+        "$ref": "#/$defs/graph"
+       },
+       "body": {
+        "$ref": "#/$defs/paras"
+       },
+       "show": {
+        "type": "string"
+       },
+       "steps": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+         "$ref": "#/$defs/mstep"
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "reading"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "title",
+       "paras"
+      ],
+      "properties": {
+       "source": {
+        "type": "string",
+        "description": "title of the textbook text this retells"
+       },
+       "paras": {
+        "$ref": "#/$defs/paras"
+       },
+       "questions": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "q",
+          "a"
+         ],
+         "properties": {
+          "q": {
+           "type": "string",
+           "minLength": 1
+          },
+          "a": {
+           "type": "string",
+           "minLength": 1
+          },
+          "page": {
+           "$ref": "#/$defs/page"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "model"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "title",
+       "kind",
+       "task"
+      ],
+      "properties": {
+       "kind": {
+        "enum": [
+         "writing",
+         "speaking"
+        ]
+       },
+       "task": {
+        "oneOf": [
+         {
+          "type": "string",
+          "minLength": 1
+         },
+         {
+          "$ref": "#/$defs/paras"
+         }
+        ]
+       },
+       "model": {
+        "$ref": "#/$defs/paras"
+       },
+       "lines": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "who",
+          "text"
+         ],
+         "properties": {
+          "who": {
+           "type": "string",
+           "minLength": 1
+          },
+          "text": {
+           "type": "string",
+           "minLength": 1
+          }
+         }
+        }
+       },
+       "phrases": {
+        "type": "array",
+        "items": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "body": {
+        "$ref": "#/$defs/paras"
+       }
+      },
+      "oneOf": [
+       {
+        "required": [
+         "model"
+        ]
+       },
+       {
+        "required": [
+         "lines"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "game": {
+   "type": "object",
+   "required": [
+    "id",
+    "type",
+    "title"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/id"
+    },
+    "type": {
+     "enum": [
+      "match",
+      "sort",
+      "flash",
+      "tf",
+      "fill",
+      "label",
+      "builder",
+      "form",
+      "wordmatch"
+     ]
+    },
+    "title": {
+     "type": "string"
+    },
+    "lesson": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "seconds": {
+     "type": "integer",
+     "minimum": 3
+    }
+   },
+   "allOf": [
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "match"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "pairs"
+      ],
+      "properties": {
+       "pairs": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 8,
+        "items": {
+         "type": "object",
+         "required": [
+          "a",
+          "b"
+         ]
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "sort"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "groups",
+       "items"
+      ],
+      "properties": {
+       "groups": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 3
+       },
+       "items": {
+        "type": "array",
+        "minItems": 4,
+        "items": {
+         "type": "object",
+         "required": [
+          "text",
+          "group"
+         ]
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "flash"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "cards"
+      ],
+      "properties": {
+       "cards": {
+        "type": "array",
+        "minItems": 3,
+        "items": {
+         "type": "object",
+         "required": [
+          "front",
+          "back"
+         ]
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "tf"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "items"
+      ],
+      "properties": {
+       "items": {
+        "type": "array",
+        "minItems": 4,
+        "items": {
+         "type": "object",
+         "required": [
+          "text",
+          "answer"
+         ],
+         "properties": {
+          "answer": {
+           "type": "boolean"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "fill"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "items"
+      ],
+      "properties": {
+       "items": {
+        "type": "array",
+        "minItems": 3,
+        "items": {
+         "type": "object",
+         "required": [
+          "text",
+          "answer",
+          "choices"
+         ]
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "label"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "diagram"
+      ]
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "builder"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "items"
+      ],
+      "properties": {
+       "items": {
+        "type": "array",
+        "minItems": 3,
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "words"
+         ],
+         "properties": {
+          "words": {
+           "type": "array",
+           "minItems": 2,
+           "maxItems": 12,
+           "items": {
+            "type": "string",
+            "minLength": 1
+           },
+           "description": "the tiles in the right order"
+          },
+          "extra": {
+           "type": "array",
+           "items": {
+            "type": "string",
+            "minLength": 1
+           },
+           "description": "distractor tiles"
+          },
+          "alts": {
+           "type": "array",
+           "items": {
+            "type": "string"
+           },
+           "description": "other accepted orders (tiles joined by one space)"
+          },
+          "answer": {
+           "type": "string",
+           "description": "full sentence shown after checking"
+          },
+          "hint": {
+           "type": "string"
+          },
+          "why": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "form"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "items"
+      ],
+      "properties": {
+       "items": {
+        "type": "array",
+        "minItems": 3,
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "text",
+          "choices",
+          "answer"
+         ],
+         "properties": {
+          "text": {
+           "type": "string"
+          },
+          "choices": {
+           "type": "array",
+           "minItems": 2,
+           "maxItems": 4,
+           "items": {
+            "type": "string"
+           }
+          },
+          "answer": {
+           "type": "string"
+          },
+          "why": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "wordmatch"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "pairs"
+      ],
+      "properties": {
+       "pairs": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 6,
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "word",
+          "meaning"
+         ],
+         "properties": {
+          "word": {
+           "type": "string"
+          },
+          "meaning": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   ]
+  },
+  "question": {
+   "type": "object",
+   "required": [
+    "id",
+    "type",
+    "q",
+    "answer",
+    "why",
+    "tip",
+    "similar",
+    "page"
+   ],
+   "properties": {
+    "id": {
+     "$ref": "#/$defs/id"
+    },
+    "type": {
+     "enum": [
+      "mcq",
+      "tf",
+      "fill",
+      "short"
+     ]
+    },
+    "q": {
+     "type": "string"
+    },
+    "page": {
+     "$ref": "#/$defs/page"
+    },
+    "options": {
+     "type": "object",
+     "patternProperties": {
+      "^[A-E]$": {
+       "type": "string"
+      }
+     },
+     "additionalProperties": false
+    },
+    "choices": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "accept": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "why": {
+     "$ref": "#/$defs/paras"
+    },
+    "tip": {
+     "$ref": "#/$defs/text"
+    },
+    "similar": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "q",
+       "a"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "q": {
+        "type": "string"
+       },
+       "a": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   },
+   "allOf": [
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "mcq"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "options"
+      ],
+      "properties": {
+       "answer": {
+        "type": "string",
+        "pattern": "^[A-E]$"
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "const": "tf"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "answer": {
+        "type": "boolean"
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "type": {
+        "enum": [
+         "fill",
+         "short"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "answer": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   ]
+  },
+  "mstep": {
+   "type": "object",
+   "additionalProperties": false,
+   "anyOf": [
+    {
+     "required": [
+      "text"
+     ]
+    },
+    {
+     "required": [
+      "math"
+     ]
+    }
+   ],
+   "properties": {
+    "text": {
+     "type": "string"
+    },
+    "math": {
+     "type": "string",
+     "description": "KaTeX, shown as display maths"
+    },
+    "show": {
+     "type": "string",
+     "description": "data-s / data-hl key (SVG file) or s key (graph) shown with this step"
+    }
+   }
+  },
+  "graph": {
+   "type": "object",
+   "required": [
+    "kind"
+   ],
+   "description": "number line or coordinate plane drawn by the app (see README)",
+   "properties": {
+    "kind": {
+     "enum": [
+      "numberline",
+      "plane"
+     ]
+    },
+    "min": {
+     "type": "number"
+    },
+    "max": {
+     "type": "number"
+    },
+    "step": {
+     "type": "number",
+     "exclusiveMinimum": 0
+    },
+    "label_every": {
+     "type": "number",
+     "exclusiveMinimum": 0
+    },
+    "numbers": {
+     "type": "boolean"
+    },
+    "tick_labels": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     }
+    },
+    "xmin": {
+     "type": "number"
+    },
+    "xmax": {
+     "type": "number"
+    },
+    "ymin": {
+     "type": "number"
+    },
+    "ymax": {
+     "type": "number"
+    },
+    "grid": {
+     "type": "boolean"
+    },
+    "axes": {
+     "type": "boolean"
+    },
+    "grid_step": {
+     "type": "number",
+     "exclusiveMinimum": 0
+    },
+    "points": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "x"
+      ],
+      "properties": {
+       "x": {
+        "type": "number"
+       },
+       "y": {
+        "type": "number"
+       },
+       "label": {
+        "type": "string"
+       },
+       "open": {
+        "type": "boolean"
+       },
+       "label_dx": {
+        "type": "number"
+       },
+       "label_dy": {
+        "type": "number"
+       },
+       "s": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "hl": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "color": {
+        "type": "string",
+        "pattern": "^#[0-9A-Fa-f]{3,8}$"
+       }
+      }
+     }
+    },
+    "ranges": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [],
+      "properties": {
+       "from": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "to": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "from_open": {
+        "type": "boolean"
+       },
+       "to_open": {
+        "type": "boolean"
+       },
+       "s": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "hl": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "color": {
+        "type": "string",
+        "pattern": "^#[0-9A-Fa-f]{3,8}$"
+       }
+      }
+     }
+    },
+    "jumps": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "from",
+       "to"
+      ],
+      "properties": {
+       "from": {
+        "type": "number"
+       },
+       "to": {
+        "type": "number"
+       },
+       "label": {
+        "type": "string"
+       },
+       "s": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "hl": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "color": {
+        "type": "string",
+        "pattern": "^#[0-9A-Fa-f]{3,8}$"
+       }
+      }
+     }
+    },
+    "lines": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [],
+      "properties": {
+       "m": {
+        "type": "number"
+       },
+       "c": {
+        "type": "number"
+       },
+       "x": {
+        "type": "number"
+       },
+       "p1": {
+        "$ref": "#/$defs/xy"
+       },
+       "p2": {
+        "$ref": "#/$defs/xy"
+       },
+       "seg": {
+        "type": "boolean"
+       },
+       "label": {
+        "type": "string"
+       },
+       "label_at": {
+        "$ref": "#/$defs/xy"
+       },
+       "dash": {
+        "type": "boolean"
+       },
+       "s": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "hl": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "color": {
+        "type": "string",
+        "pattern": "^#[0-9A-Fa-f]{3,8}$"
+       }
+      }
+     }
+    },
+    "polygons": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "pts"
+      ],
+      "properties": {
+       "pts": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+         "$ref": "#/$defs/xy"
+        }
+       },
+       "s": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "hl": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         }
+        ]
+       },
+       "color": {
+        "type": "string",
+        "pattern": "^#[0-9A-Fa-f]{3,8}$"
+       }
+      }
+     }
+    }
+   },
+   "allOf": [
+    {
+     "if": {
+      "properties": {
+       "kind": {
+        "const": "numberline"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "min",
+       "max"
+      ]
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "kind": {
+        "const": "plane"
+       }
+      }
+     },
+     "then": {
+      "required": [
+       "xmin",
+       "xmax",
+       "ymin",
+       "ymax"
+      ]
+     }
+    }
+   ]
+  },
+  "xy": {
+   "type": "array",
+   "items": {
+    "type": "number"
+   },
+   "minItems": 2,
+   "maxItems": 2
+  }
+ }
+}

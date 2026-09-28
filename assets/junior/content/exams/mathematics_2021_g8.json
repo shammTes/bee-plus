@@ -1,0 +1,3472 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "mathematics-2021-g8",
+    "year": "2021",
+    "subject": "Mathematics",
+    "grade": 8,
+    "version": "B",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2021 – Mathematics",
+    "duration": "1 hour and 40 minutes (100 minutes)",
+    "duration_minutes": 100,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "It has 50 multiple choice questions (1-50). Each question has 4 choices. Choose the best answer and blacken its letter on the separate answer sheet."
+      }
+    ],
+    "source": {
+      "document": "raw/1.pdf (cover, 'Eritrean Grade 8 National Examinations 2021, 5-Mathematics, Version-B') + raw/2.pdf (printed pages 2-7, Q1-50, 'THE END')",
+      "version_used": "B",
+      "other_version": null,
+      "notes": "Image-only scans (HP Scan). Every item was transcribed by hand from the page images re-rendered at 220-300 dpi; OCR was not used for the mathematics. 2.pdf carries pencil ticks/circles from a previous owner: they were ignored (they are not a key, and several are wrong, e.g. on Q43). Figures (Q5, Q11, Q20-21 pie chart, Q26, Q31, Q44, Q46, Q48) are cropped at 300 dpi into content/media/mathematics-2021-qNN.png by tools/src/mathematics_2021/crop_figures.py. The Q9-10 score table is given as a structured table.",
+      "printing_note": "Q49: options B and C are both printed as −2/3. Q20-21 pie chart: the label 'Food' is printed in the upper-left sector next to 'Others' and '20%'; the 25% sector (a quarter of the circle) has no name. See review flags.",
+      "official_answer_key": false
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "textbooks": [
+      {
+        "subject": "Mathematics",
+        "grade": 6,
+        "file": "textbooks/mathematics_6.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Mathematics",
+        "grade": 7,
+        "file": "textbooks/mathematics_7.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Mathematics",
+        "grade": 8,
+        "file": "textbooks/mathematics_8.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      }
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "id": "mathematics-2021-g8-p1-q01",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 1,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A straight line is 7.5cm long. Find 2/5 of the length of the line.",
+      "stem_tex": "A straight line is 7.5cm long. Find $\\dfrac{2}{5}$ of the length of the line.",
+      "options": {
+        "A": "3",
+        "B": "0.4",
+        "C": "2.5",
+        "D": "3.5"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "'2/5 of' means multiply by 2/5.",
+        "7.5 ÷ 5 = 1.5 (this is one fifth).",
+        "2 × 1.5 = 3. So 2/5 of 7.5 cm is 3 cm. Answer: A."
+      ],
+      "explain_simple": "Cut 7.5 into 5 equal parts. Each part is 1.5. Two parts make 3.",
+      "tips": [
+        "The word 'of' means multiply."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Find 3/4 of 20 m.",
+          "options": {
+            "A": "5 m",
+            "B": "15 m",
+            "C": "12 m",
+            "D": "16 m"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "20 ÷ 4 = 5, and 3 × 5 = 15 m. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-fractions-decimals"
+      ],
+      "keywords": [
+        "fraction of a quantity",
+        "multiplication of fractions"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 2 – Rational Numbers, 2.2 Operation on Rational Numbers, p. 26",
+        "topic": "2.2 Operation on Rational Numbers",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 2 – Rational Numbers",
+        "section": "2.2 Operation on Rational Numbers",
+        "page": "26",
+        "pdf_page": 32,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q02",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 2,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The place value of 6, in 6543 is:",
+      "options": {
+        "A": "thousandth",
+        "B": "hundredth",
+        "C": "tenth",
+        "D": "thousands"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Name the places from the right: 3 is in the ones place, 4 in the tens, 5 in the hundreds and 6 in the thousands.",
+        "So 6 is in the thousands place. Its value is 6 × 1000 = 6000 (textbook: Mathematics Grade 6, p. 13). Answer: D.",
+        "'Thousandth', 'hundredth' and 'tenth' are places after the decimal point, so A, B and C are wrong."
+      ],
+      "explain_simple": "6543 = 6 thousands + 5 hundreds + 4 tens + 3 ones. The 6 is in the thousands place.",
+      "tips": [
+        "Place names that end in '-th' (tenth, hundredth) are for digits after the decimal point."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is the place of the digit 4 in 2.749?",
+          "options": {
+            "A": "tens",
+            "B": "tenths",
+            "C": "hundredths",
+            "D": "hundreds"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "After the point: 7 is tenths, 4 is hundredths, 9 is thousandths. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "m-place-value"
+      ],
+      "keywords": [
+        "place value",
+        "thousands"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 6 textbook – Chapter 2 – Numbers - Operating on Numbers, Reading numbers (place value), p. 13",
+        "topic": "Reading numbers (place value)",
+        "subject": "Mathematics",
+        "grade": 6,
+        "unit": "Chapter 2 – Numbers - Operating on Numbers",
+        "section": "Reading numbers (place value)",
+        "page": "13",
+        "pdf_page": 19,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q03",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 3,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Evaluate: 14 – (21÷ 3 –13) – 18",
+      "options": {
+        "A": "10",
+        "B": "-10",
+        "C": "-2",
+        "D": "2"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Work inside the brackets first: 21 ÷ 3 = 7, then 7 − 13 = −6.",
+        "Now 14 − (−6) − 18 = 14 + 6 − 18.",
+        "20 − 18 = 2. Answer: D."
+      ],
+      "explain_simple": "First the bracket: 21 ÷ 3 − 13 = −6. Then 14 + 6 − 18 = 2.",
+      "tips": [
+        "Brackets first, then ÷ and ×, then + and −. Minus a negative is plus."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Evaluate: 20 − (12 ÷ 4 − 8) − 5",
+          "options": {
+            "A": "20",
+            "B": "10",
+            "C": "12",
+            "D": "−2"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Bracket: 3 − 8 = −5.",
+            "20 − (−5) − 5 = 20 + 5 − 5 = 20. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-order-operations"
+      ],
+      "keywords": [
+        "order of operations",
+        "brackets",
+        "integers"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 1 – Whole Numbers, 1.2 Order Operation of Whole Numbers, p. 10",
+        "topic": "1.2 Order Operation of Whole Numbers",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 1 – Whole Numbers",
+        "section": "1.2 Order Operation of Whole Numbers",
+        "page": "10",
+        "pdf_page": 16,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q04",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 4,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The ratio of male to female workers in a factory is 3:5. The number of male workers is 180. How many female workers are there in the factory?",
+      "options": {
+        "A": "480",
+        "B": "900",
+        "C": "300",
+        "D": "108"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Male : female = 3 : 5. The 180 men are 3 parts.",
+        "One part = 180 ÷ 3 = 60.",
+        "Women are 5 parts = 5 × 60 = 300. Answer: C. (480 is the total number of workers, not the number of women.)"
+      ],
+      "explain_simple": "3 parts are 180, so 1 part is 60. Women are 5 parts: 5 × 60 = 300.",
+      "tips": [
+        "Find the value of one part first."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The ratio of boys to girls in a class is 2 : 3. There are 12 boys. How many girls are there?",
+          "options": {
+            "A": "18",
+            "B": "8",
+            "C": "30",
+            "D": "15"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "One part = 12 ÷ 2 = 6.",
+            "Girls = 3 × 6 = 18. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-ratio"
+      ],
+      "keywords": [
+        "ratio",
+        "proportion"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 8 – Rate, Ratio and Proportion, 8.2 Ratio, p. 101",
+        "topic": "8.2 Ratio",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 8 – Rate, Ratio and Proportion",
+        "section": "8.2 Ratio",
+        "page": "101",
+        "pdf_page": 107,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q05",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 5,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If ABCD is a parallelogram, which triangle is congruent to Δ ABC?",
+      "image": "media/mathematics-2021-q05.png",
+      "image_alt": "Parallelogram ABCD: A top left, B top right, C bottom right, D bottom left, with the diagonal AC drawn.",
+      "options": {
+        "A": "Δ CAD",
+        "B": "Δ ADC",
+        "C": "Δ ACD",
+        "D": "Δ CDA"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The diagonal AC cuts the parallelogram into two congruent triangles: ABC and the triangle with vertices C, D, A.",
+        "In a parallelogram opposite sides are equal: AB = CD and BC = DA, and AC is shared.",
+        "So A matches C, B matches D and C matches A. The letters must be in the matching order: Δ ABC ≅ Δ CDA. Answer: D.",
+        "All four options use the same three points, but only CDA puts them in the right order (textbook: Mathematics Grade 8, p. 95)."
+      ],
+      "explain_simple": "Opposite sides are equal: AB = CD and BC = DA. So A goes with C, B with D, C with A: triangle CDA.",
+      "tips": [
+        "When you name congruent triangles, write matching vertices in the same order."
+      ],
+      "similar_questions": [
+        {
+          "stem": "PQRS is a rectangle with diagonal PR. Which triangle is congruent to Δ PQR (in the correct order)?",
+          "options": {
+            "A": "Δ RSP",
+            "B": "Δ PSR",
+            "C": "Δ SRP",
+            "D": "Δ RPS"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "PQ = RS, QR = SP and PR is shared, so P ↔ R, Q ↔ S, R ↔ P: Δ PQR ≅ Δ RSP. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-congruent-triangles"
+      ],
+      "keywords": [
+        "congruent triangles",
+        "parallelogram",
+        "correspondence"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 8 – Congruency and Similarity, 8.1 Congruent Figures, p. 95",
+        "topic": "8.1 Congruent Figures",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 8 – Congruency and Similarity",
+        "section": "8.1 Congruent Figures",
+        "page": "95",
+        "pdf_page": 101,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "All four options name the same triangle (points A, C, D); only the vertex ORDER differs. The correct correspondence is Δ ABC ≅ Δ CDA (D). A teacher may decide whether to accept other orders."
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q06",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 6,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "3⁻⁷ × 3⁵ is equal to:",
+      "stem_tex": "$3^{-7}\\times 3^{5}$ is equal to:",
+      "options": {
+        "A": "1/9",
+        "B": "-9",
+        "C": "3²",
+        "D": "1/3"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Same base, so add the powers: 3⁻⁷ × 3⁵ = 3⁻⁷⁺⁵ = 3⁻².",
+        "A negative power means 1 over the positive power: 3⁻² = 1/3² = 1/9. Answer: A."
+      ],
+      "explain_simple": "Add the powers: −7 + 5 = −2. And 3⁻² = 1/9.",
+      "tips": [
+        "aᵐ × aⁿ = aᵐ⁺ⁿ and a⁻ⁿ = 1/aⁿ."
+      ],
+      "similar_questions": [
+        {
+          "stem": "2⁻⁵ × 2³ is equal to:",
+          "options": {
+            "A": "1/4",
+            "B": "−4",
+            "C": "2⁸",
+            "D": "1/2"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "−5 + 3 = −2, so 2⁻² = 1/4. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-exponents"
+      ],
+      "keywords": [
+        "laws of exponents",
+        "negative exponent"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 4 – Power Notation, 4.2 Powers with Negative Exponents, p. 56",
+        "topic": "4.2 Powers with Negative Exponents",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 4 – Power Notation",
+        "section": "4.2 Powers with Negative Exponents",
+        "page": "56",
+        "pdf_page": 62,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q07",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 7,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The given data is the ages of 7 youth in a small village. Find the average age of the youth. 18, 19, 23, 21, 30, 19, and 31.",
+      "options": {
+        "A": "19",
+        "B": "23",
+        "C": "21",
+        "D": "30"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Add the ages: 18 + 19 + 23 + 21 + 30 + 19 + 31 = 161.",
+        "There are 7 youth. Average (mean) = 161 ÷ 7 = 23. Answer: B."
+      ],
+      "explain_simple": "Add all ages (161) and divide by 7. The answer is 23.",
+      "tips": [
+        "Mean = sum ÷ how many."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Find the mean of 4, 8, 10 and 6.",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "28"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "4 + 8 + 10 + 6 = 28, and 28 ÷ 4 = 7. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-mean-range"
+      ],
+      "keywords": [
+        "mean",
+        "average"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 12 – Statistics and Probability, 12.1 Measures of Central Tendency, p. 149",
+        "topic": "12.1 Measures of Central Tendency",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 12 – Statistics and Probability",
+        "section": "12.1 Measures of Central Tendency",
+        "page": "149",
+        "pdf_page": 155,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q08",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 8,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Find the amount that is 25% more than 300 Nakfa.",
+      "options": {
+        "A": "75",
+        "B": "225",
+        "C": "375",
+        "D": "150"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "25% of 300 = 25/100 × 300 = 75 Nakfa.",
+        "'25% more than 300' = 300 + 75 = 375 Nakfa. Answer: C. (75 is only the increase; 225 is 25% less.)"
+      ],
+      "explain_simple": "25% of 300 is 75. Add it: 300 + 75 = 375.",
+      "tips": [
+        "'More than' means add the percent part to the original."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Find the amount that is 10% more than 500 Nakfa.",
+          "options": {
+            "A": "50",
+            "B": "450",
+            "C": "550",
+            "D": "510"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "10% of 500 = 50; 500 + 50 = 550. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "m-percent-discount"
+      ],
+      "keywords": [
+        "percentage",
+        "percentage increase"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 8 – Rate, Ratio and Proportion, 8.5 Percentage, p. 106",
+        "topic": "8.5 Percentage",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 8 – Rate, Ratio and Proportion",
+        "section": "8.5 Percentage",
+        "page": "106",
+        "pdf_page": 112,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q09",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 9,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "mathematics-2021-g8-scores",
+      "stem": "What is the average score of the student? (Table: English 75, Mathematics 85, Science 65, Social studies 90, Citizen-ship 85)",
+      "stem_tables": [
+        {
+          "title": "Scores of a student",
+          "kind": "data",
+          "columns": [
+            "No",
+            "Subjects",
+            "Scores"
+          ],
+          "rows": [
+            [
+              "1",
+              "English",
+              "75"
+            ],
+            [
+              "2",
+              "Mathematics",
+              "85"
+            ],
+            [
+              "3",
+              "Science",
+              "65"
+            ],
+            [
+              "4",
+              "Social studies",
+              "90"
+            ],
+            [
+              "5",
+              "Citizen-ship",
+              "85"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "right"
+          ]
+        }
+      ],
+      "options": {
+        "A": "90",
+        "B": "80",
+        "C": "65",
+        "D": "85"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Add the five scores: 75 + 85 + 65 + 90 + 85 = 400.",
+        "Average = 400 ÷ 5 = 80. Answer: B."
+      ],
+      "explain_simple": "The total is 400. There are 5 subjects. 400 ÷ 5 = 80.",
+      "tips": [
+        "Count how many numbers you added before you divide."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A student scored 70, 80 and 90. What is the average score?",
+          "options": {
+            "A": "70",
+            "B": "80",
+            "C": "90",
+            "D": "240"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "70 + 80 + 90 = 240, and 240 ÷ 3 = 80. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-mean-range"
+      ],
+      "keywords": [
+        "mean",
+        "average",
+        "table"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 12 – Statistics and Probability, 12.1 Measures of Central Tendency, p. 149",
+        "topic": "12.1 Measures of Central Tendency",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 12 – Statistics and Probability",
+        "section": "12.1 Measures of Central Tendency",
+        "page": "149",
+        "pdf_page": 155,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q10",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 10,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "mathematics-2021-g8-scores",
+      "stem": "What is the range of the scores? (Table: English 75, Mathematics 85, Science 65, Social studies 90, Citizen-ship 85)",
+      "stem_tables": [
+        {
+          "title": "Scores of a student",
+          "kind": "data",
+          "columns": [
+            "No",
+            "Subjects",
+            "Scores"
+          ],
+          "rows": [
+            [
+              "1",
+              "English",
+              "75"
+            ],
+            [
+              "2",
+              "Mathematics",
+              "85"
+            ],
+            [
+              "3",
+              "Science",
+              "65"
+            ],
+            [
+              "4",
+              "Social studies",
+              "90"
+            ],
+            [
+              "5",
+              "Citizen-ship",
+              "85"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "right"
+          ]
+        }
+      ],
+      "options": {
+        "A": "85",
+        "B": "15",
+        "C": "25",
+        "D": "65"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Range = highest score − lowest score.",
+        "Highest = 90 (Social studies). Lowest = 65 (Science).",
+        "90 − 65 = 25. Answer: C."
+      ],
+      "explain_simple": "Range = biggest − smallest = 90 − 65 = 25.",
+      "tips": [
+        "Range shows how spread out the data is: largest minus smallest."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Find the range of 12, 7, 20, 15.",
+          "options": {
+            "A": "8",
+            "B": "13",
+            "C": "20",
+            "D": "7"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "20 − 7 = 13. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-mean-range"
+      ],
+      "keywords": [
+        "range",
+        "dispersion",
+        "table"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 12 – Statistics and Probability, 12.2 Measures of Variation (Dispersion), p. 154",
+        "topic": "12.2 Measures of Variation (Dispersion)",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 12 – Statistics and Probability",
+        "section": "12.2 Measures of Variation (Dispersion)",
+        "page": "154",
+        "pdf_page": 160,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q11",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 11,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In the triangle, what is the degree measure of angle ACD? (Figure: triangle ABC with angle B = 25° and angle A = 85°; BC is extended to D.)",
+      "image": "media/mathematics-2021-q11.png",
+      "image_alt": "Triangle ABC: angle at B is 25°, angle at A is 85°. The side BC is extended past C to D; angle ACD is marked.",
+      "options": {
+        "A": "65°",
+        "B": "70°",
+        "C": "90°",
+        "D": "110°"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Angle ACD is an exterior angle of triangle ABC.",
+        "An exterior angle equals the sum of the two opposite inside angles: 25° + 85° = 110°.",
+        "Check: angle ACB = 180° − 25° − 85° = 70°, and 180° − 70° = 110°. Answer: D.",
+        "The drawing is not to scale (AC looks vertical), so do not measure; calculate."
+      ],
+      "explain_simple": "The outside angle at C = 25° + 85° = 110°.",
+      "tips": [
+        "Exterior angle = sum of the two far inside angles."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In triangle PQR, angle P = 40° and angle Q = 60°. QR is extended to S. Find angle PRS.",
+          "options": {
+            "A": "80°",
+            "B": "100°",
+            "C": "120°",
+            "D": "140°"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Exterior angle PRS = 40° + 60° = 100°. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-triangle-angles"
+      ],
+      "keywords": [
+        "exterior angle",
+        "angle sum of a triangle"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 6 – Triangles and Quadrilaterals, 6.1 Triangles, p. 70-79",
+        "topic": "6.1 Triangles",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 6 – Triangles and Quadrilaterals",
+        "section": "6.1 Triangles",
+        "page": "70-79",
+        "pdf_page": 76,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q12",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 12,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The area of a parallelogram is 117 cm² and its base is 13 cm. What is the height of the parallelogram?",
+      "options": {
+        "A": "8 cm",
+        "B": "7 cm",
+        "C": "12 cm",
+        "D": "9 cm"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Area of a parallelogram = base × height.",
+        "117 = 13 × height, so height = 117 ÷ 13 = 9 cm. Answer: D."
+      ],
+      "explain_simple": "Area = base × height. 117 ÷ 13 = 9 cm.",
+      "tips": [
+        "If you know the area and the base, divide to get the height."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A parallelogram has area 64 m² and base 16 m. Find its height.",
+          "options": {
+            "A": "4 m",
+            "B": "8 m",
+            "C": "48 m",
+            "D": "80 m"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "64 ÷ 16 = 4 m. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-perimeter-area"
+      ],
+      "keywords": [
+        "area of parallelogram",
+        "base",
+        "height"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 7 – Perimeter and Area, 7.2 Area of Plane Figure, p. 96-97",
+        "topic": "7.2 Area of Plane Figure",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 7 – Perimeter and Area",
+        "section": "7.2 Area of Plane Figure",
+        "page": "96-97",
+        "pdf_page": 102,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q13",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 13,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The 35ᵗʰ odd integer is:",
+      "options": {
+        "A": "69",
+        "B": "71",
+        "C": "17",
+        "D": "70"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The odd numbers are 1, 3, 5, 7, … The 1st is 1, the 2nd is 3, the 3rd is 5.",
+        "The n-th odd number is 2n − 1.",
+        "For n = 35: 2 × 35 − 1 = 69. Answer: A.",
+        "(The paper means the positive odd integers counted from 1.)"
+      ],
+      "explain_simple": "Odd numbers: 1, 3, 5, … The 35th one is 2 × 35 − 1 = 69.",
+      "tips": [
+        "n-th odd number = 2n − 1; n-th even number = 2n."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The 20th even number (2, 4, 6, …) is:",
+          "options": {
+            "A": "38",
+            "B": "40",
+            "C": "42",
+            "D": "20"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The n-th even number is 2n = 40. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-patterns"
+      ],
+      "keywords": [
+        "odd numbers",
+        "number pattern"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 1 – Whole Numbers, 1.1 Number Pattern, p. 2",
+        "topic": "1.1 Number Pattern",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 1 – Whole Numbers",
+        "section": "1.1 Number Pattern",
+        "page": "2",
+        "pdf_page": 8,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q14",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 14,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The characteristic for log₁₀ 0.00079 is:",
+      "options": {
+        "A": "4",
+        "B": "-4",
+        "C": "3",
+        "D": "-3"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Write the number in scientific notation: 0.00079 = 7.9 × 10⁻⁴.",
+        "The characteristic is the power of 10: −4 (textbook: Mathematics Grade 8, pp. 71–73). Answer: B.",
+        "Another way: there are 3 zeros after the decimal point before the first non-zero digit, so the characteristic is −(3 + 1) = −4."
+      ],
+      "explain_simple": "0.00079 = 7.9 × 10⁻⁴. The power of 10 is −4, so the characteristic is −4.",
+      "tips": [
+        "For a number less than 1, the characteristic is negative."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The characteristic of log₁₀ 0.052 is:",
+          "options": {
+            "A": "−1",
+            "B": "−2",
+            "C": "2",
+            "D": "1"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "0.052 = 5.2 × 10⁻², so the characteristic is −2. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-common-log"
+      ],
+      "keywords": [
+        "characteristic",
+        "mantissa",
+        "common logarithm",
+        "scientific notation"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 5 – Logarithms, 5.3 Common Logarithm – characteristic and mantissa, p. 71-73",
+        "topic": "5.3 Common Logarithm – characteristic and mantissa",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 5 – Logarithms",
+        "section": "5.3 Common Logarithm – characteristic and mantissa",
+        "page": "71-73",
+        "pdf_page": 77,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q15",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 15,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is a repeating decimal?",
+      "stem_tex": "Which of the following is a repeating decimal? A. $\\frac{1}{8}$ B. $\\frac{1}{20}$ C. $\\frac{1}{9}$ D. $\\frac{1}{25}$",
+      "options": {
+        "A": "1/8",
+        "B": "1/20",
+        "C": "1/9",
+        "D": "1/25"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Divide: 1/8 = 0.125, 1/20 = 0.05, 1/25 = 0.04. These stop (terminating decimals).",
+        "1/9 = 0.1111… The 1 repeats forever, so it is a repeating decimal. Answer: C.",
+        "Rule: a fraction is terminating only when the denominator has no prime factors other than 2 and 5. 9 = 3 × 3 (textbook: Mathematics Grade 8, pp. 5–7)."
+      ],
+      "explain_simple": "1 ÷ 9 = 0.111… and the 1 never stops. The others stop.",
+      "tips": [
+        "Denominator with only 2s and 5s → the decimal stops."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which fraction gives a repeating decimal?",
+          "options": {
+            "A": "3/4",
+            "B": "2/5",
+            "C": "1/3",
+            "D": "7/10"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "1/3 = 0.333…; 3 = 3 is not 2 or 5. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "m-fractions-decimals"
+      ],
+      "keywords": [
+        "repeating decimal",
+        "terminating decimal"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 1 – Real Number System, 1.1 Rational Numbers – terminating and repeating decimals, p. 5-7",
+        "topic": "1.1 Rational Numbers – terminating and repeating decimals",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 1 – Real Number System",
+        "section": "1.1 Rational Numbers – terminating and repeating decimals",
+        "page": "5-7",
+        "pdf_page": 11,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q16",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 16,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The value of 2 × (cos 30° / sin 30°).",
+      "stem_tex": "The value of $2\\times\\left(\\dfrac{\\cos 30^\\circ}{\\sin 30^\\circ}\\right)$.",
+      "options": {
+        "A": "2",
+        "B": "2√3",
+        "C": "√3/2",
+        "D": "√3"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Special angle values: cos 30° = √3/2 and sin 30° = 1/2 (textbook: Mathematics Grade 8, pp. 92–93).",
+        "cos 30° ÷ sin 30° = (√3/2) ÷ (1/2) = √3.",
+        "2 × √3 = 2√3. Answer: B."
+      ],
+      "explain_simple": "cos 30° ÷ sin 30° = √3. Then 2 × √3 = 2√3.",
+      "tips": [
+        "Learn sin, cos and tan of 30°, 45° and 60° by heart."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The value of 2 × sin 30° is:",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "√3",
+            "D": "1/2"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "sin 30° = 1/2, so 2 × 1/2 = 1. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-trigonometry"
+      ],
+      "keywords": [
+        "trigonometric ratios",
+        "sin 30°",
+        "cos 30°"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 7 – Right Angled Triangle and Trigonometric Ratio, 7.3 Trigonometric Ratios (30°, 45°, 60°), p. 92-93",
+        "topic": "7.3 Trigonometric Ratios (30°, 45°, 60°)",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 7 – Right Angled Triangle and Trigonometric Ratio",
+        "section": "7.3 Trigonometric Ratios (30°, 45°, 60°)",
+        "page": "92-93",
+        "pdf_page": 98,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q17",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 17,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What is the G.C.F. of 36 and 60?",
+      "options": {
+        "A": "3",
+        "B": "12",
+        "C": "180",
+        "D": "6"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Prime factors: 36 = 2 × 2 × 3 × 3 and 60 = 2 × 2 × 3 × 5.",
+        "Common factors: 2 × 2 × 3 = 12. So GCF = 12. Answer: B.",
+        "180 is the LCM, not the GCF. The textbook has this exact example (Mathematics Grade 6, p. 61)."
+      ],
+      "explain_simple": "Both numbers can be divided by 12, and no bigger number divides both.",
+      "tips": [
+        "GCF = greatest number that divides both. LCM = smallest number both divide into."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is the GCF of 12 and 18?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "6",
+            "D": "36"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "12 = 2·2·3, 18 = 2·3·3; common: 2·3 = 6. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "m-primes-gcf"
+      ],
+      "keywords": [
+        "GCF",
+        "prime factorization"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 6 textbook – Chapter 6 – Primes, GCF and LCM, p. 60-61",
+        "topic": "GCF and LCM",
+        "subject": "Mathematics",
+        "grade": 6,
+        "unit": "Chapter 6 – Primes",
+        "section": "GCF and LCM",
+        "page": "60-61",
+        "pdf_page": 66,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q18",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 18,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A mother is 24 years more than three times the age of her daughter. If the age of the daughter is 17, find the age of the mother.",
+      "options": {
+        "A": "51",
+        "B": "72",
+        "C": "75",
+        "D": "41"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Mother = 3 × (daughter) + 24.",
+        "Mother = 3 × 17 + 24 = 51 + 24 = 75 years. Answer: C."
+      ],
+      "explain_simple": "Three times 17 is 51. Add 24: the mother is 75.",
+      "tips": [
+        "Change the words into a number sentence first."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A father is 5 years more than twice his son's age. The son is 15. How old is the father?",
+          "options": {
+            "A": "30",
+            "B": "35",
+            "C": "25",
+            "D": "40"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "2 × 15 + 5 = 35. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-linear-equations"
+      ],
+      "keywords": [
+        "word problem",
+        "algebraic expression"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 2 – Equations and Inequalities, 2.1 Equations, p. 19",
+        "topic": "2.1 Equations",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 2 – Equations and Inequalities",
+        "section": "2.1 Equations",
+        "page": "19",
+        "pdf_page": 25,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q19",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 19,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A certain bacteria double itself every day. If there were 100 bacteria at the beginning, how many bacteria will be after five days?",
+      "options": {
+        "A": "800",
+        "B": "400",
+        "C": "1600",
+        "D": "3200"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Double each day: day 1: 200, day 2: 400, day 3: 800, day 4: 1600, day 5: 3200.",
+        "Or: 100 × 2⁵ = 100 × 32 = 3200. Answer: D."
+      ],
+      "explain_simple": "Multiply by 2 five times: 100 → 200 → 400 → 800 → 1600 → 3200.",
+      "tips": [
+        "Doubling n times = multiply by 2ⁿ."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A number of cells doubles every hour. There are 50 cells now. How many after 3 hours?",
+          "options": {
+            "A": "150",
+            "B": "300",
+            "C": "400",
+            "D": "800"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "50 × 2³ = 50 × 8 = 400. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "m-patterns",
+        "m-exponents"
+      ],
+      "keywords": [
+        "doubling",
+        "powers of 2",
+        "pattern"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 4 – Power Notation, 4.1 Positive Integral Exponents, p. 49",
+        "topic": "4.1 Positive Integral Exponents",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 4 – Power Notation",
+        "section": "4.1 Positive Integral Exponents",
+        "page": "49",
+        "pdf_page": 55,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q20",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 20,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "mathematics-2021-g8-pie",
+      "stem": "How much is the family expense for house rent? (Monthly income 3000 Nakfa; house rent = 40% in the pie chart.)",
+      "image": "media/mathematics-2021-q20.png",
+      "image_alt": "Pie chart of monthly expenses: Saving 15% (top), House rent 40% (right), Others 20% (upper left; the word 'Food' is also printed here), and an unnamed 25% sector (lower left, a quarter of the circle).",
+      "options": {
+        "A": "450 Nakfa",
+        "B": "750 Nakfa",
+        "C": "600 Nakfa",
+        "D": "1200 Nakfa"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "House rent is 40% of the income.",
+        "40% of 3000 = 40/100 × 3000 = 1200 Nakfa. Answer: D."
+      ],
+      "explain_simple": "40% of 3000 Nakfa is 1200 Nakfa.",
+      "tips": [
+        "Amount = percent × total."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A family earns 2000 Nakfa a month and spends 30% on food. How much is spent on food?",
+          "options": {
+            "A": "300",
+            "B": "600",
+            "C": "700",
+            "D": "60"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "30/100 × 2000 = 600 Nakfa. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-pie-charts"
+      ],
+      "keywords": [
+        "pie chart",
+        "percentage"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 6 textbook – Chapter 15 – Statistics, Interpreting pie charts, p. 129",
+        "topic": "Interpreting pie charts",
+        "subject": "Mathematics",
+        "grade": 6,
+        "unit": "Chapter 15 – Statistics",
+        "section": "Interpreting pie charts",
+        "page": "129",
+        "pdf_page": 135,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q21",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 21,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "mathematics-2021-g8-pie",
+      "stem": "How much more Nakfa does the family use for food than for saving? (Monthly income 3000 Nakfa; see the pie chart.)",
+      "image": "media/mathematics-2021-q20.png",
+      "image_alt": "Pie chart of monthly expenses: Saving 15% (top), House rent 40% (right), Others 20% (upper left; the word 'Food' is also printed here), and an unnamed 25% sector (lower left, a quarter of the circle).",
+      "options": {
+        "A": "300",
+        "B": "750",
+        "C": "150",
+        "D": "250"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "C"
+      ],
+      "explanation_steps": [
+        "Saving = 15%. The chart has two unnamed-looking sectors: 'Others' 20% and a 25% sector. The word 'Food' is printed above the line next to 'Others', but the 25% sector (a quarter of the circle) has no other name, so Food = 25% (15 + 40 + 20 + 25 = 100).",
+        "Food − saving = 25% − 15% = 10%.",
+        "10% of 3000 = 300 Nakfa. Answer: A.",
+        "If a student reads Food = 20%, the result is 5% of 3000 = 150 Nakfa (option C). Confidence: medium, because the label is badly placed."
+      ],
+      "explain_simple": "Food is 25% and saving is 15%. The difference is 10%. 10% of 3000 is 300.",
+      "tips": [
+        "Subtract the percents first, then find that percent of the total."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A family earns 4000 Nakfa. Food is 30% and saving is 10%. How much more is spent on food than saved?",
+          "options": {
+            "A": "400",
+            "B": "800",
+            "C": "1200",
+            "D": "1600"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "30% − 10% = 20%; 20% of 4000 = 800 Nakfa. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-pie-charts"
+      ],
+      "keywords": [
+        "pie chart",
+        "percentage",
+        "difference"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 6 textbook – Chapter 15 – Statistics, Interpreting pie charts, p. 129",
+        "topic": "Interpreting pie charts",
+        "subject": "Mathematics",
+        "grade": 6,
+        "unit": "Chapter 15 – Statistics",
+        "section": "Interpreting pie charts",
+        "page": "129",
+        "pdf_page": 135,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "Pie chart labelling: 'Food' is printed in the upper-left sector together with 'Others' and '20%', while the lower-left 25% sector has no name. Keyed Food = 25% → 300 (A), because a quarter circle = 25% and every other sector has its own name; a student who reads Food = 20% gets 150 (C). Both accepted; teacher to decide."
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q22",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 22,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following coordinates lie in the second quadrant?",
+      "options": {
+        "A": "( 4, -3)",
+        "B": "(1 , 2)",
+        "C": "(-2,  5)",
+        "D": "(-4, -5)"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Second quadrant: left of the y-axis and above the x-axis, so x is negative and y is positive (−, +) (textbook: Mathematics Grade 8, p. 36).",
+        "(−2, 5): x = −2 is negative and y = 5 is positive. Answer: C.",
+        "(4, −3) is in quadrant IV, (1, 2) in quadrant I, (−4, −5) in quadrant III."
+      ],
+      "explain_simple": "In the second quadrant, x is negative and y is positive: (−2, 5).",
+      "tips": [
+        "Quadrants go anticlockwise: I (+,+), II (−,+), III (−,−), IV (+,−)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which point is in the fourth quadrant?",
+          "options": {
+            "A": "(3, −1)",
+            "B": "(−3, 1)",
+            "C": "(−3, −1)",
+            "D": "(3, 1)"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Quadrant IV is (+, −): (3, −1). Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-quadrants"
+      ],
+      "keywords": [
+        "coordinates",
+        "quadrant"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 3 – Graphs, 3.1 Plotting Points on a Number Plane, p. 36",
+        "topic": "3.1 Plotting Points on a Number Plane",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 3 – Graphs",
+        "section": "3.1 Plotting Points on a Number Plane",
+        "page": "36",
+        "pdf_page": 42,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q23",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 23,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A train travels 400 km in 2½ hr. What is the speed of train per hour?",
+      "stem_tex": "A train travels 400 km in $2\\frac{1}{2}$ hr. What is the speed of train per hour?",
+      "options": {
+        "A": "200",
+        "B": "150",
+        "C": "160",
+        "D": "100"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Speed = distance ÷ time.",
+        "2½ hours = 2.5 hours.",
+        "400 ÷ 2.5 = 160 km per hour. Answer: C."
+      ],
+      "explain_simple": "400 km in 2.5 hours: 400 ÷ 2.5 = 160 km each hour.",
+      "tips": [
+        "Change a mixed number to a decimal (2½ = 2.5) before dividing."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A bus travels 180 km in 1½ hours. What is its speed?",
+          "options": {
+            "A": "90 km/h",
+            "B": "120 km/h",
+            "C": "150 km/h",
+            "D": "270 km/h"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "180 ÷ 1.5 = 120 km/h. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-rate-speed"
+      ],
+      "keywords": [
+        "speed",
+        "distance",
+        "time"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 8 – Rate, Ratio and Proportion, 8.1 Rate (speed), p. 98",
+        "topic": "8.1 Rate (speed)",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 8 – Rate, Ratio and Proportion",
+        "section": "8.1 Rate (speed)",
+        "page": "98",
+        "pdf_page": 104,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q24",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 24,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Find the value of log₂ (1/8).",
+      "stem_tex": "Find the value of $\\log_2 \\dfrac{1}{8}$.",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "3",
+        "D": "-3"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "log₂ (1/8) = y means 2ʸ = 1/8.",
+        "1/8 = 1/2³ = 2⁻³, so y = −3. Answer: D."
+      ],
+      "explain_simple": "1/8 = 2⁻³. So log₂ (1/8) = −3.",
+      "tips": [
+        "The log of a number between 0 and 1 is negative."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Find log₃ (1/9).",
+          "options": {
+            "A": "2",
+            "B": "−2",
+            "C": "3",
+            "D": "−3"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "1/9 = 3⁻², so the answer is −2. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-logarithms"
+      ],
+      "keywords": [
+        "logarithm",
+        "negative exponent"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 5 – Logarithms, 5.1 Relationship between Exponential and Logarithmic Notations, p. 62",
+        "topic": "5.1 Relationship between Exponential and Logarithmic Notations",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 5 – Logarithms",
+        "section": "5.1 Relationship between Exponential and Logarithmic Notations",
+        "page": "62",
+        "pdf_page": 68,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q25",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 25,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is an acute angle?",
+      "options": {
+        "A": "48°",
+        "B": "134°",
+        "C": "236°",
+        "D": "90°"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "An acute angle is less than 90° (textbook: Mathematics Grade 7, p. 62).",
+        "48° < 90°, so it is acute. Answer: A.",
+        "134° is obtuse, 236° is reflex and 90° is a right angle."
+      ],
+      "explain_simple": "Acute means smaller than 90°. Only 48° is smaller than 90°.",
+      "tips": [
+        "Acute < 90° = right < obtuse < 180° < reflex."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which angle is obtuse?",
+          "options": {
+            "A": "45°",
+            "B": "90°",
+            "C": "120°",
+            "D": "200°"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Obtuse is between 90° and 180°: 120°. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "m-angles"
+      ],
+      "keywords": [
+        "acute angle",
+        "types of angles"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 5 – Lines and Angles, 5.2 Angles, p. 62",
+        "topic": "5.2 Angles",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 5 – Lines and Angles",
+        "section": "5.2 Angles",
+        "page": "62",
+        "pdf_page": 68,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q26",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 26,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Find the volume of the cone in cm³ (use π = 22/7). (Figure: radius 3 cm, height 21 cm.)",
+      "stem_tex": "Find the volume of the cone in cm$^3$ (use $\\pi=\\dfrac{22}{7}$). Radius 3 cm, height 21 cm.",
+      "image": "media/mathematics-2021-q26.png",
+      "image_alt": "A cone with radius 3 cm (dashed line from the centre of the top circle to the edge) and height 21 cm (dashed line down to the tip).",
+      "options": {
+        "A": "594",
+        "B": "198",
+        "C": "66",
+        "D": "640"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Volume of a cone = ⅓ × π × r² × h (textbook: Mathematics Grade 8, p. 128).",
+        "r = 3 cm and h = 21 cm: V = ⅓ × 22/7 × 9 × 21.",
+        "21 ÷ 7 = 3 and 3 ÷ 3 (the ⅓) = 1, so V = 22 × 9 = 198 cm³. Answer: B.",
+        "594 is πr²h (a cylinder): it forgets the ⅓."
+      ],
+      "explain_simple": "V = ⅓ × 22/7 × 3 × 3 × 21 = 198 cm³.",
+      "tips": [
+        "A cone holds one third of a cylinder with the same base and height."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Find the volume of a cone with radius 7 cm and height 6 cm (π = 22/7).",
+          "options": {
+            "A": "308 cm³",
+            "B": "924 cm³",
+            "C": "154 cm³",
+            "D": "264 cm³"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "⅓ × 22/7 × 49 × 6 = 22 × 7 × 2 = 308 cm³. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-volume-surface"
+      ],
+      "keywords": [
+        "volume of a cone",
+        "π"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 10 – Volume and Surface Area of Solid Figures, 10.2 Volume of Solid Figures – pyramids and cones, p. 128-129",
+        "topic": "10.2 Volume of Solid Figures – pyramids and cones",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 10 – Volume and Surface Area of Solid Figures",
+        "section": "10.2 Volume of Solid Figures – pyramids and cones",
+        "page": "128-129",
+        "pdf_page": 134,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q27",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 27,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The value of log₁₀ 9 – log₁₀ 9 is:",
+      "options": {
+        "A": "1",
+        "B": "-1",
+        "C": "0",
+        "D": "9"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Any number minus itself is 0. So log₁₀ 9 − log₁₀ 9 = 0. Answer: C.",
+        "(With the law of logs: log₁₀ (9/9) = log₁₀ 1 = 0.)"
+      ],
+      "explain_simple": "A number minus the same number is zero.",
+      "tips": [
+        "log M − log N = log (M/N), and log 1 = 0."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The value of log₅ 25 − log₅ 5 is:",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "5"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "log₅ (25/5) = log₅ 5 = 1. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-logarithms"
+      ],
+      "keywords": [
+        "laws of logarithms",
+        "log 1 = 0"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 5 – Logarithms, 5.2 Basic Properties of Logarithms, p. 65",
+        "topic": "5.2 Basic Properties of Logarithms",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 5 – Logarithms",
+        "section": "5.2 Basic Properties of Logarithms",
+        "page": "65",
+        "pdf_page": 71,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q28",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 28,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What is the value of 2 log₆ 3 + log₆ 4?",
+      "stem_tex": "What is the value of $2\\log_6 3+\\log_6 4$?",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "36",
+        "D": "10"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "2 log₆ 3 = log₆ 3² = log₆ 9.",
+        "log₆ 9 + log₆ 4 = log₆ (9 × 4) = log₆ 36.",
+        "6² = 36, so log₆ 36 = 2. Answer: B."
+      ],
+      "explain_simple": "2 log 3 = log 9. log 9 + log 4 = log 36. And 6² = 36, so the answer is 2.",
+      "tips": [
+        "n log M = log Mⁿ and log M + log N = log MN."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is the value of log₂ 4 + log₂ 8?",
+          "options": {
+            "A": "12",
+            "B": "5",
+            "C": "32",
+            "D": "6"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "log₂ 32 = 5 (or 2 + 3 = 5). Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-logarithms"
+      ],
+      "keywords": [
+        "laws of logarithms"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 5 – Logarithms, 5.2 Basic Properties of Logarithms, p. 65-69",
+        "topic": "5.2 Basic Properties of Logarithms",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 5 – Logarithms",
+        "section": "5.2 Basic Properties of Logarithms",
+        "page": "65-69",
+        "pdf_page": 71,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q29",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 29,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A certain corporation got a profit of 46,046 Nakfa from a business. If the corporation shared this profit among its 23 members equally, how much is the share of each person?",
+      "options": {
+        "A": "2002",
+        "B": "2020",
+        "C": "202",
+        "D": "22"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Share = 46,046 ÷ 23.",
+        "23 × 2000 = 46,000 and 23 × 2 = 46. So 46,046 ÷ 23 = 2002 Nakfa. Answer: A.",
+        "Check: 23 × 2002 = 46,046 ✓."
+      ],
+      "explain_simple": "46,046 ÷ 23 = 2002 Nakfa for each member.",
+      "tips": [
+        "Check a division by multiplying back."
+      ],
+      "similar_questions": [
+        {
+          "stem": "12,036 Nakfa is shared equally among 12 people. How much does each get?",
+          "options": {
+            "A": "1003",
+            "B": "1030",
+            "C": "103",
+            "D": "1300"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "12 × 1000 = 12,000 and 12 × 3 = 36, so 1003. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-rate-speed"
+      ],
+      "keywords": [
+        "division",
+        "sharing equally"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 6 textbook – Chapter 2 – Numbers - Operating on Numbers, Operating with whole numbers – division, p. 23-24",
+        "topic": "Operating with whole numbers – division",
+        "subject": "Mathematics",
+        "grade": 6,
+        "unit": "Chapter 2 – Numbers - Operating on Numbers",
+        "section": "Operating with whole numbers – division",
+        "page": "23-24",
+        "pdf_page": 29,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q30",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 30,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If the interest on Nakfa 4500 after 4 years is 900, find the rate of simple interest.",
+      "options": {
+        "A": "5%",
+        "B": "20%",
+        "C": "8%",
+        "D": "10%"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Simple interest: I = P × R × T (textbook: Mathematics Grade 8, p. 115).",
+        "900 = 4500 × R × 4 = 18,000 × R.",
+        "R = 900 ÷ 18,000 = 0.05 = 5% per year. Answer: A."
+      ],
+      "explain_simple": "Interest each year = 900 ÷ 4 = 225. 225 out of 4500 is 5%.",
+      "tips": [
+        "R = I ÷ (P × T)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The simple interest on 2000 Nakfa for 3 years is 300 Nakfa. Find the rate.",
+          "options": {
+            "A": "3%",
+            "B": "5%",
+            "C": "10%",
+            "D": "15%"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "300 ÷ (2000 × 3) = 0.05 = 5%. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-simple-interest"
+      ],
+      "keywords": [
+        "simple interest",
+        "rate"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 9 – Business Mathematics, 9.3 Banking; Simple Interest, p. 115-116",
+        "topic": "9.3 Banking; Simple Interest",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 9 – Business Mathematics",
+        "section": "9.3 Banking; Simple Interest",
+        "page": "115-116",
+        "pdf_page": 121,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q31",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 31,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Tell the property by which the pairs of triangles are congruent. (Figure: triangles PQR and TQS meet at Q; PQ = QT and angle P = angle T are marked.)",
+      "image": "media/mathematics-2021-q31.png",
+      "image_alt": "Segments RS and PT cross at Q, forming triangles PQR and TQS. PQ and QT have equal marks (two dashes); angle P and angle T have equal arcs.",
+      "options": {
+        "A": "AAS",
+        "B": "ASA",
+        "C": "SSS",
+        "D": "SAS"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Marked facts: PQ = TQ (the two dashes) and angle P = angle T (the arcs).",
+        "Angles PQR and TQS are vertically opposite angles, so they are equal too.",
+        "So we have Angle (P) – Side (PQ) – Angle (Q) in triangle PQR, and Angle (T) – Side (TQ) – Angle (Q) in triangle TQS. The equal side is between the two equal angles: ASA. Answer: B."
+      ],
+      "explain_simple": "Two angles are equal and the side between them is equal. That is ASA.",
+      "tips": [
+        "Vertically opposite angles are always equal: use them as a free pair of equal angles."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Two triangles have two pairs of equal sides and the angles between those sides are equal. They are congruent by:",
+          "options": {
+            "A": "SSS",
+            "B": "SAS",
+            "C": "ASA",
+            "D": "AAS"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The equal angle is between the equal sides: SAS. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-congruent-triangles"
+      ],
+      "keywords": [
+        "ASA",
+        "congruence tests",
+        "vertical angles"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 8 – Congruency and Similarity, 8.1 Congruent Figures (two angles and a side), p. 102",
+        "topic": "8.1 Congruent Figures (two angles and a side)",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 8 – Congruency and Similarity",
+        "section": "8.1 Congruent Figures (two angles and a side)",
+        "page": "102",
+        "pdf_page": 108,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q32",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 32,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Solve the following system of simultaneous. { x − y = 8 ; 2x − 3y = 19 }",
+      "stem_tex": "Solve the following system of simultaneous. $\\begin{cases} x-y=8\\\\ 2x-3y=19\\end{cases}$",
+      "options": {
+        "A": "( 9, 1 )",
+        "B": "( -3, 5 )",
+        "C": "( 5, -3 )",
+        "D": "( 5, 3 )"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "From x − y = 8: x = 8 + y.",
+        "Put it in the second equation: 2(8 + y) − 3y = 19 → 16 + 2y − 3y = 19 → −y = 3 → y = −3.",
+        "x = 8 + (−3) = 5. Solution (5, −3). Answer: C.",
+        "Check: 5 − (−3) = 8 ✓ and 10 − (−9) = 19 ✓."
+      ],
+      "explain_simple": "Put x = 8 + y in the second equation. You get y = −3 and x = 5.",
+      "tips": [
+        "Always check your pair in BOTH equations."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Solve: x + y = 10 and x − y = 4.",
+          "options": {
+            "A": "(7, 3)",
+            "B": "(3, 7)",
+            "C": "(6, 4)",
+            "D": "(5, 5)"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Add: 2x = 14 → x = 7, then y = 3. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-simultaneous"
+      ],
+      "keywords": [
+        "simultaneous equations",
+        "substitution"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 2 – Equations and Inequalities, 2.2 System of Linear Equations (Simultaneous), p. 22-26",
+        "topic": "2.2 System of Linear Equations (Simultaneous)",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 2 – Equations and Inequalities",
+        "section": "2.2 System of Linear Equations (Simultaneous)",
+        "page": "22-26",
+        "pdf_page": 28,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q33",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 33,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What is the supplementary angle for 47°?",
+      "options": {
+        "A": "47°",
+        "B": "133°",
+        "C": "43°",
+        "D": "90°"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Supplementary angles add up to 180° (textbook: Mathematics Grade 7, p. 66).",
+        "180° − 47° = 133°. Answer: B. (43° is the complementary angle.)"
+      ],
+      "explain_simple": "Supplementary angles make 180°. 180 − 47 = 133.",
+      "tips": [
+        "Supplementary → 180° (S for 'straight line'); complementary → 90° (C for 'corner')."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is the complement of 35°?",
+          "options": {
+            "A": "145°",
+            "B": "55°",
+            "C": "65°",
+            "D": "35°"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "90° − 35° = 55°. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-angles"
+      ],
+      "keywords": [
+        "supplementary angles"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 5 – Lines and Angles, 5.4 Relationship of Angles, p. 66",
+        "topic": "5.4 Relationship of Angles",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 5 – Lines and Angles",
+        "section": "5.4 Relationship of Angles",
+        "page": "66",
+        "pdf_page": 72,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q34",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 34,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following statements are always true?",
+      "options": {
+        "A": "Two triangles are similar",
+        "B": "Two isosceles triangles are similar.",
+        "C": "Two squares are similar",
+        "D": "Two rectangles are similar"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Similar figures have the same shape: equal angles and sides in the same ratio.",
+        "Every square has four 90° angles and four equal sides, so any two squares are similar. Answer: C.",
+        "Two triangles, two isosceles triangles or two rectangles can have different shapes (for example a long thin rectangle and a nearly square one), so they are not always similar."
+      ],
+      "explain_simple": "All squares have the same shape. Only their size changes. So two squares are always similar.",
+      "tips": [
+        "Squares, circles and equilateral triangles are always similar to each other."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which pair of figures is always similar?",
+          "options": {
+            "A": "Two rectangles",
+            "B": "Two circles",
+            "C": "Two right triangles",
+            "D": "Two parallelograms"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "All circles have the same shape. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-similarity"
+      ],
+      "keywords": [
+        "similar figures",
+        "squares"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 8 – Congruency and Similarity, 8.2 Similarity, p. 104-106",
+        "topic": "8.2 Similarity",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 8 – Congruency and Similarity",
+        "section": "8.2 Similarity",
+        "page": "104-106",
+        "pdf_page": 110,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q35",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 35,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If the perimeter of an equilateral triangle is 612m, what is the length of its side?",
+      "options": {
+        "A": "24m",
+        "B": "2004m",
+        "C": "304m",
+        "D": "204m"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "An equilateral triangle has 3 equal sides, so perimeter = 3 × side.",
+        "Side = 612 ÷ 3 = 204 m. Answer: D."
+      ],
+      "explain_simple": "Three equal sides make 612 m. 612 ÷ 3 = 204 m.",
+      "tips": [
+        "Equilateral = all sides equal."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A square has a perimeter of 48 cm. How long is one side?",
+          "options": {
+            "A": "12 cm",
+            "B": "24 cm",
+            "C": "16 cm",
+            "D": "192 cm"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "48 ÷ 4 = 12 cm. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-perimeter-area"
+      ],
+      "keywords": [
+        "perimeter",
+        "equilateral triangle"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 7 – Perimeter and Area, 7.1 Perimeter, p. 86",
+        "topic": "7.1 Perimeter",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 7 – Perimeter and Area",
+        "section": "7.1 Perimeter",
+        "page": "86",
+        "pdf_page": 92,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q36",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 36,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Solve: 1/3 − (2/3 ÷ 4/5)",
+      "stem_tex": "Solve: $\\dfrac{1}{3}-\\left(\\dfrac{2}{3}\\div\\dfrac{4}{5}\\right)$",
+      "options": {
+        "A": "-4/6",
+        "B": "-1/2",
+        "C": "1/2",
+        "D": "7/6"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Brackets first. To divide by 4/5, multiply by 5/4: 2/3 × 5/4 = 10/12 = 5/6.",
+        "1/3 − 5/6 = 2/6 − 5/6 = −3/6 = −1/2. Answer: B."
+      ],
+      "explain_simple": "2/3 ÷ 4/5 = 5/6. Then 1/3 − 5/6 = −1/2.",
+      "tips": [
+        "Dividing by a fraction = multiplying by its reciprocal (turn it upside down)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Work out 1/2 − (1/3 ÷ 2/3).",
+          "options": {
+            "A": "0",
+            "B": "1/2",
+            "C": "−1/2",
+            "D": "1"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "1/3 ÷ 2/3 = 1/3 × 3/2 = 1/2; 1/2 − 1/2 = 0. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-fractions-decimals",
+        "m-order-operations"
+      ],
+      "keywords": [
+        "division of fractions",
+        "reciprocal"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 2 – Rational Numbers, 2.2 Operation on Rational Numbers, p. 26",
+        "topic": "2.2 Operation on Rational Numbers",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 2 – Rational Numbers",
+        "section": "2.2 Operation on Rational Numbers",
+        "page": "26",
+        "pdf_page": 32,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q37",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 37,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Find the value of x, if -3 (2x – 3) + 2x = -11",
+      "options": {
+        "A": "5",
+        "B": "-5",
+        "C": "1/4",
+        "D": "-3/4"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Remove the bracket: −6x + 9 + 2x = −11.",
+        "Collect: −4x + 9 = −11 → −4x = −20 → x = 5. Answer: A.",
+        "Check: −3(10 − 3) + 10 = −21 + 10 = −11 ✓."
+      ],
+      "explain_simple": "Open the bracket: −6x + 9 + 2x = −11. So −4x = −20 and x = 5.",
+      "tips": [
+        "A minus sign in front of a bracket changes the sign of every term inside."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Solve: 2(x + 4) − x = 11",
+          "options": {
+            "A": "3",
+            "B": "−3",
+            "C": "19",
+            "D": "7"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "2x + 8 − x = 11 → x = 3. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-linear-equations"
+      ],
+      "keywords": [
+        "linear equation",
+        "brackets"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 2 – Equations and Inequalities, 2.1 Equations, p. 19-21",
+        "topic": "2.1 Equations",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 2 – Equations and Inequalities",
+        "section": "2.1 Equations",
+        "page": "19-21",
+        "pdf_page": 25,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q38",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 38,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Find the product of (2x - 3) (2x - 3).",
+      "options": {
+        "A": "4x² - 12x - 9",
+        "B": "4x² +12x + 9",
+        "C": "4x² - 6x + 9",
+        "D": "4x² - 12x + 9"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Multiply every term: 2x·2x = 4x², 2x·(−3) = −6x, (−3)·2x = −6x, (−3)·(−3) = +9.",
+        "4x² − 6x − 6x + 9 = 4x² − 12x + 9. Answer: D."
+      ],
+      "explain_simple": "(2x − 3)² = 4x² − 12x + 9. Minus times minus gives plus 9.",
+      "tips": [
+        "(a − b)² = a² − 2ab + b²."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Find the product (x + 5)(x + 5).",
+          "options": {
+            "A": "x² + 25",
+            "B": "x² + 10x + 25",
+            "C": "x² + 5x + 25",
+            "D": "x² + 10x + 10"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "x² + 5x + 5x + 25 = x² + 10x + 25. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-expansion"
+      ],
+      "keywords": [
+        "product of binomials",
+        "perfect square"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 2 – Equations and Inequalities, 2.3 Quadratic Equations (products of binomials), p. 29-30",
+        "topic": "2.3 Quadratic Equations (products of binomials)",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 2 – Equations and Inequalities",
+        "section": "2.3 Quadratic Equations (products of binomials)",
+        "page": "29-30",
+        "pdf_page": 35,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q39",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 39,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Find the area of a circle whose diameter is 14m.",
+      "options": {
+        "A": "44 m²",
+        "B": "154 m²",
+        "C": "616m²",
+        "D": "77m²"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Radius = diameter ÷ 2 = 7 m.",
+        "Area = πr² = 22/7 × 7 × 7 = 22 × 7 = 154 m². Answer: B.",
+        "616 m² is the result if you wrongly use 14 as the radius; 44 m is the circumference."
+      ],
+      "explain_simple": "Radius is 7 m. Area = 22/7 × 7 × 7 = 154 m².",
+      "tips": [
+        "Use the radius (half the diameter) in πr²."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Find the area of a circle with diameter 28 cm (π = 22/7).",
+          "options": {
+            "A": "88 cm²",
+            "B": "616 cm²",
+            "C": "2464 cm²",
+            "D": "154 cm²"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "r = 14: 22/7 × 196 = 616 cm². Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-circle"
+      ],
+      "keywords": [
+        "area of a circle",
+        "radius",
+        "diameter"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 9 – Circle, 9.2 Area of a Circle, p. 111-112",
+        "topic": "9.2 Area of a Circle",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 9 – Circle",
+        "section": "9.2 Area of a Circle",
+        "page": "111-112",
+        "pdf_page": 117,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q40",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 40,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is the prime factorization of 108 ?",
+      "options": {
+        "A": "2² × 27",
+        "B": "4 × 3³",
+        "C": "2² ×3 × 9",
+        "D": "2² × 3³"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "108 = 2 × 54 = 2 × 2 × 27 = 2 × 2 × 3 × 3 × 3 = 2² × 3³.",
+        "A prime factorization uses prime numbers only. 27, 4 and 9 are not prime, so A, B and C are products equal to 108 but not prime factorizations. Answer: D."
+      ],
+      "explain_simple": "108 = 2 × 2 × 3 × 3 × 3 = 2² × 3³. Only 2 and 3 are prime.",
+      "tips": [
+        "In a prime factorization every base must be a prime number."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is the prime factorization of 72?",
+          "options": {
+            "A": "8 × 9",
+            "B": "2³ × 3²",
+            "C": "2² × 18",
+            "D": "4 × 2 × 9"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "72 = 2·2·2·3·3 = 2³ × 3². Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-primes-gcf"
+      ],
+      "keywords": [
+        "prime factorization",
+        "powers"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 1 – Real Number System, 1.2 Square and Square Root of Numbers (prime factorization), p. 13",
+        "topic": "1.2 Square and Square Root of Numbers (prime factorization)",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 1 – Real Number System",
+        "section": "1.2 Square and Square Root of Numbers (prime factorization)",
+        "page": "13",
+        "pdf_page": 19,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q41",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 41,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following numbers is an integer?",
+      "stem_tex": "Which of the following numbers is an integer? A. $\\sqrt{8}$ B. $2\\frac{1}{3}$ C. 9 D. $-7.6$",
+      "options": {
+        "A": "√8",
+        "B": "2⅓",
+        "C": "9",
+        "D": "-7.6"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Integers are the whole numbers and their negatives: …, −2, −1, 0, 1, 2, …",
+        "9 is an integer. Answer: C.",
+        "√8 ≈ 2.83 (irrational), 2⅓ is a fraction, −7.6 is a decimal – none of them is an integer."
+      ],
+      "explain_simple": "9 is a whole number, so it is an integer. The others have parts after the point.",
+      "tips": [
+        "Integers have no fraction or decimal part."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which number is an integer?",
+          "options": {
+            "A": "0.5",
+            "B": "−4",
+            "C": "√2",
+            "D": "3/4"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "−4 is a negative whole number. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-fractions-decimals"
+      ],
+      "keywords": [
+        "integer",
+        "real numbers"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 1 – Real Number System, 1.1 Rational Numbers, p. 1",
+        "topic": "1.1 Rational Numbers",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 1 – Real Number System",
+        "section": "1.1 Rational Numbers",
+        "page": "1",
+        "pdf_page": 7,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q42",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 42,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The decimal numeral for five hundred two thousand and thirty is:",
+      "options": {
+        "A": "502,013",
+        "B": "520,030",
+        "C": "502,030",
+        "D": "520,013"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "'Five hundred two thousand' = 502 thousand = 502,000.",
+        "'and thirty' = 30. 502,000 + 30 = 502,030. Answer: C."
+      ],
+      "explain_simple": "502 thousand and 30 is written 502,030.",
+      "tips": [
+        "Read the part before 'thousand' as one number (502)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Write 'forty thousand and six' in figures.",
+          "options": {
+            "A": "40,006",
+            "B": "46,000",
+            "C": "4,006",
+            "D": "40,060"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "40 thousand + 6 = 40,006. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-place-value"
+      ],
+      "keywords": [
+        "reading numbers",
+        "numerals"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 6 textbook – Chapter 2 – Numbers - Operating on Numbers, Reading numbers, p. 13",
+        "topic": "Reading numbers",
+        "subject": "Mathematics",
+        "grade": 6,
+        "unit": "Chapter 2 – Numbers - Operating on Numbers",
+        "section": "Reading numbers",
+        "page": "13",
+        "pdf_page": 19,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q43",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 43,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Solve: 3x - 5 > 4x + 2",
+      "options": {
+        "A": "x < 7",
+        "B": "x < -7",
+        "C": "x > 7",
+        "D": "x > -7"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Move x-terms to one side: 3x − 4x > 2 + 5 → −x > 7.",
+        "Multiply both sides by −1 and REVERSE the sign: x < −7. Answer: B.",
+        "Check with x = −8: 3(−8) − 5 = −29 and 4(−8) + 2 = −30; −29 > −30 ✓."
+      ],
+      "explain_simple": "You get −x > 7. Change the sign to get x, and turn > into <: x < −7.",
+      "tips": [
+        "Multiplying or dividing an inequality by a negative number reverses the sign."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Solve: 2x + 1 > 5x − 8",
+          "options": {
+            "A": "x > 3",
+            "B": "x < 3",
+            "C": "x < −3",
+            "D": "x > −3"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "−3x > −9 → x < 3 (sign reversed). Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-inequalities"
+      ],
+      "keywords": [
+        "linear inequality",
+        "reverse the sign"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 2 – Equations and Inequalities, 2.4 Inequalities, p. 32-35",
+        "topic": "2.4 Inequalities",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 2 – Equations and Inequalities",
+        "section": "2.4 Inequalities",
+        "page": "32-35",
+        "pdf_page": 38,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q44",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 44,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one is the image of figure A, under the reflection (mirror) of the y-axis?",
+      "image": "media/mathematics-2021-q44.png",
+      "image_alt": "Four small coordinate diagrams labelled A-D. In each, figure A (an arrow-shaped box pointing left) is in the second quadrant. The image in the first quadrant points right in A, left in B, up in C and down in D.",
+      "options": {
+        "A": "Diagram A (image in the first quadrant, arrow pointing right)",
+        "B": "Diagram B (image in the first quadrant, arrow pointing left)",
+        "C": "Diagram C (image in the first quadrant, arrow pointing up)",
+        "D": "Diagram D (image in the first quadrant, arrow pointing down)"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Figure A is an arrow in the second quadrant pointing LEFT.",
+        "A mirror on the y-axis flips left and right: the image is at the same height on the right side, and it points RIGHT.",
+        "Only diagram A shows this. Answer: A.",
+        "B is a translation (slide): same direction. C and D are turned (rotations), not reflections."
+      ],
+      "explain_simple": "A mirror flips the picture. The arrow pointed left, so the image points right.",
+      "tips": [
+        "In a reflection the image faces the opposite way; in a translation it faces the same way."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The point (−3, 2) is reflected in the y-axis. What is its image?",
+          "options": {
+            "A": "(3, 2)",
+            "B": "(−3, −2)",
+            "C": "(3, −2)",
+            "D": "(2, −3)"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Reflection in the y-axis changes the sign of x only: (3, 2). Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-reflection"
+      ],
+      "keywords": [
+        "reflection",
+        "y-axis",
+        "transformation"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 11 – Transformations, 11.1 Reflections, p. 141",
+        "topic": "11.1 Reflections",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 11 – Transformations",
+        "section": "11.1 Reflections",
+        "page": "141",
+        "pdf_page": 147,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q45",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 45,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is a distributive property?",
+      "options": {
+        "A": "(a × b) × c = a × (b × c)",
+        "B": "a + (b + c) = (a + b) + c",
+        "C": "a × b = b × a",
+        "D": "a × (b + c) = (a × b) + (a × c)"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The distributive property 'spreads' multiplication over addition: a × (b + c) = (a × b) + (a × c) (textbook: Mathematics Grade 7, p. 15). Answer: D.",
+        "A and B are associative properties, C is the commutative property."
+      ],
+      "explain_simple": "Distributive means you multiply a by b and by c, then add.",
+      "tips": [
+        "Associative = change the brackets; commutative = change the order; distributive = open the bracket."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which shows the commutative property of addition?",
+          "options": {
+            "A": "a + b = b + a",
+            "B": "a(b + c) = ab + ac",
+            "C": "(a + b) + c = a + (b + c)",
+            "D": "a + 0 = a"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Commutative = swap the order. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-properties"
+      ],
+      "keywords": [
+        "distributive property",
+        "associative",
+        "commutative"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 1 – Whole Numbers, 1.3 Properties of Whole Numbers, p. 15",
+        "topic": "1.3 Properties of Whole Numbers",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 1 – Whole Numbers",
+        "section": "1.3 Properties of Whole Numbers",
+        "page": "15",
+        "pdf_page": 21,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q46",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 46,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What is the total surface area of the triangular prism in cm²? (Figure: right-angled triangle with sides 6 cm, 8 cm and 10 cm; length of the prism 12 cm.)",
+      "image": "media/mathematics-2021-q46.png",
+      "image_alt": "Triangular prism, 12 cm long. The triangle end has sides 6 cm and 8 cm meeting at a right angle, and 10 cm.",
+      "options": {
+        "A": "312",
+        "B": "360",
+        "C": "336",
+        "D": "324"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The two triangle ends: each is right-angled with legs 6 cm and 8 cm, so area = ½ × 6 × 8 = 24 cm². Two ends = 48 cm².",
+        "The three rectangles: (6 + 8 + 10) × 12 = 24 × 12 = 288 cm².",
+        "Total = 48 + 288 = 336 cm². Answer: C."
+      ],
+      "explain_simple": "Two triangles: 2 × 24 = 48. Three rectangles: 24 × 12 = 288. Total 336 cm².",
+      "tips": [
+        "Total surface area of a prism = 2 × (area of base) + (perimeter of base) × length."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A triangular prism has right-triangle ends with sides 3 cm, 4 cm, 5 cm and length 10 cm. Find its total surface area.",
+          "options": {
+            "A": "120 cm²",
+            "B": "132 cm²",
+            "C": "126 cm²",
+            "D": "60 cm²"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Ends: 2 × ½ × 3 × 4 = 12; sides: (3 + 4 + 5) × 10 = 120; total 132 cm². Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-volume-surface"
+      ],
+      "keywords": [
+        "surface area",
+        "triangular prism"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 10 – Volume and Surface Area of Solid Figures, 10.3 Surface Area of Solids, p. 131-135",
+        "topic": "10.3 Surface Area of Solids",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 10 – Volume and Surface Area of Solid Figures",
+        "section": "10.3 Surface Area of Solids",
+        "page": "131-135",
+        "pdf_page": 137,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q47",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 47,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "An article that was marked for 1800 Nakfa was sold it at a discount of 15%. Find the selling price of the article in Nakfa.",
+      "options": {
+        "A": "1,630",
+        "B": "1,530",
+        "C": "2,070",
+        "D": "270"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Discount = 15% of 1800 = 0.15 × 1800 = 270 Nakfa.",
+        "Selling price = 1800 − 270 = 1530 Nakfa. Answer: B. (270 is only the discount; 2070 adds it instead of subtracting.)"
+      ],
+      "explain_simple": "15% of 1800 is 270. 1800 − 270 = 1530 Nakfa.",
+      "tips": [
+        "Selling price = marked price − discount."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A shirt marked 400 Nakfa is sold at a 10% discount. What is the selling price?",
+          "options": {
+            "A": "40",
+            "B": "360",
+            "C": "440",
+            "D": "390"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Discount 40; 400 − 40 = 360 Nakfa. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-percent-discount"
+      ],
+      "keywords": [
+        "discount",
+        "selling price",
+        "percentage"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 9 – Business Mathematics, 9.2 Discount and Commission, p. 111-112",
+        "topic": "9.2 Discount and Commission",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 9 – Business Mathematics",
+        "section": "9.2 Discount and Commission",
+        "page": "111-112",
+        "pdf_page": 117,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q48",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 48,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In the figure, which line represents the equation of the line y = -x+2?",
+      "image": "media/mathematics-2021-q48.png",
+      "image_alt": "Coordinate axes with four numbered lines through the points (−2, 0), (0, 2), (2, 0) and (0, −2): line 1 rises through (−2, 0) and (0, 2); line 2 rises through (0, −2) and (2, 0); line 3 falls through (0, 2) and (2, 0); line 4 falls through (−2, 0) and (0, −2).",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "4"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "y = −x + 2 crosses the y-axis at (0, 2) (put x = 0) and the x-axis at (2, 0) (put y = 0).",
+        "Its slope is −1, so it goes DOWN from left to right.",
+        "Line 3 passes through (0, 2) and (2, 0) and goes down to the right. Answer: A.",
+        "Line 1 is y = x + 2, line 2 is y = x − 2 and line 4 is y = −x − 2."
+      ],
+      "explain_simple": "Put x = 0: y = 2. Put y = 0: x = 2. The line through these points going down is line 3.",
+      "tips": [
+        "Find the two intercepts, then check if the line goes up (positive slope) or down (negative slope)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Where does the line y = x − 3 cross the y-axis?",
+          "options": {
+            "A": "(0, 3)",
+            "B": "(0, −3)",
+            "C": "(3, 0)",
+            "D": "(−3, 0)"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Put x = 0: y = −3. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-linear-graphs"
+      ],
+      "keywords": [
+        "graph of a linear equation",
+        "intercepts",
+        "slope"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 3 – Graphs, 3.2 Graphs of Linear Equations, p. 38-41",
+        "topic": "3.2 Graphs of Linear Equations",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 3 – Graphs",
+        "section": "3.2 Graphs of Linear Equations",
+        "page": "38-41",
+        "pdf_page": 44,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q49",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 49,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If (4/9)ʸ = (27/8), find the value of y.",
+      "stem_tex": "If $\\left(\\dfrac{4}{9}\\right)^{y}=\\left(\\dfrac{27}{8}\\right)$, find the value of $y$.",
+      "options": {
+        "A": "- 3/2",
+        "B": "-2/3",
+        "C": "-2/3",
+        "D": "3/2"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Write both sides with the base 2/3: 4/9 = (2/3)² and 27/8 = (3/2)³ = (2/3)⁻³.",
+        "So (2/3)²ʸ = (2/3)⁻³, which gives 2y = −3 and y = −3/2. Answer: A.",
+        "Check: (4/9)^(−3/2) = (9/4)^(3/2) = (3/2)³ = 27/8 ✓.",
+        "Note: options B and C are printed the same (−2/3) on the paper."
+      ],
+      "explain_simple": "4/9 = (2/3)² and 27/8 = (2/3)⁻³. So 2y = −3 and y = −3/2.",
+      "tips": [
+        "Make the bases the same, then set the powers equal."
+      ],
+      "similar_questions": [
+        {
+          "stem": "If 2ˣ = 1/8, find x.",
+          "options": {
+            "A": "3",
+            "B": "−3",
+            "C": "1/3",
+            "D": "−1/3"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "1/8 = 2⁻³, so x = −3. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "m-exponents"
+      ],
+      "keywords": [
+        "exponential equation",
+        "negative exponent",
+        "fractional base"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 8 textbook – Chapter 4 – Power Notation, 4.2 Powers with Negative Exponents, p. 56-57",
+        "topic": "4.2 Powers with Negative Exponents",
+        "subject": "Mathematics",
+        "grade": 8,
+        "unit": "Chapter 4 – Power Notation",
+        "section": "4.2 Powers with Negative Exponents",
+        "page": "56-57",
+        "pdf_page": 62,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "Misprint: options B and C are both printed as −2/3 (one was probably meant to be 2/3). It does not affect the answer (A, −3/2)."
+    },
+    {
+      "id": "mathematics-2021-g8-p1-q50",
+      "exam_id": "mathematics-2021-g8",
+      "part": 1,
+      "number": 50,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If 480 Nakfa is shared in the ratio 3:4:5, what is the largest share?",
+      "options": {
+        "A": "200 Nakfa",
+        "B": "120 Nakfa",
+        "C": "240Nakfa",
+        "D": "160 Nakfa"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Total parts = 3 + 4 + 5 = 12.",
+        "One part = 480 ÷ 12 = 40 Nakfa.",
+        "Largest share = 5 parts = 5 × 40 = 200 Nakfa. Answer: A. (The other shares are 120 and 160.)"
+      ],
+      "explain_simple": "12 parts make 480, so one part is 40. The biggest share is 5 × 40 = 200.",
+      "tips": [
+        "Add the ratio numbers to find the total number of parts."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Share 90 Nakfa in the ratio 1 : 2 : 3. What is the smallest share?",
+          "options": {
+            "A": "15",
+            "B": "30",
+            "C": "45",
+            "D": "10"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "6 parts; one part = 15. Smallest share = 15. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "m-ratio"
+      ],
+      "keywords": [
+        "ratio",
+        "sharing in a ratio"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Mathematics Grade 7 textbook – Chapter 8 – Rate, Ratio and Proportion, 8.2 Ratio, p. 101-102",
+        "topic": "8.2 Ratio",
+        "subject": "Mathematics",
+        "grade": 7,
+        "unit": "Chapter 8 – Rate, Ratio and Proportion",
+        "section": "8.2 Ratio",
+        "page": "101-102",
+        "pdf_page": 107,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    }
+  ],
+  "passages": [
+    {
+      "id": "mathematics-2021-g8-scores",
+      "kind": "context",
+      "title": "Scores of a student (Questions 9 and 10)",
+      "instructions": "The following are the scores of a student. Answer questions 9 and 10 from the table.",
+      "paragraphs": [
+        "English 75, Mathematics 85, Science 65, Social studies 90, Citizen-ship 85."
+      ],
+      "question_numbers": [
+        9,
+        10
+      ],
+      "part": 1
+    },
+    {
+      "id": "mathematics-2021-g8-pie",
+      "kind": "context",
+      "title": "Monthly expenses of a family (Questions 20 and 21)",
+      "instructions": "The pie chart below represents the monthly expenses of a family with a monthly income of 3000 Nakfa. Answer questions 20 and 21 referring to the chart.",
+      "paragraphs": [
+        "Pie chart: Saving 15%, House rent 40%, Others 20%, Food 25%. (On the paper the word 'Food' is printed next to 'Others' and '20%'; the 25% sector is a quarter of the circle and has no other name, so Food = 25%.)"
+      ],
+      "question_numbers": [
+        20,
+        21
+      ],
+      "part": 1
+    }
+  ]
+}

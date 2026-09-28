@@ -1,0 +1,3298 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "citizenship-2019-g8",
+    "year": "2019",
+    "subject": "Citizenship",
+    "grade": 8,
+    "version": "A",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2019 – Citizenship",
+    "duration": "1 hour and 10 minutes (70 minutes)",
+    "duration_minutes": 70,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "It has 50 multiple choice questions (1-50). Each question has 4 choices. Choose one best answer and blacken the letter of your choice on the separate answer sheet."
+      }
+    ],
+    "source": {
+      "document": "raw/2019_Citizenship__V-A.pdf (7 pages, text layer; cover '5-CITIZENSHIP, VERSION-A')",
+      "version_used": "A",
+      "other_version": "raw/2019_Citizenship__V-B.pdf (image-only scan; same 50 questions, V-A reversed in blocks of 10, options shuffled) – used only for cross-checking",
+      "notes": "Transcribed from the V-A text layer and checked against the page images (bold-underlined words such as 'not', 'except', 'wrong' are kept as <u>…</u>). No figures.",
+      "printing_note": "The V-A cover text layer contains a hidden duplicate time line ('1 hour and 40 minutes (100 minutes)'); the visible line is 1 hour and 10 minutes (70 minutes). The V-B cover prints '1 hour and 10 minutes (100 minutes)' (typo). Q24 is printed '24' without the full stop.",
+      "official_answer_key": false
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "textbooks": [
+      {
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "file": "textbooks/citizenship_6.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Citizenship Education",
+        "grade": 7,
+        "file": "textbooks/citizenship_7.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "file": "textbooks/citizenship_8.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Social Studies",
+        "grade": 8,
+        "file": "textbooks/social_studies_8.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      }
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "id": "citizenship-2019-g8-p1-q01",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 1,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One of the following ethnic groups <u>does not</u> speak a language similar to its name.",
+      "options": {
+        "A": "Afar",
+        "B": "Tigre",
+        "C": "Rashaida",
+        "D": "Bedawiet"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Eritrea has nine ethnic groups. They are grouped by the language they speak (textbook: Citizenship Grade 6, p. 37).",
+        "The Afar speak Afar, the Tigre speak Tigre and the Bedaweit speak Bedawiet (To-Bedawie).",
+        "The Rashaida speak Arabic, not a language called 'Rashaida'. Answer: C.",
+        "The Grade 6 textbook asks this same question (p. 44)."
+      ],
+      "explain_simple": "The Rashaida people speak Arabic. The other groups speak a language with the same name.",
+      "tips": [
+        "Remember: Rashaida → Arabic."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How are the nine ethnic groups of Eritrea mainly classified?",
+          "options": {
+            "A": "By religion",
+            "B": "By language",
+            "C": "By region",
+            "D": "By skin colour"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The textbook says the main criterion is the language they speak. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-ethnic-groups"
+      ],
+      "keywords": [
+        "ethnic groups",
+        "Rashaida",
+        "Arabic",
+        "language"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 3 – Our Society and Culture, 3.3 The Diversity of the Eritrean Society, p. 37-44",
+        "topic": "3.3 The Diversity of the Eritrean Society",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 3 – Our Society and Culture",
+        "section": "3.3 The Diversity of the Eritrean Society",
+        "page": "37-44",
+        "pdf_page": 43,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q02",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 2,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The color that represents minerals in the Eritrean national flag is________",
+      "options": {
+        "A": "Red",
+        "B": "Yellow",
+        "C": "Blue",
+        "D": "Green"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The colours of the flag: green for agriculture (the fertile land), blue for the sea, red for the bloodshed/bravery in the struggle, and yellow for the minerals (textbook: Citizenship Grade 7, p. 92).",
+        "So yellow represents minerals. Answer: B."
+      ],
+      "explain_simple": "Yellow in our flag stands for minerals (like gold).",
+      "tips": [
+        "Yellow = minerals (think of gold); blue = sea; green = farming; red = blood of the martyrs."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The blue colour in the Eritrean flag stands for:",
+          "options": {
+            "A": "the sky",
+            "B": "the sea",
+            "C": "minerals",
+            "D": "peace"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Blue is for the sea. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-flag"
+      ],
+      "keywords": [
+        "national flag",
+        "colours",
+        "yellow",
+        "minerals"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 7 textbook – Unit 7 – Our National Symbols and Holidays, 7.1 Our national flag – meaning of the colours, p. 92",
+        "topic": "7.1 Our national flag – meaning of the colours",
+        "subject": "Citizenship Education",
+        "grade": 7,
+        "unit": "Unit 7 – Our National Symbols and Holidays",
+        "section": "7.1 Our national flag – meaning of the colours",
+        "page": "92",
+        "pdf_page": 98,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q03",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 3,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Our Martyrs Day",
+      "options": {
+        "A": "June 20",
+        "B": "September 1",
+        "C": "May 24",
+        "D": "March 8"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Eritrea remembers its martyrs on 20 June every year (textbook: Citizenship Grade 8, p. 103).",
+        "September 1 is the start of the armed struggle, May 24 is Independence Day, March 8 is Women's Day. Answer: A."
+      ],
+      "explain_simple": "Martyrs Day is on June 20.",
+      "tips": [
+        "Make a list of the national days and their dates and learn it."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Independence Day in Eritrea is on:",
+          "options": {
+            "A": "June 20",
+            "B": "September 1",
+            "C": "May 24",
+            "D": "March 8"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Eritrea celebrates Independence Day on 24 May. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "c-holidays"
+      ],
+      "keywords": [
+        "Martyrs Day",
+        "June 20",
+        "national holidays"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 7 – Symbols of National Identity, 7.2.2 June 20 Martyrs' Day, p. 103",
+        "topic": "7.2.2 June 20 Martyrs' Day",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 7 – Symbols of National Identity",
+        "section": "7.2.2 June 20 Martyrs' Day",
+        "page": "103",
+        "pdf_page": 110,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q04",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 4,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which branch of a government makes the law?",
+      "options": {
+        "A": "Judicial",
+        "B": "Consultative",
+        "C": "Legislative",
+        "D": "Executive"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A government has three branches: legislative, executive and judicial (textbook: Citizenship Grade 7, p. 71).",
+        "The legislative branch (in Eritrea, the National Assembly) makes the laws. The executive carries them out; the judicial branch interprets them. Answer: C."
+      ],
+      "explain_simple": "The legislative branch makes laws.",
+      "tips": [
+        "Legislative = law-making; Executive = doing/carrying out; Judicial = judging in courts."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which branch of government works through the courts?",
+          "options": {
+            "A": "Legislative",
+            "B": "Executive",
+            "C": "Judicial",
+            "D": "Consultative"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Courts belong to the judicial branch. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "c-government"
+      ],
+      "keywords": [
+        "legislative",
+        "branches of government",
+        "law"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 7 textbook – Unit 5 – The State of Eritrea, Branches of government, p. 71-72",
+        "topic": "Branches of government",
+        "subject": "Citizenship Education",
+        "grade": 7,
+        "unit": "Unit 5 – The State of Eritrea",
+        "section": "Branches of government",
+        "page": "71-72",
+        "pdf_page": 77,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q05",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 5,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The following are qualities of a good citizen, <u>except</u>:",
+      "options": {
+        "A": "One who knows his/her rights and responsibilities",
+        "B": "One who obeys the law",
+        "C": "One who does not pay taxes",
+        "D": "One who respects others"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A good citizen knows rights and responsibilities, obeys the law, respects others and pays taxes (textbook: Citizenship Grade 6, p. 107).",
+        "Not paying taxes is the opposite of a good citizen. Answer: C."
+      ],
+      "explain_simple": "Good citizens pay taxes. So 'does not pay taxes' is not a quality of a good citizen.",
+      "tips": [
+        "In 'except' questions, look for the one bad or different option."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one is a quality of a good citizen?",
+          "options": {
+            "A": "Breaking the law",
+            "B": "Helping the community",
+            "C": "Damaging public property",
+            "D": "Refusing to pay taxes"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "A good citizen helps the community. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-good-citizen"
+      ],
+      "keywords": [
+        "good citizen",
+        "taxes",
+        "rights and responsibilities"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 9 – Being a Good Citizen, 9.1 Qualities of a Good Citizen, p. 107",
+        "topic": "9.1 Qualities of a Good Citizen",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 9 – Being a Good Citizen",
+        "section": "9.1 Qualities of a Good Citizen",
+        "page": "107",
+        "pdf_page": 113,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q06",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 6,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One having immoral values can:",
+      "options": {
+        "A": "establish good friendship",
+        "B": "make good choices",
+        "C": "show respect to others",
+        "D": "develop enemies"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says: a person having immoral values tends to develop enemies and engage in crime (Citizenship Grade 8, p. 11).",
+        "Good friendship, good choices and respect come from good moral values. Answer: D."
+      ],
+      "explain_simple": "A person with bad values makes enemies.",
+      "tips": [
+        "Moral = good and right; immoral = bad and wrong."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A person with high moral values:",
+          "options": {
+            "A": "tells right from wrong",
+            "B": "lies to friends",
+            "C": "steals",
+            "D": "cheats in exams"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Moral values help us tell right from wrong. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-moral-values"
+      ],
+      "keywords": [
+        "immoral values",
+        "moral values",
+        "enemies"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 1 – A Disciplined Young Person, 1.3.2 Becoming a person of high moral values, p. 11",
+        "topic": "1.3.2 Becoming a person of high moral values",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 1 – A Disciplined Young Person",
+        "section": "1.3.2 Becoming a person of high moral values",
+        "page": "11",
+        "pdf_page": 18,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q07",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 7,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One of the following is a benefit of doing the right thing:",
+      "options": {
+        "A": "Peace of mind.",
+        "B": "Rejection",
+        "C": "Punishment",
+        "D": "loss of confidence"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "When you do the right thing you feel calm and happy inside: you have peace of mind (textbook: Citizenship Grade 8, Unit 8, p. 110).",
+        "Rejection, punishment and loss of confidence are results of doing wrong things. Answer: A."
+      ],
+      "explain_simple": "Doing the right thing gives you peace of mind.",
+      "tips": [
+        "Benefits are good results; the other three are bad results."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is a result of doing wrong things?",
+          "options": {
+            "A": "Trust from others",
+            "B": "Peace of mind",
+            "C": "Feeling guilty",
+            "D": "Promotion"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Doing wrong makes us feel guilty. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "c-right-wrong"
+      ],
+      "keywords": [
+        "doing the right thing",
+        "peace of mind"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 8 – Our Acts and their Consequences: Right and Wrong, 8.1 Doing the Right Thing, p. 110-111",
+        "topic": "8.1 Doing the Right Thing",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 8 – Our Acts and their Consequences: Right and Wrong",
+        "section": "8.1 Doing the Right Thing",
+        "page": "110-111",
+        "pdf_page": 117,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q08",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 8,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A person who is a member of a blood donation group is:",
+      "options": {
+        "A": "careless about others",
+        "B": "a passive citizen",
+        "C": "irresponsible.",
+        "D": "a good and active citizen."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Giving blood helps sick and injured people. It is a patriotic, voluntary act (textbook: Citizenship Grade 7, pp. 87–88).",
+        "So a blood donor is a good and active citizen. Answer: D."
+      ],
+      "explain_simple": "A blood donor helps others, so he or she is a good and active citizen.",
+      "tips": [
+        "An active citizen does something to help the community."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which activity shows an active citizen?",
+          "options": {
+            "A": "Staying at home all day",
+            "B": "Joining a tree-planting campaign",
+            "C": "Throwing rubbish in the street",
+            "D": "Ignoring neighbours"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Planting trees helps the community. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-good-citizen"
+      ],
+      "keywords": [
+        "blood donation",
+        "active citizen"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 9 – Being an Active Citizen, 9.2 Being a Good and Active Citizen, p. 126",
+        "topic": "9.2 Being a Good and Active Citizen",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 9 – Being an Active Citizen",
+        "section": "9.2 Being a Good and Active Citizen",
+        "page": "126",
+        "pdf_page": 133,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q09",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 9,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following statement is <u>not</u> a respectful behavior?",
+      "options": {
+        "A": "I listen attentively when someone is talking to me.",
+        "B": "I say “Please!” whenever I ask someone for help.",
+        "C": "I make fun of people when they do things that I don’t like.",
+        "D": "I say, “thank you!” whenever someone helps me."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Listening, saying 'please' and saying 'thank you' are all ways to show respect (textbook: Citizenship Grade 7, Unit 1).",
+        "Making fun of people hurts them. It is not respectful. Answer: C."
+      ],
+      "explain_simple": "Laughing at people is not respect.",
+      "tips": [
+        "Respect means treating others the way you want to be treated."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one shows respect?",
+          "options": {
+            "A": "Interrupting a speaker",
+            "B": "Saying 'thank you'",
+            "C": "Shouting at a friend",
+            "D": "Laughing at a mistake"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Saying 'thank you' is respectful. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-respect"
+      ],
+      "keywords": [
+        "respect",
+        "good manners"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 7 textbook – Unit 1 – Being Respectful, Being Respectful, p. 1",
+        "topic": "Being Respectful",
+        "subject": "Citizenship Education",
+        "grade": 7,
+        "unit": "Unit 1 – Being Respectful",
+        "section": "Being Respectful",
+        "page": "1",
+        "pdf_page": 7,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q10",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 10,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Who can be a good model from the following persons?",
+      "options": {
+        "A": "A person who doesn’t respect the law.",
+        "B": "A trader who doesn’t pay taxes.",
+        "C": "A soldier who fulfills his/her duty",
+        "D": "A young person who do not participate in communal activities."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A good model (role model) is a person whose good actions we copy.",
+        "A soldier who does his or her duty serves the country. The others break the law, avoid taxes or do not help the community. Answer: C."
+      ],
+      "explain_simple": "A soldier who does his or her duty is a good example for others.",
+      "tips": [
+        "A role model does good things that others can copy."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which person is a good role model?",
+          "options": {
+            "A": "A student who cheats",
+            "B": "A doctor who helps the poor for free",
+            "C": "A driver who breaks traffic rules",
+            "D": "A worker who is always late"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Helping the poor is a good example. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-patriots-heroes"
+      ],
+      "keywords": [
+        "role model",
+        "duty"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 6 – We are Patriots, 6.1 Patriotic role models, p. 90",
+        "topic": "6.1 Patriotic role models",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 6 – We are Patriots",
+        "section": "6.1 Patriotic role models",
+        "page": "90",
+        "pdf_page": 97,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q11",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 11,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In the referendum ___________ of the voters said, “Yes” for independence.",
+      "options": {
+        "A": "100%",
+        "B": "99.8%",
+        "C": "98.9%",
+        "D": "97.9%"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "In the referendum of April 1993, 99.8% of the voters said 'YES' to independence (textbook: Citizenship Grade 6, p. 64).",
+        "Answer: B. (The same question is in the Grade 6 textbook review, p. 74.)"
+      ],
+      "explain_simple": "99.8% of the voters said 'Yes'.",
+      "tips": [
+        "Referendum 1993: 99.8% 'Yes'."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In which year was the Eritrean referendum held?",
+          "options": {
+            "A": "1991",
+            "B": "1993",
+            "C": "1961",
+            "D": "1998"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The referendum was held in April 1993. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-referendum"
+      ],
+      "keywords": [
+        "referendum",
+        "99.8%",
+        "independence"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 5 – The State of Eritrea, The referendum, p. 64",
+        "topic": "The referendum",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 5 – The State of Eritrea",
+        "section": "The referendum",
+        "page": "64",
+        "pdf_page": 70,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q12",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 12,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "When people do what they are supposed to do, it is called ___________",
+      "options": {
+        "A": "Right",
+        "B": "Responsibility",
+        "C": "Work",
+        "D": "A and B"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "A responsibility is a duty, something someone should do (textbook: Citizenship Grade 6, p. 103).",
+        "A right is something we are allowed to have or do. So the answer is responsibility. Answer: B."
+      ],
+      "explain_simple": "Doing what you should do is your responsibility.",
+      "tips": [
+        "Right = what you may have; responsibility = what you must do."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Going to school and getting an education is a child's:",
+          "options": {
+            "A": "responsibility only",
+            "B": "right",
+            "C": "punishment",
+            "D": "tax"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Education is a right of every child. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-responsibility"
+      ],
+      "keywords": [
+        "responsibility",
+        "duty",
+        "rights"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 8 – Rules, Rights and Responsibilities, Rules, rights and responsibilities, p. 103",
+        "topic": "Rules, rights and responsibilities",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 8 – Rules, Rights and Responsibilities",
+        "section": "Rules, rights and responsibilities",
+        "page": "103",
+        "pdf_page": 109,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q13",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 13,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one is <u>not</u> part of the Executive Branch?",
+      "options": {
+        "A": "President",
+        "B": "Assembly",
+        "C": "Cabinet Ministers",
+        "D": "Commissioners"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The Executive Branch consists of the president, the ministers and the commissioners (textbook: Citizenship Grade 6, p. 71).",
+        "The (National) Assembly is the legislative branch. Answer: B."
+      ],
+      "explain_simple": "The Assembly makes laws. It is not part of the executive.",
+      "tips": [
+        "Executive = President + ministers + commissioners."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The National Assembly belongs to the:",
+          "options": {
+            "A": "executive branch",
+            "B": "judicial branch",
+            "C": "legislative branch",
+            "D": "army"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "The Assembly makes laws: legislative. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "c-government"
+      ],
+      "keywords": [
+        "executive branch",
+        "National Assembly"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 5 – The State of Eritrea, Branches of government, p. 71",
+        "topic": "Branches of government",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 5 – The State of Eritrea",
+        "section": "Branches of government",
+        "page": "71",
+        "pdf_page": 77,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q14",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 14,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The following are earlier works of literature in Eritrea, except:",
+      "options": {
+        "A": "Folklores",
+        "B": "Proverbs",
+        "C": "Fables",
+        "D": "Textbooks"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says: the earlier works of literature included translations and collections of folklores, traditional poems, fables and proverbs (Citizenship Grade 8, p. 41).",
+        "Textbooks are not in this list. Answer: D."
+      ],
+      "explain_simple": "Folklores, proverbs and fables are old literature. Textbooks are not.",
+      "tips": [
+        "Early Eritrean literature came from oral traditions: stories, poems, fables and proverbs."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A short wise saying passed from old people to young people is a:",
+          "options": {
+            "A": "drama",
+            "B": "proverb",
+            "C": "novel",
+            "D": "textbook"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "That is a proverb. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-literature"
+      ],
+      "keywords": [
+        "literature",
+        "folklore",
+        "proverbs",
+        "fables"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 3 – Knowing our Culture and Society, 3.4 Eritrean Literature, p. 41",
+        "topic": "3.4 Eritrean Literature",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 3 – Knowing our Culture and Society",
+        "section": "3.4 Eritrean Literature",
+        "page": "41",
+        "pdf_page": 48,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q15",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 15,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One of the following revolutions was against slavery:",
+      "options": {
+        "A": "The French Revolution",
+        "B": "The Algerian Revolution",
+        "C": "The Haiti Revolution",
+        "D": "The American Revolution"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook says the Haitian Revolution of 1791 was against slavery. It was led by the slaves against the French colonialists (Citizenship Grade 8, p. 49).",
+        "The Algerian revolution was against French colonial rule; the French revolution was against the king. Answer: C."
+      ],
+      "explain_simple": "The slaves of Haiti fought against slavery.",
+      "tips": [
+        "Haiti → slavery; Algeria → French colonialism; France → the king."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Haiti became independent in:",
+          "options": {
+            "A": "1789",
+            "B": "1804",
+            "C": "1962",
+            "D": "1991"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Haiti became independent in 1804. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-world-revolutions"
+      ],
+      "keywords": [
+        "Haiti Revolution",
+        "slavery"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 4 – The Eritrean Revolution, 4.2 Revolutions around the World, p. 49",
+        "topic": "4.2 Revolutions around the World",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "4.2 Revolutions around the World",
+        "page": "49",
+        "pdf_page": 56,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q16",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 16,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one is different from the others?",
+      "options": {
+        "A": "The Russian Revolution",
+        "B": "The Chinese Revolution.",
+        "C": "The French Revolution",
+        "D": "The Vietnamese revolution"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The Grade 6 textbook (p. 47) says: some countries revolted against their own governments, for example the Russian, the French and the Chinese revolutions.",
+        "Other revolutions, like the Eritrean, Algerian and Vietnamese revolutions, were against colonial governments.",
+        "So the Vietnamese revolution is the different one. Answer: D."
+      ],
+      "explain_simple": "Russia, France and China fought their own governments. Vietnam fought a colonial government.",
+      "tips": [
+        "Group revolutions into two kinds: against their own government, or against colonisers."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which revolution was against a colonial government?",
+          "options": {
+            "A": "The French Revolution",
+            "B": "The Russian Revolution",
+            "C": "The Algerian Revolution",
+            "D": "The Chinese Revolution"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Algeria fought French colonial rule. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "c-world-revolutions"
+      ],
+      "keywords": [
+        "revolutions",
+        "colonial government",
+        "Vietnamese Revolution"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 4 – The Eritrean Revolution, Revolutions (against own governments / against colonial governments), p. 47",
+        "topic": "Revolutions (against own governments / against colonial governments)",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "Revolutions (against own governments / against colonial governments)",
+        "page": "47",
+        "pdf_page": 53,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "The question gives no criterion. Keyed D from the textbook grouping (G6 p.47: Russian, French, Chinese = against their own governments; Vietnamese = against colonial rule). A student could also argue C (the French Revolution is the only 18th-century, non-communist one)."
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q17",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 17,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One is <u>wrong</u> about the Eritrean liberation struggle period:",
+      "options": {
+        "A": "Roads, hospitals, schools, houses, factories and farmlands were destroyed.",
+        "B": "Eritreans were forced to leave their country and live as refugees.",
+        "C": "The Eritrean people had everything they needed to work, learn and prosper.",
+        "D": "Tens of thousands of defenseless children, women and men were killed."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "During the 30-year struggle there was great destruction: people were killed, property was destroyed and many became refugees (textbook: Citizenship Grade 6, p. 61).",
+        "So it is wrong to say the people had everything they needed to prosper. Answer: C."
+      ],
+      "explain_simple": "During the war, life was very hard. People did not have everything they needed.",
+      "tips": [
+        "Look for the option that does not fit a time of war."
+      ],
+      "similar_questions": [
+        {
+          "stem": "During the liberation struggle many Eritreans had to live in other countries as:",
+          "options": {
+            "A": "tourists",
+            "B": "refugees",
+            "C": "traders",
+            "D": "students only"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "They were refugees. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-armed-struggle"
+      ],
+      "keywords": [
+        "liberation struggle",
+        "refugees",
+        "destruction"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 4 – The Eritrean Revolution, The Eritrean Revolution – the price of freedom, p. 61",
+        "topic": "The Eritrean Revolution – the price of freedom",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "The Eritrean Revolution – the price of freedom",
+        "page": "61",
+        "pdf_page": 67,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q18",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 18,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One of the following is <u>not</u> true about the Eritrean Revolution:",
+      "options": {
+        "A": "It was a revolution which was conducted to change the government.",
+        "B": "It was a popular revolution.",
+        "C": "It had a just cause.",
+        "D": "It was resilient revolution."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook groups the Eritrean Revolution with revolutions against colonial governments: Eritreans fought to get their independence, not only to change a government (Citizenship Grade 6, p. 47).",
+        "It was popular (the people took part), just, and resilient (it won after many challenges – Citizenship Grade 8, p. 51). Answer: A."
+      ],
+      "explain_simple": "The Eritrean Revolution was for independence from colonisers, not just to change a government.",
+      "tips": [
+        "The Eritrean Revolution: popular, just, resilient, for independence."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Eritrean armed struggle is called resilient because:",
+          "options": {
+            "A": "it was short",
+            "B": "it won after overcoming many challenges",
+            "C": "it had foreign armies",
+            "D": "it had no martyrs"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It came to victory after overcoming numerous challenges. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-armed-struggle"
+      ],
+      "keywords": [
+        "Eritrean Revolution",
+        "resilient",
+        "just cause"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 4 – The Eritrean Revolution, 4.3 The Eritrean Revolution – resilience, p. 51",
+        "topic": "4.3 The Eritrean Revolution – resilience",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "4.3 The Eritrean Revolution – resilience",
+        "page": "51",
+        "pdf_page": 58,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q19",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 19,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Referendum was conducted:",
+      "options": {
+        "A": "because the Europeans forced Eritrea to do so.",
+        "B": "to show the world the downfall of the Dergue.",
+        "C": "because there was a doubt that the Eritrean people might vote against independence.",
+        "D": "to make our independence legal and get international recognition"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "After liberation in 1991, a referendum was held in April 1993 so that independence would be legal and recognised by the world (textbook: Citizenship Grade 6, pp. 64–65; Grade 8, p. 67).",
+        "There was no doubt about the people's choice (99.8% said 'Yes'). Answer: D."
+      ],
+      "explain_simple": "The referendum made independence legal and brought world recognition.",
+      "tips": [
+        "Referendum → legal independence → international recognition."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The referendum of 1993 was supervised to show that the vote was:",
+          "options": {
+            "A": "secret and fair",
+            "B": "forced",
+            "C": "only for soldiers",
+            "D": "cancelled"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The vote was free and fair. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-referendum"
+      ],
+      "keywords": [
+        "referendum",
+        "international recognition"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 5 – The State of Eritrea, The referendum, p. 64-65",
+        "topic": "The referendum",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 5 – The State of Eritrea",
+        "section": "The referendum",
+        "page": "64-65",
+        "pdf_page": 70,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q20",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 20,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Eritrea has officially declared its independence on:",
+      "options": {
+        "A": "Sept. 1, 1961.",
+        "B": "May 24, 1991.",
+        "C": "June 20, 1991.",
+        "D": "May 24, 1993"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Eritrea was liberated on 24 May 1991, but it officially declared its independence on 24 May 1993, after the referendum (textbook: Citizenship Grade 8, p. 70).",
+        "Answer: D. (Sept. 1, 1961 is the start of the armed struggle.)"
+      ],
+      "explain_simple": "Independence was officially declared on 24 May 1993, after the referendum.",
+      "tips": [
+        "1991 = liberation; 1993 = referendum and official independence."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Eritrea was liberated from Ethiopian rule on:",
+          "options": {
+            "A": "May 24, 1991",
+            "B": "May 24, 1993",
+            "C": "September 1, 1961",
+            "D": "June 20, 1991"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Liberation day was 24 May 1991. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-referendum"
+      ],
+      "keywords": [
+        "independence",
+        "May 24, 1993"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 5 – The Birth of the Free State of Eritrea, The birth of the free State of Eritrea, p. 70",
+        "topic": "The birth of the free State of Eritrea",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 5 – The Birth of the Free State of Eritrea",
+        "section": "The birth of the free State of Eritrea",
+        "page": "70",
+        "pdf_page": 77,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q21",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 21,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______________ has been declared a national holiday for the purpose of honoring and showing respect to all those who died struggling for the nation’s freedom.",
+      "options": {
+        "A": "Independence Day",
+        "B": "Labor Day",
+        "C": "Martyrs Day",
+        "D": "Women’s Day"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "People who died for the nation's freedom are called martyrs. Martyrs Day (20 June) has been declared a national holiday to honour them (textbook: Citizenship Grade 8, p. 106).",
+        "Answer: C."
+      ],
+      "explain_simple": "Martyrs Day honours the people who died for our freedom.",
+      "tips": [
+        "Martyr = a person who died for the country."
+      ],
+      "similar_questions": [
+        {
+          "stem": "On which date is Martyrs Day?",
+          "options": {
+            "A": "May 24",
+            "B": "June 20",
+            "C": "September 1",
+            "D": "March 8"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "June 20. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-holidays"
+      ],
+      "keywords": [
+        "Martyrs Day",
+        "national holiday"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 7 – Symbols of National Identity, 7.2.2 Martyrs' Day, p. 103-106",
+        "topic": "7.2.2 Martyrs' Day",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 7 – Symbols of National Identity",
+        "section": "7.2.2 Martyrs' Day",
+        "page": "103-106",
+        "pdf_page": 110,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q22",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 22,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The voting of people during an election of people’s representative for the National Assembly is:",
+      "options": {
+        "A": "A social right",
+        "B": "A political right",
+        "C": "A cultural right",
+        "D": "An economic right"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Rights about taking part in government – voting, being elected – are political rights (textbook: Citizenship Grade 8, p. 73).",
+        "Answer: B."
+      ],
+      "explain_simple": "Voting in an election is a political right.",
+      "tips": [
+        "Politics is about government, so voting is political."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The right to own property and work is mainly an:",
+          "options": {
+            "A": "economic right",
+            "B": "political right",
+            "C": "cultural right",
+            "D": "religious right"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Work and property are economic. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-government"
+      ],
+      "keywords": [
+        "political rights",
+        "voting",
+        "election"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 5 – The Birth of the Free State of Eritrea, Democracy – political rights, p. 73",
+        "topic": "Democracy – political rights",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 5 – The Birth of the Free State of Eritrea",
+        "section": "Democracy – political rights",
+        "page": "73",
+        "pdf_page": 80,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q23",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 23,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One of the following is <u>not</u> the means of expressing our patriotism.",
+      "options": {
+        "A": "Rehearsing patriotic songs.",
+        "B": "Being part of community activities.",
+        "C": "Reading books about our armed struggle.",
+        "D": "Destroying public properties."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Patriotism is love of your country (textbook: Citizenship Grade 6, p. 80).",
+        "Singing patriotic songs, joining community work and learning our history show this love. Destroying public property harms the country. Answer: D."
+      ],
+      "explain_simple": "A patriot protects public property. Destroying it is not patriotism.",
+      "tips": [
+        "Patriotism = love of the country, shown by actions that help it."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which action shows patriotism?",
+          "options": {
+            "A": "Planting trees in your village",
+            "B": "Wasting water",
+            "C": "Writing on school walls",
+            "D": "Breaking street lights"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Planting trees helps the country. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-patriots-heroes"
+      ],
+      "keywords": [
+        "patriotism",
+        "public property"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 6 – Becoming a Young Eritrean Patriot, Patriotism, p. 80",
+        "topic": "Patriotism",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 6 – Becoming a Young Eritrean Patriot",
+        "section": "Patriotism",
+        "page": "80",
+        "pdf_page": 86,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q24",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 24,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The following are some ways of respecting our national flag, <u>except</u>:",
+      "options": {
+        "A": "The flag should usually be hoisted from sunrise to sunset.",
+        "B": "The flag should never touch the ground.",
+        "C": "Anyone who wears a hat should remove it during flag ceremony.",
+        "D": "The flag should be waved upside down."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook rules include: hoist the flag from sunrise to sunset; it should never touch the ground; it should never be waved upside down (Citizenship Grade 8, pp. 98–99).",
+        "So waving it upside down is not respectful. Answer: D."
+      ],
+      "explain_simple": "The flag must never be upside down.",
+      "tips": [
+        "Learn the flag rules: sunrise to sunset, never on the ground, never upside down."
+      ],
+      "similar_questions": [
+        {
+          "stem": "During the flag ceremony, students should:",
+          "options": {
+            "A": "talk and play",
+            "B": "stand still and sing the national anthem",
+            "C": "sit on the ground",
+            "D": "walk away"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Students stand still and sing the anthem. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-flag"
+      ],
+      "keywords": [
+        "national flag",
+        "respect for the flag"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 7 – Symbols of National Identity, Respecting our national flag, p. 98-99",
+        "topic": "Respecting our national flag",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 7 – Symbols of National Identity",
+        "section": "Respecting our national flag",
+        "page": "98-99",
+        "pdf_page": 105,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q25",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 25,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The statement “All boys hate to cook” expresses",
+      "options": {
+        "A": "stereotype",
+        "B": "prejudice",
+        "C": "etiquette",
+        "D": "respect."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "A stereotype is an oversimplified statement about all members of a group (textbook: Citizenship Grade 8, p. 37).",
+        "'All boys hate to cook' says the same thing about every boy. That is a stereotype. Answer: A.",
+        "Prejudice is to pre-judge or form an opinion before knowing a person; etiquette means good manners."
+      ],
+      "explain_simple": "Saying 'all boys' are the same is a stereotype.",
+      "tips": [
+        "Words like 'all' or 'every' about a group often show a stereotype."
+      ],
+      "similar_questions": [
+        {
+          "stem": "'All girls are bad at football' is an example of:",
+          "options": {
+            "A": "etiquette",
+            "B": "a stereotype",
+            "C": "a proverb",
+            "D": "respect"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It is an oversimplified statement about all girls. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-harmony-stereotype"
+      ],
+      "keywords": [
+        "stereotype",
+        "prejudice"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 3 – Knowing our Culture and Society, Stereotype and prejudice, p. 37",
+        "topic": "Stereotype and prejudice",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 3 – Knowing our Culture and Society",
+        "section": "Stereotype and prejudice",
+        "page": "37",
+        "pdf_page": 44,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q26",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 26,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The following are the possible consequences of wrongful acts, <u>except</u>:",
+      "options": {
+        "A": "Loss of opportunity",
+        "B": "Imprisonment",
+        "C": "Feeling guilty",
+        "D": "Promotion"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Wrong acts bring bad results: losing opportunities, prison and feeling guilty (textbook: Citizenship Grade 8, Unit 8).",
+        "Promotion (moving up to a better job or class) is a reward for good work, not a result of wrongdoing. Answer: D."
+      ],
+      "explain_simple": "Promotion is a reward. It does not come from doing wrong.",
+      "tips": [
+        "Consequences of wrong acts are always bad."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is a possible consequence of stealing?",
+          "options": {
+            "A": "Getting a prize",
+            "B": "Imprisonment",
+            "C": "Promotion",
+            "D": "Respect from everyone"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Stealing can lead to prison. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-right-wrong"
+      ],
+      "keywords": [
+        "consequences",
+        "wrongful acts"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 8 – Our Acts and their Consequences: Right and Wrong, 8.1 Doing the Right Thing – consequences, p. 110-111",
+        "topic": "8.1 Doing the Right Thing – consequences",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 8 – Our Acts and their Consequences: Right and Wrong",
+        "section": "8.1 Doing the Right Thing – consequences",
+        "page": "110-111",
+        "pdf_page": 117,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q27",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 27,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Who is not considered a hero/heroine from the following?",
+      "options": {
+        "A": "A person who sacrifices his/her life for the benefit of the people.",
+        "B": "An athlete who wins representing his/her country on international competitions",
+        "C": "A person who collaborates with an enemy",
+        "D": "A person who works and helps his/her community with his/her expertise."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A hero or heroine does brave or great things for the people and the country (textbook: Citizenship Grade 6, p. 50).",
+        "A person who works with the enemy betrays the people. He or she is not a hero. Answer: C."
+      ],
+      "explain_simple": "Helping the enemy is betrayal, not heroism.",
+      "tips": [
+        "Heroes work FOR their people; collaborators work WITH the enemy."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which person is a hero?",
+          "options": {
+            "A": "A fighter who died for independence",
+            "B": "A spy for the enemy",
+            "C": "A thief",
+            "D": "A lazy worker"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "A fighter who died for the people is a hero. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-patriots-heroes"
+      ],
+      "keywords": [
+        "hero",
+        "collaborator"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 4 – The Eritrean Revolution, 4.2 Honoring our Heroes, p. 50",
+        "topic": "4.2 Honoring our Heroes",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "4.2 Honoring our Heroes",
+        "page": "50",
+        "pdf_page": 56,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q28",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 28,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Identify the statement which <u>does not</u> promote religious harmony.",
+      "options": {
+        "A": "A boy tells his girl-friend that his religion is better than hers.",
+        "B": "People of all religions take part in peace march after a riot.",
+        "C": "A girl asked her friend to tell her about religious feasts in her village.",
+        "D": "Schools teach about the basic values that are common to all religions."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Religious harmony means people of different religions live together peacefully (textbook: Citizenship Grade 7, p. 41 lists these same examples).",
+        "Saying 'my religion is better than yours' can cause conflict. Answer: A."
+      ],
+      "explain_simple": "Saying your religion is better than someone else's does not help peace.",
+      "tips": [
+        "Harmony comes from learning about and respecting other religions."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which action helps religious harmony?",
+          "options": {
+            "A": "Laughing at other people's feasts",
+            "B": "Visiting a friend on his religious holiday",
+            "C": "Refusing to eat with others",
+            "D": "Saying only one religion is good"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Visiting a friend on his holiday shows respect. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-harmony-stereotype"
+      ],
+      "keywords": [
+        "religious harmony"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 7 textbook – Unit 3 – Knowing about our Culture and Society, Religious harmony, p. 41",
+        "topic": "Religious harmony",
+        "subject": "Citizenship Education",
+        "grade": 7,
+        "unit": "Unit 3 – Knowing about our Culture and Society",
+        "section": "Religious harmony",
+        "page": "41",
+        "pdf_page": 47,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q29",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 29,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is not <u>true</u> about self-control?",
+      "options": {
+        "A": "Self-control is the ability to control our emotions, words, actions and desires.",
+        "B": "Self-control is to react forcefully when someone do not agree with your idea.",
+        "C": "Self-control is to show determination and commitment to achieve our goals.",
+        "D": "Self control is what you do when no one is watching."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook: 'Self-control is the ability to control our emotions, words, actions and desires' (Citizenship Grade 8, p. 1).",
+        "Reacting forcefully (angrily) when someone disagrees shows a LACK of self-control. Answer: B."
+      ],
+      "explain_simple": "Getting angry and forceful is not self-control.",
+      "tips": [
+        "Self-control = stop, think, then act calmly."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which shows self-control?",
+          "options": {
+            "A": "Shouting at a friend",
+            "B": "Counting to ten before answering when angry",
+            "C": "Hitting someone who disagrees",
+            "D": "Breaking things"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Calming down before answering is self-control. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-self-control"
+      ],
+      "keywords": [
+        "self-control",
+        "emotions"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 1 – A Disciplined Young Person, 1.1 Self-control, p. 1",
+        "topic": "1.1 Self-control",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 1 – A Disciplined Young Person",
+        "section": "1.1 Self-control",
+        "page": "1",
+        "pdf_page": 8,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q30",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 30,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one of the following statements is a quality of a good student?",
+      "options": {
+        "A": "As long as I score good marks in the exam, I don’t care what others say about me.",
+        "B": "School is only for gifted students, so I better not waste my time attending classes.",
+        "C": "To look after school properties is the job of the school guards and teachers, so I don’t care if they are destroyed.",
+        "D": "Our semester exam is approaching, so I must reduce my playing time and concentrate on my studies."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Good students plan their time and study hard, care about others and about school property (textbook: Citizenship Grade 6, pp. 19–30).",
+        "Reducing playing time to study before an exam is good time management. Answer: D."
+      ],
+      "explain_simple": "A good student studies more when the exam is near.",
+      "tips": [
+        "Good students manage their time and care for school property."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A good student:",
+          "options": {
+            "A": "comes late every day",
+            "B": "does homework on time",
+            "C": "damages desks",
+            "D": "copies from others"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Doing homework on time is a good habit. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-good-student"
+      ],
+      "keywords": [
+        "good student",
+        "time management"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 2 – A Good Student, A Good Student – qualities of good students, p. 30",
+        "topic": "A Good Student – qualities of good students",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 2 – A Good Student",
+        "section": "A Good Student – qualities of good students",
+        "page": "30",
+        "pdf_page": 36,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q31",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 31,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One of the following is <u>not</u> a feature of the Afar culture.",
+      "options": {
+        "A": "Ari",
+        "B": "Ablo",
+        "C": "Maawez",
+        "D": "Dagu"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Afar culture (textbook: Citizenship Grade 7, pp. 35–36): the house is called 'Ari', the dress is called 'Maawez', and sharing news with people you meet is called 'dagu'.",
+        "The 'Ablo' is a traditional house of the Saho. Answer: B."
+      ],
+      "explain_simple": "Ablo is a Saho house. Ari, Maawez and Dagu are Afar.",
+      "tips": [
+        "Learn one or two cultural words for each ethnic group."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The traditional house of the Rashaida is called:",
+          "options": {
+            "A": "Khema",
+            "B": "Ari",
+            "C": "Ablo",
+            "D": "Wohumar"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The Rashaida house is the Khema (tent). Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-ethnic-groups"
+      ],
+      "keywords": [
+        "Afar culture",
+        "Ari",
+        "Maawez",
+        "dagu",
+        "Ablo",
+        "Saho"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 7 textbook – Unit 3 – Knowing about our Culture and Society, Cultures of the ethnic groups (traditional houses, dress), p. 35-36",
+        "topic": "Cultures of the ethnic groups (traditional houses, dress)",
+        "subject": "Citizenship Education",
+        "grade": 7,
+        "unit": "Unit 3 – Knowing about our Culture and Society",
+        "section": "Cultures of the ethnic groups (traditional houses, dress)",
+        "page": "35-36",
+        "pdf_page": 41,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q32",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 32,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one of the following actions shows an act of self-control?",
+      "options": {
+        "A": "Yelling at others when feeling angry.",
+        "B": "Thinking before acting.",
+        "C": "Working without having a plan",
+        "D": "Behaving when only others are looking."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Self-control means controlling our emotions, words and actions (textbook: Citizenship Grade 8, p. 1).",
+        "Thinking before acting is self-control. Yelling, working without a plan and behaving well only when watched are not. Answer: B."
+      ],
+      "explain_simple": "Thinking before you act is self-control.",
+      "tips": [
+        "Self-control works even when no one is watching."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Your friend takes your pen without asking. What shows self-control?",
+          "options": {
+            "A": "Hit him",
+            "B": "Shout at him",
+            "C": "Calmly ask him to return it",
+            "D": "Take his bag"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Asking calmly shows self-control. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "c-self-control"
+      ],
+      "keywords": [
+        "self-control"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 1 – A Disciplined Young Person, 1.1 Self-control, p. 1",
+        "topic": "1.1 Self-control",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 1 – A Disciplined Young Person",
+        "section": "1.1 Self-control",
+        "page": "1",
+        "pdf_page": 8,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q33",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 33,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If you exercise self-control then you learn to become:",
+      "options": {
+        "A": "Irresponsible",
+        "B": "criminal",
+        "C": "violent",
+        "D": "respectful"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Self-control helps us behave well towards others (textbook: Citizenship Grade 8, p. 9, 'The benefits of self-control').",
+        "It makes a person respectful. The other options are results of NO self-control. Answer: D."
+      ],
+      "explain_simple": "Self-control makes you respectful.",
+      "tips": [
+        "Pick the positive word."
+      ],
+      "similar_questions": [
+        {
+          "stem": "One benefit of self-control is:",
+          "options": {
+            "A": "more fights",
+            "B": "good relations with others",
+            "C": "anger",
+            "D": "punishment"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Self-control helps us keep good relations. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-self-control"
+      ],
+      "keywords": [
+        "self-control",
+        "respectful"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 1 – A Disciplined Young Person, 1.3 The Benefits of Self-control, p. 9",
+        "topic": "1.3 The Benefits of Self-control",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 1 – A Disciplined Young Person",
+        "section": "1.3 The Benefits of Self-control",
+        "page": "9",
+        "pdf_page": 16,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q34",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 34,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "_________are stories with animals as characters and deliver moral lessons.",
+      "options": {
+        "A": "Poems",
+        "B": "Fables",
+        "C": "Dramas",
+        "D": "Songs"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "A fable is a short story, usually with animals as characters, that teaches a moral lesson (textbook: Citizenship Grade 8, pp. 41–42).",
+        "Answer: B."
+      ],
+      "explain_simple": "Fables are animal stories that teach a lesson.",
+      "tips": [
+        "Fable = animals + a lesson."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The story of 'The Lion and the Mouse', which teaches that small friends can help, is a:",
+          "options": {
+            "A": "fable",
+            "B": "poem",
+            "C": "news report",
+            "D": "textbook"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "An animal story with a lesson is a fable. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-literature"
+      ],
+      "keywords": [
+        "fables",
+        "literature"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 3 – Knowing our Culture and Society, 3.4 Eritrean Literature, p. 41-42",
+        "topic": "3.4 Eritrean Literature",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 3 – Knowing our Culture and Society",
+        "section": "3.4 Eritrean Literature",
+        "page": "41-42",
+        "pdf_page": 48,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q35",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 35,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The Algerian Revolution was a protest against the __________colonial government.",
+      "options": {
+        "A": "British",
+        "B": "French",
+        "C": "Italian",
+        "D": "Portuguese"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Algeria was a colony of France. The Algerians fought the French colonial government from 1954 to 1962 (textbook: Citizenship Grade 8, p. 49; Grade 7, p. 46).",
+        "Answer: B."
+      ],
+      "explain_simple": "Algeria fought against France.",
+      "tips": [
+        "Algeria and Haiti were both French colonies."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Algeria became independent in:",
+          "options": {
+            "A": "1954",
+            "B": "1962",
+            "C": "1804",
+            "D": "1991"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Algeria became independent in July 1962. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-world-revolutions"
+      ],
+      "keywords": [
+        "Algerian Revolution",
+        "French colonialism"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 4 – The Eritrean Revolution, 4.2 Revolutions around the World, p. 49",
+        "topic": "4.2 Revolutions around the World",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "4.2 Revolutions around the World",
+        "page": "49",
+        "pdf_page": 56,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q36",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 36,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The event which is known in the Eritrean history as the ‘Strategic Withdrawal’ took place in",
+      "options": {
+        "A": "1978.",
+        "B": "1980",
+        "C": "1974",
+        "D": "1979"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook calls it 'the Strategic Withdrawal of 1978' (Citizenship Grade 8, p. 53; Grade 7, p. 63).",
+        "Answer: A."
+      ],
+      "explain_simple": "The Strategic Withdrawal was in 1978.",
+      "tips": [
+        "Make a timeline: 1961 start, 1978 withdrawal, 1982 Red Star, 1988 Afabet/She'eb, 1990 Fenkil, 1991 liberation."
+      ],
+      "similar_questions": [
+        {
+          "stem": "After the strategic withdrawal of 1978, the EPLF went to its base in:",
+          "options": {
+            "A": "Sahel",
+            "B": "Asmara",
+            "C": "Assab",
+            "D": "Keren town"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The fighters withdrew to the base in Sahel. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-armed-struggle"
+      ],
+      "keywords": [
+        "Strategic Withdrawal",
+        "1978"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 4 – The Eritrean Revolution, 4.3 The Eritrean Revolution – Strategic Withdrawal, p. 53",
+        "topic": "4.3 The Eritrean Revolution – Strategic Withdrawal",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "4.3 The Eritrean Revolution – Strategic Withdrawal",
+        "page": "53",
+        "pdf_page": 60,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q37",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 37,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The 6th Offensive during the Eritrean armed struggle is also known as the",
+      "options": {
+        "A": "Massacre",
+        "B": "Elimination",
+        "C": "Red Star Campaign",
+        "D": "Revolution"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook: 'The 6th Offensive which is also known as the Red Star Campaign' (Citizenship Grade 8, p. 54). It was launched in 1982 and failed.",
+        "Answer: C."
+      ],
+      "explain_simple": "The 6th Offensive was called the Red Star Campaign.",
+      "tips": [
+        "6th Offensive = Red Star (1982)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Red Star Campaign (6th Offensive) took place in:",
+          "options": {
+            "A": "1978",
+            "B": "1982",
+            "C": "1990",
+            "D": "1961"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It was launched in 1982. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-armed-struggle"
+      ],
+      "keywords": [
+        "6th Offensive",
+        "Red Star Campaign"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 4 – The Eritrean Revolution, 4.3 The Eritrean Revolution – the 6th Offensive, p. 54",
+        "topic": "4.3 The Eritrean Revolution – the 6th Offensive",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "4.3 The Eritrean Revolution – the 6th Offensive",
+        "page": "54",
+        "pdf_page": 61,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q38",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 38,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The Eritrean armed struggle ended in",
+      "options": {
+        "A": "April 1993",
+        "B": "May 1993",
+        "C": "May 1991",
+        "D": "March 1989"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The armed struggle lasted 30 years, from 1961 to 1991. Eritrea was liberated on 24 May 1991 (textbook: Citizenship Grade 6, p. 52).",
+        "April/May 1993 is the referendum and official independence, not the end of the fighting. Answer: C."
+      ],
+      "explain_simple": "The fighting ended with liberation in May 1991.",
+      "tips": [
+        "30 years: 1961 + 30 = 1991."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How many years did the Eritrean armed struggle last?",
+          "options": {
+            "A": "10",
+            "B": "20",
+            "C": "30",
+            "D": "40"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "1961 to 1991 = 30 years. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "c-armed-struggle"
+      ],
+      "keywords": [
+        "end of armed struggle",
+        "May 1991",
+        "liberation"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 4 – The Eritrean Revolution, The Eritrean Revolution – independence, p. 52",
+        "topic": "The Eritrean Revolution – independence",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "The Eritrean Revolution – independence",
+        "page": "52",
+        "pdf_page": 58,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q39",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 39,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The place where the Eritrean armed struggle started",
+      "options": {
+        "A": "Hamid Idris Awate",
+        "B": "Mount Embasoyra",
+        "C": "Mount Adal",
+        "D": "Mount Denden"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Hamid Idris Awate shot the first bullet at Mount Adal on 1 September 1961 (textbook: Citizenship Grade 6, p. 53).",
+        "Hamid Idris Awate is a person, not a place. Answer: C."
+      ],
+      "explain_simple": "The struggle started at Mount Adal.",
+      "tips": [
+        "Awate = the person; Adal = the place; 1 September 1961 = the date."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who fired the first bullet of the Eritrean armed struggle?",
+          "options": {
+            "A": "Hamid Idris Awate",
+            "B": "Zemat wed Ekud",
+            "C": "Abdu Mohamed Faid",
+            "D": "Ibrahim Sultan"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Hamid Idris Awate. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-armed-struggle"
+      ],
+      "keywords": [
+        "Mount Adal",
+        "Hamid Idris Awate",
+        "start of armed struggle"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 4 – The Eritrean Revolution, The start of the armed struggle, p. 53",
+        "topic": "The start of the armed struggle",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "The start of the armed struggle",
+        "page": "53",
+        "pdf_page": 59,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q40",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 40,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One is <u>not</u> the national principles of the State of Eritrea.",
+      "options": {
+        "A": "social justice",
+        "B": "unity",
+        "C": "self-reliance",
+        "D": "individualism"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The national principles of the State of Eritrea include unity, social justice and self-reliance (textbook: Citizenship Grade 6, p. 65; Grade 7, pp. 73–75).",
+        "Individualism (thinking only about yourself) is the opposite of unity. Answer: D."
+      ],
+      "explain_simple": "Unity, social justice and self-reliance are our principles. Individualism is not.",
+      "tips": [
+        "Our principles bring people together; individualism separates them."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Solving our own problems with our own resources is the principle of:",
+          "options": {
+            "A": "self-reliance",
+            "B": "individualism",
+            "C": "colonialism",
+            "D": "anarchy"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "That is self-reliance. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-principles"
+      ],
+      "keywords": [
+        "national principles",
+        "unity",
+        "social justice",
+        "self-reliance"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 5 – The State of Eritrea, 5.3 The National Principles of the State of Eritrea, p. 65",
+        "topic": "5.3 The National Principles of the State of Eritrea",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 5 – The State of Eritrea",
+        "section": "5.3 The National Principles of the State of Eritrea",
+        "page": "65",
+        "pdf_page": 71,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q41",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 41,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In which branch of government is the President of Eritrea included?",
+      "options": {
+        "A": "The Legislative",
+        "B": "The Judicial",
+        "C": "The Executive",
+        "D": "A&B"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The Executive Branch consists of the president, the ministers and the commissioners (textbook: Citizenship Grade 6, p. 71).",
+        "Answer: C."
+      ],
+      "explain_simple": "The President is part of the executive branch.",
+      "tips": [
+        "The President leads the executive."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Cabinet ministers belong to the:",
+          "options": {
+            "A": "executive branch",
+            "B": "legislative branch",
+            "C": "judicial branch",
+            "D": "courts"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Ministers are part of the executive. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-government"
+      ],
+      "keywords": [
+        "executive branch",
+        "President"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 5 – The State of Eritrea, Branches of government, p. 71",
+        "topic": "Branches of government",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 5 – The State of Eritrea",
+        "section": "Branches of government",
+        "page": "71",
+        "pdf_page": 77,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q42",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 42,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One of the following is <u>wrong</u> about Patriots.",
+      "options": {
+        "A": "keep their land green",
+        "B": "honor their national flag",
+        "C": "work hard to build their country",
+        "D": "think only about today not tomorrow"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Patriots love their country; they work hard for it, protect its land and honour its symbols (textbook: Citizenship Grade 6, p. 77).",
+        "Patriots think about the future of their country, not only about today. Answer: D."
+      ],
+      "explain_simple": "Patriots plan for tomorrow too.",
+      "tips": [
+        "A patriot cares about the country's future."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A patriot:",
+          "options": {
+            "A": "damages forests",
+            "B": "protects the environment",
+            "C": "hates the national flag",
+            "D": "avoids national service"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "A patriot protects the environment. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-patriots-heroes"
+      ],
+      "keywords": [
+        "patriots",
+        "patriotism"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 6 – Becoming a Young Eritrean Patriot, Becoming a Young Eritrean Patriot, p. 77",
+        "topic": "Becoming a Young Eritrean Patriot",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 6 – Becoming a Young Eritrean Patriot",
+        "section": "Becoming a Young Eritrean Patriot",
+        "page": "77",
+        "pdf_page": 83,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q43",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 43,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Who was Zemat wed Ekud?",
+      "options": {
+        "A": "One of the heroes who bravely resisted the Italian colonial rule",
+        "B": "Representative of the Egyptian colonizers.",
+        "C": "A patriot during the Turkish colonial period",
+        "D": "A rich trader during the British colonial period"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook: 'One of the heroes who bravely resisted the Italian colonial rule was Zemat wed Ekud.' He was the Nebtab (chief) of the Tigre people in Barka (Citizenship Grade 8, pp. 90–91).",
+        "He attacked Italian soldiers and died in the Nakura island prison. Answer: A."
+      ],
+      "explain_simple": "Zemat wed Ekud fought against the Italian colonisers.",
+      "tips": [
+        "Zemat wed Ekud: Barka, Tigre chief, poet, against Italy, died in Nakura prison."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Zemat wed Ekud died in:",
+          "options": {
+            "A": "Nakura island prison",
+            "B": "Asmara",
+            "C": "Cairo",
+            "D": "Rome"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The Italians took him to Nakura island prison, where he died. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-patriots-heroes"
+      ],
+      "keywords": [
+        "Zemat wed Ekud",
+        "Italian colonial rule",
+        "resistance"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 6 – We are Patriots, Zemat wed Ekud, p. 90-91",
+        "topic": "Zemat wed Ekud",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 6 – We are Patriots",
+        "section": "Zemat wed Ekud",
+        "page": "90-91",
+        "pdf_page": 97,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q44",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 44,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one of the following is <u>wrong</u> about our national flag?",
+      "options": {
+        "A": "It is a sign of our independence and symbolizes patriotism",
+        "B": "It must be treated with respect at all times.",
+        "C": "It is a symbol of our history and our future.",
+        "D": "Its blue color represents the bloodshed to attain independence"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "In the flag, blue is for the sea; red is for the bloodshed/bravery (textbook: Citizenship Grade 7, p. 92).",
+        "So 'blue represents the bloodshed' is wrong. Answer: D."
+      ],
+      "explain_simple": "Blue is for the sea. Red is for the blood of the martyrs.",
+      "tips": [
+        "Red = blood; blue = sea."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which colour of the Eritrean flag represents the bloodshed in the struggle?",
+          "options": {
+            "A": "Green",
+            "B": "Blue",
+            "C": "Red",
+            "D": "Yellow"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Red represents bloodshed. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "c-flag"
+      ],
+      "keywords": [
+        "national flag",
+        "colours",
+        "blue",
+        "red"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 7 textbook – Unit 7 – Our National Symbols and Holidays, 7.1 Our national flag – meaning of the colours, p. 92",
+        "topic": "7.1 Our national flag – meaning of the colours",
+        "subject": "Citizenship Education",
+        "grade": 7,
+        "unit": "Unit 7 – Our National Symbols and Holidays",
+        "section": "7.1 Our national flag – meaning of the colours",
+        "page": "92",
+        "pdf_page": 98,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q45",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 45,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The She’eb Massacre took place in",
+      "options": {
+        "A": "1991",
+        "B": "1986",
+        "C": "1990",
+        "D": "1988"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook: the She'eb massacre happened on 12 May 1988; Ethiopian soldiers killed defenceless civilians of She'eb in the eastern lowlands (Citizenship Grade 8, pp. 106–107).",
+        "Answer: D."
+      ],
+      "explain_simple": "The She'eb massacre was in 1988.",
+      "tips": [
+        "She'eb: 12 May 1988."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Where is She'eb located?",
+          "options": {
+            "A": "In the eastern lowlands of Eritrea",
+            "B": "In Asmara",
+            "C": "In the Dahlak islands",
+            "D": "In Assab"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "She'eb is in the eastern lowlands. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-armed-struggle"
+      ],
+      "keywords": [
+        "She'eb massacre",
+        "1988"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 7 – Symbols of National Identity, She'eb Massacre, p. 106-107",
+        "topic": "She'eb Massacre",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 7 – Symbols of National Identity",
+        "section": "She'eb Massacre",
+        "page": "106-107",
+        "pdf_page": 113,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q46",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 46,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One is <u>not</u> a feature of a responsible and active citizen",
+      "options": {
+        "A": "Helping others in need",
+        "B": "Respecting the law.",
+        "C": "Does not care about the welfare of others.",
+        "D": "Taking the initiative to clean the environment"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Active citizens help others, respect the law and take action for their community (textbook: Citizenship Grade 8, p. 126).",
+        "Not caring about others is the opposite. Answer: C."
+      ],
+      "explain_simple": "An active citizen cares about other people.",
+      "tips": [
+        "Choose the selfish option in a 'not' question about good citizens."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is a feature of an active citizen?",
+          "options": {
+            "A": "Joining a campaign to clean the school",
+            "B": "Staying away from all community work",
+            "C": "Breaking rules",
+            "D": "Wasting water"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Joining a cleaning campaign is active citizenship. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-good-citizen"
+      ],
+      "keywords": [
+        "active citizen",
+        "responsible citizen"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 9 – Being an Active Citizen, 9.2 Being a Good and Active Citizen, p. 126",
+        "topic": "9.2 Being a Good and Active Citizen",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 9 – Being an Active Citizen",
+        "section": "9.2 Being a Good and Active Citizen",
+        "page": "126",
+        "pdf_page": 133,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q47",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 47,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "_________ is money paid to the government from the income of citizens.",
+      "options": {
+        "A": "Wage",
+        "B": "Tax",
+        "C": "Expense",
+        "D": "Service"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook: 'A tax is money paid to the government' (Citizenship Grade 8, p. 127). The government uses it for public services such as schools and hospitals.",
+        "A wage is money a worker receives. Answer: B."
+      ],
+      "explain_simple": "Tax is the money citizens pay to the government.",
+      "tips": [
+        "Wage = money you get for work; tax = money you give to the government."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The government uses tax money to:",
+          "options": {
+            "A": "build schools and hospitals",
+            "B": "buy private cars for citizens",
+            "C": "pay for parties",
+            "D": "nothing"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Taxes pay for public services. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "c-good-citizen"
+      ],
+      "keywords": [
+        "tax",
+        "government"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 9 – Being an Active Citizen, 9.3 Why do we need to be active citizens – taxes, p. 127",
+        "topic": "9.3 Why do we need to be active citizens – taxes",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 9 – Being an Active Citizen",
+        "section": "9.3 Why do we need to be active citizens – taxes",
+        "page": "127",
+        "pdf_page": 134,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q48",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 48,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "___________is a system of government where citizens actively participate in all political, economic, social and cultural life of the country.",
+      "options": {
+        "A": "Autocracy",
+        "B": "Anarchy",
+        "C": "Democracy",
+        "D": "Monarchy"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "In a democracy the people take part in the political, economic, social and cultural life of the country (textbook: Citizenship Grade 8, p. 75).",
+        "Autocracy = rule by one person with full power; anarchy = no government; monarchy = rule by a king or queen. Answer: C."
+      ],
+      "explain_simple": "When all citizens take part, it is democracy.",
+      "tips": [
+        "Demo = people; -cracy = rule. Democracy = rule by the people."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A country ruled by a king or queen is a:",
+          "options": {
+            "A": "democracy",
+            "B": "monarchy",
+            "C": "anarchy",
+            "D": "republic"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Rule by a king or queen is a monarchy. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-government"
+      ],
+      "keywords": [
+        "democracy",
+        "autocracy",
+        "monarchy",
+        "anarchy"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 8 textbook – Unit 5 – The Birth of the Free State of Eritrea, 5.3.2 Democracy: Basic Features, p. 75",
+        "topic": "5.3.2 Democracy: Basic Features",
+        "subject": "Citizenship Education",
+        "grade": 8,
+        "unit": "Unit 5 – The Birth of the Free State of Eritrea",
+        "section": "5.3.2 Democracy: Basic Features",
+        "page": "75",
+        "pdf_page": 82,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q49",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 49,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Eritrea was not colonized by",
+      "options": {
+        "A": "USA",
+        "B": "Egypt",
+        "C": "Italy",
+        "D": "Britain"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Eritrea was colonised by Turkey, Egypt, Italy, Britain and Ethiopia (textbook: Citizenship Grade 6, p. 55; Grade 8, p. 59).",
+        "The USA never colonised Eritrea. Answer: A. (The printed word 'not' is bold, not underlined.)"
+      ],
+      "explain_simple": "The USA never ruled Eritrea.",
+      "tips": [
+        "Colonisers of Eritrea: Turkey, Egypt, Italy, Britain, Ethiopia."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which country colonised Eritrea from 1890 to 1941?",
+          "options": {
+            "A": "Britain",
+            "B": "Italy",
+            "C": "Egypt",
+            "D": "Turkey"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Italy ruled Eritrea from 1890 to 1941. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-colonial-history"
+      ],
+      "keywords": [
+        "colonisers",
+        "colonialism"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Citizenship Education Grade 6 textbook – Unit 4 – The Eritrean Revolution, Colonisers of Eritrea, p. 55",
+        "topic": "Colonisers of Eritrea",
+        "subject": "Citizenship Education",
+        "grade": 6,
+        "unit": "Unit 4 – The Eritrean Revolution",
+        "section": "Colonisers of Eritrea",
+        "page": "55",
+        "pdf_page": 61,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "citizenship-2019-g8-p1-q50",
+      "exam_id": "citizenship-2019-g8",
+      "part": 1,
+      "number": 50,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "During the liberation struggle ‘Operation Fenkil’ took place in:",
+      "options": {
+        "A": "1978",
+        "B": "1990",
+        "C": "1985",
+        "D": "1998"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Operation Fenkil was the battle for the liberation of Massawa in February 1990 (textbook: Social Studies Grade 8, p. 113; Citizenship Grade 7, p. 63 lists 'the battle for the liberation of Massawa').",
+        "Answer: B."
+      ],
+      "explain_simple": "Operation Fenkil (Massawa) happened in 1990.",
+      "tips": [
+        "Fenkil = Massawa = February 1990."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Operation Fenkil liberated which port city?",
+          "options": {
+            "A": "Assab",
+            "B": "Massawa",
+            "C": "Asmara",
+            "D": "Keren"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Operation Fenkil liberated Massawa. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "c-armed-struggle"
+      ],
+      "keywords": [
+        "Operation Fenkil",
+        "Massawa",
+        "1990"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 7 – Highlights of the Eritrean Armed Struggle, 7.2 The Eritrean People's Liberation Front, p. 113",
+        "topic": "7.2 The Eritrean People's Liberation Front",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 7 – Highlights of the Eritrean Armed Struggle",
+        "section": "7.2 The Eritrean People's Liberation Front",
+        "page": "113",
+        "pdf_page": 119,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 270">
+  <!-- fallopian tubes -->
+  <path d="M130 86C110 62 80 56 58 70C46 78 44 92 52 100" fill="none" stroke="#C9785B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M190 86C210 62 240 56 262 70C274 78 276 92 268 100" fill="none" stroke="#C9785B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M130 86C110 62 80 56 58 70C46 78 44 92 52 100" fill="none" stroke="#F4B49C" stroke-width="7" stroke-linecap="round"/>
+  <path d="M190 86C210 62 240 56 262 70C274 78 276 92 268 100" fill="none" stroke="#F4B49C" stroke-width="7" stroke-linecap="round"/>
+  <!-- ovaries -->
+  <ellipse cx="72" cy="112" rx="22" ry="15" fill="#FFE08A" stroke="#DDA42A" stroke-width="2.5"/>
+  <ellipse cx="248" cy="112" rx="22" ry="15" fill="#FFE08A" stroke="#DDA42A" stroke-width="2.5"/>
+  <ellipse cx="66" cy="106" rx="7" ry="3" fill="#fff" opacity=".7"/><ellipse cx="242" cy="106" rx="7" ry="3" fill="#fff" opacity=".7"/>
+  <!-- uterus -->
+  <path d="M122 80Q160 70 198 80Q206 130 182 168Q172 182 170 196L150 196Q148 182 138 168Q114 130 122 80Z" fill="#F7A58C" stroke="#D9765A" stroke-width="3"/>
+  <path d="M136 92Q160 86 184 92Q186 124 168 150L152 150Q134 124 136 92Z" fill="#FFDCD0"/>
+  <ellipse cx="140" cy="94" rx="8" ry="4" fill="#fff" opacity=".6"/>
+  <!-- vagina -->
+  <path d="M150 196L148 256Q160 262 172 256L170 196Z" fill="#FFC9BA" stroke="#D9765A" stroke-width="3"/>
+  <!-- egg journey (steps) -->
+  <g data-s="e1"><circle cx="78" cy="112" r="6" fill="#fff" stroke="#8A6410" stroke-width="2"/></g>
+  <g data-s="e2"><circle cx="58" cy="82" r="6" fill="#fff" stroke="#8A6410" stroke-width="2"/><path d="M72 104L62 90" stroke="#8A6410" stroke-width="2.5" stroke-dasharray="3 3"/></g>
+  <g data-s="e3"><circle cx="100" cy="64" r="7" fill="#FFF6CF" stroke="#5CA75C" stroke-width="3"/><circle cx="100" cy="64" r="2.5" fill="#5CA75C"/></g>
+  <g data-s="e4"><circle cx="160" cy="112" r="8" fill="#FFF6CF" stroke="#5CA75C" stroke-width="3"/><circle cx="160" cy="112" r="3" fill="#5CA75C"/><path d="M110 66Q140 70 152 104" fill="none" stroke="#5CA75C" stroke-width="2.5" stroke-dasharray="4 3"/></g>
+  <g data-s="e5"><circle cx="148" cy="226" r="6" fill="#fff" stroke="#C23E33" stroke-width="2"/><path d="M160 112L154 214" stroke="#C23E33" stroke-width="2.5" stroke-dasharray="4 3"/></g>
+</svg>

@@ -1,56 +1,68 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hive_flutter/hive_flutter.dart';
+import 'package:flutter/widgets.dart';
 
-import 'core/licensing/unlock_store.dart';
-import 'features/junior/junior_engine.dart';
-import 'features/junior/junior_screen.dart';
-import 'features/unlock/unlock_screen.dart';
+import 'junior/junior.dart';
+import 'junior/state/app_state.dart';
+import 'junior/theme/tokens.dart';
+import 'licensing/lock_screen.dart';
+import 'licensing/unlock_store.dart';
 
+/// Bee Plus. Locked until Bee Seller issues a JUNIOR code for this phone.
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
-  await Hive.initFlutter();
-  await UnlockStore.instance.init();
-  JuniorEngine.instance.preload();
-  runApp(const BeePlusApp());
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  final unlock = UnlockStore();
+  await unlock.init();
+  runApp(BeePlusRoot(unlock: unlock));
 }
 
-class BeePlusApp extends StatelessWidget {
-  const BeePlusApp({super.key});
+class BeePlusRoot extends StatefulWidget {
+  const BeePlusRoot({super.key, required this.unlock});
+  final UnlockStore unlock;
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Bee Plus',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-        fontFamily: 'Nunito',
-        colorScheme: const ColorScheme.light(
-          primary: Color(0xFF5B8C63),
-          secondary: Color(0xFFEE7B5F),
-          surface: Color(0xFFFFFAF2),
-        ),
-        scaffoldBackgroundColor: const Color(0xFFF7F0E5),
-      ),
-      home: const _Gate(),
-    );
+  State<BeePlusRoot> createState() => _BeePlusRootState();
+}
+
+class _BeePlusRootState extends State<BeePlusRoot> {
+  AppState? _junior;
+  bool _opening = false;
+
+  @override
+  void initState() {
+    super.initState();
+    if (widget.unlock.isUnlocked) _open();
   }
-}
 
-class _Gate extends StatefulWidget {
-  const _Gate();
-  @override
-  State<_Gate> createState() => _GateState();
-}
+  Future<void> _open() async {
+    if (_opening || _junior != null) return;
+    setState(() => _opening = true);
+    final state = await Junior.init();
+    if (!mounted) return;
+    setState(() => _junior = state);
+  }
 
-class _GateState extends State<_Gate> {
   @override
   Widget build(BuildContext context) {
-    if (!UnlockStore.instance.isUnlocked) {
-      return UnlockScreen(onUnlocked: () => setState(() {}));
+    final junior = _junior;
+    if (junior != null) return JuniorApp(state: junior);
+    if (_opening) {
+      return WidgetsApp(
+        title: 'Bee Plus',
+        color: Palette.light.primary,
+        debugShowCheckedModeBanner: false,
+        builder: (_, _) => const ColoredBox(
+          color: Color(0xFF1A120C),
+          child: Center(child: Text('Opening Bee Plus…', style: TextStyle(color: Color(0xFFFFE7D4), fontWeight: FontWeight.w800))),
+        ),
+      );
     }
-    return const JuniorScreen();
+    return WidgetsApp(
+      title: 'Bee Plus',
+      color: Palette.light.primary,
+      debugShowCheckedModeBanner: false,
+      builder: (_, _) => LockScreen(unlock: widget.unlock, onUnlocked: _open),
+    );
   }
 }

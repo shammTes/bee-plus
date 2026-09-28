@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" font-family="Nunito,sans-serif" font-weight="900">
+
+<path d="M160 20L290 220H30Z" fill="#FFFBF2" stroke="#9C8A76" stroke-width="4" stroke-linejoin="round"/>
+<path d="M78 146H242M160 146V220" stroke="#9C8A76" stroke-width="4"/>
+<g data-hl="F"><circle cx="160" cy="98" r="30" fill="#FFC9BA"/><text x="160" y="110" font-size="36" fill="#A8412A" text-anchor="middle" >F</text></g>
+<g data-hl="m"><circle cx="118" cy="186" r="26" fill="#D9E8F7"/><text x="118" y="198" font-size="34" fill="#5F90C4" text-anchor="middle" >m</text></g>
+<g data-hl="a"><circle cx="204" cy="186" r="26" fill="#DDEFD8"/><text x="204" y="198" font-size="34" fill="#2F6B3A" text-anchor="middle" >a</text></g>
+<text x="160" y="196" font-size="26" fill="#6A5B50" text-anchor="middle" >×</text>
+</svg>

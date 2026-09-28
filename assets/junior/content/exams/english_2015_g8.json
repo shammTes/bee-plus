@@ -1,0 +1,3228 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "english-2015-g8",
+    "year": "2015",
+    "subject": "English",
+    "grade": 8,
+    "version": "B",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2015 – English",
+    "duration": "1 hour and 40 minutes (100 minutes)",
+    "duration_minutes": 100,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice (Questions 1–50)",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "This paper has 50 multiple-choice questions (1 to 50). Each question has 4 choices. Choose ONE best answer and blacken its letter on the separate answer sheet. Sections: A. Dialogue (1–4), B. Grammar and vocabulary (5–31), C. Word meanings (32–34), D. Table (35–40), E. Reading passage (41–50)."
+      }
+    ],
+    "source": {
+      "document": "2015-English-V-B.pdf",
+      "version_used": "B",
+      "other_version": "A – not available as a national paper: 2015-English-V-A.pdf is an ETARO Community Tutorial School retype (Q1–40 only, no reading passage), used only to cross-check Q1–40",
+      "notes": "Transcribed from the PDF text layer of Version B and checked against the page images (underlined words in Q32–34 marked <u>…</u>; bold words are plain text). The text layer reads ‘450 centigrade’ in Q30; the page image shows 45° (superscript 0).",
+      "printing_note": "Kept as printed: ‘everyday’ (Q27, Q29; should be ‘every day’), ‘rejected my question’ (Q32, ‘request’ would be natural), ‘Akordet’ (Q30). Passage line numbers 5–20 shown as [line N]."
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "notation": "unicode",
+    "textbooks": [
+      "English for Eritrea Grade 6",
+      "English for Eritrea Grade 7",
+      "English for Eritrea Grade 8"
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "passages": [
+    {
+      "id": "english-2015-dialogue",
+      "kind": "context",
+      "title": "Dialogue between a mother and her son",
+      "instructions": "Complete the dialogue between a mother and her son. Choose the mother’s correct answers from the choices given (A–D).",
+      "paragraphs": [
+        "Son: Where have you been, mother?",
+        "Mother: ______ (1)",
+        "Son: What have you bought for me?",
+        "Mother: ______ (2)",
+        "Son: But why, mother?",
+        "Mother: ______ (3)",
+        "Son: From now on I’ll study hard, mother.",
+        "Mother: ______ (4)",
+        "Choices given: A. You’re not studying well.  B. Nothing.  C. I went shopping.  D. Then I’ll buy you what you want."
+      ],
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "part": 1
+    },
+    {
+      "id": "english-2015-table",
+      "kind": "context",
+      "title": "Table: where they live, colour, language, what they have",
+      "instructions": "Answer questions 35–40 according to the information in the table.",
+      "paragraphs": [
+        "(row) | Samuel | Asha | Hana | Salih",
+        "lives in | town | village | village | town",
+        "likes | white | blue | green | yellow",
+        "speaks | Kunama | Saho | Tigrigna | Bilen",
+        "has a… | cat | bicycle | bicycle | cat"
+      ],
+      "question_numbers": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "part": 1,
+      "table": {
+        "title": "Four people",
+        "kind": "data",
+        "columns": [
+          "",
+          "Samuel",
+          "Asha",
+          "Hana",
+          "Salih"
+        ],
+        "rows": [
+          [
+            "lives in",
+            "town",
+            "village",
+            "village",
+            "town"
+          ],
+          [
+            "likes",
+            "white",
+            "blue",
+            "green",
+            "yellow"
+          ],
+          [
+            "speaks",
+            "Kunama",
+            "Saho",
+            "Tigrigna",
+            "Bilen"
+          ],
+          [
+            "has a…",
+            "cat",
+            "bicycle",
+            "bicycle",
+            "cat"
+          ]
+        ],
+        "align": [
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      }
+    },
+    {
+      "id": "english-2015-passage",
+      "kind": "reading",
+      "title": "We are more than seventy percent water",
+      "instructions": "Read the passage and answer the questions (41–50) according to the information in the passage.",
+      "paragraphs": [
+        "Water is hydrogen and oxygen. It boils at one hundred degrees centigrade (100˚C) and it freezes at zero degree centigrade (0˚C).",
+        "Without water there could be no life on the Earth. There is less water on the other planets than on the earth. Seventy one per cent of the surface of the earth is [line 5] water and more than seventy per cent of our body is water.",
+        "The oceans and the rivers of the world contain most of the water. The five oceans and the many seas together have 97.2 per cent. The Pacific Ocean alone is larger than all the land in the world. On the land there are lakes. Many of them are larger than countries the size of Belgium. There are also huge rivers and [line 10] thirty of them are more than two thousand kilometers long.",
+        "Water is usually liquid, such as rainwater, or seawater. It can also be solid, such as ice or snow. For example, in Antarctica, the thickness of the ice is about three thousand seven hundred meters. Water can also be a gas or vapour.",
+        "Water is always moving. It moves all the time in a cycle. Rain falls to the ground [line 15] from rainclouds. Some of this water goes deep into the earth through rocks and becomes underground water. Some water, as vapour, rises from the earth and makes new clouds. This vapour comes from plants and trees, from the rivers and from the ground. It also comes from the oceans and seas. So, the cycle is complete. The rain falls from clouds, and it rises again to make new clouds.",
+        "[line 20] Plants use water to move food from one part of the plant to another, and people use it in many ways. Today very few people in the world have water in their homes. For all the people on this planet water is very important, but two-thirds of them still have to walk to find it."
+      ],
+      "question_numbers": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "part": 1,
+      "note": "Line numbers (5, 10, 15, 20) as printed. Bold/italic in the paper: them (line 8), Some of this water (line 15)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "english-2015-g8-p1-q01",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 1,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-dialogue",
+      "stem": "Dialogue, gap (1). Son: “Where have you been, mother?” Mother: “______”",
+      "options": {
+        "A": "You’re not studying well.",
+        "B": "Nothing.",
+        "C": "I went shopping.",
+        "D": "Then I’ll buy you what you want."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“Where have you been?” asks about a place or activity.",
+        "“I went shopping.” fits, and the next line (“What have you bought?”) agrees.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "He asks where she was. She says: “I went shopping.”",
+      "tips": [
+        "Read the line after the gap as well."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Wife: Where have you been?  Husband: ______  Wife: Did you see the doctor?",
+          "options": {
+            "A": "I was at the hospital.",
+            "B": "Nothing.",
+            "C": "Yes, I can.",
+            "D": "I’m fine."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Place + next line about the doctor."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue",
+        "where"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q02",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 2,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-dialogue",
+      "stem": "Dialogue, gap (2). Son: “What have you bought for me?” Mother: “______” Son: “But why, mother?”",
+      "options": {
+        "A": "You’re not studying well.",
+        "B": "Nothing.",
+        "C": "I went shopping.",
+        "D": "Then I’ll buy you what you want."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The son’s next words “But why?” show he is surprised and not happy.",
+        "So she bought him nothing.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "He says “But why?”. So she bought nothing for him.",
+      "tips": [
+        "“But why?” follows a surprising or bad answer."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Girl: Did you bring my shoes?  Brother: ______  Girl: Why not?",
+          "options": {
+            "A": "No, I forgot.",
+            "B": "Yes, here.",
+            "C": "They are new.",
+            "D": "At the shop."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“Why not?” shows the answer was no."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q03",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 3,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-dialogue",
+      "stem": "Dialogue, gap (3). Son: “But why, mother?” Mother: “______” Son: “From now on I’ll study hard, mother.”",
+      "options": {
+        "A": "You’re not studying well.",
+        "B": "Nothing.",
+        "C": "I went shopping.",
+        "D": "Then I’ll buy you what you want."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "She must give a reason. The son then promises to study hard.",
+        "So the reason is: “You’re not studying well.”",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "The reason: he does not study well.",
+      "tips": [
+        "“Why?” needs a reason."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Son: Why are you angry?  Father: ______  Son: Sorry, I’ll come early next time.",
+          "options": {
+            "A": "You came home late.",
+            "B": "I am fine.",
+            "C": "Nothing.",
+            "D": "In the evening."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The son’s promise matches the reason."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue",
+        "reason"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q04",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 4,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-dialogue",
+      "stem": "Dialogue, gap (4). Son: “From now on I’ll study hard, mother.” Mother: “______”",
+      "options": {
+        "A": "You’re not studying well.",
+        "B": "Nothing.",
+        "C": "I went shopping.",
+        "D": "Then I’ll buy you what you want."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The son promises; the mother promises a reward: “Then I’ll buy you what you want.”",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "He promises to study; she promises a present.",
+      "tips": [
+        "Match each reply to the line just before it."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Pupil: I will clean the class every day.  Teacher: ______",
+          "options": {
+            "A": "Then I’ll give you a prize.",
+            "B": "Nothing.",
+            "C": "Where?",
+            "D": "You’re late."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "promise → reward."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue",
+        "promise"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q05",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 5,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I passed my exam. My mother was happy ______ she bought me some books.",
+      "options": {
+        "A": "or",
+        "B": "and",
+        "C": "but",
+        "D": "A and B"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Two actions that go together (happy + bought books) → and.",
+        "“or” is a choice, “but” is a contrast.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "She was happy and she bought books → and.",
+      "tips": [
+        "and = adding; but = contrast; or = choice."
+      ],
+      "similar_questions": [
+        {
+          "stem": "It was sunny ______ we went to the beach.",
+          "options": {
+            "A": "but",
+            "B": "and",
+            "C": "or",
+            "D": "because of"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "and."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "and"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q06",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 6,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Mother: What are you doing?  Son: I ______.",
+      "options": {
+        "A": "study",
+        "B": "studying",
+        "C": "am study",
+        "D": "am studying"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“What are you doing?” asks about now → present continuous.",
+        "I am + verb-ing → I am studying.",
+        "Textbook: English Grade 7, p. 39; English Grade 8, p. 7."
+      ],
+      "explain_simple": "Now → I am studying.",
+      "tips": [
+        "Answer in the same tense as the question."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is she doing? She ______.",
+          "options": {
+            "A": "cooks",
+            "B": "is cooking",
+            "C": "cooking",
+            "D": "is cook"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "is cooking."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-continuous"
+      ],
+      "keywords": [
+        "present continuous"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present continuous",
+        "rule": "Present continuous = am/is/are + verb-ing, for actions happening now.",
+        "note": "textbook: English Grade 7, p. 39; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q07",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 7,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "There are ______ eggs in the basket.",
+      "options": {
+        "A": "a",
+        "B": "an",
+        "C": "the",
+        "D": "___ (no article)"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“eggs” is plural, so “a” and “an” are wrong.",
+        "“There are” gives new information, so we use no article: There are eggs in the basket.",
+        "Textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204."
+      ],
+      "explain_simple": "Plural and new information → no article.",
+      "tips": [
+        "a/an only with one thing; with a general plural use no article."
+      ],
+      "similar_questions": [
+        {
+          "stem": "There are ______ books on my desk.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "___ (no article)",
+            "D": "one"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "no article."
+          ]
+        }
+      ],
+      "topics": [
+        "en-articles"
+      ],
+      "keywords": [
+        "zero article"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Articles (a, an, the, zero)",
+        "rule": "Use 'the' for a thing that is the only one (the moon, the sun) or already known; a/an for one thing that is not specific.",
+        "note": "textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q08",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 8,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I ______ my class work. Can I go out?",
+      "options": {
+        "A": "will finish",
+        "B": "am finished",
+        "C": "have finished",
+        "D": "finish"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The work is done now, and that is why he asks to go out.",
+        "Present perfect (have + past participle) shows a finished action with a result now.",
+        "Textbook: English Grade 7, p. 150; English Grade 8, p. 42, 157."
+      ],
+      "explain_simple": "The work is done now → I have finished.",
+      "tips": [
+        "Action just done + result now → have/has + past participle."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I ______ my homework. Can I play now?",
+          "options": {
+            "A": "have done",
+            "B": "will do",
+            "C": "do",
+            "D": "am do"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "have done."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-perfect"
+      ],
+      "keywords": [
+        "present perfect"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present perfect",
+        "rule": "Present perfect = have/has + past participle (he has taken). Use has with he/she/it and one person.",
+        "note": "textbook: English Grade 7, p. 150; English Grade 8, p. 42, 157"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q09",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 9,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Question: Where were you born?  Answer: ______",
+      "options": {
+        "A": "I am born in Nakfa.",
+        "B": "I was born in Nakfa.",
+        "C": "You are born in Nakfa.",
+        "D": "You were born in Nakfa."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“you” in the question → “I” in the answer.",
+        "Birth is in the past → I was born.",
+        "Textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12."
+      ],
+      "explain_simple": "“Were you …?” → “I was born …”.",
+      "tips": [
+        "Always: I was born."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Where was your father born?",
+          "options": {
+            "A": "He is born in Keren.",
+            "B": "He was born in Keren.",
+            "C": "He born in Keren.",
+            "D": "You were born in Keren."
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "He was born."
+          ]
+        }
+      ],
+      "topics": [
+        "en-passive",
+        "en-questions"
+      ],
+      "keywords": [
+        "was born"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Passive voice",
+        "rule": "Passive = am/is/are/was/were + past participle (Cars are sold). Use it when the doer is not important.",
+        "note": "textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q10",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 10,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following words can take the prefix un?",
+      "options": {
+        "A": "laugh",
+        "B": "sad",
+        "C": "cry",
+        "D": "happy"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "un + happy = unhappy (a real word).",
+        "unlaugh, unsad, uncry are not words.",
+        "Textbook: English Grade 7, p. 191–192, 199, 232–234."
+      ],
+      "explain_simple": "Only “unhappy” is a real word.",
+      "tips": [
+        "un- goes with many adjectives: unhappy, unkind, unsafe."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which word can take the prefix un?",
+          "options": {
+            "A": "kind",
+            "B": "run",
+            "C": "big",
+            "D": "eat"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "unkind."
+          ]
+        }
+      ],
+      "topics": [
+        "en-prefix-suffix"
+      ],
+      "keywords": [
+        "prefix",
+        "unhappy"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Prefixes and suffixes",
+        "rule": "un-, dis-, in-, im-, il-, ir- mean 'not'; each word takes its own prefix (incorrect, not 'uncorrect').",
+        "note": "textbook: English Grade 7, p. 191–192, 199, 232–234"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q11",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 11,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which word has the wrong plural form?",
+      "options": {
+        "A": "fly / flies",
+        "B": "child / children",
+        "C": "sheep / sheep",
+        "D": "tooth / tooths"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The plural of tooth is teeth (irregular).",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "tooth → teeth.",
+      "tips": [
+        "Irregular plurals: tooth–teeth, foot–feet, man–men, child–children."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which plural is wrong?",
+          "options": {
+            "A": "man / men",
+            "B": "foot / foots",
+            "C": "woman / women",
+            "D": "mouse / mice"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "foot → feet."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "plural",
+        "irregular"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q12",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 12,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The girl is ______ than the boy.",
+      "options": {
+        "A": "tall",
+        "B": "the tall",
+        "C": "taller",
+        "D": "tallest"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“than” → comparative: taller.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "“than” needs taller.",
+      "tips": [
+        "-er + than."
+      ],
+      "similar_questions": [
+        {
+          "stem": "My bag is ______ than yours.",
+          "options": {
+            "A": "heavy",
+            "B": "heavier",
+            "C": "heaviest",
+            "D": "the heavy"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "heavier."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "comparative"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q13",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 13,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What was the boy doing yesterday evening?",
+      "options": {
+        "A": "He studied his lessons.",
+        "B": "He is studying his lessons.",
+        "C": "He studies his lessons.",
+        "D": "He was studying his lessons."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The question is past continuous (was … doing).",
+        "Answer: He was studying.",
+        "Textbook: English Grade 6, p. 175–176."
+      ],
+      "explain_simple": "“was doing” → “was studying”.",
+      "tips": [
+        "Same tense as the question."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What were you doing at 8 pm?",
+          "options": {
+            "A": "I was reading.",
+            "B": "I read.",
+            "C": "I am reading.",
+            "D": "I will read."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "was reading."
+          ]
+        }
+      ],
+      "topics": [
+        "en-past-continuous"
+      ],
+      "keywords": [
+        "past continuous"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Past continuous",
+        "rule": "Past continuous = was/were + verb-ing; it shows an action that was going on at a time in the past.",
+        "note": "textbook: English Grade 6, p. 175–176"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q14",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 14,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I ______ to Nakfa next month.",
+      "options": {
+        "A": "go",
+        "B": "will go",
+        "C": "went",
+        "D": "have gone"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“next month” → future: will go.",
+        "Textbook: English Grade 7, p. 20, 175."
+      ],
+      "explain_simple": "Next month → will go.",
+      "tips": [
+        "Future time word → will."
+      ],
+      "similar_questions": [
+        {
+          "stem": "We ______ the museum next week.",
+          "options": {
+            "A": "visited",
+            "B": "will visit",
+            "C": "visit",
+            "D": "have visited"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "will visit."
+          ]
+        }
+      ],
+      "topics": [
+        "en-future"
+      ],
+      "keywords": [
+        "will"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Future (will / going to)",
+        "rule": "Future: will + base verb (I will go) or am/is/are going to + base verb.",
+        "note": "textbook: English Grade 7, p. 20, 175"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q15",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 15,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If you study hard, you ______ the exam.",
+      "options": {
+        "A": "will pass",
+        "B": "are pass",
+        "C": "were pass",
+        "D": "passed"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "First conditional: If + present, will + base verb.",
+        "Textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129."
+      ],
+      "explain_simple": "If you study, you will pass.",
+      "tips": [
+        "If + present → will + verb."
+      ],
+      "similar_questions": [
+        {
+          "stem": "If you eat well, you ______ strong.",
+          "options": {
+            "A": "will be",
+            "B": "were",
+            "C": "are be",
+            "D": "was"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "will be."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conditionals"
+      ],
+      "keywords": [
+        "first conditional"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conditional sentences",
+        "rule": "First conditional: If + present simple, will + base verb. Zero conditional (always true): If + present, present. Second: If + past, would + base verb.",
+        "note": "textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q16",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 16,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which word is spelled correctly?",
+      "options": {
+        "A": "sciense",
+        "B": "soshial",
+        "C": "Engilsh",
+        "D": "mathematics"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Correct: science, social, English, mathematics. Only D is right.",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "Only “mathematics” is right.",
+      "tips": [
+        "School subjects: science, social studies, English, mathematics."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which word is spelled correctly?",
+          "options": {
+            "A": "geografy",
+            "B": "history",
+            "C": "citizenship",
+            "D": "B and C"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "history and citizenship are correct."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "spelling"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q17",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 17,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Our Independence Day is celebrated ______ May 24.",
+      "options": {
+        "A": "on",
+        "B": "in",
+        "C": "at",
+        "D": "for"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "A date → on.",
+        "Textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181."
+      ],
+      "explain_simple": "On + date: on May 24.",
+      "tips": [
+        "on + date; in + month; at + time."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Martyrs’ Day is ______ June 20.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at",
+            "D": "by"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "on."
+          ]
+        }
+      ],
+      "topics": [
+        "en-prepositions"
+      ],
+      "keywords": [
+        "on",
+        "date"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Prepositions (place, time, transport)",
+        "rule": "Travel: by car/bus/plane; time: at 5 o'clock, on Monday, in June; place: in, on, under, between, next to.",
+        "note": "textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q18",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 18,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My father ______ our clothes yesterday.",
+      "options": {
+        "A": "wash",
+        "B": "is washing",
+        "C": "will wash",
+        "D": "washed"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“yesterday” → past simple: washed.",
+        "Textbook: English Grade 7, p. 72; English Grade 8, p. 7."
+      ],
+      "explain_simple": "Yesterday → washed.",
+      "tips": [
+        "yesterday, last week, ago → past simple."
+      ],
+      "similar_questions": [
+        {
+          "stem": "She ______ a letter yesterday.",
+          "options": {
+            "A": "writes",
+            "B": "wrote",
+            "C": "will write",
+            "D": "is writing"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "wrote."
+          ]
+        }
+      ],
+      "topics": [
+        "en-past-simple"
+      ],
+      "keywords": [
+        "past simple",
+        "yesterday"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Past simple",
+        "rule": "Past simple: verb-ed or irregular past form; questions and negatives use did + base verb (Did he call?).",
+        "note": "textbook: English Grade 7, p. 72; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q19",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 19,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Fozia is the ______ woman in the village.",
+      "options": {
+        "A": "beautiful",
+        "B": "beautifulest",
+        "C": "more beautiful",
+        "D": "most beautiful"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“the … in the village” → superlative. Long adjective → the most beautiful.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "the most beautiful.",
+      "tips": [
+        "Long adjective: the most …"
+      ],
+      "similar_questions": [
+        {
+          "stem": "This is the ______ story in the book.",
+          "options": {
+            "A": "interestingest",
+            "B": "most interesting",
+            "C": "more interesting",
+            "D": "interesting"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "most interesting."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "superlative"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q20",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 20,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Zahra and Mussie study very hard. ______ always get good marks.",
+      "options": {
+        "A": "They",
+        "B": "You",
+        "C": "She",
+        "D": "He"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Zahra and Mussie = two people → They.",
+        "Textbook: English Grade 6, p. 61; English Grade 7, p. 7–8."
+      ],
+      "explain_simple": "Two people → They.",
+      "tips": [
+        "Two or more people → they."
+      ],
+      "similar_questions": [
+        {
+          "stem": "My brother and I play football. ______ play every day.",
+          "options": {
+            "A": "They",
+            "B": "We",
+            "C": "He",
+            "D": "You"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "my brother and I → we."
+          ]
+        }
+      ],
+      "topics": [
+        "en-pronouns"
+      ],
+      "keywords": [
+        "they"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Subject, object and possessive pronouns",
+        "rule": "Use an object pronoun (me, him, her, us, them) after a verb or preposition; possessive pronouns (mine, yours, his, hers, ours, theirs) replace a noun.",
+        "note": "textbook: English Grade 6, p. 61; English Grade 7, p. 7–8"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q21",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 21,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I didn’t come to school yesterday ______ I was sick.",
+      "options": {
+        "A": "because",
+        "B": "therefore",
+        "C": "however",
+        "D": "although"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“I was sick” is the reason → because.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "The reason: I was sick → because.",
+      "tips": [
+        "because + reason."
+      ],
+      "similar_questions": [
+        {
+          "stem": "She is happy ______ she passed.",
+          "options": {
+            "A": "because",
+            "B": "although",
+            "C": "however",
+            "D": "so that"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "because."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "because"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q22",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 22,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is a passive sentence?",
+      "options": {
+        "A": "The boy broke the window.",
+        "B": "The boy has broken the window.",
+        "C": "The window was broken by the boy.",
+        "D": "A and C"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A passive sentence has be + past participle, and the thing that receives the action is the subject: The window was broken (by the boy).",
+        "A and B are active.",
+        "Textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12."
+      ],
+      "explain_simple": "“The window was broken by the boy” is passive.",
+      "tips": [
+        "Passive: was/were/is/are + past participle (+ by …)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which sentence is passive?",
+          "options": {
+            "A": "Ali wrote the letter.",
+            "B": "The letter was written by Ali.",
+            "C": "Ali is writing.",
+            "D": "Ali writes."
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "was written."
+          ]
+        }
+      ],
+      "topics": [
+        "en-passive"
+      ],
+      "keywords": [
+        "passive"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Passive voice",
+        "rule": "Passive = am/is/are/was/were + past participle (Cars are sold). Use it when the doer is not important.",
+        "note": "textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q23",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 23,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ you play football in your school?",
+      "options": {
+        "A": "Does",
+        "B": "Doesn’t",
+        "C": "Do",
+        "D": "have"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "you → Do.",
+        "Textbook: English Grade 6, p. 57; English Grade 8, p. 7."
+      ],
+      "explain_simple": "you → Do.",
+      "tips": [
+        "Do + you/we/they."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ they speak Tigrigna?",
+          "options": {
+            "A": "Does",
+            "B": "Do",
+            "C": "Is",
+            "D": "Has"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Do."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-simple",
+        "en-questions"
+      ],
+      "keywords": [
+        "do"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present simple",
+        "rule": "Present simple: he/she/it takes -s (he watches); questions and negatives use do/does + base verb (Does he help?).",
+        "note": "textbook: English Grade 6, p. 57; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q24",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 24,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In which order would these words be written in a dictionary?",
+      "options": {
+        "A": "Monday, monkey, money, most",
+        "B": "Monday, money, monkey, most",
+        "C": "Monday, money, most, monkey",
+        "D": "Monday, most, monkey, money"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "All start with “mo”. Third letter: Monday, money, monkey have n; most has s → most is last.",
+        "Fourth letter: Mon-d-ay, mon-e-y, mon-k-ey → d, e, k.",
+        "Order: Monday, money, monkey, most.",
+        "Textbook: English Grade 6, p. 32, 41; English Grade 8, p. 101."
+      ],
+      "explain_simple": "d, e, k, then s: Monday, money, monkey, most.",
+      "tips": [
+        "Compare letter by letter until the letters are different."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Dictionary order:",
+          "options": {
+            "A": "band, bank, bang",
+            "B": "band, bang, bank",
+            "C": "bank, band, bang",
+            "D": "bang, bank, band"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "d, g, k."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dictionary-order"
+      ],
+      "keywords": [
+        "dictionary"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Alphabetical (dictionary) order",
+        "rule": "Dictionary order: compare the first letters; if they are the same, compare the second letters, and so on.",
+        "note": "textbook: English Grade 6, p. 32, 41; English Grade 8, p. 101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q25",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 25,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The old person is my uncle. ______ is 80 years old.",
+      "options": {
+        "A": "He",
+        "B": "She",
+        "C": "It",
+        "D": "They"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "uncle = a man → He.",
+        "Textbook: English Grade 6, p. 61; English Grade 7, p. 7–8."
+      ],
+      "explain_simple": "Uncle is a man → He.",
+      "tips": [
+        "man → he; woman → she; thing → it."
+      ],
+      "similar_questions": [
+        {
+          "stem": "My aunt lives in Keren. ______ is a teacher.",
+          "options": {
+            "A": "He",
+            "B": "She",
+            "C": "It",
+            "D": "They"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "She."
+          ]
+        }
+      ],
+      "topics": [
+        "en-pronouns"
+      ],
+      "keywords": [
+        "he"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Subject, object and possessive pronouns",
+        "rule": "Use an object pronoun (me, him, her, us, them) after a verb or preposition; possessive pronouns (mine, yours, his, hers, ours, theirs) replace a noun.",
+        "note": "textbook: English Grade 6, p. 61; English Grade 7, p. 7–8"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q26",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 26,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "How ______ sugar do you add in your tea?",
+      "options": {
+        "A": "many",
+        "B": "much",
+        "C": "most",
+        "D": "A and B"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Sugar is uncountable → How much.",
+        "Textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7."
+      ],
+      "explain_simple": "Sugar → How much.",
+      "tips": [
+        "How much + uncountable."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How ______ water do you drink?",
+          "options": {
+            "A": "many",
+            "B": "much",
+            "C": "most",
+            "D": "few"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "much."
+          ]
+        }
+      ],
+      "topics": [
+        "en-quantifiers"
+      ],
+      "keywords": [
+        "how much"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Quantity words (some, any, much, many, too, enough)",
+        "rule": "some = an amount with plural or uncountable nouns; too = more than is good; very = a lot; enough = as much as needed.",
+        "note": "textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q27",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 27,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My parents ______ to the market everyday.",
+      "options": {
+        "A": "go",
+        "B": "goes",
+        "C": "going",
+        "D": "are go"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“everyday” (= every day) → habit → present simple.",
+        "My parents = they → go (no -s).",
+        "Textbook: English Grade 6, p. 57; English Grade 8, p. 7."
+      ],
+      "explain_simple": "Parents (they) + go.",
+      "tips": [
+        "they + base verb in the present simple."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The children ______ to school every day.",
+          "options": {
+            "A": "goes",
+            "B": "go",
+            "C": "going",
+            "D": "is go"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "go."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-simple",
+        "en-agreement"
+      ],
+      "keywords": [
+        "present simple"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present simple",
+        "rule": "Present simple: he/she/it takes -s (he watches); questions and negatives use do/does + base verb (Does he help?).",
+        "note": "textbook: English Grade 6, p. 57; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Subject–verb agreement",
+          "rule": "A singular subject takes a singular verb (is, has, goes); a plural subject takes a plural verb (are, have, go).",
+          "note": "textbook: English Grade 8, p. 7"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": "Kept as printed: ‘everyday’ should be ‘every day’. Answer not affected."
+    },
+    {
+      "id": "english-2015-g8-p1-q28",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 28,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which word is spelled wrongly?",
+      "options": {
+        "A": "exersice",
+        "B": "match",
+        "C": "vocabulary",
+        "D": "director"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The correct spelling is “exercise”.",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "Right spelling: exercise.",
+      "tips": [
+        "ex-er-cise."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which word is spelled wrongly?",
+          "options": {
+            "A": "sentence",
+            "B": "question",
+            "C": "anser",
+            "D": "paper"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "answer."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "spelling",
+        "exercise"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q29",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 29,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My hen lays ______ egg everyday. I sell ______ egg in the market.",
+      "options": {
+        "A": "an/an",
+        "B": "the/an",
+        "C": "an/the",
+        "D": "the/the"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "First time: one egg, not known → an egg.",
+        "Second time: the same egg we just talked about → the egg.",
+        "Textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204."
+      ],
+      "explain_simple": "First “an egg”, then “the egg” (the same one).",
+      "tips": [
+        "a/an the first time; the when we speak about it again."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I saw ______ dog. ______ dog was black.",
+          "options": {
+            "A": "a / The",
+            "B": "the / A",
+            "C": "a / A",
+            "D": "the / The"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "a first, then the."
+          ]
+        }
+      ],
+      "topics": [
+        "en-articles"
+      ],
+      "keywords": [
+        "an",
+        "the"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Articles (a, an, the, zero)",
+        "rule": "Use 'the' for a thing that is the only one (the moon, the sun) or already known; a/an for one thing that is not specific.",
+        "note": "textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q30",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 30,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Akordet is ______ hot. Sometimes the temperature reaches 45° centigrade.",
+      "options": {
+        "A": "more",
+        "B": "enough",
+        "C": "much",
+        "D": "very"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "We need a word before an adjective that means “a lot”: very hot.",
+        "“more hot” needs “than” (and we say hotter); “enough” goes after the adjective (hot enough); “much hot” is wrong.",
+        "Textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7."
+      ],
+      "explain_simple": "45° is a lot of heat → very hot.",
+      "tips": [
+        "very + adjective."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The mountain is ______ high.",
+          "options": {
+            "A": "very",
+            "B": "much",
+            "C": "enough",
+            "D": "many"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "very high."
+          ]
+        }
+      ],
+      "topics": [
+        "en-quantifiers"
+      ],
+      "keywords": [
+        "very"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Quantity words (some, any, much, many, too, enough)",
+        "rule": "some = an amount with plural or uncountable nouns; too = more than is good; very = a lot; enough = as much as needed.",
+        "note": "textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q31",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 31,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The rule of the school says, “Every student ______ wear a school uniform.”",
+      "options": {
+        "A": "might",
+        "B": "has to",
+        "C": "must",
+        "D": "B and C"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "A rule = obligation → must or has to.",
+        "“Every student” is singular → has to (correct) and must (correct). So B and C.",
+        "Textbook: English Grade 7, p. 167–168, 187; English Grade 8, Unit 3 (p. 46–71)."
+      ],
+      "explain_simple": "Both “has to” and “must” show a rule. So B and C.",
+      "tips": [
+        "Rules: must / has to (singular) / have to (plural)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Every driver ______ carry a licence.",
+          "options": {
+            "A": "may",
+            "B": "must",
+            "C": "has to",
+            "D": "B and C"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "must and has to both work."
+          ]
+        }
+      ],
+      "topics": [
+        "en-modals"
+      ],
+      "keywords": [
+        "must",
+        "has to"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Modals (must, should, have to, can, may, might)",
+        "rule": "Modal verbs (must, should, can, may, might, will) are followed by the base verb without 'to'; have to / ought to keep 'to'.",
+        "note": "textbook: English Grade 7, p. 167–168, 187; English Grade 8, Unit 3 (p. 46–71)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q32",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 32,
+      "section": "C. Word meanings",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I asked my father to buy me a mobile telephone, but he <u>rejected</u> my question.",
+      "options": {
+        "A": "agreed",
+        "B": "didn’t accept",
+        "C": "liked",
+        "D": "B and C"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“but” shows the father did not do what I asked.",
+        "reject = not accept.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "He said no. Reject = not accept.",
+      "tips": [
+        "“but” tells you the second part is the opposite."
+      ],
+      "similar_questions": [
+        {
+          "stem": "She <u>rejected</u> the offer because the pay was low. ‘Rejected’ means:",
+          "options": {
+            "A": "accepted",
+            "B": "refused",
+            "C": "enjoyed",
+            "D": "wrote"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "refused."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "reject"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "Kept as printed: ‘rejected my question’ (‘request’ is meant). Answer not affected."
+    },
+    {
+      "id": "english-2015-g8-p1-q33",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 33,
+      "section": "C. Word meanings",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "He does not have friends and no one likes him, because his <u>conduct</u> is bad.",
+      "options": {
+        "A": "answer",
+        "B": "work",
+        "C": "behaviour",
+        "D": "health"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "People don’t like him because of the way he acts.",
+        "conduct = behaviour.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "Conduct = the way you act (behaviour).",
+      "tips": [
+        "Ask: what makes people not like you? – your behaviour."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The teacher praised Hana for her good <u>conduct</u>. ‘Conduct’ means:",
+          "options": {
+            "A": "behaviour",
+            "B": "clothes",
+            "C": "marks",
+            "D": "family"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "behaviour."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "conduct",
+        "behaviour"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q34",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 34,
+      "section": "C. Word meanings",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Adem: What is your mother’s <u>occupation</u>?  Sara: She is a doctor.",
+      "options": {
+        "A": "job",
+        "B": "favourite",
+        "C": "country",
+        "D": "hobby"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The answer “She is a doctor” is a job.",
+        "occupation = job.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "“A doctor” is a job. Occupation = job.",
+      "tips": [
+        "Use the answer in the dialogue to find the meaning."
+      ],
+      "similar_questions": [
+        {
+          "stem": "His <u>occupation</u> is farming. ‘Occupation’ means:",
+          "options": {
+            "A": "job",
+            "B": "house",
+            "C": "food",
+            "D": "hobby"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "job."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "occupation",
+        "job"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q35",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 35,
+      "section": "D. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-table",
+      "stem": "If you want to speak to Salih, you should know ______.",
+      "options": {
+        "A": "Saho",
+        "B": "Bilen",
+        "C": "Kunama",
+        "D": "Tigrigna"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Salih column, “speaks” row: Bilen.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Salih speaks Bilen.",
+      "tips": [
+        "Column (person) + row (fact)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Hana speaks ______.",
+          "options": {
+            "A": "Saho",
+            "B": "Bilen",
+            "C": "Kunama",
+            "D": "Tigrigna"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "Tigrigna."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "table"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q36",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 36,
+      "section": "D. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-table",
+      "stem": "Which of the following is false?",
+      "options": {
+        "A": "All of the people like different colours.",
+        "B": "All of the people speak different languages.",
+        "C": "None of the people lives in a town.",
+        "D": "A and C are the answers."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A true (white, blue, green, yellow). B true (four languages).",
+        "C false: Samuel and Salih live in a town. D is wrong because A is true.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Samuel and Salih live in a town. C is false.",
+      "tips": [
+        "Test every sentence."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is false?",
+          "options": {
+            "A": "Asha has a bicycle.",
+            "B": "Samuel likes white.",
+            "C": "Hana lives in a town.",
+            "D": "Salih has a cat."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Hana lives in a village."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "false"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q37",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 37,
+      "section": "D. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-table",
+      "stem": "Which of the following is true?",
+      "options": {
+        "A": "All of the people have their favourite colours.",
+        "B": "Most of the people live in towns.",
+        "C": "Some of the people like the same colour.",
+        "D": "B and C"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Each person likes one colour → A true.",
+        "B: only 2 of 4 live in towns (not most). C: all colours are different. So only A.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Everyone likes a colour. A is true.",
+      "tips": [
+        "most = more than half."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is true?",
+          "options": {
+            "A": "Two people have a cat.",
+            "B": "Everybody lives in a village.",
+            "C": "Nobody has a bicycle.",
+            "D": "All speak Saho."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Samuel and Salih."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "true"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q38",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 38,
+      "section": "D. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-table",
+      "stem": "______ and ______ like the same animal.",
+      "options": {
+        "A": "Samuel and Asha",
+        "B": "Asha and Hana",
+        "C": "Samuel and Salih",
+        "D": "Hana and Salih"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The table shows what each person HAS: Samuel and Salih have a cat (an animal).",
+        "A bicycle is not an animal. So: Samuel and Salih.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Samuel and Salih both have a cat.",
+      "tips": [
+        "A bicycle is not an animal."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ and ______ have the same thing to ride.",
+          "options": {
+            "A": "Samuel and Salih",
+            "B": "Asha and Hana",
+            "C": "Samuel and Hana",
+            "D": "Asha and Salih"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "bicycles."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "same"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "The table row is ‘has a…’ but the question says ‘like the same animal’; we take owning a cat as liking it. Answer C is clear."
+    },
+    {
+      "id": "english-2015-g8-p1-q39",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 39,
+      "section": "D. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-table",
+      "stem": "Who are more likely to be farmers?",
+      "options": {
+        "A": "Hana and Salih",
+        "B": "Samuel and Asha",
+        "C": "Asha and Hana",
+        "D": "Samuel and Hana"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Farmers usually live in villages: Asha and Hana.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Asha and Hana live in a village.",
+      "tips": [
+        "village → farming."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who live in a town?",
+          "options": {
+            "A": "Asha and Hana",
+            "B": "Samuel and Salih",
+            "C": "Hana and Salih",
+            "D": "Samuel and Asha"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Samuel and Salih."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "farmers",
+        "village"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "reading",
+          "topic": "Inference and true/false",
+          "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+          "note": "textbook: English Grade 8, reading lessons"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q40",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 40,
+      "section": "D. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-table",
+      "stem": "______ and ______ can see many cars everyday.",
+      "options": {
+        "A": "Samuel and Salih",
+        "B": "Salih and Asha",
+        "C": "Salih and Hana",
+        "D": "Samuel and Hana"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Many cars → a town. Samuel and Salih live in a town.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Towns have many cars: Samuel and Salih.",
+      "tips": [
+        "Change the words: many cars = town."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who most likely walk to a farm every morning?",
+          "options": {
+            "A": "Samuel and Salih",
+            "B": "Asha and Hana",
+            "C": "Salih and Hana",
+            "D": "Samuel and Asha"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "village people."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "town"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "reading",
+          "topic": "Inference and true/false",
+          "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+          "note": "textbook: English Grade 8, reading lessons"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q41",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 41,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "Water is very important because ______.",
+      "options": {
+        "A": "it is made up of hydrogen and oxygen",
+        "B": "there is a lot of water on the ground",
+        "C": "there could be no life on the earth without it",
+        "D": "All are correct."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“Without water there could be no life on the Earth.” That is why it is important.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "No water = no life. That is why water is important.",
+      "tips": [
+        "“because” questions: find the reason in the text."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is water made of?",
+          "options": {
+            "A": "hydrogen and oxygen",
+            "B": "salt",
+            "C": "air",
+            "D": "ice"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“Water is hydrogen and oxygen.”"
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "important",
+        "reason"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q42",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 42,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "What is the freezing point of water?",
+      "options": {
+        "A": "unknown",
+        "B": "hydrogen and oxygen",
+        "C": "one hundred degrees centigrade",
+        "D": "zero degree centigrade"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“it freezes at zero degree centigrade (0˚C)”. 100 °C is the boiling point.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Water freezes at 0 °C.",
+      "tips": [
+        "freezing point = becomes ice; boiling point = boils."
+      ],
+      "similar_questions": [
+        {
+          "stem": "At what temperature does water boil?",
+          "options": {
+            "A": "0 °C",
+            "B": "50 °C",
+            "C": "100 °C",
+            "D": "1000 °C"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "100 °C."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "freezing point"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q43",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 43,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "What does “them” (line 8) refer to?",
+      "options": {
+        "A": "huge rivers",
+        "B": "lakes",
+        "C": "Belgium",
+        "D": "Pacific Ocean"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“On the land there are lakes. Many of them are larger than countries …” → them = lakes.",
+        "Textbook: English Grade 7, p. 7–8 (pronouns)."
+      ],
+      "explain_simple": "“Many of them” = many lakes.",
+      "tips": [
+        "Read the sentence just before the pronoun."
+      ],
+      "similar_questions": [
+        {
+          "stem": "“There are many rivers. Thirty of them are very long.” ‘them’ =",
+          "options": {
+            "A": "rivers",
+            "B": "lakes",
+            "C": "oceans",
+            "D": "countries"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "rivers."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-reference"
+      ],
+      "keywords": [
+        "reference",
+        "them"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Reference words (he, she, it, them, this)",
+        "rule": "A pronoun (he, it, them, this) stands for a noun that came before it; read the sentences before it.",
+        "note": "textbook: English Grade 7, p. 7–8 (pronouns)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q44",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 44,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "What percent of the surface of the earth is covered by water?",
+      "options": {
+        "A": "97. 2 per cent",
+        "B": "71 per cent",
+        "C": "more than 70 per cent",
+        "D": "B and C"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B",
+        "D"
+      ],
+      "explanation_steps": [
+        "“Seventy one per cent of the surface of the earth is water.” → 71 per cent.",
+        "“more than seventy per cent” in the text is about our BODY; 97.2 per cent is the part of all water that is in the oceans and seas.",
+        "But 71 per cent is also, in numbers, “more than 70 per cent”, so D can be defended.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "The text says 71 per cent of the earth’s surface is water.",
+      "tips": [
+        "Check which thing each number describes."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How much of our body is water?",
+          "options": {
+            "A": "less than half",
+            "B": "more than seventy per cent",
+            "C": "97.2 per cent",
+            "D": "10 per cent"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“more than seventy per cent of our body”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "per cent"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "Keyed B (71 per cent, exact words of the text); C ‘more than 70 per cent’ is the text’s figure for the human body, but 71 % is also mathematically ‘more than 70 %’, so D ‘B and C’ is defensible. Both accepted. Teacher decision."
+    },
+    {
+      "id": "english-2015-g8-p1-q45",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 45,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "Which of the following is false?",
+      "options": {
+        "A": "The water cycle never stops.",
+        "B": "There is more land than water on the earth.",
+        "C": "There is more water than land on the earth.",
+        "D": "Rain falls to the ground from rainclouds."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "71 % of the surface is water, so there is more water than land. B is false.",
+        "Textbook: English Grade 8, reading lessons."
+      ],
+      "explain_simple": "There is more water than land. B is false.",
+      "tips": [
+        "Two options that say opposite things: one of them is false."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is false?",
+          "options": {
+            "A": "Water can be solid.",
+            "B": "Ice is solid water.",
+            "C": "Water never moves.",
+            "D": "Vapour is a gas."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "“Water is always moving.”"
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "false"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Inference and true/false",
+        "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+        "note": "textbook: English Grade 8, reading lessons"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q46",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 46,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "The two kinds of solid water are ______ and ______.",
+      "options": {
+        "A": "ice and snow",
+        "B": "rainwater and seawater",
+        "C": "gas and vapour",
+        "D": "All are correct."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“It can also be solid, such as ice or snow.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Solid water = ice and snow.",
+      "tips": [
+        "solid = hard (ice); liquid = flows; gas = vapour."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Rainwater and seawater are examples of water as a:",
+          "options": {
+            "A": "solid",
+            "B": "liquid",
+            "C": "gas",
+            "D": "rock"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“usually liquid, such as rainwater, or seawater”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "solid"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q47",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 47,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "Where does water vapour come from?",
+      "options": {
+        "A": "plants, rivers, and rainclouds",
+        "B": "people, trees, rivers, oceans and rainclouds",
+        "C": "trees, rivers, oceans and the ground",
+        "D": "B and C"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“This vapour comes from plants and trees, from the rivers and from the ground. It also comes from the oceans and seas.”",
+        "Rainclouds and people are not in the list, so A and B are wrong.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Vapour comes from trees, rivers, oceans and the ground.",
+      "tips": [
+        "One wrong item makes the whole option wrong."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What does water vapour make?",
+          "options": {
+            "A": "new clouds",
+            "B": "rocks",
+            "C": "ice",
+            "D": "plants"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“rises from the earth and makes new clouds”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "vapour"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q48",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 48,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "Which of the following sentences is true?",
+      "options": {
+        "A": "More than half of our body is water.",
+        "B": "More than two- third of people in the world have water in their homes.",
+        "C": "People don’t need to walk for a long to find water.",
+        "D": "All are correct."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "More than 70 % of our body is water, and 70 % is more than half → A true.",
+        "B false: very few people have water at home. C false: two-thirds have to walk to find it.",
+        "Textbook: English Grade 8, reading lessons."
+      ],
+      "explain_simple": "70 % is more than half. A is true.",
+      "tips": [
+        "Change numbers into words: 70 % = more than half."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How many people have to walk to find water?",
+          "options": {
+            "A": "very few",
+            "B": "two-thirds",
+            "C": "none",
+            "D": "all"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "two-thirds."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "true"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Inference and true/false",
+        "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+        "note": "textbook: English Grade 8, reading lessons"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q49",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 49,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "What does “some of this water” (line 15) refer to?",
+      "options": {
+        "A": "underground",
+        "B": "clouds",
+        "C": "rainfall",
+        "D": "rocks"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“Rain falls to the ground from rainclouds. Some of this water goes deep into the earth …”",
+        "“this water” = the rain that falls (rainfall).",
+        "Textbook: English Grade 7, p. 7–8 (pronouns)."
+      ],
+      "explain_simple": "“This water” = the rain that falls.",
+      "tips": [
+        "Look at the sentence just before."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What does the rain water become deep in the earth?",
+          "options": {
+            "A": "vapour",
+            "B": "underground water",
+            "C": "snow",
+            "D": "clouds"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“becomes underground water”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-reference"
+      ],
+      "keywords": [
+        "reference"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Reference words (he, she, it, them, this)",
+        "rule": "A pronoun (he, it, them, this) stands for a noun that came before it; read the sentences before it.",
+        "note": "textbook: English Grade 7, p. 7–8 (pronouns)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2015-g8-p1-q50",
+      "exam_id": "english-2015-g8",
+      "part": 1,
+      "number": 50,
+      "section": "E. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2015-passage",
+      "stem": "Why do plants need water?",
+      "options": {
+        "A": "Water helps plants to move themselves from one place to another place.",
+        "B": "Water helps plants to move food from one part to another part of the plant.",
+        "C": "Water helps plants to build their shelter or house",
+        "D": "All are correct."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“Plants use water to move food from one part of the plant to another.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Water moves food inside the plant.",
+      "tips": [
+        "Read the exact sentence about plants."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How many people have water in their homes today?",
+          "options": {
+            "A": "very few",
+            "B": "most",
+            "C": "all",
+            "D": "two-thirds"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“very few people”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "plants"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    }
+  ]
+}

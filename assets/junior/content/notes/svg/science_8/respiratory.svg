@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 330">
+  <!-- head in side view (facing right) + chest -->
+  <path d="M112 60C112 26 136 10 160 10C186 10 202 28 204 48L214 64L204 70L206 84C206 94 196 98 186 96L182 110L170 116L130 116L122 100C114 90 112 76 112 60Z" fill="#FFF3E6" stroke="#E3C9AE" stroke-width="2.5"/>
+  <path d="M62 150Q62 120 96 118L204 118Q238 120 238 150L240 300Q240 322 216 322L84 322Q60 322 60 300Z" fill="#FFF3E6" stroke="#E3C9AE" stroke-width="2.5"/>
+  <ellipse cx="146" cy="24" rx="14" ry="5" fill="#fff" opacity=".7"/>
+  <!-- nasal passage + pharynx -->
+  <path d="M206 70C196 56 176 52 160 56C146 60 140 70 140 84L140 104" fill="none" stroke="#E08A8A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M206 70C196 56 176 52 160 56C146 60 140 70 140 84L140 104" fill="none" stroke="#FFC2B8" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="206" cy="72" rx="3.5" ry="2.5" fill="#6A5B50"/>
+  <!-- epiglottis -->
+  <path d="M146 96Q156 92 158 100" fill="none" stroke="#C23E33" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- larynx + trachea -->
+  <rect x="134" y="112" width="20" height="18" rx="6" fill="#C5B0EA" stroke="#6A4C9C" stroke-width="2"/>
+  <rect x="137" y="130" width="14" height="46" rx="5" fill="#D9E8F7" stroke="#5F90C4" stroke-width="2"/>
+  <g stroke="#5F90C4" stroke-width="1.6"><path d="M137 138h14M137 146h14M137 154h14M137 162h14M137 170h14"/></g>
+  <!-- lungs -->
+  <path d="M130 170C112 158 84 170 76 206C68 244 72 280 90 290C106 298 126 290 134 276Z" fill="#FFDCD0" stroke="#D9765A" stroke-width="2.5"/>
+  <path d="M158 170C176 158 204 170 212 206C220 244 216 280 198 290C182 298 162 290 154 276Z" fill="#FFDCD0" stroke="#D9765A" stroke-width="2.5"/>
+  <ellipse cx="96" cy="196" rx="10" ry="5" fill="#fff" opacity=".6"/><ellipse cx="192" cy="196" rx="10" ry="5" fill="#fff" opacity=".6"/>
+  <!-- bronchi -->
+  <path d="M144 176L124 190M144 176L164 190" stroke="#5F90C4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M144 176L124 190M144 176L164 190" stroke="#D9E8F7" stroke-width="4" stroke-linecap="round"/>
+  <!-- bronchioles (left of picture) -->
+  <g fill="none" stroke="#5F90C4" stroke-width="3" stroke-linecap="round">
+    <path d="M124 190L110 212L96 226M110 212L112 236M124 190L118 250L104 266M118 250L124 270M110 212L94 208"/>
+  </g>
+  <!-- bronchioles + alveoli (right of picture) -->
+  <g fill="none" stroke="#5F90C4" stroke-width="3" stroke-linecap="round"><path d="M164 190L178 214L192 226M178 214L182 244L196 256M182 244L172 262"/></g>
+  <g fill="#F7A58C" stroke="#D9765A" stroke-width="1.5">
+    <circle cx="196" cy="229" r="6"/><circle cx="204" cy="222" r="5.5"/><circle cx="203" cy="233" r="5"/>
+    <circle cx="200" cy="259" r="6"/><circle cx="208" cy="253" r="5.5"/><circle cx="207" cy="264" r="5"/>
+    <circle cx="170" cy="268" r="5.5"/><circle cx="164" cy="262" r="5"/><circle cx="176" cy="272" r="5"/>
+  </g>
+  <!-- diaphragm -->
+  <path d="M64 304Q150 262 236 304" fill="none" stroke="#B8704F" stroke-width="10" stroke-linecap="round"/>
+  <path d="M64 304Q150 262 236 304" fill="none" stroke="#E9A07E" stroke-width="6" stroke-linecap="round"/>
+</svg>

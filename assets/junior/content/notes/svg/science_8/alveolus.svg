@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250">
+  <!-- bronchiole into one air sac -->
+  <path d="M142 10L142 60C110 70 100 110 110 140C122 172 198 172 210 140C220 110 210 70 178 60L178 10" fill="#FFF0EA" stroke="#D9765A" stroke-width="3"/>
+  <ellipse cx="128" cy="96" rx="9" ry="16" fill="#fff" opacity=".6"/>
+  <text x="160" y="118" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="900" font-size="18" fill="#A8412A">air</text>
+  <!-- capillary -->
+  <path d="M8 196C80 196 110 182 160 182C210 182 240 196 312 196" fill="none" stroke="#8C2F28" stroke-width="30" stroke-linecap="round" opacity=".25"/>
+  <path d="M8 196C80 196 110 182 160 182C210 182 240 196 312 196" fill="none" stroke="url(#alvBlood)" stroke-width="24" stroke-linecap="round"/>
+  <defs><linearGradient id="alvBlood" x1="0" x2="1"><stop offset="0" stop-color="#8FA6D6"/><stop offset=".5" stop-color="#C77CA0"/><stop offset="1" stop-color="#EE6A58"/></linearGradient></defs>
+  <text x="160" y="233" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="900" font-size="16" fill="#6A5B50">blood in a capillary</text>
+  <path d="M250 222l14 0M258 216l8 6-8 6" fill="none" stroke="#6A5B50" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- air in -->
+  <g data-s="s1 s2 s3 s4 s5 s6"><path d="M152 14L152 50" stroke="#5CA75C" stroke-width="5" stroke-linecap="round"/><path d="M144 42l8 10 8-10" fill="none" stroke="#5CA75C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="118" y="30" text-anchor="end" font-family="Nunito,sans-serif" font-weight="900" font-size="16" fill="#2F6B3A">in: much O₂</text></g>
+  <!-- oxygen dissolves in the moist wall -->
+  <g data-s="s2 s3 s4 s5 s6"><g fill="#5F90C4"><circle cx="128" cy="150" r="3"/><circle cx="140" cy="158" r="3"/><circle cx="154" cy="160" r="3"/></g></g>
+  <!-- O2 into blood -->
+  <g data-s="s3 s4 s5 s6"><path d="M140 136L140 176" stroke="#2F5F8F" stroke-width="4" stroke-linecap="round"/><path d="M133 168l7 9 7-9" fill="none" stroke="#2F5F8F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="118" y="150" text-anchor="end" font-family="Nunito,sans-serif" font-weight="900" font-size="17" fill="#2F5F8F">O₂</text></g>
+  <!-- blood carries O2 away -->
+  <g data-s="s4 s5 s6"><path d="M230 186l40 0" stroke="#fff" stroke-width="4" stroke-linecap="round"/><path d="M262 179l9 7-9 7" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <!-- CO2 out of blood -->
+  <g data-s="s5 s6"><path d="M182 176L182 136" stroke="#8A6410" stroke-width="4" stroke-linecap="round"/><path d="M175 144l7-9 7 9" fill="none" stroke="#8A6410" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="196" y="150" font-family="Nunito,sans-serif" font-weight="900" font-size="17" fill="#8A6410">CO₂</text></g>
+  <!-- air out -->
+  <g data-s="s6"><path d="M168 50L168 14" stroke="#A8412A" stroke-width="5" stroke-linecap="round"/><path d="M160 22l8-10 8 10" fill="none" stroke="#A8412A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="202" y="30" font-family="Nunito,sans-serif" font-weight="900" font-size="16" fill="#A8412A">out: more CO₂</text></g>
+</svg>

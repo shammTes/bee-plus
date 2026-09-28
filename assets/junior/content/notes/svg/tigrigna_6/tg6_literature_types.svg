@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+<rect width="320" height="200" fill="#FBF7EE"/>
+<rect x="126" y="14" width="68" height="40" rx="10" fill="#BA68C8"/>
+<path d="M140 26 h40 M140 34 h40 M140 42 h28" stroke="#fff" stroke-width="3"/>
+<path d="M160 54 L160 76 M80 76 L240 76 M80 76 L80 100 M240 76 L240 100" stroke="#8A7A66" stroke-width="3" fill="none"/>
+<circle cx="80" cy="130" r="30" fill="#FFE0B2"/><path d="M64 128 q16 16 32 0 q-16 6 -32 0z" fill="#C62828"/>
+<path d="M112 116 a14 14 0 0 1 0 28 M120 108 a24 24 0 0 1 0 44" stroke="#1E88E5" stroke-width="3" fill="none"/>
+<path d="M206 112 q17 -8 34 0 v40 q-17 -8 -34 0z" fill="#fff" stroke="#5C8DD6" stroke-width="3"/>
+<path d="M240 112 q17 -8 34 0 v40 q-17 -8 -34 0z" fill="#fff" stroke="#5C8DD6" stroke-width="3"/>
+<path d="M212 124 h22 M212 132 h22 M246 124 h22 M246 132 h22" stroke="#9E9E9E" stroke-width="2"/>
+<path d="M40 178 h80" stroke="#8A7A66" stroke-width="3" marker-end="url(#a)"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8z" fill="#8A7A66"/></marker></defs>
+</svg>

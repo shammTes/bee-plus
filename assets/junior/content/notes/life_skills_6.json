@@ -1,0 +1,4444 @@
+{
+ "$schema": "../notes_schema.json",
+ "book": {
+  "id": "life_skills_6",
+  "subject": "life_skills",
+  "grade": 6,
+  "title": "Life Skills Grade 6",
+  "pdf": "textbooks/life_skills_6.pdf",
+  "page_offset": 5,
+  "source": "Life Skills Based Health Education for Grade 6, Student's Text Book, Ministry of Education, State of Eritrea (Second Edition, 2015)"
+ },
+ "units": [
+  {
+   "id": "ls6-u1",
+   "number": 1,
+   "title": "What Are My Goals?",
+   "status": "done",
+   "pages": [
+    1,
+    2
+   ],
+   "tone": "butter",
+   "intro": "What do **you** want to reach? This unit helps you think about your **goals** and the **people** who can help you.",
+   "intro_page": 1,
+   "diagrams": {
+    "ladder": {
+     "svg": "svg/life_skills_6/ls6_ladder.svg",
+     "title": "Goals, step by step",
+     "page": 1,
+     "pins": []
+    },
+    "helpers": {
+     "svg": "svg/life_skills_6/ls6_helpers.svg",
+     "title": "Who can help me?",
+     "page": 1,
+     "pins": [
+      {
+       "id": "par",
+       "text": "Parents or grandparents?",
+       "x": 50,
+       "y": 60
+      },
+      {
+       "id": "tea",
+       "text": "A teacher?",
+       "x": 270,
+       "y": 60
+      },
+      {
+       "id": "fr",
+       "text": "Friends?",
+       "x": 50,
+       "y": 180
+      },
+      {
+       "id": "oth",
+       "text": "Others? Who do you think?",
+       "x": 270,
+       "y": 180
+      }
+     ]
+    },
+    "admire": {
+     "svg": "svg/life_skills_6/ls6_admire.svg",
+     "title": "A person I admire",
+     "page": 2,
+     "pins": []
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls6-u1-l1",
+     "number": "1.1",
+     "title": "Who can help me meet my goals?",
+     "pages": [
+      1,
+      1
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "This unit is about **goals**.",
+        "You will think about **skills** that help you **reach** your goals."
+       ],
+       "page": 1
+      },
+      {
+       "type": "remember",
+       "title": "Activity I: think and talk",
+       "body": [
+        "What is a **goal**?",
+        "What are **your** goals?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 1
+      },
+      {
+       "type": "states",
+       "title": "Goals for different times",
+       "diagram": "ladder",
+       "page": 1,
+       "body": [
+        "The book asks about goals for **three** times. Move the slider."
+       ],
+       "states": [
+        {
+         "key": "sem",
+         "label": "This semester",
+         "text": "What goal do you want to reach **this semester**?"
+        },
+        {
+         "key": "year",
+         "label": "This year",
+         "text": "What goal do you want to reach **this year**?"
+        },
+        {
+         "key": "fut",
+         "label": "The future",
+         "text": "What goal do you want to reach **in the future**?"
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Activity II: think and talk",
+       "body": [
+        "Is it **easy** to reach your goals? Why?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 1
+      },
+      {
+       "type": "diagram",
+       "title": "Who can help me?",
+       "diagram": "helpers",
+       "mode": "explore",
+       "body": [
+        "The book asks: **who** can help you meet your goals?",
+        "Tap the people. The book does not say who. You decide!"
+       ],
+       "page": 1
+      },
+      {
+       "type": "remember",
+       "title": "Remember",
+       "body": [
+        "A goal can be for **this semester**, **this year** or **the future**.",
+        "Other people can **help** us meet our goals."
+       ],
+       "page": 1
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: S-Y-F",
+       "page": 1,
+       "letters": [
+        {
+         "l": "S",
+         "w": "Semester",
+         "m": "a short goal"
+        },
+        {
+         "l": "Y",
+         "w": "Year",
+         "m": "a longer goal"
+        },
+        {
+         "l": "F",
+         "w": "Future",
+         "m": "a big goal"
+        }
+       ],
+       "body": [
+        "\"**S**mall **Y**oung **F**eet\" climb the goal ladder."
+       ]
+      },
+      {
+       "type": "check",
+       "q": "For which times does Activity II ask about goals?",
+       "options": {
+        "A": "semester, year, future",
+        "B": "morning, noon, night",
+        "C": "only today",
+        "D": "only the past"
+       },
+       "answer": "A",
+       "why": "p. 1, Activity II.",
+       "page": 1
+      }
+     ]
+    },
+    {
+     "id": "ls6-u1-l2",
+     "number": "1.2",
+     "title": "People I admire",
+     "pages": [
+      2,
+      2
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "A person I admire",
+       "diagram": "admire",
+       "mode": "plain",
+       "body": [
+        "To **admire** someone means to think they are very good.",
+        "Write the name of a person you admire. List the **qualities** that make him or her admirable."
+       ],
+       "page": 2
+      },
+      {
+       "type": "remember",
+       "title": "Activity II: think and talk",
+       "body": [
+        "**Why** do we admire people?",
+        "Which qualities would **you** like to have? Why?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 2
+      },
+      {
+       "type": "text",
+       "title": "Words for good qualities",
+       "body": [
+        "Here are some words you can use: **kind**, **honest**, **hard-working**, **brave**, **helpful**.",
+        "*These words are our own examples; the book gives no list.*"
+       ],
+       "page": 2
+      },
+      {
+       "type": "check",
+       "q": "In 1.2, what must you list about the person you admire?",
+       "options": {
+        "A": "their money",
+        "B": "their characteristics or qualities",
+        "C": "their house",
+        "D": "their clothes"
+       },
+       "answer": "B",
+       "why": "p. 2, Activity I.",
+       "page": 2
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "goal",
+     "meaning": "something you want to reach or do",
+     "page": 1,
+     "forms": [
+      "goals"
+     ]
+    },
+    {
+     "term": "achieve",
+     "meaning": "to reach or do something",
+     "page": 1
+    },
+    {
+     "term": "semester",
+     "meaning": "half of a school year",
+     "page": 1
+    },
+    {
+     "term": "future",
+     "meaning": "the time that is coming",
+     "page": 1
+    },
+    {
+     "term": "admire",
+     "meaning": "to think someone is very good",
+     "page": 2,
+     "forms": [
+      "admirable"
+     ]
+    },
+    {
+     "term": "quality",
+     "meaning": "a good thing about a person",
+     "page": 2,
+     "forms": [
+      "qualities"
+     ]
+    },
+    {
+     "term": "characteristic",
+     "meaning": "something that makes a person the way they are",
+     "page": 2,
+     "forms": [
+      "characteristics"
+     ]
+    },
+    {
+     "term": "skill",
+     "meaning": "something you can do well",
+     "page": 1,
+     "forms": [
+      "skills"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "Think of goals for the semester, the year and the future.",
+     "page": 1
+    },
+    {
+     "text": "Ask: who can help me?",
+     "page": 1
+    },
+    {
+     "text": "Learn good qualities from people you admire.",
+     "page": 2
+    }
+   ],
+   "games": [
+    {
+     "id": "ls6-u1-g1",
+     "type": "sort",
+     "lesson": "ls6-u1-l1",
+     "title": "Which goal is it?",
+     "groups": [
+      {
+       "id": "s",
+       "label": "Short goal (semester)"
+      },
+      {
+       "id": "f",
+       "label": "Big goal (future)"
+      }
+     ],
+     "items": [
+      {
+       "text": "pass this term's maths test",
+       "group": "s"
+      },
+      {
+       "text": "read two books this semester",
+       "group": "s"
+      },
+      {
+       "text": "become a doctor",
+       "group": "f"
+      },
+      {
+       "text": "be a teacher one day",
+       "group": "f"
+      }
+     ]
+    },
+    {
+     "id": "ls6-u1-g2",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Unit 1 is called \"What are my ___?\"",
+       "answer": "goals",
+       "choices": [
+        "goals",
+        "friends",
+        "rights"
+       ]
+      },
+      {
+       "text": "Lesson 1.2 is \"People I ___\".",
+       "answer": "admire",
+       "choices": [
+        "admire",
+        "fear",
+        "meet"
+       ]
+      },
+      {
+       "text": "Goals for this semester, this year and the ___.",
+       "answer": "future",
+       "choices": [
+        "future",
+        "past",
+        "weekend"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls6-u1-g3",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "goal",
+       "back": "Something you want to reach or do."
+      },
+      {
+       "front": "admire",
+       "back": "To think someone is very good."
+      },
+      {
+       "front": "quality",
+       "back": "A good thing about a person."
+      },
+      {
+       "front": "three goal times",
+       "back": "this semester, this year, the future"
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls6-u1-q1",
+      "type": "mcq",
+      "page": 1,
+      "q": "What is Unit 1 about?",
+      "options": {
+       "A": "goals",
+       "B": "HIV",
+       "C": "gender",
+       "D": "bullies"
+      },
+      "answer": "A",
+      "why": [
+       "p. 1: \"What are my goals?\""
+      ],
+      "tip": "Look at the unit title.",
+      "similar": [
+       {
+        "q": "What skills does it help you build?",
+        "a": "skills to achieve your goals"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u1-q2",
+      "type": "mcq",
+      "page": 1,
+      "q": "Activity II asks about goals for this semester, this year and...",
+      "options": {
+       "A": "the future",
+       "B": "yesterday",
+       "C": "last year",
+       "D": "the holidays"
+      },
+      "answer": "A",
+      "why": [
+       "p. 1."
+      ],
+      "tip": "Three times.",
+      "similar": [
+       {
+        "q": "Name the first time.",
+        "a": "this semester"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u1-q3",
+      "type": "mcq",
+      "page": 1,
+      "q": "Which question does the book ask about goals?",
+      "options": {
+       "A": "Is achieving your goals easy? Why?",
+       "B": "How much money do you have?",
+       "C": "What is your favourite food?",
+       "D": "Where do you live?"
+      },
+      "answer": "A",
+      "why": [
+       "p. 1, Activity II Q2."
+      ],
+      "tip": "Easy or hard?",
+      "similar": [
+       {
+        "q": "Who can help you meet goals?",
+        "a": "the book asks you to decide"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u1-q4",
+      "type": "tf",
+      "page": 1,
+      "q": "The book asks who can help you meet your goals.",
+      "answer": true,
+      "why": [
+       "p. 1, Activity II Q3."
+      ],
+      "tip": "Helpers.",
+      "similar": [
+       {
+        "q": "Does the book name the helpers?",
+        "a": "no, you decide"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u1-q5",
+      "type": "mcq",
+      "page": 1,
+      "q": "What is the title of Lesson 1.1?",
+      "options": {
+       "A": "Who can help me meet my goals?",
+       "B": "People I admire",
+       "C": "Choosing friends",
+       "D": "In the family"
+      },
+      "answer": "A",
+      "why": [
+       "p. 1."
+      ],
+      "tip": "Lesson one.",
+      "similar": [
+       {
+        "q": "Title of 1.2?",
+        "a": "People I admire"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u1-q6",
+      "type": "mcq",
+      "page": 2,
+      "q": "What is the title of Lesson 1.2?",
+      "options": {
+       "A": "People I admire",
+       "B": "Coping with bullies",
+       "C": "Boys and girls",
+       "D": "My school"
+      },
+      "answer": "A",
+      "why": [
+       "p. 2."
+      ],
+      "tip": "Admire = think very good of.",
+      "similar": [
+       {
+        "q": "What do you write in 1.2?",
+        "a": "a person you admire and his/her qualities"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u1-q7",
+      "type": "mcq",
+      "page": 2,
+      "q": "In 1.2 Activity I you write the name of a person you admire and list their...",
+      "options": {
+       "A": "qualities",
+       "B": "shoes",
+       "C": "phone numbers",
+       "D": "animals"
+      },
+      "answer": "A",
+      "why": [
+       "p. 2."
+      ],
+      "tip": "Good things about them.",
+      "similar": [
+       {
+        "q": "Another word for qualities?",
+        "a": "characteristics"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u1-q8",
+      "type": "mcq",
+      "page": 2,
+      "q": "Which question is in 1.2 Activity II?",
+      "options": {
+       "A": "Why do you admire people?",
+       "B": "What is HIV?",
+       "C": "Who fetches water?",
+       "D": "What is a bully?"
+      },
+      "answer": "A",
+      "why": [
+       "p. 2."
+      ],
+      "tip": "Why?",
+      "similar": [
+       {
+        "q": "Second question?",
+        "a": "Which qualities would you like to have?"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u1-q9",
+      "type": "fill",
+      "page": 1,
+      "q": "A goal for ___ is the shortest one in the book's list.",
+      "answer": "this semester",
+      "choices": [
+       "this semester",
+       "the future",
+       "this year"
+      ],
+      "why": [
+       "p. 1: semester, year, future."
+      ],
+      "tip": "Half a school year.",
+      "similar": [
+       {
+        "q": "Which is the biggest?",
+        "a": "the future"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u1-q10",
+      "type": "mcq",
+      "page": 1,
+      "q": "The unit helps you develop ___ that help you achieve your goals.",
+      "options": {
+       "A": "skills",
+       "B": "diseases",
+       "C": "rules of football",
+       "D": "songs"
+      },
+      "answer": "A",
+      "why": [
+       "Unit outcome, p. 1."
+      ],
+      "tip": "Things you can do well.",
+      "similar": [
+       {
+        "q": "What does the unit ask you to define?",
+        "a": "what goals are"
+       }
+      ]
+     }
+    ]
+   },
+   "links": []
+  },
+  {
+   "id": "ls6-u2",
+   "number": 2,
+   "title": "Friendship Formation",
+   "status": "done",
+   "pages": [
+    3,
+    5
+   ],
+   "tone": "peach",
+   "intro": "How do we choose **good friends**? What are friends for, and how much should we do for them?",
+   "intro_page": 3,
+   "diagrams": {
+    "statements": {
+     "svg": "svg/life_skills_6/ls6_statements.svg",
+     "title": "What are friends for? (8 statements)",
+     "page": 4,
+     "pins": []
+    },
+    "scenarios": {
+     "svg": "svg/life_skills_6/ls6_scenarios.svg",
+     "title": "How much shall I do for a friend?",
+     "page": 4,
+     "pins": [
+      {
+       "id": "s0",
+       "text": "1. My friend wants me to miss a class. What would I do?",
+       "x": 84,
+       "y": 51
+      },
+      {
+       "id": "s1",
+       "text": "2. My friend wants me to always take my side in a conflict. What would I do?",
+       "x": 184,
+       "y": 51
+      },
+      {
+       "id": "s2",
+       "text": "3. My friend wants me to help steal money. What would I do?",
+       "x": 284,
+       "y": 51
+      },
+      {
+       "id": "s3",
+       "text": "4. My friend wants me to keep a crime secret. What would I do?",
+       "x": 84,
+       "y": 115
+      },
+      {
+       "id": "s4",
+       "text": "5. My friend wants me to copy my homework. What would I do?",
+       "x": 184,
+       "y": 115
+      },
+      {
+       "id": "s5",
+       "text": "6. My friend wants me to go against my values. What would I do?",
+       "x": 284,
+       "y": 115
+      },
+      {
+       "id": "s6",
+       "text": "7. My friend tells me he/she is HIV positive. What would I do?",
+       "x": 84,
+       "y": 179
+      },
+      {
+       "id": "s7",
+       "text": "8. My friend wants me to jump the school fence. What would I do?",
+       "x": 184,
+       "y": 179
+      },
+      {
+       "id": "s8",
+       "text": "9. My friend wants me to swim in a dam. What would I do?",
+       "x": 284,
+       "y": 179
+      }
+     ]
+    },
+    "saramussa": {
+     "svg": "svg/life_skills_6/ls6_saramussa.svg",
+     "title": "Sara and Mussa",
+     "page": 5,
+     "pins": []
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls6-u2-l1",
+     "number": "2.1",
+     "title": "Choosing friends",
+     "pages": [
+      3,
+      3
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "This unit is about **friends**.",
+        "What makes a **good** friend? How do we **choose** friends?"
+       ],
+       "page": 3
+      },
+      {
+       "type": "remember",
+       "title": "Activities I and II: think and talk",
+       "body": [
+        "What is a **friend**?",
+        "What **criteria** (reasons) do you use to choose a friend?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 3
+      },
+      {
+       "type": "remember",
+       "title": "Activity III: think and talk",
+       "body": [
+        "Is it fair to choose friends by **culture, religion, ethnic origin** or **area**? Why?",
+        "Is it **easy** to choose a friend?",
+        "**Who** can help you choose friends?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 3
+      },
+      {
+       "type": "check",
+       "q": "Which things does the book ask about choosing friends by?",
+       "options": {
+        "A": "culture, religion, ethnic origin, area",
+        "B": "height and weight",
+        "C": "shoes",
+        "D": "favourite colour"
+       },
+       "answer": "A",
+       "why": "p. 3, Activity III Q1.",
+       "page": 3
+      }
+     ]
+    },
+    {
+     "id": "ls6-u2-l2",
+     "number": "2.2",
+     "title": "What are friends for?",
+     "pages": [
+      3,
+      4
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Agree, disagree or not sure?",
+       "diagram": "statements",
+       "mode": "plain",
+       "body": [
+        "The book gives **8 statements**. Tick **agree**, **disagree** or **not sure**."
+       ],
+       "page": 4
+      },
+      {
+       "type": "table",
+       "title": "The 8 statements",
+       "head": [
+        "No.",
+        "Statement"
+       ],
+       "rows": [
+        [
+         "1",
+         "Friends are always helpful."
+        ],
+        [
+         "2",
+         "Friends must be of the same religion."
+        ],
+        [
+         "3",
+         "Friends are better than parents."
+        ],
+        [
+         "4",
+         "One cannot live without friends."
+        ],
+        [
+         "5",
+         "One can have friendship with the opposite sex."
+        ],
+        [
+         "6",
+         "Friends are needed only in bad situations."
+        ],
+        [
+         "7",
+         "Friends must have the same interest."
+        ],
+        [
+         "8",
+         "One can get all he/she needs from friends."
+        ]
+       ],
+       "page": 4
+      },
+      {
+       "type": "text",
+       "title": "Talk about them",
+       "body": [
+        "There is no answer key. Discuss each statement with your group and teacher.",
+        "*The book gives no model answer.*"
+       ],
+       "page": 4
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What can **you** do to **form** a friendship?",
+        "What can you do to **keep** (maintain) a friendship?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 4
+      }
+     ]
+    },
+    {
+     "id": "ls6-u2-l3",
+     "number": "2.3",
+     "title": "How much shall I do for a friend?",
+     "pages": [
+      4,
+      5
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "How much shall I do for a friend?",
+       "diagram": "scenarios",
+       "mode": "explore",
+       "body": [
+        "The book gives **9 situations**. Tap each one. What would **you** do?"
+       ],
+       "page": 4
+      },
+      {
+       "type": "remember",
+       "title": "Think before you say yes",
+       "body": [
+        "Some things a friend asks may be **wrong** or **dangerous**: stealing money, jumping the school fence, swimming in a dam.",
+        "A good friend can also say **no**."
+       ],
+       "page": 4
+      },
+      {
+       "type": "text",
+       "title": "A friend with HIV",
+       "body": [
+        "Situation 7: \"If my friend told me she/he was **HIV positive**, I would...\"",
+        "Unit 5 talks more about HIV and about not being afraid."
+       ],
+       "page": 5
+      },
+      {
+       "type": "remember",
+       "title": "Activity II: think and talk",
+       "body": [
+        "What things **would** you do for your close friends?",
+        "What things **wouldn't** you do?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 5
+      }
+     ]
+    },
+    {
+     "id": "ls6-u2-l4",
+     "number": "2.4",
+     "title": "Boys and girls",
+     "pages": [
+      5,
+      5
+     ],
+     "cards": [
+      {
+       "type": "steps",
+       "title": "Sara and Mussa",
+       "diagram": "saramussa",
+       "page": 5,
+       "steps": [
+        {
+         "text": "**Sara** and **Mussa** were classmates. They were **clever** and **helped each other** study. They went to school and the **library** together.",
+         "show": "a"
+        },
+        {
+         "text": "Sara's parents heard she was going out with Mussa. They **warned** her. Mussa's parents did the **same**.",
+         "show": "b"
+        },
+        {
+         "text": "Both sets of parents did all they could to **separate** them.",
+         "show": "c"
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What would you do if you were Sara? Mussa? Their parents?",
+        "Why did the parents warn them?",
+        "Will Sara and Mussa **succeed** in their study? Why?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 5
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk more",
+       "body": [
+        "Is it hard for a boy and a girl to be friends? Why?",
+        "Is it common in your area for a boy and a girl to be **close friends**?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 5
+      },
+      {
+       "type": "check",
+       "q": "How did Sara and Mussa help each other?",
+       "options": {
+        "A": "in their studies",
+        "B": "by fighting",
+        "C": "by skipping class",
+        "D": "by selling things"
+       },
+       "answer": "A",
+       "why": "p. 5.",
+       "page": 5
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "friend",
+     "meaning": "a person you like and trust",
+     "page": 3,
+     "forms": [
+      "friends"
+     ]
+    },
+    {
+     "term": "criteria",
+     "meaning": "the reasons you use to choose",
+     "page": 3
+    },
+    {
+     "term": "culture",
+     "meaning": "the way of life of a group",
+     "page": 3
+    },
+    {
+     "term": "religion",
+     "meaning": "what people believe about God",
+     "page": 3
+    },
+    {
+     "term": "ethnic origin",
+     "meaning": "the ethnic group you come from",
+     "page": 3
+    },
+    {
+     "term": "opposite sex",
+     "meaning": "boys for girls, girls for boys",
+     "page": 4
+    },
+    {
+     "term": "maintain",
+     "meaning": "to keep something going",
+     "page": 4
+    },
+    {
+     "term": "scenario",
+     "meaning": "a short made-up situation",
+     "page": 4,
+     "forms": [
+      "scenarios"
+     ]
+    },
+    {
+     "term": "values",
+     "meaning": "what you believe is right",
+     "page": 4
+    },
+    {
+     "term": "conflict",
+     "meaning": "a quarrel or fight",
+     "page": 4
+    },
+    {
+     "term": "warn",
+     "meaning": "tell someone about danger",
+     "page": 5,
+     "forms": [
+      "warned"
+     ]
+    },
+    {
+     "term": "separate",
+     "meaning": "to keep apart",
+     "page": 5
+    }
+   ],
+   "tips": [
+    {
+     "text": "Think before you do what a friend asks.",
+     "page": 4
+    },
+    {
+     "text": "Sara and Mussa helped each other study.",
+     "page": 5
+    },
+    {
+     "text": "Friendship needs your contribution: form it and keep it.",
+     "page": 4
+    }
+   ],
+   "games": [
+    {
+     "id": "ls6-u2-g1",
+     "type": "fill",
+     "lesson": "ls6-u2-l4",
+     "title": "Sara and Mussa",
+     "items": [
+      {
+       "text": "Sara and Mussa were ___.",
+       "answer": "classmates",
+       "choices": [
+        "classmates",
+        "cousins",
+        "teachers"
+       ]
+      },
+      {
+       "text": "They helped each other in their ___.",
+       "answer": "studies",
+       "choices": [
+        "studies",
+        "farm",
+        "shop"
+       ]
+      },
+      {
+       "text": "They went to school and the ___ together.",
+       "answer": "library",
+       "choices": [
+        "library",
+        "market",
+        "dam"
+       ]
+      },
+      {
+       "text": "Their parents tried to ___ them.",
+       "answer": "separate",
+       "choices": [
+        "separate",
+        "reward",
+        "praise"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls6-u2-g2",
+     "type": "sort",
+     "lesson": "ls6-u2-l3",
+     "title": "Safe or risky?",
+     "groups": [
+      {
+       "id": "s",
+       "label": "Safe to help with"
+      },
+      {
+       "id": "r",
+       "label": "Wrong or dangerous"
+      }
+     ],
+     "items": [
+      {
+       "text": "study together",
+       "group": "s"
+      },
+      {
+       "text": "go to the library together",
+       "group": "s"
+      },
+      {
+       "text": "help steal money",
+       "group": "r"
+      },
+      {
+       "text": "jump the school fence",
+       "group": "r"
+      },
+      {
+       "text": "swim in a dam",
+       "group": "r"
+      },
+      {
+       "text": "copy homework",
+       "group": "r"
+      }
+     ]
+    },
+    {
+     "id": "ls6-u2-g3",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Sara and Mussa were clever students.",
+       "answer": true
+      },
+      {
+       "text": "Only Sara's parents warned her.",
+       "answer": false,
+       "why": "Mussa's parents did the same."
+      },
+      {
+       "text": "The book gives 9 situations about a friend.",
+       "answer": true
+      },
+      {
+       "text": "The book gives answers to the 8 statements.",
+       "answer": false,
+       "why": "There is no key; you discuss them."
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls6-u2-q1",
+      "type": "mcq",
+      "page": 3,
+      "q": "What is the title of Lesson 2.1?",
+      "options": {
+       "A": "Choosing friends",
+       "B": "Boys and girls",
+       "C": "In the family",
+       "D": "Coping with bullies"
+      },
+      "answer": "A",
+      "why": [
+       "p. 3."
+      ],
+      "tip": "Choose.",
+      "similar": [
+       {
+        "q": "Title of 2.2?",
+        "a": "What are friends for?"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q2",
+      "type": "mcq",
+      "page": 3,
+      "q": "Activity III asks if it is reasonable to choose friends based on:",
+      "options": {
+       "A": "culture, religion, ethnic origin, area",
+       "B": "clothes and shoes",
+       "C": "money",
+       "D": "height"
+      },
+      "answer": "A",
+      "why": [
+       "p. 3."
+      ],
+      "tip": "Four things.",
+      "similar": [
+       {
+        "q": "Is it easy to choose a friend?",
+        "a": "the book asks you to justify your answer"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q3",
+      "type": "mcq",
+      "page": 4,
+      "q": "How many statements are in the 2.2 table?",
+      "options": {
+       "A": "8",
+       "B": "5",
+       "C": "10",
+       "D": "3"
+      },
+      "answer": "A",
+      "why": [
+       "p. 4."
+      ],
+      "tip": "Count them.",
+      "similar": [
+       {
+        "q": "What columns are there?",
+        "a": "agree, disagree, not sure"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q4",
+      "type": "mcq",
+      "page": 4,
+      "q": "Which is one of the 2.2 statements?",
+      "options": {
+       "A": "Friends are better than parents.",
+       "B": "Friends must be rich.",
+       "C": "Friends must be tall.",
+       "D": "Friends live far away."
+      },
+      "answer": "A",
+      "why": [
+       "p. 4, statement 3."
+      ],
+      "tip": "About parents.",
+      "similar": [
+       {
+        "q": "Another statement?",
+        "a": "Friends are always helpful."
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q5",
+      "type": "mcq",
+      "page": 4,
+      "q": "The table asks you to tick agree, disagree or...",
+      "options": {
+       "A": "not sure",
+       "B": "maybe tomorrow",
+       "C": "true",
+       "D": "never"
+      },
+      "answer": "A",
+      "why": [
+       "p. 4."
+      ],
+      "tip": "Three columns.",
+      "similar": [
+       {
+        "q": "Does the book give answers?",
+        "a": "no"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q6",
+      "type": "mcq",
+      "page": 4,
+      "q": "Lesson 2.3 asks:",
+      "options": {
+       "A": "How much shall I do for a friend?",
+       "B": "What is HIV?",
+       "C": "Who milks the cows?",
+       "D": "What is a goal?"
+      },
+      "answer": "A",
+      "why": [
+       "p. 4."
+      ],
+      "tip": "Doing things for friends.",
+      "similar": [
+       {
+        "q": "How many scenarios?",
+        "a": "9"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q7",
+      "type": "mcq",
+      "page": 5,
+      "q": "Which is one of the 9 scenarios?",
+      "options": {
+       "A": "My friend asks me to swim in a dam.",
+       "B": "My friend asks me to plant a tree.",
+       "C": "My friend asks me to read.",
+       "D": "My friend asks me to sing."
+      },
+      "answer": "A",
+      "why": [
+       "p. 5, scenario 9."
+      ],
+      "tip": "Water danger.",
+      "similar": [
+       {
+        "q": "Another scenario?",
+        "a": "jump over the school fence"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q8",
+      "type": "mcq",
+      "page": 5,
+      "q": "Who were Sara and Mussa?",
+      "options": {
+       "A": "classmates",
+       "B": "brother and sister",
+       "C": "teachers",
+       "D": "neighbours only"
+      },
+      "answer": "A",
+      "why": [
+       "p. 5."
+      ],
+      "tip": "Same class.",
+      "similar": [
+       {
+        "q": "Where did they go together?",
+        "a": "school, library and other places"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q9",
+      "type": "mcq",
+      "page": 5,
+      "q": "What did Sara's parents hear?",
+      "options": {
+       "A": "that she was going out with Mussa",
+       "B": "that she failed",
+       "C": "that she was sick",
+       "D": "that she moved school"
+      },
+      "answer": "A",
+      "why": [
+       "p. 5."
+      ],
+      "tip": "About Mussa.",
+      "similar": [
+       {
+        "q": "What did they do?",
+        "a": "warned her"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q10",
+      "type": "tf",
+      "page": 5,
+      "q": "The parents of both students tried to separate them.",
+      "answer": true,
+      "why": [
+       "p. 5."
+      ],
+      "tip": "Both families.",
+      "similar": [
+       {
+        "q": "Were Sara and Mussa clever?",
+        "a": "yes"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u2-q11",
+      "type": "fill",
+      "page": 4,
+      "q": "After the table, the book asks what you have to contribute to form and ___ friendship.",
+      "answer": "maintain",
+      "choices": [
+       "maintain",
+       "end",
+       "sell",
+       "hide"
+      ],
+      "why": [
+       "p. 4."
+      ],
+      "tip": "Keep it going.",
+      "similar": [
+       {
+        "q": "What does maintain mean?",
+        "a": "to keep something going"
+       }
+      ]
+     }
+    ]
+   },
+   "links": []
+  },
+  {
+   "id": "ls6-u3",
+   "number": 3,
+   "title": "Gender and Gender Roles",
+   "status": "done",
+   "pages": [
+    6,
+    8
+   ],
+   "tone": "lilac",
+   "intro": "Is some work only for **boys** or only for **girls**? Look at gender roles in your **family**, **school** and **community**.",
+   "intro_page": 6,
+   "diagrams": {
+    "family": {
+     "svg": "svg/life_skills_6/ls6_family.svg",
+     "title": "Who usually does it? (family questionnaire)",
+     "page": 6,
+     "pins": [
+      {
+       "id": "f0",
+       "text": "1. Who is given more attention?",
+       "x": 54,
+       "y": 52
+      },
+      {
+       "id": "f1",
+       "text": "2. Who does the cooking?",
+       "x": 117,
+       "y": 52
+      },
+      {
+       "id": "f2",
+       "text": "3. Who looks after the animals?",
+       "x": 180,
+       "y": 52
+      },
+      {
+       "id": "f3",
+       "text": "4. Who is sent to school first?",
+       "x": 243,
+       "y": 52
+      },
+      {
+       "id": "f4",
+       "text": "5. Who washes the clothes?",
+       "x": 306,
+       "y": 52
+      },
+      {
+       "id": "f5",
+       "text": "6. Who fetches water?",
+       "x": 54,
+       "y": 96
+      },
+      {
+       "id": "f6",
+       "text": "7. Who fetches firewood?",
+       "x": 117,
+       "y": 96
+      },
+      {
+       "id": "f7",
+       "text": "8. Who rides a bicycle?",
+       "x": 180,
+       "y": 96
+      },
+      {
+       "id": "f8",
+       "text": "9. Who cleans the house?",
+       "x": 243,
+       "y": 96
+      },
+      {
+       "id": "f9",
+       "text": "10. Who milks the cows?",
+       "x": 306,
+       "y": 96
+      }
+     ]
+    },
+    "fatuma": {
+     "svg": "svg/life_skills_6/ls6_fatuma.svg",
+     "title": "Fatuma's story",
+     "page": 8,
+     "pins": []
+    },
+    "share": {
+     "svg": "svg/life_skills_6/ls6_share.svg",
+     "title": "Sharing the work",
+     "page": 8,
+     "pins": []
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls6-u3-l1",
+     "number": "3.1",
+     "title": "In the family",
+     "pages": [
+      6,
+      6
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "This unit is about **gender** and **gender roles**.",
+        "You will look for gender roles and **stereotypes** in your community."
+       ],
+       "page": 6
+      },
+      {
+       "type": "remember",
+       "title": "Activity I: think and talk",
+       "body": [
+        "What is **gender**?",
+        "What are **gender roles**?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 6
+      },
+      {
+       "type": "diagram",
+       "title": "In your family, who usually...?",
+       "diagram": "family",
+       "mode": "explore",
+       "body": [
+        "The book gives **10 questions**. For each, tick **boy** or **girl**. Tap each box."
+       ],
+       "page": 6
+      },
+      {
+       "type": "remember",
+       "title": "Activity III: think and talk",
+       "body": [
+        "Should there be **special work** for boys or for girls? Why?",
+        "How should parents treat their **sons** and **daughters**? Why?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 6
+      },
+      {
+       "type": "check",
+       "q": "Which is one of the family questions?",
+       "options": {
+        "A": "Who fetches water?",
+        "B": "Who drives a bus?",
+        "C": "Who is the president?",
+        "D": "Who sells cars?"
+       },
+       "answer": "A",
+       "why": "p. 6, item 6.",
+       "page": 6
+      }
+     ]
+    },
+    {
+     "id": "ls6-u3-l2",
+     "number": "3.2",
+     "title": "In the school",
+     "pages": [
+      7,
+      7
+     ],
+     "cards": [
+      {
+       "type": "table",
+       "title": "School activities: boy, girl or both?",
+       "head": [
+        "No.",
+        "Activity"
+       ],
+       "rows": [
+        [
+         "1",
+         "cleaning the school compound"
+        ],
+        [
+         "2",
+         "raising and lowering the flag"
+        ],
+        [
+         "3",
+         "digging and watering the school garden"
+        ],
+        [
+         "4",
+         "fetching water for cleaning classes"
+        ],
+        [
+         "5",
+         "cleaning the window glass"
+        ],
+        [
+         "6",
+         "planting trees in the school compound"
+        ],
+        [
+         "7",
+         "playing football"
+        ],
+        [
+         "8",
+         "helping to repair school fences"
+        ],
+        [
+         "9",
+         "being a class monitor"
+        ]
+       ],
+       "page": 7
+      },
+      {
+       "type": "text",
+       "title": "Tick boy, girl or both",
+       "body": [
+        "Which activities are **usually** done by boys, girls or **both** in your school?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 7
+      },
+      {
+       "type": "remember",
+       "title": "Activity II: think and talk",
+       "body": [
+        "What stops **girls** from doing activities usually done by boys?",
+        "What stops **boys** from doing activities usually done by girls?",
+        "How can we **break** gender-biased attitudes?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 7
+      }
+     ]
+    },
+    {
+     "id": "ls6-u3-l3",
+     "number": "3.3",
+     "title": "In the community",
+     "pages": [
+      7,
+      8
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Activity I: think and talk",
+       "body": [
+        "What are **boys** allowed and not allowed to do in your community?",
+        "What are **girls** allowed and not allowed to do?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 7
+      },
+      {
+       "type": "steps",
+       "title": "Fatuma's story",
+       "diagram": "fatuma",
+       "page": 8,
+       "steps": [
+        {
+         "text": "The teacher asks **Fatuma** why she was **sleeping** in class. She was **tired**.",
+         "show": "a"
+        },
+        {
+         "text": "After school she fetches **water two kilometres** away. She collects **firewood** and **washes** the family's clothes.",
+         "show": "b"
+        },
+        {
+         "text": "Her mother is away **selling peanuts**. So Fatuma **cooks and serves dinner** and **washes the dishes**. She has no time for homework.",
+         "show": "c"
+        },
+        {
+         "text": "Her **brothers** do not help. They say it is \"**girl's work**\".",
+         "show": "d"
+        },
+        {
+         "text": "Her family would let her **drop out** if her brothers do well. The teacher says many girls say this. It should be **discussed in the community**.",
+         "show": "e"
+        }
+       ]
+      },
+      {
+       "type": "states",
+       "title": "Sharing the work",
+       "diagram": "share",
+       "page": 8,
+       "body": [
+        "Move the slider."
+       ],
+       "states": [
+        {
+         "key": "one",
+         "label": "Now",
+         "text": "Fatuma does **all** the work and cannot study."
+        },
+        {
+         "key": "all",
+         "label": "Better?",
+         "text": "What if her brothers **helped**? What do you think?"
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "How do you see Fatuma's situation? Why?",
+        "Is it common in your community? What should be done?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 8
+      },
+      {
+       "type": "check",
+       "q": "Why does Fatuma cook dinner?",
+       "options": {
+        "A": "her mother is away selling peanuts",
+        "B": "she loves cooking",
+        "C": "her brothers cook breakfast",
+        "D": "the teacher told her"
+       },
+       "answer": "A",
+       "why": "p. 8.",
+       "page": 8
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "gender",
+     "meaning": "being a boy or a girl in the eyes of society",
+     "page": 6
+    },
+    {
+     "term": "gender role",
+     "meaning": "work people think is for boys or for girls",
+     "page": 6,
+     "forms": [
+      "gender roles"
+     ]
+    },
+    {
+     "term": "stereotype",
+     "meaning": "a fixed idea about a group of people",
+     "page": 6,
+     "forms": [
+      "stereotypes"
+     ]
+    },
+    {
+     "term": "questionnaire",
+     "meaning": "a list of questions to answer",
+     "page": 6
+    },
+    {
+     "term": "attention",
+     "meaning": "care and interest",
+     "page": 6
+    },
+    {
+     "term": "compound",
+     "meaning": "the land around a building",
+     "page": 7
+    },
+    {
+     "term": "monitor",
+     "meaning": "a student helper in class",
+     "page": 7
+    },
+    {
+     "term": "biased",
+     "meaning": "unfair to one side",
+     "page": 7
+    },
+    {
+     "term": "attitude",
+     "meaning": "the way you think about something",
+     "page": 7,
+     "forms": [
+      "attitudes"
+     ]
+    },
+    {
+     "term": "fetch",
+     "meaning": "go and bring back",
+     "page": 6,
+     "forms": [
+      "fetches"
+     ]
+    },
+    {
+     "term": "drop out",
+     "meaning": "leave school before finishing",
+     "page": 8
+    },
+    {
+     "term": "community",
+     "meaning": "the people living in one area",
+     "page": 7
+    }
+   ],
+   "tips": [
+    {
+     "text": "Ask: is this work really only for boys or only for girls?",
+     "page": 6
+    },
+    {
+     "text": "Fatuma had no time to study. Sharing work helps.",
+     "page": 8
+    },
+    {
+     "text": "The teacher: discuss it in the community.",
+     "page": 8
+    }
+   ],
+   "games": [
+    {
+     "id": "ls6-u3-g1",
+     "type": "fill",
+     "lesson": "ls6-u3-l3",
+     "title": "Fatuma's day",
+     "items": [
+      {
+       "text": "Fatuma fetches water ___ away.",
+       "answer": "two kilometres",
+       "choices": [
+        "two kilometres",
+        "ten metres",
+        "one hour"
+       ]
+      },
+      {
+       "text": "Her mother is away selling ___.",
+       "answer": "peanuts",
+       "choices": [
+        "peanuts",
+        "clothes",
+        "milk"
+       ]
+      },
+      {
+       "text": "Her brothers say it is ___ work.",
+       "answer": "girl's",
+       "choices": [
+        "girl's",
+        "easy",
+        "teacher's"
+       ]
+      },
+      {
+       "text": "Fatuma was ___ in class.",
+       "answer": "sleeping",
+       "choices": [
+        "sleeping",
+        "singing",
+        "late"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls6-u3-g2",
+     "type": "sort",
+     "lesson": null,
+     "title": "Which list is it in?",
+     "groups": [
+      {
+       "id": "f",
+       "label": "Family questionnaire"
+      },
+      {
+       "id": "s",
+       "label": "School activities"
+      }
+     ],
+     "items": [
+      {
+       "text": "milks the cows",
+       "group": "f"
+      },
+      {
+       "text": "does the cooking",
+       "group": "f"
+      },
+      {
+       "text": "rides a bicycle",
+       "group": "f"
+      },
+      {
+       "text": "raising the flag",
+       "group": "s"
+      },
+      {
+       "text": "playing football",
+       "group": "s"
+      },
+      {
+       "text": "being a class monitor",
+       "group": "s"
+      }
+     ]
+    },
+    {
+     "id": "ls6-u3-g3",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Fatuma's brothers help her every day.",
+       "answer": false,
+       "why": "They say it is girl's work."
+      },
+      {
+       "text": "The teacher says Fatuma's problem should be discussed in the community.",
+       "answer": true
+      },
+      {
+       "text": "The family questionnaire has 10 questions.",
+       "answer": true
+      },
+      {
+       "text": "Fatuma does her homework every night.",
+       "answer": false,
+       "why": "Most of the time she doesn't."
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls6-u3-q1",
+      "type": "mcq",
+      "page": 6,
+      "q": "How many questions are in the family questionnaire (3.1)?",
+      "options": {
+       "A": "10",
+       "B": "5",
+       "C": "8",
+       "D": "12"
+      },
+      "answer": "A",
+      "why": [
+       "p. 6."
+      ],
+      "tip": "Count them.",
+      "similar": [
+       {
+        "q": "Which two columns?",
+        "a": "boy and girl"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q2",
+      "type": "mcq",
+      "page": 6,
+      "q": "Which is one of the family questions?",
+      "options": {
+       "A": "Who milks the cows?",
+       "B": "Who reads the news?",
+       "C": "Who drives?",
+       "D": "Who builds roads?"
+      },
+      "answer": "A",
+      "why": [
+       "p. 6, item 10."
+      ],
+      "tip": "Farm work.",
+      "similar": [
+       {
+        "q": "Another?",
+        "a": "Who is sent to school first?"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q3",
+      "type": "mcq",
+      "page": 7,
+      "q": "The school activity list has columns for boy, girl and...",
+      "options": {
+       "A": "both",
+       "B": "teacher",
+       "C": "nobody",
+       "D": "parents"
+      },
+      "answer": "A",
+      "why": [
+       "p. 7."
+      ],
+      "tip": "Three columns.",
+      "similar": [
+       {
+        "q": "How many activities?",
+        "a": "9"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q4",
+      "type": "mcq",
+      "page": 7,
+      "q": "Which is one of the school activities?",
+      "options": {
+       "A": "raising and lowering the flag",
+       "B": "selling peanuts",
+       "C": "milking cows",
+       "D": "driving a car"
+      },
+      "answer": "A",
+      "why": [
+       "p. 7, item 2."
+      ],
+      "tip": "At school.",
+      "similar": [
+       {
+        "q": "Another?",
+        "a": "being a monitor in a class"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q5",
+      "type": "mcq",
+      "page": 8,
+      "q": "Why was Fatuma sleeping in class?",
+      "options": {
+       "A": "she was tired from working at home",
+       "B": "she was sick",
+       "C": "the lesson was boring",
+       "D": "she studied all night"
+      },
+      "answer": "A",
+      "why": [
+       "p. 8."
+      ],
+      "tip": "\"I wish I was\" studying.",
+      "similar": [
+       {
+        "q": "What did she do after school?",
+        "a": "fetched water, collected firewood, washed clothes"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q6",
+      "type": "mcq",
+      "page": 8,
+      "q": "How far does Fatuma go to fetch water?",
+      "options": {
+       "A": "two kilometres",
+       "B": "one kilometre",
+       "C": "five kilometres",
+       "D": "next door"
+      },
+      "answer": "A",
+      "why": [
+       "p. 8."
+      ],
+      "tip": "2 km.",
+      "similar": [
+       {
+        "q": "What else does she collect?",
+        "a": "firewood"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q7",
+      "type": "mcq",
+      "page": 8,
+      "q": "What does Fatuma's mother do?",
+      "options": {
+       "A": "sells peanuts",
+       "B": "teaches",
+       "C": "is a nurse",
+       "D": "farms"
+      },
+      "answer": "A",
+      "why": [
+       "p. 8."
+      ],
+      "tip": "She is away.",
+      "similar": [
+       {
+        "q": "So what must Fatuma do?",
+        "a": "prepare and serve dinner"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q8",
+      "type": "mcq",
+      "page": 8,
+      "q": "Why don't Fatuma's brothers help?",
+      "options": {
+       "A": "they say it is girl's work",
+       "B": "they are sick",
+       "C": "they are away",
+       "D": "they are too young"
+      },
+      "answer": "A",
+      "why": [
+       "p. 8."
+      ],
+      "tip": "\"girl's work\".",
+      "similar": [
+       {
+        "q": "Should they help?",
+        "a": "Fatuma says they should"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q9",
+      "type": "tf",
+      "page": 8,
+      "q": "Fatuma's family doesn't mind her dropping out as long as her brothers do well.",
+      "answer": true,
+      "why": [
+       "p. 8."
+      ],
+      "tip": "Her words.",
+      "similar": [
+       {
+        "q": "What does the teacher say?",
+        "a": "it is a serious issue"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q10",
+      "type": "fill",
+      "page": 8,
+      "q": "The teacher says it is a serious issue, so it should be discussed in the ___.",
+      "answer": "community",
+      "choices": [
+       "community",
+       "market",
+       "library",
+       "hospital"
+      ],
+      "why": [
+       "p. 8."
+      ],
+      "tip": "Where people live together.",
+      "similar": [
+       {
+        "q": "Do many girls say so?",
+        "a": "yes, the teacher says many girls do"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u3-q11",
+      "type": "short",
+      "page": 8,
+      "q": "List three jobs Fatuma does after school.",
+      "answer": "Any three: fetching water, collecting firewood, washing clothes, preparing and serving dinner, washing dishes.",
+      "why": [
+       "p. 8."
+      ],
+      "tip": "Water, wood, washing, cooking.",
+      "similar": [
+       {
+        "q": "When does she go to bed?",
+        "a": "after washing the dishes"
+       }
+      ]
+     }
+    ]
+   },
+   "links": []
+  },
+  {
+   "id": "ls6-u4",
+   "number": 4,
+   "title": "Sexual and Physical Abuse",
+   "status": "done",
+   "pages": [
+    9,
+    11
+   ],
+   "tone": "mint",
+   "intro": "You have the right to be **safe**. Learn to say **No** loudly and clearly, and how to deal with **bullies**.",
+   "intro_page": 9,
+   "diagrams": {
+    "sayno": {
+     "svg": "svg/life_skills_6/ls6_sayno.svg",
+     "title": "What Paulina did",
+     "page": 10,
+     "pins": [
+      {
+       "id": "no",
+       "text": "She said \"No!\" loudly and clearly: \"I said No! And I mean No.\"",
+       "x": 95,
+       "y": 34
+      },
+      {
+       "id": "push",
+       "text": "She pushed him away with all her strength.",
+       "x": 305,
+       "y": 34
+      },
+      {
+       "id": "scream",
+       "text": "She said: \"If you try to touch me again, I will scream.\"",
+       "x": 305,
+       "y": 124
+      }
+     ]
+    },
+    "paulina": {
+     "svg": "svg/life_skills_6/ls6_paulina.svg",
+     "title": "Paulina says No",
+     "page": 9,
+     "pins": []
+    },
+    "bully": {
+     "svg": "svg/life_skills_6/ls6_bully.svg",
+     "title": "Geresin the bully",
+     "page": 10,
+     "pins": []
+    },
+    "sayno_q": {
+     "svg": "svg/life_skills_6/ls6_sayno_q.svg",
+     "title": "What Paulina did (quiz)",
+     "page": 10,
+     "pins": [
+      {
+       "id": "no",
+       "text": "She said \"No!\" loudly and clearly: \"I said No! And I mean No.\"",
+       "x": 95,
+       "y": 34
+      },
+      {
+       "id": "push",
+       "text": "She pushed him away with all her strength.",
+       "x": 305,
+       "y": 34
+      },
+      {
+       "id": "scream",
+       "text": "She said: \"If you try to touch me again, I will scream.\"",
+       "x": 305,
+       "y": 124
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls6-u4-l1",
+     "number": "4.1",
+     "title": "Good and bad touches",
+     "pages": [
+      9,
+      9
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "This unit is about staying **safe** from **abuse**: touches or actions that **hurt** or scare you.",
+        "You will learn **skills** to avoid it."
+       ],
+       "page": 9
+      },
+      {
+       "type": "remember",
+       "title": "Activity I: think and talk",
+       "body": [
+        "What is a **good** touch?",
+        "What is a **bad** touch?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 9
+      },
+      {
+       "type": "text",
+       "title": "Good touch or bad touch?",
+       "body": [
+        "The book lists **7 touches**. You mark them **√** (good), **X** (bad) or **?** (not sure).",
+        "They go from **holding hands** to **touches on private parts of the body**.",
+        "Discuss them with your teacher."
+       ],
+       "page": 9
+      },
+      {
+       "type": "remember",
+       "title": "Our safety tip",
+       "body": [
+        "If a touch makes you feel **bad, scared or confused**, say **No**, move away and **tell an adult you trust**.",
+        "*This tip is ours; the book does not say it.*"
+       ],
+       "page": 9
+      }
+     ]
+    },
+    {
+     "id": "ls6-u4-l2",
+     "number": "4.2",
+     "title": "How to say \"No\" loudly and clearly",
+     "pages": [
+      9,
+      10
+     ],
+     "cards": [
+      {
+       "type": "steps",
+       "title": "Paulina says No",
+       "diagram": "paulina",
+       "page": 9,
+       "steps": [
+        {
+         "text": "**Nati** is 15. **Paulina** is 13. Nati helps her with her **assignment**.",
+         "show": "a"
+        },
+        {
+         "text": "Nati says it is time to \"**prove our love**\". Paulina says **No**.",
+         "show": "b"
+        },
+        {
+         "text": "On the way home Nati pulls her to a **quiet place** and **holds her tightly**. She says \"**Stop it!**\"",
+         "show": "c"
+        },
+        {
+         "text": "\"**I said No! And I mean No.**\" She **pushes** him away and says she will **scream**.",
+         "show": "d"
+        }
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "What Paulina did",
+       "diagram": "sayno",
+       "mode": "explore",
+       "body": [
+        "Tap each box to see how she said **No loudly and clearly**."
+       ],
+       "page": 10
+      },
+      {
+       "type": "remember",
+       "title": "Saying No",
+       "body": [
+        "Say **No** in a **loud** and **clear** voice.",
+        "Mean it. Paulina did not give in, even though she liked Nati."
+       ],
+       "page": 10
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What would you do if you were Paulina?",
+        "Did Paulina act **assertively** (strongly and clearly)? Why?",
+        "What would happen if Paulina **agreed**?",
+        "What **advice** would you give Nati?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 10
+      }
+     ]
+    },
+    {
+     "id": "ls6-u4-l3",
+     "number": "4.3",
+     "title": "Coping with bullies",
+     "pages": [
+      10,
+      11
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Activity I: think and talk",
+       "body": [
+        "What are **bullies**? What do they do?",
+        "**Why** do they behave like that?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 10
+      },
+      {
+       "type": "diagram",
+       "title": "Geresin the bully",
+       "diagram": "bully",
+       "mode": "plain",
+       "body": [
+        "**Geresin** is in **grade 6**. He always **fights** to show his **strength**.",
+        "He **forces** children to give him **money**, or he beats them. Many children **fear** him."
+       ],
+       "page": 10
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "Why do you think Geresin acts like this?",
+        "How can his schoolmates **deal** with him?",
+        "What can be done to **correct** bullies?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 11
+      }
+     ]
+    },
+    {
+     "id": "ls6-u4-l4",
+     "number": "4.4",
+     "title": "Laws and norms of society",
+     "pages": [
+      11,
+      11
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Activity I: think and talk",
+       "body": [
+        "What are the **laws** and **norms** (customs) of your society about growing up and relationships?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 11
+      },
+      {
+       "type": "text",
+       "title": "Agree or disagree?",
+       "body": [
+        "The book gives **8 statements** about the rules of society. You mark **√** (agree) or **X** (disagree). Some examples:",
+        "\"One who feels **strong** has the right to **threaten** others.\"",
+        "\"Children should not always accept their **parents' orders**.\"",
+        "\"Eritrean state law encourages **early marriage**.\""
+       ],
+       "page": 11
+      },
+      {
+       "type": "text",
+       "title": "Talk about them",
+       "body": [
+        "Discuss all 8 statements with your teacher.",
+        "*The book gives no model answer.*"
+       ],
+       "page": 11
+      },
+      {
+       "type": "check",
+       "q": "How do you mark the 4.4 statements?",
+       "options": {
+        "A": "√ agree, X disagree",
+        "B": "with colours",
+        "C": "with numbers",
+        "D": "you do not mark them"
+       },
+       "answer": "A",
+       "why": "p. 11, Activity II.",
+       "page": 11
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "abuse",
+     "meaning": "hurting or harming someone",
+     "page": 9
+    },
+    {
+     "term": "touch",
+     "meaning": "to put your hand on someone",
+     "page": 9,
+     "forms": [
+      "touches"
+     ]
+    },
+    {
+     "term": "assignment",
+     "meaning": "school work to do",
+     "page": 9
+    },
+    {
+     "term": "prove",
+     "meaning": "to show something is true",
+     "page": 10
+    },
+    {
+     "term": "assertive",
+     "meaning": "speaking up strongly and clearly",
+     "page": 10,
+     "forms": [
+      "assertively"
+     ]
+    },
+    {
+     "term": "scream",
+     "meaning": "to shout very loudly",
+     "page": 10
+    },
+    {
+     "term": "bully",
+     "meaning": "a person who hurts or scares weaker people",
+     "page": 10,
+     "forms": [
+      "bullies"
+     ]
+    },
+    {
+     "term": "force",
+     "meaning": "to make someone do something",
+     "page": 10,
+     "forms": [
+      "forces"
+     ]
+    },
+    {
+     "term": "threaten",
+     "meaning": "to say you will hurt someone",
+     "page": 11
+    },
+    {
+     "term": "norm",
+     "meaning": "a custom most people follow",
+     "page": 11,
+     "forms": [
+      "norms"
+     ]
+    },
+    {
+     "term": "law",
+     "meaning": "a rule of the country",
+     "page": 11,
+     "forms": [
+      "laws"
+     ]
+    },
+    {
+     "term": "early marriage",
+     "meaning": "marrying when still a child",
+     "page": 11
+    }
+   ],
+   "tips": [
+    {
+     "text": "Say No loudly and clearly, like Paulina.",
+     "page": 10
+    },
+    {
+     "text": "Tell an adult you trust (our tip).",
+     "page": 9
+    },
+    {
+     "text": "Bullies want to scare you. Talk about how to deal with them.",
+     "page": 11
+    }
+   ],
+   "games": [
+    {
+     "id": "ls6-u4-g1",
+     "type": "label",
+     "lesson": "ls6-u4-l2",
+     "title": "What Paulina did",
+     "diagram": "sayno_q"
+    },
+    {
+     "id": "ls6-u4-g2",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Nati is 15 and Paulina is ___.",
+       "answer": "13",
+       "choices": [
+        "13",
+        "15",
+        "10"
+       ]
+      },
+      {
+       "text": "Paulina said: \"I said No! And I mean ___.\"",
+       "answer": "No",
+       "choices": [
+        "No",
+        "Yes",
+        "Maybe"
+       ]
+      },
+      {
+       "text": "Geresin forces children to give him ___.",
+       "answer": "money",
+       "choices": [
+        "money",
+        "books",
+        "food"
+       ]
+      },
+      {
+       "text": "Geresin is in grade ___.",
+       "answer": "6",
+       "choices": [
+        "6",
+        "8",
+        "4"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls6-u4-g3",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Paulina pushed Nati away.",
+       "answer": true
+      },
+      {
+       "text": "Paulina agreed with Nati.",
+       "answer": false,
+       "why": "She said No and meant it."
+      },
+      {
+       "text": "Many children fear Geresin.",
+       "answer": true
+      },
+      {
+       "text": "Nati helped Paulina with her assignment.",
+       "answer": true
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls6-u4-q1",
+      "type": "mcq",
+      "page": 9,
+      "q": "What is the title of Lesson 4.1?",
+      "options": {
+       "A": "Good and bad touches",
+       "B": "Coping with bullies",
+       "C": "In the family",
+       "D": "Choosing friends"
+      },
+      "answer": "A",
+      "why": [
+       "p. 9."
+      ],
+      "tip": "Touches.",
+      "similar": [
+       {
+        "q": "How do you mark them?",
+        "a": "√ good, X bad, ? not sure"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q2",
+      "type": "mcq",
+      "page": 9,
+      "q": "How many touches are listed in 4.1?",
+      "options": {
+       "A": "7",
+       "B": "3",
+       "C": "10",
+       "D": "5"
+      },
+      "answer": "A",
+      "why": [
+       "p. 9."
+      ],
+      "tip": "Count them.",
+      "similar": [
+       {
+        "q": "What does ? mean?",
+        "a": "not sure"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q3",
+      "type": "mcq",
+      "page": 9,
+      "q": "Lesson 4.2 teaches you how to say \"No\"...",
+      "options": {
+       "A": "loudly and clearly",
+       "B": "quietly",
+       "C": "only in writing",
+       "D": "with a smile only"
+      },
+      "answer": "A",
+      "why": [
+       "p. 9, lesson title."
+      ],
+      "tip": "Loud and clear.",
+      "similar": [
+       {
+        "q": "Who says No in the drama?",
+        "a": "Paulina"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q4",
+      "type": "mcq",
+      "page": 9,
+      "q": "How old are Nati and Paulina?",
+      "options": {
+       "A": "15 and 13",
+       "B": "13 and 15",
+       "C": "12 and 12",
+       "D": "16 and 10"
+      },
+      "answer": "A",
+      "why": [
+       "p. 10."
+      ],
+      "tip": "He is older.",
+      "similar": [
+       {
+        "q": "What did he help her with?",
+        "a": "her assignment"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q5",
+      "type": "mcq",
+      "page": 9,
+      "q": "What did Nati help Paulina with?",
+      "options": {
+       "A": "her assignment",
+       "B": "her shopping",
+       "C": "her bike",
+       "D": "her cooking"
+      },
+      "answer": "A",
+      "why": [
+       "pp. 9–10."
+      ],
+      "tip": "School work.",
+      "similar": [
+       {
+        "q": "What did he say after?",
+        "a": "it was the right time to prove their love"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q6",
+      "type": "mcq",
+      "page": 10,
+      "q": "What did Paulina say at the end?",
+      "options": {
+       "A": "I said No! And I mean No.",
+       "B": "OK, Nati.",
+       "C": "Maybe later.",
+       "D": "Nothing."
+      },
+      "answer": "A",
+      "why": [
+       "p. 10."
+      ],
+      "tip": "She meant it.",
+      "similar": [
+       {
+        "q": "What did she do with her strength?",
+        "a": "pushed him away"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q7",
+      "type": "mcq",
+      "page": 10,
+      "q": "What did Paulina say she would do if he tried again?",
+      "options": {
+       "A": "scream",
+       "B": "cry quietly",
+       "C": "run to school",
+       "D": "call her friend on the phone"
+      },
+      "answer": "A",
+      "why": [
+       "p. 10."
+      ],
+      "tip": "Loud!",
+      "similar": [
+       {
+        "q": "Did she act assertively?",
+        "a": "the book asks you to discuss it"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q8",
+      "type": "mcq",
+      "page": 10,
+      "q": "Who is Geresin?",
+      "options": {
+       "A": "a grade 6 student who bullies others",
+       "B": "a teacher",
+       "C": "Paulina's brother",
+       "D": "a doctor"
+      },
+      "answer": "A",
+      "why": [
+       "p. 10."
+      ],
+      "tip": "Grade 6.",
+      "similar": [
+       {
+        "q": "What does he force children to do?",
+        "a": "give him money"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q9",
+      "type": "tf",
+      "page": 10,
+      "q": "Many children in the school fear Geresin.",
+      "answer": true,
+      "why": [
+       "p. 10."
+      ],
+      "tip": "He beats them.",
+      "similar": [
+       {
+        "q": "Why does he fight?",
+        "a": "to show his strength"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q10",
+      "type": "mcq",
+      "page": 11,
+      "q": "Lesson 4.4 is about:",
+      "options": {
+       "A": "the laws and norms of society",
+       "B": "HIV",
+       "C": "planting trees",
+       "D": "goals"
+      },
+      "answer": "A",
+      "why": [
+       "p. 11."
+      ],
+      "tip": "Laws and norms.",
+      "similar": [
+       {
+        "q": "How many statements?",
+        "a": "8"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u4-q11",
+      "type": "fill",
+      "page": 11,
+      "q": "One 4.4 statement: \"One who feels strong has the right to ___ others.\"",
+      "answer": "threaten",
+      "choices": [
+       "threaten",
+       "help",
+       "teach",
+       "feed"
+      ],
+      "why": [
+       "p. 11, statement 2."
+      ],
+      "tip": "Discuss if you agree.",
+      "similar": [
+       {
+        "q": "Another statement?",
+        "a": "Eritrean state law encourages early marriage."
+       }
+      ]
+     }
+    ]
+   },
+   "links": []
+  },
+  {
+   "id": "ls6-u5",
+   "number": 5,
+   "title": "HIV and AIDS",
+   "status": "done",
+   "pages": [
+    12,
+    14
+   ],
+   "tone": "blue",
+   "intro": "Learn how **HIV** is spread and how it is **not** spread. Facts help us **stop fear** and be kind.",
+   "intro_page": 12,
+   "diagrams": {
+    "tfboard": {
+     "svg": "svg/life_skills_6/ls6_tfboard.svg",
+     "title": "HIV and AIDS statements",
+     "page": 12,
+     "pins": []
+    },
+    "asmerom": {
+     "svg": "svg/life_skills_6/ls6_asmerom.svg",
+     "title": "Asmerom and Samson",
+     "page": 14,
+     "pins": []
+    },
+    "notspread": {
+     "svg": "svg/life_skills_6/ls6_notspread.svg",
+     "title": "What health workers say (not from the book)",
+     "page": 14,
+     "pins": [
+      {
+       "id": "hug",
+       "text": "Hugging, holding hands and playing together do not spread HIV.",
+       "x": 85,
+       "y": 110
+      },
+      {
+       "id": "clothes",
+       "text": "Sharing clothes or combs does not spread HIV.",
+       "x": 230,
+       "y": 70
+      },
+      {
+       "id": "desk",
+       "text": "Sitting next to someone with HIV is safe.",
+       "x": 85,
+       "y": 195
+      },
+      {
+       "id": "mos",
+       "text": "Mosquito bites do not spread HIV.",
+       "x": 230,
+       "y": 180
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls6-u5-l1",
+     "number": "5.1",
+     "title": "Difference between HIV and AIDS",
+     "pages": [
+      12,
+      12
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "You will learn how **HIV** is spread, and how it is **not** spread.",
+        "Knowing the facts helps us **reduce fear**."
+       ],
+       "page": 12
+      },
+      {
+       "type": "remember",
+       "title": "Activity I: think and talk",
+       "body": [
+        "What is the **difference** between HIV and AIDS?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 12
+      },
+      {
+       "type": "diagram",
+       "title": "True or false?",
+       "diagram": "tfboard",
+       "mode": "plain",
+       "body": [
+        "The book gives **8 statements**. Tick **true** or **false**."
+       ],
+       "page": 12
+      },
+      {
+       "type": "table",
+       "title": "The 8 statements (5.1)",
+       "head": [
+        "No.",
+        "Statement"
+       ],
+       "rows": [
+        [
+         "1",
+         "People with AIDS die from opportunistic diseases."
+        ],
+        [
+         "2",
+         "Many people with HIV can look and feel healthy for years."
+        ],
+        [
+         "3",
+         "AIDS can be cured."
+        ],
+        [
+         "4",
+         "AIDS is caused by HIV."
+        ],
+        [
+         "5",
+         "People can have HIV but may not know it."
+        ],
+        [
+         "6",
+         "A blood test is the only way to tell if someone has HIV."
+        ],
+        [
+         "7",
+         "Someone with HIV has AIDS."
+        ],
+        [
+         "8",
+         "HIV destroys the body's defence cells."
+        ]
+       ],
+       "page": 12
+      },
+      {
+       "type": "text",
+       "title": "Talk about them",
+       "body": [
+        "The book gives no answers. Work them out with your teacher.",
+        "*The book gives no model answer.*"
+       ],
+       "page": 12
+      },
+      {
+       "type": "remember",
+       "title": "Activity III: think and talk",
+       "body": [
+        "What do people in your community say about HIV and AIDS?",
+        "Can people with HIV be **easily identified**? Why?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 12
+      }
+     ]
+    },
+    {
+     "id": "ls6-u5-l2",
+     "number": "5.2",
+     "title": "How HIV is transmitted",
+     "pages": [
+      13,
+      14
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Activity I: think and talk",
+       "body": [
+        "How does a person get **infected** with HIV?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 13
+      },
+      {
+       "type": "text",
+       "title": "True, false or not sure? (5.2)",
+       "body": [
+        "The book gives **7 statements**. Some examples:",
+        "\"HIV is spread by using **unsterilized needles** or other sharp things.\"",
+        "\"An HIV positive **mother** can infect her **baby**.\"",
+        "\"HIV can be spread through **mosquito bite**.\"",
+        "\"Traditional practices like **circumcision** can transmit HIV.\""
+       ],
+       "page": 13
+      },
+      {
+       "type": "text",
+       "title": "Talk about them",
+       "body": [
+        "Discuss all 7 with your teacher.",
+        "*The book gives no model answer.*"
+       ],
+       "page": 13
+      },
+      {
+       "type": "remember",
+       "title": "Activity III: think and talk",
+       "body": [
+        "Which **cultural practices** in your community may help HIV spread? Which may stop it?",
+        "What can **you** do to reduce the spread of HIV and AIDS?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 14
+      }
+     ]
+    },
+    {
+     "id": "ls6-u5-l3",
+     "number": "5.3",
+     "title": "How HIV is not transmitted",
+     "pages": [
+      14,
+      14
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Activity I: think and talk",
+       "body": [
+        "How is HIV **not** transmitted?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 14
+      },
+      {
+       "type": "steps",
+       "title": "Asmerom and Samson",
+       "diagram": "asmerom",
+       "page": 14,
+       "steps": [
+        {
+         "text": "**Asmerom** is in grade 6. He lives with his **two sisters**. He and his friend **Samson** play, study and go to school together.",
+         "show": "a"
+        },
+        {
+         "text": "Sometimes they **share clothes and shoes**.",
+         "show": "b"
+        },
+        {
+         "text": "Samson hears a **rumour**: Asmerom's mother died of HIV and AIDS **five years ago**. Classmates say Asmerom **might** be HIV positive.",
+         "show": "c"
+        },
+        {
+         "text": "What would **you** do if you were Samson?",
+         "show": "d"
+        }
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "What health workers say",
+       "diagram": "notspread",
+       "mode": "explore",
+       "body": [
+        "*This card is not from the book.* Health workers teach these facts. They help us **not be afraid** of friends like Asmerom.",
+        "Tap each picture."
+       ],
+       "page": 14
+      },
+      {
+       "type": "remember",
+       "title": "PLWHA",
+       "body": [
+        "**PLWHA** means **People Living With HIV and AIDS**.",
+        "The book asks: how can we **reduce the fear** towards them?"
+       ],
+       "page": 14
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "If you were Samson, what would you do?",
+        "If you were a classmate, how would you feel?",
+        "How would you act if your **desk mate** had HIV? Why?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 14
+      },
+      {
+       "type": "check",
+       "q": "What does PLWHA stand for?",
+       "options": {
+        "A": "People Living With HIV and AIDS",
+        "B": "People Learning With Happy Attitudes",
+        "C": "Parents Look With Help Always",
+        "D": "Play Like We Help All"
+       },
+       "answer": "A",
+       "why": "p. 14.",
+       "page": 14
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "HIV",
+     "meaning": "the virus that can lead to AIDS",
+     "page": 12
+    },
+    {
+     "term": "AIDS",
+     "meaning": "the illness that HIV can cause",
+     "page": 12
+    },
+    {
+     "term": "transmit",
+     "meaning": "to pass from one person to another",
+     "page": 13,
+     "forms": [
+      "transmitted"
+     ]
+    },
+    {
+     "term": "infected",
+     "meaning": "has a germ inside the body",
+     "page": 13
+    },
+    {
+     "term": "cure",
+     "meaning": "to make someone well again",
+     "page": 12,
+     "forms": [
+      "cured"
+     ]
+    },
+    {
+     "term": "blood test",
+     "meaning": "a check of a little blood",
+     "page": 12
+    },
+    {
+     "term": "rumour",
+     "meaning": "a story people pass on that may not be true",
+     "page": 14
+    },
+    {
+     "term": "PLWHA",
+     "meaning": "People Living With HIV and AIDS",
+     "page": 14
+    },
+    {
+     "term": "unsterilized",
+     "meaning": "not cleaned to kill germs",
+     "page": 13
+    },
+    {
+     "term": "fear",
+     "meaning": "being afraid",
+     "page": 14
+    },
+    {
+     "term": "positive",
+     "meaning": "a test shows the person has HIV",
+     "page": 14
+    },
+    {
+     "term": "identify",
+     "meaning": "to know or tell who someone is",
+     "page": 12,
+     "forms": [
+      "identified"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "PLWHA = People Living With HIV and AIDS.",
+     "page": 14
+    },
+    {
+     "text": "Asmerom and Samson were good friends. Don't believe every rumour.",
+     "page": 14
+    },
+    {
+     "text": "Ask your teacher about the true/false statements.",
+     "page": 12
+    }
+   ],
+   "games": [
+    {
+     "id": "ls6-u5-g1",
+     "type": "fill",
+     "lesson": "ls6-u5-l3",
+     "title": "Asmerom and Samson",
+     "items": [
+      {
+       "text": "Asmerom is in grade ___.",
+       "answer": "six",
+       "choices": [
+        "six",
+        "eight",
+        "four"
+       ]
+      },
+      {
+       "text": "Asmerom lives with his two ___.",
+       "answer": "sisters",
+       "choices": [
+        "sisters",
+        "uncles",
+        "teachers"
+       ]
+      },
+      {
+       "text": "The rumour says his mother died ___ years ago.",
+       "answer": "five",
+       "choices": [
+        "five",
+        "two",
+        "ten"
+       ]
+      },
+      {
+       "text": "Asmerom and Samson sometimes share ___.",
+       "answer": "clothes",
+       "choices": [
+        "clothes",
+        "money",
+        "phones"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls6-u5-g2",
+     "type": "sort",
+     "lesson": null,
+     "title": "Which list?",
+     "groups": [
+      {
+       "id": "a",
+       "label": "5.1 statements"
+      },
+      {
+       "id": "b",
+       "label": "5.2 statements"
+      }
+     ],
+     "items": [
+      {
+       "text": "AIDS can be cured.",
+       "group": "a"
+      },
+      {
+       "text": "AIDS is caused by HIV.",
+       "group": "a"
+      },
+      {
+       "text": "HIV destroys the body's defence cells.",
+       "group": "a"
+      },
+      {
+       "text": "HIV can be spread through mosquito bite.",
+       "group": "b"
+      },
+      {
+       "text": "An HIV positive mother can infect her baby.",
+       "group": "b"
+      },
+      {
+       "text": "unsterilized needles",
+       "group": "b"
+      }
+     ]
+    },
+    {
+     "id": "ls6-u5-g3",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "PLWHA",
+       "back": "People Living With HIV and AIDS"
+      },
+      {
+       "front": "rumour",
+       "back": "A story people pass on that may not be true."
+      },
+      {
+       "front": "Asmerom",
+       "back": "Grade 6; lives with his two sisters; friend of Samson."
+      },
+      {
+       "front": "transmit",
+       "back": "To pass from one person to another."
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls6-u5-q1",
+      "type": "mcq",
+      "page": 12,
+      "q": "What is the title of Lesson 5.1?",
+      "options": {
+       "A": "Difference between HIV and AIDS",
+       "B": "How HIV is transmitted",
+       "C": "Coping with bullies",
+       "D": "Orphans"
+      },
+      "answer": "A",
+      "why": [
+       "p. 12."
+      ],
+      "tip": "Two words compared.",
+      "similar": [
+       {
+        "q": "Title of 5.3?",
+        "a": "How HIV is not transmitted"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q2",
+      "type": "mcq",
+      "page": 12,
+      "q": "How many statements are in the 5.1 table?",
+      "options": {
+       "A": "8",
+       "B": "7",
+       "C": "10",
+       "D": "5"
+      },
+      "answer": "A",
+      "why": [
+       "p. 12."
+      ],
+      "tip": "Count them.",
+      "similar": [
+       {
+        "q": "How many in 5.2?",
+        "a": "7"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q3",
+      "type": "mcq",
+      "page": 12,
+      "q": "Which is one of the 5.1 statements?",
+      "options": {
+       "A": "AIDS is caused by HIV.",
+       "B": "AIDS comes from the sun.",
+       "C": "HIV is a food.",
+       "D": "AIDS is a game."
+      },
+      "answer": "A",
+      "why": [
+       "p. 12, statement 4."
+      ],
+      "tip": "Cause.",
+      "similar": [
+       {
+        "q": "Another?",
+        "a": "AIDS can be cured."
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q4",
+      "type": "mcq",
+      "page": 13,
+      "q": "Which is one of the 5.2 statements?",
+      "options": {
+       "A": "An HIV positive mother can infect her baby.",
+       "B": "HIV is spread by reading books.",
+       "C": "HIV comes from rain.",
+       "D": "HIV lives in trees."
+      },
+      "answer": "A",
+      "why": [
+       "p. 13, statement 5."
+      ],
+      "tip": "Mother and baby.",
+      "similar": [
+       {
+        "q": "In 5.2 you write true, false or...?",
+        "a": "not sure"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q5",
+      "type": "mcq",
+      "page": 14,
+      "q": "Where is Asmerom?",
+      "options": {
+       "A": "in grade six",
+       "B": "in grade eight",
+       "C": "at university",
+       "D": "not at school"
+      },
+      "answer": "A",
+      "why": [
+       "p. 14."
+      ],
+      "tip": "Same grade as you.",
+      "similar": [
+       {
+        "q": "Who does he live with?",
+        "a": "his two sisters"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q6",
+      "type": "mcq",
+      "page": 14,
+      "q": "Who is Samson?",
+      "options": {
+       "A": "Asmerom's friend",
+       "B": "Asmerom's father",
+       "C": "a teacher",
+       "D": "a doctor"
+      },
+      "answer": "A",
+      "why": [
+       "p. 14."
+      ],
+      "tip": "They share clothes.",
+      "similar": [
+       {
+        "q": "What do they do together?",
+        "a": "play, study and go to school"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q7",
+      "type": "mcq",
+      "page": 14,
+      "q": "What did Samson hear?",
+      "options": {
+       "A": "a rumour about Asmerom's mother",
+       "B": "a song",
+       "C": "exam results",
+       "D": "news about football"
+      },
+      "answer": "A",
+      "why": [
+       "p. 14."
+      ],
+      "tip": "A rumour.",
+      "similar": [
+       {
+        "q": "When did she die, says the rumour?",
+        "a": "five years ago"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q8",
+      "type": "tf",
+      "page": 14,
+      "q": "Asmerom and Samson sometimes share clothes and shoes.",
+      "answer": true,
+      "why": [
+       "p. 14."
+      ],
+      "tip": "Good friends.",
+      "similar": [
+       {
+        "q": "What do classmates say?",
+        "a": "that Asmerom might be HIV positive"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q9",
+      "type": "fill",
+      "page": 14,
+      "q": "PLWHA means People Living With ___ and AIDS.",
+      "answer": "HIV",
+      "choices": [
+       "HIV",
+       "Hope",
+       "Help",
+       "Honey"
+      ],
+      "why": [
+       "p. 14."
+      ],
+      "tip": "The virus.",
+      "similar": [
+       {
+        "q": "What does the book want to reduce?",
+        "a": "fear towards PLWHA"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q10",
+      "type": "mcq",
+      "page": 12,
+      "q": "The unit wants to help you reduce fear by understanding how HIV is...",
+      "options": {
+       "A": "not transmitted",
+       "B": "cooked",
+       "C": "sold",
+       "D": "grown"
+      },
+      "answer": "A",
+      "why": [
+       "Unit outcome, p. 12."
+      ],
+      "tip": "Not!",
+      "similar": [
+       {
+        "q": "What else will you identify?",
+        "a": "ways of HIV transmission"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u5-q11",
+      "type": "short",
+      "page": 14,
+      "q": "What does the book ask you to think about to help PLWHA?",
+      "answer": "What could be done to reduce the fear towards people living with HIV and AIDS.",
+      "why": [
+       "p. 14, question 4."
+      ],
+      "tip": "Fear.",
+      "similar": [
+       {
+        "q": "What does PLWHA mean?",
+        "a": "People Living With HIV and AIDS"
+       }
+      ]
+     }
+    ]
+   },
+   "links": []
+  },
+  {
+   "id": "ls6-u6",
+   "number": 6,
+   "title": "Me and My Community",
+   "status": "done",
+   "pages": [
+    15,
+    19
+   ],
+   "tone": "sage",
+   "intro": "What can **you** do for your **family**, **school** and **community**? How can we care for people in **need**?",
+   "intro_page": 15,
+   "diagrams": {
+    "circles": {
+     "svg": "svg/life_skills_6/ls6_circles.svg",
+     "title": "What can I do for...?",
+     "page": 15,
+     "pins": [
+      {
+       "id": "fam",
+       "text": "My family: what does my family expect me to do?",
+       "x": 200,
+       "y": 130
+      },
+      {
+       "id": "sch",
+       "text": "My school: health-damaging factors and their solutions",
+       "x": 225,
+       "y": 90
+      },
+      {
+       "id": "com",
+       "text": "My community: problems and possible solutions",
+       "x": 230,
+       "y": 44
+      }
+     ]
+    },
+    "disabled": {
+     "svg": "svg/life_skills_6/ls6_disabled.svg",
+     "title": "Let's not isolate the disabled!",
+     "page": 17,
+     "pins": []
+    },
+    "elderly": {
+     "svg": "svg/life_skills_6/ls6_elderly.svg",
+     "title": "Ato Abraham and his wife",
+     "page": 18,
+     "pins": []
+    },
+    "project": {
+     "svg": "svg/life_skills_6/ls6_project.svg",
+     "title": "Project: supporting people in need",
+     "page": 19,
+     "pins": []
+    },
+    "circles_q": {
+     "svg": "svg/life_skills_6/ls6_circles_q.svg",
+     "title": "What can I do for...? (quiz)",
+     "page": 15,
+     "pins": [
+      {
+       "id": "fam",
+       "text": "My family: what does my family expect me to do?",
+       "x": 200,
+       "y": 130
+      },
+      {
+       "id": "sch",
+       "text": "My school: health-damaging factors and their solutions",
+       "x": 225,
+       "y": 90
+      },
+      {
+       "id": "com",
+       "text": "My community: problems and possible solutions",
+       "x": 230,
+       "y": 44
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls6-u6-l1",
+     "number": "6.1",
+     "title": "What can I do for...?",
+     "pages": [
+      15,
+      16
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "This unit helps you build **healthy**, **responsible** and **cooperative** relationships.",
+        "You will think about your **family**, **school** and **community**."
+       ],
+       "page": 15
+      },
+      {
+       "type": "diagram",
+       "title": "What can I do for...?",
+       "diagram": "circles",
+       "mode": "explore",
+       "body": [
+        "Tap each circle."
+       ],
+       "page": 15
+      },
+      {
+       "type": "remember",
+       "title": "My family: think and talk",
+       "body": [
+        "What do you do for your **family**?",
+        "Role play: a **misbehaving** child, then a **well-behaved** child.",
+        "What does your family **expect** from you? Which do you not do? Why?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 15
+      },
+      {
+       "type": "text",
+       "title": "My school",
+       "body": [
+        "Make a list of things that **damage health** at school, and their **solutions**.",
+        "Which solutions can **students** do? What should **your** part be?"
+       ],
+       "page": 15
+      },
+      {
+       "type": "remember",
+       "title": "My school: think and talk",
+       "body": [
+        "What new **rules** should the school make to **promote health**?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 16
+      },
+      {
+       "type": "remember",
+       "title": "My community: think and talk",
+       "body": [
+        "What **problems** are there in your community?",
+        "Pick **three** big problems and write possible **solutions**.",
+        "What is **your** role? Who can **support** you?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 16
+      }
+     ]
+    },
+    {
+     "id": "ls6-u6-l2",
+     "number": "6.2",
+     "title": "Sympathy and Empathy",
+     "pages": [
+      17,
+      19
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Sympathy and empathy",
+       "body": [
+        "Lesson 6.2 is about caring for four groups: the **disabled**, **orphans**, the **elderly** and **PLWHA**."
+       ],
+       "page": 17
+      },
+      {
+       "type": "states",
+       "title": "The disabled",
+       "diagram": "disabled",
+       "page": 17,
+       "body": [
+        "The book says: \"**Let's not isolate the disabled!**\" Move the slider."
+       ],
+       "states": [
+        {
+         "key": "alone",
+         "label": "Isolated",
+         "text": "Leaving someone out is **not fair**."
+        },
+        {
+         "key": "with",
+         "label": "Included",
+         "text": "Include everyone in play and work."
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "List different types of **disabilities**.",
+        "What is your role in helping the disabled? What support would **you** want?",
+        "Who is responsible for helping them? What should the school do?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 17
+      },
+      {
+       "type": "text",
+       "title": "Orphans: Rahma",
+       "body": [
+        "**Rahma** is in **grade six**. Her parents died when she was young.",
+        "She lives with her **aunt**. Her aunt is **determined** to help her."
+       ],
+       "page": 18
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What problems could Rahma face?",
+        "What support could you give to people like Rahma?",
+        "Whose responsibility is it to help orphans?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 18
+      },
+      {
+       "type": "diagram",
+       "title": "The elderly",
+       "diagram": "elderly",
+       "mode": "plain",
+       "body": [
+        "**Ato Abraham** is **90** and his wife is **85**. They **live alone**.",
+        "Their neighbour **Ato Erimias** and his family **support** them."
+       ],
+       "page": 18
+      },
+      {
+       "type": "remember",
+       "title": "Role-play and talk",
+       "body": [
+        "What problems do Ato Abraham and his wife face?",
+        "Who could help the elderly? What could **you** do?",
+        "What do you **gain** by helping the elderly?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 18
+      },
+      {
+       "type": "remember",
+       "title": "PLWHA: think and talk",
+       "body": [
+        "List the support you would need if you were **HIV positive**.",
+        "Who should support PLWHA? What is your role?",
+        "*The book gives no model answer.*"
+       ],
+       "page": 19
+      },
+      {
+       "type": "check",
+       "q": "How old is Ato Abraham?",
+       "options": {
+        "A": "90",
+        "B": "85",
+        "C": "70",
+        "D": "100"
+       },
+       "answer": "A",
+       "why": "p. 18.",
+       "page": 18
+      }
+     ]
+    },
+    {
+     "id": "ls6-u6-l3",
+     "number": "6.3",
+     "title": "Project: Supporting people in need",
+     "pages": [
+      19,
+      19
+     ],
+     "cards": [
+      {
+       "type": "steps",
+       "title": "Project: supporting people in need",
+       "diagram": "project",
+       "page": 19,
+       "steps": [
+        {
+         "text": "**Visit** the elderly, the disabled or orphans in your community.",
+         "show": "p1"
+        },
+        {
+         "text": "Find out **what kind of help** they need.",
+         "show": "p2"
+        },
+        {
+         "text": "Plan **strategies** to help them. The book's example: \"**Visiting them**\".",
+         "show": "p3"
+        }
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Project table",
+       "head": [
+        "People in need",
+        "Types of help",
+        "Strategies"
+       ],
+       "rows": [
+        [
+         "Elderly",
+         "?",
+         "A. Visiting them; B. ...; C. ..."
+        ],
+        [
+         "Disabled",
+         "?",
+         "A. ...; B. ...; C. ..."
+        ],
+        [
+         "Orphans",
+         "?",
+         "A. ...; B. ...; C. ..."
+        ]
+       ],
+       "page": 19
+      },
+      {
+       "type": "remember",
+       "title": "Remember",
+       "body": [
+        "Care for **family, school and community**.",
+        "Include the **disabled**. Support **orphans**, the **elderly** and **PLWHA**."
+       ],
+       "page": 19
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "community",
+     "meaning": "the people living in one area",
+     "page": 15
+    },
+    {
+     "term": "cooperative",
+     "meaning": "working well with others",
+     "page": 15
+    },
+    {
+     "term": "misbehaving",
+     "meaning": "behaving badly",
+     "page": 15
+    },
+    {
+     "term": "expect",
+     "meaning": "to think someone should do something",
+     "page": 15,
+     "forms": [
+      "expectations"
+     ]
+    },
+    {
+     "term": "solution",
+     "meaning": "a way to fix a problem",
+     "page": 15,
+     "forms": [
+      "solutions"
+     ]
+    },
+    {
+     "term": "promote",
+     "meaning": "to help something grow",
+     "page": 16
+    },
+    {
+     "term": "sympathy",
+     "meaning": "feeling sorry for someone",
+     "page": 17
+    },
+    {
+     "term": "empathy",
+     "meaning": "understanding how another person feels",
+     "page": 17
+    },
+    {
+     "term": "disabled",
+     "meaning": "having a body or mind that works differently",
+     "page": 17,
+     "forms": [
+      "disabilities"
+     ]
+    },
+    {
+     "term": "isolate",
+     "meaning": "to leave someone alone, apart from others",
+     "page": 17
+    },
+    {
+     "term": "orphan",
+     "meaning": "a child whose parents have died",
+     "page": 18,
+     "forms": [
+      "orphans"
+     ]
+    },
+    {
+     "term": "elderly",
+     "meaning": "old people",
+     "page": 18
+    },
+    {
+     "term": "determined",
+     "meaning": "will not give up",
+     "page": 18
+    },
+    {
+     "term": "strategy",
+     "meaning": "a plan to do something",
+     "page": 19,
+     "forms": [
+      "strategies"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "\"Let's not isolate the disabled!\"",
+     "page": 17
+    },
+    {
+     "text": "Four groups: disabled, orphans, elderly, PLWHA.",
+     "page": 17
+    },
+    {
+     "text": "Project example: visiting them.",
+     "page": 19
+    }
+   ],
+   "games": [
+    {
+     "id": "ls6-u6-g1",
+     "type": "match",
+     "lesson": "ls6-u6-l2",
+     "title": "Who is who?",
+     "pairs": [
+      {
+       "a": "Rahma",
+       "b": "lives with her aunt"
+      },
+      {
+       "a": "Ato Abraham",
+       "b": "90 years old"
+      },
+      {
+       "a": "his wife",
+       "b": "85 years old"
+      },
+      {
+       "a": "Ato Erimias",
+       "b": "the helpful neighbour"
+      }
+     ]
+    },
+    {
+     "id": "ls6-u6-g2",
+     "type": "label",
+     "lesson": "ls6-u6-l1",
+     "title": "Family, school, community",
+     "diagram": "circles_q"
+    },
+    {
+     "id": "ls6-u6-g3",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Rahma lives with her aunt.",
+       "answer": true
+      },
+      {
+       "text": "Ato Abraham and his wife live with their children.",
+       "answer": false,
+       "why": "They live alone."
+      },
+      {
+       "text": "The project asks you to visit the elderly, disabled or orphans.",
+       "answer": true
+      },
+      {
+       "text": "The book says we should isolate the disabled.",
+       "answer": false,
+       "why": "\"Let's not isolate the disabled!\""
+      }
+     ]
+    },
+    {
+     "id": "ls6-u6-g4",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "empathy",
+       "back": "Understanding how another person feels."
+      },
+      {
+       "front": "isolate",
+       "back": "To leave someone alone, apart from others."
+      },
+      {
+       "front": "orphan",
+       "back": "A child whose parents have died."
+      },
+      {
+       "front": "strategy",
+       "back": "A plan to do something."
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls6-u6-q1",
+      "type": "mcq",
+      "page": 15,
+      "q": "Lesson 6.1 asks \"What can I do for...?\" my family, my school and my...",
+      "options": {
+       "A": "community",
+       "B": "phone",
+       "C": "shop",
+       "D": "football team"
+      },
+      "answer": "A",
+      "why": [
+       "pp. 15–16."
+      ],
+      "tip": "Three places.",
+      "similar": [
+       {
+        "q": "What role plays are in 6.1.1?",
+        "a": "a misbehaving child and a well-behaved child"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q2",
+      "type": "mcq",
+      "page": 15,
+      "q": "For My School, you prepare a list of health-damaging factors and their...",
+      "options": {
+       "A": "solutions",
+       "B": "prices",
+       "C": "colours",
+       "D": "names"
+      },
+      "answer": "A",
+      "why": [
+       "p. 15, Activity I."
+      ],
+      "tip": "Fix them.",
+      "similar": [
+       {
+        "q": "Which solutions can students do?",
+        "a": "the book asks you to decide"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q3",
+      "type": "mcq",
+      "page": 16,
+      "q": "How many community problems does the book ask you to select?",
+      "options": {
+       "A": "three",
+       "B": "one",
+       "C": "ten",
+       "D": "five"
+      },
+      "answer": "A",
+      "why": [
+       "p. 16, Activity II."
+      ],
+      "tip": "Count.",
+      "similar": [
+       {
+        "q": "What do you write for them?",
+        "a": "possible solutions"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q4",
+      "type": "mcq",
+      "page": 17,
+      "q": "What does the book say about the disabled?",
+      "options": {
+       "A": "Let's not isolate the disabled!",
+       "B": "Leave them alone.",
+       "C": "They cannot learn.",
+       "D": "Nothing."
+      },
+      "answer": "A",
+      "why": [
+       "p. 17."
+      ],
+      "tip": "Do not isolate.",
+      "similar": [
+       {
+        "q": "What does isolate mean?",
+        "a": "to leave someone alone, apart from others"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q5",
+      "type": "mcq",
+      "page": 18,
+      "q": "Who does Rahma live with?",
+      "options": {
+       "A": "her aunt",
+       "B": "her parents",
+       "C": "her teacher",
+       "D": "alone"
+      },
+      "answer": "A",
+      "why": [
+       "p. 18."
+      ],
+      "tip": "Her parents died when she was young.",
+      "similar": [
+       {
+        "q": "What grade is Rahma in?",
+        "a": "grade six"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q6",
+      "type": "mcq",
+      "page": 18,
+      "q": "How old is Ato Abraham's wife?",
+      "options": {
+       "A": "85",
+       "B": "90",
+       "C": "60",
+       "D": "75"
+      },
+      "answer": "A",
+      "why": [
+       "p. 18."
+      ],
+      "tip": "Five years younger.",
+      "similar": [
+       {
+        "q": "How old is Ato Abraham?",
+        "a": "90"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q7",
+      "type": "mcq",
+      "page": 18,
+      "q": "Who supports Ato Abraham and his wife?",
+      "options": {
+       "A": "their neighbour Ato Erimias and his family",
+       "B": "their children",
+       "C": "the police",
+       "D": "nobody"
+      },
+      "answer": "A",
+      "why": [
+       "p. 18."
+      ],
+      "tip": "A neighbour.",
+      "similar": [
+       {
+        "q": "Do they live alone?",
+        "a": "yes"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q8",
+      "type": "tf",
+      "page": 18,
+      "q": "Rahma's aunt is determined to help her.",
+      "answer": true,
+      "why": [
+       "p. 18."
+      ],
+      "tip": "A caring aunt.",
+      "similar": [
+       {
+        "q": "Why does Rahma live with her aunt?",
+        "a": "her parents died when she was young"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q9",
+      "type": "fill",
+      "page": 17,
+      "q": "Lesson 6.2 is called \"Sympathy and ___\".",
+      "answer": "Empathy",
+      "choices": [
+       "Empathy",
+       "Money",
+       "Sport",
+       "Rules"
+      ],
+      "why": [
+       "p. 17."
+      ],
+      "tip": "Feeling with others.",
+      "similar": [
+       {
+        "q": "Name the four groups.",
+        "a": "disabled, orphans, elderly, PLWHA"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q10",
+      "type": "mcq",
+      "page": 19,
+      "q": "In the project table, what example strategy is given for the elderly?",
+      "options": {
+       "A": "visiting them",
+       "B": "ignoring them",
+       "C": "selling to them",
+       "D": "moving away"
+      },
+      "answer": "A",
+      "why": [
+       "p. 19."
+      ],
+      "tip": "Go and see them.",
+      "similar": [
+       {
+        "q": "Which three groups can you visit?",
+        "a": "elderly, disabled or orphans"
+       }
+      ]
+     },
+     {
+      "id": "ls6-u6-q11",
+      "type": "short",
+      "page": 19,
+      "q": "Which three groups does the project ask you to visit, and what two things do you find out?",
+      "answer": "The elderly, the disabled or orphans; what kind of help they need and what strategies could help them.",
+      "why": [
+       "p. 19."
+      ],
+      "tip": "Visit, ask, plan.",
+      "similar": [
+       {
+        "q": "What is a strategy?",
+        "a": "a plan to do something"
+       }
+      ]
+     }
+    ]
+   },
+   "links": []
+  }
+ ]
+}

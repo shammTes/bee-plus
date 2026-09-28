@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+  <defs>
+    <marker id="hrtArw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3E3129"/></marker>
+  </defs>
+  <!-- upper vena cava (blue) -->
+  <path d="M84 16L84 92" stroke="#3E4F8F" stroke-width="30" stroke-linecap="round"/><path d="M84 16L84 92" stroke="#8FA6D6" stroke-width="24" stroke-linecap="round"/>
+  <!-- lower vena cava -->
+  <path d="M68 160L40 300" stroke="#3E4F8F" stroke-width="28" stroke-linecap="round"/><path d="M68 160L40 300" stroke="#8FA6D6" stroke-width="22" stroke-linecap="round"/>
+  <!-- pulmonary artery, right branch (passes under the aorta arch, to the lungs) -->
+  <path d="M142 90L236 70" fill="none" stroke="#3E4F8F" stroke-width="22" stroke-linecap="round"/><path d="M142 90L236 70" fill="none" stroke="#9FB3E3" stroke-width="16" stroke-linecap="round"/>
+  <!-- aorta (red arch, from left ventricle up and over to the right) -->
+  <path d="M178 150L172 60C172 22 250 16 262 52L266 92" fill="none" stroke="#A8322A" stroke-width="30" stroke-linecap="round"/><path d="M178 150L172 60C172 22 250 16 262 52L266 92" fill="none" stroke="#EE6A58" stroke-width="24" stroke-linecap="round"/>
+  <!-- pulmonary artery (blue, from the right ventricle up, to the lungs) -->
+  <path d="M142 150L142 90L122 46" fill="none" stroke="#3E4F8F" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/><path d="M142 150L142 90L122 46" fill="none" stroke="#9FB3E3" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- pulmonary veins (red, from the lungs into left auricle) -->
+  <path d="M244 120L300 104M244 134L300 148" stroke="#A8322A" stroke-width="18" stroke-linecap="round"/><path d="M244 120L300 104M244 134L300 148" stroke="#F58A7C" stroke-width="12" stroke-linecap="round"/>
+  <!-- chambers -->
+  <path d="M66 96Q64 80 90 80L150 80Q160 80 160 94L160 156L66 156Z" fill="#9FB3E3" stroke="#3E4F8F" stroke-width="3"/>
+  <path d="M164 94Q164 80 176 80L236 80Q256 82 256 100L256 156L164 156Z" fill="#F58A7C" stroke="#A8322A" stroke-width="3"/>
+  <path d="M66 162L160 162L160 298Q120 290 96 250Q70 212 66 162Z" fill="#7E95D3" stroke="#3E4F8F" stroke-width="3"/>
+  <path d="M164 162L260 162Q258 222 226 262Q200 292 164 300Z" fill="#E4574A" stroke="#A8322A" stroke-width="3"/>
+  <ellipse cx="96" cy="96" rx="14" ry="6" fill="#fff" opacity=".5"/><ellipse cx="220" cy="96" rx="14" ry="6" fill="#fff" opacity=".5"/>
+  <ellipse cx="94" cy="186" rx="12" ry="6" fill="#fff" opacity=".35"/><ellipse cx="226" cy="186" rx="12" ry="6" fill="#fff" opacity=".35"/>
+  <!-- valves -->
+  <g fill="#fff" stroke="#6A5B50" stroke-width="2"><path d="M96 152L110 168L124 152Z"/><path d="M196 152L210 168L224 152Z"/></g>
+  <!-- blood path arrows, shown step by step -->
+  <g stroke="#3E3129" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#hrtArw)">
+    <path data-s="s1" d="M84 30L84 108"/><path data-s="s1" d="M52 270L72 150"/>
+    <path data-s="s2" d="M110 118L110 200"/>
+    <path data-s="s3" d="M126 230L126 118M142 110L142 92L126 58"/>
+    <path data-s="s4" d="M296 126L214 118"/>
+    <path data-s="s5" d="M210 118L210 200"/>
+    <path data-s="s6" d="M200 250L186 130L186 66Q192 40 236 44"/>
+  </g>
+  <g data-s="s7" fill="#FFE08A" stroke="#8A6410" stroke-width="3"><circle cx="110" cy="160" r="14" fill="none"/><circle cx="210" cy="160" r="14" fill="none"/></g>
+</svg>

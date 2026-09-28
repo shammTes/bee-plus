@@ -1,0 +1,3355 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "social-studies-2012-g8",
+    "year": "2012",
+    "subject": "Social Studies",
+    "grade": 8,
+    "version": "A",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2012 – Social Studies",
+    "duration": "1 hour and 10 minutes (70 minutes)",
+    "duration_minutes": 70,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "This examination paper has 50 multiple choice questions (1 to 50). Each question has 4 choices. Choose one best answer and blacken the letter of your choice on the separate answer sheet."
+      }
+    ],
+    "source": {
+      "document": "raw/2012-Social_Studies-V-A.pdf (8 pages, text layer; cover '2. Social Studies, Version A')",
+      "version_used": "A",
+      "other_version": "raw/2012-Social_Studies-V-B.pdf (same 50 questions reshuffled) – used only for cross-checking",
+      "notes": "Transcribed from the V-A text layer and checked against the page images. Bold-underlined emphasis words (wrong, not, no, does not, true, correct) are kept as <u>…</u>. Figures 1–3 (map of towns A and B, classroom floor plan, water-cycle drawings) were cropped from the page images.",
+      "printing_note": "Questions 49 and 50 end with a double colon ('______::'). Latitudes in Q7 are printed '120N and 180N' in the text layer; the page shows 12°N and 18°N (degree sign as superscript 0).",
+      "official_answer_key": false
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "textbooks": [
+      {
+        "subject": "Social Studies",
+        "grade": 6,
+        "file": "textbooks/social_studies_6.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Social Studies",
+        "grade": 7,
+        "file": "textbooks/social_studies_7.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Social Studies",
+        "grade": 8,
+        "file": "textbooks/social_studies_8.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      }
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "id": "social-studies-2012-g8-p1-q01",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 1,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of these statements is <u>wrong</u> about the location of Eritrea?",
+      "options": {
+        "A": "Eritrea is found north of the equator.",
+        "B": "Eritrea is found to the west of the Red Sea.",
+        "C": "Eritrea is found to the east of Sudan.",
+        "D": "Eritrea has no border with Djibouti."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Eritrea is north of the equator (between about 12°N and 18°N). So A is true.",
+        "Eritrea is on the western shore of the Red Sea. So B is true.",
+        "Sudan is to the west of Eritrea, so Eritrea is east of Sudan. C is true.",
+        "The textbook says Eritrea is bordered by Djibouti in the south-east (Social Studies Grade 6, p. 23). So D is wrong. Answer: D."
+      ],
+      "explain_simple": "Eritrea has a border with Djibouti. So statement D is wrong.",
+      "tips": [
+        "Neighbours of Eritrea: Sudan, Ethiopia, Djibouti. The Red Sea is to the east."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which country is found to the south-east of Eritrea?",
+          "options": {
+            "A": "Sudan",
+            "B": "Djibouti",
+            "C": "Egypt",
+            "D": "Kenya"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Djibouti borders Eritrea in the south-east. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-eritrea-location"
+      ],
+      "keywords": [
+        "location",
+        "Djibouti",
+        "Red Sea",
+        "Sudan",
+        "borders"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 4 – The Location and Size of Eritrea, 4.1 Location of Eritrea, p. 23-24",
+        "topic": "4.1 Location of Eritrea",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 4 – The Location and Size of Eritrea",
+        "section": "4.1 Location of Eritrea",
+        "page": "23-24",
+        "pdf_page": 29,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q02",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 2,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The queen who sent ships to the Land of Punt in 1500 B.C.E was:",
+      "options": {
+        "A": "Saba",
+        "B": "Hatshepsut",
+        "C": "Cleopatra",
+        "D": "Yodit"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook says: in 1500 B.C. Queen Hatshepsut of Egypt sent ships to the Land of Punt (Social Studies Grade 6, p. 60).",
+        "Answer: B."
+      ],
+      "explain_simple": "Queen Hatshepsut of Egypt sent ships to Punt.",
+      "tips": [
+        "Punt + Egypt + ships = Hatshepsut."
+      ],
+      "similar_questions": [
+        {
+          "stem": "From which country did Queen Hatshepsut send ships to Punt?",
+          "options": {
+            "A": "Egypt",
+            "B": "Greece",
+            "C": "Rome",
+            "D": "Persia"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Hatshepsut was a queen of Egypt. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-punt-aksum"
+      ],
+      "keywords": [
+        "Punt",
+        "Hatshepsut",
+        "Egypt"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 8 – Eritrea 900 B.C.E–1300 C.E, 8.1 The Land of Punt, p. 60",
+        "topic": "8.1 The Land of Punt",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 8 – Eritrea 900 B.C.E–1300 C.E",
+        "section": "8.1 The Land of Punt",
+        "page": "60",
+        "pdf_page": 66,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q03",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 3,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The lowest stage in human development is called",
+      "options": {
+        "A": "capitalist society",
+        "B": "primitive communal society",
+        "C": "feudal society",
+        "D": "slave society"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Human society developed from lower to higher stages: primitive communal, then slave society, then feudal society (Social Studies Grade 7, Unit 5).",
+        "The first and lowest stage is the primitive communal society. Answer: B."
+      ],
+      "explain_simple": "The first (lowest) stage is primitive communal society.",
+      "tips": [
+        "Order: primitive communal → slave → feudal → capitalist."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which society came after the primitive communal society?",
+          "options": {
+            "A": "Feudal society",
+            "B": "Slave society",
+            "C": "Capitalist society",
+            "D": "Socialist society"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Slave society came second. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "primitive communal",
+        "stages of social development"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, 5.1 Primitive Communal Society, p. 63-64",
+        "topic": "5.1 Primitive Communal Society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "5.1 Primitive Communal Society",
+        "page": "63-64",
+        "pdf_page": 69,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q04",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 4,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Volcanoes have _____ stages in their life cycle.",
+      "options": {
+        "A": "four",
+        "B": "three",
+        "C": "two",
+        "D": "five"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook says: volcanic mountains pass through three stages in their life cycle (Social Studies Grade 7, p. 120).",
+        "The three stages are active, dormant (sleeping) and extinct (dead). Answer: B."
+      ],
+      "explain_simple": "A volcano has three stages: active, dormant and extinct.",
+      "tips": [
+        "Active (erupting) → dormant (sleeping) → extinct (dead)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A volcano that will never erupt again is called:",
+          "options": {
+            "A": "active",
+            "B": "dormant",
+            "C": "extinct",
+            "D": "young"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "A dead volcano is extinct. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-disasters-eritrea"
+      ],
+      "keywords": [
+        "volcano",
+        "stages",
+        "active",
+        "dormant",
+        "extinct"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 8 – Disasters in Eritrea, Stages of volcanic activity, p. 120-121",
+        "topic": "Stages of volcanic activity",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 8 – Disasters in Eritrea",
+        "section": "Stages of volcanic activity",
+        "page": "120-121",
+        "pdf_page": 126,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q05",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 5,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Relief describes the:",
+      "options": {
+        "A": "climate of the earth’s surface",
+        "B": "vegetation cover of the earth’s surface",
+        "C": "shape of the earth’s surface",
+        "D": "the rocks of the earth’s surface"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Relief means the shape of the land: mountains, plateaus, valleys and plains (Social Studies Grade 8, p. 2).",
+        "It is not climate, plants or rocks. Answer: C."
+      ],
+      "explain_simple": "Relief is the shape of the land.",
+      "tips": [
+        "Relief = high and low land (mountains, plains, valleys)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which of these is a relief feature?",
+          "options": {
+            "A": "Rainfall",
+            "B": "A plateau",
+            "C": "Temperature",
+            "D": "Forest"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "A plateau is a shape of the land. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "relief",
+        "shape of the earth's surface"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, 1.1 What is Relief?, p. 2",
+        "topic": "1.1 What is Relief?",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "1.1 What is Relief?",
+        "page": "2",
+        "pdf_page": 8,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q06",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 6,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In Eritrea, which of these rivers has different direction from the others?",
+      "options": {
+        "A": "Hadas",
+        "B": "Mereb",
+        "C": "Barka",
+        "D": "Anseba"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Mereb, Barka and Anseba start in the highlands and flow west or north-west into the Sudan (Social Studies Grade 8, p. 16).",
+        "The Haddas starts near Adi Keih, cuts through the Eastern Escarpment and goes to the Red Sea (Social Studies Grade 8, p. 17). Answer: A."
+      ],
+      "explain_simple": "The Haddas goes to the Red Sea. The others go west to Sudan.",
+      "tips": [
+        "Learn the rivers by the sea they go to: Red Sea rivers (Haddas, Laba, Wekiro) and western rivers (Mereb, Barka, Anseba, Setit)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which river flows into the Red Sea?",
+          "options": {
+            "A": "Setit",
+            "B": "Barka",
+            "C": "Felket",
+            "D": "Mereb"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "The Felket enters the Red Sea at Mersa Teklay. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-rivers"
+      ],
+      "keywords": [
+        "Haddas",
+        "Mereb",
+        "Barka",
+        "Anseba",
+        "river direction"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, 2.2 River systems of Eritrea, p. 16-17",
+        "topic": "2.2 River systems of Eritrea",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "2.2 River systems of Eritrea",
+        "page": "16-17",
+        "pdf_page": 22,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q07",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 7,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Eritrea is located between latitudes of _________ and ________.",
+      "options": {
+        "A": "36°N and 43°N",
+        "B": "12°N and 18°N",
+        "C": "12°S and 18°N",
+        "D": "36°E and 43°E"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook says Eritrea is located between 12°N and 18°N latitudes (Social Studies Grade 8, p. 54).",
+        "36°E and 43°E are its longitudes, not latitudes. Answer: B."
+      ],
+      "explain_simple": "Eritrea is between 12°N and 18°N.",
+      "tips": [
+        "Latitude = N or S (12°N–18°N). Longitude = E or W (36°E–43°E)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Eritrea is located between longitudes:",
+          "options": {
+            "A": "12°E and 18°E",
+            "B": "36°E and 43°E",
+            "C": "36°W and 43°W",
+            "D": "12°N and 18°N"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Eritrea's longitudes are 36°E and 43°E. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-eritrea-location"
+      ],
+      "keywords": [
+        "latitude",
+        "longitude",
+        "location"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 4 – Eritrea and Its Strategic Location, 4.1 Location of Eritrea, p. 54",
+        "topic": "4.1 Location of Eritrea",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 4 – Eritrea and Its Strategic Location",
+        "section": "4.1 Location of Eritrea",
+        "page": "54",
+        "pdf_page": 60,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q08",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 8,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The Turks occupied Massawa in:",
+      "options": {
+        "A": "1565",
+        "B": "1620",
+        "C": "1557",
+        "D": "1567"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook says: in 1557 the Turks occupied Massawa and Hirghigo (Social Studies Grade 6, p. 72; Grade 8, p. 64).",
+        "Answer: C."
+      ],
+      "explain_simple": "The Turks took Massawa in 1557.",
+      "tips": [
+        "1557 = Turks in Massawa."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which foreign power occupied Massawa in 1557?",
+          "options": {
+            "A": "The Portuguese",
+            "B": "The Turks",
+            "C": "The Egyptians",
+            "D": "The Italians"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The Turks came in 1557. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat"
+      ],
+      "keywords": [
+        "Turks",
+        "Massawa",
+        "1557"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, 9.3 Portuguese-Turkish rivalry, p. 72",
+        "topic": "9.3 Portuguese-Turkish rivalry",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "9.3 Portuguese-Turkish rivalry",
+        "page": "72",
+        "pdf_page": 78,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q09",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 9,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The capital of the Bahri Neghestat was:",
+      "options": {
+        "A": "Massawa",
+        "B": "Gura",
+        "C": "Dogalli",
+        "D": "Debarwa"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says: the capital of the Bahri Negastat was at Debarwa (Social Studies Grade 6, p. 69).",
+        "Answer: D."
+      ],
+      "explain_simple": "Debarwa was the capital of the Bahri Negestat.",
+      "tips": [
+        "Bahri Negestat → capital Debarwa."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The ruler of the Bahri Negestat was called:",
+          "options": {
+            "A": "Bahri Negash",
+            "B": "Negus",
+            "C": "Sultan",
+            "D": "Pharaoh"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The ruler was the Bahri Negash. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat"
+      ],
+      "keywords": [
+        "Bahri Negestat",
+        "Debarwa",
+        "capital"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, 9.1 The Bahri Negestat, p. 69",
+        "topic": "9.1 The Bahri Negestat",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "9.1 The Bahri Negestat",
+        "page": "69",
+        "pdf_page": 75,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q10",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 10,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "550 C.E is:",
+      "options": {
+        "A": "the beginning of the 6th century",
+        "B": "the middle of the 6th century",
+        "C": "the start of the 5th century",
+        "D": "the end of the 5th century"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The 6th century C.E. is the years 501 to 600 (Social Studies Grade 6, p. 13).",
+        "550 is in the middle of 501–600. Answer: B."
+      ],
+      "explain_simple": "550 is in the middle of the years 501–600, the 6th century.",
+      "tips": [
+        "To find the century: take the hundreds and add 1 (550 → 5 + 1 = 6th century)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "1950 C.E. is in the middle of the:",
+          "options": {
+            "A": "19th century",
+            "B": "20th century",
+            "C": "21st century",
+            "D": "18th century"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "1901–2000 is the 20th century; 1950 is its middle. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-time"
+      ],
+      "keywords": [
+        "century",
+        "C.E.",
+        "550"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 2 – Measuring Time, 2.3 B.C.E. and C.E., p. 13",
+        "topic": "2.3 B.C.E. and C.E.",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 2 – Measuring Time",
+        "section": "2.3 B.C.E. and C.E.",
+        "page": "13",
+        "pdf_page": 19,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q11",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 11,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "History is:",
+      "options": {
+        "A": "the record of past events",
+        "B": "the story of kings and rulers",
+        "C": "a description of wars and battles",
+        "D": "not true story"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "History is the study and record of past events (Social Studies Grade 6, p. 1).",
+        "It is about all people, not only kings or wars. Answer: A."
+      ],
+      "explain_simple": "History is the record of what happened in the past.",
+      "tips": [
+        "History = past events of all people."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which of these is a written source of history?",
+          "options": {
+            "A": "An old coin",
+            "B": "A song",
+            "C": "A letter",
+            "D": "A stone tool"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "A letter is written. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-sources"
+      ],
+      "keywords": [
+        "history",
+        "past events"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 1 – Sources, 1.1 What is history?, p. 1",
+        "topic": "1.1 What is history?",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 1 – Sources",
+        "section": "1.1 What is history?",
+        "page": "1",
+        "pdf_page": 7,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q12",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 12,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A period of 10 years is called:",
+      "options": {
+        "A": "century",
+        "B": "millennium",
+        "C": "decade",
+        "D": "calendar"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A decade is a period of 10 years (Social Studies Grade 6, p. 9).",
+        "A century is 100 years and a millennium is 1000 years. Answer: C."
+      ],
+      "explain_simple": "10 years = a decade.",
+      "tips": [
+        "Decade 10, century 100, millennium 1000."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A period of 100 years is called a:",
+          "options": {
+            "A": "decade",
+            "B": "century",
+            "C": "millennium",
+            "D": "season"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "100 years is a century. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-time"
+      ],
+      "keywords": [
+        "decade",
+        "century",
+        "millennium"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 2 – Measuring Time, 2.2 Decades, centuries and millennia, p. 9",
+        "topic": "2.2 Decades, centuries and millennia",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 2 – Measuring Time",
+        "section": "2.2 Decades, centuries and millennia",
+        "page": "9",
+        "pdf_page": 15,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q13",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 13,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "250 C.E is in the:",
+      "options": {
+        "A": "second century",
+        "B": "third century",
+        "C": "fourth century",
+        "D": "first century"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The 3rd century C.E. is the years 201 to 300 (Social Studies Grade 6, p. 13).",
+        "250 is between 201 and 300. Answer: B."
+      ],
+      "explain_simple": "250 is in the years 201–300, the third century.",
+      "tips": [
+        "Hundreds + 1: 250 → 2 + 1 = 3rd century."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The year 1420 C.E. is in the:",
+          "options": {
+            "A": "14th century",
+            "B": "15th century",
+            "C": "13th century",
+            "D": "16th century"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "1401–1500 is the 15th century. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-time"
+      ],
+      "keywords": [
+        "century",
+        "C.E."
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 2 – Measuring Time, 2.3 B.C.E. and C.E., p. 13",
+        "topic": "2.3 B.C.E. and C.E.",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 2 – Measuring Time",
+        "section": "2.3 B.C.E. and C.E.",
+        "page": "13",
+        "pdf_page": 19,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q14",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 14,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If the soils of an area are poor in mineral nutrients, then the area will be left for:",
+      "options": {
+        "A": "growing cereals",
+        "B": "grazing animals",
+        "C": "growing fruits",
+        "D": "gold mining"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook says: soils poor in mineral nutrients are left for grazing animals (Social Studies Grade 6, p. 94).",
+        "Crops need good soil, so people use poor soil for grazing. Answer: B."
+      ],
+      "explain_simple": "Poor soil is used for grazing animals.",
+      "tips": [
+        "Good soil → crops. Poor soil → grazing."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which area is best for growing crops?",
+          "options": {
+            "A": "An area with fertile soil and enough rain",
+            "B": "A rocky desert",
+            "C": "A very steep mountain",
+            "D": "An area with salty soil"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Crops grow well in fertile soil with rain. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-resources"
+      ],
+      "keywords": [
+        "soil",
+        "mineral nutrients",
+        "grazing"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 11 – Economic Activities, 11.1 Factors that affect economic activities, p. 94",
+        "topic": "11.1 Factors that affect economic activities",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 11 – Economic Activities",
+        "section": "11.1 Factors that affect economic activities",
+        "page": "94",
+        "pdf_page": 100,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q15",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 15,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The settlement of an area can be dispersed if:",
+      "options": {
+        "A": "the climate is dry",
+        "B": "the area is rich in minerals",
+        "C": "the soil is fertile",
+        "D": "there is more fish in that area"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Dispersed settlement means houses are far from each other.",
+        "In dry areas water and grass are scarce, so people and their animals spread out over a large area (Social Studies Grade 6, p. 37).",
+        "Minerals, fertile soil and fish attract many people to one place, so they give nucleated (close) settlements. Answer: A."
+      ],
+      "explain_simple": "In dry areas people live far from each other, so settlement is dispersed.",
+      "tips": [
+        "Dispersed = scattered; nucleated = close together."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Houses built close together in one place form a:",
+          "options": {
+            "A": "dispersed settlement",
+            "B": "nucleated settlement",
+            "C": "temporary camp",
+            "D": "nomadic settlement"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Close houses make a nucleated settlement. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-settlement"
+      ],
+      "keywords": [
+        "dispersed settlement",
+        "dry climate"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 6 – Settlement, 6.2 Types of settlement, p. 37",
+        "topic": "6.2 Types of settlement",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 6 – Settlement",
+        "section": "6.2 Types of settlement",
+        "page": "37",
+        "pdf_page": 43,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q16",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 16,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Mohammed and his family live by grazing animals. Their activity is an example of ______ economic activity.",
+      "options": {
+        "A": "secondary",
+        "B": "tertiary",
+        "C": "primary",
+        "D": "quaternary"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Primary activities take things directly from nature: farming, herding animals, fishing, mining (Social Studies Grade 6, pp. 95–96).",
+        "Grazing animals is herding, so it is primary. Answer: C."
+      ],
+      "explain_simple": "Keeping animals takes food from nature. It is a primary activity.",
+      "tips": [
+        "Primary = from nature; secondary = making things; tertiary = services."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A farmer who grows wheat does a ______ activity.",
+          "options": {
+            "A": "primary",
+            "B": "secondary",
+            "C": "tertiary",
+            "D": "quaternary"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Farming is primary. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-economic-sectors"
+      ],
+      "keywords": [
+        "primary economic activity",
+        "grazing"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 11 – Economic Activities, 11.2 Types of economic activities, p. 95-96",
+        "topic": "11.2 Types of economic activities",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 11 – Economic Activities",
+        "section": "11.2 Types of economic activities",
+        "page": "95-96",
+        "pdf_page": 101,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q17",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 17,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Adiam is a bus driver. Her activity is an example of _________ economic activity.",
+      "options": {
+        "A": "secondary",
+        "B": "tertiary",
+        "C": "primary",
+        "D": "quaternary"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Tertiary activities give services to people: transport, trade, teaching, health (Social Studies Grade 6, pp. 97–98).",
+        "A bus driver gives a transport service. Answer: B."
+      ],
+      "explain_simple": "A bus driver gives a service. It is a tertiary activity.",
+      "tips": [
+        "Services (driver, teacher, doctor, shopkeeper) are tertiary."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A worker in a shoe factory does a ______ activity.",
+          "options": {
+            "A": "primary",
+            "B": "secondary",
+            "C": "tertiary",
+            "D": "quaternary"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Making things in a factory is secondary. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-economic-sectors"
+      ],
+      "keywords": [
+        "tertiary economic activity",
+        "services",
+        "transport"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 11 – Economic Activities, 11.2 Types of economic activities, p. 97-98",
+        "topic": "11.2 Types of economic activities",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 11 – Economic Activities",
+        "section": "11.2 Types of economic activities",
+        "page": "97-98",
+        "pdf_page": 103,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q18",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 18,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of these factors has <u>no</u> impact on the distribution of population?",
+      "options": {
+        "A": "the climate of the area",
+        "B": "the relief of the area",
+        "C": "composition of the population",
+        "D": "availability of resources"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Population distribution depends on physical factors like climate, relief, soil and water, and on resources (Social Studies Grade 7, Unit 2.2).",
+        "Composition (age and sex groups) describes the population. It does not decide where people live. Answer: C."
+      ],
+      "explain_simple": "Climate, relief and resources decide where people live. Composition does not.",
+      "tips": [
+        "Composition = age and sex of people. Distribution = where people live."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Why do few people live in very hot deserts?",
+          "options": {
+            "A": "The climate is harsh",
+            "B": "There are many schools",
+            "C": "The soil is very fertile",
+            "D": "There is a lot of water"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "A harsh climate keeps people away. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-population"
+      ],
+      "keywords": [
+        "distribution of population",
+        "composition",
+        "factors"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 2 – Population, 2.2 B. Factors of Population Distribution, p. 17-18",
+        "topic": "2.2 B. Factors of Population Distribution",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 2 – Population",
+        "section": "2.2 B. Factors of Population Distribution",
+        "page": "17-18",
+        "pdf_page": 23,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q19",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 19,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One of the following decreases the amount of carbon dioxide in the atmosphere:",
+      "options": {
+        "A": "destruction of forest covers",
+        "B": "an increase in use of fossil fuels",
+        "C": "an increase in use of fire wood",
+        "D": "an increase of forest cover"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Plants take in carbon dioxide and give out oxygen (Social Studies Grade 6, p. 82).",
+        "More forests take more carbon dioxide out of the air. Burning fuel or wood and cutting forests add carbon dioxide (Grade 7, p. 34). Answer: D."
+      ],
+      "explain_simple": "Trees take in carbon dioxide. More trees mean less carbon dioxide.",
+      "tips": [
+        "Burning adds CO₂; planting trees removes CO₂."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which activity adds carbon dioxide to the air?",
+          "options": {
+            "A": "Planting trees",
+            "B": "Burning charcoal",
+            "C": "Terracing",
+            "D": "Protecting forests"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Burning charcoal releases carbon dioxide. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-environmental-problems"
+      ],
+      "keywords": [
+        "carbon dioxide",
+        "forest",
+        "global warming"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 3 – People and the Environment, 3.2 Global warming, p. 34",
+        "topic": "3.2 Global warming",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 3 – People and the Environment",
+        "section": "3.2 Global warming",
+        "page": "34",
+        "pdf_page": 40,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q20",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 20,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of these is a result of global warming?",
+      "options": {
+        "A": "burning of fossil fuels",
+        "B": "burning of wood and charcoal",
+        "C": "melting of the polar ice caps",
+        "D": "deforestation"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Burning fuels and deforestation are causes of global warming.",
+        "The textbook lists the melting of the polar ice caps as a result (Social Studies Grade 7, p. 35). Answer: C."
+      ],
+      "explain_simple": "Global warming melts the ice at the poles.",
+      "tips": [
+        "Cause = what makes it happen; result = what happens after."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is a cause of global warming?",
+          "options": {
+            "A": "Sea level rise",
+            "B": "Melting ice",
+            "C": "Burning fossil fuels",
+            "D": "Floods on coasts"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Burning fossil fuels causes global warming. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-environmental-problems"
+      ],
+      "keywords": [
+        "global warming",
+        "polar ice caps"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 3 – People and the Environment, 3.2 Global warming, p. 34-35",
+        "topic": "3.2 Global warming",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 3 – People and the Environment",
+        "section": "3.2 Global warming",
+        "page": "34-35",
+        "pdf_page": 40,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q21",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 21,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "One of the following is <u>not</u> a reason for the decrease of the number of wild animals in Eritrea.",
+      "options": {
+        "A": "expansion of tourism",
+        "B": "expansion of agriculture",
+        "C": "drought",
+        "D": "war"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Wild animals decreased because of drought, war, hunting and the loss of their homes when farms expanded (Social Studies Grade 7, 7.4).",
+        "Tourism is not given as a reason; well-planned tourism can help protect wildlife. Answer: A."
+      ],
+      "explain_simple": "Farms, drought and war reduced wild animals. Tourism did not.",
+      "tips": [
+        "Loss of habitat (home) is a main reason animals disappear."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which of these helps to protect wild animals?",
+          "options": {
+            "A": "Cutting forests",
+            "B": "Making protected parks",
+            "C": "Hunting",
+            "D": "Burning grass"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Protected areas keep animals safe. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-heritage"
+      ],
+      "keywords": [
+        "wild animals",
+        "drought",
+        "war",
+        "agriculture"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 7 – Natural Heritages, 7.4 Terrestrial (Land) Vegetation and Wild Animals, p. 106-107",
+        "topic": "7.4 Terrestrial (Land) Vegetation and Wild Animals",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 7 – Natural Heritages",
+        "section": "7.4 Terrestrial (Land) Vegetation and Wild Animals",
+        "page": "106-107",
+        "pdf_page": 112,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q22",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 22,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Domestication of animals means:",
+      "options": {
+        "A": "growing crops for human use",
+        "B": "keeping and using cattle for human benefit",
+        "C": "keeping wild animals away from cattle",
+        "D": "cross-breeding of different animals"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Early people kept some animals near them and used them. This led to cattle breeding, called domestication of animals (Social Studies Grade 7, p. 65).",
+        "Answer: B."
+      ],
+      "explain_simple": "Domestication means keeping animals and using them.",
+      "tips": [
+        "Domestic animals = animals living with people (cows, goats, camels)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one is a domestic animal?",
+          "options": {
+            "A": "Lion",
+            "B": "Goat",
+            "C": "Hyena",
+            "D": "Leopard"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Goats are kept by people. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "domestication",
+        "animals",
+        "cattle"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, 5.1 Primitive Communal Society, p. 65",
+        "topic": "5.1 Primitive Communal Society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "5.1 Primitive Communal Society",
+        "page": "65",
+        "pdf_page": 71,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q23",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 23,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Tribes were:",
+      "options": {
+        "A": "groupings of clans",
+        "B": "cities with their government",
+        "C": "administration of families",
+        "D": "feudal tenants"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook says: clans joined together to form tribes (Social Studies Grade 7, p. 79).",
+        "Answer: A."
+      ],
+      "explain_simple": "A tribe is a group of clans.",
+      "tips": [
+        "Family → clan → tribe."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A group of related families is called a:",
+          "options": {
+            "A": "clan",
+            "B": "state",
+            "C": "tribe",
+            "D": "empire"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Related families form a clan. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-government"
+      ],
+      "keywords": [
+        "tribe",
+        "clan"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 6 – Government, 6.1 Early forms of government, p. 79",
+        "topic": "6.1 Early forms of government",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 6 – Government",
+        "section": "6.1 Early forms of government",
+        "page": "79",
+        "pdf_page": 85,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q24",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 24,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is <u>not</u> a branch of government?",
+      "options": {
+        "A": "Judiciary",
+        "B": "Federalism",
+        "C": "Legislative",
+        "D": "Executive"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The three branches of government are the legislature, the judiciary and the executive (Social Studies Grade 7, p. 85).",
+        "Federalism is a system of government, not a branch. Answer: B."
+      ],
+      "explain_simple": "Federalism is not a branch of government.",
+      "tips": [
+        "Three branches: make laws, carry out laws, judge."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which branch of government makes laws?",
+          "options": {
+            "A": "Judiciary",
+            "B": "Executive",
+            "C": "Legislature",
+            "D": "Army"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "The legislature makes laws. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-government"
+      ],
+      "keywords": [
+        "branches of government",
+        "federalism"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 6 – Government, Separation of powers, p. 85",
+        "topic": "Separation of powers",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 6 – Government",
+        "section": "Separation of powers",
+        "page": "85",
+        "pdf_page": 91,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q25",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 25,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In Eritrea the highest point is about 3000 meters above sea level and the lowest point is about 100 meters below sea level. Then the difference between the highest and the lowest points is about:",
+      "options": {
+        "A": "3100 meters",
+        "B": "3000 meters",
+        "C": "100 meters",
+        "D": "2900 meters"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Below sea level is like a negative number: −100 m.",
+        "Difference = 3000 − (−100) = 3000 + 100 = 3100 m. Answer: A.",
+        "(The textbook gives about 120 m below sea level to over 3000 m, Social Studies Grade 8, p. 2.)"
+      ],
+      "explain_simple": "Add the height above and the depth below sea level: 3000 + 100 = 3100 m.",
+      "tips": [
+        "One point above and one below sea level: add them."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A hill is 500 m above sea level and a valley is 50 m below sea level. The difference is:",
+          "options": {
+            "A": "450 m",
+            "B": "500 m",
+            "C": "550 m",
+            "D": "50 m"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "500 + 50 = 550 m. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "altitude",
+        "sea level",
+        "difference"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, 1.1 What is Relief?, p. 2",
+        "topic": "1.1 What is Relief?",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "1.1 What is Relief?",
+        "page": "2",
+        "pdf_page": 8,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q26",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 26,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one is part of underground water?",
+      "options": {
+        "A": "rivers",
+        "B": "seas and oceans",
+        "C": "wells",
+        "D": "dams"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Underground (ground) water is water under the surface of the earth. The textbook says: the water in springs and wells comes from ground water (Social Studies Grade 8, p. 12).",
+        "Rivers, seas and dams are surface water. Answer: C."
+      ],
+      "explain_simple": "A well takes water from under the ground.",
+      "tips": [
+        "Surface water: rivers, lakes, dams, seas. Ground water: wells, springs."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which of these is surface water?",
+          "options": {
+            "A": "A spring",
+            "B": "A well",
+            "C": "A lake",
+            "D": "An aquifer"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "A lake is on the surface. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-groundwater"
+      ],
+      "keywords": [
+        "underground water",
+        "wells"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, 2.1 What is Hydrology?, p. 12",
+        "topic": "2.1 What is Hydrology?",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "2.1 What is Hydrology?",
+        "page": "12",
+        "pdf_page": 18,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q27",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 27,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A river is permanent if:",
+      "options": {
+        "A": "the rainfall is seasonal",
+        "B": "it rises from the highland",
+        "C": "there is rain throughout the year",
+        "D": "the rainfall is high but seasonal"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Rivers in areas that get rain throughout the year are permanent rivers; their water is high (Social Studies Grade 8, p. 16).",
+        "Seasonal rain gives seasonal rivers. Answer: C."
+      ],
+      "explain_simple": "A river always has water if it rains all year.",
+      "tips": [
+        "Rain all year → permanent river. Rain in one season → seasonal river."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Most rivers in Eritrea are:",
+          "options": {
+            "A": "permanent",
+            "B": "seasonal",
+            "C": "frozen",
+            "D": "underground"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Eritrea gets seasonal rain, so most rivers are seasonal. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-rivers"
+      ],
+      "keywords": [
+        "permanent river",
+        "rainfall"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, 2.2 River systems of Eritrea, p. 16",
+        "topic": "2.2 River systems of Eritrea",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "2.2 River systems of Eritrea",
+        "page": "16",
+        "pdf_page": 22,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q28",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 28,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The conflict between the Portuguese and the Turks was caused:",
+      "options": {
+        "A": "by their desire to control the region of the Horn",
+        "B": "because of the alliance of the Abyssinian king and the Turks",
+        "C": "because both wanted to control the trade with the East",
+        "D": "A and C are answers"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says both the Turks and the Portuguese were expanding their power in the region and wanted to control the Red Sea trade with the East (Social Studies Grade 6, pp. 73–74).",
+        "So both A and C are reasons. B is wrong: the Abyssinian king allied with the Portuguese, not the Turks. Answer: D."
+      ],
+      "explain_simple": "Both wanted power in the Horn and control of trade. So A and C.",
+      "tips": [
+        "Check each statement before choosing 'A and C'."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who did the Abyssinian king ask for help against Gragn?",
+          "options": {
+            "A": "The Turks",
+            "B": "The Portuguese",
+            "C": "The Egyptians",
+            "D": "The Italians"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "He asked the Portuguese. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat"
+      ],
+      "keywords": [
+        "Portuguese",
+        "Turks",
+        "Red Sea trade",
+        "rivalry"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, 9.3 Portuguese-Turkish Rivalry and the Gragn wars, p. 73-74",
+        "topic": "9.3 Portuguese-Turkish Rivalry and the Gragn wars",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "9.3 Portuguese-Turkish Rivalry and the Gragn wars",
+        "page": "73-74",
+        "pdf_page": 79,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q29",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 29,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following followed expansionist policies in Eritrea ?",
+      "options": {
+        "A": "Tigrean and Abyssinian rulers",
+        "B": "Egyptian and Turks",
+        "C": "Tigrean rulers only",
+        "D": "A and B."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says: from the 16th to the 19th centuries the Turks, Abyssinians, Egyptians and Italians tried to establish themselves in Eritrea (Social Studies Grade 8, p. 63).",
+        "Tigrean rulers (like Ras Alula) also attacked Eritrea. So both A and B are correct. Answer: D."
+      ],
+      "explain_simple": "Tigrean/Abyssinian rulers, Egyptians and Turks all tried to take Eritrea.",
+      "tips": [
+        "Remember the invaders: Turks, Abyssinians (Tigreans), Egyptians, Italians."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which power was defeated at the battles of Gundet and Gura?",
+          "options": {
+            "A": "The Turks",
+            "B": "The Egyptians",
+            "C": "The Italians",
+            "D": "The British"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The Egyptians were defeated there. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "expansionism",
+        "Turks",
+        "Egyptians",
+        "Abyssinians"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Introduction – Colonial Expansion and Eritrean Resistance, p. 63",
+        "topic": "Introduction – Colonial Expansion and Eritrean Resistance",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Introduction – Colonial Expansion and Eritrean Resistance",
+        "page": "63",
+        "pdf_page": 69,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q30",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 30,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is <u>true</u> about Mahber Fikri Hager?",
+      "options": {
+        "A": "It was founded on May 5, 1941",
+        "B": "It defended the needs of the Italians",
+        "C": "It was an association opposed to colonialism",
+        "D": "A and C are answers"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D",
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook says: in 1941 a movement called Mahber Fiqri Hager was formed. It was an anti-colonial association (Social Studies Grade 8, p. 81). So C is true.",
+        "History books give the founding date as 5 May 1941, so A is also true. The textbook gives only the year 1941.",
+        "It worked for the needs of Eritreans, not Italians, so B is false. Answer: D."
+      ],
+      "explain_simple": "It was founded in 1941 and it was against colonialism. So A and C.",
+      "tips": [
+        "Mahber Fikri Hager (1941) = love of country, against colonialism."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Mahber Fikri Hager was formed during the rule of the:",
+          "options": {
+            "A": "Italians",
+            "B": "British",
+            "C": "Egyptians",
+            "D": "Turks"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It was formed in 1941, when the British replaced the Italians. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-british-un"
+      ],
+      "keywords": [
+        "Mahber Fikri Hager",
+        "1941",
+        "anti-colonial"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, 5.5 Political movements during the British Period, p. 81",
+        "topic": "5.5 Political movements during the British Period",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "5.5 Political movements during the British Period",
+        "page": "81",
+        "pdf_page": 87,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "The textbook (G8 p. 81) gives only the year 1941, not the exact date 'May 5, 1941' in option A. Answer D depends on this date, which is not in the textbook (it is the date usually given in history books). If a teacher does not accept A, then C alone is correct."
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q31",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 31,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following pairs does <u>not</u> match?",
+      "options": {
+        "A": "Italian colonialism - Racist Laws",
+        "B": "Bandas - Eritrean irregular soldiers",
+        "C": "Commissari - Eritrean administrators",
+        "D": "Zaptias - Eritrean military police"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Under Italian rule, the commissari (commissioners) were Italian officials who ran the regions (Social Studies Grade 8, p. 92 area, Unit 6).",
+        "Eritreans served as bandas (irregular soldiers) and zaptias (police). Italian rule had racist laws. So C does not match. Answer: C."
+      ],
+      "explain_simple": "The commissari were Italians, not Eritreans.",
+      "tips": [
+        "Italian rule: Italians were commissari; Eritreans were askaris, bandas and zaptias."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Eritrean soldiers in the Italian colonial army were called:",
+          "options": {
+            "A": "askaris",
+            "B": "commissari",
+            "C": "residenti",
+            "D": "governors"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "They were called askaris. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-italian-colonialism"
+      ],
+      "keywords": [
+        "commissari",
+        "bandas",
+        "zaptias",
+        "Italian colonial administration"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 6 – Colonial Administrations in Eritrea, 6.1 Italian colonial administration, p. 92",
+        "topic": "6.1 Italian colonial administration",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 6 – Colonial Administrations in Eritrea",
+        "section": "6.1 Italian colonial administration",
+        "page": "92",
+        "pdf_page": 98,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q32",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 32,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Deggiat Hailu of Tseazzega was defeated by Ras Woldemichael at the Battle of:",
+      "options": {
+        "A": "Walta Medhanit",
+        "B": "Gundet",
+        "C": "Halay",
+        "D": "Woki-Duba"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook tells that Ras Woldemichael defeated Deggiat Hailu of Tseazzega at the Battle of Wokki Duba (Social Studies Grade 8, pp. 72–73).",
+        "Answer: D."
+      ],
+      "explain_simple": "The battle was at Wokki Duba.",
+      "tips": [
+        "Make a table of battles: who fought, who won, the year."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Where did the Egyptians suffer their final defeat?",
+          "options": {
+            "A": "Gundet",
+            "B": "Gura",
+            "C": "Dogali",
+            "D": "Adwa"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Their final defeat was at Gura (1876). Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "Woki Duba",
+        "Deggiat Hailu",
+        "Ras Woldemichael"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Abyssinian expansion and resistance, p. 72-73",
+        "topic": "Abyssinian expansion and resistance",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Abyssinian expansion and resistance",
+        "page": "72-73",
+        "pdf_page": 78,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q33",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 33,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following <u>does not</u> improve soil fertility?",
+      "options": {
+        "A": "crop rotation",
+        "B": "over cultivation",
+        "C": "terracing",
+        "D": "fallowing"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Soil fertility is kept by crop rotation, fallowing (resting the land) and terracing (which stops soil from washing away) (Social Studies Grade 6, p. 84).",
+        "Over cultivation uses the soil too much and makes it poor. Answer: B."
+      ],
+      "explain_simple": "Using the land too much makes the soil poor.",
+      "tips": [
+        "'Over-' words (overgrazing, over cultivation) are bad for the land."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Leaving land without crops for a season to rest is called:",
+          "options": {
+            "A": "terracing",
+            "B": "fallowing",
+            "C": "irrigation",
+            "D": "mining"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Resting land is fallowing. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-soil-conservation"
+      ],
+      "keywords": [
+        "soil fertility",
+        "over cultivation",
+        "crop rotation",
+        "fallowing",
+        "terracing"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 10 – Natural Resources and Conservation, 10.2 Soil, p. 84",
+        "topic": "10.2 Soil",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 10 – Natural Resources and Conservation",
+        "section": "10.2 Soil",
+        "page": "84",
+        "pdf_page": 90,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q34",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 34,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Eritrea was federated with Ethiopia by:",
+      "options": {
+        "A": "the Hague Convention",
+        "B": "The Atlantic Charter",
+        "C": "Resolution 390 A(V)",
+        "D": "Treaty of Addis Ababa"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "On 2 December 1950 the UN passed Resolution 390A(V), which federated Eritrea with Ethiopia (Social Studies Grade 8, p. 83).",
+        "Answer: C."
+      ],
+      "explain_simple": "UN Resolution 390A(V) joined Eritrea to Ethiopia in a federation.",
+      "tips": [
+        "390A(V): passed 1950, federation started 1952."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The federation of Eritrea with Ethiopia started in:",
+          "options": {
+            "A": "1950",
+            "B": "1952",
+            "C": "1962",
+            "D": "1941"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It started in September 1952. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-british-un"
+      ],
+      "keywords": [
+        "Resolution 390A(V)",
+        "federation"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, 5.6 The Eritrean question at the UN and the Federation, p. 83",
+        "topic": "5.6 The Eritrean question at the UN and the Federation",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "5.6 The Eritrean question at the UN and the Federation",
+        "page": "83",
+        "pdf_page": 89,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q35",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 35,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The final defeat of the Egyptians took place at the Battle of:",
+      "options": {
+        "A": "Dogalli",
+        "B": "Gura",
+        "C": "Jengeren",
+        "D": "Gundet"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The Egyptians were defeated at Gundet in 1875 and finally at Gura in 1876 (Social Studies Grade 8, p. 68 area).",
+        "Dogali (1887) was a battle against the Italians. Answer: B."
+      ],
+      "explain_simple": "The Egyptians were finally defeated at Gura (1876).",
+      "tips": [
+        "Gundet 1875 → Gura 1876 (end of Egyptian push)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Battle of Dogali (1887) was fought against the:",
+          "options": {
+            "A": "Egyptians",
+            "B": "Italians",
+            "C": "Turks",
+            "D": "British"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Dogali was against the Italians. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "Gura",
+        "Gundet",
+        "Egyptians"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Egyptian expansion, p. 68",
+        "topic": "Egyptian expansion",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Egyptian expansion",
+        "page": "68",
+        "pdf_page": 74,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q36",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 36,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In Eritrea fishing is:",
+      "options": {
+        "A": "the main economic activity of the island population",
+        "B": "the main source of export income",
+        "C": "the main source of food for the majority of the people",
+        "D": "not practiced at all"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook says: the main economic activity of the people of the coastal areas and islands, especially south of Massawa, is fishing (Social Studies Grade 8, p. 140).",
+        "Fish is an export, but not the main source of export income, and most Eritreans live on farming. Answer: A."
+      ],
+      "explain_simple": "People on the islands live mainly by fishing.",
+      "tips": [
+        "Coast and islands → fishing; highlands → farming."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The largest island group of Eritrea is:",
+          "options": {
+            "A": "Dahlak",
+            "B": "Hawakil",
+            "C": "Zanzibar",
+            "D": "Sicily"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The Dahlak archipelago is the largest. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-fishing-trade-industry"
+      ],
+      "keywords": [
+        "fishing",
+        "islands",
+        "coast"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 9 – Economic Activities in Eritrea, 9.2 Fishing and Hunting Marine Animals, p. 140",
+        "topic": "9.2 Fishing and Hunting Marine Animals",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 9 – Economic Activities in Eritrea",
+        "section": "9.2 Fishing and Hunting Marine Animals",
+        "page": "140",
+        "pdf_page": 146,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q37",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 37,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of these crops is different from the others?",
+      "options": {
+        "A": "maize",
+        "B": "sesame",
+        "C": "millet",
+        "D": "wheat"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Maize, millet and wheat are cereals (grains).",
+        "Sesame is an oil seed (Social Studies Grade 8, p. 131 area). Answer: B."
+      ],
+      "explain_simple": "Sesame gives oil. The others are cereals.",
+      "tips": [
+        "Cereals: wheat, barley, maize, sorghum, millet, taff. Oil seeds: sesame, linseed, groundnut."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one is an oil seed?",
+          "options": {
+            "A": "Barley",
+            "B": "Taff",
+            "C": "Groundnut",
+            "D": "Sorghum"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Groundnut is an oil seed. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-farming"
+      ],
+      "keywords": [
+        "cereals",
+        "oil seed",
+        "sesame"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 9 – Economic Activities in Eritrea, 9.1 Agriculture – crops, p. 131",
+        "topic": "9.1 Agriculture – crops",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 9 – Economic Activities in Eritrea",
+        "section": "9.1 Agriculture – crops",
+        "page": "131",
+        "pdf_page": 137,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q38",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 38,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following events comes first?",
+      "options": {
+        "A": "Declaration of Italian colony",
+        "B": "Buying of Assab by Giuseppe Sapeto",
+        "C": "The Battle of Dogalli",
+        "D": "Annexation of Eritrea by Ethiopia"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Sapeto bought Assab in 1869 (Social Studies Grade 8, p. 74).",
+        "Dogali was in 1887, Eritrea was declared an Italian colony in 1890, and Ethiopia annexed Eritrea in 1962.",
+        "The earliest is 1869. Answer: B."
+      ],
+      "explain_simple": "Sapeto bought Assab in 1869. That is the earliest.",
+      "tips": [
+        "Write the year next to each event, then order them."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Eritrea was declared an Italian colony in:",
+          "options": {
+            "A": "1869",
+            "B": "1882",
+            "C": "1890",
+            "D": "1941"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "It was declared on 1 January 1890. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-italian-colonialism",
+        "ss-chronology"
+      ],
+      "keywords": [
+        "Sapeto",
+        "Assab",
+        "1869",
+        "chronology"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Italian expansion, p. 74",
+        "topic": "Italian expansion",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Italian expansion",
+        "page": "74",
+        "pdf_page": 80,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q39",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 39,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following events comes last?",
+      "options": {
+        "A": "The Battle of Afabet",
+        "B": "Passing of Resolution 390A(V)",
+        "C": "Operation Fenkil",
+        "D": "Liberation of Eritrea"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Resolution 390A(V): 1950. Battle of Afabet: March 1988. Operation Fenkil: February 1990 (Social Studies Grade 8, p. 113).",
+        "Liberation of Eritrea: 24 May 1991. This is the latest. Answer: D."
+      ],
+      "explain_simple": "Liberation in 1991 came after all the others.",
+      "tips": [
+        "1950 → 1988 → 1990 → 1991."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Operation Fenkil liberated the port of:",
+          "options": {
+            "A": "Assab",
+            "B": "Massawa",
+            "C": "Keren",
+            "D": "Tessenei"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Fenkil (1990) liberated Massawa. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-elf-eplf",
+        "ss-chronology"
+      ],
+      "keywords": [
+        "Afabet",
+        "Fenkil",
+        "liberation",
+        "1991"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 7 – Highlights of the Eritrean Armed Struggle, Victories of the EPLF, p. 113",
+        "topic": "Victories of the EPLF",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 7 – Highlights of the Eritrean Armed Struggle",
+        "section": "Victories of the EPLF",
+        "page": "113",
+        "pdf_page": 119,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q40",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 40,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is an example of modern industry?",
+      "options": {
+        "A": "the Asmara textile factory",
+        "B": "the pottery around Keren",
+        "C": "the basketry in Gash Barka",
+        "D": "the gold smiths in the towns"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Modern industries use machines in factories. The textbook gives the Asmara Textile Industry as an example (Social Studies Grade 8, p. 145).",
+        "Pottery, basketry and goldsmith work are traditional handicrafts. Answer: A."
+      ],
+      "explain_simple": "A textile factory uses machines. It is a modern industry.",
+      "tips": [
+        "Factory + machines = modern. Hand work = traditional (cottage) industry."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which of these is a traditional (cottage) industry?",
+          "options": {
+            "A": "Cement factory",
+            "B": "Basket making",
+            "C": "Brewery",
+            "D": "Textile factory"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Basket making is done by hand. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-fishing-trade-industry"
+      ],
+      "keywords": [
+        "modern industry",
+        "Asmara textile",
+        "handicraft"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 9 – Economic Activities in Eritrea, 9.4 Manufacturing industry, p. 145",
+        "topic": "9.4 Manufacturing industry",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 9 – Economic Activities in Eritrea",
+        "section": "9.4 Manufacturing industry",
+        "page": "145",
+        "pdf_page": 151,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q41",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 41,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "How many decades are there between the start of the Eritrean Armed struggle (1961) and the Liberation of Eritrea (1991) ?",
+      "options": {
+        "A": "4 decades",
+        "B": "2 decades",
+        "C": "5 decades",
+        "D": "3 decades"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "1991 − 1961 = 30 years.",
+        "One decade is 10 years, so 30 ÷ 10 = 3 decades. Answer: D."
+      ],
+      "explain_simple": "30 years is 3 decades.",
+      "tips": [
+        "Years ÷ 10 = decades."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How many decades are there from 1950 to 2010?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "2010 − 1950 = 60 years = 6 decades. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-time"
+      ],
+      "keywords": [
+        "decade",
+        "armed struggle",
+        "1961",
+        "1991"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 2 – Measuring Time, 2.2 Decades, centuries and millennia, p. 9",
+        "topic": "2.2 Decades, centuries and millennia",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 2 – Measuring Time",
+        "section": "2.2 Decades, centuries and millennia",
+        "page": "9",
+        "pdf_page": 15,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q42",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 42,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following events comes first?",
+      "options": {
+        "A": "Declaration of Eritrean Independence",
+        "B": "Start of Federation",
+        "C": "Ratification of Eritrean Constitution",
+        "D": "Battle of Afabet"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Federation started in 1952 (Social Studies Grade 8, p. 83).",
+        "Battle of Afabet 1988, declaration of independence 1993, ratification of the constitution 1997.",
+        "The first is the start of the Federation. Answer: B."
+      ],
+      "explain_simple": "The Federation started in 1952. That is the earliest.",
+      "tips": [
+        "Put a year beside each event."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Eritrean Constitution was ratified in:",
+          "options": {
+            "A": "1991",
+            "B": "1993",
+            "C": "1997",
+            "D": "2000"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "It was ratified on 23 May 1997. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-british-un",
+        "ss-chronology"
+      ],
+      "keywords": [
+        "Federation",
+        "1952",
+        "chronology"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, 5.6 The Federation, p. 83",
+        "topic": "5.6 The Federation",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "5.6 The Federation",
+        "page": "83",
+        "pdf_page": 89,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q43",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 43,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Figure 1 below shows the map of an area. If the map distance between town A and town B along the road is 15cm find the ground distance between the two towns in kilometers. Scale: 1cm to 2km.",
+      "image": "media/social-studies-2012-q43.png",
+      "image_alt": "Map with Town A (bottom left) and Town B (top right) joined by a curved road. Scale: 1 cm to 2 km.",
+      "options": {
+        "A": "15 kilometers",
+        "B": "300 kilometers",
+        "C": "2 kilometers",
+        "D": "30 kilometers"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The scale says 1 cm on the map = 2 km on the ground.",
+        "Ground distance = map distance × scale = 15 × 2 km = 30 km (Social Studies Grade 6, pp. 16–20). Answer: D."
+      ],
+      "explain_simple": "Each 1 cm is 2 km, so 15 cm is 30 km.",
+      "tips": [
+        "Ground distance = map distance × the ground value of 1 cm."
+      ],
+      "similar_questions": [
+        {
+          "stem": "On a map, 1 cm stands for 5 km. Two towns are 8 cm apart on the map. The real distance is:",
+          "options": {
+            "A": "13 km",
+            "B": "40 km",
+            "C": "3 km",
+            "D": "80 km"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "8 × 5 = 40 km. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-scale"
+      ],
+      "keywords": [
+        "scale",
+        "map distance",
+        "ground distance"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 3 – Distance and Scale, 3.2 Using a scale, p. 16-20",
+        "topic": "3.2 Using a scale",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 3 – Distance and Scale",
+        "section": "3.2 Using a scale",
+        "page": "16-20",
+        "pdf_page": 22,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q44",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 44,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The struggle between the Bahri Negassi and the Turks was caused by",
+      "options": {
+        "A": "Friendship of the Turks with the Abyssinian kings",
+        "B": "Turkish desire to control the Red Sea trade routes",
+        "C": "Friendship of the Portuguese and the Turks",
+        "D": "A and C"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The Turks wanted to control the Red Sea and its trade routes, so they occupied Massawa and Hirghigo (Social Studies Grade 6, pp. 72–73).",
+        "The Turks were not friends of the Abyssinian kings or the Portuguese; they were rivals. Answer: B."
+      ],
+      "explain_simple": "The Turks wanted to control the Red Sea trade.",
+      "tips": [
+        "Turks and Portuguese were enemies, not friends."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which Bahri Negash fought against the Turks?",
+          "options": {
+            "A": "Yeshaq",
+            "B": "Tewodros",
+            "C": "Yohannes",
+            "D": "Menelik"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Bahri Negash Yeshaq fought the Turks. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat"
+      ],
+      "keywords": [
+        "Bahri Negash",
+        "Turks",
+        "Red Sea trade"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, 9.3 Portuguese-Turkish rivalry, p. 72-73",
+        "topic": "9.3 Portuguese-Turkish rivalry",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "9.3 Portuguese-Turkish rivalry",
+        "page": "72-73",
+        "pdf_page": 78,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q45",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 45,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The length of a classroom is 12 meters and its width is 8 meters. Figure 2 below shows the floor plan (floor map) drawn using a scale. What is the scale of the plan (map)?",
+      "image": "media/social-studies-2012-q45.png",
+      "image_alt": "Figure 2: a rectangle 6 cm long and 4 cm wide (floor plan of the classroom).",
+      "options": {
+        "A": "1cm to 1m",
+        "B": "2cm to 1m",
+        "C": "1cm to 2m",
+        "D": "2cm to 3m"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "On the plan the length is 6 cm and the real length is 12 m. So 6 cm = 12 m, and 1 cm = 2 m.",
+        "Check the width: 4 cm × 2 m = 8 m. Correct. Answer: C."
+      ],
+      "explain_simple": "6 cm stands for 12 m, so 1 cm stands for 2 m.",
+      "tips": [
+        "Scale: divide the real length by the plan length."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A field 100 m long is drawn 10 cm long on a plan. The scale is:",
+          "options": {
+            "A": "1 cm to 10 m",
+            "B": "1 cm to 100 m",
+            "C": "10 cm to 1 m",
+            "D": "1 cm to 1 m"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "100 ÷ 10 = 10, so 1 cm to 10 m. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-scale"
+      ],
+      "keywords": [
+        "scale",
+        "floor plan"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 1 – Scale and Measuring Distance, 1.1 Scale, p. 1-5",
+        "topic": "1.1 Scale",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 1 – Scale and Measuring Distance",
+        "section": "1.1 Scale",
+        "page": "1-5",
+        "pdf_page": 7,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q46",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 46,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of these statements is <u>correct</u>?",
+      "options": {
+        "A": "Most of the work in the primitive Communal System was done by slaves",
+        "B": "Differences in wealth caused the appearance of classes",
+        "C": "In Slave Society priests and nobles were the lowest class",
+        "D": "Settled communities appeared before crop production"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook says: differences in wealth led to the appearance of classes (Social Studies Grade 7, p. 71). So B is correct.",
+        "A is wrong (there were no slaves or classes in primitive communal society). C is wrong (slaves were the lowest class). D is wrong (crop production came first, then people settled)."
+      ],
+      "explain_simple": "Classes appeared because some people became richer than others.",
+      "tips": [
+        "Primitive communal = no classes; slave society = first class society."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The first society with classes was the:",
+          "options": {
+            "A": "primitive communal society",
+            "B": "slave society",
+            "C": "feudal society",
+            "D": "capitalist society"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Slave society was the first class society. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "classes",
+        "wealth",
+        "slave society"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, What are classes?, p. 71",
+        "topic": "What are classes?",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "What are classes?",
+        "page": "71",
+        "pdf_page": 77,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q47",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 47,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of these events comes first?",
+      "options": {
+        "A": "Boundary Commission decision on Badme",
+        "B": "Declaration of Eritrean independence",
+        "C": "Introduction of National service Program",
+        "D": "The Eritrean Referendum"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The Referendum was held on 23–25 April 1993 (Social Studies Grade 8, p. 117).",
+        "Independence was declared on 24 May 1993, the National Service Program started in 1994, and the Boundary Commission decision on Badme came in 2002.",
+        "The first is the Referendum. Answer: D."
+      ],
+      "explain_simple": "The Referendum (April 1993) came before independence was declared (May 1993).",
+      "tips": [
+        "Referendum first, then the declaration."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Eritrean Referendum was held in:",
+          "options": {
+            "A": "1991",
+            "B": "1993",
+            "C": "1994",
+            "D": "1997"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It was in April 1993. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-referendum-development",
+        "ss-chronology"
+      ],
+      "keywords": [
+        "Referendum",
+        "1993",
+        "independence",
+        "Badme"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 8 – Post-Independence Development, 8.1 The Referendum 23-25 April, 1993, p. 117",
+        "topic": "8.1 The Referendum 23-25 April, 1993",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 8 – Post-Independence Development",
+        "section": "8.1 The Referendum 23-25 April, 1993",
+        "page": "117",
+        "pdf_page": 123,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q48",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 48,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2012-g8-water-cycle",
+      "stem": "Evaporation is shown by drawing number ______:",
+      "image": "media/social-studies-2012-q48.png",
+      "image_alt": "Four drawings of the water cycle. 1: wavy arrows rise from a water surface. 2: wavy arrows rise from trees and plants. 3: a cloud with arrows (rain) falling down. 4: rivers flowing into the sea.",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "1"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Evaporation is when water from seas, lakes and rivers turns into vapour and goes up (Social Studies Grade 8, pp. 12–13).",
+        "Drawing 1 shows vapour rising from water. Answer: D."
+      ],
+      "explain_simple": "Drawing 1 shows water going up from the water surface.",
+      "tips": [
+        "Evaporation: from water. Transpiration: from plants. Precipitation: falling rain."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Water vapour cooling into clouds is called:",
+          "options": {
+            "A": "evaporation",
+            "B": "condensation",
+            "C": "precipitation",
+            "D": "run-off"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Vapour becomes cloud by condensation. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-water-cycle"
+      ],
+      "keywords": [
+        "evaporation",
+        "water cycle"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, 2.1 What is Hydrology? (water cycle), p. 12-13",
+        "topic": "2.1 What is Hydrology? (water cycle)",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "2.1 What is Hydrology? (water cycle)",
+        "page": "12-13",
+        "pdf_page": 18,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q49",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 49,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2012-g8-water-cycle",
+      "stem": "Precipitation is shown by drawing number ______::",
+      "image": "media/social-studies-2012-q48.png",
+      "image_alt": "Four drawings of the water cycle. 1: wavy arrows rise from a water surface. 2: wavy arrows rise from trees and plants. 3: a cloud with arrows (rain) falling down. 4: rivers flowing into the sea.",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "2",
+        "D": "1"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Precipitation is water falling from clouds as rain, snow or hail.",
+        "Drawing 3 shows a cloud with rain falling. Answer: B."
+      ],
+      "explain_simple": "Drawing 3 shows rain falling from a cloud.",
+      "tips": [
+        "Precipitation = rain coming down."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which of these is a form of precipitation?",
+          "options": {
+            "A": "Hail",
+            "B": "Vapour",
+            "C": "Steam",
+            "D": "Dew rising"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Hail falls from clouds. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-water-cycle"
+      ],
+      "keywords": [
+        "precipitation",
+        "rain",
+        "water cycle"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, 2.1 What is Hydrology? (water cycle), p. 12-13",
+        "topic": "2.1 What is Hydrology? (water cycle)",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "2.1 What is Hydrology? (water cycle)",
+        "page": "12-13",
+        "pdf_page": 18,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2012-g8-p1-q50",
+      "exam_id": "social-studies-2012-g8",
+      "part": 1,
+      "number": 50,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2012-g8-water-cycle",
+      "stem": "Transpiration is shown by drawing number ______::",
+      "image": "media/social-studies-2012-q48.png",
+      "image_alt": "Four drawings of the water cycle. 1: wavy arrows rise from a water surface. 2: wavy arrows rise from trees and plants. 3: a cloud with arrows (rain) falling down. 4: rivers flowing into the sea.",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "1"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Transpiration is water vapour going out of the leaves of plants into the air.",
+        "Drawing 2 shows vapour rising from trees. Answer: B."
+      ],
+      "explain_simple": "Drawing 2 shows water going up from trees.",
+      "tips": [
+        "Transpiration = from plants (trees)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Water going into the air from the leaves of plants is called:",
+          "options": {
+            "A": "condensation",
+            "B": "transpiration",
+            "C": "infiltration",
+            "D": "precipitation"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It is transpiration. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-water-cycle"
+      ],
+      "keywords": [
+        "transpiration",
+        "plants",
+        "water cycle"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, 2.1 What is Hydrology? (water cycle), p. 12-13",
+        "topic": "2.1 What is Hydrology? (water cycle)",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "2.1 What is Hydrology? (water cycle)",
+        "page": "12-13",
+        "pdf_page": 18,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    }
+  ],
+  "passages": [
+    {
+      "id": "social-studies-2012-g8-water-cycle",
+      "kind": "context",
+      "title": "Figure 3 – The water cycle (Questions 48 to 50)",
+      "instructions": "In Figure 3, drawings 1, 2, 3, and 4 show different parts of the water cycle. Answer questions 48 to 50 based on the information given.",
+      "paragraphs": [
+        "Figure 3 has four drawings. Drawing 1: wavy arrows go up from the surface of water. Drawing 2: wavy arrows go up from trees and plants. Drawing 3: a cloud with arrows (rain) coming down. Drawing 4: rivers flowing into a large body of water (the sea)."
+      ],
+      "question_numbers": [
+        48,
+        49,
+        50
+      ],
+      "part": 1
+    }
+  ]
+}

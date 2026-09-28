@@ -1,0 +1,3225 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "english-2017-g8",
+    "year": "2017",
+    "subject": "English",
+    "grade": 8,
+    "version": "A",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2017 – English",
+    "duration": "1 hour and 40 minutes (100 minutes)",
+    "duration_minutes": 100,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice (Questions 1–50)",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "This paper has 50 multiple-choice questions (1 to 50). Each question has 4 choices. Choose ONE best answer and blacken its letter on the separate answer sheet. Sections: A. Dialogue (1–4), B. Grammar and vocabulary (5–34), C. Table (35–40), D. Reading passage (41–50)."
+      }
+    ],
+    "source": {
+      "document": "2017_English__V-A.pdf",
+      "version_used": "A",
+      "other_version": "none – only Version A is in the collection",
+      "notes": "Transcribed from the PDF text layer of Version A (the only version available) and checked against the page images. The text layer uses odd quote glyphs (‟ „) for apostrophes; normal apostrophes are used here. Bold words in stems are plain text; no underlining.",
+      "printing_note": "Kept as printed: ‘envelops’ (passage line 11, = envelopes), ‘clourful’ (Q49C), ‘Mendfera’ (Q20B), ‘a white- coloured model’. Passage line numbers 5–20 shown as [line N]."
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "notation": "unicode",
+    "textbooks": [
+      "English for Eritrea Grade 6",
+      "English for Eritrea Grade 7",
+      "English for Eritrea Grade 8"
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "passages": [
+    {
+      "id": "english-2017-dialogue",
+      "kind": "context",
+      "title": "Dialogue between two students (Rahwa and Selam)",
+      "instructions": "Complete the dialogue between two students. Choose Selam’s correct answers from the choices given (A–D).",
+      "paragraphs": [
+        "Rahwa: Who is your best friend?",
+        "Selam: ______ (1)",
+        "Rahwa: Where does she live?",
+        "Selam: ______ (2)",
+        "Rahwa: When was she born?",
+        "Selam: ______ (3)",
+        "Rahwa: But isn’t she your best friend?",
+        "Selam: ______ (4)",
+        "Choices given: A. I don’t know.  B. Hawa.  C. Yes, but I didn’t ask her about it.  D. In Keren."
+      ],
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "part": 1
+    },
+    {
+      "id": "english-2017-table",
+      "kind": "context",
+      "title": "Table: marriage, children and jobs",
+      "instructions": "Answer questions 35–40 according to the information in the table.",
+      "paragraphs": [
+        "Name | Marriage | Number of children | Job",
+        "Semira | married | 1 son, 2 daughters | doctor",
+        "Saba | not married | No children | taxi driver",
+        "Noray | not married | No children | farmer",
+        "Kidane | married | 2 sons, 2 daughters | tailor"
+      ],
+      "question_numbers": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "part": 1,
+      "table": {
+        "title": "Four people",
+        "kind": "data",
+        "columns": [
+          "Name",
+          "Marriage",
+          "Number of children",
+          "Job"
+        ],
+        "rows": [
+          [
+            "Semira",
+            "married",
+            "1 son, 2 daughters",
+            "doctor"
+          ],
+          [
+            "Saba",
+            "not married",
+            "No children",
+            "taxi driver"
+          ],
+          [
+            "Noray",
+            "not married",
+            "No children",
+            "farmer"
+          ],
+          [
+            "Kidane",
+            "married",
+            "2 sons, 2 daughters",
+            "tailor"
+          ]
+        ],
+        "align": [
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      }
+    },
+    {
+      "id": "english-2017-story",
+      "kind": "reading",
+      "title": "New Year celebrations",
+      "instructions": "Read the story and answer the questions (41–50) according to the information in the story.",
+      "paragraphs": [
+        "Millions of people in the world celebrate New Year. It is also celebrated in our country on the 1st of January. This day is a national holiday. We express our best wishes to our families and friends who live inside and outside Eritrea. We also exchange postcards and other gifts with our best friends to share our happiness.",
+        "[line 5] Of all New Year celebrations, the Chinese New Year is the longest. The Chinese don’t use European calendar. They have their own traditional calendar. Therefore their New Year begins sometime between 21 January and 20 February. It is celebrated for two weeks.",
+        "Chinese New Year begins by families visiting each other. It is a time for visiting friends [line 10] and relatives. They pay back money if they have borrowed any. They buy new clothes and give gifts. Children are also given ‘lucky’ money in red envelops, and coins are shaken from a ‘money’ tree to bring good luck.",
+        "At New Year people eat only vegetarian meals which contain no meat. This is because they give animal names to each New Year, for example, the Year of the Rat, the Year of [line 15] the Tiger, and so on. The most delicious type of food Jiaoz is cooked on this day. It is a small ball of white flour which has money, gifts or good luck messages inside. Some of the food is left in the kitchen for the spirit of the dead people to eat alone so that they will have a Happy New Year too.",
+        "On New Year’s Day the people go into the street to celebrate. They wear beautiful [line 20] traditional clothes, and there are people marching with flags, flowers and fireworks. The most enjoyable thing is the dance played with a white- coloured model of a dragon or lion. This big animal moves through the streets to the music of drums and seems to come alive when the dancers twist and turn. Towards the end of the celebrations, the streets are lighted with colourful lights to welcome the longer warmer days after the dark and cold winter."
+      ],
+      "question_numbers": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "part": 1,
+      "note": "The paper gives no title. Line numbers (5–20) as printed. Bold in the questions: It (line 15), vegetarian (line 13)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "english-2017-g8-p1-q01",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 1,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-dialogue",
+      "stem": "Dialogue, gap (1). Rahwa: “Who is your best friend?” Selam: “______”",
+      "options": {
+        "A": "I don’t know.",
+        "B": "Hawa.",
+        "C": "Yes, but I didn’t ask her about it.",
+        "D": "In Keren."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“Who?” asks for a person: Hawa.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "Who? → a name: Hawa.",
+      "tips": [
+        "Who → person."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who is your teacher?  ______",
+          "options": {
+            "A": "Mr Tesfay.",
+            "B": "In Asmara.",
+            "C": "Yes, he is.",
+            "D": "At 8 o’clock."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "a person."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "who"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q02",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 2,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-dialogue",
+      "stem": "Dialogue, gap (2). Rahwa: “Where does she live?” Selam: “______”",
+      "options": {
+        "A": "I don’t know.",
+        "B": "Hawa.",
+        "C": "Yes, but I didn’t ask her about it.",
+        "D": "In Keren."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“Where?” asks for a place: In Keren.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "Where? → In Keren.",
+      "tips": [
+        "Where → place."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Where do you study?  ______",
+          "options": {
+            "A": "At home.",
+            "B": "Hawa.",
+            "C": "I don’t know her.",
+            "D": "Yes."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "place."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "where"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q03",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 3,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-dialogue",
+      "stem": "Dialogue, gap (3). Rahwa: “When was she born?” Selam: “______” Rahwa: “But isn’t she your best friend?”",
+      "options": {
+        "A": "I don’t know.",
+        "B": "Hawa.",
+        "C": "Yes, but I didn’t ask her about it.",
+        "D": "In Keren."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Rahwa is surprised next: “But isn’t she your best friend?”",
+        "So Selam does not know the birthday: “I don’t know.”",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "Selam doesn’t know. That is why Rahwa is surprised.",
+      "tips": [
+        "“But …?” shows surprise at the answer before."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How old is your brother?  ______  But he is your brother!",
+          "options": {
+            "A": "I’m not sure.",
+            "B": "Ten years old.",
+            "C": "In Keren.",
+            "D": "Hawa."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The surprise shows he didn’t know."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q04",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 4,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-dialogue",
+      "stem": "Dialogue, gap (4). Rahwa: “But isn’t she your best friend?” Selam: “______”",
+      "options": {
+        "A": "I don’t know.",
+        "B": "Hawa.",
+        "C": "Yes, but I didn’t ask her about it.",
+        "D": "In Keren."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A negative question (isn’t she …?) is answered “Yes” if it is true: she IS my best friend.",
+        "Then Selam explains why she doesn’t know: “but I didn’t ask her about it.”",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "Yes, she is my friend, but I didn’t ask her.",
+      "tips": [
+        "Answer negative questions by the facts: Yes = it is true."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Isn’t this your book?  ______",
+          "options": {
+            "A": "Yes, but I lent it to Ali.",
+            "B": "In Keren.",
+            "C": "Hawa.",
+            "D": "I don’t know him."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Yes + explanation."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "negative question"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q05",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 5,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My sister was born ______ Sunday.",
+      "options": {
+        "A": "for",
+        "B": "at",
+        "C": "on",
+        "D": "in"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Days of the week → on: on Sunday.",
+        "Textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181."
+      ],
+      "explain_simple": "Days take “on”: on Sunday.",
+      "tips": [
+        "on + day; in + month; at + time."
+      ],
+      "similar_questions": [
+        {
+          "stem": "We have a test ______ Monday.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at",
+            "D": "for"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "on."
+          ]
+        }
+      ],
+      "topics": [
+        "en-prepositions"
+      ],
+      "keywords": [
+        "on",
+        "day"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Prepositions (place, time, transport)",
+        "rule": "Travel: by car/bus/plane; time: at 5 o'clock, on Monday, in June; place: in, on, under, between, next to.",
+        "note": "textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q06",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 6,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My father ______ in the kitchen when my mother came from the market.",
+      "options": {
+        "A": "cook",
+        "B": "was cooking",
+        "C": "is cooking",
+        "D": "cooks"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Long past action interrupted by a short one (came) → past continuous: was cooking.",
+        "Textbook: English Grade 6, p. 175–176."
+      ],
+      "explain_simple": "He was cooking when she came.",
+      "tips": [
+        "was/were + -ing … when + past simple."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I ______ TV when the phone rang.",
+          "options": {
+            "A": "watch",
+            "B": "was watching",
+            "C": "am watching",
+            "D": "watches"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "was watching."
+          ]
+        }
+      ],
+      "topics": [
+        "en-past-continuous"
+      ],
+      "keywords": [
+        "past continuous"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Past continuous",
+        "rule": "Past continuous = was/were + verb-ing; it shows an action that was going on at a time in the past.",
+        "note": "textbook: English Grade 6, p. 175–176"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q07",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 7,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Our director was not in ______ office this morning. She was sick.",
+      "options": {
+        "A": "their",
+        "B": "his",
+        "C": "her",
+        "D": "B and C"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“She was sick” shows the director is a woman → her office.",
+        "Textbook: English Grade 6, p. 61; English Grade 7, p. 7–8."
+      ],
+      "explain_simple": "“She” → her office.",
+      "tips": [
+        "Use the clue in the next sentence (she/he)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Our teacher left ______ bag in class. He will come back.",
+          "options": {
+            "A": "her",
+            "B": "his",
+            "C": "their",
+            "D": "its"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "He → his."
+          ]
+        }
+      ],
+      "topics": [
+        "en-pronouns"
+      ],
+      "keywords": [
+        "possessive",
+        "her"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Subject, object and possessive pronouns",
+        "rule": "Use an object pronoun (me, him, her, us, them) after a verb or preposition; possessive pronouns (mine, yours, his, hers, ours, theirs) replace a noun.",
+        "note": "textbook: English Grade 6, p. 61; English Grade 7, p. 7–8"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q08",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 8,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The tourists ______ Gerset Dam tomorrow morning.",
+      "options": {
+        "A": "are visit",
+        "B": "visits",
+        "C": "will visit",
+        "D": "visited"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "tomorrow → will visit.",
+        "Textbook: English Grade 7, p. 20, 175."
+      ],
+      "explain_simple": "Tomorrow → will visit.",
+      "tips": [
+        "tomorrow → will."
+      ],
+      "similar_questions": [
+        {
+          "stem": "We ______ Adulis next Saturday.",
+          "options": {
+            "A": "visited",
+            "B": "will visit",
+            "C": "visits",
+            "D": "are visit"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "will visit."
+          ]
+        }
+      ],
+      "topics": [
+        "en-future"
+      ],
+      "keywords": [
+        "will"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Future (will / going to)",
+        "rule": "Future: will + base verb (I will go) or am/is/are going to + base verb.",
+        "note": "textbook: English Grade 7, p. 20, 175"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q09",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 9,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "You must always do your homework ______.",
+      "options": {
+        "A": "yourself",
+        "B": "ourselves",
+        "C": "himself",
+        "D": "themselves"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "you → yourself (reflexive).",
+        "Textbook: English Grade 8, p. 56, 112."
+      ],
+      "explain_simple": "You → yourself.",
+      "tips": [
+        "you → yourself/yourselves."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I cut ______ with a knife.",
+          "options": {
+            "A": "myself",
+            "B": "yourself",
+            "C": "himself",
+            "D": "ourselves"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "myself."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reflexive"
+      ],
+      "keywords": [
+        "yourself"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Reflexive pronouns",
+        "rule": "Reflexive pronouns show that the subject and the object are the same person: you (plural) → yourselves.",
+        "note": "textbook: English Grade 8, p. 56, 112"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q10",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 10,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ your sister go to the library?",
+      "options": {
+        "A": "Is",
+        "B": "Does",
+        "C": "Do",
+        "D": "Was"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "sister = she; base verb “go” → Does.",
+        "Textbook: English Grade 6, p. 57; English Grade 8, p. 7."
+      ],
+      "explain_simple": "Sister (she) + go → Does.",
+      "tips": [
+        "Does + he/she/it + base verb."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ your father read newspapers?",
+          "options": {
+            "A": "Do",
+            "B": "Does",
+            "C": "Is",
+            "D": "Are"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Does."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-simple",
+        "en-questions"
+      ],
+      "keywords": [
+        "does"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present simple",
+        "rule": "Present simple: he/she/it takes -s (he watches); questions and negatives use do/does + base verb (Does he help?).",
+        "note": "textbook: English Grade 6, p. 57; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q11",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 11,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "We ______ always wear our uniforms. It is the rule of the school.",
+      "options": {
+        "A": "can",
+        "B": "may",
+        "C": "must",
+        "D": "can’t"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A rule → must.",
+        "Textbook: English Grade 7, p. 167–168, 187; English Grade 8, Unit 3 (p. 46–71)."
+      ],
+      "explain_simple": "School rule → must.",
+      "tips": [
+        "must = rule/duty."
+      ],
+      "similar_questions": [
+        {
+          "stem": "You ______ be quiet in the library. It is the rule.",
+          "options": {
+            "A": "may",
+            "B": "must",
+            "C": "can",
+            "D": "might"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "must."
+          ]
+        }
+      ],
+      "topics": [
+        "en-modals"
+      ],
+      "keywords": [
+        "must"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Modals (must, should, have to, can, may, might)",
+        "rule": "Modal verbs (must, should, can, may, might, will) are followed by the base verb without 'to'; have to / ought to keep 'to'.",
+        "note": "textbook: English Grade 7, p. 167–168, 187; English Grade 8, Unit 3 (p. 46–71)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q12",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 12,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Most of the students passed the examination ______ they studied very hard.",
+      "options": {
+        "A": "however",
+        "B": "because",
+        "C": "although",
+        "D": "but"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Studying hard is the reason they passed → because.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "Reason → because.",
+      "tips": [
+        "because + reason."
+      ],
+      "similar_questions": [
+        {
+          "stem": "He was late ______ the bus broke down.",
+          "options": {
+            "A": "because",
+            "B": "but",
+            "C": "although",
+            "D": "however"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "reason."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "because"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q13",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 13,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "How ______ children are there in the classroom?",
+      "options": {
+        "A": "more",
+        "B": "many",
+        "C": "most",
+        "D": "much"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "children = countable plural → How many.",
+        "Textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7."
+      ],
+      "explain_simple": "Children can be counted → How many.",
+      "tips": [
+        "How many + plural noun."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How ______ desks are there?",
+          "options": {
+            "A": "much",
+            "B": "many",
+            "C": "more",
+            "D": "most"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "many."
+          ]
+        }
+      ],
+      "topics": [
+        "en-quantifiers",
+        "en-questions"
+      ],
+      "keywords": [
+        "how many"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Quantity words (some, any, much, many, too, enough)",
+        "rule": "some = an amount with plural or uncountable nouns; too = more than is good; very = a lot; enough = as much as needed.",
+        "note": "textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q14",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 14,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Question: ______  Answer: I had a bad headache, so I stayed at home.",
+      "options": {
+        "A": "Where did you go yesterday?",
+        "B": "Why were you absent yesterday?",
+        "C": "When did you go home yesterday?",
+        "D": "How did you go home yesterday?"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The answer gives a reason for staying at home → Why were you absent?",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "The answer is a reason → Why?",
+      "tips": [
+        "Why → reason."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Question: ______  Answer: Because I missed the bus.",
+          "options": {
+            "A": "Why were you late?",
+            "B": "Where were you?",
+            "C": "When did you come?",
+            "D": "Who came?"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "reason."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions"
+      ],
+      "keywords": [
+        "why"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q15",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 15,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My sister is intelligent ______ she is very beautiful.",
+      "options": {
+        "A": "but",
+        "B": "or",
+        "C": "and",
+        "D": "because"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Two good things → and.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "Two good things → and.",
+      "tips": [
+        "and = adding; but = contrast."
+      ],
+      "similar_questions": [
+        {
+          "stem": "He is tall ______ strong.",
+          "options": {
+            "A": "and",
+            "B": "but",
+            "C": "or",
+            "D": "because"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "and."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "and"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q16",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 16,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Did she ______ basketball last Sunday?",
+      "options": {
+        "A": "playing",
+        "B": "plays",
+        "C": "played",
+        "D": "play"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "did + base verb → play.",
+        "Textbook: English Grade 7, p. 72; English Grade 8, p. 7."
+      ],
+      "explain_simple": "Did + play.",
+      "tips": [
+        "did + base verb."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Did you ______ the film?",
+          "options": {
+            "A": "saw",
+            "B": "see",
+            "C": "seeing",
+            "D": "sees"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "see."
+          ]
+        }
+      ],
+      "topics": [
+        "en-past-simple",
+        "en-questions"
+      ],
+      "keywords": [
+        "did"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Past simple",
+        "rule": "Past simple: verb-ed or irregular past form; questions and negatives use did + base verb (Did he call?).",
+        "note": "textbook: English Grade 7, p. 72; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q17",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 17,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Asmara is ______ city in Eritrea.",
+      "options": {
+        "A": "the biggest",
+        "B": "bigger",
+        "C": "big",
+        "D": "as big as"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“in Eritrea” compares Asmara with all cities → the biggest.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "the biggest city in Eritrea.",
+      "tips": [
+        "the + -est + in …"
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Nile is ______ river in Africa.",
+          "options": {
+            "A": "the longest",
+            "B": "longer",
+            "C": "long",
+            "D": "as long as"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "the longest."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "superlative"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q18",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 18,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "She always ______ to the library to read books.",
+      "options": {
+        "A": "go",
+        "B": "goes",
+        "C": "is going",
+        "D": "gone"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "always → habit → present simple; she → goes.",
+        "Textbook: English Grade 6, p. 57; English Grade 8, p. 7."
+      ],
+      "explain_simple": "always + she → goes.",
+      "tips": [
+        "Adverbs like always/usually → present simple."
+      ],
+      "similar_questions": [
+        {
+          "stem": "He usually ______ tea in the morning.",
+          "options": {
+            "A": "drink",
+            "B": "drinks",
+            "C": "is drinking",
+            "D": "drunk"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "drinks."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-simple",
+        "en-adverbs"
+      ],
+      "keywords": [
+        "always",
+        "present simple"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present simple",
+        "rule": "Present simple: he/she/it takes -s (he watches); questions and negatives use do/does + base verb (Does he help?).",
+        "note": "textbook: English Grade 6, p. 57; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Adverbs (frequency, certainty, manner)",
+          "rule": "Adverbs of certainty: definitely = 100% sure; probably = nearly sure; maybe/perhaps = not sure.",
+          "note": "textbook: English Grade 7, p. 56, 60–61; English Grade 8, p. 52"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q19",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 19,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A man and a woman are standing outside. ______ man wants to talk to you.",
+      "options": {
+        "A": "The",
+        "B": "An",
+        "C": "A",
+        "D": "A and C"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The man was mentioned in the sentence before, so now we know which man → The.",
+        "Textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204."
+      ],
+      "explain_simple": "We already know the man → The man.",
+      "tips": [
+        "First time a/an, second time the."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I bought a pen and a book. ______ pen is blue.",
+          "options": {
+            "A": "A",
+            "B": "The",
+            "C": "An",
+            "D": "no article"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "the."
+          ]
+        }
+      ],
+      "topics": [
+        "en-articles"
+      ],
+      "keywords": [
+        "the"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Articles (a, an, the, zero)",
+        "rule": "Use 'the' for a thing that is the only one (the moon, the sun) or already known; a/an for one thing that is not specific.",
+        "note": "textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q20",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 20,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Mendefera is as big as Keren. This means the same as:",
+      "options": {
+        "A": "Mendefera is big than Keren.",
+        "B": "Keren is big than Mendfera.",
+        "C": "Mendefera and Keren are not big.",
+        "D": "Mendefera and Keren are the same in size."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“as big as” = the same size.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "as big as = the same size.",
+      "tips": [
+        "as + adjective + as = equal."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Ali is as tall as Omar. This means:",
+          "options": {
+            "A": "Ali is taller.",
+            "B": "Omar is taller.",
+            "C": "They are the same height.",
+            "D": "They are short."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "same."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison",
+        "en-same-meaning"
+      ],
+      "keywords": [
+        "as big as"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "usage",
+          "topic": "Sentences with the same meaning",
+          "rule": "Check who does what, the tense and the comparison; the new sentence must say exactly the same thing.",
+          "note": "textbook: English Grade 7, p. 16 (comparison); English Grade 8, p. 105 (be able to)"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q21",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 21,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "There is a book on the table. ______ book is it?",
+      "options": {
+        "A": "Who",
+        "B": "Those",
+        "C": "Where",
+        "D": "Whose"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "We want to know the owner of the book → Whose book?",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "Owner → Whose?",
+      "tips": [
+        "Whose + noun = who owns it?"
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ bag is this? – It’s Selam’s.",
+          "options": {
+            "A": "Who",
+            "B": "Whose",
+            "C": "Which",
+            "D": "Where"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "owner."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions",
+        "en-relative-clauses"
+      ],
+      "keywords": [
+        "whose"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Relative clauses (who, which, that, where, whose)",
+          "rule": "A relative clause starts with who (people), which (things), that, where (places), when (times) or whose (possession).",
+          "note": "textbook: English Grade 8, p. 115"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q22",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 22,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "His mother told him to clean the room. The passive form of this active sentence is:",
+      "options": {
+        "A": "His mother was told by him to clean the room.",
+        "B": "He was told by his mother to clean the room.",
+        "C": "He told by his mother to clean the room.",
+        "D": "His mother told by him to clean the room."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The object “him” becomes the subject “He”.",
+        "told (past) → was told; the doer goes after “by”: by his mother.",
+        "Textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12."
+      ],
+      "explain_simple": "him → He was told by his mother.",
+      "tips": [
+        "Passive: object → subject; was/were + past participle; by + doer."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The teacher asked me to read. Passive:",
+          "options": {
+            "A": "I was asked by the teacher to read.",
+            "B": "The teacher was asked by me.",
+            "C": "I asked by the teacher.",
+            "D": "The teacher asked by me."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "I was asked."
+          ]
+        }
+      ],
+      "topics": [
+        "en-passive"
+      ],
+      "keywords": [
+        "passive"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Passive voice",
+        "rule": "Passive = am/is/are/was/were + past participle (Cars are sold). Use it when the doer is not important.",
+        "note": "textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q23",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 23,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My father said, “I am very tired.” The correct indirect speech is:",
+      "options": {
+        "A": "My father said that he was very tired.",
+        "B": "My father said that I am very tired.",
+        "C": "My father said that he is very tired.",
+        "D": "My father said that I was very tired."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "I → he; am → was.",
+        "Textbook: English Grade 8, p. 151, 174–175."
+      ],
+      "explain_simple": "I am → he was.",
+      "tips": [
+        "Reported speech: change the person and the tense."
+      ],
+      "similar_questions": [
+        {
+          "stem": "My mother said, “I am busy.”",
+          "options": {
+            "A": "My mother said that she was busy.",
+            "B": "My mother said that I am busy.",
+            "C": "My mother said she is busy.",
+            "D": "My mother said I was busy."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "she was."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reported-speech"
+      ],
+      "keywords": [
+        "indirect speech"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Reported (indirect) speech",
+        "rule": "In reported speech after 'said', change the pronoun (I → he/she) and move the tense back (am → was, will → would).",
+        "note": "textbook: English Grade 8, p. 151, 174–175"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q24",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 24,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I enjoy ______ fiction.",
+      "options": {
+        "A": "to read",
+        "B": "read",
+        "C": "reading",
+        "D": "to reading"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "enjoy + verb-ing (never enjoy to …) → reading.",
+        "Textbook: English Grade 8, p. 13–14."
+      ],
+      "explain_simple": "enjoy + reading.",
+      "tips": [
+        "enjoy, finish, avoid + -ing."
+      ],
+      "similar_questions": [
+        {
+          "stem": "She enjoys ______.",
+          "options": {
+            "A": "to dance",
+            "B": "dancing",
+            "C": "dance",
+            "D": "to dancing"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "dancing."
+          ]
+        }
+      ],
+      "topics": [
+        "en-gerund-infinitive"
+      ],
+      "keywords": [
+        "enjoy + -ing"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Gerunds and infinitives",
+        "rule": "After like/love/enjoy/finish we can use verb-ing; after want/decide/hope we use to + verb. Never 'to + verb-ing'.",
+        "note": "textbook: English Grade 8, p. 13–14"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q25",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 25,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is correctly capitalised and punctuated?",
+      "options": {
+        "A": "Yesterday Abraham bought, pencils, pens, rulers and sharpeners.",
+        "B": "Yesterday Abraham bought pencils, pens, rulers and sharpeners.",
+        "C": "Yesterday abraham bought pencils, pens, rulers and sharpeners.",
+        "D": "yesterday Abraham bought pencils, pens, rulers and sharpeners"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Commas separate items in a list, but there is no comma after the verb (A is wrong).",
+        "Names and the first word take capitals (C, D wrong); D also has no full stop.",
+        "Textbook: English Grade 7, p. 58, 172; English Grade 8, Unit 2 and Unit 8 punctuation."
+      ],
+      "explain_simple": "B has capitals, commas in the list, and a full stop.",
+      "tips": [
+        "No comma between a verb and its object."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is correct?",
+          "options": {
+            "A": "Saba likes, tea and bread.",
+            "B": "Saba likes tea and bread.",
+            "C": "saba likes tea and bread.",
+            "D": "Saba likes tea and bread"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "correct."
+          ]
+        }
+      ],
+      "topics": [
+        "en-punctuation"
+      ],
+      "keywords": [
+        "comma",
+        "capital letters"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "punctuation",
+        "topic": "Punctuation and capital letters",
+        "rule": "Names of people, places, days and months start with a capital letter; an apostrophe shows possession (Ali's) or a missing letter (don't).",
+        "note": "textbook: English Grade 7, p. 58, 172; English Grade 8, Unit 2 and Unit 8 punctuation"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q26",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 26,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "We always read English books, like stories, ______ improve our English language.",
+      "options": {
+        "A": "in order to",
+        "B": "because",
+        "C": "however",
+        "D": "although"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Purpose + base verb (improve) → in order to.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "Purpose + verb → in order to.",
+      "tips": [
+        "in order to + verb = so that we can."
+      ],
+      "similar_questions": [
+        {
+          "stem": "She went to the shop ______ buy bread.",
+          "options": {
+            "A": "because",
+            "B": "in order to",
+            "C": "although",
+            "D": "however"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "purpose + verb."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "in order to",
+        "purpose"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q27",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 27,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I believe that women ______ do what men can.",
+      "options": {
+        "A": "are able to",
+        "B": "can able to",
+        "C": "can",
+        "D": "A and C"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“are able to do” and “can do” are both correct. “can able to” is wrong.",
+        "Textbook: English Grade 8, p. 105."
+      ],
+      "explain_simple": "are able to = can. Both are right.",
+      "tips": [
+        "be able to = can."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Children ______ learn fast.",
+          "options": {
+            "A": "can",
+            "B": "are able to",
+            "C": "can able",
+            "D": "A and B"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "both."
+          ]
+        }
+      ],
+      "topics": [
+        "en-ability"
+      ],
+      "keywords": [
+        "be able to",
+        "can"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Ability: can / be able to",
+        "rule": "'be able to' means the same as 'can' (ability).",
+        "note": "textbook: English Grade 8, p. 105"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q28",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 28,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If it rains this afternoon, I ______ my clothes.",
+      "options": {
+        "A": "will wash",
+        "B": "wash",
+        "C": "washed",
+        "D": "had washed"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "First conditional: If + present (rains), will + base verb → will wash.",
+        "Textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129."
+      ],
+      "explain_simple": "If + present → will wash.",
+      "tips": [
+        "If + present → will."
+      ],
+      "similar_questions": [
+        {
+          "stem": "If it is sunny tomorrow, we ______ to the beach.",
+          "options": {
+            "A": "will go",
+            "B": "went",
+            "C": "go",
+            "D": "had gone"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "will go."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conditionals"
+      ],
+      "keywords": [
+        "first conditional"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conditional sentences",
+        "rule": "First conditional: If + present simple, will + base verb. Zero conditional (always true): If + present, present. Second: If + past, would + base verb.",
+        "note": "textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "The meaning is odd (you would not usually wash clothes because it rains; ‘won’t wash’ would be natural), but A is the only grammatical choice."
+    },
+    {
+      "id": "english-2017-g8-p1-q29",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 29,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "As nose is to smell, ear is to ______.",
+      "options": {
+        "A": "see",
+        "B": "taste",
+        "C": "feel",
+        "D": "hear"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "We smell with the nose; we hear with the ear.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "Nose – smell; ear – hear.",
+      "tips": [
+        "Find the link: body part – what it does."
+      ],
+      "similar_questions": [
+        {
+          "stem": "As eye is to see, tongue is to ______.",
+          "options": {
+            "A": "hear",
+            "B": "taste",
+            "C": "smell",
+            "D": "walk"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "taste."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "analogy"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q30",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 30,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following has correct spelling?",
+      "options": {
+        "A": "vocablery",
+        "B": "histry",
+        "C": "gramer",
+        "D": "listen"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Correct: vocabulary, history, grammar, listen. Only “listen” is right.",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "Only “listen” is right.",
+      "tips": [
+        "listen has a silent t."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which has correct spelling?",
+          "options": {
+            "A": "gramar",
+            "B": "grammar",
+            "C": "grammer",
+            "D": "gramer"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "grammar."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "spelling"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q31",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 31,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following has wrong spelling?",
+      "options": {
+        "A": "countries",
+        "B": "boxes",
+        "C": "lifes",
+        "D": "carrots"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The plural of life is lives (f → ves).",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "life → lives.",
+      "tips": [
+        "-f/-fe → -ves: life–lives, knife–knives."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which has wrong spelling?",
+          "options": {
+            "A": "wives",
+            "B": "knifes",
+            "C": "leaves",
+            "D": "halves"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "knives."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "plural"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q32",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 32,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I asked my mother to buy me a mobile phone, but she said, “No.” She ______ my request.",
+      "options": {
+        "A": "agreed",
+        "B": "rejected",
+        "C": "accepted",
+        "D": "ceased"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "She said “No” → she did not accept → rejected.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "She said no → rejected.",
+      "tips": [
+        "reject = say no to."
+      ],
+      "similar_questions": [
+        {
+          "stem": "He said no to the offer. He ______ it.",
+          "options": {
+            "A": "accepted",
+            "B": "rejected",
+            "C": "liked",
+            "D": "bought"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "rejected."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "reject"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q33",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 33,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I don’t remember your name. Please tell me. What is the opposite of remember?",
+      "options": {
+        "A": "forget",
+        "B": "understand",
+        "C": "know",
+        "D": "spell"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "remember ↔ forget.",
+        "Textbook: English Grade 7, p. 222; English Grade 8, p. 160."
+      ],
+      "explain_simple": "The opposite of remember is forget.",
+      "tips": [
+        "Learn opposites in pairs."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is the opposite of arrive?",
+          "options": {
+            "A": "come",
+            "B": "leave",
+            "C": "reach",
+            "D": "stay"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "leave."
+          ]
+        }
+      ],
+      "topics": [
+        "en-opposites-synonyms"
+      ],
+      "keywords": [
+        "opposite"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Opposites and words with the same meaning",
+        "rule": "A synonym has the same meaning (hit = strike); an opposite has the reverse meaning (happy – sad).",
+        "note": "textbook: English Grade 7, p. 222; English Grade 8, p. 160"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q34",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 34,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In which order would the following words be written in a dictionary?",
+      "options": {
+        "A": "bring, brown, bracket, brain, break",
+        "B": "bracket, brain, bring, brown, break",
+        "C": "bracket, brain, break, bring, brown",
+        "D": "bracket, bring, break, brain, brown"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "All start with “br”. Third letters: bracket (a), brain (a), break (e), bring (i), brown (o).",
+        "bracket vs brain: fourth letters c and i → bracket first.",
+        "Order: bracket, brain, break, bring, brown.",
+        "Textbook: English Grade 6, p. 32, 41; English Grade 8, p. 101."
+      ],
+      "explain_simple": "a, a, e, i, o → bracket, brain, break, bring, brown.",
+      "tips": [
+        "Letter by letter."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Dictionary order:",
+          "options": {
+            "A": "stop, star, step",
+            "B": "star, step, stop",
+            "C": "step, star, stop",
+            "D": "stop, step, star"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "a, e, o."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dictionary-order"
+      ],
+      "keywords": [
+        "dictionary"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Alphabetical (dictionary) order",
+        "rule": "Dictionary order: compare the first letters; if they are the same, compare the second letters, and so on.",
+        "note": "textbook: English Grade 6, p. 32, 41; English Grade 8, p. 101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q35",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 35,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-table",
+      "stem": "If someone is sick, ______ can help him.",
+      "options": {
+        "A": "Saba",
+        "B": "Semira",
+        "C": "Noray",
+        "D": "Kidane"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "A doctor helps sick people. Semira is a doctor.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Semira is a doctor.",
+      "tips": [
+        "Link the need to the job."
+      ],
+      "similar_questions": [
+        {
+          "stem": "If you want new clothes, ______ can make them.",
+          "options": {
+            "A": "Saba",
+            "B": "Semira",
+            "C": "Noray",
+            "D": "Kidane"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "tailor."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "job"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q36",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 36,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-table",
+      "stem": "______ needs a husband and ______ needs a wife in the future.",
+      "options": {
+        "A": "Semira/Saba",
+        "B": "Saba/Kidane",
+        "C": "Saba/Noray",
+        "D": "Kidane/Saba"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "People who need a husband or wife are not married: Saba and Noray.",
+        "Semira and Kidane are married. Only C names two unmarried people (Saba is a woman’s name, Noray a man’s).",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Saba and Noray are not married.",
+      "tips": [
+        "Use the “Marriage” column."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who are married?",
+          "options": {
+            "A": "Saba and Noray",
+            "B": "Semira and Kidane",
+            "C": "Saba and Kidane",
+            "D": "Noray and Semira"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "married."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "not married"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "reading",
+          "topic": "Inference and true/false",
+          "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+          "note": "textbook: English Grade 8, reading lessons"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": "The answer depends on reading Saba as a woman and Noray as a man (not stated in the table); C is the only option with two unmarried people, so the key is clear."
+    },
+    {
+      "id": "english-2017-g8-p1-q37",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 37,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-table",
+      "stem": "Who is more likely living in a village?",
+      "options": {
+        "A": "Kidane",
+        "B": "Saba",
+        "C": "Semira",
+        "D": "Noray"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Farmers usually live in villages. Noray is a farmer.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Noray is a farmer.",
+      "tips": [
+        "farmer → village."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who most likely drives in town every day?",
+          "options": {
+            "A": "Kidane",
+            "B": "Saba",
+            "C": "Semira",
+            "D": "Noray"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "taxi driver."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "village"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "reading",
+          "topic": "Inference and true/false",
+          "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+          "note": "textbook: English Grade 8, reading lessons"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q38",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 38,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-table",
+      "stem": "Which of the following is false?",
+      "options": {
+        "A": "There are two people who are married.",
+        "B": "Kidane has more children than Semira.",
+        "C": "Kidane’s job is to take people from place to place.",
+        "D": "All the four people have different jobs."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Kidane is a tailor. The taxi driver (who takes people from place to place) is Saba. So C is false.",
+        "A (Semira, Kidane), B (4 > 3) and D are true.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Kidane is a tailor, not a taxi driver. C is false.",
+      "tips": [
+        "Test each sentence."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is false?",
+          "options": {
+            "A": "Semira has three children.",
+            "B": "Noray has no children.",
+            "C": "Saba is married.",
+            "D": "Kidane is a tailor."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "not married."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "false"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q39",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 39,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-table",
+      "stem": "______ works in a hospital.",
+      "options": {
+        "A": "Semira",
+        "B": "Noray",
+        "C": "Kidane",
+        "D": "Saba"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Doctors work in hospitals: Semira.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Semira is a doctor.",
+      "tips": [
+        "doctor → hospital."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ works on a farm.",
+          "options": {
+            "A": "Semira",
+            "B": "Noray",
+            "C": "Kidane",
+            "D": "Saba"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "farmer."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "hospital"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q40",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 40,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-table",
+      "stem": "______ grows plants.",
+      "options": {
+        "A": "Semira",
+        "B": "Noray",
+        "C": "Kidane",
+        "D": "Saba"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "A farmer grows plants: Noray.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Noray is a farmer.",
+      "tips": [
+        "farmer → grows plants."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ sews clothes.",
+          "options": {
+            "A": "Semira",
+            "B": "Noray",
+            "C": "Kidane",
+            "D": "Saba"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "tailor."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "farmer"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q41",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 41,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "What do we do during New Year holiday in our country?",
+      "options": {
+        "A": "We go out of work to celebrate and cook traditional food for dinner.",
+        "B": "We go out in the street to celebrate it just like the Chinese.",
+        "C": "We send post cards and gifts to express our best wishes.",
+        "D": "B and C"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Paragraph 1: “We express our best wishes … We also exchange postcards and other gifts.”",
+        "Going into the street (B) is what the Chinese do; the text does not say we do it.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "We send postcards and gifts with our best wishes.",
+      "tips": [
+        "Separate what the text says about Eritrea from what it says about China."
+      ],
+      "similar_questions": [
+        {
+          "stem": "When is New Year celebrated in Eritrea?",
+          "options": {
+            "A": "1 January",
+            "B": "21 January",
+            "C": "20 February",
+            "D": "24 May"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“on the 1st of January”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "detail"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q42",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 42,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "When do the Chinese people celebrate New Year?",
+      "options": {
+        "A": "They celebrate on 21st of January.",
+        "B": "They celebrate on the 1st of January.",
+        "C": "They celebrate on the European calendar.",
+        "D": "They celebrate sometime between 21 of January and 20 of February."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“their New Year begins sometime between 21 January and 20 February.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Between 21 January and 20 February.",
+      "tips": [
+        "Copy the exact dates from the text."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How long is Chinese New Year celebrated?",
+          "options": {
+            "A": "one day",
+            "B": "two weeks",
+            "C": "one month",
+            "D": "one year"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "two weeks."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "dates"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q43",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 43,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "Chinese children are given ______",
+      "options": {
+        "A": "money in envelops and coins from a ‘money’ tree.",
+        "B": "delicious food which has money or gift inside.",
+        "C": "new fashionable cars and clothes by friends and relatives.",
+        "D": "flags of their country and different colours of flowers."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“Children are also given ‘lucky’ money in red envelops, and coins are shaken from a ‘money’ tree.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Children get money in red envelopes and coins.",
+      "tips": [
+        "Find the word “children” in the text."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is Jiaoz?",
+          "options": {
+            "A": "a small ball of white flour",
+            "B": "a dragon",
+            "C": "a red envelope",
+            "D": "a tree"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“a small ball of white flour”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "children"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q44",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 44,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "Which of the following sentences is true?",
+      "options": {
+        "A": "The Chinese use European calendar to celebrate New Year.",
+        "B": "The Chinese celebrate New Year on 21 January and 20 February.",
+        "C": "People pay back money on New Year.",
+        "D": "All are correct."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“They pay back money if they have borrowed any.” → C true.",
+        "A false (own calendar). B false (sometime BETWEEN those dates, not on both).",
+        "Textbook: English Grade 8, reading lessons."
+      ],
+      "explain_simple": "They pay back money at New Year.",
+      "tips": [
+        "Small words matter: “between” is not “on”."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is true?",
+          "options": {
+            "A": "The Chinese eat meat at New Year.",
+            "B": "The Chinese eat only vegetarian meals at New Year.",
+            "C": "There are no drums.",
+            "D": "Children get cars."
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "vegetarian meals."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "true"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Inference and true/false",
+        "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+        "note": "textbook: English Grade 8, reading lessons"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q45",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 45,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "What does “It” (line 15) refer to?",
+      "options": {
+        "A": "rat and tiger",
+        "B": "Jiaoz",
+        "C": "the Chinese people",
+        "D": "the dead people"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“The most delicious type of food Jiaoz is cooked on this day. It is a small ball of white flour …”",
+        "It = Jiaoz.",
+        "Textbook: English Grade 7, p. 7–8 (pronouns)."
+      ],
+      "explain_simple": "“It” is Jiaoz (the food).",
+      "tips": [
+        "Look at the noun just before."
+      ],
+      "similar_questions": [
+        {
+          "stem": "“We bought a cake. It was sweet.” ‘It’ =",
+          "options": {
+            "A": "we",
+            "B": "the cake",
+            "C": "the shop",
+            "D": "sugar"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "the cake."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-reference"
+      ],
+      "keywords": [
+        "reference"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Reference words (he, she, it, them, this)",
+        "rule": "A pronoun (he, it, them, this) stands for a noun that came before it; read the sentences before it.",
+        "note": "textbook: English Grade 7, p. 7–8 (pronouns)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q46",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 46,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "What does “vegetarian” (line 13) mean?",
+      "options": {
+        "A": "A person who eats only vegetables",
+        "B": "A person who eats only meat",
+        "C": "A person who eats both vegetable and meat",
+        "D": "A person who only eats rats and tigers"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The text explains: “vegetarian meals which contain no meat”.",
+        "A vegetarian eats no meat, only vegetables (plant food).",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "Vegetarian = no meat, only vegetables.",
+      "tips": [
+        "Look for an explanation right after the word (“which contain no meat”)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "‘Carnivore’ animals eat meat. ‘Herbivore’ animals eat:",
+          "options": {
+            "A": "only plants",
+            "B": "only meat",
+            "C": "rocks",
+            "D": "insects only"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "plants."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-vocab"
+      ],
+      "keywords": [
+        "vegetarian"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Word meaning in a text",
+        "rule": "Put each option in place of the word; the one that keeps the meaning of the sentence is correct.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q47",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 47,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "Which of the following sentences is false?",
+      "options": {
+        "A": "The people of China wear traditional clothes on New Year.",
+        "B": "The people dance in the streets with a white-coloured model of a dragon or lion.",
+        "C": "Big animals like lions come from the zoo to dance with the people.",
+        "D": "Lights are lighted in the streets to welcome the longer warm days."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The dragon or lion is a MODEL moved by dancers, not a real animal from a zoo. C is false.",
+        "Textbook: English Grade 8, reading lessons."
+      ],
+      "explain_simple": "The lion is a model, not a real animal. C is false.",
+      "tips": [
+        "“model” = not real."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Why are the streets lighted at the end?",
+          "options": {
+            "A": "to welcome longer warmer days",
+            "B": "to find money",
+            "C": "to scare lions",
+            "D": "to read books"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "welcome warmer days."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "false"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Inference and true/false",
+        "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+        "note": "textbook: English Grade 8, reading lessons"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q48",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 48,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "Where do the people go to dance with the model of a dragon or a lion?",
+      "options": {
+        "A": "to the football field",
+        "B": "to the streets",
+        "C": "to the zoo",
+        "D": "to their homes"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“the people go into the street to celebrate … This big animal moves through the streets.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "They dance in the streets.",
+      "tips": [
+        "Find “dance” in the text."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What music do the dancers dance to?",
+          "options": {
+            "A": "drums",
+            "B": "guitars",
+            "C": "radio",
+            "D": "piano"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“to the music of drums”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "streets"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2017-g8-p1-q49",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 49,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "The people of China become so happy in the streets to see ______",
+      "options": {
+        "A": "the people dance with traditional clothes and march with flags and flowers.",
+        "B": "the model of the big animal moves through the streets.",
+        "C": "the streets lighted with different clourful lights.",
+        "D": "All are answers."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“The most enjoyable thing is the dance played with a white-coloured model of a dragon or lion. This big animal moves through the streets …”",
+        "So the thing that makes people happiest is the model animal moving through the streets.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "The most enjoyable thing is the dragon or lion dance.",
+      "tips": [
+        "“most enjoyable” = what makes people happiest."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is the most enjoyable thing on Chinese New Year’s Day?",
+          "options": {
+            "A": "the dragon or lion dance",
+            "B": "paying back money",
+            "C": "eating meat",
+            "D": "sleeping"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“The most enjoyable thing is the dance …”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "enjoyable"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "The stem is vague (‘become so happy in the streets to see’). B matches ‘the most enjoyable thing’, but D ‘All are answers’ can be argued since all three are parts of the street celebration. Keyed B. Teacher check."
+    },
+    {
+      "id": "english-2017-g8-p1-q50",
+      "exam_id": "english-2017-g8",
+      "part": 1,
+      "number": 50,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2017-story",
+      "stem": "A good title for the passage could be:",
+      "options": {
+        "A": "Chinese New Year",
+        "B": "European calendar",
+        "C": "New Year celebrations",
+        "D": "Animals’ festival"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "C"
+      ],
+      "explanation_steps": [
+        "Paragraphs 2–5 (most of the text) are about the Chinese New Year; paragraph 1 is about New Year in Eritrea.",
+        "A “Chinese New Year” covers most of the text. C “New Year celebrations” also covers paragraph 1, so it can be defended too.",
+        "Textbook: English Grade 8, Unit 10 (p. 199–220)."
+      ],
+      "explain_simple": "Most of the text is about the Chinese New Year.",
+      "tips": [
+        "Check which title fits most paragraphs."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A text has one paragraph about football in Eritrea and four about football in Brazil. Best title:",
+          "options": {
+            "A": "Football in Brazil",
+            "B": "Balls",
+            "C": "Eritrea",
+            "D": "Shoes"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "most of the text."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-main-idea"
+      ],
+      "keywords": [
+        "title"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Main idea and best title",
+        "rule": "The best title covers the whole text, not only one part.",
+        "note": "textbook: English Grade 8, Unit 10 (p. 199–220)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "Two defensible titles: A ‘Chinese New Year’ (4 of 5 paragraphs) and C ‘New Year celebrations’ (covers the Eritrean first paragraph too). Keyed A, C accepted. Teacher decision."
+    }
+  ]
+}

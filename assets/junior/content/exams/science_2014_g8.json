@@ -1,0 +1,3445 @@
+{
+ "schema_version": "1.0",
+ "exam": {
+  "id": "science-2014-g8",
+  "year": "2014",
+  "subject": "Science",
+  "grade": 8,
+  "school": "Eritrean Grade 8 National Examination",
+  "type": "national",
+  "semester": null,
+  "title": "Grade 8 National Examination 2014 – Science",
+  "version": "A",
+  "duration": "1 hour and 10 minutes (70 minutes)",
+  "duration_minutes": 70,
+  "total_points": 50,
+  "parts": [
+   {
+    "part": 1,
+    "title": "Multiple choice (Questions 1–50)",
+    "question_type": "mcq",
+    "question_count": 50,
+    "points": 50,
+    "instructions": "This paper has 50 multiple choice questions (1 to 50). Each question has 4 choices. Choose ONE best answer and blacken its letter on the separate answer sheet."
+   }
+  ],
+  "source": {
+   "document": "raw/2014-Science-V-A.pdf (7 pages: cover + questions on pp. 2-7, 'THE END' after Q50)",
+   "version_used": "A",
+   "other_version": "raw/2014-Science-V-B.pdf – same 50 questions, reordered and with shuffled options; used only to check the text.",
+   "notes": "Cover: 'End-of-Basic Education (Grade 8) National Examination, Eritrea, 2014 – 4. Science – Version A'. Text from the PDF text layer, checked against the page images. Figures cropped at 250 dpi: Fig.1 water changes of state (Q5), Fig.2 tongue taste regions (Q10), Fig.3 respiratory system (Q14), Fig.4 blood-flow diagram (Q16), Fig.5 thermometer in water (Q26-27), Fig.6 female reproductive organs (Q34). The cell table in Q9 is typed as a stem table.",
+   "printing_note": "Clean digital print. Small slips in the paper: Q31 option B says 'cow is a producer' although the chain has a sheep (no effect on the answer); Q24 'slopping' for 'sloping'; Q27 '(0F)' = °F.",
+   "official_answer_key": false
+  },
+  "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+  "textbooks": [
+   {
+    "subject": "Science",
+    "grade": 6,
+    "publisher": "Eritrea Ministry of Education",
+    "file": "textbooks/science_6.pdf",
+    "page_offset": "printed page = PDF page - 8"
+   },
+   {
+    "subject": "Science",
+    "grade": 7,
+    "publisher": "Eritrea Ministry of Education",
+    "file": "textbooks/science_7.pdf",
+    "page_offset": "printed page = PDF page - 8"
+   },
+   {
+    "subject": "Science",
+    "grade": 8,
+    "publisher": "Eritrea Ministry of Education",
+    "file": "textbooks/science_8.pdf",
+    "page_offset": "printed page = PDF page - 8"
+   }
+  ],
+  "content_version": "1.0.0",
+  "language": "en"
+ },
+ "questions": [
+  {
+   "id": "science-2014-g8-p1-q01",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 1,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Which of the following is SI unit of mass?",
+   "options": {
+    "A": "kilogram",
+    "B": "second",
+    "C": "hour",
+    "D": "meter"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "SI units: mass – kilogram (kg); time – second (s); length – metre (m).",
+    "An hour is a unit of time. Answer: A.",
+    "(textbook: Science Grade 6, p. 9)"
+   ],
+   "explain_simple": "Mass is measured in kilograms.",
+   "tips": [
+    "SI units: kg (mass), m (length), s (time)."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which instrument measures mass?",
+     "options": {
+      "A": "thermometer",
+      "B": "beam balance",
+      "C": "metre ruler",
+      "D": "stop watch"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "A beam balance measures mass in kilograms or grams."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-measurements-and-units"
+   ],
+   "keywords": [
+    "SI units",
+    "mass",
+    "kilogram"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 9 (Eritrean MoE)",
+    "topic": "1.3 Measurements and units",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 1 – Introduction to Science",
+    "section": "1.3 Measurements and units",
+    "page": "9",
+    "pdf_page": 17,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q02",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 2,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Matter is defined as anything that occupies space and has",
+   "options": {
+    "A": "taste",
+    "B": "color",
+    "C": "odor",
+    "D": "mass"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "The textbook says: 'Matter is anything that occupies space and has mass.'",
+    "Many kinds of matter (like air or water) have no colour, taste or smell, but all matter has mass. Answer: D."
+   ],
+   "explain_simple": "Matter takes up space and has mass.",
+   "tips": [
+    "Matter = mass + takes up space."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which of these is NOT matter?",
+     "options": {
+      "A": "air",
+      "B": "water",
+      "C": "light",
+      "D": "stone"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Light has no mass and does not take up space. It is energy, not matter."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-matter"
+   ],
+   "keywords": [
+    "matter",
+    "mass",
+    "definition"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 48 (Eritrean MoE)",
+    "topic": "4.1 Matter",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 4 – Matter and Energy",
+    "section": "4.1 Matter",
+    "page": "48",
+    "pdf_page": 56,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q03",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 3,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The type of teeth with sharp edges used for biting or cutting solid foods is:",
+   "options": {
+    "A": "incisors",
+    "B": "canines",
+    "C": "premolars",
+    "D": "molars"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "Incisors are the flat front teeth with sharp edges. They bite and cut food.",
+    "Canines tear food; premolars and molars crush and grind food. Answer: A.",
+    "(textbook: Science Grade 8, p. 6)"
+   ],
+   "explain_simple": "The front teeth (incisors) cut and bite food.",
+   "tips": [
+    "Incisors cut, canines tear, premolars and molars grind."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which teeth are used for grinding food?",
+     "options": {
+      "A": "incisors",
+      "B": "canines",
+      "C": "molars",
+      "D": "milk teeth"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Molars are the big back teeth. They grind food."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-digestive-system"
+   ],
+   "keywords": [
+    "teeth",
+    "incisors",
+    "digestive system"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 6 (Eritrean MoE)",
+    "topic": "1.1 The digestive system",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 1 – Human Systems",
+    "section": "1.1 The digestive system",
+    "page": "6",
+    "pdf_page": 14,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q04",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 4,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Burning and rusting are examples of",
+   "options": {
+    "A": "physical change",
+    "B": "seasonal change",
+    "C": "chemical change",
+    "D": "weather change"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "In a chemical change a new substance is formed and the change is hard to reverse.",
+    "Burning makes ash and gases; rusting makes rust from iron, water and oxygen. Both make new substances.",
+    "So they are chemical changes. Answer: C.",
+    "(textbook: Science Grade 6, p. 43)"
+   ],
+   "explain_simple": "Burning and rusting make new substances. They are chemical changes.",
+   "tips": [
+    "New substance → chemical change. Same substance (just shape or state changes) → physical change."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which is a physical change?",
+     "options": {
+      "A": "burning paper",
+      "B": "cooking an egg",
+      "C": "melting ice",
+      "D": "rusting of a nail"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Melting ice is still water. No new substance forms, so it is a physical change."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-changes-in-matter"
+   ],
+   "keywords": [
+    "chemical change",
+    "physical change",
+    "rusting",
+    "burning"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 43 (Eritrean MoE)",
+    "topic": "3.2 Changes in matter",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 3 – Properties and Changes of Matter",
+    "section": "3.2 Changes in matter",
+    "page": "43",
+    "pdf_page": 51,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q05",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 5,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Figure 1 shows the processes that occur when water changes from one state of matter to other. The processes are labeled 1, 2, 3 and 4. Which process is represented by 2?",
+   "image": "media/science-2014-q05.png",
+   "image_alt": "Figure 1: a circle of arrows. Arrow 1 goes from liquid water (left) up to steam (top); arrow 2 from steam down to liquid water (right); arrow 4 from that liquid water down to an ice cube (bottom); arrow 3 from the ice cube up to the liquid water on the left.",
+   "options": {
+    "A": "melting",
+    "B": "condensing",
+    "C": "freezing",
+    "D": "boiling"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "Arrow 1: liquid water → steam (boiling). Arrow 2: steam → liquid water. Arrow 4: liquid water → ice (freezing). Arrow 3: ice → liquid water (melting).",
+    "Gas (steam) changing to liquid is condensation (condensing). Answer: B.",
+    "(textbook: Science Grade 6, p. 49)"
+   ],
+   "explain_simple": "Arrow 2 goes from steam to liquid water. That is condensing.",
+   "tips": [
+    "Gas → liquid = condensation; liquid → gas = boiling/evaporation."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In the same figure, which process is arrow 3 (ice → liquid water)?",
+     "options": {
+      "A": "melting",
+      "B": "condensing",
+      "C": "freezing",
+      "D": "boiling"
+     },
+     "answer": "A",
+     "explanation_steps": [
+      "Solid ice changing to liquid water is melting."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-matter"
+   ],
+   "keywords": [
+    "states of matter",
+    "condensation",
+    "changes of state"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 49 (Eritrean MoE)",
+    "topic": "4.1 Matter",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 4 – Matter and Energy",
+    "section": "4.1 Matter",
+    "page": "49",
+    "pdf_page": 57,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q06",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 6,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Which of the following properties is true about air?",
+   "options": {
+    "A": "it can be seen",
+    "B": "it occupies space",
+    "C": "it has a definite shape",
+    "D": "it has a definite volume"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "Air is a gas. We cannot see it.",
+    "A gas has no definite shape and no definite volume: it fills any container.",
+    "But air is matter, so it occupies (takes up) space. Answer: B.",
+    "(textbook: Science Grade 6, p. 84)"
+   ],
+   "explain_simple": "Air takes up space, even though we cannot see it.",
+   "tips": [
+    "Gases: no fixed shape, no fixed volume, but they take up space and have mass."
+   ],
+   "similar_questions": [
+    {
+     "stem": "When you blow into a balloon, it gets bigger. This shows that air",
+     "options": {
+      "A": "has colour",
+      "B": "occupies space",
+      "C": "has a definite shape",
+      "D": "is a solid"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "The air inside takes up space, so the balloon gets bigger."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-air"
+   ],
+   "keywords": [
+    "air",
+    "properties of air",
+    "gas"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 84 (Eritrean MoE)",
+    "topic": "6.1 Air",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 6 – Air Around Us",
+    "section": "6.1 Air",
+    "page": "84",
+    "pdf_page": 92,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q07",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 7,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "An eclipse that takes place when the moon passes between the Sun and the Earth is:",
+   "options": {
+    "A": "lunar eclipse",
+    "B": "eclipse of the earth",
+    "C": "solar eclipse",
+    "D": "eclipse of the moon"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "The textbook says: 'A solar eclipse takes place when the moon passes between the sun and the earth.'",
+    "The Moon blocks the sunlight, so the Sun is hidden (eclipse of the sun).",
+    "A lunar eclipse (eclipse of the moon) happens when the Earth is between the Sun and the Moon. Answer: C."
+   ],
+   "explain_simple": "When the Moon is between the Sun and the Earth, it hides the Sun. This is a solar eclipse.",
+   "tips": [
+    "Solar eclipse: Sun – Moon – Earth. Lunar eclipse: Sun – Earth – Moon."
+   ],
+   "similar_questions": [
+    {
+     "stem": "A lunar eclipse happens when",
+     "options": {
+      "A": "the Moon is between the Sun and the Earth",
+      "B": "the Earth is between the Sun and the Moon",
+      "C": "the Sun is between the Earth and the Moon",
+      "D": "the Moon is very near the Sun"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "The Earth's shadow falls on the Moon when the Earth is between the Sun and the Moon."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-eclipses"
+   ],
+   "keywords": [
+    "eclipses",
+    "solar eclipse",
+    "light"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 67 (Eritrean MoE)",
+    "topic": "5.5 Eclipses",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 5 – Light",
+    "section": "5.5 Eclipses",
+    "page": "67",
+    "pdf_page": 75,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q08",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 8,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Which sequence correctly shows the level of increasing organization in the human body?",
+   "options": {
+    "A": "cells → tissues → organs → systems → human body",
+    "B": "systems → cells → tissues → organs → human body",
+    "C": "human body → systems → organs → tissues → cells",
+    "D": "cells → systems → tissues → organs → human body"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "Similar cells form a tissue. Different tissues form an organ. Organs that work together form a system. All systems form the body (organism).",
+    "From the smallest to the largest: cells → tissues → organs → systems → human body. Answer: A.",
+    "(C is the same list but in decreasing order.)",
+    "(textbook: Science Grade 6, p. 107-108)"
+   ],
+   "explain_simple": "Cells make tissues, tissues make organs, organs make systems, and systems make the body.",
+   "tips": [
+    "Small to big: cell – tissue – organ – system – organism."
+   ],
+   "similar_questions": [
+    {
+     "stem": "A group of similar cells doing the same job is called",
+     "options": {
+      "A": "an organ",
+      "B": "a tissue",
+      "C": "a system",
+      "D": "an organism"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Similar cells working together form a tissue, like muscle tissue."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-cell-differentiation"
+   ],
+   "keywords": [
+    "levels of organization",
+    "cells",
+    "tissues",
+    "organs",
+    "systems"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 107-108 (Eritrean MoE)",
+    "topic": "7.2 Cell differentiation",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 7 – Structure and Function in Living Things",
+    "section": "7.2 Cell differentiation",
+    "page": "107-108",
+    "pdf_page": 115,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q09",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 9,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The Table below provides some information on three types of cells, P, Q and R. The tick (√) indicates the presence of the part of the cell. Which of them is most likely an animal cell?",
+   "stem_tables": [
+    {
+     "title": "Table",
+     "kind": "data",
+     "columns": [
+      "Parts of Cell",
+      "Cell P",
+      "Cell Q",
+      "Cell R"
+     ],
+     "rows": [
+      [
+       "Cell wall",
+       "",
+       "√",
+       "√"
+      ],
+      [
+       "Nucleus",
+       "√",
+       "√",
+       "√"
+      ],
+      [
+       "Chloroplast",
+       "",
+       "√",
+       ""
+      ],
+      [
+       "Cell membrane",
+       "√",
+       "√",
+       "√"
+      ]
+     ]
+    }
+   ],
+   "options": {
+    "A": "P",
+    "B": "Q",
+    "C": "R",
+    "D": "none of them"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "Animal cells have a nucleus and a cell membrane but NO cell wall and NO chloroplasts.",
+    "Cell P has only a nucleus and a cell membrane. So P is an animal cell.",
+    "Q has a cell wall and chloroplasts (a green plant cell). R has a cell wall (a plant cell without chloroplasts, for example a root cell). Answer: A.",
+    "(textbook: Science Grade 6, p. 104)"
+   ],
+   "explain_simple": "Cell P has no cell wall and no chloroplast. So it is an animal cell.",
+   "tips": [
+    "Cell wall or chloroplast present → plant cell."
+   ],
+   "similar_questions": [
+    {
+     "stem": "A cell has a cell wall, chloroplasts, a nucleus and a cell membrane. It is most likely",
+     "options": {
+      "A": "a nerve cell",
+      "B": "a leaf cell",
+      "C": "a blood cell",
+      "D": "a skin cell"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Chloroplasts and a cell wall show a plant cell, like a leaf cell."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-the-cell-basic-unit-of-life"
+   ],
+   "keywords": [
+    "animal cell",
+    "plant cell",
+    "cell wall",
+    "chloroplast",
+    "table"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 104 (Eritrean MoE)",
+    "topic": "7.1 The cell – basic unit of life",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 7 – Structure and Function in Living Things",
+    "section": "7.1 The cell – basic unit of life",
+    "page": "104",
+    "pdf_page": 112,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q10",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 10,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Figure 2 shows the four taste regions of the tongue. The region that detects bitter taste is:",
+   "image": "media/science-2014-q10.png",
+   "image_alt": "Figure 2: outline of a tongue with dashed lines dividing it into regions. Label 1 is the back part, 2 the sides, 3 a band near the front, and 4 the tip.",
+   "options": {
+    "A": "4",
+    "B": "3",
+    "C": "2",
+    "D": "1"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "In the textbook tongue map (Grade 6, Fig. 8.5): the back of the tongue is bitter, the sides are sour, the front sides are salt and the tip is sweet.",
+    "In Figure 2, region 1 is the back part of the tongue. So region 1 detects bitter taste. Answer: D.",
+    "(Region 2 = sour, 3 = salt, 4 = sweet.)"
+   ],
+   "explain_simple": "The back of the tongue (region 1) tastes bitter things.",
+   "tips": [
+    "Tongue map: tip sweet, front sides salt, sides sour, back bitter."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In the same tongue map, which region detects sweet taste?",
+     "options": {
+      "A": "4 (the tip)",
+      "B": "3",
+      "C": "2 (the sides)",
+      "D": "1 (the back)"
+     },
+     "answer": "A",
+     "explanation_steps": [
+      "The tip of the tongue detects sweet taste in the textbook map."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-response-to-external-stimuli-skin-tongue"
+   ],
+   "keywords": [
+    "tongue",
+    "taste",
+    "sense organs"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 134-135 (Eritrean MoE)",
+    "topic": "8.2 Response to external stimuli (skin, tongue, nose)",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 8 – Stimuli and Response",
+    "section": "8.2 Response to external stimuli (skin, tongue, nose)",
+    "page": "134-135",
+    "pdf_page": 142,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": "Outdated fact: the 'tongue map' (each taste only in one region) is taught in the Grade 6 textbook (Fig. 8.5), but modern science shows every part of the tongue can sense all tastes. Answer keyed from the textbook map."
+  },
+  {
+   "id": "science-2014-g8-p1-q11",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 11,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Nura has a mass of 35 kg. What is her weight on Earth if the earth's gravity is 10 N/kg?",
+   "options": {
+    "A": "350 N",
+    "B": "25 N",
+    "C": "3.5 N",
+    "D": "45 N"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "Weight = mass × gravity (W = m × g).",
+    "W = 35 kg × 10 N/kg = 350 N. Answer: A.",
+    "(textbook: Science Grade 6, p. 25)"
+   ],
+   "explain_simple": "Weight = 35 × 10 = 350 newtons.",
+   "tips": [
+    "Weight (N) = mass (kg) × g (10 N/kg on Earth)."
+   ],
+   "similar_questions": [
+    {
+     "stem": "A bag has a mass of 4 kg. What is its weight on Earth (g = 10 N/kg)?",
+     "options": {
+      "A": "0.4 N",
+      "B": "14 N",
+      "C": "40 N",
+      "D": "400 N"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "W = 4 × 10 = 40 N."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g6-types-of-force"
+   ],
+   "keywords": [
+    "weight",
+    "mass",
+    "gravity",
+    "calculation"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 6, p. 25 (Eritrean MoE)",
+    "topic": "2.5 Types of force",
+    "grade": 6,
+    "subject": "Science",
+    "unit": "Unit 2 – Force and Motion",
+    "section": "2.5 Types of force",
+    "page": "25",
+    "pdf_page": 33,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q12",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 12,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The joint found between the head and vertebrae that allows nodding or turning movements is:",
+   "options": {
+    "A": "hinge joint",
+    "B": "ball and socket joint",
+    "C": "gliding joint",
+    "D": "pivot joint"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "The textbook says: 'The pivot joint found between the head and vertebrae…' It lets the head turn and nod.",
+    "Hinge joints are in the elbow and knee; ball and socket joints in the hip and shoulder. Answer: D."
+   ],
+   "explain_simple": "The joint that turns the head is the pivot joint.",
+   "tips": [
+    "Pivot = turning (head on the neck)."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which joint is found in the shoulder?",
+     "options": {
+      "A": "pivot joint",
+      "B": "hinge joint",
+      "C": "ball and socket joint",
+      "D": "fixed joint"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "The shoulder has a ball and socket joint, so the arm moves in all directions."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-skeletal-system"
+   ],
+   "keywords": [
+    "joints",
+    "pivot joint",
+    "skeletal system"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 32 (Eritrean MoE)",
+    "topic": "1.5 The skeletal system",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 1 – Human Systems",
+    "section": "1.5 The skeletal system",
+    "page": "32",
+    "pdf_page": 40,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q13",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 13,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Which human organ system creates sex cells and offspring?",
+   "options": {
+    "A": "respiratory",
+    "B": "digestive",
+    "C": "reproductive",
+    "D": "circulatory"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "The reproductive system makes sex cells (sperm and eggs) and allows people to have children (offspring).",
+    "Answer: C.",
+    "(textbook: Science Grade 8, p. 23)"
+   ],
+   "explain_simple": "The reproductive system makes sex cells and babies.",
+   "tips": [
+    "Reproduce = make new young ones."
+   ],
+   "similar_questions": [
+    {
+     "stem": "The male reproductive organs that make sperm are the",
+     "options": {
+      "A": "ovaries",
+      "B": "testes",
+      "C": "kidneys",
+      "D": "lungs"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "The testes produce sperm cells."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-reproductive-system"
+   ],
+   "keywords": [
+    "reproductive system",
+    "sex cells"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 23 (Eritrean MoE)",
+    "topic": "1.4 The reproductive system",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 1 – Human Systems",
+    "section": "1.4 The reproductive system",
+    "page": "23",
+    "pdf_page": 31,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q14",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 14,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Which human organ system is shown in Figure 3?",
+   "image": "media/science-2014-q14.png",
+   "image_alt": "Figure 3: side view of a head with the nose and mouth, a tube (trachea) going down into the chest, branching into two dark lungs.",
+   "options": {
+    "A": "skeletal",
+    "B": "circulatory",
+    "C": "digestive",
+    "D": "respiratory"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "The figure shows the nose and mouth, the windpipe (trachea), the bronchi and two lungs.",
+    "These are the organs of breathing: the respiratory system. Answer: D.",
+    "(textbook: Science Grade 8, p. 11-12)"
+   ],
+   "explain_simple": "The picture shows the lungs and windpipe. That is the respiratory system.",
+   "tips": [
+    "Lungs in the picture → respiratory system."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Air passes from the nose to the lungs through the",
+     "options": {
+      "A": "esophagus",
+      "B": "trachea",
+      "C": "aorta",
+      "D": "stomach"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "The trachea (windpipe) carries air to the lungs."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-respiratory-system"
+   ],
+   "keywords": [
+    "respiratory system",
+    "lungs",
+    "trachea"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 11-12 (Eritrean MoE)",
+    "topic": "1.2 The respiratory system",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 1 – Human Systems",
+    "section": "1.2 The respiratory system",
+    "page": "11-12",
+    "pdf_page": 19,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q15",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 15,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The type of blood cells used to defend the body against germs that cause diseases are:",
+   "options": {
+    "A": "red blood cells",
+    "B": "platelets",
+    "C": "white blood cells",
+    "D": "plasma"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "White blood cells defend (protect) the body against germs.",
+    "Red blood cells carry oxygen; platelets help clotting; plasma is the liquid part. Answer: C.",
+    "(textbook: Science Grade 8, p. 18)"
+   ],
+   "explain_simple": "White blood cells fight germs.",
+   "tips": [
+    "White = fighters (defence)."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which part of blood carries oxygen?",
+     "options": {
+      "A": "plasma",
+      "B": "platelets",
+      "C": "red blood cells",
+      "D": "white blood cells"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Red blood cells carry oxygen from the lungs to the body."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-circulatory-system"
+   ],
+   "keywords": [
+    "blood",
+    "white blood cells",
+    "circulatory system"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 18 (Eritrean MoE)",
+    "topic": "1.3 The circulatory system",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 1 – Human Systems",
+    "section": "1.3 The circulatory system",
+    "page": "18",
+    "pdf_page": 26,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q16",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 16,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The arrows in Figure 4 show how blood flows in human body. Which of the following statements is correct?",
+   "image": "media/science-2014-q16.png",
+   "image_alt": "Figure 4: three boxes: Lungs (top), Heart (middle), Parts of the body (bottom). Arrow 1 on the left goes from the heart up to the lungs; arrow 2 on the right goes from the lungs down to the heart; arrow 4 on the right goes from the heart down to the body; arrow 3 on the left goes from the body up to the heart.",
+   "options": {
+    "A": "the blood at 1 contains more oxygen than the blood at 2.",
+    "B": "the blood at 1 contains less oxygen than the blood at 4.",
+    "C": "the blood at 2 contains more carbon dioxide than the blood at 3.",
+    "D": "none of the above"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "Follow the arrows: 1 goes from the heart to the lungs; 2 goes from the lungs back to the heart; 4 goes from the heart to the parts of the body; 3 comes back from the body to the heart.",
+    "Blood gets oxygen in the lungs. So the blood at 2 and 4 is rich in oxygen. The blood at 1 and 3 is poor in oxygen and rich in carbon dioxide.",
+    "A is false (1 has less oxygen than 2). C is false (2 has less carbon dioxide than 3). B is true: blood at 1 has less oxygen than blood at 4. Answer: B.",
+    "(textbook: Science Grade 8, p. 20-22)"
+   ],
+   "explain_simple": "Blood at 1 goes to the lungs to get oxygen. Blood at 4 already has oxygen. So 1 has less oxygen than 4.",
+   "tips": [
+    "Blood after the lungs = oxygen-rich. Blood after the body = oxygen-poor."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In Figure 4, which blood contains the most carbon dioxide?",
+     "options": {
+      "A": "blood at 2",
+      "B": "blood at 4",
+      "C": "blood at 3",
+      "D": "blood in the lungs' air"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Blood at 3 returns from the body parts, where cells gave it carbon dioxide."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-circulatory-system"
+   ],
+   "keywords": [
+    "circulatory system",
+    "blood flow",
+    "oxygen",
+    "carbon dioxide"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 20-22 (Eritrean MoE)",
+    "topic": "1.3 The circulatory system",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 1 – Human Systems",
+    "section": "1.3 The circulatory system",
+    "page": "20-22",
+    "pdf_page": 28,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q17",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 17,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The force of an object can be determined by using the equation below.\nForce = mass x acceleration\nWhich object would have the greatest force?",
+   "options": {
+    "A": "a 5 Kg object accelerating at 10 m/s²",
+    "B": "a 5 Kg object accelerating at 20 m/s²",
+    "C": "a 20 Kg object accelerating at 4 m/s²",
+    "D": "a 20 Kg object accelerating at 3 m/s²"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "Work out F = m × a for each.",
+    "A: 5 × 10 = 50 N. B: 5 × 20 = 100 N. C: 20 × 4 = 80 N. D: 20 × 3 = 60 N.",
+    "The greatest is 100 N. Answer: B.",
+    "(textbook: Science Grade 8, p. 60-61)"
+   ],
+   "explain_simple": "Multiply mass by acceleration for each. B gives 100 N, the biggest.",
+   "tips": [
+    "Calculate every option before you choose."
+   ],
+   "similar_questions": [
+    {
+     "stem": "What force is needed to give a 2 kg ball an acceleration of 6 m/s²?",
+     "options": {
+      "A": "3 N",
+      "B": "8 N",
+      "C": "12 N",
+      "D": "4 N"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "F = m × a = 2 × 6 = 12 N."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-newtons-second-law-of-motion"
+   ],
+   "keywords": [
+    "Newton's second law",
+    "force",
+    "acceleration",
+    "calculation"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 60-61 (Eritrean MoE)",
+    "topic": "2.6 Newton's second law of motion",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 2 – Force and Motion",
+    "section": "2.6 Newton's second law of motion",
+    "page": "60-61",
+    "pdf_page": 68,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q18",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 18,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "A student pushes against a tree with a force of 10 N. The tree does not move. What is the amount of force exerted by the tree on the student?",
+   "options": {
+    "A": "0 N",
+    "B": "5 N",
+    "C": "10 N",
+    "D": "20 N"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "Newton's third law: for every action there is an equal and opposite reaction.",
+    "The student pushes the tree with 10 N (action). The tree pushes back on the student with 10 N (reaction), in the opposite direction.",
+    "Answer: C.",
+    "(textbook: Science Grade 8, p. 65)"
+   ],
+   "explain_simple": "The tree pushes back with the same force: 10 N.",
+   "tips": [
+    "Action = reaction (same size, opposite direction)."
+   ],
+   "similar_questions": [
+    {
+     "stem": "A book rests on a table and pushes down with 5 N. The table pushes up on the book with",
+     "options": {
+      "A": "0 N",
+      "B": "2.5 N",
+      "C": "5 N",
+      "D": "10 N"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "By Newton's third law the reaction is equal: 5 N upwards."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-newtons-third-law-of-motion"
+   ],
+   "keywords": [
+    "Newton's third law",
+    "action and reaction"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 65 (Eritrean MoE)",
+    "topic": "2.7 Newton's third law of motion",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 2 – Force and Motion",
+    "section": "2.7 Newton's third law of motion",
+    "page": "65",
+    "pdf_page": 73,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q19",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 19,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Which of the following statements is true?",
+   "options": {
+    "A": "the nucleus is positively charged",
+    "B": "the atomic shell contains protons",
+    "C": "the nucleus is neutral",
+    "D": "electrons are found in the nucleus"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "The nucleus contains protons (positive) and neutrons (no charge). So the nucleus is positively charged.",
+    "Protons are in the nucleus, not in the shell. Electrons are in the shells, not in the nucleus. Answer: A.",
+    "(textbook: Science Grade 8, p. 74-75)"
+   ],
+   "explain_simple": "The nucleus has protons, so it is positive.",
+   "tips": [
+    "Nucleus = protons (+) and neutrons (0). Shells = electrons (−)."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which particle has no electric charge?",
+     "options": {
+      "A": "proton",
+      "B": "electron",
+      "C": "neutron",
+      "D": "nucleus"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "The neutron is neutral: it has no charge."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-subatomic-particles"
+   ],
+   "keywords": [
+    "atom",
+    "nucleus",
+    "subatomic particles"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 74-75 (Eritrean MoE)",
+    "topic": "3.2 The subatomic particles",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 3 – The Structure of the Atom",
+    "section": "3.2 The subatomic particles",
+    "page": "74-75",
+    "pdf_page": 82,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q20",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 20,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The electronic configuration of chlorine atom is given by 2, 8, 7, then the number of its electrons is",
+   "options": {
+    "A": "2",
+    "B": "8",
+    "C": "17",
+    "D": "7"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "The configuration 2, 8, 7 means: 2 electrons in the first shell, 8 in the second and 7 in the third.",
+    "Total electrons = 2 + 8 + 7 = 17. Answer: C.",
+    "(textbook: Science Grade 8, p. 78)"
+   ],
+   "explain_simple": "Add the numbers: 2 + 8 + 7 = 17 electrons.",
+   "tips": [
+    "Total electrons = sum of the electrons in all shells."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Sodium has the configuration 2, 8, 1. How many electrons does it have?",
+     "options": {
+      "A": "1",
+      "B": "8",
+      "C": "10",
+      "D": "11"
+     },
+     "answer": "D",
+     "explanation_steps": [
+      "2 + 8 + 1 = 11 electrons."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-arrangement-of-subatomic-particles-in-th"
+   ],
+   "keywords": [
+    "electron configuration",
+    "electrons",
+    "chlorine"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 78 (Eritrean MoE)",
+    "topic": "3.3 Arrangement of subatomic particles in the atom",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 3 – The Structure of the Atom",
+    "section": "3.3 Arrangement of subatomic particles in the atom",
+    "page": "78",
+    "pdf_page": 86,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q21",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 21,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "In the reaction C + O₂ → CO₂, which statement is true?",
+   "options": {
+    "A": "O₂ is the only reactant",
+    "B": "CO₂ is the product",
+    "C": "C is the only reactant",
+    "D": "CO₂ is the reactant"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "Reactants are on the left: C and O₂ (two reactants). The product is on the right: CO₂.",
+    "So A and C are wrong (there are two reactants) and D is wrong. Answer: B.",
+    "(textbook: Science Grade 8, p. 92)"
+   ],
+   "explain_simple": "CO₂ is after the arrow, so it is the product.",
+   "tips": [
+    "Left of arrow: reactants. Right of arrow: products."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In 2H₂ + O₂ → 2H₂O, the product is",
+     "options": {
+      "A": "H₂",
+      "B": "O₂",
+      "C": "H₂O",
+      "D": "H₂ and O₂"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Water (H₂O) is on the right side, so it is the product."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-periodic-table-of-elements"
+   ],
+   "keywords": [
+    "chemical reactions",
+    "reactants",
+    "products",
+    "chemical equation"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 92 (Eritrean MoE)",
+    "topic": "4.3 The periodic table of elements",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 4 – Chemical Reactions and the Periodic Table",
+    "section": "4.3 The periodic table of elements",
+    "page": "92",
+    "pdf_page": 100,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q22",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 22,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Which of the following is false about metallic elements?",
+   "options": {
+    "A": "metals are sonorous",
+    "B": "metals have a shiny surface",
+    "C": "metals are malleable",
+    "D": "metals are poor conductor of electricity"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "Metals are shiny, malleable (can be hammered into sheets), ductile and sonorous (they ring when hit).",
+    "Metals conduct heat and electricity WELL. So 'poor conductor of electricity' is false. Answer: D.",
+    "(textbook: Science Grade 8, p. 93)"
+   ],
+   "explain_simple": "Metals are good conductors of electricity. So D is false.",
+   "tips": [
+    "Metals: shiny, malleable, ductile, sonorous, good conductors."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Copper is used to make electric wires because it is",
+     "options": {
+      "A": "a poor conductor",
+      "B": "a good conductor of electricity",
+      "C": "a non-metal",
+      "D": "a gas"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Copper is a metal that conducts electricity very well."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-periodic-table-of-elements"
+   ],
+   "keywords": [
+    "metals",
+    "properties of metals",
+    "conductors"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 93 (Eritrean MoE)",
+    "topic": "4.3 The periodic table of elements",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 4 – Chemical Reactions and the Periodic Table",
+    "section": "4.3 The periodic table of elements",
+    "page": "93",
+    "pdf_page": 101,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q23",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 23,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The transfer of heat by current of liquids and gases is:",
+   "options": {
+    "A": "conduction",
+    "B": "convection",
+    "C": "radiation",
+    "D": "expansion"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "In liquids and gases, warm parts rise and cool parts sink. This makes a current that carries heat.",
+    "This is convection. Conduction is in solids; radiation needs no matter. Answer: B.",
+    "(textbook: Science Grade 8, p. 108)"
+   ],
+   "explain_simple": "Heat carried by moving liquid or gas is convection.",
+   "tips": [
+    "Convection = heat moved by currents in fluids."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Sea breezes near the coast are caused by",
+     "options": {
+      "A": "conduction",
+      "B": "convection currents in air",
+      "C": "radiation only",
+      "D": "contraction"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Warm air over land rises and cool air from the sea moves in: a convection current."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-transfer-of-heat"
+   ],
+   "keywords": [
+    "heat transfer",
+    "convection"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 108 (Eritrean MoE)",
+    "topic": "5.3 Transfer of heat",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 5 – Heat and Temperature",
+    "section": "5.3 Transfer of heat",
+    "page": "108",
+    "pdf_page": 116,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q24",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 24,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "An inclined plane with one or two slopping sides is called a:",
+   "options": {
+    "A": "lever",
+    "B": "screw",
+    "C": "pulley",
+    "D": "wedge"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "A wedge is an inclined plane with one or two sloping sides, for example an axe blade or a knife.",
+    "A screw is an inclined plane wound around a rod. Levers and pulleys are other simple machines. Answer: D.",
+    "(The paper prints 'slopping'; it means 'sloping'.)",
+    "(textbook: Science Grade 7, p. 16-17)"
+   ],
+   "explain_simple": "A wedge is like a moving inclined plane with sloping sides, for example an axe.",
+   "tips": [
+    "Axe, knife, nail tip = wedges."
+   ],
+   "similar_questions": [
+    {
+     "stem": "An inclined plane wrapped around a rod is a",
+     "options": {
+      "A": "wedge",
+      "B": "screw",
+      "C": "lever",
+      "D": "pulley"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "A screw is an inclined plane wound round a cylinder."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-types-of-simple-machines"
+   ],
+   "keywords": [
+    "simple machines",
+    "wedge",
+    "inclined plane"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 16-17 (Eritrean MoE)",
+    "topic": "1.3 Types of simple machines",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 1 – Force and Motion",
+    "section": "1.3 Types of simple machines",
+    "page": "16-17",
+    "pdf_page": 24,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q25",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 25,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The simplest kind of substance which cannot be divided into simpler substances by chemical means is called:",
+   "options": {
+    "A": "mixture",
+    "B": "compound",
+    "C": "conductor",
+    "D": "element"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "The textbook says: 'An element is the simplest kind of substance which can not be broken down into simpler substances by chemical means.'",
+    "A compound can be broken down chemically; a mixture can be separated physically. Answer: D."
+   ],
+   "explain_simple": "An element is the simplest substance. It cannot be broken down.",
+   "tips": [
+    "Element = one kind of atom only."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which of these is an element?",
+     "options": {
+      "A": "water",
+      "B": "salt",
+      "C": "oxygen",
+      "D": "air"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Oxygen is made of only oxygen atoms, so it is an element."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-elements"
+   ],
+   "keywords": [
+    "elements",
+    "compounds",
+    "mixtures"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 36 (Eritrean MoE)",
+    "topic": "2.1 Elements",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 2 – Classification of Matter",
+    "section": "2.1 Elements",
+    "page": "36",
+    "pdf_page": 44,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q26",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 26,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Sara used an instrument to measure the temperature of water in a glass (Figure 5). The instrument she used is called",
+   "image": "media/science-2014-q26.png",
+   "image_alt": "Figure 5: a Celsius thermometer standing in a glass of water. A magnified circle shows the scale from 20 to 30; the liquid column ends at the middle mark, 25 °C.",
+   "options": {
+    "A": "barometer",
+    "B": "beam balance",
+    "C": "metric ruler",
+    "D": "thermometer"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "Temperature is measured with a thermometer. The figure shows a thermometer in °C.",
+    "A barometer measures air pressure, a beam balance measures mass, and a ruler measures length. Answer: D.",
+    "(textbook: Science Grade 8, p. 119-121)"
+   ],
+   "explain_simple": "A thermometer measures temperature.",
+   "tips": [
+    "thermo = heat; meter = measure."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which instrument measures air pressure?",
+     "options": {
+      "A": "thermometer",
+      "B": "barometer",
+      "C": "beam balance",
+      "D": "ruler"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "A barometer measures air pressure."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-temperature"
+   ],
+   "keywords": [
+    "thermometer",
+    "temperature",
+    "measuring instruments"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 119-121 (Eritrean MoE)",
+    "topic": "5.6 Temperature",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 5 – Heat and Temperature",
+    "section": "5.6 Temperature",
+    "page": "119-121",
+    "pdf_page": 127,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q27",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 27,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "What is the temperature of the water in the glass (Figure 5) in degree Fahrenheit (°F)?",
+   "image": "media/science-2014-q26.png",
+   "image_alt": "Figure 5 (same as question 26): the thermometer in the glass reads 25 °C (liquid column halfway between 20 and 30).",
+   "options": {
+    "A": "25",
+    "B": "92",
+    "C": "77",
+    "D": "68"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "Read the thermometer: the liquid ends at the long mark halfway between 20 and 30, so the water is 25 °C.",
+    "Change to Fahrenheit: TF = (9/5) × 25 + 32 = 45 + 32 = 77 °F. Answer: C.",
+    "(25 is the Celsius reading, not the Fahrenheit value.)",
+    "(textbook: Science Grade 8, p. 122)"
+   ],
+   "explain_simple": "The water is 25 °C. 25 × 9/5 = 45, and 45 + 32 = 77 °F.",
+   "tips": [
+    "First read °C carefully, then use °F = 9/5 × °C + 32."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Water is at 10 °C. What is this in °F?",
+     "options": {
+      "A": "18 °F",
+      "B": "42 °F",
+      "C": "50 °F",
+      "D": "60 °F"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "TF = 9/5 × 10 + 32 = 18 + 32 = 50 °F."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-temperature"
+   ],
+   "keywords": [
+    "temperature conversion",
+    "thermometer",
+    "Fahrenheit"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 122 (Eritrean MoE)",
+    "topic": "5.6 Temperature",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 5 – Heat and Temperature",
+    "section": "5.6 Temperature",
+    "page": "122",
+    "pdf_page": 130,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q28",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 28,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "When a force of 20 N moves a box to a distance of 4 meters, the work done is:",
+   "options": {
+    "A": "80 N",
+    "B": "24 J",
+    "C": "80 J",
+    "D": "5 J"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "Work = force × distance = 20 N × 4 m = 80 J.",
+    "The unit of work is the joule (J), not the newton, so A is wrong. Answer: C.",
+    "(textbook: Science Grade 7, p. 59)"
+   ],
+   "explain_simple": "Work = 20 × 4 = 80 joules.",
+   "tips": [
+    "Check the unit too: work is in joules (J)."
+   ],
+   "similar_questions": [
+    {
+     "stem": "A girl lifts a box with a force of 15 N through 2 m. The work done is",
+     "options": {
+      "A": "30 N",
+      "B": "30 J",
+      "C": "17 J",
+      "D": "7.5 J"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "W = 15 × 2 = 30 J (joules)."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-work"
+   ],
+   "keywords": [
+    "work",
+    "joule",
+    "calculation"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 59 (Eritrean MoE)",
+    "topic": "3.1 Work",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 3 – Work, Energy and Power",
+    "section": "3.1 Work",
+    "page": "59",
+    "pdf_page": 67,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q29",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 29,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Cattle mainly raised for their meat are:",
+   "options": {
+    "A": "beef cattle",
+    "B": "dairy cattle",
+    "C": "work cattle",
+    "D": "milk cattle"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "The textbook groups cattle into dairy cattle (milk), beef cattle (meat) and work cattle (ploughing, carrying).",
+    "'Beef cattle – raised for meat.' Answer: A."
+   ],
+   "explain_simple": "Cattle kept for meat are beef cattle.",
+   "tips": [
+    "Dairy = milk; beef = meat; work = ploughing."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Cattle kept mainly to give milk are called",
+     "options": {
+      "A": "beef cattle",
+      "B": "dairy cattle",
+      "C": "work cattle",
+      "D": "draught cattle"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Dairy cattle are raised for milk."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-livestock-production"
+   ],
+   "keywords": [
+    "livestock",
+    "beef cattle",
+    "agriculture"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 114 (Eritrean MoE)",
+    "topic": "5.7 Livestock production",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 5 – Introduction to Agriculture",
+    "section": "5.7 Livestock production",
+    "page": "114",
+    "pdf_page": 122,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q30",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 30,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Plants competing with crops for nutrients, water, space and light are called:",
+   "options": {
+    "A": "pests",
+    "B": "weeds",
+    "C": "pesticides",
+    "D": "cereals"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "The textbook says: 'Weeds compete with crops for nutrients, water, space and light.'",
+    "Pests are animals (like insects) that damage crops; pesticides are chemicals; cereals are crops. Answer: B."
+   ],
+   "explain_simple": "Unwanted plants that compete with crops are weeds.",
+   "tips": [
+    "Weed = a plant growing where it is not wanted."
+   ],
+   "similar_questions": [
+    {
+     "stem": "One way to control weeds is",
+     "options": {
+      "A": "hand picking them",
+      "B": "adding more seeds",
+      "C": "watering them",
+      "D": "adding manure to them"
+     },
+     "answer": "A",
+     "explanation_steps": [
+      "Weeds can be removed by hand picking (physical means) or with chemicals."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-cultivation"
+   ],
+   "keywords": [
+    "weeds",
+    "cultivation",
+    "agriculture"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 109 (Eritrean MoE)",
+    "topic": "5.6 Cultivation",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 5 – Introduction to Agriculture",
+    "section": "5.6 Cultivation",
+    "page": "109",
+    "pdf_page": 117,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q31",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 31,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "In the food chain: grass → sheep → hyena.",
+   "options": {
+    "A": "grass is a decomposer",
+    "B": "cow is a producer",
+    "C": "hyena is carnivore",
+    "D": "hyena is an omnivore"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "Grass is the producer (it makes food), not a decomposer.",
+    "The sheep eats grass (herbivore). The hyena eats the sheep (meat), so it is a carnivore.",
+    "There is no cow in this chain (option B is a slip in the paper), and hyenas eat meat, not plants. Answer: C.",
+    "(textbook: Science Grade 7, p. 126-128)"
+   ],
+   "explain_simple": "The hyena eats the sheep. An animal that eats meat is a carnivore.",
+   "tips": [
+    "First in a chain = producer; plant eater = herbivore; meat eater = carnivore."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In the chain maize → rat → snake → eagle, the producer is",
+     "options": {
+      "A": "maize",
+      "B": "rat",
+      "C": "snake",
+      "D": "eagle"
+     },
+     "answer": "A",
+     "explanation_steps": [
+      "Maize is a green plant that makes its own food."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-food-relationships"
+   ],
+   "keywords": [
+    "food chain",
+    "carnivore",
+    "producer"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 126-128 (Eritrean MoE)",
+    "topic": "6.3 Food relationships",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 6 – Introduction to Ecology",
+    "section": "6.3 Food relationships",
+    "page": "126-128",
+    "pdf_page": 134,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q32",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 32,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Rotation of the Earth:",
+   "options": {
+    "A": "forms day and night",
+    "B": "occurs around the Sun",
+    "C": "forms four seasons",
+    "D": "takes 365¼ days"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "Rotation is the spinning of the Earth on its axis. One rotation takes about 24 hours.",
+    "The side facing the Sun has day; the other side has night. So rotation forms day and night.",
+    "Moving around the Sun (365¼ days) is revolution, which with the tilted axis gives the seasons. Answer: A.",
+    "(textbook: Science Grade 7, p. 148)"
+   ],
+   "explain_simple": "The Earth spins on its axis. This gives us day and night.",
+   "tips": [
+    "Rotation (spin, 24 h) → day and night. Revolution (around the Sun, 365¼ days) → seasons."
+   ],
+   "similar_questions": [
+    {
+     "stem": "How long does the Earth take to go once around the Sun?",
+     "options": {
+      "A": "24 hours",
+      "B": "one month",
+      "C": "365¼ days",
+      "D": "one week"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "One revolution around the Sun takes about 365¼ days (one year)."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-motion-of-the-earth"
+   ],
+   "keywords": [
+    "rotation",
+    "day and night",
+    "motion of the Earth"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 148 (Eritrean MoE)",
+    "topic": "7.2 Motion of the Earth",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 7 – The Solar System",
+    "section": "7.2 Motion of the Earth",
+    "page": "148",
+    "pdf_page": 156,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q33",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 33,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Lamps and electrical devices in houses are operated independently, because",
+   "options": {
+    "A": "current flows in the same path",
+    "B": "they are connected in series",
+    "C": "they have one complete circuit",
+    "D": "they are connected in parallel"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "In a parallel circuit each lamp has its own path to the source. You can switch one lamp on or off without affecting the others.",
+    "In a series circuit there is only one path: if one lamp is off, all go off.",
+    "House wiring is parallel. Answer: D.",
+    "(textbook: Science Grade 7, p. 169)"
+   ],
+   "explain_simple": "House lamps are connected in parallel, so each one works alone.",
+   "tips": [
+    "Parallel = many paths (independent). Series = one path (all together)."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Three bulbs are in series. One bulb breaks. What happens to the others?",
+     "options": {
+      "A": "They stay on",
+      "B": "They go off",
+      "C": "They get brighter",
+      "D": "Only one stays on"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "In series there is only one path, so the circuit is broken and all bulbs go off."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-electricity"
+   ],
+   "keywords": [
+    "electric circuits",
+    "parallel circuit",
+    "series circuit"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 169 (Eritrean MoE)",
+    "topic": "8.1 Electricity",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 8 – Introduction to Electricity and Magnetism",
+    "section": "8.1 Electricity",
+    "page": "169",
+    "pdf_page": 177,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q34",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 34,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "In figure 6, egg cells are produced in:",
+   "image": "media/science-2014-q34.png",
+   "image_alt": "Figure 6: the female reproductive organs. 1 points to a round ovary at the end of a tube, 2 to the curved fallopian tube, 3 to the womb (uterus) in the middle, and 4 to the vagina at the bottom.",
+   "options": {
+    "A": "structure 1",
+    "B": "structure 2",
+    "C": "structure 3",
+    "D": "structure 4"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "Figure 6 shows the female reproductive organs.",
+    "Structure 1 is the round ovary at the end of the tube; 2 is the fallopian tube; 3 is the womb (uterus); 4 is the vagina.",
+    "Egg cells (ova) are produced in the ovaries. Answer: A.",
+    "(textbook: Science Grade 7, p. 187; Science Grade 8, p. 23)"
+   ],
+   "explain_simple": "Eggs are made in the ovary. The ovary is structure 1.",
+   "tips": [
+    "Ovary – makes eggs; fallopian tube – carries eggs; womb – baby grows."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In the same figure, where does a baby grow during pregnancy?",
+     "options": {
+      "A": "structure 1",
+      "B": "structure 2",
+      "C": "structure 3",
+      "D": "structure 4"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Structure 3 is the womb (uterus), where the baby grows."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-body-changes-at-puberty",
+    "sci-g8-the-reproductive-system"
+   ],
+   "keywords": [
+    "female reproductive system",
+    "ovary",
+    "egg cells"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 187 (Eritrean MoE)",
+    "topic": "9.1 Body changes at puberty",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 9 – Health and Sex Education",
+    "section": "9.1 Body changes at puberty",
+    "page": "187",
+    "pdf_page": 195,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [
+    {
+     "source": "general",
+     "reference": "textbook: Science Grade 8, p. 23 (Eritrean MoE)",
+     "topic": "1.4 The reproductive system",
+     "grade": 8,
+     "subject": "Science",
+     "unit": "Unit 1 – Human Systems",
+     "section": "1.4 The reproductive system",
+     "page": "23",
+     "pdf_page": 31,
+     "verified_in_text": true
+    }
+   ],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q35",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 35,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "A fruit, for example tomato, is also called a matured:",
+   "options": {
+    "A": "zygote",
+    "B": "ovule",
+    "C": "ovary",
+    "D": "gamete"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "After fertilization, the ovule becomes a seed and the ovary becomes a fruit.",
+    "The textbook says: 'A matured ovule is called a seed while a matured ovary that contains seeds is called a fruit.' Answer: C."
+   ],
+   "explain_simple": "A fruit is a grown ovary with seeds inside.",
+   "tips": [
+    "Ovule → seed. Ovary → fruit."
+   ],
+   "similar_questions": [
+    {
+     "stem": "After fertilization, a matured ovule becomes a",
+     "options": {
+      "A": "fruit",
+      "B": "seed",
+      "C": "flower",
+      "D": "leaf"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "A matured ovule is a seed."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-reproduction"
+   ],
+   "keywords": [
+    "fruit",
+    "ovary",
+    "plant reproduction"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 207 (Eritrean MoE)",
+    "topic": "10.1 Reproduction",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 10 – Reproduction and Inheritance",
+    "section": "10.1 Reproduction",
+    "page": "207",
+    "pdf_page": 215,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q36",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 36,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Cell division mitosis occurs in:",
+   "options": {
+    "A": "muscle cells",
+    "B": "egg cells",
+    "C": "sperm cells",
+    "D": "pollen grains"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "Mitosis occurs only in body cells (muscle, skin, bone and others).",
+    "Egg cells, sperm cells and pollen grains are sex cells, made by meiosis. Answer: A.",
+    "(textbook: Science Grade 8, p. 133)"
+   ],
+   "explain_simple": "Muscle cells are body cells. Body cells divide by mitosis.",
+   "tips": [
+    "Body cells → mitosis. Sex cells → meiosis."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In which organ does meiosis take place?",
+     "options": {
+      "A": "skin",
+      "B": "testis",
+      "C": "heart",
+      "D": "stomach"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Meiosis happens in the testes and ovaries to make sex cells."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-genes-and-chromosomes"
+   ],
+   "keywords": [
+    "mitosis",
+    "cell division"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 133 (Eritrean MoE)",
+    "topic": "6.1 Genes and chromosomes",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 6 – Inheritance",
+    "section": "6.1 Genes and chromosomes",
+    "page": "133",
+    "pdf_page": 141,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q37",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 37,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Identify an example of acquired trait in humans.",
+   "options": {
+    "A": "nose structure",
+    "B": "eye color",
+    "C": "ability to swim",
+    "D": "ear structure"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "Acquired traits are learned or come from the environment during life.",
+    "Swimming is a skill you learn, so it is acquired. Nose structure, eye colour and ear structure are inherited from parents. Answer: C.",
+    "(textbook: Science Grade 8, p. 141)"
+   ],
+   "explain_simple": "Swimming is learned. It is an acquired trait.",
+   "tips": [
+    "Can you learn it or get it by an accident? → acquired."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which is an inherited trait?",
+     "options": {
+      "A": "reading",
+      "B": "skin colour",
+      "C": "a tattoo",
+      "D": "speaking Tigrinya"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Skin colour is passed from parents through genes."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-inherited-and-acquired-traits"
+   ],
+   "keywords": [
+    "acquired traits",
+    "inherited traits"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 141 (Eritrean MoE)",
+    "topic": "6.4 Inherited and acquired traits",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 6 – Inheritance",
+    "section": "6.4 Inherited and acquired traits",
+    "page": "141",
+    "pdf_page": 149,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q38",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 38,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Dusting of pollen grains on the stigma of a flower is:",
+   "options": {
+    "A": "self pollination",
+    "B": "self fertilization",
+    "C": "cross pollination",
+    "D": "artificial pollination"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "Pollination is the transfer of pollen grains to the stigma. Fertilization is a later step, so B is wrong.",
+    "'Dusting' means putting pollen on the stigma on purpose, by hand or with a brush. When people do it, it is artificial pollination.",
+    "The stem does not say if the pollen comes from the same flower or another plant, so we cannot choose self or cross pollination. Answer: D.",
+    "(textbook: Science Grade 7, p. 205)"
+   ],
+   "explain_simple": "When people put (dust) pollen on a stigma by hand, it is artificial pollination.",
+   "tips": [
+    "Look for clues: 'by hand' or 'dusting' = artificial."
+   ],
+   "similar_questions": [
+    {
+     "stem": "A farmer takes pollen from one maize plant and puts it on another maize plant by hand. This is",
+     "options": {
+      "A": "natural self pollination",
+      "B": "artificial cross pollination",
+      "C": "fertilization",
+      "D": "germination"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Done by a person (artificial) and between two plants (cross)."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-reproduction"
+   ],
+   "keywords": [
+    "pollination",
+    "artificial pollination"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 205 (Eritrean MoE)",
+    "topic": "10.1 Reproduction",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 10 – Reproduction and Inheritance",
+    "section": "10.1 Reproduction",
+    "page": "205",
+    "pdf_page": 213,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "medium",
+   "review_flag": "Unclear stem: 'dusting of pollen grains on the stigma' does not say whether the pollen comes from the same flower or another plant, or who does it. Keyed D (artificial pollination), because 'dusting' describes hand pollination (as in 2012 Q43). Teacher to confirm."
+  },
+  {
+   "id": "science-2014-g8-p1-q39",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 39,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "A force that every object exerts on every other object is:",
+   "options": {
+    "A": "mass",
+    "B": "gravity",
+    "C": "acceleration",
+    "D": "average velocity"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "Every object pulls every other object with a force of attraction. This force is gravity (gravitational force).",
+    "Mass, acceleration and velocity are not forces. Answer: B.",
+    "(textbook: Science Grade 7, p. 151)"
+   ],
+   "explain_simple": "All objects pull each other. This pull is gravity.",
+   "tips": [
+    "Gravity = the pull between all masses."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Why does a ball fall back to the ground?",
+     "options": {
+      "A": "because of friction",
+      "B": "because of the Earth's gravity",
+      "C": "because of magnetism",
+      "D": "because of air"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "The Earth's gravity pulls the ball down."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g7-revolution-of-planets-and-gravitational"
+   ],
+   "keywords": [
+    "gravity",
+    "force"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 7, p. 151 (Eritrean MoE)",
+    "topic": "7.3 Revolution of planets and gravitational forces",
+    "grade": 7,
+    "subject": "Science",
+    "unit": "Unit 7 – The Solar System",
+    "section": "7.3 Revolution of planets and gravitational forces",
+    "page": "151",
+    "pdf_page": 159,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q40",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 40,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "A gas layer that protects life on earth from ultraviolet rays is:",
+   "options": {
+    "A": "ozone",
+    "B": "carbon dioxide",
+    "C": "nitrogen",
+    "D": "hydrogen"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "The stratosphere contains a gas called ozone.",
+    "The textbook says: 'The ozone layer protects life on earth from the harmful ultraviolet rays of the sun.' Answer: A."
+   ],
+   "explain_simple": "The ozone layer stops harmful ultraviolet rays from the Sun.",
+   "tips": [
+    "Ozone layer = sunscreen of the Earth (in the stratosphere)."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In which layer of the atmosphere is the ozone layer found?",
+     "options": {
+      "A": "troposphere",
+      "B": "stratosphere",
+      "C": "mesosphere",
+      "D": "thermosphere"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "The ozone layer is in the stratosphere."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-atmosphere"
+   ],
+   "keywords": [
+    "ozone layer",
+    "ultraviolet rays",
+    "atmosphere"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 149 (Eritrean MoE)",
+    "topic": "7.1 The atmosphere",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 7 – Space Travel",
+    "section": "7.1 The atmosphere",
+    "page": "149",
+    "pdf_page": 157,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q41",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 41,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The four major layers of atmosphere from the lowest to the uppermost are:",
+   "options": {
+    "A": "troposphere, mesosphere, stratosphere, thermosphere",
+    "B": "troposphere, stratosphere, mesosphere, thermosphere",
+    "C": "thermosphere, mesosphere, stratosphere, troposphere",
+    "D": "troposphere, thermosphere, stratosphere, mesosphere"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "From the ground up: troposphere, stratosphere, mesosphere, thermosphere.",
+    "C gives the same layers but from the top down. Answer: B.",
+    "(textbook: Science Grade 8, p. 148)"
+   ],
+   "explain_simple": "From the bottom: troposphere, stratosphere, mesosphere, thermosphere.",
+   "tips": [
+    "Memory: 'The Sun Makes Things' warm → T, S, M, T."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which layer of the atmosphere is the lowest?",
+     "options": {
+      "A": "thermosphere",
+      "B": "mesosphere",
+      "C": "troposphere",
+      "D": "stratosphere"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "The troposphere is the lowest layer, where we live."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-atmosphere"
+   ],
+   "keywords": [
+    "atmosphere",
+    "layers of the atmosphere"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 148 (Eritrean MoE)",
+    "topic": "7.1 The atmosphere",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 7 – Space Travel",
+    "section": "7.1 The atmosphere",
+    "page": "148",
+    "pdf_page": 156,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q42",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 42,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The water that falls on the earth as rain is called:",
+   "options": {
+    "A": "evapouration",
+    "B": "condensation",
+    "C": "conservation",
+    "D": "precipitation"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "In the water cycle, water vapour condenses to form clouds. Then water falls from the clouds as rain (or snow, hail).",
+    "Water falling to the earth is called precipitation. Answer: D.",
+    "(textbook: Science Grade 8, p. 170)"
+   ],
+   "explain_simple": "Rain falling from clouds is called precipitation.",
+   "tips": [
+    "Water cycle: evaporation → condensation → precipitation."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In the water cycle, water from the sea changing into water vapour is",
+     "options": {
+      "A": "precipitation",
+      "B": "evaporation",
+      "C": "condensation",
+      "D": "infiltration"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Liquid water becoming vapour because of the Sun's heat is evaporation."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-the-water-cycle"
+   ],
+   "keywords": [
+    "water cycle",
+    "precipitation"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 170 (Eritrean MoE)",
+    "topic": "8.2 The water cycle",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 8 – Water Around Us",
+    "section": "8.2 The water cycle",
+    "page": "170",
+    "pdf_page": 178,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q43",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 43,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Nearly three-quarter of the earth's surface is:",
+   "options": {
+    "A": "atmosphere",
+    "B": "water body",
+    "C": "salty water",
+    "D": "fresh water"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B",
+    "C"
+   ],
+   "explanation_steps": [
+    "The textbook says: 'Water covers nearly three-quarters of the earth's surface.'",
+    "So nearly 3/4 of the surface is covered by water bodies (oceans, seas, lakes, rivers). Answer: B.",
+    "C (salty water) is also almost true, because oceans and seas (salty) cover about 71% of the surface. The textbook wording is 'water', so B is keyed and C is also accepted."
+   ],
+   "explain_simple": "Water covers nearly three-quarters of the Earth's surface.",
+   "tips": [
+    "3/4 of the surface = water; 97% of that water = salty."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Most of the water on the Earth is found in",
+     "options": {
+      "A": "rivers",
+      "B": "lakes",
+      "C": "oceans and seas",
+      "D": "clouds"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Oceans and seas hold about 97% of the Earth's water."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-sources-of-water"
+   ],
+   "keywords": [
+    "water on earth",
+    "sources of water"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 166 (Eritrean MoE)",
+    "topic": "8.1 Sources of water",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 8 – Water Around Us",
+    "section": "8.1 Sources of water",
+    "page": "166",
+    "pdf_page": 174,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "medium",
+   "review_flag": "Two defensible options: B 'water body' matches the textbook sentence ('Water covers nearly three-quarters of the earth's surface'), but C 'salty water' is also nearly true (oceans and seas cover about 71% of the surface). Keyed B, C also accepted. Teacher to decide."
+  },
+  {
+   "id": "science-2014-g8-p1-q44",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 44,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "The poisonous gas produced by vehicles in their exhaust is called:",
+   "options": {
+    "A": "oxygen",
+    "B": "nitrogen",
+    "C": "hydrogen",
+    "D": "carbon-monoxide"
+   },
+   "answer": "D",
+   "accepted_answers": [
+    "D"
+   ],
+   "explanation_steps": [
+    "Car engines give out carbon monoxide (CO) in their exhaust. It is a very poisonous gas.",
+    "Oxygen and nitrogen are normal gases of the air. Answer: D.",
+    "(textbook: Science Grade 8, p. 195)"
+   ],
+   "explain_simple": "Cars give out carbon monoxide. It is poisonous.",
+   "tips": [
+    "CO (carbon monoxide) = poison from car exhaust and charcoal fires in closed rooms."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which gas from factories causes acid rain?",
+     "options": {
+      "A": "oxygen",
+      "B": "sulphur dioxide",
+      "C": "nitrogen",
+      "D": "helium"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Sulphur dioxide mixes with rain water and forms acid rain."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-pollution"
+   ],
+   "keywords": [
+    "air pollution",
+    "carbon monoxide",
+    "vehicles"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 195 (Eritrean MoE)",
+    "topic": "9.2 Pollution",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 9 – Human Impact on the Environment",
+    "section": "9.2 Pollution",
+    "page": "195",
+    "pdf_page": 203,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q45",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 45,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Filtration is a method of:",
+   "options": {
+    "A": "removing solid particles from water using clean cloth",
+    "B": "making water safe for drinking using clean cloth",
+    "C": "throwing rubbish into clean water using clean cloth",
+    "D": "boiling clean water to kill micro-organisms"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "The textbook says: 'Sand and other solid particles can be removed from water by filtration', for example with a clean cloth.",
+    "Filtration makes water clean but not safe: germs can still pass. Killing germs needs boiling or chlorine. Answer: A."
+   ],
+   "explain_simple": "Filtration removes dirt from water. It does not kill germs.",
+   "tips": [
+    "Filter = clean. Boil = safe."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which method kills germs in water?",
+     "options": {
+      "A": "filtration",
+      "B": "decanting",
+      "C": "boiling",
+      "D": "settling"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Boiling for 10–15 minutes kills micro-organisms."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-making-water-safe-to-use"
+   ],
+   "keywords": [
+    "filtration",
+    "safe water"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 179 (Eritrean MoE)",
+    "topic": "8.5 Making water safe to use",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 8 – Water Around Us",
+    "section": "8.5 Making water safe to use",
+    "page": "179",
+    "pdf_page": 187,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q46",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 46,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Chemicals used to kill weeds are called:",
+   "options": {
+    "A": "insecticides",
+    "B": "herbicides",
+    "C": "rodenticides",
+    "D": "fungicides"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "Pesticides are named by what they kill: insecticides kill insects, rodenticides kill rats and mice, fungicides kill fungi.",
+    "Herbicides kill weeds (unwanted plants). Answer: B.",
+    "(textbook: Science Grade 8, p. 192; Science Grade 7, p. 112)"
+   ],
+   "explain_simple": "Herbicides kill weeds.",
+   "tips": [
+    "herb = plant; insect-icide = insect killer; -cide = killer."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Farmers spray a chemical to kill insects on their crops. The chemical is",
+     "options": {
+      "A": "a herbicide",
+      "B": "an insecticide",
+      "C": "a fertilizer",
+      "D": "a fungicide"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Insecticides kill insects."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-pollution",
+    "sci-g7-cultivation"
+   ],
+   "keywords": [
+    "weeds",
+    "herbicides",
+    "pesticides"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 192 (Eritrean MoE)",
+    "topic": "9.2 Pollution",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 9 – Human Impact on the Environment",
+    "section": "9.2 Pollution",
+    "page": "192",
+    "pdf_page": 200,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [
+    {
+     "source": "general",
+     "reference": "textbook: Science Grade 7, p. 112 (Eritrean MoE)",
+     "topic": "5.6 Cultivation",
+     "grade": 7,
+     "subject": "Science",
+     "unit": "Unit 5 – Introduction to Agriculture",
+     "section": "5.6 Cultivation",
+     "page": "112",
+     "pdf_page": 120,
+     "verified_in_text": true
+    }
+   ],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q47",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 47,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "An increase in the average temperature of the earth causes:",
+   "options": {
+    "A": "living things to increase",
+    "B": "desert boundaries to decrease",
+    "C": "melting of ice in poles",
+    "D": "sea level to drop"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "An increase in the average temperature of the earth is global warming.",
+    "Global warming melts ice at the poles and makes the sea level RISE (not drop). Deserts get bigger, not smaller. Answer: C.",
+    "(textbook: Science Grade 8, p. 197)"
+   ],
+   "explain_simple": "A warmer Earth melts the ice at the poles.",
+   "tips": [
+    "Global warming → ice melts → sea level rises → floods."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Which gas is the main cause of global warming?",
+     "options": {
+      "A": "oxygen",
+      "B": "carbon dioxide",
+      "C": "nitrogen",
+      "D": "argon"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Carbon dioxide traps heat in the atmosphere."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-global-warming"
+   ],
+   "keywords": [
+    "global warming",
+    "melting ice"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 197 (Eritrean MoE)",
+    "topic": "9.3 Global warming",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 9 – Human Impact on the Environment",
+    "section": "9.3 Global warming",
+    "page": "197",
+    "pdf_page": 205,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q48",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 48,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "If sound is heard from a distance of 1,320 m in 4 seconds, its speed is:",
+   "options": {
+    "A": "1354 m/s",
+    "B": "330 m/s",
+    "C": "660 m/s",
+    "D": "5,280 m/s"
+   },
+   "answer": "B",
+   "accepted_answers": [
+    "B"
+   ],
+   "explanation_steps": [
+    "Speed = distance ÷ time.",
+    "v = 1320 m ÷ 4 s = 330 m/s. Answer: B.",
+    "(textbook: Science Grade 8, p. 208-209)"
+   ],
+   "explain_simple": "Speed = 1320 ÷ 4 = 330 m/s.",
+   "tips": [
+    "v = s ÷ t."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Sound travels 680 m in 2 s. What is its speed?",
+     "options": {
+      "A": "340 m/s",
+      "B": "1360 m/s",
+      "C": "682 m/s",
+      "D": "678 m/s"
+     },
+     "answer": "A",
+     "explanation_steps": [
+      "v = 680 ÷ 2 = 340 m/s."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-speed-of-sound"
+   ],
+   "keywords": [
+    "speed of sound",
+    "calculation"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 208-209 (Eritrean MoE)",
+    "topic": "10.3 Speed of sound",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 10 – Sound",
+    "section": "10.3 Speed of sound",
+    "page": "208-209",
+    "pdf_page": 216,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q49",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 49,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "In which order does sound travel from the fastest to the lowest?",
+   "options": {
+    "A": "liquid, gas, solid",
+    "B": "gas, solid, liquid",
+    "C": "solid, liquid, gas",
+    "D": "gas, liquid, solid"
+   },
+   "answer": "C",
+   "accepted_answers": [
+    "C"
+   ],
+   "explanation_steps": [
+    "Sound travels fastest in solids, slower in liquids and slowest in gases.",
+    "Example: steel 5940 m/s, water 1483 m/s, air 343 m/s. Answer: C.",
+    "(The paper writes 'lowest'; it means 'slowest'.)",
+    "(textbook: Science Grade 8, p. 209)"
+   ],
+   "explain_simple": "Sound is fastest in solids, then liquids, then gases.",
+   "tips": [
+    "Sound speed: solid > liquid > gas."
+   ],
+   "similar_questions": [
+    {
+     "stem": "In which material does sound travel slowest?",
+     "options": {
+      "A": "iron",
+      "B": "water",
+      "C": "air",
+      "D": "wood"
+     },
+     "answer": "C",
+     "explanation_steps": [
+      "Air is a gas, and sound travels slowest in gases."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-speed-of-sound"
+   ],
+   "keywords": [
+    "speed of sound",
+    "solids liquids gases"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 209 (Eritrean MoE)",
+    "topic": "10.3 Speed of sound",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 10 – Sound",
+    "section": "10.3 Speed of sound",
+    "page": "209",
+    "pdf_page": 217,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  },
+  {
+   "id": "science-2014-g8-p1-q50",
+   "exam_id": "science-2014-g8",
+   "part": 1,
+   "number": 50,
+   "type": "mcq",
+   "marks": 1,
+   "stem": "Which of the following is correct?",
+   "options": {
+    "A": "echo is a reflection of sound",
+    "B": "echo is produced in soft material",
+    "C": "echo travels through vacuum",
+    "D": "none of the above"
+   },
+   "answer": "A",
+   "accepted_answers": [
+    "A"
+   ],
+   "explanation_steps": [
+    "An echo is a reflected sound: sound bounces back from a hard surface like a wall or a cliff.",
+    "Soft materials absorb sound, so they do not make good echoes. Sound (and so an echo) cannot travel through a vacuum. Answer: A.",
+    "(textbook: Science Grade 8, p. 212)"
+   ],
+   "explain_simple": "An echo is sound that bounces back.",
+   "tips": [
+    "Echo = reflection of sound from hard surfaces."
+   ],
+   "similar_questions": [
+    {
+     "stem": "Echoes are heard best when sound hits",
+     "options": {
+      "A": "a curtain",
+      "B": "a hard cliff",
+      "C": "a soft carpet",
+      "D": "cotton"
+     },
+     "answer": "B",
+     "explanation_steps": [
+      "Hard surfaces reflect sound well, so echoes are strong."
+     ]
+    }
+   ],
+   "topics": [
+    "sci-g8-reflection-of-sound-echo"
+   ],
+   "keywords": [
+    "echo",
+    "reflection of sound"
+   ],
+   "textbook_ref": {
+    "source": "general",
+    "reference": "textbook: Science Grade 8, p. 212 (Eritrean MoE)",
+    "topic": "10.5 Reflection of sound (echo)",
+    "grade": 8,
+    "subject": "Science",
+    "unit": "Unit 10 – Sound",
+    "section": "10.5 Reflection of sound (echo)",
+    "page": "212",
+    "pdf_page": 220,
+    "verified_in_text": true
+   },
+   "additional_textbook_refs": [],
+   "confidence": "high",
+   "review_flag": null
+  }
+ ]
+}

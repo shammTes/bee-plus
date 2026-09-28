@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" font-family="Nunito,sans-serif" font-weight="900">
+  <defs><marker id="watArw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6A5B50"/></marker></defs>
+  <!-- brain -->
+  <path d="M40 60C36 36 60 22 80 28C92 14 118 16 126 30C146 26 162 42 156 60C168 72 158 94 138 92C130 104 106 106 96 96C80 104 56 98 54 84C38 82 32 70 40 60Z" fill="#F4C7D0" stroke="#B5687A" stroke-width="3"/>
+  <path d="M70 50q10 8 20 0t20 0M72 72q12-8 24 0t24 0" fill="none" stroke="#B5687A" stroke-width="2.5"/>
+  <ellipse cx="72" cy="38" rx="10" ry="4" fill="#fff" opacity=".7"/>
+  <!-- arrow brain -> kidney -->
+  <path d="M110 104Q130 130 150 144" fill="none" stroke="#6A5B50" stroke-width="4" marker-end="url(#watArw)"/>
+  <!-- kidney -->
+  <path d="M170 120C150 120 142 146 150 168C156 188 176 196 190 186C200 178 190 166 196 156C202 144 204 120 170 120Z" fill="#C9785B" stroke="#9C5A42" stroke-width="3"/>
+  <ellipse cx="164" cy="132" rx="8" ry="4" fill="#fff" opacity=".5"/>
+  <path d="M188 174Q204 188 212 206" fill="none" stroke="#DDA42A" stroke-width="5" stroke-linecap="round"/>
+  <!-- beaker -->
+  <path d="M192 170L192 240L252 240L252 170" fill="#fff" stroke="#8A7A6E" stroke-width="3"/>
+  <rect data-s="low" x="194" y="216" width="56" height="22" fill="#E7B32A"/>
+  <rect data-s="high" x="194" y="186" width="56" height="52" fill="#FFF6CF"/>
+  <!-- messages -->
+  <g data-s="low"><text x="16" y="140" font-size="16" fill="#8A6410">little water</text><text x="16" y="160" font-size="16" fill="#8A6410">in the blood</text>
+    <text x="16" y="210" font-size="16" fill="#9C5A42">kidneys keep</text><text x="16" y="230" font-size="16" fill="#9C5A42">water</text>
+    <text x="260" y="206" font-size="15" fill="#8A6410">less,</text><text x="260" y="224" font-size="15" fill="#8A6410">yellow</text></g>
+  <g data-s="high"><text x="16" y="140" font-size="16" fill="#2F5F8F">much water</text><text x="16" y="160" font-size="16" fill="#2F5F8F">in the blood</text>
+    <text x="16" y="210" font-size="16" fill="#9C5A42">kidneys pass</text><text x="16" y="230" font-size="16" fill="#9C5A42">extra water</text>
+    <text x="260" y="206" font-size="15" fill="#2F5F8F">more,</text><text x="260" y="224" font-size="15" fill="#2F5F8F">clear</text></g>
+  <!-- cup of water -->
+  <path data-s="low" d="M226 40L232 90L260 90L266 40Z" fill="#fff" stroke="#5F90C4" stroke-width="3"/>
+  <path data-s="low" d="M231 80L232 88L260 88L261 80Z" fill="#9EC3EA"/>
+  <path data-s="high" d="M226 40L232 90L260 90L266 40Z" fill="#9EC3EA" stroke="#5F90C4" stroke-width="3"/>
+  <text x="246" y="112" text-anchor="middle" font-size="15" fill="#2F5F8F">drink</text>
+</svg>

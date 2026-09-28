@@ -1,0 +1,3217 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "english-2018-g8",
+    "year": "2018",
+    "subject": "English",
+    "grade": 8,
+    "version": "A",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2018 – English",
+    "duration": "1 hour and 40 minutes (100 minutes)",
+    "duration_minutes": 100,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice (Questions 1–50)",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "This paper has 50 multiple-choice questions (1 to 50). Each question has 4 choices. Choose ONE best answer and blacken its letter on the separate answer sheet. Sections: A. Dialogue (1–4), B. Grammar and vocabulary (5–34), C. Table (35–40), D. Reading passage (41–50)."
+      }
+    ],
+    "source": {
+      "document": "2018_English__V-A.pdf",
+      "version_used": "A",
+      "other_version": "none – only Version A is in the collection",
+      "notes": "Transcribed from the PDF text layer of Version A (the only version available) and checked against the page images. The text layer uses odd quote glyphs (‟ „) for apostrophes; normal apostrophes are used here. Bold words in stems are plain text; no underlining.",
+      "printing_note": "Q24 options A and B are printed identically. Dialogue choice A prints ‘May be’ (= Maybe). Q16 ‘good result’ and passage line 12 ‘too hot that’ (= so hot that) kept as printed. Passage line numbers 5–20 shown as [line N]."
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "notation": "unicode",
+    "textbooks": [
+      "English for Eritrea Grade 6",
+      "English for Eritrea Grade 7",
+      "English for Eritrea Grade 8"
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "passages": [
+    {
+      "id": "english-2018-dialogue",
+      "kind": "context",
+      "title": "Dialogue between a mother and her son",
+      "instructions": "Complete the dialogue between a mother and her son. Choose the son’s correct answers from the choices given (A–D).",
+      "paragraphs": [
+        "Mother: Where is the key of my car?",
+        "Son: ______ (1)",
+        "Mother: But it is not there! Didn’t I give it to you?",
+        "Son: ______ (2)",
+        "Mother: So where did I put it?",
+        "Son: ______ (3)",
+        "Mother: But that cannot be. I came here in my car.",
+        "Son: ______ (4)",
+        "Mother: You are right.",
+        "Choices given: A. May be you left it at your office.  B. So let’s look for it in the kitchen.  C. I don’t know. You usually put it in your bag.  D. No, you didn’t. I have just come from the shop."
+      ],
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "part": 1
+    },
+    {
+      "id": "english-2018-table",
+      "kind": "context",
+      "title": "Table: animals, prices and uses",
+      "instructions": "Answer questions 35–40 according to the information in the table.",
+      "paragraphs": [
+        "Animals | Price in Nakfa | Uses",
+        "Cow | 5000 | gives milk and meat",
+        "Donkey | 3000 | carries goods and fetches water",
+        "Dog | Free | looks after our houses and animals",
+        "Hen | 150 | gives eggs and meat"
+      ],
+      "question_numbers": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "part": 1,
+      "table": {
+        "title": "Animals, prices and uses",
+        "kind": "data",
+        "columns": [
+          "Animals",
+          "Price in Nakfa",
+          "Uses"
+        ],
+        "rows": [
+          [
+            "Cow",
+            "5000",
+            "gives milk and meat"
+          ],
+          [
+            "Donkey",
+            "3000",
+            "carries goods and fetches water"
+          ],
+          [
+            "Dog",
+            "Free",
+            "looks after our houses and animals"
+          ],
+          [
+            "Hen",
+            "150",
+            "gives eggs and meat"
+          ]
+        ],
+        "align": [
+          "left",
+          "left",
+          "left"
+        ]
+      }
+    },
+    {
+      "id": "english-2018-story",
+      "kind": "reading",
+      "title": "The two farmers",
+      "instructions": "Read the story and answer the questions (41–50) according to the information in the story.",
+      "paragraphs": [
+        "Long time ago, an old farmer was travelling to a town very far from his village. On his way, he met another young farmer. He was also travelling to the same town and they agreed to go together.",
+        "The old farmer was talking about himself all the way to the town. He said, “I am a [line 5] great man. I am the bravest and the strongest in my village. A few weeks ago, I killed a lion with my bare hands. I have also done many great things. I am also very wise. I am the wisest man in our village. The king always asks me for advice.”",
+        "The young farmer listened to him but said nothing. They travelled together for hours. They were both hungry and tired, so they went into a small hotel to eat some food.",
+        "[line 10] The waiter came and said, “Welcome gentlemen. We have very good food today.” They both told him to bring the food. The waiter brought the food and the old farmer began to eat first. The food was too hot that tears came to his eyes.",
+        "“Why are you crying, my friend?” asked the young farmer. He was ashamed to tell the truth, so he told a lie instead. He said, “I was thinking of my poor brother. The people [line 15] of my village killed him last week. They said that he was a thief, but this was not true. I am crying because I thought of him suddenly.”",
+        "“I am sorry to hear that,” said the young farmer. “I am sure he was a good man.” Then he began to eat. The soup was so hot that he also began to cry. The old farmer saw the tears in his eyes and asked him, “Why are you crying?”",
+        "[line 20] “My friend,” answered the farmer, “I am crying because you were not killed instead of your brother!”"
+      ],
+      "question_numbers": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "part": 1,
+      "note": "The paper gives no title. Line numbers (5–20) as printed."
+    }
+  ],
+  "questions": [
+    {
+      "id": "english-2018-g8-p1-q01",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 1,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-dialogue",
+      "stem": "Dialogue, gap (1). Mother: “Where is the key of my car?” Son: “______” Mother: “But it is not there! …”",
+      "options": {
+        "A": "May be you left it at your office.",
+        "B": "So let’s look for it in the kitchen.",
+        "C": "I don’t know. You usually put it in your bag.",
+        "D": "No, you didn’t. I have just come from the shop."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The son does not know, but he names a place: “You usually put it in your bag.”",
+        "The mother’s next words “But it is not there!” refer to that place (the bag).",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "He says: I don’t know, it is usually in your bag. She answers: it is not there.",
+      "tips": [
+        "“there” in the next line points back to a place in the answer."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Where are my glasses?  ______  But they are not there!",
+          "options": {
+            "A": "Maybe on the table.",
+            "B": "No, thank you.",
+            "C": "Yes, they are.",
+            "D": "I’m fine."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“there” = on the table."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q02",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 2,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-dialogue",
+      "stem": "Dialogue, gap (2). Mother: “But it is not there! Didn’t I give it to you?” Son: “______”",
+      "options": {
+        "A": "May be you left it at your office.",
+        "B": "So let’s look for it in the kitchen.",
+        "C": "I don’t know. You usually put it in your bag.",
+        "D": "No, you didn’t. I have just come from the shop."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "She asks if she gave him the key. He says no and explains why: he has just come from the shop.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "No, you didn’t – I was at the shop.",
+      "tips": [
+        "A yes/no question → an answer with Yes/No."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Didn’t you take my pen?  ______",
+          "options": {
+            "A": "No, I didn’t. I was outside.",
+            "B": "Maybe in the kitchen.",
+            "C": "Here you are.",
+            "D": "At five."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "No + reason."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue",
+        "short answer"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q03",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 3,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-dialogue",
+      "stem": "Dialogue, gap (3). Mother: “So where did I put it?” Son: “______” Mother: “But that cannot be. I came here in my car.”",
+      "options": {
+        "A": "May be you left it at your office.",
+        "B": "So let’s look for it in the kitchen.",
+        "C": "I don’t know. You usually put it in your bag.",
+        "D": "No, you didn’t. I have just come from the shop."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The son guesses a place: “Maybe you left it at your office.”",
+        "The mother says that cannot be, because she drove home (so the key came with her).",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "He guesses: the office. She says no, she drove home with it.",
+      "tips": [
+        "The next line (“I came here in my car”) answers the guess."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Where did I leave my bag?  ______  No, I didn’t go to school today.",
+          "options": {
+            "A": "Maybe at school.",
+            "B": "In the kitchen, of course.",
+            "C": "Yes, you did.",
+            "D": "Nothing."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The next line rejects the guess ‘school’."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue",
+        "maybe"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q04",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 4,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-dialogue",
+      "stem": "Dialogue, gap (4). Mother: “But that cannot be. I came here in my car.” Son: “______” Mother: “You are right.”",
+      "options": {
+        "A": "May be you left it at your office.",
+        "B": "So let’s look for it in the kitchen.",
+        "C": "I don’t know. You usually put it in your bag.",
+        "D": "No, you didn’t. I have just come from the shop."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The key must be in the house, so the son suggests: “let’s look for it in the kitchen.”",
+        "The mother agrees: “You are right.”",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "He suggests looking in the kitchen. She agrees.",
+      "tips": [
+        "Let’s … = a suggestion."
+      ],
+      "similar_questions": [
+        {
+          "stem": "We can’t find the ball.  ______  Good idea.",
+          "options": {
+            "A": "Let’s look under the bed.",
+            "B": "I went shopping.",
+            "C": "No, you didn’t.",
+            "D": "Two cups."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "suggestion."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue",
+        "en-functions"
+      ],
+      "keywords": [
+        "suggestion",
+        "let's"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "usage",
+          "topic": "Everyday expressions (requests, offers, apologies, advice)",
+          "rule": "Use polite forms for requests (Can/Could I …?), apologies (I'm sorry …) and advice (You should …).",
+          "note": "textbook: English Grade 8, Unit 1 (p. 1–21); English Grade 6, p. 131"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q05",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 5,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "There is ______ man in the house. I don’t know him.",
+      "options": {
+        "A": "a",
+        "B": "an",
+        "C": "the",
+        "D": "___ (no article)"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The speaker does not know the man, so he is not a known man → a man (not the).",
+        "man begins with a consonant sound → a.",
+        "Textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204."
+      ],
+      "explain_simple": "An unknown man → a man.",
+      "tips": [
+        "a/an = not known / first time."
+      ],
+      "similar_questions": [
+        {
+          "stem": "There is ______ dog in our garden. Whose is it?",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "the",
+            "D": "some"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "unknown → a."
+          ]
+        }
+      ],
+      "topics": [
+        "en-articles"
+      ],
+      "keywords": [
+        "a"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Articles (a, an, the, zero)",
+        "rule": "Use 'the' for a thing that is the only one (the moon, the sun) or already known; a/an for one thing that is not specific.",
+        "note": "textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q06",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 6,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The nurse is my ______. Everyone likes him.",
+      "options": {
+        "A": "mother",
+        "B": "sister",
+        "C": "brother",
+        "D": "aunt"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“him” shows the nurse is a man → brother.",
+        "Textbook: English Grade 6, p. 61; English Grade 7, p. 7–8."
+      ],
+      "explain_simple": "“him” → a man → brother.",
+      "tips": [
+        "Use the pronoun as a clue."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The doctor is my ______. She works in Keren.",
+          "options": {
+            "A": "uncle",
+            "B": "brother",
+            "C": "aunt",
+            "D": "father"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "She → aunt."
+          ]
+        }
+      ],
+      "topics": [
+        "en-pronouns"
+      ],
+      "keywords": [
+        "him"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Subject, object and possessive pronouns",
+        "rule": "Use an object pronoun (me, him, her, us, them) after a verb or preposition; possessive pronouns (mine, yours, his, hers, ours, theirs) replace a noun.",
+        "note": "textbook: English Grade 6, p. 61; English Grade 7, p. 7–8"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q07",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 7,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Ali was singing when Sara ______ in the wedding party.",
+      "options": {
+        "A": "dances",
+        "B": "dancing",
+        "C": "is dancing",
+        "D": "was dancing"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Both actions were going on at the same time in the past → past continuous: was dancing.",
+        "“dances” and “is dancing” are present; “dancing” alone is not a verb.",
+        "Textbook: English Grade 6, p. 175–176."
+      ],
+      "explain_simple": "Past, at the same time → was dancing.",
+      "tips": [
+        "Two long past actions at the same time: was … -ing."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I was reading while my brother ______.",
+          "options": {
+            "A": "sleeps",
+            "B": "was sleeping",
+            "C": "sleeping",
+            "D": "is sleeping"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "was sleeping."
+          ]
+        }
+      ],
+      "topics": [
+        "en-past-continuous"
+      ],
+      "keywords": [
+        "past continuous"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Past continuous",
+        "rule": "Past continuous = was/were + verb-ing; it shows an action that was going on at a time in the past.",
+        "note": "textbook: English Grade 6, p. 175–176"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q08",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 8,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ can I visit my uncle?",
+      "options": {
+        "A": "When",
+        "B": "What",
+        "C": "Why",
+        "D": "Which"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The sentence asks about a time to visit → When.",
+        "What/Which need a noun or object; Why does not make sense here.",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "Asking about time → When.",
+      "tips": [
+        "When = time."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ can I see the doctor? – At 3 o’clock.",
+          "options": {
+            "A": "When",
+            "B": "What",
+            "C": "Who",
+            "D": "Which"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "time."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions"
+      ],
+      "keywords": [
+        "when"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q09",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 9,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The students ______ test next Monday.",
+      "options": {
+        "A": "are have",
+        "B": "will have",
+        "C": "has",
+        "D": "having"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "next Monday → will have.",
+        "Textbook: English Grade 7, p. 20, 175."
+      ],
+      "explain_simple": "Next Monday → will have.",
+      "tips": [
+        "future → will + verb."
+      ],
+      "similar_questions": [
+        {
+          "stem": "We ______ a holiday next week.",
+          "options": {
+            "A": "will have",
+            "B": "has",
+            "C": "are have",
+            "D": "having"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "will have."
+          ]
+        }
+      ],
+      "topics": [
+        "en-future"
+      ],
+      "keywords": [
+        "will"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Future (will / going to)",
+        "rule": "Future: will + base verb (I will go) or am/is/are going to + base verb.",
+        "note": "textbook: English Grade 7, p. 20, 175"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q10",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 10,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My sister came to school ______ Wednesday.",
+      "options": {
+        "A": "for",
+        "B": "at",
+        "C": "in",
+        "D": "on"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "day → on.",
+        "Textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181."
+      ],
+      "explain_simple": "on Wednesday.",
+      "tips": [
+        "on + day."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The shop is closed ______ Sunday.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at",
+            "D": "for"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "on."
+          ]
+        }
+      ],
+      "topics": [
+        "en-prepositions"
+      ],
+      "keywords": [
+        "on"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Prepositions (place, time, transport)",
+        "rule": "Travel: by car/bus/plane; time: at 5 o'clock, on Monday, in June; place: in, on, under, between, next to.",
+        "note": "textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q11",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 11,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ she is his neighbour, he doesn’t know her name.",
+      "options": {
+        "A": "However",
+        "B": "Because",
+        "C": "Although",
+        "D": "But"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Neighbour but doesn’t know her name → contrast in one sentence → Although.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "Contrast in one sentence → Although.",
+      "tips": [
+        "Although + clause, clause."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ it was cold, he went swimming.",
+          "options": {
+            "A": "Because",
+            "B": "Although",
+            "C": "However",
+            "D": "So"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "contrast."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "although"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q12",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 12,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "How ______ children are there in the classroom?",
+      "options": {
+        "A": "more",
+        "B": "many",
+        "C": "most",
+        "D": "much"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "children → countable → How many.",
+        "Textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7."
+      ],
+      "explain_simple": "Children → How many.",
+      "tips": [
+        "How many + plural."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How ______ teachers work here?",
+          "options": {
+            "A": "much",
+            "B": "many",
+            "C": "more",
+            "D": "most"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "many."
+          ]
+        }
+      ],
+      "topics": [
+        "en-quantifiers",
+        "en-questions"
+      ],
+      "keywords": [
+        "how many"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Quantity words (some, any, much, many, too, enough)",
+        "rule": "some = an amount with plural or uncountable nouns; too = more than is good; very = a lot; enough = as much as needed.",
+        "note": "textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q13",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 13,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Question: ______  Answer: I think it was at 7 o’clock.",
+      "options": {
+        "A": "Where did he come home?",
+        "B": "Why did he come home?",
+        "C": "How did he come home?",
+        "D": "When did he come home?"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“at 7 o’clock” is a time → When.",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "A time → When.",
+      "tips": [
+        "When → time."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Question: ______  Answer: On Friday.",
+          "options": {
+            "A": "When did you arrive?",
+            "B": "Where did you arrive?",
+            "C": "Why did you arrive?",
+            "D": "How did you arrive?"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "time."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions"
+      ],
+      "keywords": [
+        "when"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q14",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 14,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A car is expensive ______ faster than a donkey.",
+      "options": {
+        "A": "but",
+        "B": "or",
+        "C": "as",
+        "D": "because"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“expensive” is a bad point and “faster” is a good point → contrast → but.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "Bad point + good point → but.",
+      "tips": [
+        "but = contrast."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The phone is old ______ it works well.",
+          "options": {
+            "A": "but",
+            "B": "or",
+            "C": "because",
+            "D": "as"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "contrast."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "but"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q15",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 15,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Did you ______ your breakfast?",
+      "options": {
+        "A": "eating",
+        "B": "eat",
+        "C": "ate",
+        "D": "eats"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "did + base verb → eat.",
+        "Textbook: English Grade 7, p. 72; English Grade 8, p. 7."
+      ],
+      "explain_simple": "Did + eat.",
+      "tips": [
+        "did + base verb."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Did he ______ the door?",
+          "options": {
+            "A": "close",
+            "B": "closed",
+            "C": "closing",
+            "D": "closes"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "close."
+          ]
+        }
+      ],
+      "topics": [
+        "en-past-simple",
+        "en-questions"
+      ],
+      "keywords": [
+        "did"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Past simple",
+        "rule": "Past simple: verb-ed or irregular past form; questions and negatives use did + base verb (Did he call?).",
+        "note": "textbook: English Grade 7, p. 72; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q16",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 16,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Maths is not ______ English for me. I don’t have good result in the subject.",
+      "options": {
+        "A": "harder than",
+        "B": "difficult than",
+        "C": "as simple as",
+        "D": "as difficult as"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The second sentence shows maths is hard for the writer.",
+        "“Maths is not as simple as English” = maths is harder. That fits.",
+        "“not harder than” and “not as difficult as” would mean maths is easier. “difficult than” is wrong grammar.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "Maths is hard for me → not as simple as English.",
+      "tips": [
+        "not as + adjective + as = less … than."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I always fail science. Science is not ______ history for me.",
+          "options": {
+            "A": "as easy as",
+            "B": "harder than",
+            "C": "as hard as",
+            "D": "difficult than"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "science is harder."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "not as ... as"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q17",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 17,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "We sometimes ______ to the radio for the news.",
+      "options": {
+        "A": "listens",
+        "B": "listen",
+        "C": "listening",
+        "D": "are listen"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "sometimes → habit; we → listen (no -s).",
+        "Textbook: English Grade 6, p. 57; English Grade 8, p. 7."
+      ],
+      "explain_simple": "We + listen.",
+      "tips": [
+        "I/you/we/they + base verb."
+      ],
+      "similar_questions": [
+        {
+          "stem": "They often ______ football.",
+          "options": {
+            "A": "plays",
+            "B": "play",
+            "C": "playing",
+            "D": "are play"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "play."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-simple",
+        "en-adverbs"
+      ],
+      "keywords": [
+        "sometimes"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present simple",
+        "rule": "Present simple: he/she/it takes -s (he watches); questions and negatives use do/does + base verb (Does he help?).",
+        "note": "textbook: English Grade 6, p. 57; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Adverbs (frequency, certainty, manner)",
+          "rule": "Adverbs of certainty: definitely = 100% sure; probably = nearly sure; maybe/perhaps = not sure.",
+          "note": "textbook: English Grade 7, p. 56, 60–61; English Grade 8, p. 52"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q18",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 18,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A donkey is not as big as an elephant. This means the same as:",
+      "options": {
+        "A": "A donkey is bigger than an elephant.",
+        "B": "An elephant is bigger than a donkey.",
+        "C": "A donkey and an elephant are not big.",
+        "D": "An elephant is smaller than a donkey."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "not as big as → the elephant is bigger.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "The elephant is bigger.",
+      "tips": [
+        "not as … as = less."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A cat is not as fast as a horse. This means:",
+          "options": {
+            "A": "A horse is faster than a cat.",
+            "B": "A cat is faster.",
+            "C": "They are the same.",
+            "D": "A horse is slower."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "horse faster."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison",
+        "en-same-meaning"
+      ],
+      "keywords": [
+        "not as big as"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "usage",
+          "topic": "Sentences with the same meaning",
+          "rule": "Check who does what, the tense and the comparison; the new sentence must say exactly the same thing.",
+          "note": "textbook: English Grade 7, p. 16 (comparison); English Grade 8, p. 105 (be able to)"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q19",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 19,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ tell me your name and then your age.",
+      "options": {
+        "A": "Both",
+        "B": "Secondly",
+        "C": "Before",
+        "D": "First"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“… and then …” shows an order of steps → First.",
+        "Textbook: English Grade 7, p. 56, 60–61; English Grade 8, p. 52."
+      ],
+      "explain_simple": "First … then …",
+      "tips": [
+        "Sequence words: first, then, next, finally."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ wash your hands, then eat.",
+          "options": {
+            "A": "First",
+            "B": "Finally",
+            "C": "Secondly",
+            "D": "Both"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "first."
+          ]
+        }
+      ],
+      "topics": [
+        "en-adverbs"
+      ],
+      "keywords": [
+        "first",
+        "sequence"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Adverbs (frequency, certainty, manner)",
+        "rule": "Sequence adverbials (first, secondly, then, next, finally) show the order of actions (English Grade 8, Unit 9).",
+        "note": "textbook: English Grade 7, p. 56, 60–61; English Grade 8, p. 52"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q20",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 20,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ pencil is this? Is it yours?",
+      "options": {
+        "A": "Who",
+        "B": "Those",
+        "C": "Whose",
+        "D": "What"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Asking about the owner → Whose pencil?",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "Owner → Whose.",
+      "tips": [
+        "Whose + noun."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ shoes are these?",
+          "options": {
+            "A": "Who",
+            "B": "Whose",
+            "C": "What",
+            "D": "Where"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "owner."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions"
+      ],
+      "keywords": [
+        "whose"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q21",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 21,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The farmer ploughed the land. The passive form of this active sentence is:",
+      "options": {
+        "A": "The farmer ploughs the land.",
+        "B": "The land was ploughed by the farmer.",
+        "C": "The land ploughed the farmer",
+        "D": "The farmer was ploughed by the land."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Object (the land) → subject; ploughed → was ploughed; by the farmer.",
+        "Textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12."
+      ],
+      "explain_simple": "The land was ploughed by the farmer.",
+      "tips": [
+        "Passive keeps the tense: past → was/were + past participle."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Aster cooked the food. Passive:",
+          "options": {
+            "A": "The food was cooked by Aster.",
+            "B": "Aster was cooked.",
+            "C": "The food cooks Aster.",
+            "D": "Aster cooks the food."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "was cooked."
+          ]
+        }
+      ],
+      "topics": [
+        "en-passive"
+      ],
+      "keywords": [
+        "passive"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Passive voice",
+        "rule": "Passive = am/is/are/was/were + past participle (Cars are sold). Use it when the doer is not important.",
+        "note": "textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q22",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 22,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Lewhat said, “She is excellent.” The correct indirect speech for the sentence is:",
+      "options": {
+        "A": "Lewhat said that she was excellent.",
+        "B": "Lewhat said that she is excellent.",
+        "C": "Lewhat said that I am excellent.",
+        "D": "Lewhat said that you are excellent."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“she” stays “she”; is → was.",
+        "Textbook: English Grade 8, p. 151, 174–175."
+      ],
+      "explain_simple": "is → was.",
+      "tips": [
+        "Reported speech: present → past."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Ali said, “He is my friend.”",
+          "options": {
+            "A": "Ali said that he was his friend.",
+            "B": "Ali said that I am his friend.",
+            "C": "Ali said he is my friend.",
+            "D": "Ali said you are friend."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "is → was."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reported-speech"
+      ],
+      "keywords": [
+        "indirect speech"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Reported (indirect) speech",
+        "rule": "In reported speech after 'said', change the pronoun (I → he/she) and move the tense back (am → was, will → would).",
+        "note": "textbook: English Grade 8, p. 151, 174–175"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q23",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 23,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A carpenter is a person ______ makes tables and chairs.",
+      "options": {
+        "A": "which",
+        "B": "can",
+        "C": "whose",
+        "D": "who"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "person → who.",
+        "Textbook: English Grade 8, p. 115."
+      ],
+      "explain_simple": "person → who.",
+      "tips": [
+        "who = people."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A pilot is a person ______ flies planes.",
+          "options": {
+            "A": "which",
+            "B": "who",
+            "C": "whose",
+            "D": "where"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "who."
+          ]
+        }
+      ],
+      "topics": [
+        "en-relative-clauses"
+      ],
+      "keywords": [
+        "who"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Relative clauses (who, which, that, where, whose)",
+        "rule": "A relative clause starts with who (people), which (things), that, where (places), when (times) or whose (possession).",
+        "note": "textbook: English Grade 8, p. 115"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q24",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 24,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is correctly capitalised and punctuated?",
+      "options": {
+        "A": "Can Zahra read, write, speak and listen to English.",
+        "B": "Can Zahra read, write, speak and listen to English.",
+        "C": "Can Zahra read, write, speak and listen to English?",
+        "D": "Can Zahra read, write, speak and listen to english?"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The sentence is a question (Can …?), so it ends with a question mark.",
+        "English is a language name → capital E. D has a small e.",
+        "Textbook: English Grade 7, p. 58, 172; English Grade 8, Unit 2 and Unit 8 punctuation."
+      ],
+      "explain_simple": "A question ends with “?” and English has a capital E.",
+      "tips": [
+        "Questions → ?; languages → capital letter."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is correct?",
+          "options": {
+            "A": "Does he speak arabic?",
+            "B": "Does he speak Arabic?",
+            "C": "Does he speak Arabic.",
+            "D": "does he speak Arabic?"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "capital + ?"
+          ]
+        }
+      ],
+      "topics": [
+        "en-punctuation"
+      ],
+      "keywords": [
+        "question mark",
+        "capital letters"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "punctuation",
+        "topic": "Punctuation and capital letters",
+        "rule": "Names of people, places, days and months start with a capital letter; an apostrophe shows possession (Ali's) or a missing letter (don't).",
+        "note": "textbook: English Grade 7, p. 58, 172; English Grade 8, Unit 2 and Unit 8 punctuation"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "Misprint: options A and B are printed identically (both end with a full stop). Answer C is not affected."
+    },
+    {
+      "id": "english-2018-g8-p1-q25",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 25,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Is she ______ ride a bicycle?",
+      "options": {
+        "A": "able to",
+        "B": "can able to",
+        "C": "can",
+        "D": "A and C"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“Is she … ride” needs “able to”: Is she able to ride …?",
+        "“Is she can ride” is wrong (can makes its own question: Can she ride?).",
+        "Textbook: English Grade 8, p. 105."
+      ],
+      "explain_simple": "Is she able to ride? (not “Is she can”)",
+      "tips": [
+        "be able to → Is she able to …? ; can → Can she …?"
+      ],
+      "similar_questions": [
+        {
+          "stem": "Are you ______ swim?",
+          "options": {
+            "A": "able to",
+            "B": "can",
+            "C": "can able to",
+            "D": "A and B"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Are you able to …"
+          ]
+        }
+      ],
+      "topics": [
+        "en-ability"
+      ],
+      "keywords": [
+        "able to"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Ability: can / be able to",
+        "rule": "'be able to' means the same as 'can' (ability).",
+        "note": "textbook: English Grade 8, p. 105"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q26",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 26,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If you are late, the teacher ______ angry.",
+      "options": {
+        "A": "will",
+        "B": "will be",
+        "C": "can",
+        "D": "has"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "angry is an adjective, so it needs a verb “be”: will be angry.",
+        "Textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129."
+      ],
+      "explain_simple": "will be + angry.",
+      "tips": [
+        "will + be + adjective."
+      ],
+      "similar_questions": [
+        {
+          "stem": "If you eat too much, you ______ sick.",
+          "options": {
+            "A": "will",
+            "B": "will be",
+            "C": "has",
+            "D": "are be"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "will be sick."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conditionals"
+      ],
+      "keywords": [
+        "will be"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conditional sentences",
+        "rule": "First conditional: If + present simple, will + base verb. Zero conditional (always true): If + present, present. Second: If + past, would + base verb.",
+        "note": "textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q27",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 27,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is not correct?",
+      "options": {
+        "A": "She is climb the tree.",
+        "B": "She is an engineer.",
+        "C": "She has written a book.",
+        "D": "She ate banana."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“is climb” is wrong: we need “is climbing” or “climbs”.",
+        "B and C are correct. D is weak (better “a banana”), but A is clearly the wrong one.",
+        "Textbook: English Grade 7, p. 39; English Grade 8, p. 7."
+      ],
+      "explain_simple": "“She is climb” is wrong. It should be “She is climbing”.",
+      "tips": [
+        "is/are + verb-ing, never is + base verb."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is not correct?",
+          "options": {
+            "A": "He is play football.",
+            "B": "He plays football.",
+            "C": "He is playing football.",
+            "D": "He played football."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "is playing."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-continuous"
+      ],
+      "keywords": [
+        "is + -ing"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present continuous",
+        "rule": "Present continuous = am/is/are + verb-ing, for actions happening now.",
+        "note": "textbook: English Grade 7, p. 39; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "D ‘She ate banana.’ is also not good English (missing ‘a’: ‘She ate a banana.’). A ‘She is climb the tree.’ is the intended wrong sentence. Teacher check."
+    },
+    {
+      "id": "english-2018-g8-p1-q28",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 28,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ does a lion live?",
+      "options": {
+        "A": "What",
+        "B": "Which",
+        "C": "When",
+        "D": "Where"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "We ask about the place a lion lives → Where.",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "Place → Where.",
+      "tips": [
+        "Where = place."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ do fish live? – In water.",
+          "options": {
+            "A": "Where",
+            "B": "When",
+            "C": "What",
+            "D": "Who"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "place."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions"
+      ],
+      "keywords": [
+        "where"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q29",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 29,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The police ______ the thief.",
+      "options": {
+        "A": "captured",
+        "B": "wasted",
+        "C": "urgent",
+        "D": "A and B"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The police catch thieves → captured.",
+        "wasted does not fit; urgent is an adjective.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "The police captured (caught) the thief.",
+      "tips": [
+        "Choose the word whose meaning fits."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The cat ______ a mouse.",
+          "options": {
+            "A": "caught",
+            "B": "wasted",
+            "C": "urgent",
+            "D": "A and B"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "caught."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "captured"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q30",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 30,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "As table is to a carpenter, ______ is to a writer.",
+      "options": {
+        "A": "chair",
+        "B": "car",
+        "C": "food",
+        "D": "novel"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "A carpenter makes tables; a writer writes (makes) novels.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "Carpenter makes a table; writer makes a novel.",
+      "tips": [
+        "worker – thing he makes."
+      ],
+      "similar_questions": [
+        {
+          "stem": "As bread is to a baker, ______ is to a tailor.",
+          "options": {
+            "A": "clothes",
+            "B": "shoes",
+            "C": "bread",
+            "D": "cars"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "a tailor makes clothes."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "analogy"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q31",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 31,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following has correct spelling?",
+      "options": {
+        "A": "choise",
+        "B": "touf",
+        "C": "cancel",
+        "D": "simbol"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Correct: choice, tough, cancel, symbol. Only “cancel” is right.",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "Only “cancel” is right.",
+      "tips": [
+        "choice, tough, symbol are Grade 8 vocabulary words."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which has correct spelling?",
+          "options": {
+            "A": "relaks",
+            "B": "relax",
+            "C": "rilax",
+            "D": "relacs"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "relax."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "spelling"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q32",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 32,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Our school garden is very beautiful. It ______ a lot of people.",
+      "options": {
+        "A": "happy",
+        "B": "attracts",
+        "C": "rejects",
+        "D": "chooses"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Beautiful things make people want to come and look → attracts.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "Beautiful → it attracts people.",
+      "tips": [
+        "attract = pull people towards it."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The new park ______ many visitors.",
+          "options": {
+            "A": "attracts",
+            "B": "rejects",
+            "C": "happy",
+            "D": "wastes"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "attracts."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "attract"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q33",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 33,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "There is a rapid increase of students in the school. It has doubled in recent years. What is the opposite of rapid?",
+      "options": {
+        "A": "small",
+        "B": "slow",
+        "C": "decrease",
+        "D": "fast"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "rapid = fast. The opposite is slow.",
+        "Textbook: English Grade 7, p. 222; English Grade 8, p. 160."
+      ],
+      "explain_simple": "Rapid = fast. Opposite = slow.",
+      "tips": [
+        "First find the meaning, then the opposite."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is the opposite of ancient?",
+          "options": {
+            "A": "old",
+            "B": "modern",
+            "C": "big",
+            "D": "slow"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "modern."
+          ]
+        }
+      ],
+      "topics": [
+        "en-opposites-synonyms"
+      ],
+      "keywords": [
+        "rapid",
+        "opposite"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Opposites and words with the same meaning",
+        "rule": "A synonym has the same meaning (hit = strike); an opposite has the reverse meaning (happy – sad).",
+        "note": "textbook: English Grade 7, p. 222; English Grade 8, p. 160"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q34",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 34,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In which order would the following words be written in a dictionary?",
+      "options": {
+        "A": "drink, drive, draw, distance, divide",
+        "B": "divide, drink, drive, draw, distance",
+        "C": "distance, divide, drink, draw, drive",
+        "D": "distance, divide, draw, drink, drive"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "di- before dr-: distance (dis), divide (div) → s before v.",
+        "dr-: draw (a) before drink/drive (i); drink (n) before drive (v).",
+        "Order: distance, divide, draw, drink, drive.",
+        "Textbook: English Grade 6, p. 32, 41; English Grade 8, p. 101."
+      ],
+      "explain_simple": "distance, divide, draw, drink, drive.",
+      "tips": [
+        "Second letter i comes before r."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Dictionary order:",
+          "options": {
+            "A": "cat, cap, car",
+            "B": "cap, car, cat",
+            "C": "car, cat, cap",
+            "D": "cat, car, cap"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "p, r, t."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dictionary-order"
+      ],
+      "keywords": [
+        "dictionary"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Alphabetical (dictionary) order",
+        "rule": "Dictionary order: compare the first letters; if they are the same, compare the second letters, and so on.",
+        "note": "textbook: English Grade 6, p. 32, 41; English Grade 8, p. 101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q35",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 35,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-table",
+      "stem": "Which animal is more expensive than a donkey?",
+      "options": {
+        "A": "a donkey",
+        "B": "a cow",
+        "C": "a dog",
+        "D": "a hen"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Donkey 3000 Nakfa; cow 5000 Nakfa → the cow costs more.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "A cow (5000) costs more than a donkey (3000).",
+      "tips": [
+        "more expensive = higher price."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which animal is cheaper than a cow but more expensive than a hen?",
+          "options": {
+            "A": "donkey",
+            "B": "dog",
+            "C": "cow",
+            "D": "hen"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "3000."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-comparison"
+      ],
+      "keywords": [
+        "more expensive"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Comparatives and superlatives",
+          "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+          "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q36",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 36,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-table",
+      "stem": "A ______ is cheaper than a donkey and protects our home from thieves.",
+      "options": {
+        "A": "hen",
+        "B": "cow",
+        "C": "dog",
+        "D": "All are answers."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Protects our home = looks after our houses → dog (and it is free, so cheaper).",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "A dog looks after our houses and is free.",
+      "tips": [
+        "Both parts must be true."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A ______ gives eggs.",
+          "options": {
+            "A": "cow",
+            "B": "donkey",
+            "C": "dog",
+            "D": "hen"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "hen."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "cheaper"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q37",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 37,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-table",
+      "stem": "A ______ is the least expensive of all animals.",
+      "options": {
+        "A": "cow",
+        "B": "donkey",
+        "C": "dog",
+        "D": "hen"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "least expensive = cheapest. A dog is free (0 Nakfa), cheaper than a hen (150).",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "A dog is free. It is the cheapest.",
+      "tips": [
+        "least expensive = cheapest; free = costs nothing."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The most expensive animal is the ______.",
+          "options": {
+            "A": "cow",
+            "B": "donkey",
+            "C": "dog",
+            "D": "hen"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "5000."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-comparison"
+      ],
+      "keywords": [
+        "least expensive"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Comparatives and superlatives",
+          "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+          "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q38",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 38,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-table",
+      "stem": "A ______ has two legs and is used for its meat.",
+      "options": {
+        "A": "donkey",
+        "B": "cow",
+        "C": "dog",
+        "D": "hen"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "A hen has two legs (the others have four) and gives meat.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "A hen has two legs and gives meat.",
+      "tips": [
+        "Use what you know (legs) + the table (meat)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A ______ has four legs and gives milk.",
+          "options": {
+            "A": "hen",
+            "B": "cow",
+            "C": "dog",
+            "D": "donkey"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "cow."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "hen"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q39",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 39,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-table",
+      "stem": "A cow is more useful than a dog because ______",
+      "options": {
+        "A": "it protects our animals from hyena and fox.",
+        "B": "it gives us milk to drink and meat to eat.",
+        "C": "it helps to look after our animals and houses.",
+        "D": "All are answers."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The table: a cow gives milk and meat. A and C are the uses of the dog.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "A cow gives milk and meat.",
+      "tips": [
+        "Match the animal to its own row."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A donkey is useful because it ______",
+          "options": {
+            "A": "carries goods",
+            "B": "gives eggs",
+            "C": "gives milk",
+            "D": "protects houses"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "carries goods and fetches water."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "useful"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q40",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 40,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-table",
+      "stem": "Which of the following sentences is false?",
+      "options": {
+        "A": "People use a donkey to protect their homes.",
+        "B": "People use a cow for food.",
+        "C": "All the animals have different uses.",
+        "D": "B and C"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The dog protects homes; the donkey carries goods. So A is false.",
+        "B true (milk and meat). C true (each animal has its own list of uses).",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "A donkey carries goods; it does not protect homes. A is false.",
+      "tips": [
+        "Test each sentence with the table."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is false?",
+          "options": {
+            "A": "A hen gives eggs.",
+            "B": "A dog is free.",
+            "C": "A cow costs 150 Nakfa.",
+            "D": "A donkey fetches water."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "5000."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "false"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q41",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 41,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "The two farmers were travelling:",
+      "options": {
+        "A": "to the old farmer’s village.",
+        "B": "to the same town.",
+        "C": "to the young farmer’s village.",
+        "D": "to different towns."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“He was also travelling to the same town and they agreed to go together.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "They went to the same town.",
+      "tips": [
+        "Find the words of the options in the text."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Where did the farmers eat?",
+          "options": {
+            "A": "at home",
+            "B": "in a small hotel",
+            "C": "in the field",
+            "D": "in the king’s house"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "a small hotel."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "detail"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q42",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 42,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "The old farmer did not say one of the following:",
+      "options": {
+        "A": "He was the wisest man in his village.",
+        "B": "He was the bravest man in his village.",
+        "C": "He was the king of his village.",
+        "D": "He was the strongest man in his village."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "He said he was the bravest, strongest and wisest, and that the KING asks him for advice.",
+        "He never said he was the king. → C.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "He said the king asks him for advice; he did not say he was the king.",
+      "tips": [
+        "“did not say” – find the one missing from the text."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What did the old farmer say he killed?",
+          "options": {
+            "A": "a hyena",
+            "B": "a lion",
+            "C": "a snake",
+            "D": "a thief"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "a lion."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "not"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q43",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 43,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "The word “bare hands” (line 6) means:",
+      "options": {
+        "A": "without a weapon",
+        "B": "with a weapon",
+        "C": "without hands",
+        "D": "B and C"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“I killed a lion with my bare hands” = only with my hands, no knife or spear → without a weapon.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "Bare hands = only hands, no weapon.",
+      "tips": [
+        "bare = with nothing on or in it."
+      ],
+      "similar_questions": [
+        {
+          "stem": "He walked on the hot sand with bare feet. ‘Bare feet’ means:",
+          "options": {
+            "A": "without shoes",
+            "B": "with shoes",
+            "C": "big feet",
+            "D": "tired feet"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "no shoes."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-vocab"
+      ],
+      "keywords": [
+        "bare hands"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Word meaning in a text",
+        "rule": "Put each option in place of the word; the one that keeps the meaning of the sentence is correct.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q44",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 44,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "The word “they” (line 11) refers to:",
+      "options": {
+        "A": "the two farmers and the waiter",
+        "B": "the two farmers",
+        "C": "the people of the village",
+        "D": "the people of the town"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“They both told him (the waiter) to bring the food.” → they = the two farmers.",
+        "Textbook: English Grade 7, p. 7–8 (pronouns)."
+      ],
+      "explain_simple": "The two farmers asked the waiter for food.",
+      "tips": [
+        "“him” here is the waiter, so “they” are the others."
+      ],
+      "similar_questions": [
+        {
+          "stem": "“The boys met the teacher. They greeted him.” ‘They’ =",
+          "options": {
+            "A": "the boys",
+            "B": "the teacher",
+            "C": "the boys and the teacher",
+            "D": "the parents"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "the boys."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-reference"
+      ],
+      "keywords": [
+        "reference"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Reference words (he, she, it, them, this)",
+        "rule": "A pronoun (he, it, them, this) stands for a noun that came before it; read the sentences before it.",
+        "note": "textbook: English Grade 7, p. 7–8 (pronouns)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q45",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 45,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "Tears came to the eyes of the farmers because …",
+      "options": {
+        "A": "the food was too hot.",
+        "B": "they were angry with one another.",
+        "C": "they were angry with the people.",
+        "D": "the old farmer’s brother was killed."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“The food was too hot that tears came to his eyes.” and “The soup was so hot that he also began to cry.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "The food was very hot.",
+      "tips": [
+        "Find the real reason, not the lie."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Why did the old farmer tell a lie?",
+          "options": {
+            "A": "He was ashamed to tell the truth.",
+            "B": "He was hungry.",
+            "C": "He was sad.",
+            "D": "He was the king."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“He was ashamed to tell the truth”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "reason"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q46",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 46,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "The word “him” (line 15) refers to:",
+      "options": {
+        "A": "The waiter",
+        "B": "the young farmer",
+        "C": "the old farmer",
+        "D": "the old farmer’s brother"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“I was thinking of my poor brother. The people of my village killed him last week.” → him = the brother.",
+        "Textbook: English Grade 7, p. 7–8 (pronouns)."
+      ],
+      "explain_simple": "“him” = the old farmer’s brother.",
+      "tips": [
+        "Read the sentence before."
+      ],
+      "similar_questions": [
+        {
+          "stem": "“My dog was lost. We found him near the river.” ‘him’ =",
+          "options": {
+            "A": "the river",
+            "B": "my dog",
+            "C": "we",
+            "D": "the owner"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "the dog."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-reference"
+      ],
+      "keywords": [
+        "reference",
+        "him"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Reference words (he, she, it, them, this)",
+        "rule": "A pronoun (he, it, them, this) stands for a noun that came before it; read the sentences before it.",
+        "note": "textbook: English Grade 7, p. 7–8 (pronouns)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q47",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 47,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "The word “suddenly” (line 16) means:",
+      "options": {
+        "A": "happening sadly",
+        "B": "happening slowly",
+        "C": "happening quickly",
+        "D": "happening badly"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "suddenly = quickly and without warning.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "Suddenly = very quickly, without warning.",
+      "tips": [
+        "suddenly ↔ slowly."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The rain started suddenly. ‘Suddenly’ means:",
+          "options": {
+            "A": "quickly, without warning",
+            "B": "slowly",
+            "C": "every day",
+            "D": "quietly"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "quickly."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-vocab"
+      ],
+      "keywords": [
+        "suddenly"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Word meaning in a text",
+        "rule": "Put each option in place of the word; the one that keeps the meaning of the sentence is correct.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q48",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 48,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "Which of the following is not true about the story?",
+      "options": {
+        "A": "Both farmers ate the food.",
+        "B": "The old farmer ate first.",
+        "C": "The young farmer ate before the old farmer.",
+        "D": "Both farmers cried."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“the old farmer began to eat first.” So the young farmer did NOT eat before him. C is not true.",
+        "Textbook: English Grade 8, reading lessons."
+      ],
+      "explain_simple": "The old farmer ate first. C is not true.",
+      "tips": [
+        "first / before / after – read carefully."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is not true?",
+          "options": {
+            "A": "The waiter brought food.",
+            "B": "They were hungry.",
+            "C": "The young farmer talked a lot.",
+            "D": "The soup was hot."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "the old farmer talked a lot."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "not true"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Inference and true/false",
+        "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+        "note": "textbook: English Grade 8, reading lessons"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q49",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 49,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "Which of the following is true about the story?",
+      "options": {
+        "A": "Both farmers told the truth why they were crying.",
+        "B": "Both farmers were crying because the food was too hot.",
+        "C": "The two farmers were friends for a long time.",
+        "D": "The old farmer’s brother was killed by the village people."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The real reason for both was the hot food → B true.",
+        "A false (the old farmer lied). C false (they met on the way). D is only the old farmer’s lie.",
+        "Textbook: English Grade 8, reading lessons."
+      ],
+      "explain_simple": "Both cried because the food was hot.",
+      "tips": [
+        "Don’t trust what a liar says in a story."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Why did the young farmer say “you were not killed instead of your brother”?",
+          "options": {
+            "A": "to laugh at the old farmer’s lie",
+            "B": "because he was sad",
+            "C": "because the king said so",
+            "D": "because he was a thief"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "He answered the lie with a joke."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "true"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Inference and true/false",
+        "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+        "note": "textbook: English Grade 8, reading lessons"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2018-g8-p1-q50",
+      "exam_id": "english-2018-g8",
+      "part": 1,
+      "number": 50,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2018-story",
+      "stem": "Choose the best title for the story.",
+      "options": {
+        "A": "The waiter and the hotel",
+        "B": "The rich and the poor farmers",
+        "C": "Old and young people",
+        "D": "The two farmers"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The story is about the old farmer and the young farmer.",
+        "The text says nothing about rich or poor; the waiter is a small part. → The two farmers.",
+        "Textbook: English Grade 8, Unit 10 (p. 199–220)."
+      ],
+      "explain_simple": "The story is about two farmers.",
+      "tips": [
+        "Title = the main people or the main event."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A story tells how a boy and his dog find a lost child. Best title:",
+          "options": {
+            "A": "A boy, his dog and the lost child",
+            "B": "Dogs",
+            "C": "The forest",
+            "D": "Food"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "whole story."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-main-idea"
+      ],
+      "keywords": [
+        "title"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Main idea and best title",
+        "rule": "The best title covers the whole text, not only one part.",
+        "note": "textbook: English Grade 8, Unit 10 (p. 199–220)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    }
+  ]
+}

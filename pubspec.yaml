@@ -1,32 +1,85 @@
-name: bee_plus
-description: Bee Plus — Junior G6–G8 offline study app.
-publish_to: "none"
+name: junior
+description: "Bee Plus — offline Grade 6-8. Locked until Bee Seller unlocks this phone."
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
+  sdk: ^3.8.0
+  flutter: ">=3.32.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.3.0
+  flutter_math_fork: ^0.7.4
+  shared_preferences: ^2.5.5
   crypto: ^3.0.6
-  flutter_secure_storage: ^9.2.4
-  device_info_plus: ^11.2.0
-  uuid: ^4.5.1
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
   qr_flutter: ^4.1.0
   mobile_scanner: ^5.2.3
-  webview_flutter: ^4.10.0
-  webview_flutter_android: ^4.10.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
-  uses-material-design: true
+  uses-material-design: false
   assets:
-    - assets/junior/
+    - assets/junior/content/
+    - assets/junior/content/exams/
+    - assets/junior/content/notes/
+    - assets/junior/content/media/
+    - assets/junior/content/notes/svg/citizenship_6/
+    - assets/junior/content/notes/svg/citizenship_7/
+    - assets/junior/content/notes/svg/citizenship_8/
+    - assets/junior/content/notes/svg/english_8/
+    - assets/junior/content/notes/svg/ict_8/
+    - assets/junior/content/notes/svg/life_skills_6/
+    - assets/junior/content/notes/svg/life_skills_7/
+    - assets/junior/content/notes/svg/life_skills_8/
+    - assets/junior/content/notes/svg/mathematics_6/
+    - assets/junior/content/notes/svg/mathematics_7/
+    - assets/junior/content/notes/svg/mathematics_8/
+    - assets/junior/content/notes/svg/science_6/
+    - assets/junior/content/notes/svg/science_7/
+    - assets/junior/content/notes/svg/science_8/
+    - assets/junior/content/notes/svg/social_studies_6/
+    - assets/junior/content/notes/svg/social_studies_7/
+    - assets/junior/content/notes/svg/social_studies_8/
+    - assets/junior/content/notes/svg/tigrigna_6/
+    - assets/junior/content/notes/svg/tigrigna_7/
+  fonts:
+    - family: JuniorNunito
+      fonts:
+        - asset: assets/junior/fonts/Nunito-500.ttf
+          weight: 500
+        - asset: assets/junior/fonts/Nunito-600.ttf
+          weight: 600
+        - asset: assets/junior/fonts/Nunito-700.ttf
+          weight: 700
+        - asset: assets/junior/fonts/Nunito-800.ttf
+          weight: 800
+        - asset: assets/junior/fonts/Nunito-900.ttf
+          weight: 900
+        - asset: assets/junior/fonts/Nunito-Italic-700.ttf
+          weight: 700
+          style: italic
+        - asset: assets/junior/fonts/Nunito-Italic-800.ttf
+          weight: 800
+          style: italic
+    - family: JuniorNunito1000
+      fonts:
+        - asset: assets/junior/fonts/Nunito-1000.ttf
+          weight: 900
+    - family: JuniorEthiopic
+      fonts:
+        - asset: assets/junior/fonts/NotoSansEthiopic-500.ttf
+          weight: 500
+        - asset: assets/junior/fonts/NotoSansEthiopic-600.ttf
+          weight: 600
+        - asset: assets/junior/fonts/NotoSansEthiopic-700.ttf
+          weight: 700
+        - asset: assets/junior/fonts/NotoSansEthiopic-800.ttf
+          weight: 800
+        - asset: assets/junior/fonts/NotoSansEthiopic-900.ttf
+          weight: 900

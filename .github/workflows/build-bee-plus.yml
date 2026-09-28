@@ -10,56 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: "17"
-
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
           cache: true
-
       - name: Accept Android licenses
         run: yes | flutter doctor --android-licenses || true
-
-      - name: Make launcher icons
-        run: |
-          pip install -q pillow
-          python3 tools/make_icon.py
-
-      - name: Fetch Junior preview pack
-        run: |
-          mkdir -p assets/junior assets/junior_notes
-          pip install -q 'gdown>=5.0'
-          gdown "https://drive.google.com/uc?id=1mGLL8a0-WcWx26XHJv1h0wsy7G-_MGWh&export=download" -O /tmp/junior_latest.zip
-          ls -lh /tmp/junior_latest.zip
-          test -s /tmp/junior_latest.zip
-          unzip -qo /tmp/junior_latest.zip -d /tmp/junior_pack
-          test -f /tmp/junior_pack/Junior-preview-latest.html
-          cp -f /tmp/junior_pack/Junior-preview-latest.html assets/junior/index.html
-          if [ -d /tmp/junior_pack/notes ]; then cp -a /tmp/junior_pack/notes/. assets/junior_notes/; fi
-          wc -c assets/junior/index.html
-          test $(wc -c < assets/junior/index.html) -gt 1000000
-
       - name: Pub get
         run: flutter pub get
-
-      - name: Build release APK
-        run: flutter build apk --release --target lib/main.dart --no-tree-shake-icons --android-skip-build-dependency-validation
-
-      - name: Collect APK
-        run: |
-          mkdir -p dist
-          find build/app/outputs/flutter-apk -name '*.apk' -exec cp -v {} dist/ \;
-          ls -lh dist/
-          test -n "$(ls -A dist 2>/dev/null)"
-
+      - name: Build APK
+        run: flutter build apk --release --no-tree-shake-icons
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: bee-plus-apk
-          path: dist/
+          path: build/app/outputs/flutter-apk/*.apk
           if-no-files-found: error
           retention-days: 30

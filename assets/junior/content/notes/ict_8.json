@@ -1,0 +1,7547 @@
+{
+ "book": {
+  "id": "ict_8",
+  "subject": "ict",
+  "grade": 8,
+  "title": "ICT Grade 8",
+  "pdf": "textbooks/ict_8.pdf",
+  "page_offset": 4,
+  "source": "Information and Communication Technology Grade 8, Ministry of Education, State of Eritrea"
+ },
+ "units": [
+  {
+   "id": "ict8-u1",
+   "number": 1,
+   "title": "Basic Concepts of ICT",
+   "status": "done",
+   "pages": [
+    1,
+    10
+   ],
+   "tone": "blue",
+   "intro": "This unit explains **ICT** and **information literacy**, the **kinds of computers**, the **hardware** parts and the **three main software**, and the difference between **data and information**.",
+   "intro_page": 1,
+   "diagrams": {
+    "itct": {
+     "svg": "svg/ict_8/ict8_itct.svg",
+     "title": "IT and CT equipment",
+     "page": 1,
+     "pins": [
+      {
+       "id": "it",
+       "text": "IT hardware: computers, scanners, digital video and still cameras",
+       "x": 34.0,
+       "y": 24.0
+      },
+      {
+       "id": "ct",
+       "text": "CT equipment: phones, faxes, modems and computers",
+       "x": 34.0,
+       "y": 114.0
+      }
+     ]
+    },
+    "types": {
+     "svg": "svg/ict_8/ict8_types.svg",
+     "title": "Types of computers",
+     "page": 2,
+     "pins": [
+      {
+       "id": "pc",
+       "text": "desktop computer (PC = personal computer)",
+       "x": 24.0,
+       "y": 24.0
+      },
+      {
+       "id": "lap",
+       "text": "laptop (notebook)",
+       "x": 179.0,
+       "y": 24.0
+      },
+      {
+       "id": "pda",
+       "text": "PDA = personal digital assistant",
+       "x": 24.0,
+       "y": 114.0
+      },
+      {
+       "id": "main",
+       "text": "mainframe",
+       "x": 179.0,
+       "y": 114.0
+      }
+     ]
+    },
+    "desktop": {
+     "svg": "svg/ict_8/ict8_desktop.svg",
+     "title": "A typical desktop computer",
+     "page": 3,
+     "pins": [
+      {
+       "id": "mon",
+       "text": "monitor",
+       "x": 150,
+       "y": 60
+      },
+      {
+       "id": "sys",
+       "text": "system unit",
+       "x": 270,
+       "y": 80
+      },
+      {
+       "id": "spk",
+       "text": "speaker",
+       "x": 45,
+       "y": 110
+      },
+      {
+       "id": "kbd",
+       "text": "keyboard",
+       "x": 110,
+       "y": 196
+      },
+      {
+       "id": "mou",
+       "text": "mouse",
+       "x": 230,
+       "y": 200
+      }
+     ]
+    },
+    "hw": {
+     "svg": "svg/ict_8/ict8_hw.svg",
+     "title": "Four main hardware parts",
+     "page": 4,
+     "pins": [
+      {
+       "id": "center",
+       "text": "hardware: the physical parts you can see or touch",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "in",
+       "text": "1. input devices",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "out",
+       "text": "2. output devices",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "cpu",
+       "text": "3. central processing unit (CPU)",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "sto",
+       "text": "4. storage devices",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    },
+    "input": {
+     "svg": "svg/ict_8/ict8_input.svg",
+     "title": "Input devices",
+     "page": 5,
+     "pins": [
+      {
+       "id": "cam",
+       "text": "digital camera",
+       "x": 20.0,
+       "y": 24.0
+      },
+      {
+       "id": "web",
+       "text": "webcam",
+       "x": 126.0,
+       "y": 24.0
+      },
+      {
+       "id": "mic",
+       "text": "microphone",
+       "x": 232.0,
+       "y": 24.0
+      },
+      {
+       "id": "mou",
+       "text": "mouse",
+       "x": 20.0,
+       "y": 98.0
+      },
+      {
+       "id": "joy",
+       "text": "joystick",
+       "x": 126.0,
+       "y": 98.0
+      },
+      {
+       "id": "kbd",
+       "text": "keyboard",
+       "x": 232.0,
+       "y": 98.0
+      },
+      {
+       "id": "scan",
+       "text": "scanner",
+       "x": 20.0,
+       "y": 172.0
+      }
+     ]
+    },
+    "output": {
+     "svg": "svg/ict_8/ict8_output.svg",
+     "title": "Output devices",
+     "page": 6,
+     "pins": [
+      {
+       "id": "lcd",
+       "text": "LCD monitor",
+       "x": 20.0,
+       "y": 24.0
+      },
+      {
+       "id": "crt",
+       "text": "CRT monitor",
+       "x": 126.0,
+       "y": 24.0
+      },
+      {
+       "id": "spk",
+       "text": "speaker",
+       "x": 232.0,
+       "y": 24.0
+      },
+      {
+       "id": "prn",
+       "text": "printer",
+       "x": 20.0,
+       "y": 98.0
+      },
+      {
+       "id": "proj",
+       "text": "LCD projector",
+       "x": 126.0,
+       "y": 98.0
+      }
+     ]
+    },
+    "storage": {
+     "svg": "svg/ict_8/ict8_storage.svg",
+     "title": "Storage devices",
+     "page": 7,
+     "pins": [
+      {
+       "id": "hdd",
+       "text": "hard disk drive (HDD): inside the system unit, stores large amounts of data",
+       "x": 24.0,
+       "y": 24.0
+      },
+      {
+       "id": "cd",
+       "text": "compact disk (CD/DVD)",
+       "x": 179.0,
+       "y": 24.0
+      },
+      {
+       "id": "sd",
+       "text": "SD card (memory)",
+       "x": 24.0,
+       "y": 104.0
+      },
+      {
+       "id": "fl",
+       "text": "flash disk",
+       "x": 179.0,
+       "y": 104.0
+      }
+     ]
+    },
+    "soft": {
+     "svg": "svg/ict_8/ict8_soft.svg",
+     "title": "Three software every computer needs",
+     "page": 8,
+     "pins": [
+      {
+       "id": "bios",
+       "text": "BIOS: Basic Input Output System; read when the computer is turned on",
+       "x": 87.0,
+       "y": 44.0
+      },
+      {
+       "id": "os",
+       "text": "Operating System: controls the way the computer works and controls the hardware",
+       "x": 87.0,
+       "y": 130.0
+      },
+      {
+       "id": "app",
+       "text": "Application Software: helps the user do specific tasks (e.g. MS Office)",
+       "x": 87.0,
+       "y": 216.0
+      }
+     ]
+    },
+    "dataflow": {
+     "svg": "svg/ict_8/ict8_dataflow.svg",
+     "title": "From data to information",
+     "page": 9,
+     "pins": [
+      {
+       "id": "data",
+       "text": "data: raw facts and figures",
+       "x": 20,
+       "y": 55
+      },
+      {
+       "id": "proc",
+       "text": "data is processed (calculating, sorting, organizing)",
+       "x": 125,
+       "y": 55
+      },
+      {
+       "id": "info",
+       "text": "information: the meaning we attach to data",
+       "x": 230,
+       "y": 55
+      },
+      {
+       "id": "red",
+       "text": "example: a red traffic light is data",
+       "x": 55,
+       "y": 150
+      },
+      {
+       "id": "stop",
+       "text": "the meaning, STOP, is the information",
+       "x": 265,
+       "y": 160
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ict8-u1-l1",
+     "number": "1.1",
+     "title": "Introduction: what is ICT?",
+     "pages": [
+      1,
+      2
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "ICT in our lives",
+       "body": [
+        "**ICT** (Information and Communications Technology) is part of our **everyday life**.",
+        "ICT literacy is almost a **requirement** for work, social and personal life.",
+        "ICT in education **improves the quality** of teaching and learning."
+       ],
+       "page": 1
+      },
+      {
+       "type": "remember",
+       "title": "What is a computer?",
+       "body": [
+        "A **computer** is an **electronic device** that:",
+        "- **accepts** data,",
+        "- **processes** it,",
+        "- **gives it out** processed,",
+        "- **stores** it for later use."
+       ],
+       "page": 1
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: A-P-G-S",
+       "page": 1,
+       "letters": [
+        {
+         "l": "A",
+         "w": "Accept",
+         "m": "takes in data"
+        },
+        {
+         "l": "P",
+         "w": "Process",
+         "m": "works on it"
+        },
+        {
+         "l": "G",
+         "w": "Give out",
+         "m": "shows the result"
+        },
+        {
+         "l": "S",
+         "w": "Store",
+         "m": "keeps it for later"
+        }
+       ],
+       "body": [
+        "\"**A**ll **P**upils **G**et **S**mart\" = Accept, Process, Give out, Store."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Information Technology (IT)",
+       "body": [
+        "**IT** = the **hardware** (equipment) and **software** (programs) that let us access, store, organize and present information electronically.",
+        "Hardware: computers, scanners, digital video and still cameras.",
+        "Software: browsers, databases, operating systems, application programs."
+       ],
+       "page": 1
+      },
+      {
+       "type": "text",
+       "title": "Communications Technology (CT)",
+       "body": [
+        "**CT** = telecommunications equipment used to **send and share** information.",
+        "Examples: **phones, faxes, modems** and **computers**."
+       ],
+       "page": 2
+      },
+      {
+       "type": "diagram",
+       "title": "IT and CT equipment",
+       "diagram": "itct",
+       "mode": "explore",
+       "page": 1,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "ICT and information literacy",
+       "body": [
+        "**ICT** = using **IT and CT together**: accessing, selecting, processing and sharing knowledge and information.",
+        "**Information literacy**: the knowledge, skills and attitudes to take part in society in the information age.",
+        "An information literate learner can **select, interpret, evaluate, present and share** information."
+       ],
+       "page": 2
+      },
+      {
+       "type": "check",
+       "q": "Which of these is an example of Communications Technology (CT) in the book?",
+       "options": {
+        "A": "a scanner",
+        "B": "a modem",
+        "C": "a browser",
+        "D": "a digital camera"
+       },
+       "answer": "B",
+       "why": "p. 2: CT examples are phones, faxes, modems and computers.",
+       "page": 2
+      }
+     ]
+    },
+    {
+     "id": "ict8-u1-l2",
+     "number": "1.2",
+     "title": "Types of computers",
+     "pages": [
+      2,
+      4
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Many kinds",
+       "body": [
+        "Computers differ by **size, shape** and **processing power**.",
+        "Common types: **desktop** (PC), **laptop**, **PDA** and **mainframe**."
+       ],
+       "page": 2
+      },
+      {
+       "type": "diagram",
+       "title": "Types of computers",
+       "diagram": "types",
+       "mode": "explore",
+       "page": 2,
+       "body": [
+        "Tap each computer."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Desktop computers",
+       "body": [
+        "Also called **personal computers (PC)**.",
+        "Used in offices, school labs, homes, training centres and internet cafes.",
+        "They have a **separate** monitor, keyboard, mouse and system unit."
+       ],
+       "page": 3
+      },
+      {
+       "type": "diagram",
+       "title": "A typical desktop computer",
+       "diagram": "desktop",
+       "mode": "explore",
+       "page": 3,
+       "body": [
+        "Tap each part (Fig. 1.6)."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Laptop computers",
+       "body": [
+        "A **laptop** is also called a **notebook**. Its key features:",
+        "- **portable**: all parts are in one,",
+        "- **light weight**,",
+        "- **low power** use,",
+        "- does **not** make too much **heat**."
+       ],
+       "page": 3
+      },
+      {
+       "type": "check",
+       "q": "What is another name for a laptop?",
+       "options": {
+        "A": "PC",
+        "B": "notebook",
+        "C": "mainframe",
+        "D": "PDA"
+       },
+       "answer": "B",
+       "why": "\"Laptop computer, also known as notebook\" (p. 3).",
+       "page": 3
+      }
+     ]
+    },
+    {
+     "id": "ict8-u1-l3",
+     "number": "1.3",
+     "title": "Parts of a computer",
+     "pages": [
+      4,
+      8
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Hardware and software",
+       "body": [
+        "A computer system has **two parts**: **hardware** and **software**."
+       ],
+       "page": 4
+      },
+      {
+       "type": "remember",
+       "title": "Hardware",
+       "body": [
+        "**Hardware** is all the **devices** that make up a computer.",
+        "It is the **physical** part you can **see or touch**.",
+        "Some parts are hidden **inside the system unit**."
+       ],
+       "page": 4
+      },
+      {
+       "type": "diagram",
+       "title": "Four main hardware parts",
+       "diagram": "hw",
+       "mode": "explore",
+       "page": 4,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Input devices",
+       "body": [
+        "**Input devices** help to **enter data** into the computer.",
+        "They send data to the computer to be processed."
+       ],
+       "page": 5
+      },
+      {
+       "type": "diagram",
+       "title": "Input devices",
+       "diagram": "input",
+       "mode": "explore",
+       "page": 5,
+       "body": [
+        "Tap each device."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Output devices",
+       "body": [
+        "**Output devices** show the output processed by the computer.",
+        "Output can be **soft copy** (on the screen), **hard copy** (printout), **audio** or **video**."
+       ],
+       "page": 6
+      },
+      {
+       "type": "diagram",
+       "title": "Output devices",
+       "diagram": "output",
+       "mode": "explore",
+       "page": 6,
+       "body": [
+        "Tap each device."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "The CPU",
+       "body": [
+        "The **Central Processing Unit (CPU)** processes data.",
+        "It is the computer's **brain**: it controls all calculations and processing."
+       ],
+       "page": 7
+      },
+      {
+       "type": "text",
+       "title": "Storage devices",
+       "body": [
+        "**Storage devices** store data for **later use**.",
+        "The **hard disk drive (HDD)** is inside the system unit. It stores **large amounts** of data. All the vital programs are installed on it."
+       ],
+       "page": 7
+      },
+      {
+       "type": "diagram",
+       "title": "Storage devices",
+       "diagram": "storage",
+       "mode": "explore",
+       "page": 7,
+       "body": [
+        "Tap each device."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Software",
+       "body": [
+        "**Software** is a set of **instructions** that make the hardware work.",
+        "Software **cannot be touched**.",
+        "Two groups: **system software** and **application software**."
+       ],
+       "page": 8
+      },
+      {
+       "type": "steps",
+       "title": "Three software every computer needs",
+       "diagram": "soft",
+       "page": 8,
+       "steps": [
+        {
+         "text": "**BIOS** (Basic Input Output System) handles the flow of data between the computer and its input/output devices. It is read when the computer is **turned on or restarted**.",
+         "show": "bios",
+         "pins": [
+          "bios"
+         ]
+        },
+        {
+         "text": "The **Operating System (OS)** controls the way a computer works. It **controls the hardware** directly. Examples: DOS, Windows XP, Windows 7, Windows 8, Unix, Linux.",
+         "show": "os",
+         "pins": [
+          "os"
+         ]
+        },
+        {
+         "text": "**Application software** helps the user do **specific tasks**. Examples: MS Office, business, medical, accounting and gaming software.",
+         "show": "app",
+         "pins": [
+          "app"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: B-O-A",
+       "page": 8,
+       "letters": [
+        {
+         "l": "B",
+         "w": "BIOS",
+         "m": "wakes the computer"
+        },
+        {
+         "l": "O",
+         "w": "OS",
+         "m": "runs the computer"
+        },
+        {
+         "l": "A",
+         "w": "Application",
+         "m": "does your task"
+        }
+       ],
+       "body": [
+        "Think of a **BOA**t: the three software a computer must have."
+       ]
+      },
+      {
+       "type": "check",
+       "q": "Which part is called the computer's brain?",
+       "options": {
+        "A": "hard disk drive",
+        "B": "monitor",
+        "C": "CPU",
+        "D": "keyboard"
+       },
+       "answer": "C",
+       "why": "The CPU \"is considered as the computer's brain\" (p. 7).",
+       "page": 7
+      }
+     ]
+    },
+    {
+     "id": "ict8-u1-l4",
+     "number": "1.4",
+     "title": "Data and information",
+     "pages": [
+      9,
+      10
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Raw data",
+       "body": [
+        "**Data** = **raw facts and figures** before they are processed.",
+        "Data has **no meaning** until it is processed: calculated, sorted or organized."
+       ],
+       "page": 9
+      },
+      {
+       "type": "steps",
+       "title": "From data to information",
+       "diagram": "dataflow",
+       "page": 9,
+       "steps": [
+        {
+         "text": "Start with **data**: raw facts and figures.",
+         "show": "data",
+         "pins": [
+          "data"
+         ]
+        },
+        {
+         "text": "**Process** it: calculate, sort or organize. This is called **data processing**.",
+         "show": "proc",
+         "pins": [
+          "proc"
+         ]
+        },
+        {
+         "text": "The result is **information**: the meaning we attach to the data.",
+         "show": "info",
+         "pins": [
+          "info"
+         ]
+        },
+        {
+         "text": "Example: a **red traffic light** is data...",
+         "show": "red",
+         "pins": [
+          "red"
+         ]
+        },
+        {
+         "text": "...and its meaning, **STOP**, is the information.",
+         "show": "stop",
+         "pins": [
+          "stop"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Data or information? (Exercise 1.2)",
+       "page": 9,
+       "head": [
+        "Example",
+        "Data or information?"
+       ],
+       "rows": [
+        [
+         "10, 11, 12, 13, 14, 15",
+         "data (just figures)"
+        ],
+        [
+         "35 Nakfa, 50 Nakfa, 100 Nakfa",
+         "data (just figures)"
+        ],
+        [
+         "A man gave his three kids 35, 50 and 100 Nakfa for their weekend vacation",
+         "information (the figures now have a meaning)"
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Key terms of Unit 1",
+       "body": [
+        "application software, BIOS, computer, CPU, drive, hard disk, hardware, input devices, operating system, output devices, storage devices."
+       ],
+       "page": 9
+      },
+      {
+       "type": "check",
+       "q": "\"35 Nakfa, 50 Nakfa, 100 Nakfa\" alone is...",
+       "options": {
+        "A": "information",
+        "B": "data",
+        "C": "software",
+        "D": "an output device"
+       },
+       "answer": "B",
+       "why": "They are raw figures with no meaning attached, so they are data (p. 9).",
+       "page": 9
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "ICT",
+     "meaning": "Information and Communications Technology",
+     "page": 1
+    },
+    {
+     "term": "IT",
+     "meaning": "Information Technology: hardware and software for information",
+     "page": 1
+    },
+    {
+     "term": "CT",
+     "meaning": "Communications Technology: equipment to send and share information",
+     "page": 2
+    },
+    {
+     "term": "computer",
+     "meaning": "an electronic device that accepts, processes, gives out and stores data",
+     "page": 1,
+     "forms": [
+      "computers"
+     ]
+    },
+    {
+     "term": "information literacy",
+     "meaning": "the skills to select, interpret, evaluate, present and share information",
+     "page": 2,
+     "forms": [
+      "information literate"
+     ]
+    },
+    {
+     "term": "PC",
+     "meaning": "personal computer; a desktop computer",
+     "page": 2
+    },
+    {
+     "term": "laptop",
+     "meaning": "a portable computer, also called a notebook",
+     "page": 3,
+     "forms": [
+      "laptops",
+      "notebook"
+     ]
+    },
+    {
+     "term": "PDA",
+     "meaning": "personal digital assistant",
+     "page": 2
+    },
+    {
+     "term": "hardware",
+     "meaning": "the physical parts of a computer you can touch",
+     "page": 4
+    },
+    {
+     "term": "input device",
+     "meaning": "a device that enters data into the computer",
+     "page": 5,
+     "forms": [
+      "input devices"
+     ]
+    },
+    {
+     "term": "output device",
+     "meaning": "a device that shows the processed output",
+     "page": 6,
+     "forms": [
+      "output devices"
+     ]
+    },
+    {
+     "term": "CPU",
+     "meaning": "Central Processing Unit, the computer's brain",
+     "page": 7
+    },
+    {
+     "term": "storage device",
+     "meaning": "a device that stores data for later use",
+     "page": 7,
+     "forms": [
+      "storage devices"
+     ]
+    },
+    {
+     "term": "HDD",
+     "meaning": "hard disk drive: stores large amounts of data inside the system unit",
+     "page": 7,
+     "forms": [
+      "hard disk",
+      "hard disk drive"
+     ]
+    },
+    {
+     "term": "software",
+     "meaning": "instructions that make the hardware work; cannot be touched",
+     "page": 8
+    },
+    {
+     "term": "BIOS",
+     "meaning": "Basic Input Output System",
+     "page": 8
+    },
+    {
+     "term": "operating system",
+     "meaning": "software that controls the computer and its hardware",
+     "page": 8,
+     "forms": [
+      "OS"
+     ]
+    },
+    {
+     "term": "application software",
+     "meaning": "programs that help the user do specific tasks",
+     "page": 8
+    },
+    {
+     "term": "data",
+     "meaning": "raw facts and figures",
+     "page": 9
+    },
+    {
+     "term": "information",
+     "meaning": "the meaning we attach to data",
+     "page": 9
+    }
+   ],
+   "tips": [
+    {
+     "text": "Input = **into** the computer (keyboard, mouse). Output = **out of** the computer (monitor, printer)."
+    },
+    {
+     "text": "Hardware can be **touched**; software **cannot**."
+    },
+    {
+     "text": "Learn the full names: **CPU**, **BIOS**, **HDD**, **PDA**, **PC**, **ICT**."
+    },
+    {
+     "text": "Data + meaning = **information**."
+    }
+   ],
+   "games": [
+    {
+     "id": "ict8-u1-g1",
+     "type": "label",
+     "lesson": "ict8-u1-l2",
+     "title": "Parts of a desktop computer",
+     "diagram": "desktop"
+    },
+    {
+     "id": "ict8-u1-g2",
+     "type": "sort",
+     "lesson": "ict8-u1-l3",
+     "title": "Input, output or storage?",
+     "groups": [
+      {
+       "id": "in",
+       "label": "Input"
+      },
+      {
+       "id": "out",
+       "label": "Output"
+      },
+      {
+       "id": "st",
+       "label": "Storage"
+      }
+     ],
+     "items": [
+      {
+       "text": "keyboard",
+       "group": "in"
+      },
+      {
+       "text": "mouse",
+       "group": "in"
+      },
+      {
+       "text": "webcam",
+       "group": "in"
+      },
+      {
+       "text": "microphone",
+       "group": "in"
+      },
+      {
+       "text": "scanner",
+       "group": "in"
+      },
+      {
+       "text": "joystick",
+       "group": "in"
+      },
+      {
+       "text": "monitor",
+       "group": "out"
+      },
+      {
+       "text": "printer",
+       "group": "out"
+      },
+      {
+       "text": "speaker",
+       "group": "out"
+      },
+      {
+       "text": "LCD projector",
+       "group": "out"
+      },
+      {
+       "text": "flash disk",
+       "group": "st"
+      },
+      {
+       "text": "hard disk drive",
+       "group": "st"
+      },
+      {
+       "text": "CD/DVD",
+       "group": "st"
+      },
+      {
+       "text": "SD card",
+       "group": "st"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u1-g3",
+     "type": "sort",
+     "lesson": "ict8-u1-l3",
+     "title": "Hardware or software?",
+     "groups": [
+      {
+       "id": "hw",
+       "label": "Hardware"
+      },
+      {
+       "id": "sw",
+       "label": "Software"
+      }
+     ],
+     "items": [
+      {
+       "text": "system unit",
+       "group": "hw"
+      },
+      {
+       "text": "monitor",
+       "group": "hw"
+      },
+      {
+       "text": "hard disk drive",
+       "group": "hw"
+      },
+      {
+       "text": "mouse",
+       "group": "hw"
+      },
+      {
+       "text": "Windows 7",
+       "group": "sw"
+      },
+      {
+       "text": "BIOS",
+       "group": "sw"
+      },
+      {
+       "text": "MS Office",
+       "group": "sw"
+      },
+      {
+       "text": "Linux",
+       "group": "sw"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u1-g4",
+     "type": "match",
+     "lesson": null,
+     "title": "What does it stand for?",
+     "pairs": [
+      {
+       "a": "ICT",
+       "b": "Information and Communications Technology"
+      },
+      {
+       "a": "CPU",
+       "b": "Central Processing Unit"
+      },
+      {
+       "a": "BIOS",
+       "b": "Basic Input Output System"
+      },
+      {
+       "a": "PC",
+       "b": "Personal Computer"
+      },
+      {
+       "a": "PDA",
+       "b": "Personal Digital Assistant"
+      },
+      {
+       "a": "HDD",
+       "b": "Hard Disk Drive"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u1-g5",
+     "type": "label",
+     "lesson": "ict8-u1-l3",
+     "title": "Three software",
+     "diagram": "soft"
+    },
+    {
+     "id": "ict8-u1-g6",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "A laptop is also known as a ___.",
+       "answer": "notebook",
+       "choices": [
+        "notebook",
+        "desktop",
+        "mainframe"
+       ]
+      },
+      {
+       "text": "The CPU is the computer's ___.",
+       "answer": "brain",
+       "choices": [
+        "brain",
+        "eye",
+        "memory"
+       ]
+      },
+      {
+       "text": "Data is raw facts and ___.",
+       "answer": "figures",
+       "choices": [
+        "figures",
+        "pictures",
+        "programs"
+       ]
+      },
+      {
+       "text": "Software cannot be ___.",
+       "answer": "touched",
+       "choices": [
+        "touched",
+        "used",
+        "installed"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ict8-u1-g7",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round: review",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Desktop computers use more power than laptops.",
+       "answer": true,
+       "why": "Laptops have low power consumption (p. 3)."
+      },
+      {
+       "text": "Some software can be touched.",
+       "answer": false,
+       "why": "Software cannot be touched (p. 8)."
+      },
+      {
+       "text": "The mouse is an output device.",
+       "answer": false,
+       "why": "It is an input device (p. 5)."
+      },
+      {
+       "text": "CDs and DVDs are storage devices.",
+       "answer": true
+      },
+      {
+       "text": "The operating system controls the hardware.",
+       "answer": true
+      },
+      {
+       "text": "Medical software is an operating system.",
+       "answer": false,
+       "why": "It is application software (p. 8)."
+      }
+     ]
+    },
+    {
+     "id": "ict8-u1-g8",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "computer",
+       "back": "accepts, processes, gives out and stores data"
+      },
+      {
+       "front": "information literacy",
+       "back": "select, interpret, evaluate, present and share information"
+      },
+      {
+       "front": "hardware",
+       "back": "the parts you can touch"
+      },
+      {
+       "front": "data",
+       "back": "raw facts and figures"
+      },
+      {
+       "front": "information",
+       "back": "the meaning attached to data"
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ict8-u1-q1",
+      "type": "mcq",
+      "page": 10,
+      "q": "An electronic machine that accepts, processes and gives out processed data is a...",
+      "options": {
+       "A": "scanner",
+       "B": "generator",
+       "C": "printer",
+       "D": "computer"
+      },
+      "answer": "D",
+      "why": [
+       "p. 1: a computer accepts data, processes it, gives it out and stores it."
+      ],
+      "tip": "Look for the definition on p. 1.",
+      "similar": [
+       {
+        "q": "What else does a computer do with data?",
+        "a": "it stores it for later use"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q2",
+      "type": "mcq",
+      "page": 10,
+      "q": "A student can select, interpret, present and share information well. The student is...",
+      "options": {
+       "A": "computer literate",
+       "B": "information literate",
+       "C": "skill literate",
+       "D": "advanced"
+      },
+      "answer": "B",
+      "why": [
+       "p. 2: when learners become information literate they can select, interpret, evaluate, present and share information."
+      ],
+      "tip": "These verbs are the definition of information literacy.",
+      "similar": [
+       {
+        "q": "Define information literacy.",
+        "a": "the knowledge, understanding, skills and attitudes learners need to take part in society in the information age"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q3",
+      "type": "mcq",
+      "page": 10,
+      "q": "Which of the following is NOT a type of computer?",
+      "options": {
+       "A": "PC",
+       "B": "notebook",
+       "C": "laptop",
+       "D": "none of them (all are types)"
+      },
+      "answer": "D",
+      "why": [
+       "p. 2–3: PC, laptop (notebook) and PDA are all types of computers."
+      ],
+      "tip": "Remember: notebook = laptop.",
+      "similar": [
+       {
+        "q": "Name four types of computers.",
+        "a": "desktop (PC), laptop, PDA, mainframe"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q4",
+      "type": "mcq",
+      "page": 10,
+      "q": "Identify the area where computers are NOT used.",
+      "options": {
+       "A": "schools",
+       "B": "offices",
+       "C": "factories",
+       "D": "none (they are used in all)"
+      },
+      "answer": "D",
+      "why": [
+       "p. 3: desktops are used in offices, school labs, homes, training centres and internet cafes.",
+       "ICT is part of our everyday life (p. 1)."
+      ],
+      "tip": "\"none\" means computers are used in all of them.",
+      "similar": [
+       {
+        "q": "Where are desktop computers used?",
+        "a": "offices, school labs, homes, computer training centers, internet cafes"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q5",
+      "type": "tf",
+      "page": 10,
+      "q": "A desktop is different from a laptop because it has a separate system unit, monitor, mouse and keyboard.",
+      "answer": true,
+      "why": [
+       "p. 3: desktops have separate parts; a laptop has all its parts integrated in one."
+      ],
+      "tip": "Separate vs. all in one.",
+      "similar": [
+       {
+        "q": "Name two other key features of a laptop.",
+        "a": "light weight and low power consumption (also: little heat)"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q6",
+      "type": "tf",
+      "page": 10,
+      "q": "The hard disk drive is also called the brain of the computer.",
+      "answer": false,
+      "why": [
+       "p. 7: the CPU is the brain.",
+       "The HDD stores data and programs."
+      ],
+      "tip": "Brain = CPU.",
+      "similar": [
+       {
+        "q": "What is the function of the HDD?",
+        "a": "to store large amounts of data; programs are installed and saved on it"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q7",
+      "type": "tf",
+      "page": 10,
+      "q": "BIOS is a set of instructions that tells the computer how to handle the flow of data.",
+      "answer": true,
+      "why": [
+       "p. 8 definition of BIOS."
+      ],
+      "tip": "BIOS = Basic Input Output System.",
+      "similar": [
+       {
+        "q": "When does the computer read the BIOS?",
+        "a": "when it is turned on or restarted"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q8",
+      "type": "fill",
+      "page": 8,
+      "q": "CPU stands for Central ___ Unit.",
+      "choices": [
+       "Processing",
+       "Power",
+       "Program",
+       "Printing"
+      ],
+      "answer": "Processing",
+      "why": [
+       "p. 7: Central Processing Unit."
+      ],
+      "tip": "It processes data.",
+      "similar": [
+       {
+        "q": "What does BIOS stand for?",
+        "a": "Basic Input Output System"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q9",
+      "type": "short",
+      "page": 8,
+      "q": "Write three input devices and three output devices.",
+      "answer": "Input: keyboard, mouse, scanner (also webcam, microphone, joystick, digital camera). Output: monitor, printer, speaker (also LCD projector).",
+      "why": [
+       "p. 5: input devices, Figs. 1.10–1.16.",
+       "p. 6: output devices."
+      ],
+      "tip": "In = you give to the computer. Out = the computer gives to you.",
+      "similar": [
+       {
+        "q": "What is the function of output devices?",
+        "a": "to provide or display output processed by the computer"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q10",
+      "type": "short",
+      "page": 9,
+      "q": "What is the difference between data and information?",
+      "answer": "Data is raw facts and figures before processing. Information is the meaning we attach to data after it is processed.",
+      "why": [
+       "p. 9.",
+       "Example: a red traffic light (data) means STOP (information)."
+      ],
+      "tip": "Data → processed → information.",
+      "similar": [
+       {
+        "q": "Is \"10, 11, 12, 13, 14, 15\" data or information?",
+        "a": "data"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q11",
+      "type": "mcq",
+      "page": 8,
+      "q": "Which is an example of an operating system?",
+      "options": {
+       "A": "MS Office",
+       "B": "Windows 7",
+       "C": "accounting software",
+       "D": "a scanner"
+      },
+      "answer": "B",
+      "why": [
+       "p. 8: operating systems include DOS, Windows XP, Windows 7, Windows 8, Unix, Linux."
+      ],
+      "tip": "MS Office is application software.",
+      "similar": [
+       {
+        "q": "Name one example of application software.",
+        "a": "MS Office (also business, medical, accounting, gaming software)"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u1-q12",
+      "type": "mcq",
+      "page": 6,
+      "q": "A printout is a...",
+      "options": {
+       "A": "soft copy",
+       "B": "hard copy",
+       "C": "storage device",
+       "D": "input"
+      },
+      "answer": "B",
+      "why": [
+       "p. 6: soft copy = screen display; hard copy = printout."
+      ],
+      "tip": "Hard copy = on paper.",
+      "similar": [
+       {
+        "q": "What is a soft copy?",
+        "a": "a screen display"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ict8-u2",
+   "number": 2,
+   "title": "Introduction to Computer Operations",
+   "status": "done",
+   "pages": [
+    11,
+    25
+   ],
+   "tone": "mint",
+   "intro": "This unit teaches **Microsoft Windows 7**: the **desktop**, the **mouse and keyboard**, **files and folders**, the **Start menu**, windows, and how to **restart and shut down** a computer.",
+   "intro_page": 11,
+   "diagrams": {
+    "boot": {
+     "svg": "svg/ict_8/ict8_boot.svg",
+     "title": "Turning on the computer",
+     "page": 11,
+     "pins": [
+      {
+       "id": "pwr",
+       "text": "press the power button on the system unit",
+       "x": 97.0,
+       "y": 37.0
+      },
+      {
+       "id": "bios",
+       "text": "the BIOS runs first",
+       "x": 97.0,
+       "y": 97.0
+      },
+      {
+       "id": "win",
+       "text": "Windows 7 starts automatically after the BIOS",
+       "x": 97.0,
+       "y": 157.0
+      },
+      {
+       "id": "logon",
+       "text": "a logon screen may ask for your username and password",
+       "x": 97.0,
+       "y": 217.0
+      },
+      {
+       "id": "desk",
+       "text": "the desktop appears",
+       "x": 97.0,
+       "y": 277.0
+      }
+     ]
+    },
+    "desk": {
+     "svg": "svg/ict_8/ict8_desk.svg",
+     "title": "The Windows 7 desktop",
+     "page": 12,
+     "pins": [
+      {
+       "id": "icons",
+       "text": "icons: small pictures for programs",
+       "x": 8,
+       "y": 100
+      },
+      {
+       "id": "comp",
+       "text": "Computer icon: see the drives and their files",
+       "x": 60,
+       "y": 30
+      },
+      {
+       "id": "docs",
+       "text": "Documents: a storage place for your personal files",
+       "x": 60,
+       "y": 72
+      },
+      {
+       "id": "bin",
+       "text": "Recycle Bin: stores deleted files until you empty it",
+       "x": 60,
+       "y": 114
+      },
+      {
+       "id": "ie",
+       "text": "Internet Explorer: Windows' built-in web browser",
+       "x": 60,
+       "y": 156
+      },
+      {
+       "id": "start",
+       "text": "Start button",
+       "x": 24,
+       "y": 180
+      },
+      {
+       "id": "task",
+       "text": "Taskbar: shows programs and files that are open",
+       "x": 200,
+       "y": 202
+      },
+      {
+       "id": "win",
+       "text": "an open window on the desktop (the work area)",
+       "x": 210,
+       "y": 40
+      }
+     ]
+    },
+    "mouse": {
+     "svg": "svg/ict_8/ict8_mouse.svg",
+     "title": "Parts of the mouse",
+     "page": 16,
+     "pins": [
+      {
+       "id": "left",
+       "text": "left button",
+       "x": 110,
+       "y": 80
+      },
+      {
+       "id": "right",
+       "text": "right button",
+       "x": 210,
+       "y": 80
+      },
+      {
+       "id": "scroll",
+       "text": "scroller: scrolls within a page, like the scroll bars",
+       "x": 160,
+       "y": 40
+      }
+     ]
+    },
+    "kbd": {
+     "svg": "svg/ict_8/ict8_kbd.svg",
+     "title": "Four parts of the keyboard",
+     "page": 17,
+     "pins": [
+      {
+       "id": "fn",
+       "text": "1. function keys",
+       "x": 110,
+       "y": 12
+      },
+      {
+       "id": "nav",
+       "text": "2. navigation (movement) keys",
+       "x": 244,
+       "y": 90
+      },
+      {
+       "id": "type",
+       "text": "3. typing pad",
+       "x": 40,
+       "y": 90
+      },
+      {
+       "id": "num",
+       "text": "4. numeric pad",
+       "x": 290,
+       "y": 140
+      }
+     ]
+    },
+    "folder": {
+     "svg": "svg/ict_8/ict8_folder.svg",
+     "title": "Creating a folder named \"Eritrea\"",
+     "page": 19,
+     "pins": [
+      {
+       "id": "rc",
+       "text": "Step 1: right-click on empty space on the desktop",
+       "x": 97.0,
+       "y": 39.0
+      },
+      {
+       "id": "new",
+       "text": "Step 2: point to \"New\"",
+       "x": 97.0,
+       "y": 107.0
+      },
+      {
+       "id": "fold",
+       "text": "Step 3: click \"Folder\"",
+       "x": 97.0,
+       "y": 175.0
+      },
+      {
+       "id": "name",
+       "text": "Step 4: type \"Eritrea\" and click on empty space",
+       "x": 97.0,
+       "y": 243.0
+      }
+     ]
+    },
+    "tree": {
+     "svg": "svg/ict_8/ict8_tree.svg",
+     "title": "Folders, sub folders and files",
+     "page": 20,
+     "pins": [
+      {
+       "id": "top",
+       "text": "folder \"Eritrea\" on the desktop",
+       "x": 87.0,
+       "y": 42.0
+      },
+      {
+       "id": "sub",
+       "text": "sub folder \"Asmara\" inside \"Eritrea\"",
+       "x": 87.0,
+       "y": 122.0
+      },
+      {
+       "id": "f",
+       "text": "a file, e.g. hanna123.docx: name \"hanna123\" + extension \".docx\"",
+       "x": 87.0,
+       "y": 202.0
+      }
+     ]
+    },
+    "power": {
+     "svg": "svg/ict_8/ict8_power.svg",
+     "title": "Shut down and Restart",
+     "page": 24,
+     "pins": [
+      {
+       "id": "shut",
+       "text": "Shut down: the computer turns off",
+       "x": 24.0,
+       "y": 24.0
+      },
+      {
+       "id": "rest",
+       "text": "Restart: the computer turns off and starts up again",
+       "x": 179.0,
+       "y": 24.0
+      }
+     ]
+    },
+    "window": {
+     "svg": "svg/ict_8/ict8_window.svg",
+     "title": "Parts of an open window",
+     "page": 22,
+     "pins": [
+      {
+       "id": "title",
+       "text": "title bar: shows the name of the open resource",
+       "x": 120,
+       "y": 35
+      },
+      {
+       "id": "min",
+       "text": "Minimize button",
+       "x": 235,
+       "y": 12
+      },
+      {
+       "id": "max",
+       "text": "Maximize / Restore Down button",
+       "x": 263,
+       "y": 12
+      },
+      {
+       "id": "close",
+       "text": "Close button",
+       "x": 292,
+       "y": 12
+      },
+      {
+       "id": "corner",
+       "text": "drag a corner (two sided arrow) to re-size",
+       "x": 290,
+       "y": 200
+      }
+     ]
+    },
+    "start": {
+     "svg": "svg/ict_8/ict8_start.svg",
+     "title": "The Start menu",
+     "page": 21,
+     "pins": [
+      {
+       "id": "acc",
+       "text": "Account Name (e.g. \"ICT Lab\"): your personal files in one place",
+       "x": 222,
+       "y": 36
+      },
+      {
+       "id": "pic",
+       "text": "Pictures",
+       "x": 222,
+       "y": 90
+      },
+      {
+       "id": "mus",
+       "text": "Music",
+       "x": 222,
+       "y": 116
+      },
+      {
+       "id": "all",
+       "text": "All Programs: programs installed, including Microsoft Office",
+       "x": 96,
+       "y": 190
+      },
+      {
+       "id": "shut",
+       "text": "Shut down button",
+       "x": 246,
+       "y": 212
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ict8-u2-l1",
+     "number": "2.1",
+     "title": "Basics of Microsoft Windows 7",
+     "pages": [
+      11,
+      15
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Windows 7",
+       "body": [
+        "An **operating system** manages the computer hardware.",
+        "The most common ones are **Microsoft Windows** operating systems.",
+        "This book uses **Windows 7**."
+       ],
+       "page": 11
+      },
+      {
+       "type": "steps",
+       "title": "Turning on the computer",
+       "diagram": "boot",
+       "page": 11,
+       "steps": [
+        {
+         "text": "Press the **power button** on the system unit.",
+         "show": "pwr",
+         "pins": [
+          "pwr"
+         ]
+        },
+        {
+         "text": "The **BIOS** runs first.",
+         "show": "bios",
+         "pins": [
+          "bios"
+         ]
+        },
+        {
+         "text": "**Windows 7 starts automatically** after the BIOS.",
+         "show": "win",
+         "pins": [
+          "win"
+         ]
+        },
+        {
+         "text": "A **logon** screen may ask for your **username** and **password**. Type the password and press **Enter**.",
+         "show": "logon",
+         "pins": [
+          "logon"
+         ]
+        },
+        {
+         "text": "The **desktop** appears.",
+         "show": "desk",
+         "pins": [
+          "desk"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "The Windows 7 desktop",
+       "diagram": "desk",
+       "mode": "explore",
+       "page": 12,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "The desktop",
+       "body": [
+        "The **desktop** is the **main Windows 7 screen**.",
+        "It is the **work area** where dialog boxes, windows, icons and menus appear.",
+        "You can change how it looks to suit you."
+       ],
+       "page": 12
+      },
+      {
+       "type": "table",
+       "title": "Desktop icons",
+       "page": 13,
+       "head": [
+        "Icon",
+        "What it does"
+       ],
+       "rows": [
+        [
+         "Computer",
+         "shows the drives (hard disk, CD/DVD, flash disk, SD card) and their files"
+        ],
+        [
+         "Documents",
+         "a storage place for your personal files; shows your username"
+        ],
+        [
+         "Recycle Bin",
+         "stores deleted files until you empty it"
+        ],
+        [
+         "Internet Explorer",
+         "Windows' built-in web browser"
+        ]
+       ]
+      },
+      {
+       "type": "text",
+       "title": "The taskbar",
+       "body": [
+        "The **taskbar** shows programs or files that are **open**. Click its buttons to go between them.",
+        "In Windows 7 it also holds **shortcuts** to programs you use often."
+       ],
+       "page": 13
+      },
+      {
+       "type": "remember",
+       "title": "Pin a program to the taskbar",
+       "body": [
+        "1. **Right-click** an icon in the Start menu.",
+        "2. Choose **Pin to Taskbar**.",
+        "3. Click that icon to open the program.",
+        "You can pin as many icons as fit on the taskbar."
+       ],
+       "page": 13
+      },
+      {
+       "type": "text",
+       "title": "Quick view",
+       "body": [
+        "Put the mouse pointer over an **open program** on the taskbar.",
+        "You see a small **preview** of all its open windows. Click one to bring it to the front."
+       ],
+       "page": 15
+      },
+      {
+       "type": "check",
+       "q": "Which desktop icon keeps deleted files until you empty it?",
+       "options": {
+        "A": "Computer",
+        "B": "Documents",
+        "C": "Recycle Bin",
+        "D": "Internet Explorer"
+       },
+       "answer": "C",
+       "why": "\"Recycle Bin icon – Stores any files you deleted until you empty it\" (p. 13).",
+       "page": 13
+      }
+     ]
+    },
+    {
+     "id": "ict8-u2-l2",
+     "number": "2.2",
+     "title": "Using the mouse and keyboard",
+     "pages": [
+      15,
+      18
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "The mouse",
+       "body": [
+        "The **mouse** is a frequently used **input device**.",
+        "On screen it is shown by the **mouse pointer**.",
+        "When you point at an icon, a **pop-up description** gives information about it."
+       ],
+       "page": 15
+      },
+      {
+       "type": "table",
+       "title": "Six mouse actions",
+       "page": 15,
+       "head": [
+        "No.",
+        "Action"
+       ],
+       "rows": [
+        [
+         "1",
+         "pointing"
+        ],
+        [
+         "2",
+         "single-clicking"
+        ],
+        [
+         "3",
+         "double-clicking (two rapid clicks)"
+        ],
+        [
+         "4",
+         "dragging"
+        ],
+        [
+         "5",
+         "right-clicking"
+        ],
+        [
+         "6",
+         "scrolling"
+        ]
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "Parts of the mouse",
+       "diagram": "mouse",
+       "mode": "explore",
+       "page": 16,
+       "body": [
+        "Tap the three parts."
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Hands on Activity 2.1",
+       "page": 16,
+       "head": [
+        "To do this...",
+        "...use this action"
+       ],
+       "rows": [
+        [
+         "select the Computer icon",
+         "click once"
+        ],
+        [
+         "deselect it",
+         "click on free space on the desktop"
+        ],
+        [
+         "open the Computer window",
+         "double-click"
+        ],
+        [
+         "see a list and choose \"open\"",
+         "right-click"
+        ],
+        [
+         "move the icon somewhere else",
+         "press, hold the left button and drag"
+        ]
+       ]
+      },
+      {
+       "type": "text",
+       "title": "The keyboard",
+       "body": [
+        "The **keyboard** is an **input device** for **text, numbers and commands**.",
+        "Most keyboards use the **QWERTY** layout. The name comes from the first letters on the **top row**.",
+        "It is easy to use and allows **fast entry** of text. You can **check** your typing because it appears on the screen at the same time."
+       ],
+       "page": 16
+      },
+      {
+       "type": "diagram",
+       "title": "Four parts of the keyboard",
+       "diagram": "kbd",
+       "mode": "explore",
+       "page": 17,
+       "body": [
+        "Tap each part."
+       ]
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: F-N-T-N",
+       "page": 17,
+       "letters": [
+        {
+         "l": "F",
+         "w": "Function keys",
+         "m": "top row"
+        },
+        {
+         "l": "N",
+         "w": "Navigation keys",
+         "m": "arrows"
+        },
+        {
+         "l": "T",
+         "w": "Typing pad",
+         "m": "letters"
+        },
+        {
+         "l": "N",
+         "w": "Numeric pad",
+         "m": "numbers on the right"
+        }
+       ],
+       "body": [
+        "\"**F**our **N**ice **T**yping **N**otes.\""
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Some keys on a standard keyboard",
+       "page": 17,
+       "head": [
+        "Key",
+        "Where"
+       ],
+       "rows": [
+        [
+         "Escape, Function keys",
+         "top row"
+        ],
+        [
+         "Tab, Capitals Lock, Shift, Control, Window",
+         "left side of the typing pad"
+        ],
+        [
+         "Space bar",
+         "bottom middle"
+        ],
+        [
+         "Enter, Backspace",
+         "right side of the typing pad"
+        ],
+        [
+         "Delete, Print Screen, Arrows",
+         "navigation keys"
+        ],
+        [
+         "Scroll, Indicators",
+         "top right, above the numeric pad"
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Typing properly",
+       "body": [
+        "Proper **body, hand and finger positions** are very important for **healthy use** and **fast typing**.",
+        "Use the **left hand** for the left half of the keyboard and the **right hand** for the right half."
+       ],
+       "page": 18
+      },
+      {
+       "type": "check",
+       "q": "Where does the name QWERTY come from?",
+       "options": {
+        "A": "the inventor's name",
+        "B": "the keys on the top row",
+        "C": "the space bar",
+        "D": "the numeric pad"
+       },
+       "answer": "B",
+       "why": "\"this name comes from the keys on the top row, which spell out QWERTY\" (p. 16).",
+       "page": 16
+      }
+     ]
+    },
+    {
+     "id": "ict8-u2-l3",
+     "number": "2.3",
+     "title": "File and folder management",
+     "pages": [
+      18,
+      20
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Files",
+       "body": [
+        "All information in a computer is stored in **files**.",
+        "A **file** is a collection of digital data: documents, photos, audio, video.",
+        "A filename has **two parts**: the **name** and the **extension** (the type of file).",
+        "Examples: **hanna123.docx**, **omer said.xlsx**."
+       ],
+       "page": 18
+      },
+      {
+       "type": "text",
+       "title": "Folders",
+       "body": [
+        "Windows saves files in **folders**. A folder is like a **master file**.",
+        "A folder can contain files or other folders, called **sub folders**."
+       ],
+       "page": 18
+      },
+      {
+       "type": "steps",
+       "title": "Creating a folder named \"Eritrea\"",
+       "diagram": "folder",
+       "page": 19,
+       "steps": [
+        {
+         "text": "**Right-click** on empty space on the desktop.",
+         "show": "rc",
+         "pins": [
+          "rc"
+         ]
+        },
+        {
+         "text": "Put the mouse pointer on **New**.",
+         "show": "new",
+         "pins": [
+          "new"
+         ]
+        },
+        {
+         "text": "Click **Folder**. A \"New folder\" appears.",
+         "show": "fold",
+         "pins": [
+          "fold"
+         ]
+        },
+        {
+         "text": "Type **Eritrea** and click on empty space.",
+         "show": "name",
+         "pins": [
+          "name"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Rename or delete",
+       "body": [
+        "**Right-click** the folder and choose **Rename** or **Delete**.",
+        "Or click the folder **once** and press **Delete** on the keyboard."
+       ],
+       "page": 20
+      },
+      {
+       "type": "diagram",
+       "title": "Folders, sub folders and files",
+       "diagram": "tree",
+       "mode": "explore",
+       "page": 20,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Making a sub folder",
+       "body": [
+        "To make a sub folder \"Asmara\" inside \"Eritrea\":",
+        "1. **Double-click** \"Eritrea\" to open it.",
+        "2. Follow the same steps as for a new folder.",
+        "Sub folders can contain sub-sub folders. This is very useful for **archiving** documents."
+       ],
+       "page": 20
+      },
+      {
+       "type": "remember",
+       "title": "Copy and paste, or cut and paste",
+       "body": [
+        "1. **Select** the folder.",
+        "2. **Right-click** it and click **Copy** or **Cut**.",
+        "3. **Go to** the drive where you want the data, and paste."
+       ],
+       "page": 20
+      },
+      {
+       "type": "check",
+       "q": "In the filename \"hanna123.docx\", what is \".docx\"?",
+       "options": {
+        "A": "the name",
+        "B": "the extension",
+        "C": "a folder",
+        "D": "a sub folder"
+       },
+       "answer": "B",
+       "why": "A filename has a name and an extension; the extension refers to the type of file (p. 18).",
+       "page": 18
+      }
+     ]
+    },
+    {
+     "id": "ict8-u2-l4",
+     "number": "2.4",
+     "title": "The Start menu options",
+     "pages": [
+      21,
+      25
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "The Start menu",
+       "body": [
+        "The **Start menu** is the **starting point** in Windows 7: all programs and settings can be reached from it.",
+        "Open it with the **Windows icon** button at the bottom left, or press the **Windows key**."
+       ],
+       "page": 21
+      },
+      {
+       "type": "diagram",
+       "title": "The Start menu",
+       "diagram": "start",
+       "mode": "explore",
+       "page": 21,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "Parts of an open window",
+       "diagram": "window",
+       "mode": "explore",
+       "page": 22,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Window buttons",
+       "body": [
+        "The **title bar** at the top shows the **name** of what is open.",
+        "On the right: **Minimize** and **Maximize (Restore Down)** change the size. **Close** closes the window.",
+        "To **re-size**: point at a corner, get a **two sided arrow**, and drag."
+       ],
+       "page": 22
+      },
+      {
+       "type": "states",
+       "title": "Shut down or restart?",
+       "diagram": "power",
+       "page": 23,
+       "states": [
+        {
+         "key": "shut",
+         "label": "Shut down",
+         "text": "Click **Start**, then **Shut down**. Windows saves your computer settings, then turns off. Your **work is not saved**: save it first! Using Shut down helps your **hard disk drive live longer**."
+        },
+        {
+         "key": "rest",
+         "label": "Restart",
+         "text": "**Restart** is like Shut down, but the computer **starts up again**. Your work is **not saved**: save it first!"
+        }
+       ],
+       "body": [
+        "Move the slider."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Key terms of Unit 2",
+       "body": [
+        "close, desktop, file, folder, keyboard, maximize, minimize, mouse, password,",
+        "power buttons, restart, restore, shut down, start menu, sub folder, windows 7, username."
+       ],
+       "page": 25
+      },
+      {
+       "type": "check",
+       "q": "What must you do before you shut down or restart?",
+       "options": {
+        "A": "nothing",
+        "B": "save all your work",
+        "C": "delete all files",
+        "D": "unplug the mouse"
+       },
+       "answer": "B",
+       "why": "With Shut down and Restart \"your work will not be saved\", so you must save it manually first (p. 24).",
+       "page": 24
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "Windows 7",
+     "meaning": "the Microsoft operating system used in this book",
+     "page": 11
+    },
+    {
+     "term": "power button",
+     "meaning": "the button on the system unit that turns the computer on",
+     "page": 11,
+     "forms": [
+      "power buttons"
+     ]
+    },
+    {
+     "term": "username",
+     "meaning": "the name you choose to log on",
+     "page": 11
+    },
+    {
+     "term": "password",
+     "meaning": "a secret word to log on",
+     "page": 11
+    },
+    {
+     "term": "desktop",
+     "meaning": "the main Windows 7 screen, the work area",
+     "page": 12
+    },
+    {
+     "term": "icon",
+     "meaning": "a small picture for a program or file",
+     "page": 12,
+     "forms": [
+      "icons"
+     ]
+    },
+    {
+     "term": "taskbar",
+     "meaning": "the bar that shows open programs and files",
+     "page": 13
+    },
+    {
+     "term": "Recycle Bin",
+     "meaning": "stores deleted files until you empty it",
+     "page": 13
+    },
+    {
+     "term": "mouse pointer",
+     "meaning": "the arrow on the screen that the mouse moves",
+     "page": 15
+    },
+    {
+     "term": "double-click",
+     "meaning": "two rapid clicks",
+     "page": 15,
+     "forms": [
+      "double-clicking"
+     ]
+    },
+    {
+     "term": "drag",
+     "meaning": "press, hold and move with the mouse",
+     "page": 15,
+     "forms": [
+      "dragging"
+     ]
+    },
+    {
+     "term": "scroller",
+     "meaning": "the mouse wheel that scrolls a page",
+     "page": 16
+    },
+    {
+     "term": "QWERTY",
+     "meaning": "the usual keyboard layout, named after the top row",
+     "page": 16
+    },
+    {
+     "term": "file",
+     "meaning": "a collection of digital data such as a document or photo",
+     "page": 18,
+     "forms": [
+      "files"
+     ]
+    },
+    {
+     "term": "extension",
+     "meaning": "the part of a filename that shows the file type",
+     "page": 18
+    },
+    {
+     "term": "folder",
+     "meaning": "a place that holds files and other folders",
+     "page": 18,
+     "forms": [
+      "folders"
+     ]
+    },
+    {
+     "term": "sub folder",
+     "meaning": "a folder inside a folder",
+     "page": 20,
+     "forms": [
+      "sub folders"
+     ]
+    },
+    {
+     "term": "Start menu",
+     "meaning": "the starting point to reach all programs and settings",
+     "page": 21
+    },
+    {
+     "term": "title bar",
+     "meaning": "the top bar of a window that shows its name",
+     "page": 22
+    },
+    {
+     "term": "minimize",
+     "meaning": "make a window small",
+     "page": 22
+    },
+    {
+     "term": "maximize",
+     "meaning": "make a window big",
+     "page": 22
+    },
+    {
+     "term": "shut down",
+     "meaning": "turn the computer off correctly",
+     "page": 23
+    },
+    {
+     "term": "restart",
+     "meaning": "shut down and start again",
+     "page": 24
+    }
+   ],
+   "tips": [
+    {
+     "text": "Mouse: **click** = select, **double-click** = open, **right-click** = menu, **drag** = move."
+    },
+    {
+     "text": "Keyboard parts: **function keys**, **navigation keys**, **typing pad**, **numeric pad**."
+    },
+    {
+     "text": "Filename = **name** + **extension** (hanna123 + .docx)."
+    },
+    {
+     "text": "New folder = **Right-click → New → Folder**."
+    },
+    {
+     "text": "Always **save your work** before Shut down or Restart."
+    }
+   ],
+   "games": [
+    {
+     "id": "ict8-u2-g1",
+     "type": "label",
+     "lesson": "ict8-u2-l2",
+     "title": "Parts of the mouse",
+     "diagram": "mouse"
+    },
+    {
+     "id": "ict8-u2-g2",
+     "type": "label",
+     "lesson": "ict8-u2-l2",
+     "title": "Parts of the keyboard",
+     "diagram": "kbd"
+    },
+    {
+     "id": "ict8-u2-g3",
+     "type": "label",
+     "lesson": "ict8-u2-l4",
+     "title": "Parts of a window",
+     "diagram": "window"
+    },
+    {
+     "id": "ict8-u2-g4",
+     "type": "match",
+     "lesson": "ict8-u2-l1",
+     "title": "Desktop icons",
+     "pairs": [
+      {
+       "a": "Computer",
+       "b": "shows the drives"
+      },
+      {
+       "a": "Documents",
+       "b": "your personal files"
+      },
+      {
+       "a": "Recycle Bin",
+       "b": "deleted files"
+      },
+      {
+       "a": "Internet Explorer",
+       "b": "web browser"
+      },
+      {
+       "a": "Taskbar",
+       "b": "open programs"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u2-g5",
+     "type": "match",
+     "lesson": "ict8-u2-l2",
+     "title": "Which mouse action?",
+     "pairs": [
+      {
+       "a": "select an icon",
+       "b": "single-click"
+      },
+      {
+       "a": "open an icon",
+       "b": "double-click"
+      },
+      {
+       "a": "see a menu",
+       "b": "right-click"
+      },
+      {
+       "a": "move an icon",
+       "b": "drag"
+      },
+      {
+       "a": "move through a page",
+       "b": "scroll"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u2-g6",
+     "type": "sort",
+     "lesson": "ict8-u2-l3",
+     "title": "Name or extension?",
+     "groups": [
+      {
+       "id": "n",
+       "label": "Name"
+      },
+      {
+       "id": "e",
+       "label": "Extension"
+      }
+     ],
+     "items": [
+      {
+       "text": "hanna123",
+       "group": "n"
+      },
+      {
+       "text": "omer said",
+       "group": "n"
+      },
+      {
+       "text": "eriterea12",
+       "group": "n"
+      },
+      {
+       "text": ".docx",
+       "group": "e"
+      },
+      {
+       "text": ".xlsx",
+       "group": "e"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u2-g7",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Windows 7 starts automatically after the ___.",
+       "answer": "BIOS",
+       "choices": [
+        "BIOS",
+        "mouse",
+        "printer"
+       ]
+      },
+      {
+       "text": "The Recycle Bin stores deleted files until you ___ it.",
+       "answer": "empty",
+       "choices": [
+        "empty",
+        "open",
+        "print"
+       ]
+      },
+      {
+       "text": "A folder inside a folder is called a sub ___.",
+       "answer": "folder",
+       "choices": [
+        "folder",
+        "file",
+        "menu"
+       ]
+      },
+      {
+       "text": "To create a folder: right-click, then ___.",
+       "answer": "New",
+       "choices": [
+        "New",
+        "Delete",
+        "Copy"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ict8-u2-g8",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round: review",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "The keyboard is an output device.",
+       "answer": false,
+       "why": "It is an input device (p. 16)."
+      },
+      {
+       "text": "A double-click is two rapid clicks.",
+       "answer": true
+      },
+      {
+       "text": "Shut down saves your work automatically.",
+       "answer": false,
+       "why": "Your work is not saved; save it first (p. 24)."
+      },
+      {
+       "text": "A file can be a document, a photo or an audio file.",
+       "answer": true
+      },
+      {
+       "text": "The scroller is used to scroll within a page.",
+       "answer": true
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ict8-u2-q1",
+      "type": "mcq",
+      "page": 25,
+      "q": "The small pictures that appear on your desktop after logging on are called...",
+      "options": {
+       "A": "icons",
+       "B": "files",
+       "C": "folders",
+       "D": "windows"
+      },
+      "answer": "A",
+      "why": [
+       "p. 13: \"icons (small pictures)\"."
+      ],
+      "tip": "Icon = small picture.",
+      "similar": [
+       {
+        "q": "Name the four usual desktop icons.",
+        "a": "Computer, Documents, Recycle Bin, Internet Explorer"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q2",
+      "type": "mcq",
+      "page": 25,
+      "q": "The part of a mouse used to scroll within a page is the...",
+      "options": {
+       "A": "left button",
+       "B": "right button",
+       "C": "scroller",
+       "D": "none"
+      },
+      "answer": "C",
+      "why": [
+       "p. 16: \"The Scroller button is used to scroll within a page or pages of a document\"."
+      ],
+      "tip": "Scroll → scroller.",
+      "similar": [
+       {
+        "q": "What is the scroller equal to?",
+        "a": "using the scroll bars"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q3",
+      "type": "mcq",
+      "page": 25,
+      "q": "Which of the following can be inserted into a computer using a keyboard?",
+      "options": {
+       "A": "alphabet (text)",
+       "B": "numbers",
+       "C": "commands",
+       "D": "all of these"
+      },
+      "answer": "D",
+      "why": [
+       "p. 16: the keyboard helps us insert text, numbers and commands."
+      ],
+      "tip": "Three things → \"all\".",
+      "similar": [
+       {
+        "q": "Name the four parts of a keyboard.",
+        "a": "function keys, navigation keys, typing pad, numeric pad"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q4",
+      "type": "mcq",
+      "page": 25,
+      "q": "Which of the following is FALSE about the keyboard?",
+      "options": {
+       "A": "it is easy to use",
+       "B": "it is an output device",
+       "C": "it enables fast entry of text",
+       "D": "none"
+      },
+      "answer": "B",
+      "why": [
+       "p. 16: the keyboard is an input device, easy to use, and enables fast entry of text."
+      ],
+      "tip": "Find the one that is not in the text.",
+      "similar": [
+       {
+        "q": "Give two features of a keyboard.",
+        "a": "it is easy to use; it enables fast entry of text (you can also check data as it appears)"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q5",
+      "type": "mcq",
+      "page": 25,
+      "q": "A file can be...",
+      "options": {
+       "A": "a document",
+       "B": "a photo",
+       "C": "an audio",
+       "D": "all of these"
+      },
+      "answer": "D",
+      "why": [
+       "p. 18: a file is a collection of digital data such as documents, photos, audio and video files."
+      ],
+      "tip": "All three are in the list.",
+      "similar": [
+       {
+        "q": "What two parts must a filename have?",
+        "a": "a name and an extension"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q6",
+      "type": "mcq",
+      "page": 25,
+      "q": "eriterea12.docx is saved on a desktop. The part \".docx\" is called the...",
+      "options": {
+       "A": "name",
+       "B": "extension",
+       "C": "file name",
+       "D": "folder"
+      },
+      "answer": "B",
+      "why": [
+       "p. 18: the extension refers to the type of file."
+      ],
+      "tip": "After the dot = extension.",
+      "similar": [
+       {
+        "q": "Which part is the name?",
+        "a": "eriterea12"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q7",
+      "type": "mcq",
+      "page": 25,
+      "q": "The steps to create a folder are...",
+      "options": {
+       "A": "Right-click, Rename",
+       "B": "Right-click, Delete",
+       "C": "Right-click, Copy",
+       "D": "Right-click, New"
+      },
+      "answer": "D",
+      "why": [
+       "p. 19: Step 1 right-click on the desktop; Step 2 point to \"New\"; Step 3 click Folder."
+      ],
+      "tip": "New = make something new.",
+      "similar": [
+       {
+        "q": "How do you delete a folder with the keyboard?",
+        "a": "click it once, then press Delete"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q8",
+      "type": "tf",
+      "page": 24,
+      "q": "Restart is the same as Shut down, except that the computer starts up again.",
+      "answer": true,
+      "why": [
+       "p. 24: \"Restart is the same as Shut down except that the computer is started up again\"."
+      ],
+      "tip": "Re-start = start again.",
+      "similar": [
+       {
+        "q": "Which button helps the hard disk drive live longer?",
+        "a": "Shut down"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q9",
+      "type": "fill",
+      "page": 22,
+      "q": "On the right side of the title bar are the Minimize, Maximize and ___ buttons.",
+      "choices": [
+       "Close",
+       "Start",
+       "New",
+       "Save"
+      ],
+      "answer": "Close",
+      "why": [
+       "p. 22."
+      ],
+      "tip": "Three buttons: _, □, X.",
+      "similar": [
+       {
+        "q": "How do you re-size a window?",
+        "a": "point at a corner, get a two sided arrow, and drag"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q10",
+      "type": "short",
+      "page": 25,
+      "q": "List four tasks a computer mouse can perform.",
+      "answer": "Any four of: pointing, single-clicking, double-clicking, dragging, right-clicking, scrolling.",
+      "why": [
+       "p. 15: the six mouse actions."
+      ],
+      "tip": "P-S-D-D-R-S.",
+      "similar": [
+       {
+        "q": "What is double-clicking?",
+        "a": "two rapid clicks"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u2-q11",
+      "type": "short",
+      "page": 21,
+      "q": "How do you open the Start menu?",
+      "answer": "Click the Windows icon (Start) button in the bottom left corner, or press the Windows key on the keyboard.",
+      "why": [
+       "p. 21."
+      ],
+      "tip": "Button or key.",
+      "similar": [
+       {
+        "q": "What is the Account Name in Fig. 2.17?",
+        "a": "ICT Lab"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ict8-u3",
+   "number": 3,
+   "title": "Introduction to Microsoft Office Word 2007",
+   "status": "done",
+   "pages": [
+    26,
+    49
+   ],
+   "tone": "butter",
+   "intro": "In this unit you learn **Word 2007**: to **open, create, save and close** documents, **select and edit** text, **format characters** and **paragraphs**, and make **tables**.",
+   "intro_page": 26,
+   "diagrams": {
+    "open": {
+     "svg": "svg/ict_8/ict8_open.svg",
+     "title": "Starting Word 2007",
+     "page": 26,
+     "pins": [
+      {
+       "id": "st",
+       "text": "Step 1: click the Start button on the taskbar",
+       "x": 97.0,
+       "y": 38.0
+      },
+      {
+       "id": "all",
+       "text": "Step 2: click All Programs",
+       "x": 97.0,
+       "y": 102.0
+      },
+      {
+       "id": "ms",
+       "text": "Step 3: click Microsoft Office",
+       "x": 97.0,
+       "y": 166.0
+      },
+      {
+       "id": "word",
+       "text": "Step 4: click Microsoft Office Word 2007; a blank page appears",
+       "x": 97.0,
+       "y": 230.0
+      }
+     ]
+    },
+    "screen": {
+     "svg": "svg/ict_8/ict8_screen.svg",
+     "title": "The Word 2007 screen",
+     "page": 28,
+     "pins": [
+      {
+       "id": "office",
+       "text": "Office button",
+       "x": 18,
+       "y": 40
+      },
+      {
+       "id": "qat",
+       "text": "Quick Access Toolbar",
+       "x": 54,
+       "y": 6
+      },
+      {
+       "id": "title",
+       "text": "title bar: shows the document name",
+       "x": 160,
+       "y": 15
+      },
+      {
+       "id": "ctrl",
+       "text": "window controls",
+       "x": 284,
+       "y": 30
+      },
+      {
+       "id": "tabs",
+       "text": "ribbon tabs (Home tab first)",
+       "x": 100,
+       "y": 36
+      },
+      {
+       "id": "groups",
+       "text": "groups of command buttons on the ribbon",
+       "x": 150,
+       "y": 62
+      },
+      {
+       "id": "ruler",
+       "text": "ruler",
+       "x": 160,
+       "y": 88
+      },
+      {
+       "id": "text",
+       "text": "document text area",
+       "x": 100,
+       "y": 150
+      },
+      {
+       "id": "cur",
+       "text": "cursor",
+       "x": 174,
+       "y": 190
+      },
+      {
+       "id": "scroll",
+       "text": "vertical scroll bar",
+       "x": 299,
+       "y": 160
+      },
+      {
+       "id": "status",
+       "text": "status bar",
+       "x": 40,
+       "y": 246
+      },
+      {
+       "id": "zoom",
+       "text": "zoom",
+       "x": 268,
+       "y": 232
+      }
+     ]
+    },
+    "office": {
+     "svg": "svg/ict_8/ict8_office.svg",
+     "title": "Office button commands",
+     "page": 29,
+     "pins": [
+      {
+       "id": "new",
+       "text": "New: start a new document from a template",
+       "x": 20.0,
+       "y": 24.0
+      },
+      {
+       "id": "opn",
+       "text": "Open: open a document saved earlier",
+       "x": 126.0,
+       "y": 24.0
+      },
+      {
+       "id": "sav",
+       "text": "Save: save the current document (first time: opens Save As)",
+       "x": 232.0,
+       "y": 24.0
+      },
+      {
+       "id": "sva",
+       "text": "Save As: give a name, or save with a new name or place",
+       "x": 20.0,
+       "y": 98.0
+      },
+      {
+       "id": "prn",
+       "text": "Print: print the current document",
+       "x": 126.0,
+       "y": 98.0
+      },
+      {
+       "id": "cls",
+       "text": "Close closes the document (Word keeps running); Exit Word closes Word and all documents",
+       "x": 232.0,
+       "y": 98.0
+      }
+     ]
+    },
+    "save": {
+     "svg": "svg/ict_8/ict8_save.svg",
+     "title": "Saving a new document",
+     "page": 30,
+     "pins": [
+      {
+       "id": "ob",
+       "text": "1. click the Office button",
+       "x": 97.0,
+       "y": 38.0
+      },
+      {
+       "id": "sv",
+       "text": "2. choose Save",
+       "x": 97.0,
+       "y": 102.0
+      },
+      {
+       "id": "nm",
+       "text": "3. type the file name and choose the place",
+       "x": 97.0,
+       "y": 166.0
+      },
+      {
+       "id": "ok",
+       "text": "4. click Save",
+       "x": 97.0,
+       "y": 230.0
+      }
+     ]
+    },
+    "styles": {
+     "svg": "svg/ict_8/ict8_styles.svg",
+     "title": "How formatted text looks",
+     "page": 35,
+     "pins": [
+      {
+       "id": "bold",
+       "text": "bold: shaded and darker",
+       "x": 22,
+       "y": 22
+      },
+      {
+       "id": "ital",
+       "text": "italic: inclined (slanted)",
+       "x": 177,
+       "y": 22
+      },
+      {
+       "id": "und",
+       "text": "underline (many styles, e.g. double underline)",
+       "x": 22,
+       "y": 88
+      },
+      {
+       "id": "high",
+       "text": "highlight: like a marker",
+       "x": 177,
+       "y": 88
+      },
+      {
+       "id": "spell",
+       "text": "red zigzag underline: a spelling error",
+       "x": 22,
+       "y": 154
+      },
+      {
+       "id": "gram",
+       "text": "green zigzag underline: a grammar error",
+       "x": 177,
+       "y": 154
+      }
+     ]
+    },
+    "align": {
+     "svg": "svg/ict_8/ict8_align.svg",
+     "title": "Four types of alignment",
+     "page": 42,
+     "pins": [
+      {
+       "id": "left",
+       "text": "left: lines line up on the left margin",
+       "x": 22,
+       "y": 22
+      },
+      {
+       "id": "center",
+       "text": "center: the middles of the lines line up",
+       "x": 177,
+       "y": 22
+      },
+      {
+       "id": "right",
+       "text": "right: lines line up on the right margin",
+       "x": 22,
+       "y": 132
+      },
+      {
+       "id": "justify",
+       "text": "justify: both sides line up (except the last line); extra space goes between words",
+       "x": 177,
+       "y": 132
+      }
+     ]
+    },
+    "table": {
+     "svg": "svg/ict_8/ict8_table.svg",
+     "title": "Parts of a table",
+     "page": 45,
+     "pins": [
+      {
+       "id": "row",
+       "text": "a row (goes across)",
+       "x": 20,
+       "y": 105.0
+      },
+      {
+       "id": "col",
+       "text": "a column (goes down)",
+       "x": 245.0,
+       "y": 12
+      },
+      {
+       "id": "cell",
+       "text": "a cell: where a row and a column meet",
+       "x": 159.0,
+       "y": 173.0
+      },
+      {
+       "id": "grid",
+       "text": "gridlines: the lines that mark the cells",
+       "x": 40,
+       "y": 54
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ict8-u3-l1",
+     "number": "3.1",
+     "title": "Getting started with Word 2007",
+     "pages": [
+      26,
+      32
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What is Word 2007?",
+       "body": [
+        "**Microsoft Office Word 2007** is an **application software** for working with **text documents**.",
+        "It is the **most widely used** application software in the world.",
+        "The book calls it simply **Word 2007**."
+       ],
+       "page": 26
+      },
+      {
+       "type": "steps",
+       "title": "Starting Word 2007",
+       "diagram": "open",
+       "page": 26,
+       "steps": [
+        {
+         "text": "Click the **Start** button on the taskbar.",
+         "show": "st",
+         "pins": [
+          "st"
+         ]
+        },
+        {
+         "text": "Click **All Programs**.",
+         "show": "all",
+         "pins": [
+          "all"
+         ]
+        },
+        {
+         "text": "Click **Microsoft Office**.",
+         "show": "ms",
+         "pins": [
+          "ms"
+         ]
+        },
+        {
+         "text": "Click **Microsoft Office Word 2007**. A **blank page** appears.",
+         "show": "word",
+         "pins": [
+          "word"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "The Word 2007 screen",
+       "diagram": "screen",
+       "mode": "explore",
+       "page": 28,
+       "body": [
+        "Tap the dots to learn each part (Fig. 3.2)."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Title bar and ribbon",
+       "body": [
+        "The **title bar** shows the document name. A new document is called \"**Document 1**\" until you save it with a name.",
+        "The **ribbon** is a set of **eight tabbed toolbars**. Only **one** is visible at a time. The **Home** tab is shown first.",
+        "Commands on the ribbon are arranged in **groups**."
+       ],
+       "page": 28
+      },
+      {
+       "type": "text",
+       "title": "Minimize the ribbon",
+       "body": [
+        "**Double-click** the active tab to minimize the ribbon.",
+        "Click any tab to show it again."
+       ],
+       "page": 29
+      },
+      {
+       "type": "diagram",
+       "title": "Office button commands",
+       "diagram": "office",
+       "mode": "explore",
+       "page": 29,
+       "body": [
+        "Tap each command."
+       ]
+      },
+      {
+       "type": "steps",
+       "title": "Saving a new document",
+       "diagram": "save",
+       "page": 30,
+       "steps": [
+        {
+         "text": "Click the **Office button**.",
+         "show": "ob",
+         "pins": [
+          "ob"
+         ]
+        },
+        {
+         "text": "Choose **Save**.",
+         "show": "sv",
+         "pins": [
+          "sv"
+         ]
+        },
+        {
+         "text": "Type the **file name** and choose **where** to save it.",
+         "show": "nm",
+         "pins": [
+          "nm"
+         ]
+        },
+        {
+         "text": "Click **Save**.",
+         "show": "ok",
+         "pins": [
+          "ok"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Why save?",
+       "body": [
+        "The computer's memory keeps your work only **for a while**.",
+        "When the computer restarts or shuts down, **unsaved work is lost**.",
+        "So **save** your work on the **hard disk**. To save in another place, use **Save As**."
+       ],
+       "page": 30
+      },
+      {
+       "type": "table",
+       "title": "Keyboard shortcuts (3.1)",
+       "page": 31,
+       "head": [
+        "Keys",
+        "What they do"
+       ],
+       "rows": [
+        [
+         "Ctrl + S",
+         "Save (opens the Save As dialog box the first time)"
+        ],
+        [
+         "Ctrl + W",
+         "close the document"
+        ],
+        [
+         "Alt + F4",
+         "close"
+        ]
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Closing and opening",
+       "body": [
+        "Click the **Close** button (X) at the top right to close the document.",
+        "If you close without saving, Word asks if you want to **save** the changes.",
+        "To open a saved document: **Office button → Open**, find the document, click **Open**."
+       ],
+       "page": 31
+      },
+      {
+       "type": "check",
+       "q": "Why must you save your work on the hard disk?",
+       "options": {
+        "A": "to print it",
+        "B": "because unsaved work is lost when the computer restarts or shuts down",
+        "C": "to make it bold",
+        "D": "to close Word"
+       },
+       "answer": "B",
+       "why": "p. 30: after a restart or shut down, the unsaved document cannot be got again.",
+       "page": 30
+      }
+     ]
+    },
+    {
+     "id": "ict8-u3-l2",
+     "number": "3.2",
+     "title": "Selecting and editing text",
+     "pages": [
+      32,
+      34
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Inserting a symbol",
+       "body": [
+        "For symbols **not on the keyboard**:",
+        "1. Put the **cursor** where you want the symbol.",
+        "2. Click the **Insert** tab, then **Symbol**.",
+        "3. Click a symbol, or **More Symbols**, choose one, click **Insert**, then **Close**."
+       ],
+       "page": 32
+      },
+      {
+       "type": "text",
+       "title": "Moving in a document",
+       "body": [
+        "Use the **arrow (navigation) keys** to move up, down, left and right.",
+        "Or use the **scroll bars**."
+       ],
+       "page": 34
+      },
+      {
+       "type": "table",
+       "title": "Undo and redo",
+       "page": 34,
+       "head": [
+        "Command",
+        "What it does",
+        "Shortcut"
+       ],
+       "rows": [
+        [
+         "Undo",
+         "brings back a change, e.g. restores text you deleted by mistake",
+         "Ctrl + Z"
+        ],
+        [
+         "Redo",
+         "does the opposite of Undo",
+         "Ctrl + Y"
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Select first!",
+       "body": [
+        "**Selecting** = **highlighting** text with the mouse or keyboard.",
+        "You must **select text first** before you cut, copy, delete, format or move it."
+       ],
+       "page": 34
+      },
+      {
+       "type": "text",
+       "title": "Selecting with the mouse",
+       "body": [
+        "1. Put the pointer at the **beginning or end** of the text.",
+        "2. **Hold down the left button** and move to the other end.",
+        "3. **Release** the button."
+       ],
+       "page": 34
+      },
+      {
+       "type": "check",
+       "q": "Which shortcut undoes a change?",
+       "options": {
+        "A": "Ctrl + Y",
+        "B": "Ctrl + Z",
+        "C": "Ctrl + S",
+        "D": "Ctrl + B"
+       },
+       "answer": "B",
+       "why": "\"Ctrl + Z for Undo and Ctrl + Y for Redo\" (p. 34).",
+       "page": 34
+      }
+     ]
+    },
+    {
+     "id": "ict8-u3-l3",
+     "number": "3.3",
+     "title": "Formatting characters",
+     "pages": [
+      35,
+      41
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What is formatting?",
+       "body": [
+        "**Formatting** = changing the **appearance** of a document.",
+        "Basic formats: **Bold**, **Italic**, **Underline**. Select the text first, then click the format on the **Home** tab."
+       ],
+       "page": 35
+      },
+      {
+       "type": "diagram",
+       "title": "How formatted text looks",
+       "diagram": "styles",
+       "mode": "explore",
+       "page": 35,
+       "body": [
+        "Tap each box."
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Formatting shortcuts",
+       "page": 35,
+       "head": [
+        "Keys",
+        "Format"
+       ],
+       "rows": [
+        [
+         "Ctrl + B",
+         "Bold"
+        ],
+        [
+         "Ctrl + I",
+         "Italic"
+        ],
+        [
+         "Ctrl + U",
+         "Underline"
+        ]
+       ]
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: B-I-U",
+       "page": 35,
+       "letters": [
+        {
+         "l": "B",
+         "w": "Bold",
+         "m": "Ctrl + B"
+        },
+        {
+         "l": "I",
+         "w": "Italic",
+         "m": "Ctrl + I"
+        },
+        {
+         "l": "U",
+         "w": "Underline",
+         "m": "Ctrl + U"
+        }
+       ],
+       "body": [
+        "The shortcut letter is the **first letter** of the format."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "The Font dialog box",
+       "body": [
+        "More options are in the **Font dialog box**. Open it with the small **launcher** at the corner of the **Font group**.",
+        "It has **two tabs**: **Font** and **Character Spacing**."
+       ],
+       "page": 35
+      },
+      {
+       "type": "table",
+       "title": "Font options",
+       "page": 36,
+       "head": [
+        "Option",
+        "Examples"
+       ],
+       "rows": [
+        [
+         "font family",
+         "the typeface, e.g. Antique Olive"
+        ],
+        [
+         "font style",
+         "e.g. Bold Italic"
+        ],
+        [
+         "font size",
+         "8, 10, 12, 16, 18 point..."
+        ],
+        [
+         "font color",
+         "red, orange, green, blue, purple, brown..."
+        ],
+        [
+         "underline style",
+         "double, thick, dotted, dashed underline..."
+        ]
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Character spacing",
+       "body": [
+        "Character Spacing can **stretch or contract** text.",
+        "It can **increase or decrease** the space between characters.",
+        "It can make **raised** or **lowered** characters."
+       ],
+       "page": 38
+      },
+      {
+       "type": "remember",
+       "title": "Styles",
+       "body": [
+        "A **style** includes typeface, size, effects (bold, italic, underline) and colours.",
+        "The **Home** tab has areas that control style: **Font**, **Paragraph** and **Styles**."
+       ],
+       "page": 38
+      },
+      {
+       "type": "text",
+       "title": "Font face, size and colour",
+       "body": [
+        "**Typeface**: click the arrow next to the font name.",
+        "**Size**: click the arrow on the font size, or the increase/decrease buttons.",
+        "**Colour**: click the arrow next to the font colour button."
+       ],
+       "page": 39
+      },
+      {
+       "type": "table",
+       "title": "More character tools",
+       "page": 40,
+       "head": [
+        "Tool",
+        "What it does"
+       ],
+       "rows": [
+        [
+         "Change Case",
+         "Sentence case, lower case, UPPERCASE..."
+        ],
+        [
+         "Highlight",
+         "marks text like a marker pen"
+        ],
+        [
+         "Format Painter",
+         "copies formatting to other text (Clipboard group)"
+        ],
+        [
+         "Clear All",
+         "clears formatting (Styles group)"
+        ]
+       ]
+      },
+      {
+       "type": "check",
+       "q": "What does an italic text look like?",
+       "options": {
+        "A": "shaded and darker",
+        "B": "inclined",
+        "C": "underlined",
+        "D": "highlighted"
+       },
+       "answer": "B",
+       "why": "\"A text is said to be italicized if its appearance is inclined\" (p. 35).",
+       "page": 35
+      }
+     ]
+    },
+    {
+     "id": "ict8-u3-l4",
+     "number": "3.4",
+     "title": "Formatting paragraphs",
+     "pages": [
+      41,
+      44
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Paragraph tools",
+       "body": [
+        "Paragraph formatting changes the look of the **whole document**.",
+        "Find the tools on the **Page Layout** tab or the **Paragraph group** of the Home tab."
+       ],
+       "page": 41
+      },
+      {
+       "type": "states",
+       "title": "Four types of alignment",
+       "diagram": "align",
+       "page": 42,
+       "states": [
+        {
+         "key": "left",
+         "label": "Left",
+         "text": "The **left** ends of the lines line up along the left margin."
+        },
+        {
+         "key": "center",
+         "label": "Center",
+         "text": "The **middles** of the lines line up at the centre."
+        },
+        {
+         "key": "right",
+         "label": "Right",
+         "text": "The **right** ends of the lines line up along the right margin."
+        },
+        {
+         "key": "justify",
+         "label": "Justify",
+         "text": "Both ends line up and all lines are the **same length** (except the last). Extra space is put **between words**."
+        }
+       ],
+       "body": [
+        "Move the slider."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Line spacing",
+       "body": [
+        "**Line spacing** = the distance between the **lines** of a paragraph.",
+        "Names: **single**, **1.5 lines**, **double**. Numbers: **2.0 = double**.",
+        "Use the **Line Spacing** button in the Paragraph group."
+       ],
+       "page": 42
+      },
+      {
+       "type": "text",
+       "title": "Paragraph spacing and indents",
+       "body": [
+        "**Paragraph spacing**: space **before and after** paragraphs (Add Space Before / After).",
+        "**Indent**: extra empty space between the **margin** and the text.",
+        "Use the **Increase Indent** and **Decrease Indent** buttons."
+       ],
+       "page": 43
+      },
+      {
+       "type": "remember",
+       "title": "Spelling and grammar",
+       "body": [
+        "Word marks errors while you type:",
+        "- **red zigzag** underline = **spelling** error,",
+        "- **green zigzag** underline = **grammar** error.",
+        "Names may not be in Word's dictionary, so they may get red lines."
+       ],
+       "page": 43
+      },
+      {
+       "type": "text",
+       "title": "Checking spelling and grammar",
+       "body": [
+        "1. Open the document.",
+        "2. Click the **Review** tab.",
+        "3. Choose **Spelling and Grammar**.",
+        "4. Choose an option: **ignore once**, **ignore** it, or **change** it to the suggestion."
+       ],
+       "page": 44
+      },
+      {
+       "type": "check",
+       "q": "A green zigzag underline shows...",
+       "options": {
+        "A": "a spelling error",
+        "B": "a grammar error",
+        "C": "a bold word",
+        "D": "a hyperlink"
+       },
+       "answer": "B",
+       "why": "\"spelling errors are indicated by red zigzag underline, grammar errors are indicated by green zigzag underline\" (p. 43–44).",
+       "page": 43
+      }
+     ]
+    },
+    {
+     "id": "ict8-u3-l5",
+     "number": "3.5",
+     "title": "Tables",
+     "pages": [
+      45,
+      49
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Parts of a table",
+       "diagram": "table",
+       "mode": "explore",
+       "page": 45,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "What is a table?",
+       "body": [
+        "A **table** is a grid of **rows** and **columns** that meet to form **cells**.",
+        "The lines around the cells are **gridlines**.",
+        "Tables can show text, graphics and pictures."
+       ],
+       "page": 45
+      },
+      {
+       "type": "text",
+       "title": "Creating a table",
+       "body": [
+        "1. Put the **cursor** where you want the table.",
+        "2. **Insert** tab → **Table** → **Insert Table**.",
+        "3. Type the number of **columns** and **rows**.",
+        "4. Click **OK**."
+       ],
+       "page": 45
+      },
+      {
+       "type": "text",
+       "title": "Inserting rows and columns",
+       "body": [
+        "**Right-click** a cell → **Insert** →",
+        "**Insert Rows Above** or **Insert Rows Below**,",
+        "or **Insert Columns to the Left** or **to the Right**."
+       ],
+       "page": 46
+      },
+      {
+       "type": "table",
+       "title": "Example: adding Nebiat (80) after Halima",
+       "page": 46,
+       "head": [
+        "R.N.",
+        "Name",
+        "Score"
+       ],
+       "rows": [
+        [
+         "1",
+         "Abiel",
+         "88"
+        ],
+        [
+         "2",
+         "Halima",
+         "86"
+        ],
+        [
+         "3",
+         "Nebiat (new row, \"Insert Rows Below\")",
+         "80"
+        ],
+        [
+         "4",
+         "Jaefer",
+         "87"
+        ],
+        [
+         "5",
+         "Berhe",
+         "75"
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Merge, split, delete",
+       "body": [
+        "**Merge**: join two or more cells next to each other into **one cell** (select, right-click, **Merge Cells**).",
+        "**Split**: divide a cell into more rows or columns (right-click, **Split Cells**, give the numbers, OK).",
+        "**Delete**: right-click, **Delete Cells**; Word asks to shift cells **left or up**."
+       ],
+       "page": 47
+      },
+      {
+       "type": "check",
+       "q": "Joining two or more cells next to each other into one cell is called...",
+       "options": {
+        "A": "splitting",
+        "B": "merging",
+        "C": "deleting",
+        "D": "inserting"
+       },
+       "answer": "B",
+       "why": "\"Combining two or more consecutive cells... into a single cell is called Merging\" (p. 47).",
+       "page": 47
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "Word 2007",
+     "meaning": "Microsoft Office Word 2007, a program for text documents",
+     "page": 26
+    },
+    {
+     "term": "ribbon",
+     "meaning": "the set of tabbed toolbars at the top of Word",
+     "page": 28
+    },
+    {
+     "term": "tab",
+     "meaning": "a labelled part of the ribbon, like Home or Insert",
+     "page": 28,
+     "forms": [
+      "tabs"
+     ]
+    },
+    {
+     "term": "group",
+     "meaning": "a set of related buttons on a ribbon tab",
+     "page": 28,
+     "forms": [
+      "groups"
+     ]
+    },
+    {
+     "term": "Office button",
+     "meaning": "the round button with file commands (New, Open, Save...)",
+     "page": 29
+    },
+    {
+     "term": "template",
+     "meaning": "a ready design for a new document",
+     "page": 29
+    },
+    {
+     "term": "Save As",
+     "meaning": "save with a new name or in a new place",
+     "page": 29
+    },
+    {
+     "term": "cursor",
+     "meaning": "the blinking line where you type",
+     "page": 32,
+     "forms": [
+      "I-beam pointer"
+     ]
+    },
+    {
+     "term": "symbol",
+     "meaning": "a sign not on the keyboard",
+     "page": 32,
+     "forms": [
+      "symbols"
+     ]
+    },
+    {
+     "term": "undo",
+     "meaning": "take back the last change",
+     "page": 34
+    },
+    {
+     "term": "redo",
+     "meaning": "do again what Undo took back",
+     "page": 34
+    },
+    {
+     "term": "select",
+     "meaning": "highlight text to work on it",
+     "page": 34,
+     "forms": [
+      "selecting"
+     ]
+    },
+    {
+     "term": "formatting",
+     "meaning": "changing how a document looks",
+     "page": 35,
+     "forms": [
+      "format"
+     ]
+    },
+    {
+     "term": "bold",
+     "meaning": "dark, thick text",
+     "page": 35
+    },
+    {
+     "term": "italic",
+     "meaning": "slanted text",
+     "page": 35,
+     "forms": [
+      "italicize"
+     ]
+    },
+    {
+     "term": "underline",
+     "meaning": "a line under text",
+     "page": 35
+    },
+    {
+     "term": "font",
+     "meaning": "the style and shape of letters",
+     "page": 35,
+     "forms": [
+      "fonts"
+     ]
+    },
+    {
+     "term": "style",
+     "meaning": "a set of formats: typeface, size, effects, colours",
+     "page": 38,
+     "forms": [
+      "styles"
+     ]
+    },
+    {
+     "term": "highlight",
+     "meaning": "colour behind text, like a marker",
+     "page": 40
+    },
+    {
+     "term": "alignment",
+     "meaning": "how the lines of a paragraph line up",
+     "page": 42,
+     "forms": [
+      "align"
+     ]
+    },
+    {
+     "term": "justify",
+     "meaning": "line up both sides of a paragraph",
+     "page": 42,
+     "forms": [
+      "justified"
+     ]
+    },
+    {
+     "term": "line spacing",
+     "meaning": "the distance between lines",
+     "page": 42
+    },
+    {
+     "term": "indent",
+     "meaning": "empty space between the margin and the text",
+     "page": 43,
+     "forms": [
+      "indenting"
+     ]
+    },
+    {
+     "term": "table",
+     "meaning": "a grid of rows and columns",
+     "page": 45,
+     "forms": [
+      "tables"
+     ]
+    },
+    {
+     "term": "cell",
+     "meaning": "a box where a row and a column meet",
+     "page": 45,
+     "forms": [
+      "cells"
+     ]
+    },
+    {
+     "term": "merge",
+     "meaning": "join cells into one",
+     "page": 47,
+     "forms": [
+      "merging"
+     ]
+    },
+    {
+     "term": "split",
+     "meaning": "divide one cell into more",
+     "page": 47,
+     "forms": [
+      "splitting"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "Always **select** text before you format it."
+    },
+    {
+     "text": "Shortcuts: **Ctrl+B** bold, **Ctrl+I** italic, **Ctrl+U** underline, **Ctrl+Z** undo, **Ctrl+Y** redo, **Ctrl+S** save."
+    },
+    {
+     "text": "Red zigzag = **spelling**; green zigzag = **grammar**."
+    },
+    {
+     "text": "Four alignments: **left, center, right, justify**."
+    },
+    {
+     "text": "Save **often**; unsaved work is lost at shut down."
+    }
+   ],
+   "games": [
+    {
+     "id": "ict8-u3-g1",
+     "type": "label",
+     "lesson": "ict8-u3-l1",
+     "title": "The Word 2007 screen",
+     "diagram": "screen"
+    },
+    {
+     "id": "ict8-u3-g2",
+     "type": "match",
+     "lesson": null,
+     "title": "Keyboard shortcuts",
+     "pairs": [
+      {
+       "a": "Ctrl + B",
+       "b": "bold"
+      },
+      {
+       "a": "Ctrl + I",
+       "b": "italic"
+      },
+      {
+       "a": "Ctrl + U",
+       "b": "underline"
+      },
+      {
+       "a": "Ctrl + Z",
+       "b": "undo"
+      },
+      {
+       "a": "Ctrl + Y",
+       "b": "redo"
+      },
+      {
+       "a": "Ctrl + S",
+       "b": "save"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u3-g3",
+     "type": "match",
+     "lesson": "ict8-u3-l1",
+     "title": "Office button commands",
+     "pairs": [
+      {
+       "a": "New",
+       "b": "start a new document"
+      },
+      {
+       "a": "Open",
+       "b": "open a saved document"
+      },
+      {
+       "a": "Save As",
+       "b": "save with a new name"
+      },
+      {
+       "a": "Print",
+       "b": "print the document"
+      },
+      {
+       "a": "Exit Word",
+       "b": "close Word and all documents"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u3-g4",
+     "type": "label",
+     "lesson": "ict8-u3-l4",
+     "title": "Four alignments",
+     "diagram": "align"
+    },
+    {
+     "id": "ict8-u3-g5",
+     "type": "sort",
+     "lesson": null,
+     "title": "Character or paragraph formatting?",
+     "groups": [
+      {
+       "id": "ch",
+       "label": "Character (letters)"
+      },
+      {
+       "id": "pa",
+       "label": "Paragraph"
+      }
+     ],
+     "items": [
+      {
+       "text": "bold",
+       "group": "ch"
+      },
+      {
+       "text": "font size",
+       "group": "ch"
+      },
+      {
+       "text": "font color",
+       "group": "ch"
+      },
+      {
+       "text": "change case",
+       "group": "ch"
+      },
+      {
+       "text": "alignment",
+       "group": "pa"
+      },
+      {
+       "text": "line spacing",
+       "group": "pa"
+      },
+      {
+       "text": "indent",
+       "group": "pa"
+      },
+      {
+       "text": "space before a paragraph",
+       "group": "pa"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u3-g6",
+     "type": "label",
+     "lesson": "ict8-u3-l5",
+     "title": "Parts of a table",
+     "diagram": "table"
+    },
+    {
+     "id": "ict8-u3-g7",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "A new document is called \"Document ___\" until you save it.",
+       "answer": "1",
+       "choices": [
+        "1",
+        "A",
+        "New"
+       ]
+      },
+      {
+       "text": "The ribbon has ___ tabbed toolbars.",
+       "answer": "eight",
+       "choices": [
+        "eight",
+        "three",
+        "ten"
+       ]
+      },
+      {
+       "text": "Line spacing 2.0 is the same as ___ spacing.",
+       "answer": "double",
+       "choices": [
+        "double",
+        "single",
+        "1.5"
+       ]
+      },
+      {
+       "text": "Spelling errors have a ___ zigzag underline.",
+       "answer": "red",
+       "choices": [
+        "red",
+        "green",
+        "blue"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ict8-u3-g8",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Word 2007 is an operating system.",
+       "answer": false,
+       "why": "It is application software (p. 26)."
+      },
+      {
+       "text": "You must select text before formatting it.",
+       "answer": true
+      },
+      {
+       "text": "Justify puts extra space between words.",
+       "answer": true
+      },
+      {
+       "text": "Close closes Word and all documents.",
+       "answer": false,
+       "why": "That is Exit Word. Close closes only the current document."
+      },
+      {
+       "text": "A table is a grid of rows and columns.",
+       "answer": true
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ict8-u3-q1",
+      "type": "mcq",
+      "page": 26,
+      "q": "What is the most common way to start Word 2007?",
+      "options": {
+       "A": "from the Recycle Bin",
+       "B": "using the Start button on the taskbar",
+       "C": "by pressing Delete",
+       "D": "from the ruler"
+      },
+      "answer": "B",
+      "why": [
+       "p. 26: \"the most commonly used way is to use the Start button on the Windows taskbar\"."
+      ],
+      "tip": "Start → All Programs → Microsoft Office → Word.",
+      "similar": [
+       {
+        "q": "What appears after you click Word 2007?",
+        "a": "a blank Word page"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q2",
+      "type": "mcq",
+      "page": 29,
+      "q": "Which Office button command closes Word together with all open documents?",
+      "options": {
+       "A": "Close",
+       "B": "Save",
+       "C": "Exit Word",
+       "D": "New"
+      },
+      "answer": "C",
+      "why": [
+       "p. 29: \"Exit Word: closes the Word 2007 program together with all open documents.\"",
+       "Close keeps Word running."
+      ],
+      "tip": "Exit = leave the whole program.",
+      "similar": [
+       {
+        "q": "What does Close do?",
+        "a": "closes the current document; Word keeps running"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q3",
+      "type": "tf",
+      "page": 29,
+      "q": "Clicking Save on a document that was never saved opens the Save As dialog box.",
+      "answer": true,
+      "why": [
+       "p. 29: Save saves if the document has a name; otherwise it launches the Save As dialog box."
+      ],
+      "tip": "No name yet → Save As.",
+      "similar": [
+       {
+        "q": "Which command saves a copy in another place?",
+        "a": "Save As"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q4",
+      "type": "mcq",
+      "page": 34,
+      "q": "Which shortcut is Redo?",
+      "options": {
+       "A": "Ctrl + Z",
+       "B": "Ctrl + Y",
+       "C": "Ctrl + R",
+       "D": "Ctrl + D"
+      },
+      "answer": "B",
+      "why": [
+       "p. 34: Ctrl + Y for Redo."
+      ],
+      "tip": "Z = undo, Y = redo.",
+      "similar": [
+       {
+        "q": "What does Redo do?",
+        "a": "the opposite of Undo"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q5",
+      "type": "fill",
+      "page": 35,
+      "q": "Ctrl + ___ makes selected text underlined.",
+      "choices": [
+       "U",
+       "B",
+       "I",
+       "S"
+      ],
+      "answer": "U",
+      "why": [
+       "p. 35: Ctrl + U underlines."
+      ],
+      "tip": "U for Underline.",
+      "similar": [
+       {
+        "q": "Which shortcut makes text bold?",
+        "a": "Ctrl + B"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q6",
+      "type": "mcq",
+      "page": 35,
+      "q": "The two tabs of the Font dialog box are...",
+      "options": {
+       "A": "Font and Character Spacing",
+       "B": "Home and Insert",
+       "C": "Bold and Italic",
+       "D": "Page and Layout"
+      },
+      "answer": "A",
+      "why": [
+       "p. 35: \"The Font dialog box has two tabs. 1. Font 2. Character Spacing\"."
+      ],
+      "tip": "One is about letters, one about spaces.",
+      "similar": [
+       {
+        "q": "Name three font options.",
+        "a": "font family, font style, font size (also colour, underline style)"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q7",
+      "type": "mcq",
+      "page": 42,
+      "q": "In which alignment are all lines (except the last) the same length?",
+      "options": {
+       "A": "left",
+       "B": "center",
+       "C": "right",
+       "D": "justify"
+      },
+      "answer": "D",
+      "why": [
+       "p. 42: with justified alignment the lines are all of the same length; extra space goes between words."
+      ],
+      "tip": "Justify = both sides straight.",
+      "similar": [
+       {
+        "q": "Where are the tools for alignment?",
+        "a": "the Paragraph group on the Home tab"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q8",
+      "type": "mcq",
+      "page": 44,
+      "q": "To check spelling and grammar, which tab do you click?",
+      "options": {
+       "A": "Home",
+       "B": "Insert",
+       "C": "Review",
+       "D": "Page Layout"
+      },
+      "answer": "C",
+      "why": [
+       "p. 44: click the Review tab, then Spelling and Grammar."
+      ],
+      "tip": "Review = check your work.",
+      "similar": [
+       {
+        "q": "What colour shows a spelling error?",
+        "a": "red zigzag underline"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q9",
+      "type": "tf",
+      "page": 45,
+      "q": "The lines that mark the cell boundaries in a table are called gridlines.",
+      "answer": true,
+      "why": [
+       "p. 45."
+      ],
+      "tip": "Grid + lines.",
+      "similar": [
+       {
+        "q": "Where do rows and columns meet?",
+        "a": "in cells"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q10",
+      "type": "short",
+      "page": 46,
+      "q": "The teacher forgot Nebiat (80) after Halima. How can she add the row using \"Insert Rows Below\"?",
+      "answer": "Right-click a cell in Halima's row, move to Insert, choose Insert Rows Below, then type Nebiat's information.",
+      "why": [
+       "p. 46 worked example."
+      ],
+      "tip": "Right-click → Insert → Rows Below.",
+      "similar": [
+       {
+        "q": "How would she do it with \"Insert Rows Above\"?",
+        "a": "right-click a cell in Jaefer's row, Insert, Insert Rows Above, then type Nebiat's information"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q11",
+      "type": "short",
+      "page": 49,
+      "q": "In the review, Ali scored English 95, Mathematics 84, Social Studies 93, Natural science 96. Give each grade: A if 95 or more, B if less than 95 but more than 90, C if less than 90.",
+      "answer": "English A, Mathematics C, Social Studies B, Natural science A.",
+      "why": [
+       "95 ≥ 95 → A; 96 ≥ 95 → A.",
+       "93 is less than 95 but more than 90 → B.",
+       "84 is less than 90 → C."
+      ],
+      "tip": "Compare each score with 95 and 90.",
+      "similar": [
+       {
+        "q": "Which subject was his mother not happy with?",
+        "a": "mathematics"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u3-q12",
+      "type": "mcq",
+      "page": 47,
+      "q": "To add a column \"Section\" between \"Name\" and \"Score\", you right-click a Name cell and choose...",
+      "options": {
+       "A": "Insert Columns to the Right",
+       "B": "Insert Columns to the Left",
+       "C": "Merge Cells",
+       "D": "Delete Cells"
+      },
+      "answer": "A",
+      "why": [
+       "p. 47: right-click, Insert, then Insert Columns to the Left or to the Right.",
+       "The new column must be on the right of \"Name\"."
+      ],
+      "tip": "New column goes to the right of the cell you click.",
+      "similar": [
+       {
+        "q": "What else could you right-click to do the same?",
+        "a": "a Score cell, then Insert Columns to the Left"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ict8-u4",
+   "number": 4,
+   "title": "Social and Ethical Issues of IT",
+   "status": "done",
+   "pages": [
+    50,
+    55
+   ],
+   "tone": "peach",
+   "intro": "This unit is about using computers **safely and wisely**: **health problems (RSI)** and how to avoid them, harm to the **environment**, **computer misuse**, and **computer viruses**.",
+   "intro_page": 50,
+   "diagrams": {
+    "posture": {
+     "svg": "svg/ict_8/ict8_posture.svg",
+     "title": "A healthy sitting position",
+     "page": 51,
+     "pins": [
+      {
+       "id": "back",
+       "text": "sit straight on your back",
+       "x": 92,
+       "y": 140
+      },
+      {
+       "id": "eyes",
+       "text": "eyes 50–70 cm from the screen",
+       "x": 175,
+       "y": 82
+      },
+      {
+       "id": "screen",
+       "text": "monitor screen tilted upwards at an angle",
+       "x": 262,
+       "y": 60
+      },
+      {
+       "id": "wrist",
+       "text": "do not bend your wrists",
+       "x": 160,
+       "y": 124
+      },
+      {
+       "id": "feet",
+       "text": "feet flat on the floor",
+       "x": 150,
+       "y": 215
+      },
+      {
+       "id": "chair",
+       "text": "an adjustable chair helps good posture",
+       "x": 78,
+       "y": 205
+      },
+      {
+       "id": "brk",
+       "text": "take a break every 40 minutes",
+       "x": 40,
+       "y": 70
+      }
+     ]
+    },
+    "risks": {
+     "svg": "svg/ict_8/ict8_risks.svg",
+     "title": "Health risks of computers",
+     "page": 51,
+     "pins": [
+      {
+       "id": "center",
+       "text": "Repetitive Strain Injuries (RSI) and other risks",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "back",
+       "text": "back and neck strain",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "wrist",
+       "text": "finger and wrist damage",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "eye",
+       "text": "eyestrain (and headache)",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "ozone",
+       "text": "ozone irritation from laser printers",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    },
+    "waste": {
+     "svg": "svg/ict_8/ict8_waste.svg",
+     "title": "Computers and the environment",
+     "page": 52,
+     "pins": [
+      {
+       "id": "mat",
+       "text": "computers contain toxic metals, acids, plastics and biologically active materials",
+       "x": 97.0,
+       "y": 37.0
+      },
+      {
+       "id": "dump",
+       "text": "unsafe dumping",
+       "x": 97.0,
+       "y": 97.0
+      },
+      {
+       "id": "pol",
+       "text": "land, water and air pollution",
+       "x": 97.0,
+       "y": 157.0
+      },
+      {
+       "id": "harm",
+       "text": "problems for humans and animals",
+       "x": 97.0,
+       "y": 217.0
+      },
+      {
+       "id": "safe",
+       "text": "so: recycle, or dispose of them safely",
+       "x": 97.0,
+       "y": 277.0
+      }
+     ]
+    },
+    "infect": {
+     "svg": "svg/ict_8/ict8_infect.svg",
+     "title": "How a virus gets in",
+     "page": 53,
+     "pins": [
+      {
+       "id": "center",
+       "text": "a virus copies itself and harms the computer",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "fl",
+       "text": "infected external storage devices, like a flash disk",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "ill",
+       "text": "copying illegal software",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "dl",
+       "text": "downloading infected files from the Internet",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "mail",
+       "text": "opening infected email attachments",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    },
+    "protect": {
+     "svg": "svg/ict_8/ict8_protect.svg",
+     "title": "How to protect a computer",
+     "page": 53,
+     "pins": [
+      {
+       "id": "center",
+       "text": "protecting a computer from a virus attack",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "av",
+       "text": "use up-to-date anti-virus software (e.g. Avast, Avira)",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "noill",
+       "text": "no illegal software; no CD or DVD from an unknown source",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "rep",
+       "text": "download only from a reputable site",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "spam",
+       "text": "avoid opening spam",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    },
+    "vtime": {
+     "svg": "svg/ict_8/ict8_vtime.svg",
+     "title": "Viruses over time",
+     "page": 53,
+     "pins": [
+      {
+       "id": "y86",
+       "text": "1986: only one known computer virus",
+       "x": 87.0,
+       "y": 42.0
+      },
+      {
+       "id": "y00",
+       "text": "2000: an email headed \"I Love You\" infected many computers around the world",
+       "x": 87.0,
+       "y": 120.0
+      },
+      {
+       "id": "now",
+       "text": "now: about ten to fifteen new viruses appear every day",
+       "x": 87.0,
+       "y": 198.0
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ict8-u4-l1",
+     "number": "4.1",
+     "title": "Safe use of computers",
+     "pages": [
+      50,
+      52
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Computers everywhere",
+       "body": [
+        "People use computers in schools, banks, shops, offices, factories, hospitals and universities.",
+        "Computers made our lives **easier, faster** and **more organized**."
+       ],
+       "page": 50
+      },
+      {
+       "type": "remember",
+       "title": "RSI",
+       "body": [
+        "Computers may cause **physical injury, headache** and **vision problems** if not used wisely.",
+        "These are called **Repetitive Strain Injuries (RSI)**.",
+        "They are caused by doing the **same actions over and over again**."
+       ],
+       "page": 50
+      },
+      {
+       "type": "diagram",
+       "title": "A healthy sitting position",
+       "diagram": "posture",
+       "mode": "explore",
+       "page": 51,
+       "body": [
+        "Tap the dots (Fig. 4.1)."
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Six pieces of advice",
+       "page": 50,
+       "head": [
+        "No.",
+        "Advice"
+       ],
+       "rows": [
+        [
+         "1",
+         "get enough and regular exercise"
+        ],
+        [
+         "2",
+         "avoid poor posture: sit straight, feet flat, eyes 50–70 cm from the screen, wrists not bent"
+        ],
+        [
+         "3",
+         "place the monitor screen upwards at an angle"
+        ],
+        [
+         "4",
+         "take a break every 40 minutes"
+        ],
+        [
+         "5",
+         "use a protection shield on the monitor"
+        ],
+        [
+         "6",
+         "use decreased light on your desktop or monitor"
+        ]
+       ]
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: 40 and 50–70",
+       "page": 50,
+       "letters": [
+        {
+         "l": "40",
+         "w": "minutes",
+         "m": "take a break"
+        },
+        {
+         "l": "50–70",
+         "w": "cm",
+         "m": "eyes to screen"
+        }
+       ],
+       "body": [
+        "\"**Forty** minutes, then rest; **fifty to seventy** centimetres is best.\""
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "Health risks of computers",
+       "diagram": "risks",
+       "mode": "explore",
+       "page": 51,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Health risks and solutions (Table 4.1)",
+       "page": 51,
+       "head": [
+        "Health risk",
+        "Possible solutions"
+       ],
+       "rows": [
+        [
+         "back and neck strain",
+         "adjustable chair; foot rests; tilted screen"
+        ],
+        [
+         "finger and wrist damage",
+         "correct angle for keyboard and mouse; wrist rest; ergonomic keyboard"
+        ],
+        [
+         "eyestrain",
+         "regular breaks; keep distance from the screen; anti-glare screen; eye tests"
+        ],
+        [
+         "headache",
+         "anti-glare screen and window blinds; breaks and exercise; eye tests, glasses if needed"
+        ],
+        [
+         "ozone irritation (laser printers)",
+         "good ventilation; change to inkjet printers if possible"
+        ]
+       ]
+      },
+      {
+       "type": "steps",
+       "title": "Computers and the environment",
+       "diagram": "waste",
+       "page": 52,
+       "steps": [
+        {
+         "text": "A computer has hundreds of materials: many are **toxic metals, acids, plastics**.",
+         "show": "mat",
+         "pins": [
+          "mat"
+         ]
+        },
+        {
+         "text": "**Unsafe dumping** of these materials...",
+         "show": "dump",
+         "pins": [
+          "dump"
+         ]
+        },
+        {
+         "text": "...causes **land, water and air pollution**...",
+         "show": "pol",
+         "pins": [
+          "pol"
+         ]
+        },
+        {
+         "text": "...which causes problems for **humans and animals**.",
+         "show": "harm",
+         "pins": [
+          "harm"
+         ]
+        },
+        {
+         "text": "So all toxic materials must be **recycled** or **disposed of safely**.",
+         "show": "safe",
+         "pins": [
+          "safe"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "check",
+       "q": "How often should you take a break when using a computer?",
+       "options": {
+        "A": "every 10 minutes",
+        "B": "every 40 minutes",
+        "C": "every 120 minutes",
+        "D": "never"
+       },
+       "answer": "B",
+       "why": "\"taking a break every 40 minutes\" (p. 50).",
+       "page": 50
+      }
+     ]
+    },
+    {
+     "id": "ict8-u4-l2",
+     "number": "4.2",
+     "title": "Computer misuse and abuse",
+     "pages": [
+      52,
+      52
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Computer misuse",
+       "body": [
+        "**Computer misuse** is using a computer for:",
+        "- **hacking**,",
+        "- **unauthorized access** to computer systems,",
+        "- **purposely spreading** harmful software, such as a **virus**."
+       ],
+       "page": 52
+      },
+      {
+       "type": "text",
+       "title": "Unauthorized acts",
+       "body": [
+        "Unauthorized acts include **changing data and software**, **changing passwords and settings** to keep others out, and **interfering** with the system.",
+        "Even **trying** to get into a system can lead to **prosecution** (a court case)."
+       ],
+       "page": 52
+      },
+      {
+       "type": "text",
+       "title": "Copyright",
+       "body": [
+        "Software is protected by **copyright laws**, like music CDs, film DVDs and articles from magazines and books."
+       ],
+       "page": 52
+      },
+      {
+       "type": "remember",
+       "title": "Rules to obey",
+       "body": [
+        "- Do **not** do unauthorized work.",
+        "- Do **not copy** computer programs **illegally**.",
+        "- Do **not hack** into a system to see or change information.",
+        "- Do **not plant a virus** on someone's computer."
+       ],
+       "page": 52
+      },
+      {
+       "type": "check",
+       "q": "Which of these is computer misuse?",
+       "options": {
+        "A": "typing a letter in Word",
+        "B": "hacking into a computer system",
+        "C": "saving a file",
+        "D": "printing homework"
+       },
+       "answer": "B",
+       "why": "Computer misuse includes hacking, unauthorized access and spreading viruses (p. 52).",
+       "page": 52
+      }
+     ]
+    },
+    {
+     "id": "ict8-u4-l3",
+     "number": "4.3",
+     "title": "Computer virus",
+     "pages": [
+      53,
+      55
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "What is a virus?",
+       "body": [
+        "A **virus** is a computer program that **copies itself** and is made to **harm** a computer system.",
+        "It often attaches itself to **files**."
+       ],
+       "page": 53
+      },
+      {
+       "type": "table",
+       "title": "Damage a virus can do",
+       "page": 53,
+       "head": [
+        "Effect"
+       ],
+       "rows": [
+        [
+         "stops the computer from working normally"
+        ],
+        [
+         "causes the computer to malfunction (system files)"
+        ],
+        [
+         "corrupts (damages) stored data"
+        ]
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "How a virus gets in",
+       "diagram": "infect",
+       "mode": "explore",
+       "page": 53,
+       "body": [
+        "Tap the four ways."
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "How to protect a computer",
+       "diagram": "protect",
+       "mode": "explore",
+       "page": 53,
+       "body": [
+        "Tap the four ways."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Anti-virus software",
+       "body": [
+        "**Anti-virus software** finds viruses and **removes** or **quarantines** (isolates) infected files.",
+        "Examples in the book: **Avast, Avira, McAfee, ESET**.",
+        "**Spam** = email messages that advertise something that seems interesting."
+       ],
+       "page": 53
+      },
+      {
+       "type": "steps",
+       "title": "Viruses over time",
+       "diagram": "vtime",
+       "page": 53,
+       "steps": [
+        {
+         "text": "**1986**: only **one** known computer virus.",
+         "show": "y86",
+         "pins": [
+          "y86"
+         ]
+        },
+        {
+         "text": "**2000**: an email headed \"**I Love You**\" infected many computers around the world.",
+         "show": "y00",
+         "pins": [
+          "y00"
+         ]
+        },
+        {
+         "text": "Now: about **10 to 15** new viruses appear **every day**.",
+         "show": "now",
+         "pins": [
+          "now"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "check",
+       "q": "Which is a way a computer gets a virus?",
+       "options": {
+        "A": "using up-to-date anti-virus",
+        "B": "opening infected email attachments",
+        "C": "sitting up straight",
+        "D": "taking breaks"
+       },
+       "answer": "B",
+       "why": "p. 53: infected email attachments are one of the four ways listed.",
+       "page": 53
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "RSI",
+     "meaning": "Repetitive Strain Injuries: injuries from doing the same actions again and again",
+     "page": 50
+    },
+    {
+     "term": "posture",
+     "meaning": "the way you sit or stand",
+     "page": 50
+    },
+    {
+     "term": "eyestrain",
+     "meaning": "tired, sore eyes",
+     "page": 51
+    },
+    {
+     "term": "ergonomic keyboard",
+     "meaning": "a keyboard made to reduce finger and wrist strain",
+     "page": 51
+    },
+    {
+     "term": "anti-glare screen",
+     "meaning": "a screen cover that reduces reflection",
+     "page": 51
+    },
+    {
+     "term": "ozone",
+     "meaning": "a gas from laser printers that can irritate",
+     "page": 52
+    },
+    {
+     "term": "toxic",
+     "meaning": "poisonous",
+     "page": 52
+    },
+    {
+     "term": "recycle",
+     "meaning": "use old materials again",
+     "page": 52,
+     "forms": [
+      "recycled"
+     ]
+    },
+    {
+     "term": "dispose",
+     "meaning": "throw away",
+     "page": 52,
+     "forms": [
+      "disposed"
+     ]
+    },
+    {
+     "term": "misuse",
+     "meaning": "using something in a wrong or illegal way",
+     "page": 52
+    },
+    {
+     "term": "abuse",
+     "meaning": "harmful misuse",
+     "page": 52
+    },
+    {
+     "term": "hacking",
+     "meaning": "getting into a computer system without permission",
+     "page": 52,
+     "forms": [
+      "hack"
+     ]
+    },
+    {
+     "term": "unauthorized",
+     "meaning": "without permission",
+     "page": 52
+    },
+    {
+     "term": "copyright",
+     "meaning": "a law that protects software, music, films and books from copying",
+     "page": 52
+    },
+    {
+     "term": "virus",
+     "meaning": "a program that copies itself and harms a computer",
+     "page": 53,
+     "forms": [
+      "viruses"
+     ]
+    },
+    {
+     "term": "antivirus",
+     "meaning": "software that finds and removes viruses",
+     "page": 53,
+     "forms": [
+      "anti-virus"
+     ]
+    },
+    {
+     "term": "quarantine",
+     "meaning": "isolate (keep apart)",
+     "page": 53,
+     "forms": [
+      "quarantines"
+     ]
+    },
+    {
+     "term": "spam",
+     "meaning": "emails that advertise something that seems interesting",
+     "page": 53
+    }
+   ],
+   "tips": [
+    {
+     "text": "RSI = **R**epetitive **S**train **I**njuries: same action again and again."
+    },
+    {
+     "text": "Numbers to remember: break every **40 minutes**; eyes **50–70 cm** from the screen."
+    },
+    {
+     "text": "Virus in: **flash disk, illegal software, downloads, email attachments**. Virus out: **anti-virus, no illegal software, reputable sites, no spam**."
+    },
+    {
+     "text": "Old computers: **recycle** or **dispose safely**."
+    }
+   ],
+   "games": [
+    {
+     "id": "ict8-u4-g1",
+     "type": "label",
+     "lesson": "ict8-u4-l1",
+     "title": "A healthy sitting position",
+     "diagram": "posture"
+    },
+    {
+     "id": "ict8-u4-g2",
+     "type": "match",
+     "lesson": null,
+     "title": "Review: match A with B",
+     "pairs": [
+      {
+       "a": "computer misuse",
+       "b": "unauthorized use of computers"
+      },
+      {
+       "a": "RSI",
+       "b": "injury caused by frequent use"
+      },
+      {
+       "a": "anti-glare screens",
+       "b": "reduce eyestrain"
+      },
+      {
+       "a": "ergonomic keyboard",
+       "b": "reduces finger/wrist strain"
+      },
+      {
+       "a": "computer virus",
+       "b": "causes corruption of data"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u4-g3",
+     "type": "sort",
+     "lesson": "ict8-u4-l1",
+     "title": "Health risk: which solution?",
+     "groups": [
+      {
+       "id": "back",
+       "label": "Back and neck"
+      },
+      {
+       "id": "wrist",
+       "label": "Finger and wrist"
+      },
+      {
+       "id": "eye",
+       "label": "Eyestrain"
+      }
+     ],
+     "items": [
+      {
+       "text": "adjustable chair",
+       "group": "back"
+      },
+      {
+       "text": "foot rests",
+       "group": "back"
+      },
+      {
+       "text": "wrist rest",
+       "group": "wrist"
+      },
+      {
+       "text": "ergonomic keyboard",
+       "group": "wrist"
+      },
+      {
+       "text": "anti-glare screen",
+       "group": "eye"
+      },
+      {
+       "text": "keep distance from the screen",
+       "group": "eye"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u4-g4",
+     "type": "sort",
+     "lesson": "ict8-u4-l3",
+     "title": "Lets a virus in, or keeps it out?",
+     "groups": [
+      {
+       "id": "in",
+       "label": "Lets a virus in"
+      },
+      {
+       "id": "out",
+       "label": "Keeps it out"
+      }
+     ],
+     "items": [
+      {
+       "text": "an infected flash disk",
+       "group": "in"
+      },
+      {
+       "text": "copying illegal software",
+       "group": "in"
+      },
+      {
+       "text": "downloading infected files",
+       "group": "in"
+      },
+      {
+       "text": "opening infected email attachments",
+       "group": "in"
+      },
+      {
+       "text": "up-to-date anti-virus",
+       "group": "out"
+      },
+      {
+       "text": "no CDs from unknown sources",
+       "group": "out"
+      },
+      {
+       "text": "downloading only from reputable sites",
+       "group": "out"
+      },
+      {
+       "text": "not opening spam",
+       "group": "out"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u4-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Keep your eyes ___ cm away from the screen.",
+       "answer": "50-70",
+       "choices": [
+        "50-70",
+        "5-10",
+        "200"
+       ]
+      },
+      {
+       "text": "Take a break every ___ minutes.",
+       "answer": "40",
+       "choices": [
+        "40",
+        "120",
+        "5"
+       ]
+      },
+      {
+       "text": "In 1986 there was only ___ known computer virus.",
+       "answer": "one",
+       "choices": [
+        "one",
+        "ten",
+        "fifteen"
+       ]
+      },
+      {
+       "text": "Anti-virus software removes or ___ infected files.",
+       "answer": "quarantines",
+       "choices": [
+        "quarantines",
+        "prints",
+        "copies"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ict8-u4-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "RSI is caused by using the same actions over and over again.",
+       "answer": true
+      },
+      {
+       "text": "Ozone irritation is caused by laser printers.",
+       "answer": true
+      },
+      {
+       "text": "Software is not protected by copyright.",
+       "answer": false,
+       "why": "It is protected by copyright laws (p. 52)."
+      },
+      {
+       "text": "A virus copies itself.",
+       "answer": true
+      },
+      {
+       "text": "Spam is always safe to open.",
+       "answer": false,
+       "why": "Avoid opening spam (p. 53)."
+      }
+     ]
+    },
+    {
+     "id": "ict8-u4-g7",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "RSI",
+       "back": "Repetitive Strain Injuries"
+      },
+      {
+       "front": "hacking",
+       "back": "getting into a system without permission"
+      },
+      {
+       "front": "virus",
+       "back": "a program that copies itself and harms a computer"
+      },
+      {
+       "front": "quarantine",
+       "back": "isolate"
+      },
+      {
+       "front": "I Love You",
+       "back": "an email virus in 2000"
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ict8-u4-q1",
+      "type": "mcq",
+      "page": 54,
+      "q": "Computers made our lives...",
+      "options": {
+       "A": "easier",
+       "B": "faster",
+       "C": "more organized",
+       "D": "all of these"
+      },
+      "answer": "D",
+      "why": [
+       "p. 50: \"They made our lives easier, faster and more organized.\""
+      ],
+      "tip": "Three good things → \"all\".",
+      "similar": [
+       {
+        "q": "Name three places where computers are used.",
+        "a": "schools, banks, hospitals (also shops, offices, factories, universities)"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q2",
+      "type": "mcq",
+      "page": 54,
+      "q": "Injuries caused by using the same actions over and over again are called...",
+      "options": {
+       "A": "RSI",
+       "B": "virus infection",
+       "C": "computer abuse",
+       "D": "all"
+      },
+      "answer": "A",
+      "why": [
+       "p. 50: Repetitive Strain Injuries or RSI."
+      ],
+      "tip": "R = Repetitive.",
+      "similar": [
+       {
+        "q": "Give two RSI problems.",
+        "a": "headache and vision problems (also physical injury)"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q3",
+      "type": "mcq",
+      "page": 54,
+      "q": "Which is NOT a healthy habit when using a computer?",
+      "options": {
+       "A": "enough and regular exercise",
+       "B": "taking a break every 120 minutes",
+       "C": "using a protection shield on the screen",
+       "D": "sitting straight on your back"
+      },
+      "answer": "B",
+      "why": [
+       "p. 50: take a break every 40 minutes, not 120."
+      ],
+      "tip": "Check the number: 40.",
+      "similar": [
+       {
+        "q": "How far should your eyes be from the screen?",
+        "a": "50–70 cm"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q4",
+      "type": "mcq",
+      "page": 55,
+      "q": "Which of the following is harmful for our environment?",
+      "options": {
+       "A": "unsafe dumping of used computers",
+       "B": "recycling",
+       "C": "using a wrist rest",
+       "D": "taking breaks"
+      },
+      "answer": "A",
+      "why": [
+       "p. 52: unsafe dumping causes land, water and air pollution."
+      ],
+      "tip": "Recycling helps; dumping harms.",
+      "similar": [
+       {
+        "q": "What must be done with a computer's toxic materials?",
+        "a": "recycle them or dispose of them safely"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q5",
+      "type": "mcq",
+      "page": 55,
+      "q": "Which of the following is computer misuse?",
+      "options": {
+       "A": "hacking",
+       "B": "unauthorized access to a system",
+       "C": "planting a virus on another computer",
+       "D": "all of these"
+      },
+      "answer": "D",
+      "why": [
+       "p. 52: computer misuse includes hacking, unauthorized access and spreading viruses."
+      ],
+      "tip": "All three are in the definition.",
+      "similar": [
+       {
+        "q": "Can just trying to get into a system lead to prosecution?",
+        "a": "yes"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q6",
+      "type": "mcq",
+      "page": 53,
+      "q": "A computer program designed to harm a computer by copying itself is...",
+      "options": {
+       "A": "data misuse",
+       "B": "computer misuse",
+       "C": "a virus",
+       "D": "losing a file"
+      },
+      "answer": "C",
+      "why": [
+       "p. 53 definition of a virus."
+      ],
+      "tip": "Copies itself → virus.",
+      "similar": [
+       {
+        "q": "Name two damages a virus causes.",
+        "a": "stops the computer working normally; corrupts stored data"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q7",
+      "type": "mcq",
+      "page": 55,
+      "q": "Which is a method to protect a computer from a virus attack?",
+      "options": {
+       "A": "installing up-to-date antivirus",
+       "B": "avoiding illegal software",
+       "C": "avoiding opening spam",
+       "D": "all of these"
+      },
+      "answer": "D",
+      "why": [
+       "p. 53: all three are listed ways to protect a computer."
+      ],
+      "tip": "All three are in the list.",
+      "similar": [
+       {
+        "q": "Name two anti-virus programs from the book.",
+        "a": "Avast and Avira (also McAfee, ESET)"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q8",
+      "type": "tf",
+      "page": 53,
+      "q": "In 2000, an email headed \"I Love You\" infected many computers around the world.",
+      "answer": true,
+      "why": [
+       "p. 53."
+      ],
+      "tip": "Remember the date 2000.",
+      "similar": [
+       {
+        "q": "How many new viruses appear every day now?",
+        "a": "about ten to fifteen"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q9",
+      "type": "fill",
+      "page": 51,
+      "q": "An ___ keyboard helps reduce finger and wrist damage.",
+      "choices": [
+       "ergonomic",
+       "anti-glare",
+       "inkjet",
+       "wireless"
+      ],
+      "answer": "ergonomic",
+      "why": [
+       "p. 51, Table 4.1."
+      ],
+      "tip": "Ergonomic = made for the body.",
+      "similar": [
+       {
+        "q": "What helps reduce eyestrain?",
+        "a": "anti-glare screens, regular breaks, keeping distance from the screen"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q10",
+      "type": "short",
+      "page": 52,
+      "q": "List two ways of handling a used computer without harming the environment.",
+      "answer": "Recycle its materials, or dispose of it safely.",
+      "why": [
+       "p. 52: all the toxic materials have to be recycled or disposed of safely."
+      ],
+      "tip": "R and D: Recycle, Dispose safely.",
+      "similar": [
+       {
+        "q": "What pollution can unsafe dumping cause?",
+        "a": "land, water and air pollution"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u4-q11",
+      "type": "short",
+      "page": 53,
+      "q": "Write three ways a computer can be infected by a virus.",
+      "answer": "Any three: infected external storage devices (flash disk), copying illegal software, downloading infected files from the Internet, opening infected email attachments.",
+      "why": [
+       "p. 53 list."
+      ],
+      "tip": "Flash, illegal, download, email.",
+      "similar": [
+       {
+        "q": "What does anti-virus software do?",
+        "a": "detects viruses and removes or quarantines infected files"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ict8-u5",
+   "number": 5,
+   "title": "Microsoft Office Excel 2007",
+   "status": "done",
+   "pages": [
+    56,
+    88
+   ],
+   "tone": "lilac",
+   "intro": "This unit teaches **Excel 2007**: the **screen**, **workbooks and worksheets**, entering and editing **data**, **rows and columns**, **formatting cells**, **sorting**, **AutoFill**, **formulas and functions**, and **charts**.",
+   "intro_page": 56,
+   "diagrams": {
+    "xlopen": {
+     "svg": "svg/ict_8/ict8_xlopen.svg",
+     "title": "Starting Excel 2007",
+     "page": 56,
+     "pins": [
+      {
+       "id": "st",
+       "text": "1. click the Start button",
+       "x": 97.0,
+       "y": 38.0
+      },
+      {
+       "id": "all",
+       "text": "2. select All Programs",
+       "x": 97.0,
+       "y": 102.0
+      },
+      {
+       "id": "ms",
+       "text": "3. select Microsoft Office",
+       "x": 97.0,
+       "y": 166.0
+      },
+      {
+       "id": "xl",
+       "text": "4. click Microsoft Office Excel 2007",
+       "x": 97.0,
+       "y": 230.0
+      }
+     ]
+    },
+    "xscreen": {
+     "svg": "svg/ict_8/ict8_xscreen.svg",
+     "title": "The Excel 2007 screen",
+     "page": 58,
+     "pins": [
+      {
+       "id": "rib",
+       "text": "ribbon: tabs with groups and tools",
+       "x": 160,
+       "y": 10
+      },
+      {
+       "id": "name",
+       "text": "Name Box: shows the address of the active cell",
+       "x": 32,
+       "y": 48
+      },
+      {
+       "id": "fx",
+       "text": "Formula bar: shows what is in the active cell",
+       "x": 190,
+       "y": 48
+      },
+      {
+       "id": "colh",
+       "text": "column headings: A, B, C...",
+       "x": 101.0,
+       "y": 81
+      },
+      {
+       "id": "rowh",
+       "text": "row headings: 1, 2, 3...",
+       "x": 20,
+       "y": 138.0
+      },
+      {
+       "id": "act",
+       "text": "active cell (here B3)",
+       "x": 101.0,
+       "y": 138.0
+      },
+      {
+       "id": "tabs",
+       "text": "sheet tabs",
+       "x": 84,
+       "y": 226
+      },
+      {
+       "id": "scrb",
+       "text": "worksheet tab scrolling buttons",
+       "x": 28,
+       "y": 222
+      }
+     ]
+    },
+    "book": {
+     "svg": "svg/ict_8/ict8_book.svg",
+     "title": "Workbook and worksheets",
+     "page": 59,
+     "pins": [
+      {
+       "id": "wb",
+       "text": "a workbook: one file",
+       "x": 52,
+       "y": 32
+      },
+      {
+       "id": "ws",
+       "text": "worksheets: single sheets inside the workbook",
+       "x": 210,
+       "y": 120
+      },
+      {
+       "id": "tab",
+       "text": "a new workbook opens with three blank worksheets",
+       "x": 150,
+       "y": 185
+      }
+     ]
+    },
+    "keys": {
+     "svg": "svg/ict_8/ict8_keys.svg",
+     "title": "Moving around with the keyboard",
+     "page": 60,
+     "pins": [
+      {
+       "id": "arr",
+       "text": "arrow keys: one cell up, down, left or right",
+       "x": 49.0,
+       "y": 24.0
+      },
+      {
+       "id": "tab",
+       "text": "Tab: one cell right; Shift + Tab: one cell left",
+       "x": 49.0,
+       "y": 90.0
+      },
+      {
+       "id": "pg",
+       "text": "Page Up / Page Down: one page up or down",
+       "x": 49.0,
+       "y": 156.0
+      }
+     ]
+    },
+    "sort": {
+     "svg": "svg/ict_8/ict8_sort.svg",
+     "title": "Ascending and descending",
+     "page": 77,
+     "pins": [
+      {
+       "id": "asc",
+       "text": "ascending: A to Z, smallest to largest",
+       "x": 24,
+       "y": 22
+      },
+      {
+       "id": "desc",
+       "text": "descending: Z to A, largest to smallest",
+       "x": 176,
+       "y": 22
+      }
+     ]
+    },
+    "fill": {
+     "svg": "svg/ict_8/ict8_fill.svg",
+     "title": "AutoFill",
+     "page": 78,
+     "pins": [
+      {
+       "id": "src",
+       "text": "1. select the cell to copy",
+       "x": 48,
+       "y": 40
+      },
+      {
+       "id": "hand",
+       "text": "2. point at the black square at the bottom right: the fill handle",
+       "x": 76,
+       "y": 96
+      },
+      {
+       "id": "drag",
+       "text": "3. click and drag across the range; Excel copies the content",
+       "x": 190,
+       "y": 124
+      }
+     ]
+    },
+    "chart": {
+     "svg": "svg/ict_8/ict8_chart.svg",
+     "title": "Two column chart sub-types",
+     "page": 83,
+     "pins": [
+      {
+       "id": "clu",
+       "text": "clustered column: compares values across categories",
+       "x": 20,
+       "y": 20
+      },
+      {
+       "id": "sta",
+       "text": "stacked column: shows each item as part of the whole",
+       "x": 176,
+       "y": 20
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ict8-u5-l1",
+     "number": "5.1",
+     "title": "Introduction to Excel 2007",
+     "pages": [
+      56,
+      58
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What is Excel?",
+       "body": [
+        "**Microsoft Excel**, also called a **spreadsheet**, is a Windows application.",
+        "It is used for **entering, editing, analyzing and storing** data.",
+        "It can **add, subtract, multiply and divide**, **sort** data, and solve simple financial, mathematical and statistical functions."
+       ],
+       "page": 56
+      },
+      {
+       "type": "steps",
+       "title": "Starting Excel 2007",
+       "diagram": "xlopen",
+       "page": 56,
+       "steps": [
+        {
+         "text": "Click the **Start** button.",
+         "show": "st",
+         "pins": [
+          "st"
+         ]
+        },
+        {
+         "text": "Select **All Programs**.",
+         "show": "all",
+         "pins": [
+          "all"
+         ]
+        },
+        {
+         "text": "Select **Microsoft Office**.",
+         "show": "ms",
+         "pins": [
+          "ms"
+         ]
+        },
+        {
+         "text": "Click **Microsoft Office Excel 2007**.",
+         "show": "xl",
+         "pins": [
+          "xl"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Same as Word",
+       "body": [
+        "You start Excel the **same way** as Word: Start → All Programs → Microsoft Office → the program."
+       ],
+       "page": 56
+      },
+      {
+       "type": "check",
+       "q": "Which of these can Excel do?",
+       "options": {
+        "A": "only type letters",
+        "B": "enter, edit, analyze and store data",
+        "C": "only draw pictures",
+        "D": "only play music"
+       },
+       "answer": "B",
+       "why": "p. 56: Excel is used for entering, editing, analyzing and storing data.",
+       "page": 56
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-l2",
+     "number": "5.2",
+     "title": "The Excel 2007 screen",
+     "pages": [
+      58,
+      59
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "The Excel 2007 screen",
+       "diagram": "xscreen",
+       "mode": "explore",
+       "page": 58,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Basic parts",
+       "body": [
+        "- active cell, column headings, row headings,",
+        "- formula bar, Name Box, mouse pointer,",
+        "- sheet tabs, worksheet tab scrolling buttons,",
+        "- the **ribbon** with tabs, groups and tools."
+       ],
+       "page": 58
+      },
+      {
+       "type": "check",
+       "q": "Which of these is NOT a part of the Excel screen?",
+       "options": {
+        "A": "Name Box",
+        "B": "Formula bar",
+        "C": "sheet tabs",
+        "D": "Recycle Bin"
+       },
+       "answer": "D",
+       "why": "p. 58 lists: active cell, column headings, formula bar, Name Box, mouse pointer, row headings, sheet tabs, tab scrolling buttons and the ribbon. The Recycle Bin is a desktop icon (Unit 2).",
+       "page": 58
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-l3",
+     "number": "5.3",
+     "title": "Managing worksheets",
+     "pages": [
+      59,
+      67
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Workbook and worksheets",
+       "diagram": "book",
+       "mode": "explore",
+       "page": 59,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Workbook and worksheet",
+       "body": [
+        "A **workbook** is a collection of worksheets in **one file**.",
+        "A **worksheet** is a **single sheet** in the workbook. It can hold data, charts or both.",
+        "A new workbook opens with **three** blank worksheets."
+       ],
+       "page": 59
+      },
+      {
+       "type": "remember",
+       "title": "Rows, columns, cells",
+       "body": [
+        "**Rows** go across and are labelled **1, 2, 3**...",
+        "**Columns** go down and are labelled **A, B, C**...",
+        "A **cell** is where a row and a column meet. Its **address** is column + row, e.g. **B3**.",
+        "The first (\"Home\") cell is **A1**."
+       ],
+       "page": 60
+      },
+      {
+       "type": "diagram",
+       "title": "Moving around with the keyboard",
+       "diagram": "keys",
+       "mode": "explore",
+       "page": 60,
+       "body": [
+        "Tap each key group."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Save, open, exit",
+       "body": [
+        "**Save**: Office button → Save → give a name (e.g. change \"Book 1\" to \"Prize winners list\") → Save.",
+        "**Open**: Office button → Open → choose the file → Open.",
+        "**Exit**: Office button → Exit Excel, or the X, or **Ctrl + W** / **Alt + F4**."
+       ],
+       "page": 61
+      },
+      {
+       "type": "table",
+       "title": "Selecting worksheets",
+       "page": 64,
+       "head": [
+        "To select...",
+        "do this"
+       ],
+       "rows": [
+        [
+         "one worksheet",
+         "click its tab"
+        ],
+        [
+         "neighbouring worksheets",
+         "click the first tab, hold Shift, click the last"
+        ],
+        [
+         "non-neighbouring worksheets",
+         "click one tab, hold Ctrl, click others"
+        ],
+        [
+         "all worksheets",
+         "right-click a tab → Select All Sheets"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Worksheet tasks (right-click a tab)",
+       "page": 64,
+       "head": [
+        "Task",
+        "Steps"
+       ],
+       "rows": [
+        [
+         "insert",
+         "right-click a tab → Insert → Worksheet → OK (it goes before that tab)"
+        ],
+        [
+         "delete",
+         "select tab(s) → right-click → Delete (confirm if it has data)"
+        ],
+        [
+         "move or copy",
+         "right-click → Move or Copy → choose workbook and order → OK"
+        ],
+        [
+         "rename",
+         "right-click → Rename → type → Enter (or double-click the tab)"
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Worksheet name rules",
+       "body": [
+        "- no more than **31 characters**,",
+        "- cannot use \\ / ? : * [ ],",
+        "- cannot be **blank**."
+       ],
+       "page": 66
+      },
+      {
+       "type": "check",
+       "q": "The active cell is in column B and row 3. What is its address?",
+       "options": {
+        "A": "3B",
+        "B": "B3",
+        "C": "A1",
+        "D": "C2"
+       },
+       "answer": "B",
+       "why": "The address is the column letter then the row number (p. 60: \"the active cell is B3\").",
+       "page": 60
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-l4",
+     "number": "5.4",
+     "title": "Modifying a worksheet",
+     "pages": [
+      67,
+      68
+     ],
+     "cards": [
+      {
+       "type": "table",
+       "title": "Three kinds of data",
+       "page": 67,
+       "head": [
+        "Kind",
+        "What it is",
+        "Alignment"
+       ],
+       "rows": [
+        [
+         "labels",
+         "headings and names (text and numbers)",
+         "left"
+        ],
+        [
+         "values",
+         "numbers that can be used in calculations; dates are values",
+         "right"
+        ],
+        [
+         "formulas",
+         "mathematical expressions that calculate a value",
+         "—"
+        ]
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Entering data",
+       "body": [
+        "1. Click the cell.",
+        "2. Type your data.",
+        "3. Press **Enter**. The cell **below** becomes active.",
+        "The data shows in the cell **and** in the **Formula bar**."
+       ],
+       "page": 67
+      },
+      {
+       "type": "remember",
+       "title": "Editing data",
+       "body": [
+        "- Double-click the cell, use **Backspace**, and retype.",
+        "- Or select the cell and simply **retype**.",
+        "- To **clear** a cell, select it and press **Delete**."
+       ],
+       "page": 68
+      },
+      {
+       "type": "check",
+       "q": "How are numbers aligned in a cell?",
+       "options": {
+        "A": "left",
+        "B": "right",
+        "C": "center",
+        "D": "justify"
+       },
+       "answer": "B",
+       "why": "p. 67: \"Labels are left aligned... Numbers are right aligned in a cell.\"",
+       "page": 67
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-l5",
+     "number": "5.5",
+     "title": "Modifying rows and columns",
+     "pages": [
+      68,
+      71
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Default sizes",
+       "body": [
+        "At the start, all columns are **eight characters wide**.",
+        "Row heights fit the content, up to **12 points**."
+       ],
+       "page": 68
+      },
+      {
+       "type": "table",
+       "title": "Row height and column width",
+       "page": 69,
+       "head": [
+        "To change",
+        "Steps"
+       ],
+       "rows": [
+        [
+         "row height",
+         "Home tab → Format (Cells group) → Row Height → type → OK (or right-click the row heading)"
+        ],
+        [
+         "column width",
+         "Home tab → Format → Column Width → type → OK"
+        ],
+        [
+         "fit the longest entry",
+         "double-click the border of the column heading"
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Insert rows and columns",
+       "body": [
+        "A new **row** goes **above** the row you select. To insert between rows 7 and 8, select **row 8** → right-click → Insert.",
+        "A new **column** goes to the **left** of the column you select. Between C and D, select **column D**.",
+        "For **3 rows** between 7 and 8, select rows **8, 9 and 10**."
+       ],
+       "page": 71
+      },
+      {
+       "type": "text",
+       "title": "Deleting",
+       "body": [
+        "Select the rows or columns → right-click → **Delete**.",
+        "Other rows move **up**; other columns move **left**."
+       ],
+       "page": 71
+      },
+      {
+       "type": "check",
+       "q": "To insert 2 columns between columns C and D, which columns do you select?",
+       "options": {
+        "A": "B and C",
+        "B": "C and D",
+        "C": "D and E",
+        "D": "E and F"
+       },
+       "answer": "C",
+       "why": "p. 71: \"if you want to insert 2 columns between columns C and D, select columns D and E\".",
+       "page": 71
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-l6",
+     "number": "5.6",
+     "title": "Formatting cells",
+     "pages": [
+      72,
+      77
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Formatting a cell",
+       "body": [
+        "Formatting changes **how a cell looks**, not **what is in it**.",
+        "Common options: **alignment**, **font**, **border** and **fill**.",
+        "Most are in the **Format Cells** dialog box (Home → Format → Format Cells)."
+       ],
+       "page": 72
+      },
+      {
+       "type": "text",
+       "title": "Alignment and orientation",
+       "body": [
+        "Alignment: **Left, Center, Right, Justify**. By default numbers go **right** and text goes **left**.",
+        "**Text orientation** rotates text in a cell: Alignment tab → Orientation → choose the degrees."
+       ],
+       "page": 72
+      },
+      {
+       "type": "text",
+       "title": "Font",
+       "body": [
+        "On the **Font** tab choose the **font type** (e.g. Broadway), **size** (e.g. 18), **style** (Regular, Bold, Italic, Bold Italic) and **underline**.",
+        "Check the **Preview** box, then OK."
+       ],
+       "page": 74
+      },
+      {
+       "type": "table",
+       "title": "Border or fill?",
+       "page": 75,
+       "head": [
+        "Tool",
+        "What it does"
+       ],
+       "rows": [
+        [
+         "border",
+         "lines around cells; any colour or thickness; always shows and prints"
+        ],
+        [
+         "gridlines",
+         "faint lines between cells on the screen"
+        ],
+        [
+         "fill",
+         "background colour, pattern colour and pattern style"
+        ]
+       ]
+      },
+      {
+       "type": "check",
+       "q": "Does formatting a cell change the data in it?",
+       "options": {
+        "A": "yes, always",
+        "B": "no, only how it looks",
+        "C": "only numbers",
+        "D": "only text"
+       },
+       "answer": "B",
+       "why": "\"Formatting a cell does not change what's in the cell. Instead it only changes how it looks\" (p. 72).",
+       "page": 72
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-l7",
+     "number": "5.7",
+     "title": "Analyzing data: sorting",
+     "pages": [
+      77,
+      78
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Data analysis",
+       "body": [
+        "**Data analysis** = working out the **meaning** of data in a table or chart."
+       ],
+       "page": 77
+      },
+      {
+       "type": "states",
+       "title": "Ascending and descending",
+       "diagram": "sort",
+       "page": 77,
+       "states": [
+        {
+         "key": "asc",
+         "label": "Ascending",
+         "text": "**A to Z**, or **smallest to largest**."
+        },
+        {
+         "key": "desc",
+         "label": "Descending",
+         "text": "**Z to A**, or **largest to smallest**."
+        }
+       ],
+       "body": [
+        "Move the slider. Blank cells always go **last**."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Quick sort",
+       "body": [
+        "1. Select the entries in the column.",
+        "2. **Data** tab → **Sort A to Z** or **Sort Z to A** (Sort & Filter group)."
+       ],
+       "page": 77
+      },
+      {
+       "type": "check",
+       "q": "Sorting numbers in ascending order puts them...",
+       "options": {
+        "A": "largest to smallest",
+        "B": "smallest to largest",
+        "C": "in random order",
+        "D": "blank cells first"
+       },
+       "answer": "B",
+       "why": "p. 77: \"Ascending will sort... numerically smallest to largest.\"",
+       "page": 77
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-l8",
+     "number": "5.8",
+     "title": "AutoFill",
+     "pages": [
+      78,
+      78
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "What is AutoFill?",
+       "body": [
+        "**AutoFill** uses the **fill handle** to copy data and sequences across a range of cells."
+       ],
+       "page": 78
+      },
+      {
+       "type": "steps",
+       "title": "AutoFill",
+       "diagram": "fill",
+       "page": 78,
+       "steps": [
+        {
+         "text": "Select the cell with the content to copy.",
+         "show": "src",
+         "pins": [
+          "src"
+         ]
+        },
+        {
+         "text": "Point at the **black square** at the bottom right corner. The pointer becomes the **fill handle**.",
+         "show": "hand",
+         "pins": [
+          "hand"
+         ]
+        },
+        {
+         "text": "**Click and drag** across the range. Excel copies the content.",
+         "show": "drag",
+         "pins": [
+          "drag"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "check",
+       "q": "Where is the fill handle?",
+       "options": {
+        "A": "top left of the cell",
+        "B": "bottom right corner of the cell",
+        "C": "in the ribbon",
+        "D": "in the Name Box"
+       },
+       "answer": "B",
+       "why": "p. 78: \"the black square that appears in the bottom right corner of the cell\".",
+       "page": 78
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-l9",
+     "number": "5.9",
+     "title": "Formulas and functions",
+     "pages": [
+      79,
+      83
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "Operators and operands",
+       "body": [
+        "In 2 + 3 = 5, **2** and **3** are **operands**; **+** is the **operator**.",
+        "A **formula** is an instruction to calculate. It can have operators, operands and functions."
+       ],
+       "page": 79
+      },
+      {
+       "type": "table",
+       "title": "Excel operators",
+       "page": 79,
+       "head": [
+        "Operation",
+        "Symbol"
+       ],
+       "rows": [
+        [
+         "addition",
+         "+"
+        ],
+        [
+         "subtraction",
+         "-"
+        ],
+        [
+         "multiplication",
+         "*"
+        ],
+        [
+         "division",
+         "/"
+        ]
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Start with =",
+       "body": [
+        "Excel formulas **start** with the equal sign (**=**); in maths class it comes at the end.",
+        "Excel: **=1+2**. Maths: **1+2=**.",
+        "Type the formula in the cell where you want the **answer**."
+       ],
+       "page": 79
+      },
+      {
+       "type": "remember",
+       "title": "Use cell references",
+       "body": [
+        "It is best to use **cell references** (like A1) instead of numbers.",
+        "Then Excel **updates** the answer when you change the values."
+       ],
+       "page": 79
+      },
+      {
+       "type": "text",
+       "title": "Functions",
+       "body": [
+        "A **function** is a **predefined formula**. Excel 2007 has over **300** functions.",
+        "A function has a **name** and **arguments** in brackets, separated by commas.",
+        "**Do not** put a space between the name and the bracket: Excel shows an error."
+       ],
+       "page": 80
+      },
+      {
+       "type": "table",
+       "title": "Basic functions (Table 5.2)",
+       "page": 80,
+       "head": [
+        "Function",
+        "Example",
+        "What it does"
+       ],
+       "rows": [
+        [
+         "SUM",
+         "=SUM(A1:A100)",
+         "adds cells A1 to A100"
+        ],
+        [
+         "AVERAGE",
+         "=AVERAGE(B1:B10)",
+         "average of B1 to B10"
+        ],
+        [
+         "MAX",
+         "=MAX(C1:C100)",
+         "highest number in C1 to C100"
+        ],
+        [
+         "MIN",
+         "=MIN(D1:D100)",
+         "lowest number in D1 to D100"
+        ],
+        [
+         "SQRT",
+         "=SQRT(D10)",
+         "square root of D10"
+        ]
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Shorter with SUM",
+       "body": [
+        "**=SUM(A1:A7)** is much shorter than **=A1+A2+A3+A4+A5+A6+A7**.",
+        "Enter a function by **typing** it, the **fx** button, or **Formulas** tab → Insert Function."
+       ],
+       "page": 80
+      },
+      {
+       "type": "remember",
+       "title": "AutoSum",
+       "body": [
+        "**AutoSum** adds a group of neighbouring cells automatically.",
+        "Select the cells, then click **AutoSum** (the Greek letter **sigma**, Σ) on the Home tab (Editing group) or the Formulas tab."
+       ],
+       "page": 82
+      },
+      {
+       "type": "check",
+       "q": "Which symbol is multiplication in Excel?",
+       "options": {
+        "A": "x",
+        "B": "*",
+        "C": "/",
+        "D": "^"
+       },
+       "answer": "B",
+       "why": "p. 79: multiplication (*), division (/), addition (+), subtraction (-).",
+       "page": 79
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-l10",
+     "number": "5.10",
+     "title": "Charts",
+     "pages": [
+      83,
+      88
+     ],
+     "cards": [
+      {
+       "type": "remember",
+       "title": "What is a chart?",
+       "body": [
+        "A **chart** is a **graphical representation** of data in a worksheet.",
+        "It can sit **beside the data** (embedded) or on its **own chart sheet**."
+       ],
+       "page": 83
+      },
+      {
+       "type": "text",
+       "title": "Types of charts",
+       "body": [
+        "Column, line, pie, bar charts and more. The book focuses on **column charts**."
+       ],
+       "page": 83
+      },
+      {
+       "type": "diagram",
+       "title": "Two column chart sub-types",
+       "diagram": "chart",
+       "mode": "explore",
+       "page": 83,
+       "body": [
+        "Tap each chart."
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Creating a column chart",
+       "page": 85,
+       "head": [
+        "Step",
+        "What to do"
+       ],
+       "rows": [
+        [
+         "1",
+         "enter the data and highlight all the cells, including headers"
+        ],
+        [
+         "2",
+         "Insert tab → Charts group"
+        ],
+        [
+         "3",
+         "choose Column → Clustered column → OK"
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Key terms of Unit 5",
+       "body": [
+        "alignment, AutoSum, average, border, cell, chart, column, column chart, font, formula, function, Max, min,",
+        "operand, operator, sort, sum, text orientation, values, workbook, worksheet."
+       ],
+       "page": 87
+      },
+      {
+       "type": "check",
+       "q": "Which column chart compares values across categories?",
+       "options": {
+        "A": "stacked column",
+        "B": "clustered column",
+        "C": "pie chart",
+        "D": "line chart"
+       },
+       "answer": "B",
+       "why": "p. 83: \"Clustered column charts compare values across categories.\"",
+       "page": 83
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "Excel 2007",
+     "meaning": "Microsoft Office Excel 2007, a spreadsheet program",
+     "page": 56
+    },
+    {
+     "term": "spreadsheet",
+     "meaning": "a program with rows and columns for data",
+     "page": 56,
+     "forms": [
+      "spreadsheets"
+     ]
+    },
+    {
+     "term": "workbook",
+     "meaning": "a file with one or more worksheets",
+     "page": 59,
+     "forms": [
+      "workbooks"
+     ]
+    },
+    {
+     "term": "worksheet",
+     "meaning": "one sheet in a workbook",
+     "page": 59,
+     "forms": [
+      "worksheets"
+     ]
+    },
+    {
+     "term": "row",
+     "meaning": "a line of cells across, labelled 1, 2, 3",
+     "page": 60,
+     "forms": [
+      "rows"
+     ]
+    },
+    {
+     "term": "column",
+     "meaning": "a line of cells down, labelled A, B, C",
+     "page": 60,
+     "forms": [
+      "columns"
+     ]
+    },
+    {
+     "term": "cell",
+     "meaning": "where a row and a column meet",
+     "page": 60,
+     "forms": [
+      "cells"
+     ]
+    },
+    {
+     "term": "cell address",
+     "meaning": "column letter + row number, e.g. B3",
+     "page": 60,
+     "forms": [
+      "address"
+     ]
+    },
+    {
+     "term": "Name Box",
+     "meaning": "the box that shows the active cell's address",
+     "page": 60
+    },
+    {
+     "term": "active cell",
+     "meaning": "the selected cell",
+     "page": 60
+    },
+    {
+     "term": "formula bar",
+     "meaning": "the bar that shows the content of the active cell",
+     "page": 67
+    },
+    {
+     "term": "label",
+     "meaning": "text such as a heading or name",
+     "page": 67,
+     "forms": [
+      "labels"
+     ]
+    },
+    {
+     "term": "value",
+     "meaning": "a number that can be used in calculations",
+     "page": 67,
+     "forms": [
+      "values"
+     ]
+    },
+    {
+     "term": "formula",
+     "meaning": "an expression that calculates a value",
+     "page": 67,
+     "forms": [
+      "formulas"
+     ]
+    },
+    {
+     "term": "border",
+     "meaning": "a line around cells",
+     "page": 75,
+     "forms": [
+      "borders"
+     ]
+    },
+    {
+     "term": "gridlines",
+     "meaning": "faint lines between cells",
+     "page": 75
+    },
+    {
+     "term": "sort",
+     "meaning": "arrange data in order",
+     "page": 77,
+     "forms": [
+      "sorting"
+     ]
+    },
+    {
+     "term": "ascending",
+     "meaning": "A to Z, smallest to largest",
+     "page": 77
+    },
+    {
+     "term": "descending",
+     "meaning": "Z to A, largest to smallest",
+     "page": 77
+    },
+    {
+     "term": "AutoFill",
+     "meaning": "copying data across cells with the fill handle",
+     "page": 78
+    },
+    {
+     "term": "fill handle",
+     "meaning": "the black square at the bottom right of a cell",
+     "page": 78
+    },
+    {
+     "term": "operator",
+     "meaning": "a sign like + - * /",
+     "page": 79,
+     "forms": [
+      "operators"
+     ]
+    },
+    {
+     "term": "operand",
+     "meaning": "a number an operator works on",
+     "page": 79,
+     "forms": [
+      "operands"
+     ]
+    },
+    {
+     "term": "function",
+     "meaning": "a predefined formula like SUM",
+     "page": 80,
+     "forms": [
+      "functions"
+     ]
+    },
+    {
+     "term": "argument",
+     "meaning": "a value or cell a function uses",
+     "page": 80,
+     "forms": [
+      "arguments"
+     ]
+    },
+    {
+     "term": "AutoSum",
+     "meaning": "a button (Σ) that adds neighbouring cells",
+     "page": 82
+    },
+    {
+     "term": "chart",
+     "meaning": "a graphical representation of data",
+     "page": 83,
+     "forms": [
+      "charts"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "Cell address = **column letter first**, then row number: **B3**."
+    },
+    {
+     "text": "Excel formulas **start with =**. Multiply with *****, divide with **/**."
+    },
+    {
+     "text": "Labels go **left**, numbers go **right**."
+    },
+    {
+     "text": "Insert row → select the row **below**; insert column → select the column to the **right**."
+    },
+    {
+     "text": "SUM adds, AVERAGE averages, MAX highest, MIN lowest, SQRT square root."
+    }
+   ],
+   "games": [
+    {
+     "id": "ict8-u5-g1",
+     "type": "label",
+     "lesson": "ict8-u5-l2",
+     "title": "The Excel 2007 screen",
+     "diagram": "xscreen"
+    },
+    {
+     "id": "ict8-u5-g2",
+     "type": "match",
+     "lesson": "ict8-u5-l9",
+     "title": "Functions",
+     "pairs": [
+      {
+       "a": "SUM",
+       "b": "adds the cells"
+      },
+      {
+       "a": "AVERAGE",
+       "b": "finds the average"
+      },
+      {
+       "a": "MAX",
+       "b": "returns the highest number"
+      },
+      {
+       "a": "MIN",
+       "b": "returns the lowest number"
+      },
+      {
+       "a": "SQRT",
+       "b": "finds the square root"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-g3",
+     "type": "sort",
+     "lesson": "ict8-u5-l4",
+     "title": "Label or value?",
+     "groups": [
+      {
+       "id": "l",
+       "label": "Label (left)"
+      },
+      {
+       "id": "v",
+       "label": "Value (right)"
+      }
+     ],
+     "items": [
+      {
+       "text": "Name",
+       "group": "l"
+      },
+      {
+       "text": "Employee Names",
+       "group": "l"
+      },
+      {
+       "text": "Gender",
+       "group": "l"
+      },
+      {
+       "text": "Hire Date (heading)",
+       "group": "l"
+      },
+      {
+       "text": "88",
+       "group": "v"
+      },
+      {
+       "text": "4,000,000",
+       "group": "v"
+      },
+      {
+       "text": "a date",
+       "group": "v"
+      },
+      {
+       "text": "3.5",
+       "group": "v"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-g4",
+     "type": "match",
+     "lesson": "ict8-u5-l9",
+     "title": "Excel operators",
+     "pairs": [
+      {
+       "a": "addition",
+       "b": "+"
+      },
+      {
+       "a": "subtraction",
+       "b": "-"
+      },
+      {
+       "a": "multiplication",
+       "b": "*"
+      },
+      {
+       "a": "division",
+       "b": "/"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-g5",
+     "type": "sort",
+     "lesson": "ict8-u5-l7",
+     "title": "Ascending or descending?",
+     "groups": [
+      {
+       "id": "a",
+       "label": "Ascending"
+      },
+      {
+       "id": "d",
+       "label": "Descending"
+      }
+     ],
+     "items": [
+      {
+       "text": "A to Z",
+       "group": "a"
+      },
+      {
+       "text": "smallest to largest",
+       "group": "a"
+      },
+      {
+       "text": "1, 2, 3, 4",
+       "group": "a"
+      },
+      {
+       "text": "Z to A",
+       "group": "d"
+      },
+      {
+       "text": "largest to smallest",
+       "group": "d"
+      },
+      {
+       "text": "9, 7, 4, 1",
+       "group": "d"
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-g6",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "A ___ is a collection of worksheets in one file.",
+       "answer": "workbook",
+       "choices": [
+        "workbook",
+        "cell",
+        "chart"
+       ]
+      },
+      {
+       "text": "Excel formulas start with the ___ sign.",
+       "answer": "equal",
+       "choices": [
+        "equal",
+        "plus",
+        "dollar"
+       ]
+      },
+      {
+       "text": "A new workbook has ___ blank worksheets.",
+       "answer": "three",
+       "choices": [
+        "three",
+        "four",
+        "one"
+       ]
+      },
+      {
+       "text": "A quick way to copy data from one cell to others is ___.",
+       "answer": "AutoFill",
+       "choices": [
+        "AutoFill",
+        "AutoSum",
+        "Sort"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ict8-u5-g7",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round: review",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "By default a new workbook has four worksheets.",
+       "answer": false,
+       "why": "It has three (p. 60)."
+      },
+      {
+       "text": "The junction of a row and a column is a cell.",
+       "answer": true
+      },
+      {
+       "text": "A formula and a function are the same thing.",
+       "answer": false,
+       "why": "A function is a predefined formula (p. 80)."
+      },
+      {
+       "text": "A worksheet is a single sheet in the workbook.",
+       "answer": true
+      },
+      {
+       "text": "A descending sort goes from highest to lowest.",
+       "answer": true
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ict8-u5-q1",
+      "type": "mcq",
+      "page": 87,
+      "q": "Which is NOT true about the AutoFill handle?",
+      "options": {
+       "A": "it is at the bottom right corner of the cell",
+       "B": "you click and drag it",
+       "C": "it is used only with formulas",
+       "D": "it copies content to other cells"
+      },
+      "answer": "C",
+      "why": [
+       "p. 78: AutoFill copies data and sequences across a range of cells, not only formulas."
+      ],
+      "tip": "Look for the word \"only\".",
+      "similar": [
+       {
+        "q": "What does the fill handle look like?",
+        "a": "a black square at the bottom right corner of the cell"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q2",
+      "type": "mcq",
+      "page": 87,
+      "q": "Book1 is an example of how ___ are named when you start work.",
+      "options": {
+       "A": "worksheets",
+       "B": "programs",
+       "C": "title bars",
+       "D": "workbooks"
+      },
+      "answer": "D",
+      "why": [
+       "p. 62: you rename \"Book 1\" when you save the workbook.",
+       "Sheets are named Sheet1, Sheet2..."
+      ],
+      "tip": "Book = workbook; Sheet = worksheet.",
+      "similar": [
+       {
+        "q": "What are worksheets called at first?",
+        "a": "Sheet1, Sheet2, Sheet3"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q3",
+      "type": "mcq",
+      "page": 87,
+      "q": "Which of the following displays the contents of the active cell?",
+      "options": {
+       "A": "the ribbon",
+       "B": "the formula bar",
+       "C": "the menu bar",
+       "D": "the sheet tabs"
+      },
+      "answer": "B",
+      "why": [
+       "p. 67: the data is displayed in the active cell as well as in the Formula bar."
+      ],
+      "tip": "Formula bar = shows content.",
+      "similar": [
+       {
+        "q": "What does the Name Box show?",
+        "a": "the address of the active cell"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q4",
+      "type": "mcq",
+      "page": 88,
+      "q": "To open an existing workbook, you click Open from the ___ button.",
+      "options": {
+       "A": "Office",
+       "B": "Home",
+       "C": "Formula",
+       "D": "Insert"
+      },
+      "answer": "A",
+      "why": [
+       "p. 62: \"Click on Office Button, choose Open.\""
+      ],
+      "tip": "File commands are on the Office button.",
+      "similar": [
+       {
+        "q": "How do you exit Excel?",
+        "a": "Office button → Exit Excel (or X, Ctrl + W, Alt + F4)"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q5",
+      "type": "fill",
+      "page": 79,
+      "q": "In Excel, cell A1 has the formula =3*5+9/3-2. The answer shown is ___.",
+      "choices": [
+       "16",
+       "8",
+       "12.67",
+       "14"
+      ],
+      "answer": "16",
+      "why": [
+       "3*5 = 15.",
+       "9/3 = 3.",
+       "15 + 3 - 2 = 16."
+      ],
+      "tip": "Do * and / first, then + and -.",
+      "similar": [
+       {
+        "q": "What does =2*4+6/2 give?",
+        "a": "11"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q6",
+      "type": "short",
+      "page": 87,
+      "q": "What is the default alignment of numbers and texts in a cell?",
+      "answer": "Numbers are aligned to the right; text is aligned to the left.",
+      "why": [
+       "p. 72: \"By default, numbers are aligned to the right and texts are aligned to the left.\""
+      ],
+      "tip": "Numbers right, text left.",
+      "similar": [
+       {
+        "q": "How can you change alignment?",
+        "a": "Home → Format → Format Cells → Alignment tab"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q7",
+      "type": "short",
+      "page": 87,
+      "q": "How many kinds of data are there in Excel? List them.",
+      "answer": "Three: labels, values and formulas.",
+      "why": [
+       "p. 67: data can be categorized as labels, values and formulas."
+      ],
+      "tip": "L-V-F.",
+      "similar": [
+       {
+        "q": "Which kind is used in calculations?",
+        "a": "values"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q8",
+      "type": "tf",
+      "page": 80,
+      "q": "=SUM(A1:A7) gives the same result as =A1+A2+A3+A4+A5+A6+A7.",
+      "answer": true,
+      "why": [
+       "p. 80: the SUM formula is \"considerably shorter than\" the long one."
+      ],
+      "tip": "SUM adds a range.",
+      "similar": [
+       {
+        "q": "What does =MAX(C1:C100) do?",
+        "a": "returns the highest number from C1 to C100"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q9",
+      "type": "mcq",
+      "page": 71,
+      "q": "You want to insert one row between rows 7 and 8. Which row do you select?",
+      "options": {
+       "A": "row 6",
+       "B": "row 7",
+       "C": "row 8",
+       "D": "row 9"
+      },
+      "answer": "C",
+      "why": [
+       "p. 71: \"if you want to insert a row between rows 7 and 8, select row 8\"."
+      ],
+      "tip": "Select the row below.",
+      "similar": [
+       {
+        "q": "Which rows do you select to insert 3 rows between 7 and 8?",
+        "a": "rows 8, 9 and 10"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q10",
+      "type": "mcq",
+      "page": 66,
+      "q": "Which worksheet name is NOT allowed?",
+      "options": {
+       "A": "Grades",
+       "B": "Term 1",
+       "C": "Sales?",
+       "D": "Class 8A"
+      },
+      "answer": "C",
+      "why": [
+       "p. 66: the characters \\ / ? : * [ ] cannot be used.",
+       "\"Sales?\" has a question mark."
+      ],
+      "tip": "Look for a forbidden character.",
+      "similar": [
+       {
+        "q": "What is the longest a worksheet name can be?",
+        "a": "31 characters"
+       }
+      ]
+     },
+     {
+      "id": "ict8-u5-q11",
+      "type": "fill",
+      "page": 83,
+      "q": "A ___ is a graphical representation of data in a worksheet.",
+      "choices": [
+       "chart",
+       "cell",
+       "formula",
+       "border"
+      ],
+      "answer": "chart",
+      "why": [
+       "p. 83."
+      ],
+      "tip": "Graphical = picture.",
+      "similar": [
+       {
+        "q": "What do stacked column charts show?",
+        "a": "how each item relates to the whole (its contribution to a total)"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

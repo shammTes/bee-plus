@@ -1,0 +1,3825 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "social-studies-2017-g8",
+    "year": "2017",
+    "subject": "Social Studies",
+    "grade": 8,
+    "version": "A",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2017 – Social Studies",
+    "duration": "1 hour and 10 minutes (70 minutes)",
+    "duration_minutes": 70,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "This examination paper has 50 multiple choice questions (1 to 50). Each question has 4 choices. Choose one best answer and blacken the letter of your choice on the separate answer sheet."
+      }
+    ],
+    "source": {
+      "document": "raw/2017_Social_Studies__V-A.pdf (7 pages, text layer; cover '2. Social Studies, Version A')",
+      "version_used": "A",
+      "other_version": "No Version B of the 2017 Social Studies paper is in the collection.",
+      "notes": "Transcribed from the V-A text layer and checked against the page images. Bold and/or underlined emphasis words (does not, is not, wrong Statement, last, is true, was not) are kept as <u>…</u>. Figure 1 (two wells) and Figure 2 (river map with X and Z) were cropped from 300-dpi page renders. The events box for Q38-39 is an image on page 6 and was typed from the image. Tables 1-3 are given as tables.",
+      "printing_note": "Misprints kept as printed: Q17 'It is rich is coral diversity'; Q26 'fron local ruler' and 'Jailbreaker of Nacfa' (the textbook says Nakura); Q42 'RN I'; Q50 option A printed 'A,' and 'Carabinnieri'. Table 3 leaves the Africa death rate blank on purpose (Q42).",
+      "official_answer_key": false
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "textbooks": [
+      {
+        "subject": "Social Studies",
+        "grade": 6,
+        "file": "textbooks/social_studies_6.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Social Studies",
+        "grade": 7,
+        "file": "textbooks/social_studies_7.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Social Studies",
+        "grade": 8,
+        "file": "textbooks/social_studies_8.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      }
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "id": "social-studies-2017-g8-p1-q01",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 1,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The country that borders Eritrea in south-east is____",
+      "options": {
+        "A": "Yemen",
+        "B": "Djibouti",
+        "C": "Somali",
+        "D": "Ethiopia"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Eritrea borders the Sudan in the west, Ethiopia in the south and Djibouti in the south-east. Yemen is across the Red Sea in the east (Social Studies Grade 8, p. 54).",
+        "Answer: B."
+      ],
+      "explain_simple": "Djibouti is on the south-east side of Eritrea.",
+      "tips": [
+        "West = Sudan, South = Ethiopia, South-east = Djibouti."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which country borders Eritrea in the west?",
+          "options": {
+            "A": "Djibouti",
+            "B": "Yemen",
+            "C": "The Sudan",
+            "D": "Somalia"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "The Sudan is in the west. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-eritrea-location"
+      ],
+      "keywords": [
+        "Djibouti",
+        "neighbours",
+        "south-east"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 4 – Eritrea and Its Strategic Location, 4.1 Location of Eritrea, p. 54",
+        "topic": "4.1 Location of Eritrea",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 4 – Eritrea and Its Strategic Location",
+        "section": "4.1 Location of Eritrea",
+        "page": "54",
+        "pdf_page": 60,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "general",
+          "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 4 – The Location and Size of Eritrea, Location of Eritrea, p. 24",
+          "topic": "Location of Eritrea",
+          "subject": "Social Studies",
+          "grade": 6,
+          "unit": "Unit 4 – The Location and Size of Eritrea",
+          "section": "Location of Eritrea",
+          "page": "24",
+          "pdf_page": 30,
+          "verified_in_text": true
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q02",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 2,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In 1557",
+      "options": {
+        "A": "The Italians occupied Massawa",
+        "B": "The Battle of Gura took place",
+        "C": "The Battle of Dogalli took place",
+        "D": "Turkish occupied Massawa"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The Turks occupied Massawa in 1557 (Social Studies Grade 6, p. 71; Grade 8, p. 59).",
+        "Gura was in 1876, Dogalli in 1887 and the Italians took Massawa in 1885. Answer: D."
+      ],
+      "explain_simple": "In 1557 the Turks took Massawa.",
+      "tips": [
+        "1557 = Turks in Massawa."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Battle of Gura took place in:",
+          "options": {
+            "A": "1557",
+            "B": "1876",
+            "C": "1887",
+            "D": "1890"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Gura was in 1876. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat",
+        "ss-chronology"
+      ],
+      "keywords": [
+        "1557",
+        "Turks",
+        "Massawa"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, The Turks, p. 71",
+        "topic": "The Turks",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "The Turks",
+        "page": "71",
+        "pdf_page": 77,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "general",
+          "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Turkish expansion, p. 59",
+          "topic": "Turkish expansion",
+          "subject": "Social Studies",
+          "grade": 8,
+          "unit": "Unit 5 – Expansionism and Colonialism",
+          "section": "Turkish expansion",
+          "page": "59",
+          "pdf_page": 65,
+          "verified_in_text": true
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q03",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 3,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The activity of buying and selling is called _______",
+      "options": {
+        "A": "Communication",
+        "B": "Trade",
+        "C": "Industrialization",
+        "D": "Integrated Business"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Trade means buying and selling goods. Traders buy crops, fruit, fish and salt and sell them (Social Studies Grade 6, p. 98).",
+        "Answer: B."
+      ],
+      "explain_simple": "Buying and selling is trade.",
+      "tips": [
+        "Trade = buy + sell."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A person who buys and sells goods is a:",
+          "options": {
+            "A": "farmer",
+            "B": "merchant (trader)",
+            "C": "fisherman",
+            "D": "miner"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "A merchant trades. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-economic-sectors"
+      ],
+      "keywords": [
+        "trade",
+        "buying and selling"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 11 – Economic Activities, C. Tertiary activities, p. 98",
+        "topic": "C. Tertiary activities",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 11 – Economic Activities",
+        "section": "C. Tertiary activities",
+        "page": "98",
+        "pdf_page": 104,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q04",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 4,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following <u>does not</u> match?",
+      "options": {
+        "A": "History textbook → Primary Source",
+        "B": "Archaeological Remains → Primary Source",
+        "C": "Oral Stories → Secondary sources",
+        "D": "Pictures → Primary Source"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook says: history textbooks are secondary sources. Stories told orally are also secondary sources (Social Studies Grade 6, p. 4).",
+        "Archaeological remains and pictures are primary sources. So only A is wrong. Answer: A."
+      ],
+      "explain_simple": "A history textbook is a secondary source, not a primary source.",
+      "tips": [
+        "Primary = from the time itself. Secondary = written or told later."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is a primary source?",
+          "options": {
+            "A": "A history textbook",
+            "B": "An old coin",
+            "C": "A story told by a grandmother",
+            "D": "A school encyclopedia"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "An old coin comes from the time itself. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-sources"
+      ],
+      "keywords": [
+        "primary source",
+        "secondary source",
+        "history textbook"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 1 – Sources, Primary and secondary sources, p. 4",
+        "topic": "Primary and secondary sources",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 1 – Sources",
+        "section": "Primary and secondary sources",
+        "page": "4",
+        "pdf_page": 10,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q05",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 5,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following <u>is not</u> an active volcano?",
+      "options": {
+        "A": "Emba Soira",
+        "B": "Dubbi",
+        "C": "Alid",
+        "D": "Dalloh"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook says some volcanoes are no more erupting, for example Emba Soira (Social Studies Grade 7, p. 121). Emba Soira is an extinct volcano.",
+        "Dubbi (erupted in 1400 and 1861), Alid and Dalloh are in the active volcanic area of the Danakil. Answer: A."
+      ],
+      "explain_simple": "Emba Soira does not erupt any more.",
+      "tips": [
+        "Emba Soira = old (extinct). Dubbi = active."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Mount Dubbi is a/an:",
+          "options": {
+            "A": "active volcano",
+            "B": "extinct volcano",
+            "C": "river",
+            "D": "plateau"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Dubbi erupted in history. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-disasters-eritrea"
+      ],
+      "keywords": [
+        "volcano",
+        "Emba Soira",
+        "extinct"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 8 – Disasters in Eritrea, Volcanic eruption – stages of volcanic activity, p. 120-121",
+        "topic": "Volcanic eruption – stages of volcanic activity",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 8 – Disasters in Eritrea",
+        "section": "Volcanic eruption – stages of volcanic activity",
+        "page": "120-121",
+        "pdf_page": 126,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q06",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 6,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In ancient times the most important trading port of Eritrea was____",
+      "options": {
+        "A": "Massawa",
+        "B": "Adulis",
+        "C": "Assab",
+        "D": "Beilul"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Goods coming from outside came to Adulis and were taken inland. Adulis exported ivory and tortoise shell (Social Studies Grade 6, p. 61–63).",
+        "Answer: B."
+      ],
+      "explain_simple": "Adulis was the big old port.",
+      "tips": [
+        "Ancient port = Adulis."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Adulis exported:",
+          "options": {
+            "A": "coffee",
+            "B": "ivory",
+            "C": "cars",
+            "D": "oil"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Adulis exported ivory. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-punt-aksum"
+      ],
+      "keywords": [
+        "Adulis",
+        "port",
+        "ancient trade"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 8 – Eritrea 900 B.C.E–1300 C.E, Adulis and trade, p. 61",
+        "topic": "Adulis and trade",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 8 – Eritrea 900 B.C.E–1300 C.E",
+        "section": "Adulis and trade",
+        "page": "61",
+        "pdf_page": 67,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q07",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 7,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Change 1 : 1, 000, 000 to a scale statement",
+      "options": {
+        "A": "1 cm to 1 kilometer",
+        "B": "1 cm to 10 kilometer",
+        "C": "1 cm to 100 Kilometer",
+        "D": "1 cm to 1000 km"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "1 : 1,000,000 means 1 cm on the map = 1,000,000 cm on the ground.",
+        "1 km = 100,000 cm. So 1,000,000 cm ÷ 100,000 = 10 km (Social Studies Grade 6, p. 18).",
+        "Answer: B."
+      ],
+      "explain_simple": "1,000,000 cm is 10 km. So 1 cm stands for 10 km.",
+      "tips": [
+        "To change cm to km, divide by 100,000."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Change 1 : 500,000 to a scale statement.",
+          "options": {
+            "A": "1 cm to 5 km",
+            "B": "1 cm to 50 km",
+            "C": "1 cm to 500 km",
+            "D": "1 cm to 0.5 km"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "500,000 ÷ 100,000 = 5 km. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-scale"
+      ],
+      "keywords": [
+        "scale",
+        "representative fraction",
+        "scale statement"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 3 – Distance and Scale, Types of scale, p. 18",
+        "topic": "Types of scale",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 3 – Distance and Scale",
+        "section": "Types of scale",
+        "page": "18",
+        "pdf_page": 24,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q08",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 8,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What century is 205 C.E,",
+      "options": {
+        "A": "3rd century",
+        "B": "1st century",
+        "C": "2nd century",
+        "D": "4th century"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The years 1–100 C.E. are the 1st century, 101–200 the 2nd century and 201–300 the 3rd century (Social Studies Grade 6, p. 13).",
+        "205 is between 201 and 300. Answer: A."
+      ],
+      "explain_simple": "205 C.E. is in the 3rd century.",
+      "tips": [
+        "Take the hundreds number and add 1: 205 → 2 + 1 = 3rd."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In which century is 1975 C.E.?",
+          "options": {
+            "A": "19th",
+            "B": "20th",
+            "C": "21st",
+            "D": "18th"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "1901–2000 is the 20th century. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-time"
+      ],
+      "keywords": [
+        "century",
+        "C.E."
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 2 – Measuring Time, Centuries, p. 13",
+        "topic": "Centuries",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 2 – Measuring Time",
+        "section": "Centuries",
+        "page": "13",
+        "pdf_page": 19,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q09",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 9,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The landform in Eritrea between the highlands and lowlands is:",
+      "options": {
+        "A": "Plateau",
+        "B": "Gorge",
+        "C": "Trough",
+        "D": "Escarpment"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Eritrea has three relief regions: the highlands, the escarpments and the lowlands (Social Studies Grade 8, p. 3–4).",
+        "The escarpments are the steep slopes between the highlands and the lowlands. Answer: D."
+      ],
+      "explain_simple": "The steep land between highlands and lowlands is the escarpment.",
+      "tips": [
+        "Highlands → escarpment → lowlands."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Eritrea can be divided into highlands, escarpments and:",
+          "options": {
+            "A": "islands",
+            "B": "lowlands",
+            "C": "deserts",
+            "D": "gorges"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The third region is the lowlands. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "escarpment",
+        "highlands",
+        "lowlands"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, 1.3 Escarpments, p. 3",
+        "topic": "1.3 Escarpments",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "1.3 Escarpments",
+        "page": "3",
+        "pdf_page": 9,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q10",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 10,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The queen who sent ships to the Land of Punt in 1500 B.C.E,",
+      "options": {
+        "A": "Nefertiti",
+        "B": "Cleopatra",
+        "C": "Saba",
+        "D": "Hatshepsut"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says: in 1500 B.C. Queen Hatshepsut of Egypt sent ships to the land of Punt (Social Studies Grade 6, p. 60).",
+        "Answer: D."
+      ],
+      "explain_simple": "Queen Hatshepsut of Egypt sent ships to Punt.",
+      "tips": [
+        "Punt → Hatshepsut."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Queen Hatshepsut was a queen of:",
+          "options": {
+            "A": "Aksum",
+            "B": "Egypt",
+            "C": "Punt",
+            "D": "Rome"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "She was queen of Egypt. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-punt-aksum"
+      ],
+      "keywords": [
+        "Punt",
+        "Hatshepsut"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 8 – Eritrea 900 B.C.E–1300 C.E, The Land of Punt, p. 60",
+        "topic": "The Land of Punt",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 8 – Eritrea 900 B.C.E–1300 C.E",
+        "section": "The Land of Punt",
+        "page": "60",
+        "pdf_page": 66,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q11",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 11,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Well A is empty. Well B has water. Both are the same well at different part of the year in Eritrea. The cause for the rise and lowering of the groundwater is due to……..",
+      "image": "media/social-studies-2017-q11.png",
+      "image_alt": "Figure 1: two drawings of the same well. Well A (dry period): the water table is below the bottom of the well, so the well is empty. Well B (rainy period): the water table is higher, so the bottom of the well has water. Under the water table is saturated rock.",
+      "options": {
+        "A": "The nature of the rocks",
+        "B": "The nature of the landforms",
+        "C": "The seasonal nature of the rainfall",
+        "D": "High evapo-transpiration from well"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "It is the same well. So the rocks and the landform do not change.",
+        "Well B is in the rainy period and Well A is in the dry period. The textbook says the groundwater rises in the rainy season and becomes low in the dry period (Social Studies Grade 8, p. 23).",
+        "So the change comes from the seasons of rain. Answer: C."
+      ],
+      "explain_simple": "In the rainy season the water table goes up. In the dry season it goes down.",
+      "tips": [
+        "Same well, different season → the cause is the season (rain)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In the rainy season the water table:",
+          "options": {
+            "A": "goes down",
+            "B": "goes up",
+            "C": "does not change",
+            "D": "disappears"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Rain water seeps into the ground. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-groundwater"
+      ],
+      "keywords": [
+        "groundwater",
+        "water table",
+        "rainfall",
+        "season"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, Groundwater, p. 23",
+        "topic": "Groundwater",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "Groundwater",
+        "page": "23",
+        "pdf_page": 29,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q12",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 12,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "How many years has a century?",
+      "options": {
+        "A": "Fifty years",
+        "B": "Ten years",
+        "C": "Twenty-five years",
+        "D": "One hundred years"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "A century is a period of 100 years (Social Studies Grade 6, p. 9). Answer: D."
+      ],
+      "explain_simple": "A century is 100 years.",
+      "tips": [
+        "Decade = 10, century = 100, millennium = 1000."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How many years are in a decade?",
+          "options": {
+            "A": "10",
+            "B": "100",
+            "C": "1000",
+            "D": "50"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "A decade is 10 years. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-time"
+      ],
+      "keywords": [
+        "century",
+        "100 years"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 2 – Measuring Time, Measuring time, p. 9",
+        "topic": "Measuring time",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 2 – Measuring Time",
+        "section": "Measuring time",
+        "page": "9",
+        "pdf_page": 15,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q13",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 13,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A disaster brought by the consequence of human activities is_____",
+      "options": {
+        "A": "Lightning",
+        "B": "Tides",
+        "C": "Storms",
+        "D": "Erosion"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says: man-made disasters are war, pollution, deforestation, erosion etc. (Social Studies Grade 7, p. 113).",
+        "Lightning, tides and storms come from nature. Answer: D."
+      ],
+      "explain_simple": "Erosion is made worse by people, for example when they cut trees.",
+      "tips": [
+        "Man-made disasters: war, pollution, deforestation, erosion."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is a man-made disaster?",
+          "options": {
+            "A": "Earthquake",
+            "B": "Volcanic eruption",
+            "C": "War",
+            "D": "Drought"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "War is made by people. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-disasters-eritrea"
+      ],
+      "keywords": [
+        "man-made disaster",
+        "erosion"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 8 – Disasters in Eritrea, 8.1 What is Disaster?, p. 113",
+        "topic": "8.1 What is Disaster?",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 8 – Disasters in Eritrea",
+        "section": "8.1 What is Disaster?",
+        "page": "113",
+        "pdf_page": 119,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q14",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 14,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Debarwa was the capital of",
+      "options": {
+        "A": "The Turks",
+        "B": "Degiat Aberra",
+        "C": "The Bahri Neghestat",
+        "D": "Zemat Wedi Ikud"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The capital of the Bahri Negastat was at Debarwa (Social Studies Grade 6, p. 69). Answer: C."
+      ],
+      "explain_simple": "Debarwa was the capital of the Bahri Negestat.",
+      "tips": [
+        "Bahri Negestat → Debarwa."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Turks ruled the coast through the:",
+          "options": {
+            "A": "Bahri Negash",
+            "B": "Naib",
+            "C": "Diglal",
+            "D": "Kantibai"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "They ruled through the Naib. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat"
+      ],
+      "keywords": [
+        "Debarwa",
+        "Bahri Negestat",
+        "capital"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, 9.1 The Bahri Negestat, p. 69",
+        "topic": "9.1 The Bahri Negestat",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "9.1 The Bahri Negestat",
+        "page": "69",
+        "pdf_page": 75,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q15",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 15,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following <u>does not</u> match?",
+      "options": {
+        "A": "Disasters → Drought, Epidemics, Earthquakes",
+        "B": "Natural Environments → Buildings, Roads, Factories",
+        "C": "Cultural Heritage → Adulis, Kohaito, Metera",
+        "D": "Natural Heritage → Corals, Dugong, Mangrove"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Buildings, roads and factories are made by people. They are not natural.",
+        "Drought, epidemics and earthquakes are disasters (Grade 7, p. 113). Adulis, Kohaito and Metera are cultural heritage (Grade 7, p. 91). Corals, dugong and mangroves are natural heritage (Grade 7, p. 95). Answer: B."
+      ],
+      "explain_simple": "Buildings, roads and factories are made by people, so they are not a natural environment.",
+      "tips": [
+        "Natural = made by nature. Buildings = made by people."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is part of the natural environment?",
+          "options": {
+            "A": "A road",
+            "B": "A factory",
+            "C": "A river",
+            "D": "A school"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "A river is natural. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-heritage",
+        "ss-disasters-eritrea"
+      ],
+      "keywords": [
+        "natural environment",
+        "cultural heritage",
+        "natural heritage"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 7 – Natural Heritages, 7.1 What is Heritage?, p. 91",
+        "topic": "7.1 What is Heritage?",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 7 – Natural Heritages",
+        "section": "7.1 What is Heritage?",
+        "page": "91",
+        "pdf_page": 97,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q16",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 16,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "At the Battle of Wokki Duba ,",
+      "options": {
+        "A": "Bahri Negash Isaq was defeated by the Turks",
+        "B": "Ras Alula defeated Raessi Woldemichael",
+        "C": "Ozdemir Pasha was defeated by Bahri Negash Isaq",
+        "D": "Deggiat Hailu was defeated by Raisi Woldemichael"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says Raesi Woldemichael fought against Hailu of Tseazzega at the Battle of Wokki Duba (Social Studies Grade 8, p. 72–73). Woldemichael won.",
+        "Later Ras Alula captured Woldemichael, but that was not at Wokki Duba. Answer: D."
+      ],
+      "explain_simple": "At Wokki Duba, Woldemichael defeated Deggiat Hailu.",
+      "tips": [
+        "Wokki Duba = Woldemichael beat Hailu."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Raesi Woldemichael was finally captured by:",
+          "options": {
+            "A": "Ras Alula",
+            "B": "Munzinger",
+            "C": "Ozdemir Pasha",
+            "D": "Bahta Hagos"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Ras Alula captured him. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "Wokki Duba",
+        "Woldemichael",
+        "Hailu"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Abyssinian expansion – Raesi Woldemichael, p. 72-73",
+        "topic": "Abyssinian expansion – Raesi Woldemichael",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Abyssinian expansion – Raesi Woldemichael",
+        "page": "72-73",
+        "pdf_page": 78,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q17",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 17,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The <u>wrong Statement</u> about the Red Sea is______ .",
+      "options": {
+        "A": "It is rich in terrestrial plants",
+        "B": "it is rich in fish diversity",
+        "C": "It is rich is coral diversity",
+        "D": "It has high salt concentration"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Terrestrial means 'on land'. The sea has marine life, not land plants.",
+        "The Red Sea has over one thousand kinds of fish and many corals (Social Studies Grade 7, p. 95). It is very salty. Answer: A."
+      ],
+      "explain_simple": "Terrestrial plants grow on land, not in the sea.",
+      "tips": [
+        "Terrestrial = land. Marine = sea."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one lives in the Red Sea?",
+          "options": {
+            "A": "Juniper tree",
+            "B": "Dugong",
+            "C": "Olive tree",
+            "D": "Camel"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The dugong is a sea animal. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-heritage"
+      ],
+      "keywords": [
+        "Red Sea",
+        "terrestrial",
+        "marine"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 7 – Natural Heritages, Marine heritage of the Red Sea, p. 95",
+        "topic": "Marine heritage of the Red Sea",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 7 – Natural Heritages",
+        "section": "Marine heritage of the Red Sea",
+        "page": "95",
+        "pdf_page": 101,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q18",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 18,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following dates comes <u>last</u>?",
+      "options": {
+        "A": "900 C.E",
+        "B": "700 B.C. E",
+        "C": "1500 B.C.E",
+        "D": "1000 C.E"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "B.C.E. dates are before C.E. dates. So 1500 B.C.E. and 700 B.C.E. come first.",
+        "Among C.E. dates, the bigger number is later: 1000 C.E. is after 900 C.E. (Social Studies Grade 6, p. 13–14). Answer: D."
+      ],
+      "explain_simple": "1000 C.E. is the latest date.",
+      "tips": [
+        "B.C.E.: bigger = older. C.E.: bigger = newer."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which date comes first?",
+          "options": {
+            "A": "300 B.C.E.",
+            "B": "100 B.C.E.",
+            "C": "50 C.E.",
+            "D": "500 C.E."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "300 B.C.E. is the oldest. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-chronology"
+      ],
+      "keywords": [
+        "B.C.E.",
+        "C.E.",
+        "order of dates"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 2 – Measuring Time, B.C.E. and C.E., p. 13",
+        "topic": "B.C.E. and C.E.",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 2 – Measuring Time",
+        "section": "B.C.E. and C.E.",
+        "page": "13",
+        "pdf_page": 19,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q19",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 19,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The wrong statement is _______",
+      "options": {
+        "A": "Soils are renewable resources",
+        "B": "Plants take in CO₂ and give out oxygen at day time",
+        "C": "Minerals can reproduce themselves",
+        "D": "At night plants take in oxygen and give out CO₂."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Minerals such as gold, copper and salt are non-renewable. They cannot reproduce (Social Studies Grade 6, p. 82–84).",
+        "Soil is renewable if we use it carefully. Plants take in CO₂ in the day and give out CO₂ at night. Answer: C."
+      ],
+      "explain_simple": "Minerals cannot make new minerals. They are non-renewable.",
+      "tips": [
+        "Minerals = non-renewable. Plants, animals, soil, water = renewable."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is a non-renewable resource?",
+          "options": {
+            "A": "Trees",
+            "B": "Fish",
+            "C": "Copper",
+            "D": "Water"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Copper is a mineral. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-resources"
+      ],
+      "keywords": [
+        "renewable",
+        "non-renewable",
+        "minerals"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 10 – Natural Resources and Conservation, Renewable and non-renewable natural resources, p. 82",
+        "topic": "Renewable and non-renewable natural resources",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 10 – Natural Resources and Conservation",
+        "section": "Renewable and non-renewable natural resources",
+        "page": "82",
+        "pdf_page": 88,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q20",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 20,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The branch of government which makes laws is",
+      "options": {
+        "A": "Executive",
+        "B": "Legislative",
+        "C": "Judiciary",
+        "D": "Consultative"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook: the legislature is the law-making body; the executive makes decisions and carries them out; the judiciary judges (Social Studies Grade 7, p. 85).",
+        "Answer: B."
+      ],
+      "explain_simple": "The legislative branch makes the laws.",
+      "tips": [
+        "Legislative = makes laws. Executive = acts. Judiciary = judges."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The branch of government that judges cases is the:",
+          "options": {
+            "A": "legislative",
+            "B": "executive",
+            "C": "judiciary",
+            "D": "army"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Courts are the judiciary. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-government"
+      ],
+      "keywords": [
+        "legislature",
+        "branches of government"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 6 – Government, Branches of government, p. 85",
+        "topic": "Branches of government",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 6 – Government",
+        "section": "Branches of government",
+        "page": "85",
+        "pdf_page": 91,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q21",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 21,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-table1",
+      "stem": "The category of economic activity of Botswana is______:",
+      "stem_tables": [
+        {
+          "title": "Table 1",
+          "kind": "data",
+          "columns": [
+            "Series",
+            "Country",
+            "Activities"
+          ],
+          "rows": [
+            [
+              "1",
+              "Andorra",
+              "Tourism is the dominant economic activity"
+            ],
+            [
+              "2",
+              "Botswana",
+              "Agriculture is the main economic activity"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "left"
+          ]
+        }
+      ],
+      "options": {
+        "A": "Primary",
+        "B": "Tertiary",
+        "C": "Secondary",
+        "D": "Quaternary"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Table 1 says agriculture is the main activity of Botswana.",
+        "Farming gets things directly from the land. It is a primary activity (Social Studies Grade 6, p. 95). Answer: A."
+      ],
+      "explain_simple": "Agriculture (farming) is a primary activity.",
+      "tips": [
+        "Primary = take from nature (farming, fishing, mining)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Fishing is a ___ activity.",
+          "options": {
+            "A": "primary",
+            "B": "secondary",
+            "C": "tertiary",
+            "D": "quaternary"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Fish are taken from nature. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-economic-sectors"
+      ],
+      "keywords": [
+        "primary activity",
+        "agriculture"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 11 – Economic Activities, A. Primary activities, p. 95",
+        "topic": "A. Primary activities",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 11 – Economic Activities",
+        "section": "A. Primary activities",
+        "page": "95",
+        "pdf_page": 101,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q22",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 22,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-table1",
+      "stem": "The category of economic activity of Andorra is______",
+      "stem_tables": [
+        {
+          "title": "Table 1",
+          "kind": "data",
+          "columns": [
+            "Series",
+            "Country",
+            "Activities"
+          ],
+          "rows": [
+            [
+              "1",
+              "Andorra",
+              "Tourism is the dominant economic activity"
+            ],
+            [
+              "2",
+              "Botswana",
+              "Agriculture is the main economic activity"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "left"
+          ]
+        }
+      ],
+      "options": {
+        "A": "Tertiary",
+        "B": "Secondary",
+        "C": "Primary",
+        "D": "Quaternary"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Table 1 says tourism is the main activity of Andorra.",
+        "Tourism gives services to visitors (hotels, transport, guides). Services are tertiary activities (Social Studies Grade 6, p. 98). Answer: A."
+      ],
+      "explain_simple": "Tourism is a service, so it is tertiary.",
+      "tips": [
+        "Tertiary = services (trade, tourism, banks, transport)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A bank is a ___ activity.",
+          "options": {
+            "A": "primary",
+            "B": "secondary",
+            "C": "tertiary",
+            "D": "none"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "A bank gives a service. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-economic-sectors"
+      ],
+      "keywords": [
+        "tertiary activity",
+        "tourism",
+        "services"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 11 – Economic Activities, C. Tertiary activities, p. 98",
+        "topic": "C. Tertiary activities",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 11 – Economic Activities",
+        "section": "C. Tertiary activities",
+        "page": "98",
+        "pdf_page": 104,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q23",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 23,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Oral Tradition refers to,",
+      "options": {
+        "A": "Music expressed in songs during feasts",
+        "B": "Transmission of stories from generation to generation by mouth",
+        "C": "Language spoken in advanced societies",
+        "D": "Source consisting of written documents"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook: oral tradition means stories passed from one generation to the next by word of mouth (Social Studies Grade 6, p. 2).",
+        "Answer: B."
+      ],
+      "explain_simple": "Oral tradition = old stories passed on by speaking.",
+      "tips": [
+        "Oral = by mouth."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Oral tradition is passed on by:",
+          "options": {
+            "A": "writing",
+            "B": "speaking",
+            "C": "pictures",
+            "D": "coins"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Oral means spoken. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-sources"
+      ],
+      "keywords": [
+        "oral tradition"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 1 – Sources, Sources of history – oral tradition, p. 2",
+        "topic": "Sources of history – oral tradition",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 1 – Sources",
+        "section": "Sources of history – oral tradition",
+        "page": "2",
+        "pdf_page": 8,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q24",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 24,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In social development keeping and using cattle for human benefit is known as",
+      "options": {
+        "A": "Animal production",
+        "B": "Domestication of animals",
+        "C": "Hunting and gathering",
+        "D": "Commodity production"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Early people kept animals around them and this led to cattle breeding (domestication of animals) (Social Studies Grade 7, p. 65).",
+        "Answer: B."
+      ],
+      "explain_simple": "Keeping animals for our use is domestication.",
+      "tips": [
+        "Domesticate = make an animal live with people."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which came first in social development?",
+          "options": {
+            "A": "Domestication of animals",
+            "B": "Hunting and gathering",
+            "C": "Factories",
+            "D": "Money"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Hunting and gathering came first. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "domestication of animals",
+        "cattle"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, 5.1 Primitive Society, p. 65",
+        "topic": "5.1 Primitive Society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "5.1 Primitive Society",
+        "page": "65",
+        "pdf_page": 71,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q25",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 25,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which area is rich in groundwater?",
+      "options": {
+        "A": "Alluvial soils",
+        "B": "Limestone areas",
+        "C": "Sandstone areas",
+        "D": "Impermeable rocks"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook: places with alluvial soils have a large amount of groundwater (Social Studies Grade 8, p. 23–24).",
+        "Limestone and sandstone areas in Eritrea have poor groundwater, and impermeable rocks do not let water in. Answer: A."
+      ],
+      "explain_simple": "Alluvial soils hold a lot of groundwater.",
+      "tips": [
+        "Alluvial soil = soil brought by rivers; water goes in easily."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which place has a large amount of groundwater?",
+          "options": {
+            "A": "Hazemo Plains",
+            "B": "Denkelia",
+            "C": "Senafe sandstone area",
+            "D": "Impermeable rock"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Hazemo has alluvial soils. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-groundwater"
+      ],
+      "keywords": [
+        "groundwater",
+        "alluvial soils"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, Groundwater, p. 24",
+        "topic": "Groundwater",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "Groundwater",
+        "page": "24",
+        "pdf_page": 30,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q26",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 26,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following pairs <u>does not</u> match ?",
+      "options": {
+        "A": "Mahdist Revolt → Movement to liberate Egypt from foreign control",
+        "B": "Dogalli → Defeat of Italians in 1887",
+        "C": "Giuseppe Sapeto → Bought Assab fron local ruler",
+        "D": "Ali Muhammad Usman Burri → “Jailbreaker of Nacfa ’’"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The Mahdi led the movement to liberate the Sudan (not Egypt) from foreign control (Social Studies Grade 8, p. 68–69).",
+        "The Italians were defeated at Dogalli in 1887 and Sapeto bought Assab (p. 74–76).",
+        "Note: the textbook calls Burri the 'jail-breaker of Nakura' (p. 78), not of Nacfa. We take this as a small slip. Answer: A."
+      ],
+      "explain_simple": "The Mahdist Revolt was in the Sudan, against Egypt.",
+      "tips": [
+        "Mahdi = Sudan."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Mahdist Revolt took place in:",
+          "options": {
+            "A": "Egypt",
+            "B": "The Sudan",
+            "C": "Eritrea",
+            "D": "Yemen"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It was in the Sudan. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance",
+        "ss-italian-colonialism"
+      ],
+      "keywords": [
+        "Mahdist Revolt",
+        "Dogalli",
+        "Sapeto",
+        "Burri"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Decline of Egyptian power, p. 68-69",
+        "topic": "Decline of Egyptian power",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Decline of Egyptian power",
+        "page": "68-69",
+        "pdf_page": 74,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "general",
+          "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Ali Mohammed Usman Burri, p. 78",
+          "topic": "Ali Mohammed Usman Burri",
+          "subject": "Social Studies",
+          "grade": 8,
+          "unit": "Unit 5 – Expansionism and Colonialism",
+          "section": "Ali Mohammed Usman Burri",
+          "page": "78",
+          "pdf_page": 84,
+          "verified_in_text": true
+        }
+      ],
+      "confidence": "medium",
+      "review_flag": "Two pairs are wrong by the textbook: A (the Mahdist Revolt liberated the Sudan, not Egypt) and D (the textbook, G8 p. 78, calls Burri the 'jail-breaker of Nakura', not 'of Nacfa'). Keyed A, which is clearly the intended wrong pair; D looks like a setter's slip."
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q27",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 27,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The lower course of River Mereb is _______",
+      "options": {
+        "A": "Ali Ghider",
+        "B": "River Setit",
+        "C": "River Gash",
+        "D": "Tokor"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook writes the river as 'Mereb (Gash)'. In its lower course, in the western lowlands, the Mereb is called the Gash (Social Studies Grade 8, p. 16).",
+        "Answer: C."
+      ],
+      "explain_simple": "The lower part of the Mereb is called the Gash.",
+      "tips": [
+        "Mereb (upper) = Gash (lower)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Tekeze River is called ___ in Eritrea's lowlands.",
+          "options": {
+            "A": "Setit",
+            "B": "Gash",
+            "C": "Barka",
+            "D": "Anseba"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Tekeze–Setit. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-rivers"
+      ],
+      "keywords": [
+        "Mereb",
+        "Gash"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, Mereb (Gash) River, p. 16",
+        "topic": "Mereb (Gash) River",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "Mereb (Gash) River",
+        "page": "16",
+        "pdf_page": 22,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q28",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 28,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What caused the rise of communities?",
+      "options": {
+        "A": "Ability to grow crops",
+        "B": "The practice of hunting and food gathering",
+        "C": "Ability to domesticate animals",
+        "D": "A and C are answers"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "When people learned to grow crops and keep animals, they could stay in one place. So settled communities appeared (Social Studies Grade 7, p. 65, 79).",
+        "Hunting and gathering made people move all the time. So A and C are correct. Answer: D."
+      ],
+      "explain_simple": "Farming and keeping animals let people live together in one place.",
+      "tips": [
+        "Crops + animals → settle → communities."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Hunters and gatherers usually:",
+          "options": {
+            "A": "lived in big towns",
+            "B": "moved from place to place",
+            "C": "built factories",
+            "D": "had governments"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "They moved to find food. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "communities",
+        "crop production",
+        "domestication"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 6 – Government, 6.1 Development of Government, p. 79",
+        "topic": "6.1 Development of Government",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 6 – Government",
+        "section": "6.1 Development of Government",
+        "page": "79",
+        "pdf_page": 85,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q29",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 29,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following <u>does not</u> match?",
+      "options": {
+        "A": "Fiber crops → sisal, fur, cotton, wool,",
+        "B": "Vegetable → orange, lemon, grapes",
+        "C": "Stimulant crops → coffee, tobacco, tea",
+        "D": "Pulses → chick pea, broad beans"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Orange, lemon and grapes are fruits, not vegetables.",
+        "Stimulant crops include coffee, tobacco and tea (Social Studies Grade 8, p. 136). Pulses include chick pea and broad beans (p. 132). Under fibre crops the textbook also names wool from sheep and fur from goats (p. 135). Answer: B."
+      ],
+      "explain_simple": "Oranges, lemons and grapes are fruits.",
+      "tips": [
+        "Citrus (orange, lemon) = fruit."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one is a pulse?",
+          "options": {
+            "A": "Lentil",
+            "B": "Coffee",
+            "C": "Sisal",
+            "D": "Orange"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Lentils are pulses. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-farming"
+      ],
+      "keywords": [
+        "fibre crops",
+        "vegetables",
+        "stimulant crops",
+        "pulses"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 9 – Economic Activities in Eritrea, Fibre crops, p. 135",
+        "topic": "Fibre crops",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 9 – Economic Activities in Eritrea",
+        "section": "Fibre crops",
+        "page": "135",
+        "pdf_page": 141,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "general",
+          "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 9 – Economic Activities in Eritrea, Stimulant crops, p. 136",
+          "topic": "Stimulant crops",
+          "subject": "Social Studies",
+          "grade": 8,
+          "unit": "Unit 9 – Economic Activities in Eritrea",
+          "section": "Stimulant crops",
+          "page": "136",
+          "pdf_page": 142,
+          "verified_in_text": true
+        }
+      ],
+      "confidence": "high",
+      "review_flag": "Fur and wool in option A are animal fibres, not crops. But the textbook (G8 p. 135) lists them in its 'Fibre Crops' section, so A matches the textbook. Keyed B."
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q30",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 30,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The conflict between the Portuguese and the Turks in the sixteenth century was caused by",
+      "options": {
+        "A": "By the desire of Bahri Negash Isaq to be the king of Abyssinia",
+        "B": "The alliance of the Naib and the king of Abyssinia",
+        "C": "Their goal of controlling the region of the Horn",
+        "D": "A and B are answers"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "In the 16th century both the Turks and the Portuguese wanted to control the Red Sea coast and the Horn of Africa and its trade (Social Studies Grade 6, p. 71–72).",
+        "A and B are not the cause. Answer: C."
+      ],
+      "explain_simple": "Both powers wanted to control the Horn and the Red Sea.",
+      "tips": [
+        "Turks vs Portuguese = fight for control of the Red Sea."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In 1557 the Turks occupied:",
+          "options": {
+            "A": "Massawa",
+            "B": "Keren",
+            "C": "Asmara",
+            "D": "Debarwa"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "They occupied Massawa. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat"
+      ],
+      "keywords": [
+        "Portuguese",
+        "Turks",
+        "16th century",
+        "Horn"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, The Turks and the Portuguese, p. 72",
+        "topic": "The Turks and the Portuguese",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "The Turks and the Portuguese",
+        "page": "72",
+        "pdf_page": 78,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q31",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 31,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In the caste system,",
+      "options": {
+        "A": "People of the same social position, occupation, wealth and influence are grouped together",
+        "B": "There are no differences in wealth and social position",
+        "C": "positions are inherited",
+        "D": "A and C are answers"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook: in the caste system society was divided into levels; each level had people of the same occupation, social position and influence (Social Studies Grade 7, p. 73). So A is true.",
+        "In a caste system people are born into their caste; the position passes from parents to children. So C is true too. B is false. Answer: D."
+      ],
+      "explain_simple": "People of the same job and position are grouped, and children keep the same caste.",
+      "tips": [
+        "Caste = fixed level you are born into."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The caste system was found in ancient:",
+          "options": {
+            "A": "India",
+            "B": "Egypt only",
+            "C": "Eritrea only",
+            "D": "America"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The textbook shows the caste system in India. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "caste system"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, Caste System, p. 73",
+        "topic": "Caste System",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "Caste System",
+        "page": "73",
+        "pdf_page": 79,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "The textbook does not say directly that caste positions are inherited (C); this is general knowledge. Keyed D (A and C)."
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q32",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 32,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Steep-sided, deep and narrow valleys are called..",
+      "options": {
+        "A": "Trough",
+        "B": "Depression",
+        "C": "Escarpment",
+        "D": "Gorges"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook: gorges are steep-sided, deep and narrow valleys (Social Studies Grade 8, p. 4). Answer: D."
+      ],
+      "explain_simple": "Deep, narrow valleys with steep sides are gorges.",
+      "tips": [
+        "Gorge = deep narrow valley."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one is a gorge in Eritrea?",
+          "options": {
+            "A": "Haddas Gorge",
+            "B": "Danakil",
+            "C": "Hazemo",
+            "D": "Dahlak"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Haddas Gorge. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "gorge"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, Highlands – gorges, p. 4",
+        "topic": "Highlands – gorges",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "Highlands – gorges",
+        "page": "4",
+        "pdf_page": 10,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q33",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 33,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The main lowland crops in Eritrea are______",
+      "options": {
+        "A": "wheat, barley, lentils",
+        "B": "chick pea, pea, linseed",
+        "C": "Sesame, pearl millet, sorghum",
+        "D": "Niger seed, sunflower, linseed"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook: the lowlands grow sorghum, pearl millet and cash crops such as sesame and cotton (Social Studies Grade 8, p. 8).",
+        "Wheat, barley, lentils, chick pea and linseed are highland crops. Answer: C."
+      ],
+      "explain_simple": "Sesame, pearl millet and sorghum like hot lowlands.",
+      "tips": [
+        "Hot lowlands: sorghum, millet, sesame."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is a highland crop?",
+          "options": {
+            "A": "Sesame",
+            "B": "Barley",
+            "C": "Pearl millet",
+            "D": "Cotton"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Barley grows in the cool highlands. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-farming"
+      ],
+      "keywords": [
+        "lowland crops",
+        "sesame",
+        "sorghum"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, Lowlands, p. 8",
+        "topic": "Lowlands",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "Lowlands",
+        "page": "8",
+        "pdf_page": 14,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q34",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 34,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which statement is true ?",
+      "options": {
+        "A": "The Mahdi was a deputy of Muhammad Ali",
+        "B": "Muhammad Ali was a ruler of the Turks in early 19th century",
+        "C": "The Naibs represented Turkish interests in Massawa",
+        "D": "Ali Abu Gassim led the anti-Egypt revolt in the Sudan"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The Turks ruled the coast through the Naib; the Naib was their deputy (Social Studies Grade 6, p. 71). So C is true.",
+        "Muhammad Ali was the ruler of Egypt (Grade 8, p. 68). The Mahdi (Muhammad Ahmad) led the revolt in the Sudan against Egypt. Answer: C."
+      ],
+      "explain_simple": "The Naibs worked for the Turks in Massawa.",
+      "tips": [
+        "Naib = Turkish deputy on the coast."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who led the revolt in the Sudan in 1882?",
+          "options": {
+            "A": "The Mahdi",
+            "B": "Munzinger",
+            "C": "Khedive Ismail",
+            "D": "Ras Alula"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The Mahdi. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat",
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "Naib",
+        "Turks",
+        "Massawa"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, The Turks – the Naibs, p. 71",
+        "topic": "The Turks – the Naibs",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "The Turks – the Naibs",
+        "page": "71",
+        "pdf_page": 77,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q35",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 35,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The western Roman Empire fell in,",
+      "options": {
+        "A": "476 C.E",
+        "B": "350 C.E",
+        "C": "395 C.E",
+        "D": "410 B.C. E"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The Western Roman Empire ended in 476 C.E. This is the usual date in history books.",
+        "The Grade 7 textbook teaches the slave society of ancient times, but it does not give this date. Answer: A."
+      ],
+      "explain_simple": "The Western Roman Empire ended in 476 C.E.",
+      "tips": [
+        "Remember: 476 = end of Rome in the west."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Ancient Rome was an example of a:",
+          "options": {
+            "A": "slave society",
+            "B": "capitalist society",
+            "C": "primitive communal society",
+            "D": "modern state"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Rome used slaves. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages",
+        "ss-time"
+      ],
+      "keywords": [
+        "Roman Empire",
+        "476"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, 5.2 Slave Society, p. 71-72",
+        "topic": "5.2 Slave Society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "5.2 Slave Society",
+        "page": "71-72",
+        "pdf_page": 77,
+        "verified_in_text": true,
+        "note": "The date 476 C.E. is not in the Grade 6–8 textbooks; it is the standard world-history date."
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "The fall of the Western Roman Empire (476 C.E.) is not in the Grade 6–8 textbooks. Answered from general history."
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q36",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 36,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-table2",
+      "stem": "Which country has the highest population density?",
+      "stem_tables": [
+        {
+          "title": "Table 2",
+          "kind": "data",
+          "columns": [
+            "Series",
+            "Country",
+            "Total area in square km",
+            "Total population",
+            "Average pop. density"
+          ],
+          "rows": [
+            [
+              "1",
+              "Netherlands",
+              "41,526",
+              "16,645,313",
+              "?"
+            ],
+            [
+              "2",
+              "Cuba",
+              "114,525",
+              "11,423,952",
+              "?"
+            ],
+            [
+              "3",
+              "Tunisia",
+              "164,418",
+              "10,378,140",
+              "?"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "right",
+            "right",
+            "center"
+          ]
+        }
+      ],
+      "options": {
+        "A": "Tunisia",
+        "B": "Cuba",
+        "C": "Netherlands",
+        "D": "A and B"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Population density = total population ÷ area (Social Studies Grade 7, p. 22).",
+        "Netherlands: 16,645,313 ÷ 41,526 ≈ 401 people per km². Cuba: 11,423,952 ÷ 114,525 ≈ 100. Tunisia: 10,378,140 ÷ 164,418 ≈ 63.",
+        "The highest is the Netherlands. Answer: C."
+      ],
+      "explain_simple": "The Netherlands has many people on a small area.",
+      "tips": [
+        "Density = people ÷ area."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A country has 2,000,000 people and 100,000 km². Its density is:",
+          "options": {
+            "A": "2",
+            "B": "20",
+            "C": "200",
+            "D": "2,000"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "2,000,000 ÷ 100,000 = 20. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-population"
+      ],
+      "keywords": [
+        "population density"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 2 – Population, 2.3 Calculating Population Density, p. 22",
+        "topic": "2.3 Calculating Population Density",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 2 – Population",
+        "section": "2.3 Calculating Population Density",
+        "page": "22",
+        "pdf_page": 28,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q37",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 37,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-table2",
+      "stem": "Which country has the lowest population density?",
+      "stem_tables": [
+        {
+          "title": "Table 2",
+          "kind": "data",
+          "columns": [
+            "Series",
+            "Country",
+            "Total area in square km",
+            "Total population",
+            "Average pop. density"
+          ],
+          "rows": [
+            [
+              "1",
+              "Netherlands",
+              "41,526",
+              "16,645,313",
+              "?"
+            ],
+            [
+              "2",
+              "Cuba",
+              "114,525",
+              "11,423,952",
+              "?"
+            ],
+            [
+              "3",
+              "Tunisia",
+              "164,418",
+              "10,378,140",
+              "?"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "right",
+            "right",
+            "center"
+          ]
+        }
+      ],
+      "options": {
+        "A": "Tunisia",
+        "B": "Cuba",
+        "C": "Netherlands",
+        "D": "B and C"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Density = population ÷ area. Tunisia ≈ 63, Cuba ≈ 100, Netherlands ≈ 401 people per km².",
+        "The lowest is Tunisia. Answer: A."
+      ],
+      "explain_simple": "Tunisia has few people for its big area.",
+      "tips": [
+        "Big area + fewer people = low density."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which has the lower density: 1,000 people on 10 km² or 1,000 people on 100 km²?",
+          "options": {
+            "A": "10 km²",
+            "B": "100 km²",
+            "C": "Same",
+            "D": "Cannot tell"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "100 people/km² vs 10 people/km². Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-population"
+      ],
+      "keywords": [
+        "population density"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 2 – Population, 2.3 Calculating Population Density, p. 22",
+        "topic": "2.3 Calculating Population Density",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 2 – Population",
+        "section": "2.3 Calculating Population Density",
+        "page": "22",
+        "pdf_page": 28,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q38",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 38,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-events",
+      "stem": "Which of the above stated events comes first?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Dates: Turks occupied Massawa 1557; Italian colony of Eritrea 1890; revolt of Bahta Hagos 1894; federation 1952 (Social Studies Grade 8, p. 59, 76, 79, 106).",
+        "The earliest is event 4. Answer: D."
+      ],
+      "explain_simple": "The Turks came to Massawa first, in 1557.",
+      "tips": [
+        "Write the year next to each event, then order them."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which came first?",
+          "options": {
+            "A": "Battle of Dogalli (1887)",
+            "B": "Federation (1952)",
+            "C": "Turkish occupation of Massawa (1557)",
+            "D": "Battle of Halay (1894)"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "1557 is the earliest. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-chronology"
+      ],
+      "keywords": [
+        "1557",
+        "1890",
+        "1894",
+        "1952"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Turkish expansion, p. 59",
+        "topic": "Turkish expansion",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Turkish expansion",
+        "page": "59",
+        "pdf_page": 65,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q39",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 39,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-events",
+      "stem": "Which of the above stated events comes <u>last</u>?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Order: 1557 (4) → 1890 (2) → 1894 (1) → 1952 (3).",
+        "The federation of Eritrea with Ethiopia in 1952 comes last (Social Studies Grade 8, p. 106). Answer: C."
+      ],
+      "explain_simple": "The federation (1952) is the latest event.",
+      "tips": [
+        "Biggest year = last."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Degiat Bahta Hagos revolted against the Italians in:",
+          "options": {
+            "A": "1557",
+            "B": "1894",
+            "C": "1952",
+            "D": "1991"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "He revolted in 1894. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-chronology"
+      ],
+      "keywords": [
+        "federation",
+        "1952"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 6 – Colonial Administrations in Eritrea, Federation, p. 106",
+        "topic": "Federation",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 6 – Colonial Administrations in Eritrea",
+        "section": "Federation",
+        "page": "106",
+        "pdf_page": 112,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q40",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 40,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The cause of fish diversity in the Red Sea is due to________",
+      "options": {
+        "A": "Constant weather condition",
+        "B": "absence of waves and tides",
+        "C": "High salt concentration",
+        "D": "diversified habitats"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook: corals, sea grass and mangroves are the living and breeding places (habitats) of different kinds of marine animals like fish (Social Studies Grade 7, p. 95).",
+        "Many kinds of habitats give many kinds of fish. Answer: D."
+      ],
+      "explain_simple": "Many different homes (corals, sea grass, mangroves) mean many kinds of fish.",
+      "tips": [
+        "Habitat = home of an animal."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is a habitat for fish in the Red Sea?",
+          "options": {
+            "A": "Corals",
+            "B": "Deserts",
+            "C": "Highlands",
+            "D": "Forests of juniper"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Corals are fish habitats. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-heritage"
+      ],
+      "keywords": [
+        "fish diversity",
+        "habitats",
+        "corals"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 7 – Natural Heritages, Marine heritage – corals, sea grass, mangroves, p. 95",
+        "topic": "Marine heritage – corals, sea grass, mangroves",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 7 – Natural Heritages",
+        "section": "Marine heritage – corals, sea grass, mangroves",
+        "page": "95",
+        "pdf_page": 101,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q41",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 41,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-table3",
+      "stem": "Which continent has the lowest natural increase of population ?",
+      "stem_tables": [
+        {
+          "title": "Table 3",
+          "kind": "data",
+          "columns": [
+            "Series",
+            "Continent",
+            "Birth rate",
+            "Death rate",
+            "RNI"
+          ],
+          "rows": [
+            [
+              "1",
+              "Europe",
+              "1.1",
+              "1.0",
+              "0.1"
+            ],
+            [
+              "2",
+              "North America",
+              "1.4",
+              "0.8",
+              "0.6"
+            ],
+            [
+              "3",
+              "Oceania",
+              "2.7",
+              "0.7",
+              "2.0"
+            ],
+            [
+              "4",
+              "Asia",
+              "2.8",
+              "0.7",
+              "2.1"
+            ],
+            [
+              "5",
+              "Latin America",
+              "2.3",
+              "0.6",
+              "1.7"
+            ],
+            [
+              "6",
+              "Africa",
+              "4.0",
+              "",
+              "2.5"
+            ],
+            [
+              "7",
+              "World",
+              "2.3",
+              "0.9",
+              "1.4"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "right",
+            "right",
+            "right"
+          ]
+        }
+      ],
+      "options": {
+        "A": "Europe",
+        "B": "Africa",
+        "C": "Asia",
+        "D": "North America"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "In Table 3 the RNI column is: Europe 0.1, North America 0.6, Asia 2.1, Africa 2.5.",
+        "The lowest is Europe (same table in Social Studies Grade 7, p. 24). Answer: A."
+      ],
+      "explain_simple": "Europe has the smallest RNI (0.1).",
+      "tips": [
+        "Look down the RNI column for the smallest number."
+      ],
+      "similar_questions": [
+        {
+          "stem": "From Table 3, which continent has the highest birth rate?",
+          "options": {
+            "A": "Europe",
+            "B": "Asia",
+            "C": "Africa",
+            "D": "Oceania"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Africa, 4.0. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-population"
+      ],
+      "keywords": [
+        "rate of natural increase",
+        "RNI"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 2 – Population, Rate of natural increase of population, p. 24",
+        "topic": "Rate of natural increase of population",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 2 – Population",
+        "section": "Rate of natural increase of population",
+        "page": "24",
+        "pdf_page": 30,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q42",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 42,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-table3",
+      "stem": "The average birth rate and RN I in Africa are 4.0 and 2.5 respectively. What is the death rate?",
+      "stem_tables": [
+        {
+          "title": "Table 3",
+          "kind": "data",
+          "columns": [
+            "Series",
+            "Continent",
+            "Birth rate",
+            "Death rate",
+            "RNI"
+          ],
+          "rows": [
+            [
+              "1",
+              "Europe",
+              "1.1",
+              "1.0",
+              "0.1"
+            ],
+            [
+              "2",
+              "North America",
+              "1.4",
+              "0.8",
+              "0.6"
+            ],
+            [
+              "3",
+              "Oceania",
+              "2.7",
+              "0.7",
+              "2.0"
+            ],
+            [
+              "4",
+              "Asia",
+              "2.8",
+              "0.7",
+              "2.1"
+            ],
+            [
+              "5",
+              "Latin America",
+              "2.3",
+              "0.6",
+              "1.7"
+            ],
+            [
+              "6",
+              "Africa",
+              "4.0",
+              "",
+              "2.5"
+            ],
+            [
+              "7",
+              "World",
+              "2.3",
+              "0.9",
+              "1.4"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "right",
+            "right",
+            "right"
+          ]
+        }
+      ],
+      "options": {
+        "A": "3.0",
+        "B": "5.5",
+        "C": "2.0",
+        "D": "1.5"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "RNI = birth rate − death rate (Social Studies Grade 7, p. 24). So death rate = birth rate − RNI.",
+        "Death rate = 4.0 − 2.5 = 1.5. Answer: D."
+      ],
+      "explain_simple": "4.0 − 2.5 = 1.5.",
+      "tips": [
+        "Death rate = birth rate − RNI."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Birth rate 3.0, death rate 1.0. What is the RNI?",
+          "options": {
+            "A": "4.0",
+            "B": "2.0",
+            "C": "3.0",
+            "D": "1.0"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "3.0 − 1.0 = 2.0. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-population"
+      ],
+      "keywords": [
+        "RNI",
+        "birth rate",
+        "death rate"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 2 – Population, How to calculate the rate of natural increase, p. 24",
+        "topic": "How to calculate the rate of natural increase",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 2 – Population",
+        "section": "How to calculate the rate of natural increase",
+        "page": "24",
+        "pdf_page": 30,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q43",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 43,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-table3",
+      "stem": "The continent with the lowest RNI, birth rate, and death rate is__",
+      "stem_tables": [
+        {
+          "title": "Table 3",
+          "kind": "data",
+          "columns": [
+            "Series",
+            "Continent",
+            "Birth rate",
+            "Death rate",
+            "RNI"
+          ],
+          "rows": [
+            [
+              "1",
+              "Europe",
+              "1.1",
+              "1.0",
+              "0.1"
+            ],
+            [
+              "2",
+              "North America",
+              "1.4",
+              "0.8",
+              "0.6"
+            ],
+            [
+              "3",
+              "Oceania",
+              "2.7",
+              "0.7",
+              "2.0"
+            ],
+            [
+              "4",
+              "Asia",
+              "2.8",
+              "0.7",
+              "2.1"
+            ],
+            [
+              "5",
+              "Latin America",
+              "2.3",
+              "0.6",
+              "1.7"
+            ],
+            [
+              "6",
+              "Africa",
+              "4.0",
+              "",
+              "2.5"
+            ],
+            [
+              "7",
+              "World",
+              "2.3",
+              "0.9",
+              "1.4"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "right",
+            "right",
+            "right"
+          ]
+        }
+      ],
+      "options": {
+        "A": "Africa",
+        "B": "Europe",
+        "C": "North America",
+        "D": "Latin America"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Lowest RNI: Europe (0.1). Lowest birth rate: Europe (1.1).",
+        "But the lowest death rate is Latin America (0.6). Europe has the highest death rate (1.0).",
+        "So no continent is lowest in all three. Europe is lowest in two of the three, including RNI. Answer: B."
+      ],
+      "explain_simple": "Europe has the lowest RNI and birth rate. (Its death rate is not the lowest.)",
+      "tips": [
+        "Check each column separately."
+      ],
+      "similar_questions": [
+        {
+          "stem": "From Table 3, which continent has the lowest death rate?",
+          "options": {
+            "A": "Europe",
+            "B": "Latin America",
+            "C": "Asia",
+            "D": "Africa"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Latin America, 0.6. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-population"
+      ],
+      "keywords": [
+        "RNI",
+        "birth rate",
+        "death rate"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 2 – Population, Rate of natural increase of population, p. 24",
+        "topic": "Rate of natural increase of population",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 2 – Population",
+        "section": "Rate of natural increase of population",
+        "page": "24",
+        "pdf_page": 30,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "No option fits all three parts: Europe has the lowest RNI and birth rate, but the lowest death rate is Latin America (0.6), and Europe's death rate (1.0) is the highest. Keyed B (Europe), the best fit and probably the intended answer."
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q44",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 44,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In social development the one which represents the higher stage is________",
+      "options": {
+        "A": "Primitive Communal Society",
+        "B": "Feudal Society",
+        "C": "Capitalist Society",
+        "D": "Slave Society"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The stages go from lower to higher: primitive communal → slave → feudal → capitalist (Social Studies Grade 7, Unit 5, p. 63–82).",
+        "The Grade 7 book covers primitive communal to feudal; capitalism comes after feudalism. Answer: C."
+      ],
+      "explain_simple": "Capitalist society comes after feudal society, so it is higher.",
+      "tips": [
+        "Order: primitive → slave → feudal → capitalist."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which was the first class society?",
+          "options": {
+            "A": "Primitive communal",
+            "B": "Slave society",
+            "C": "Feudal society",
+            "D": "Capitalist society"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The textbook says slave society was the first class society. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "social development",
+        "capitalist society",
+        "feudal society"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, 5.2 Slave Society, p. 72",
+        "topic": "5.2 Slave Society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "5.2 Slave Society",
+        "page": "72",
+        "pdf_page": 78,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q45",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 45,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one <u>is true</u> of system of government?",
+      "options": {
+        "A": "In a unitary system of government all power is concentrated in a central government",
+        "B": "In a federal system states are basically independent but cooperate in certain ways",
+        "C": "In a Confederation , power is concentrated in a central government",
+        "D": "In a federal system no power is given to local government"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook: in a unitary state (like Eritrea) the central government decides all major policies (Social Studies Grade 7, p. 86). So A is true.",
+        "In a federal system the national and regional governments share power, so B and D are wrong. States that are independent but cooperate form a confederation, where the centre is weak, so C is wrong. Answer: A."
+      ],
+      "explain_simple": "In a unitary system, the central government has the main power.",
+      "tips": [
+        "Unitary = one centre. Federal = shared power."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Eritrea has a ___ system of government.",
+          "options": {
+            "A": "federal",
+            "B": "unitary",
+            "C": "confederal",
+            "D": "no"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Eritrea is a unitary state. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-government"
+      ],
+      "keywords": [
+        "unitary",
+        "federal",
+        "confederation"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 6 – Government, Systems of government, p. 86",
+        "topic": "Systems of government",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 6 – Government",
+        "section": "Systems of government",
+        "page": "86",
+        "pdf_page": 92,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q46",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 46,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following pairs <u>does not</u> match ?",
+      "options": {
+        "A": "Medri-------village clusters (gults)",
+        "B": "Village------collection of endas",
+        "C": "Endas--------cluster of medri",
+        "D": "Diessa-------system with village ownership of land"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook: endas joined together to make villages; clusters of villages made a gulti; gultis formed a medri (Social Studies Grade 7, p. 138).",
+        "So an enda is a small family group, not a cluster of medri. The Diessa system is village ownership of land (p. 137). Answer: C."
+      ],
+      "explain_simple": "Endas are small. They are not groups of medri.",
+      "tips": [
+        "Enda → village → gulti → medri (small to big)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Gultis together formed a:",
+          "options": {
+            "A": "enda",
+            "B": "medri",
+            "C": "village",
+            "D": "family"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Gultis formed a medri. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-government"
+      ],
+      "keywords": [
+        "medri",
+        "gulti",
+        "enda",
+        "diessa"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 9 – Traditional Societies in Eritrea, Feudal administration, p. 138",
+        "topic": "Feudal administration",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 9 – Traditional Societies in Eritrea",
+        "section": "Feudal administration",
+        "page": "138",
+        "pdf_page": 144,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "general",
+          "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 9 – Traditional Societies in Eritrea, Diessa system, p. 137",
+          "topic": "Diessa system",
+          "subject": "Social Studies",
+          "grade": 7,
+          "unit": "Unit 9 – Traditional Societies in Eritrea",
+          "section": "Diessa system",
+          "page": "137",
+          "pdf_page": 143,
+          "verified_in_text": true
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q47",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 47,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-rivers",
+      "stem": "The confluence indicated by letter X is_________",
+      "image": "media/social-studies-2017-q47.png",
+      "image_alt": "Figure 2: map of the rivers of Eritrea (Barka, Zara River, Mereb, Hadas). X is where the Zara River meets the Anseba. Z is in the north-west, near the Sudan border, where the Anseba meets the Barka.",
+      "options": {
+        "A": "Sel-a",
+        "B": "Keru",
+        "C": "Sherit",
+        "D": "Megoraib"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A confluence is where two rivers meet. X is where the Zara River meets the Anseba.",
+        "The textbook: the Anseba joins with Zara River at Sher-it (Social Studies Grade 8, p. 16). Answer: C."
+      ],
+      "explain_simple": "The Anseba and the Zara meet at Sherit.",
+      "tips": [
+        "Confluence = meeting point of rivers."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Anseba joins the Barka River at:",
+          "options": {
+            "A": "Sala",
+            "B": "Wia",
+            "C": "Keren",
+            "D": "Tessenei"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "It joins the Barka at Sala. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-rivers",
+        "ss-map-reading"
+      ],
+      "keywords": [
+        "confluence",
+        "Anseba",
+        "Zara",
+        "Sherit"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, Anseba River, p. 16",
+        "topic": "Anseba River",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "Anseba River",
+        "page": "16",
+        "pdf_page": 22,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q48",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 48,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2017-g8-rivers",
+      "stem": "The confluence indicated by letter Z is:___________",
+      "image": "media/social-studies-2017-q47.png",
+      "image_alt": "Figure 2: map of the rivers of Eritrea (Barka, Zara River, Mereb, Hadas). X is where the Zara River meets the Anseba. Z is in the north-west, near the Sudan border, where the Anseba meets the Barka.",
+      "options": {
+        "A": "Zara",
+        "B": "Sel-a",
+        "C": "Kerkebet",
+        "D": "Sherit"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Z is in the north-west, near the Sudan border, where the Anseba meets the Barka.",
+        "The textbook: the Anseba joins the Barka River at Sala and enters the Sudan (Social Studies Grade 8, p. 16). Sel-a is Sala. Answer: B."
+      ],
+      "explain_simple": "The Anseba meets the Barka at Sala (Sel-a).",
+      "tips": [
+        "Sherit = Anseba + Zara. Sala = Anseba + Barka."
+      ],
+      "similar_questions": [
+        {
+          "stem": "After joining the Barka, the Anseba flows into:",
+          "options": {
+            "A": "the Red Sea",
+            "B": "the Sudan",
+            "C": "Ethiopia",
+            "D": "Lake Tana"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It enters the Sudan. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-rivers",
+        "ss-map-reading"
+      ],
+      "keywords": [
+        "confluence",
+        "Barka",
+        "Sala"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, Anseba River, p. 16",
+        "topic": "Anseba River",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "Anseba River",
+        "page": "16",
+        "pdf_page": 22,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q49",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 49,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The one who <u>was not</u> a rebel against Italian occupation was",
+      "options": {
+        "A": "Deggiat Bahta Hagos",
+        "B": "Fitawrari Embaye",
+        "C": "Abubaker Ahmed",
+        "D": "Ali Mohammed Usman Burri"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Bahta Hagos (1894), Abubaker Ahmed (1901) and Ali Mohammed Usman Burri fought against the Italians (Social Studies Grade 8, p. 77–79).",
+        "Fitawrari Embaye was a Tigrean chief who demanded tribute in 1875. He was killed in a conflict with Bahta Hagos, before the Italians came. Answer: B."
+      ],
+      "explain_simple": "Fitawrari Embaye did not fight the Italians.",
+      "tips": [
+        "Rebels: Bahta Hagos, Abubaker Ahmed, Burri."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Degiat Bahta Hagos was killed at the Battle of:",
+          "options": {
+            "A": "Dogalli",
+            "B": "Halay",
+            "C": "Adwa",
+            "D": "Gura"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Battle of Halay, 1894. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-italian-colonialism"
+      ],
+      "keywords": [
+        "resistance",
+        "Bahta Hagos",
+        "Abubaker Ahmed",
+        "Fitawrari Embaye"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Eritrean resistance – Bahta Hagos and Abubaker Ahmed, p. 79",
+        "topic": "Eritrean resistance – Bahta Hagos and Abubaker Ahmed",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Eritrean resistance – Bahta Hagos and Abubaker Ahmed",
+        "page": "79",
+        "pdf_page": 85,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2017-g8-p1-q50",
+      "exam_id": "social-studies-2017-g8",
+      "part": 1,
+      "number": 50,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In the Italian colonial administration Eritrean colonial soldiers were called",
+      "options": {
+        "A": "Bandas",
+        "B": "Zaptia",
+        "C": "Ascari",
+        "D": "Carabinnieri"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook: Ascari were Eritrean colonial soldiers. Bandas were irregular fighters and Zaptias were police (Social Studies Grade 8, p. 95). Answer: C."
+      ],
+      "explain_simple": "Eritrean soldiers in the Italian army were called Ascari.",
+      "tips": [
+        "Ascari = soldiers."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Eritreans who served as colonial police were called:",
+          "options": {
+            "A": "Ascari",
+            "B": "Zaptias",
+            "C": "Naibs",
+            "D": "Omdas"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Zaptias were police. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-italian-colonialism"
+      ],
+      "keywords": [
+        "Ascari",
+        "colonial soldiers"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 6 – Colonial Administrations in Eritrea, Eritreans in the colonial army, p. 95",
+        "topic": "Eritreans in the colonial army",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 6 – Colonial Administrations in Eritrea",
+        "section": "Eritreans in the colonial army",
+        "page": "95",
+        "pdf_page": 101,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    }
+  ],
+  "passages": [
+    {
+      "id": "social-studies-2017-g8-table1",
+      "kind": "context",
+      "title": "Table 1 – Economic activities (Questions 21 and 22)",
+      "instructions": "Answer questions 21 and 22 from the table below.",
+      "paragraphs": [
+        "1. Andorra: Tourism is the dominant economic activity.",
+        "2. Botswana: Agriculture is the main economic activity."
+      ],
+      "question_numbers": [
+        21,
+        22
+      ],
+      "part": 1
+    },
+    {
+      "id": "social-studies-2017-g8-table2",
+      "kind": "context",
+      "title": "Table 2 – Area and population (Questions 36 and 37)",
+      "instructions": "The total areas and total population of Netherlands, Cuba, and Tunisia is indicated in table 2.",
+      "paragraphs": [
+        "1. Netherlands: area 41,526 square km, population 16,645,313, density ?",
+        "2. Cuba: area 114,525 square km, population 11,423,952, density ?",
+        "3. Tunisia: area 164,418 square km, population 10,378,140, density ?"
+      ],
+      "question_numbers": [
+        36,
+        37
+      ],
+      "part": 1
+    },
+    {
+      "id": "social-studies-2017-g8-events",
+      "kind": "context",
+      "title": "Events (Questions 38 and 39)",
+      "instructions": "Questions 38 and 39 are based on the following events.",
+      "paragraphs": [
+        "1. The revolt of Bahta Hagos",
+        "2. Establishment of the Italian colony of Eritrea",
+        "3. Federation of Eritrea with Ethiopia",
+        "4. Occupation of Massawa by the Turks"
+      ],
+      "question_numbers": [
+        38,
+        39
+      ],
+      "part": 1
+    },
+    {
+      "id": "social-studies-2017-g8-table3",
+      "kind": "context",
+      "title": "Table 3 – Birth rate, death rate and RNI (Questions 41 to 43)",
+      "instructions": "Answer questions 41 to 43 from Table 3.",
+      "paragraphs": [
+        "Europe: birth rate 1.1, death rate 1.0, RNI 0.1",
+        "North America: 1.4, 0.8, 0.6",
+        "Oceania: 2.7, 0.7, 2.0",
+        "Asia: 2.8, 0.7, 2.1",
+        "Latin America: 2.3, 0.6, 1.7",
+        "Africa: 4.0, (blank), 2.5",
+        "World: 2.3, 0.9, 1.4"
+      ],
+      "question_numbers": [
+        41,
+        42,
+        43
+      ],
+      "part": 1
+    },
+    {
+      "id": "social-studies-2017-g8-rivers",
+      "kind": "context",
+      "title": "Figure 2 – Rivers of Eritrea (Questions 47 and 48)",
+      "instructions": "Give answers to questions 47 and 48 from figure 2.",
+      "paragraphs": [
+        "Figure 2 is a map of the rivers of Eritrea. X marks the place where the Zara River meets the Anseba. Z marks the place in the north-west, near the Sudan border, where the Anseba meets the Barka."
+      ],
+      "question_numbers": [
+        47,
+        48
+      ],
+      "part": 1
+    }
+  ]
+}

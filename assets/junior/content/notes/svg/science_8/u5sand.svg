@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" font-family="Nunito,sans-serif" font-weight="900">
+<g data-s="day"><rect width="320" height="240" fill="#DCEEFB"/><circle cx="160" cy="40" r="22" fill="#FFE08A" stroke="#DDA42A" stroke-width="3"/></g><g data-s="night"><rect width="320" height="240" fill="#3E4A6B"/><path d="M168 22a18 18 0 1 0 12 30a14 14 0 1 1 -12 -30z" fill="#FFF4CC"/></g>
+<path d="M20 150h120l-10 60H30z" fill="#E6C27A" stroke="#B8923E" stroke-width="3"/><path d="M180 150h120l-10 60H190z" fill="#8EC1EA" stroke="#5F90C4" stroke-width="3"/>
+<g data-s="day"><text x="80" y="136" font-size="18" fill="#A8412A" text-anchor="middle" >hot!</text><text x="240" y="136" font-size="18" fill="#5F90C4" text-anchor="middle" >cool</text></g><g data-s="night"><text x="80" y="136" font-size="18" fill="#9CC0E6" text-anchor="middle" >cool</text><text x="240" y="136" font-size="18" fill="#FFC9BA" text-anchor="middle" >warmer</text></g>
+<text x="80" y="190" font-size="15" fill="#6A5B50" text-anchor="middle" >sand</text><text x="240" y="190" font-size="15" fill="#6A5B50" text-anchor="middle" >water</text>
+</svg>

@@ -1,0 +1,3308 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "english-2014-g8",
+    "year": "2014",
+    "subject": "English",
+    "grade": 8,
+    "version": "A",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2014 – English",
+    "duration": "1 hour and 40 minutes (100 minutes)",
+    "duration_minutes": 100,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice (Questions 1–50)",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "This paper has 50 multiple-choice questions (1 to 50). Each question has 4 choices. Choose ONE best answer and blacken its letter on the separate answer sheet. Sections: A. Dialogue (1–4), B. Grammar and vocabulary (5–34), C. Table (35–40), D. Reading passage (41–50)."
+      }
+    ],
+    "source": {
+      "document": "2014-English-V-A.pdf",
+      "version_used": "A",
+      "other_version": "B (2014-English-V-B.pdf)",
+      "notes": "Transcribed from the PDF text layer of Version A and checked against the page images. Bold words (e.g. they, the same thing, decorate in the passage; not/false in stems) are plain text here; there is no underlining. V-B has the same questions, reordered, with options shuffled.",
+      "printing_note": "Q7 options B and D are printed identically (‘Dolphins are the more friendly animals in the sea.’). Q49 asks about ‘decorated (line 26)’ but the passage prints ‘decorate’. Passage line 11 ‘It never uses them for smelling’ (them = its nose; should be ‘it’). Passage line numbers 5–25 shown as [line N]."
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "notation": "unicode",
+    "textbooks": [
+      "English for Eritrea Grade 6",
+      "English for Eritrea Grade 7",
+      "English for Eritrea Grade 8"
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "passages": [
+    {
+      "id": "english-2014-dialogue",
+      "kind": "context",
+      "title": "Dialogue between a visitor and a secretary",
+      "instructions": "Complete the dialogue between a visitor and a secretary. Choose the secretary’s correct answers from the choices given (A–D).",
+      "paragraphs": [
+        "Visitor: Please, I want to see the manager.",
+        "Secretary: ______ (1)",
+        "Visitor: Can I see her tomorrow morning?",
+        "Secretary: ______ (2)",
+        "Visitor: Can I leave a message, please?",
+        "Secretary: ______ (3)",
+        "Visitor: Would you please give me your phone number?",
+        "Secretary: ______ (4)",
+        "Choices given: A. Of course, you can.  B. Here you are.  C. I’m sorry. She’s just left.  D. No. We don’t open on Saturdays."
+      ],
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "part": 1
+    },
+    {
+      "id": "english-2014-table",
+      "kind": "context",
+      "title": "Table: three kinds of wolf",
+      "instructions": "Answer questions 35–40 according to the information in the table.",
+      "paragraphs": [
+        "(row) | European wolf | American wolf | Australian wolf",
+        "Weight | 40 kg | 16 kg | 20 kg",
+        "Height | 80 cm | 50 cm | 55 cm",
+        "Length of tail | 40 cm | 35 cm | 35 cm",
+        "Food | small animals | rubbish and fish | kangaroo and sheep"
+      ],
+      "question_numbers": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "part": 1,
+      "table": {
+        "title": "Three kinds of wolf",
+        "kind": "data",
+        "columns": [
+          "",
+          "European wolf",
+          "American wolf",
+          "Australian wolf"
+        ],
+        "rows": [
+          [
+            "Weight",
+            "40 kg",
+            "16 kg",
+            "20 kg"
+          ],
+          [
+            "Height",
+            "80 cm",
+            "50 cm",
+            "55 cm"
+          ],
+          [
+            "Length of tail",
+            "40 cm",
+            "35 cm",
+            "35 cm"
+          ],
+          [
+            "Food",
+            "small animals",
+            "rubbish and fish",
+            "kangaroo and sheep"
+          ]
+        ],
+        "align": [
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      }
+    },
+    {
+      "id": "english-2014-story",
+      "kind": "reading",
+      "title": "Dolphins",
+      "instructions": "Read the story and answer the questions (41–50) according to the information in the story.",
+      "paragraphs": [
+        "Dolphins are not fish, but warm blooded mammals. Like all other mammals, dolphins have lungs. Mammals, unlike fish, feed their young with milk that is produced in the mother’s body.",
+        "Dolphins live in groups, and speak to each other in their own language. In this they are [line 5] like other animals, such as bees and birds. But dolphins are very different from almost all land animals. Their brain is nearly the same size as our own, and they live a long time - at least twenty or thirty years.",
+        "Dolphins seem to like man, and for thousands of years there have been stories about the dolphin and its friendship with people.",
+        "[line 10] A dolphin has teeth, it eats fish, and its young are born alive. It can grow up to three and a half meters in length. Its nose is very long and forms a beak. It never uses them for smelling because it has no sense of smell.",
+        "Like some animals dolphins use sounds to help them find their way. They make these sounds to talk to each other and to help them find food. We now know they do not use [line 15] their ears to receive these sounds, but the lower part of the mouth called the jaw.",
+        "People have known about these animals for a long time. In about 70 BCE, Pliny, the Roman writer, wrote about the way dolphins helped fishermen catch fish. Today, there are stories about the same thing on the west coast of Africa.",
+        "Some dolphins seem to look for people. They leave the others and come into our harbours [line 20] and swim up and down near the beaches. There are stories of dolphins mixing with swimmers, and of children riding on their backs.",
+        "Today, some people continue to kill dolphins, but many countries of the world now protect them and in these places it’s against the law to kill them.",
+        "Eritrea has many different species of dolphin. People call them Abu Salama to show that [line 25] they are peaceful animals. There are hotels, restaurants, shops etc by their names. We also decorate our walls with pictures of dolphins. We love and take care of them very much."
+      ],
+      "question_numbers": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "part": 1,
+      "note": "Line numbers (5–25) as printed in the margin. Bold in the paper: they (line 4), the same thing (line 18), decorate (line 26)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "english-2014-g8-p1-q01",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 1,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-dialogue",
+      "stem": "Dialogue, gap (1). Visitor: “Please, I want to see the manager.” Secretary: “______” Visitor: “Can I see her tomorrow morning?”",
+      "options": {
+        "A": "Of course, you can.",
+        "B": "Here you are.",
+        "C": "I’m sorry. She’s just left.",
+        "D": "No. We don’t open on Saturdays."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The visitor then asks to see the manager tomorrow. So she cannot see her now.",
+        "“I’m sorry. She’s just left.” explains why.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "The manager is not there now: “She’s just left.”",
+      "tips": [
+        "The next line (“Can I see her tomorrow?”) shows the manager is not there."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Caller: Can I speak to Mr Ali?  Secretary: ______  Caller: Can I call again later?",
+          "options": {
+            "A": "I’m sorry, he’s out.",
+            "B": "Here you are.",
+            "C": "Yes, please.",
+            "D": "Good morning."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The caller wants to call later, so Mr Ali is out."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q02",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 2,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-dialogue",
+      "stem": "Dialogue, gap (2). Visitor: “Can I see her tomorrow morning?” Secretary: “______”",
+      "options": {
+        "A": "Of course, you can.",
+        "B": "Here you are.",
+        "C": "I’m sorry. She’s just left.",
+        "D": "No. We don’t open on Saturdays."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The secretary says “No” and gives a reason: the office does not open on Saturdays (tomorrow is Saturday).",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "No, because the office is closed tomorrow (Saturday).",
+      "tips": [
+        "A yes/no question → look for Yes/No in the choices."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Student: Can I bring the book on Sunday?  Librarian: ______",
+          "options": {
+            "A": "No. The library is closed on Sundays.",
+            "B": "Here you are.",
+            "C": "She’s just left.",
+            "D": "Thank you."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "No + a reason."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue",
+        "yes/no question"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q03",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 3,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-dialogue",
+      "stem": "Dialogue, gap (3). Visitor: “Can I leave a message, please?” Secretary: “______”",
+      "options": {
+        "A": "Of course, you can.",
+        "B": "Here you are.",
+        "C": "I’m sorry. She’s just left.",
+        "D": "No. We don’t open on Saturdays."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“Can I …?” asks for permission.",
+        "“Of course, you can.” gives permission.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "“Can I …?” → “Of course, you can.”",
+      "tips": [
+        "Permission: Can I …? → Yes/Of course, you can."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Pupil: Can I open the window?  Teacher: ______",
+          "options": {
+            "A": "Of course, you can.",
+            "B": "Here you are.",
+            "C": "Yes, I can.",
+            "D": "No, you do."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Of course, you can."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue",
+        "en-functions"
+      ],
+      "keywords": [
+        "permission",
+        "can I"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "usage",
+          "topic": "Everyday expressions (requests, offers, apologies, advice)",
+          "rule": "Use polite forms for requests (Can/Could I …?), apologies (I'm sorry …) and advice (You should …).",
+          "note": "textbook: English Grade 8, Unit 1 (p. 1–21); English Grade 6, p. 131"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q04",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 4,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-dialogue",
+      "stem": "Dialogue, gap (4). Visitor: “Would you please give me your phone number?” Secretary: “______”",
+      "options": {
+        "A": "Of course, you can.",
+        "B": "Here you are.",
+        "C": "I’m sorry. She’s just left.",
+        "D": "No. We don’t open on Saturdays."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "When we give something to somebody, we say “Here you are.”",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "She gives the number and says “Here you are.”",
+      "tips": [
+        "Giving something: “Here you are.”"
+      ],
+      "similar_questions": [
+        {
+          "stem": "Customer: Can I have the bill, please?  Waiter: ______",
+          "options": {
+            "A": "Here you are.",
+            "B": "No, I can’t.",
+            "C": "She’s just left.",
+            "D": "Of course, you do."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Giving → Here you are."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue",
+        "en-functions"
+      ],
+      "keywords": [
+        "here you are"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "usage",
+          "topic": "Everyday expressions (requests, offers, apologies, advice)",
+          "rule": "Use polite forms for requests (Can/Could I …?), apologies (I'm sorry …) and advice (You should …).",
+          "note": "textbook: English Grade 8, Unit 1 (p. 1–21); English Grade 6, p. 131"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q05",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 5,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The ostrich has the ______ neck of all other birds.",
+      "options": {
+        "A": "longer",
+        "B": "long",
+        "C": "longest",
+        "D": "most long"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“the … of all birds” → superlative.",
+        "Short adjective long → the longest.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "One bird compared with all birds → the longest.",
+      "tips": [
+        "the + adjective-est + of all."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The giraffe is the ______ animal of all.",
+          "options": {
+            "A": "taller",
+            "B": "tallest",
+            "C": "most tall",
+            "D": "tall"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "the tallest."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "superlative",
+        "longest"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "Minor wording error: ‘of all other birds’ should be ‘of all birds’. The answer is still C."
+    },
+    {
+      "id": "english-2014-g8-p1-q06",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 6,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What is the opposite of top?",
+      "options": {
+        "A": "high",
+        "B": "bottom",
+        "C": "under",
+        "D": "low"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "top ↔ bottom (the highest part ↔ the lowest part).",
+        "Textbook: English Grade 7, p. 222; English Grade 8, p. 160."
+      ],
+      "explain_simple": "The opposite of top is bottom.",
+      "tips": [
+        "top–bottom, high–low, up–down."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is the opposite of front?",
+          "options": {
+            "A": "side",
+            "B": "back",
+            "C": "top",
+            "D": "under"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "front ↔ back."
+          ]
+        }
+      ],
+      "topics": [
+        "en-opposites-synonyms"
+      ],
+      "keywords": [
+        "opposite",
+        "bottom"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Opposites and words with the same meaning",
+        "rule": "A synonym has the same meaning (hit = strike); an opposite has the reverse meaning (happy – sad).",
+        "note": "textbook: English Grade 7, p. 222; English Grade 8, p. 160"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q07",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 7,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following sentences is correct?",
+      "options": {
+        "A": "Dolphins are most friendly animals in the sea.",
+        "B": "Dolphins are the more friendly animals in the sea.",
+        "C": "Dolphins are the most friendly animals in the sea.",
+        "D": "Dolphins are the more friendly animals in the sea."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“in the sea” compares dolphins with all sea animals → superlative: the most friendly.",
+        "A misses “the”; B and D use the comparative “more” without “than”.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "the most friendly animals in the sea.",
+      "tips": [
+        "Superlative needs “the”."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which sentence is correct?",
+          "options": {
+            "A": "Gold is the most expensive metal here.",
+            "B": "Gold is most expensive metal here.",
+            "C": "Gold is the more expensive metal here.",
+            "D": "Gold is expensivest."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "the most expensive."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "superlative"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "Misprint: options B and D are printed with exactly the same words (also in V-B). It does not affect the answer C."
+    },
+    {
+      "id": "english-2014-g8-p1-q08",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 8,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which sentence is correct?",
+      "options": {
+        "A": "A plane is fast than a ship.",
+        "B": "A plane is faster than a ship.",
+        "C": "A plane is faster to a ship.",
+        "D": "A plane is faster from a ship."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Comparative: faster + than.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "faster than.",
+      "tips": [
+        "-er + than."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which sentence is correct?",
+          "options": {
+            "A": "A car is slower than a plane.",
+            "B": "A car is slow than a plane.",
+            "C": "A car is slower to a plane.",
+            "D": "A car is slower from a plane."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "slower than."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "comparative"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q09",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 9,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which word is spelled correctly?",
+      "options": {
+        "A": "mother",
+        "B": "futher",
+        "C": "brather",
+        "D": "syster"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Correct: mother, father, brother, sister.",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "Only “mother” is right.",
+      "tips": [
+        "Family words: mother, father, brother, sister."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which word is spelled correctly?",
+          "options": {
+            "A": "dauter",
+            "B": "daughter",
+            "C": "doughter",
+            "D": "daugter"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "daughter."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "spelling"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q10",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 10,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Does she drive a car?",
+      "options": {
+        "A": "Yes, she doesn’t.",
+        "B": "No, she does.",
+        "C": "No, she do.",
+        "D": "Yes, she does."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“Does she …?” → Yes, she does / No, she doesn’t.",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "“Does she …?” → “Yes, she does.”",
+      "tips": [
+        "Yes + does; No + doesn’t."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Does your father smoke?",
+          "options": {
+            "A": "No, he doesn’t.",
+            "B": "No, he does.",
+            "C": "Yes, he doesn’t.",
+            "D": "No, he don’t."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "No, he doesn’t."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions"
+      ],
+      "keywords": [
+        "short answer",
+        "does"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q11",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 11,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Look at ______ hyena! It is running after the donkey.",
+      "options": {
+        "A": "an",
+        "B": "a",
+        "C": "the",
+        "D": "___ (no article)"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The speaker points to one hyena that both people can see now.",
+        "A thing we both know/see takes “the”. Also “hyena” starts with a consonant sound, so “an” is wrong.",
+        "Textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204."
+      ],
+      "explain_simple": "We can both see the hyena. So: the hyena.",
+      "tips": [
+        "Use “the” for a thing the listener can see or knows."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Look at ______ bird on the roof!",
+          "options": {
+            "A": "an",
+            "B": "the",
+            "C": "some",
+            "D": "___"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The bird we can see → the."
+          ]
+        }
+      ],
+      "topics": [
+        "en-articles"
+      ],
+      "keywords": [
+        "the",
+        "definite article"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Articles (a, an, the, zero)",
+        "rule": "Use 'the' for a thing that is the only one (the moon, the sun) or already known; a/an for one thing that is not specific.",
+        "note": "textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q12",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 12,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Our teacher is a very hardworking person. The school gave ______ a prize.",
+      "options": {
+        "A": "him",
+        "B": "her",
+        "C": "us",
+        "D": "A and B"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "We do not know if the teacher is a man or a woman.",
+        "So “him” and “her” are both possible → A and B.",
+        "Textbook: English Grade 6, p. 61; English Grade 7, p. 7–8."
+      ],
+      "explain_simple": "The teacher can be a man or a woman. So “him” or “her”.",
+      "tips": [
+        "No clue about man or woman? Both him and her can be right."
+      ],
+      "similar_questions": [
+        {
+          "stem": "My doctor is very kind. Everybody likes ______.",
+          "options": {
+            "A": "him",
+            "B": "her",
+            "C": "them",
+            "D": "A and B"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "The doctor can be a man or a woman."
+          ]
+        }
+      ],
+      "topics": [
+        "en-pronouns"
+      ],
+      "keywords": [
+        "object pronoun",
+        "him",
+        "her"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Subject, object and possessive pronouns",
+        "rule": "Use an object pronoun (me, him, her, us, them) after a verb or preposition; possessive pronouns (mine, yours, his, hers, ours, theirs) replace a noun.",
+        "note": "textbook: English Grade 6, p. 61; English Grade 7, p. 7–8"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "The item depends on ‘teacher’ being either sex, so D ‘A and B’ is the intended answer; a student who picks A or B is not using wrong grammar. Teacher decision."
+    },
+    {
+      "id": "english-2014-g8-p1-q13",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 13,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "How ______ books did you buy yesterday? And how ______ did you pay?",
+      "options": {
+        "A": "many / many",
+        "B": "many / much",
+        "C": "much / much",
+        "D": "much / many"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "books can be counted → how many books.",
+        "“How much did you pay?” asks about money (an amount) → much.",
+        "Textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7."
+      ],
+      "explain_simple": "books → many; money → how much.",
+      "tips": [
+        "How much …? is used for price/money."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How ______ pens do you have? How ______ does one pen cost?",
+          "options": {
+            "A": "many / much",
+            "B": "much / many",
+            "C": "many / many",
+            "D": "much / much"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "pens → many; cost → much."
+          ]
+        }
+      ],
+      "topics": [
+        "en-quantifiers",
+        "en-questions"
+      ],
+      "keywords": [
+        "how many",
+        "how much"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Quantity words (some, any, much, many, too, enough)",
+        "rule": "some = an amount with plural or uncountable nouns; too = more than is good; very = a lot; enough = as much as needed.",
+        "note": "textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q14",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 14,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "We will receive our National Examination results ______ August.",
+      "options": {
+        "A": "on",
+        "B": "at",
+        "C": "in",
+        "D": "for"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "With months we use “in”: in August.",
+        "Textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181."
+      ],
+      "explain_simple": "Months take “in”: in August.",
+      "tips": [
+        "in + month/year; on + date/day; at + clock time."
+      ],
+      "similar_questions": [
+        {
+          "stem": "School starts ______ September.",
+          "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at",
+            "D": "by"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "month → in."
+          ]
+        }
+      ],
+      "topics": [
+        "en-prepositions"
+      ],
+      "keywords": [
+        "in",
+        "month"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Prepositions (place, time, transport)",
+        "rule": "Travel: by car/bus/plane; time: at 5 o'clock, on Monday, in June; place: in, on, under, between, next to.",
+        "note": "textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q15",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 15,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Do you like swimming ______ basketball?",
+      "options": {
+        "A": "or",
+        "B": "and",
+        "C": "but",
+        "D": "A and B"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "D"
+      ],
+      "explanation_steps": [
+        "If the question asks the listener to choose one sport, we use “or”.",
+        "But this is a Yes/No question (Do you like …?), so “swimming and basketball” (both) is also correct English.",
+        "“but” is wrong. A “or” is the usual choice; D “A and B” is also defensible.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "We ask about a choice with “or”. (“and” is also possible here.)",
+      "tips": [
+        "or = choice between two things."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Would you like tea ______ coffee? – Tea, please.",
+          "options": {
+            "A": "or",
+            "B": "but",
+            "C": "so",
+            "D": "because"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The answer picks one → or."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "or",
+        "and"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "Two defensible answers: A ‘or’ (choice) and D ‘A and B’ – in a yes/no question ‘Do you like swimming and basketball?’ is also correct. Keyed A, D accepted. Teacher decision."
+    },
+    {
+      "id": "english-2014-g8-p1-q16",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 16,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which pair of words is not correct?",
+      "options": {
+        "A": "leaf - leafs",
+        "B": "knife - knives",
+        "C": "half - halves",
+        "D": "roof - roofs"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The plural of leaf is leaves (f → ves), like knife → knives, half → halves.",
+        "roof → roofs is an exception and is correct.",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "leaf → leaves, not leafs.",
+      "tips": [
+        "Most -f/-fe words → -ves (leaves, wives); roof → roofs is an exception."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which plural is wrong?",
+          "options": {
+            "A": "wife - wives",
+            "B": "shelf - shelves",
+            "C": "wolf - wolfs",
+            "D": "chief - chiefs"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "wolf → wolves."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "plural",
+        "-ves"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q17",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 17,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Next year I ______ to Massawa to celebrate the 25th Anniversary of Fenkil Operation.",
+      "options": {
+        "A": "travel",
+        "B": "will travel",
+        "C": "travelled",
+        "D": "am travel"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“Next year” is the future → will + base verb.",
+        "Textbook: English Grade 7, p. 20, 175."
+      ],
+      "explain_simple": "Next year = future → will travel.",
+      "tips": [
+        "next week/month/year → will."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Tomorrow we ______ our grandmother.",
+          "options": {
+            "A": "visited",
+            "B": "will visit",
+            "C": "visit",
+            "D": "are visit"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "will visit."
+          ]
+        }
+      ],
+      "topics": [
+        "en-future"
+      ],
+      "keywords": [
+        "will"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Future (will / going to)",
+        "rule": "Future: will + base verb (I will go) or am/is/are going to + base verb.",
+        "note": "textbook: English Grade 7, p. 20, 175"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q18",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 18,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In which word is the last consonant not doubled before adding “ed” or “ing”?",
+      "options": {
+        "A": "visit",
+        "B": "hit",
+        "C": "admit",
+        "D": "shut"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "hit → hitting, shut → shutting, admit → admitted (the stress is on the last part: ad-MIT).",
+        "visit → visited, visiting: the stress is on the first part (VI-sit), so the t is not doubled.",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "visit → visited (one t). The others double: hitting, admitted, shutting.",
+      "tips": [
+        "Double the last letter in short words (hit – hitting) and when the stress is at the end (ad-MIT)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which word doubles the last letter before -ing?",
+          "options": {
+            "A": "open",
+            "B": "stop",
+            "C": "listen",
+            "D": "visit"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "stop → stopping."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "doubling",
+        "-ed",
+        "-ing"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q19",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 19,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Zeineb is 25 years old and Selam is 29 years old. Which sentence is not true about Zeineb and Selam?",
+      "options": {
+        "A": "Selam is younger than Zeineb.",
+        "B": "Selam is older than Zeineb.",
+        "C": "Zeineb is not as old as Selam.",
+        "D": "Zeineb is younger than Selam"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Selam (29) is older than Zeineb (25).",
+        "So “Selam is younger than Zeineb” is not true.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "Selam is 29, so she is older. A is not true.",
+      "tips": [
+        "“not true” questions: find the wrong sentence."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Ali is 12 and Omar is 15. Which is NOT true?",
+          "options": {
+            "A": "Omar is older than Ali.",
+            "B": "Ali is younger than Omar.",
+            "C": "Ali is older than Omar.",
+            "D": "Ali is not as old as Omar."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Ali is younger."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "older",
+        "younger",
+        "not as old as"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q20",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 20,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "As blackboard is to classroom, ______ is to kitchen.",
+      "options": {
+        "A": "pillow",
+        "B": "saw",
+        "C": "axe",
+        "D": "pan"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "A blackboard is a thing we find in a classroom.",
+        "A pan is a thing we find (and use) in a kitchen.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "Blackboard – classroom; pan – kitchen.",
+      "tips": [
+        "Find the link in the first pair, then use it again."
+      ],
+      "similar_questions": [
+        {
+          "stem": "As bed is to bedroom, ______ is to classroom.",
+          "options": {
+            "A": "desk",
+            "B": "pan",
+            "C": "car",
+            "D": "pillow"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "a desk is in a classroom."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "analogy"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q21",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 21,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The man said, “I am watching the match between Red Sea and Adulis.” Which of the following is the correct indirect speech form?",
+      "options": {
+        "A": "The man said that he is watching the match between Red Sea and Adulis.",
+        "B": "The man said that I was watching the match between Red Sea and Adulis.",
+        "C": "The man said that I am watching the match between Red Sea and Adulis.",
+        "D": "The man said that he was watching the match between Red Sea and Adulis."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "I → he (the man).",
+        "am watching → was watching (tense moves back).",
+        "Textbook: English Grade 8, p. 151, 174–175."
+      ],
+      "explain_simple": "“I am” becomes “he was”.",
+      "tips": [
+        "Reported speech: I → he/she; am/is → was."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The girl said, “I am reading.” Indirect speech:",
+          "options": {
+            "A": "The girl said that she was reading.",
+            "B": "The girl said that I was reading.",
+            "C": "The girl said she is read.",
+            "D": "The girl said I am reading."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "I → she, am → was."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reported-speech"
+      ],
+      "keywords": [
+        "indirect speech"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Reported (indirect) speech",
+        "rule": "In reported speech after 'said', change the pronoun (I → he/she) and move the tense back (am → was, will → would).",
+        "note": "textbook: English Grade 8, p. 151, 174–175"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q22",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 22,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "When the rain ______, the children were playing basketball.",
+      "options": {
+        "A": "starts",
+        "B": "was started",
+        "C": "will start",
+        "D": "started"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The long action is in the past continuous (were playing).",
+        "The short action that happens in the middle is past simple: started.",
+        "Textbook: English Grade 7, p. 72; English Grade 8, p. 7."
+      ],
+      "explain_simple": "Short action in the past → started.",
+      "tips": [
+        "When + past simple, … past continuous."
+      ],
+      "similar_questions": [
+        {
+          "stem": "When the teacher ______, the students were talking.",
+          "options": {
+            "A": "comes",
+            "B": "came",
+            "C": "will come",
+            "D": "was came"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "came."
+          ]
+        }
+      ],
+      "topics": [
+        "en-past-simple",
+        "en-past-continuous"
+      ],
+      "keywords": [
+        "past simple",
+        "when"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Past simple",
+        "rule": "Past simple: verb-ed or irregular past form; questions and negatives use did + base verb (Did he call?).",
+        "note": "textbook: English Grade 7, p. 72; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Past continuous",
+          "rule": "Past continuous = was/were + verb-ing; it shows an action that was going on at a time in the past.",
+          "note": "textbook: English Grade 6, p. 175–176"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q23",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 23,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My grandfather ______ ten years ago at the age of ninety five.",
+      "options": {
+        "A": "was died",
+        "B": "will die",
+        "C": "died",
+        "D": "was die"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“ten years ago” → past simple.",
+        "“die” is not used in the passive: died (not “was died”).",
+        "Textbook: English Grade 7, p. 72; English Grade 8, p. 7."
+      ],
+      "explain_simple": "Ten years ago → died.",
+      "tips": [
+        "ago → past simple."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The old tree ______ last year.",
+          "options": {
+            "A": "was died",
+            "B": "died",
+            "C": "dies",
+            "D": "will die"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "last year → died."
+          ]
+        }
+      ],
+      "topics": [
+        "en-past-simple"
+      ],
+      "keywords": [
+        "died",
+        "ago"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Past simple",
+        "rule": "Past simple: verb-ed or irregular past form; questions and negatives use did + base verb (Did he call?).",
+        "note": "textbook: English Grade 7, p. 72; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q24",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 24,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I went to visit my uncle’s shop but ______ was closed.",
+      "options": {
+        "A": "he",
+        "B": "I",
+        "C": "she",
+        "D": "it"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "What was closed? The shop. A shop is a thing → it.",
+        "Textbook: English Grade 6, p. 61; English Grade 7, p. 7–8."
+      ],
+      "explain_simple": "The shop was closed. Shop → it.",
+      "tips": [
+        "Find the noun the pronoun stands for."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I wanted to read the book, but ______ was lost.",
+          "options": {
+            "A": "he",
+            "B": "it",
+            "C": "she",
+            "D": "they"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "the book → it."
+          ]
+        }
+      ],
+      "topics": [
+        "en-pronouns"
+      ],
+      "keywords": [
+        "it"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Subject, object and possessive pronouns",
+        "rule": "Use an object pronoun (me, him, her, us, them) after a verb or preposition; possessive pronouns (mine, yours, his, hers, ours, theirs) replace a noun.",
+        "note": "textbook: English Grade 6, p. 61; English Grade 7, p. 7–8"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q25",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 25,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Question: ______  Answer: We wanted to visit the cement factory.",
+      "options": {
+        "A": "Where did you go last week?",
+        "B": "Why did you go to Massawa last week?",
+        "C": "How did you go to Massawa last week?",
+        "D": "When did you go to Massawa?"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The answer gives a reason (We wanted to visit …).",
+        "Reason → Why.",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "The answer is a reason. So: Why?",
+      "tips": [
+        "Why → reason."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Question: ______  Answer: To buy some fish.",
+          "options": {
+            "A": "Why did you go to the market?",
+            "B": "When did you go?",
+            "C": "How did you go?",
+            "D": "Who went?"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "reason → Why."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions"
+      ],
+      "keywords": [
+        "why"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q26",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 26,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "They were well prepared for the exam; ______, they got very good results.",
+      "options": {
+        "A": "although",
+        "B": "however",
+        "C": "therefore",
+        "D": "A and B"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Good preparation → good results: cause and result.",
+        "“therefore” shows a result.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "They prepared well, so they got good results → therefore.",
+      "tips": [
+        "therefore = so (result); however = but (contrast)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "It rained a lot; ______, the crops grew well.",
+          "options": {
+            "A": "however",
+            "B": "therefore",
+            "C": "although",
+            "D": "but"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "result → therefore."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "therefore",
+        "result"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q27",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 27,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ sheets of paper do you need to write the notes?",
+      "options": {
+        "A": "How many",
+        "B": "How much",
+        "C": "Many",
+        "D": "Much"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“sheets” is plural countable → How many.",
+        "Textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7."
+      ],
+      "explain_simple": "Sheets can be counted → How many.",
+      "tips": [
+        "How many + plural noun."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ students are in your class?",
+          "options": {
+            "A": "How much",
+            "B": "How many",
+            "C": "Many",
+            "D": "Much"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "How many."
+          ]
+        }
+      ],
+      "topics": [
+        "en-quantifiers",
+        "en-questions"
+      ],
+      "keywords": [
+        "how many"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Quantity words (some, any, much, many, too, enough)",
+        "rule": "some = an amount with plural or uncountable nouns; too = more than is good; very = a lot; enough = as much as needed.",
+        "note": "textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q28",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 28,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which word is spelled wrongly?",
+      "options": {
+        "A": "inteligent",
+        "B": "wrong",
+        "C": "August",
+        "D": "Saturday"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The correct spelling is “intelligent” (double l).",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "Right spelling: intelligent.",
+      "tips": [
+        "intel-li-gent: two l’s."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which word is spelled wrongly?",
+          "options": {
+            "A": "beautiful",
+            "B": "difficult",
+            "C": "diferent",
+            "D": "important"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "different."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "spelling",
+        "intelligent"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q29",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 29,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "She is a prize winner in her class; ______, she is the school’s best volleyball player.",
+      "options": {
+        "A": "but",
+        "B": "moreover",
+        "C": "however",
+        "D": "therefore"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The second idea adds another good thing about her.",
+        "“moreover” adds information (= also, in addition).",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "It adds another good point → moreover.",
+      "tips": [
+        "moreover = also, in addition."
+      ],
+      "similar_questions": [
+        {
+          "stem": "He is a good singer; ______, he plays the guitar.",
+          "options": {
+            "A": "however",
+            "B": "moreover",
+            "C": "therefore",
+            "D": "but"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "adding → moreover."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "moreover",
+        "addition"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q30",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 30,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The driver repaired the car ______.",
+      "options": {
+        "A": "himself",
+        "B": "itself",
+        "C": "herself",
+        "D": "A and C"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "We do not know if the driver is a man or a woman.",
+        "So “himself” and “herself” are both possible → A and C. “itself” is for things.",
+        "Textbook: English Grade 8, p. 56, 112."
+      ],
+      "explain_simple": "A driver can be a man or a woman. So himself or herself.",
+      "tips": [
+        "No clue about man or woman? both himself and herself fit."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The nurse washed the baby ______.",
+          "options": {
+            "A": "herself",
+            "B": "himself",
+            "C": "itself",
+            "D": "A and B"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "A nurse can be a woman or a man."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reflexive"
+      ],
+      "keywords": [
+        "himself",
+        "herself"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Reflexive pronouns",
+        "rule": "Reflexive pronouns show that the subject and the object are the same person: you (plural) → yourselves.",
+        "note": "textbook: English Grade 8, p. 56, 112"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "Same design as Q12: ‘driver’ can be either sex, so D ‘A and C’ (himself/herself) is taken as intended; A ‘himself’ alone is the traditional answer. Teacher decision."
+    },
+    {
+      "id": "english-2014-g8-p1-q31",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 31,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ your aunt have children?",
+      "options": {
+        "A": "Done",
+        "B": "Does",
+        "C": "Don’t",
+        "D": "Do"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "your aunt = she → Does + base verb (have).",
+        "Textbook: English Grade 6, p. 57; English Grade 8, p. 7."
+      ],
+      "explain_simple": "Aunt = she → Does.",
+      "tips": [
+        "Does + he/she/it + base verb."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ your brother play football?",
+          "options": {
+            "A": "Do",
+            "B": "Does",
+            "C": "Is",
+            "D": "Done"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Does."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-simple",
+        "en-questions"
+      ],
+      "keywords": [
+        "does"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present simple",
+        "rule": "Present simple: he/she/it takes -s (he watches); questions and negatives use do/does + base verb (Does he help?).",
+        "note": "textbook: English Grade 6, p. 57; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q32",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 32,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "All students ______ wear their school uniforms during the examination.",
+      "options": {
+        "A": "has to",
+        "B": "may",
+        "C": "must",
+        "D": "must to"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "This is a rule → must.",
+        "“has to” is wrong with a plural subject (students have to). “must to” is wrong.",
+        "“may” means permission, not a rule.",
+        "Textbook: English Grade 7, p. 167–168, 187; English Grade 8, Unit 3 (p. 46–71)."
+      ],
+      "explain_simple": "It is a rule: students must wear uniforms.",
+      "tips": [
+        "must + base verb (no to)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Drivers ______ stop at a red light.",
+          "options": {
+            "A": "must",
+            "B": "must to",
+            "C": "has to",
+            "D": "may to"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "must."
+          ]
+        }
+      ],
+      "topics": [
+        "en-modals",
+        "en-agreement"
+      ],
+      "keywords": [
+        "must"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Modals (must, should, have to, can, may, might)",
+        "rule": "Modal verbs (must, should, can, may, might, will) are followed by the base verb without 'to'; have to / ought to keep 'to'.",
+        "note": "textbook: English Grade 7, p. 167–168, 187; English Grade 8, Unit 3 (p. 46–71)"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Subject–verb agreement",
+          "rule": "A singular subject takes a singular verb (is, has, goes); a plural subject takes a plural verb (are, have, go).",
+          "note": "textbook: English Grade 8, p. 7"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q33",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 33,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Has she completed her middle school education?",
+      "options": {
+        "A": "Yes, she has.",
+        "B": "No, she has.",
+        "C": "No, she haven’t",
+        "D": "Yes, she hasn’t"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“Has she …?” → Yes, she has / No, she hasn’t.",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "“Has she …?” → “Yes, she has.”",
+      "tips": [
+        "Short answer repeats has/hasn’t."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Have you eaten?",
+          "options": {
+            "A": "Yes, I have.",
+            "B": "Yes, I has.",
+            "C": "No, I have.",
+            "D": "Yes, I haven’t."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Yes, I have."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions",
+        "en-present-perfect"
+      ],
+      "keywords": [
+        "short answer",
+        "has"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Present perfect",
+          "rule": "Present perfect = have/has + past participle (he has taken). Use has with he/she/it and one person.",
+          "note": "textbook: English Grade 7, p. 150; English Grade 8, p. 42, 157"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q34",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 34,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I will not go to the cinema if it ______.",
+      "options": {
+        "A": "rain",
+        "B": "rains",
+        "C": "rained",
+        "D": "raining"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "First conditional: … will …, if + present simple.",
+        "it → rains.",
+        "Textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129."
+      ],
+      "explain_simple": "if it rains (present simple with -s).",
+      "tips": [
+        "In the if-part use the present simple, not will."
+      ],
+      "similar_questions": [
+        {
+          "stem": "We will stay at home if it ______ cold.",
+          "options": {
+            "A": "is",
+            "B": "was",
+            "C": "will be",
+            "D": "be"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "if + present."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conditionals",
+        "en-agreement"
+      ],
+      "keywords": [
+        "first conditional"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conditional sentences",
+        "rule": "First conditional: If + present simple, will + base verb. Zero conditional (always true): If + present, present. Second: If + past, would + base verb.",
+        "note": "textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Subject–verb agreement",
+          "rule": "A singular subject takes a singular verb (is, has, goes); a plural subject takes a plural verb (are, have, go).",
+          "note": "textbook: English Grade 8, p. 7"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q35",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 35,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-table",
+      "stem": "What is American wolf’s favourite food?",
+      "options": {
+        "A": "small animals",
+        "B": "rubbish and fish",
+        "C": "kangaroo and sheep",
+        "D": "All are correct."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "American wolf column, Food row: rubbish and fish.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "The American wolf eats rubbish and fish.",
+      "tips": [
+        "Column (which wolf) + row (which fact)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What does the European wolf eat?",
+          "options": {
+            "A": "small animals",
+            "B": "rubbish and fish",
+            "C": "kangaroo and sheep",
+            "D": "grass"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "small animals."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "table"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q36",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 36,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-table",
+      "stem": "Which wolves have the same length of tail?",
+      "options": {
+        "A": "European and American wolves",
+        "B": "European and Australian wolves",
+        "C": "American and Australian wolves",
+        "D": "All are correct."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Tails: European 40 cm, American 35 cm, Australian 35 cm.",
+        "American and Australian are the same (35 cm).",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "American and Australian wolves both have 35 cm tails.",
+      "tips": [
+        "Look for equal numbers in one row."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which wolf is the heaviest?",
+          "options": {
+            "A": "European",
+            "B": "American",
+            "C": "Australian",
+            "D": "All the same"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "40 kg."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "table",
+        "same"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q37",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 37,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-table",
+      "stem": "______ is taller than American wolf. It is also heavier than Australian wolf.",
+      "options": {
+        "A": "European wolf",
+        "B": "Australian wolf",
+        "C": "American wolf",
+        "D": "A and B"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "European: 80 cm > 50 cm (taller than American) and 40 kg > 20 kg (heavier than Australian) → yes.",
+        "Australian is taller than American, but it cannot be heavier than itself. So only A.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Only the European wolf is both taller than the American wolf and heavier than the Australian wolf.",
+      "tips": [
+        "Both sentences must be true for the answer."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ is shorter than the Australian wolf.",
+          "options": {
+            "A": "European wolf",
+            "B": "American wolf",
+            "C": "Both",
+            "D": "Neither"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "50 cm < 55 cm."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-comparison"
+      ],
+      "keywords": [
+        "taller",
+        "heavier"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Comparatives and superlatives",
+          "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+          "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q38",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 38,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-table",
+      "stem": "The wolf with the longest tail is ______.",
+      "options": {
+        "A": "European",
+        "B": "Australian",
+        "C": "American",
+        "D": "B and C"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Tails: 40 cm (European) is the longest.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "The European wolf has the longest tail (40 cm).",
+      "tips": [
+        "longest = biggest number in the tail row."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The lightest wolf is ______.",
+          "options": {
+            "A": "European",
+            "B": "Australian",
+            "C": "American",
+            "D": "B and C"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "16 kg."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-comparison"
+      ],
+      "keywords": [
+        "longest"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Comparatives and superlatives",
+          "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+          "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q39",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 39,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-table",
+      "stem": "Which of the following sentences is false about Australian wolf?",
+      "options": {
+        "A": "It eats animals as big as kangaroo and sheep.",
+        "B": "Its tail is as long as American wolf’s.",
+        "C": "It is heavier than American wolf.",
+        "D": "It is taller than European wolf."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "A true (food), B true (35 = 35), C true (20 > 16).",
+        "D false: 55 cm is shorter than 80 cm.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "The Australian wolf (55 cm) is shorter than the European wolf (80 cm).",
+      "tips": [
+        "For “false”, test every sentence."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is false about the European wolf?",
+          "options": {
+            "A": "It is 80 cm tall.",
+            "B": "It eats small animals.",
+            "C": "It is lighter than the American wolf.",
+            "D": "Its tail is 40 cm."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "40 kg is heavier than 16 kg."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "false"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q40",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 40,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-table",
+      "stem": "Which of the following sentences is true?",
+      "options": {
+        "A": "European wolf is lighter than American wolf.",
+        "B": "American wolf is heavier than Australian wolf.",
+        "C": "Australian wolf is lighter than European wolf.",
+        "D": "European wolf is the lightest of the three."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Weights: European 40, American 16, Australian 20.",
+        "C: 20 < 40 → true. The others are false.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Australian (20 kg) is lighter than European (40 kg).",
+      "tips": [
+        "lighter = smaller weight."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is true?",
+          "options": {
+            "A": "The American wolf is the tallest.",
+            "B": "The European wolf is the tallest.",
+            "C": "The Australian wolf is the shortest.",
+            "D": "All are 50 cm."
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "80 cm."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-comparison"
+      ],
+      "keywords": [
+        "lighter"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Comparatives and superlatives",
+          "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+          "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q41",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 41,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "What are dolphins?",
+      "options": {
+        "A": "They are fish.",
+        "B": "They don’t have lungs to breathe with.",
+        "C": "Like all fish, they can feed their young with milk from their mothers’ body.",
+        "D": "They are warm blooded mammals."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "First sentence: “Dolphins are not fish, but warm blooded mammals.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "The text says dolphins are warm blooded mammals.",
+      "tips": [
+        "The first sentence often gives the main fact."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How do dolphins feed their young?",
+          "options": {
+            "A": "with fish",
+            "B": "with milk from the mother",
+            "C": "with grass",
+            "D": "with insects"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Mammals feed their young with milk."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "mammals"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q42",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 42,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "Dolphins are almost different from all land animals in ______ and ______.",
+      "options": {
+        "A": "the size of their brain and their age",
+        "B": "the size of their brain and the language they use",
+        "C": "their living in groups and the language they use each other",
+        "D": "A and B"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“But dolphins are very different from almost all land animals. Their brain is nearly the same size as our own, and they live a long time.”",
+        "So the differences are brain size and long life (age). Language and groups make them LIKE bees and birds, so B and C are wrong.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "They are different in brain size and long life.",
+      "tips": [
+        "Read the sentences right after “different from”."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In what way are dolphins like bees and birds?",
+          "options": {
+            "A": "They live long.",
+            "B": "They live in groups and have their own language.",
+            "C": "They have big brains.",
+            "D": "They have beaks."
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“In this they are like other animals, such as bees and birds.”"
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "different",
+        "detail"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "Wording in the stem: ‘almost different from all land animals’ is a mix-up of ‘different from almost all land animals’. The answer is not affected."
+    },
+    {
+      "id": "english-2014-g8-p1-q43",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 43,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "Who does “They” (line 4) refer to?",
+      "options": {
+        "A": "other animals",
+        "B": "bees and birds",
+        "C": "dolphins",
+        "D": "all land animals"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“Dolphins live in groups, and speak to each other … In this they are like other animals.”",
+        "“they” = dolphins.",
+        "Textbook: English Grade 7, p. 7–8 (pronouns)."
+      ],
+      "explain_simple": "“They” means dolphins.",
+      "tips": [
+        "The pronoun usually refers to the subject of the sentence before."
+      ],
+      "similar_questions": [
+        {
+          "stem": "“Bees make honey. They live in groups.” ‘They’ refers to:",
+          "options": {
+            "A": "honey",
+            "B": "bees",
+            "C": "groups",
+            "D": "people"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "bees."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-reference"
+      ],
+      "keywords": [
+        "reference",
+        "they"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Reference words (he, she, it, them, this)",
+        "rule": "A pronoun (he, it, them, this) stands for a noun that came before it; read the sentences before it.",
+        "note": "textbook: English Grade 7, p. 7–8 (pronouns)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q44",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 44,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "Which of the following is true?",
+      "options": {
+        "A": "The relationship between dolphins and human beings started long ago.",
+        "B": "Their long and beak form nose helps dolphins to be strong at smelling.",
+        "C": "Dolphins are very kind to other fishes hence they never eat fish.",
+        "D": "all are correct"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“for thousands of years there have been stories about the dolphin and its friendship with people.” → A true.",
+        "B false: “it has no sense of smell”. C false: “it eats fish”.",
+        "Textbook: English Grade 8, reading lessons."
+      ],
+      "explain_simple": "People and dolphins have been friends for thousands of years.",
+      "tips": [
+        "“thousands of years” = long ago."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is true?",
+          "options": {
+            "A": "Dolphins have no sense of smell.",
+            "B": "Dolphins live only two years.",
+            "C": "Dolphins do not have teeth.",
+            "D": "Dolphins are fish."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“it has no sense of smell”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "true"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Inference and true/false",
+        "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+        "note": "textbook: English Grade 8, reading lessons"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q45",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 45,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "Sound helps dolphins ______",
+      "options": {
+        "A": "to find their way.",
+        "B": "to talk to each other and find food",
+        "C": "to smell the animals they want to eat",
+        "D": "A and B"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“dolphins use sounds to help them find their way. They make these sounds to talk to each other and to help them find food.”",
+        "So both A and B are true → D.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Sounds help them find their way, talk and find food. A and B.",
+      "tips": [
+        "If two options are both in the text, choose “A and B”."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Dolphins receive sounds with:",
+          "options": {
+            "A": "their ears",
+            "B": "the lower part of the mouth (the jaw)",
+            "C": "their nose",
+            "D": "their tail"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“… but the lower part of the mouth called the jaw.”"
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "sound"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q46",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 46,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "What did Pliny write about?",
+      "options": {
+        "A": "He wrote the story of dolphins in the west coast of Africa.",
+        "B": "He wrote about the way dolphins helped fishermen catch fish.",
+        "C": "He wrote about the history of Romans in 70 BCE.",
+        "D": "He wrote about all animals in 70 BCE."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“Pliny, the Roman writer, wrote about the way dolphins helped fishermen catch fish.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Pliny wrote how dolphins helped fishermen.",
+      "tips": [
+        "Find the name in the text and read that sentence."
+      ],
+      "similar_questions": [
+        {
+          "stem": "When did Pliny write about dolphins?",
+          "options": {
+            "A": "in about 70 BCE",
+            "B": "in 1970",
+            "C": "last year",
+            "D": "in 700 CE"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "“In about 70 BCE”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "Pliny"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q47",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 47,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "What does “the same thing” (line 18) refer to?",
+      "options": {
+        "A": "people who wrote about dolphins of Africa",
+        "B": "people who know about Dolphins",
+        "C": "dolphins which help fishermen catch fish",
+        "D": "a book about dolphins"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The sentence before says dolphins helped fishermen catch fish.",
+        "“Today, there are stories about the same thing” = dolphins helping fishermen.",
+        "Textbook: English Grade 7, p. 7–8 (pronouns)."
+      ],
+      "explain_simple": "“The same thing” = dolphins helping fishermen catch fish.",
+      "tips": [
+        "Look back at the sentence before."
+      ],
+      "similar_questions": [
+        {
+          "stem": "“Ali likes football. His brother likes the same thing.” ‘the same thing’ =",
+          "options": {
+            "A": "football",
+            "B": "Ali",
+            "C": "his brother",
+            "D": "a ball"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "football."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-reference"
+      ],
+      "keywords": [
+        "reference"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Reference words (he, she, it, them, this)",
+        "rule": "A pronoun (he, it, them, this) stands for a noun that came before it; read the sentences before it.",
+        "note": "textbook: English Grade 7, p. 7–8 (pronouns)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q48",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 48,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "Which of the following sentences is false?",
+      "options": {
+        "A": "The people of Eritrea don’t do any thing to show the love of Dolphins.",
+        "B": "Many countries have passed a law against the killing of Dolphins.",
+        "C": "The people of Eritrea love dolphins and hence take care of them.",
+        "D": "In our country, the name ‘Abu Salama’ is given to dolphins for they are peaceful animals."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Eritreans name hotels and shops after dolphins and put their pictures on walls. So A is false.",
+        "B, C, D agree with the text.",
+        "Textbook: English Grade 8, reading lessons."
+      ],
+      "explain_simple": "Eritreans show their love (names, pictures). So A is false.",
+      "tips": [
+        "“false” = the one that disagrees with the text."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Why do people call dolphins ‘Abu Salama’?",
+          "options": {
+            "A": "They are big.",
+            "B": "They are peaceful.",
+            "C": "They are fast.",
+            "D": "They eat fish."
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“to show that they are peaceful animals”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-inference"
+      ],
+      "keywords": [
+        "false"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Inference and true/false",
+        "rule": "A 'true' statement must agree with the text in every part; the text may say it in other words.",
+        "note": "textbook: English Grade 8, reading lessons"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2014-g8-p1-q49",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 49,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "What does “decorated” (line 26) mean?",
+      "options": {
+        "A": "to love and take care of someone",
+        "B": "to build something again",
+        "C": "to make something more attractive",
+        "D": "to make walls clear from pictures"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“We also decorate our walls with pictures of dolphins.” Pictures make walls look nicer.",
+        "decorate = to make something more attractive.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "We put pictures on walls to make them beautiful. That is “decorate”.",
+      "tips": [
+        "Put the meaning in the sentence and check it makes sense."
+      ],
+      "similar_questions": [
+        {
+          "stem": "We decorated the classroom with flowers. ‘Decorated’ means:",
+          "options": {
+            "A": "cleaned",
+            "B": "made more beautiful",
+            "C": "closed",
+            "D": "broke"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "made more beautiful."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-vocab"
+      ],
+      "keywords": [
+        "decorate"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Word meaning in a text",
+        "rule": "Put each option in place of the word; the one that keeps the meaning of the sentence is correct.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "The stem says ‘decorated’, but the passage (line 26) prints ‘decorate’. Same word; answer not affected."
+    },
+    {
+      "id": "english-2014-g8-p1-q50",
+      "exam_id": "english-2014-g8",
+      "part": 1,
+      "number": 50,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2014-story",
+      "stem": "A good title for the passage could be:",
+      "options": {
+        "A": "Dolphins and other fishes",
+        "B": "Dolphins are not fish",
+        "C": "Pliny in 70 BCE",
+        "D": "Dolphin in 70 BCE"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The whole passage describes dolphins: mammals (not fish), their life, and people.",
+        "A is wrong (dolphins are not fish). C and D are only one small part.",
+        "B is the best of the four.",
+        "Textbook: English Grade 8, Unit 10 (p. 199–220)."
+      ],
+      "explain_simple": "The text is about dolphins, which are not fish.",
+      "tips": [
+        "Reject titles that talk about a small part only."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A text describes camels: how they live in the desert, what they eat and how people use them. Best title:",
+          "options": {
+            "A": "Camels",
+            "B": "Water",
+            "C": "The desert at night",
+            "D": "People"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "It covers the whole text."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-main-idea"
+      ],
+      "keywords": [
+        "title"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Main idea and best title",
+        "rule": "The best title covers the whole text, not only one part.",
+        "note": "textbook: English Grade 8, Unit 10 (p. 199–220)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    }
+  ]
+}

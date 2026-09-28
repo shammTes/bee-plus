@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" font-family="Nunito,sans-serif" font-weight="900">
+  <defs><marker id="jntArw" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2F6B3A"/></marker></defs>
+  <!-- ball and socket -->
+  <g data-s="ball">
+    <path d="M90 60Q160 10 230 60Q226 90 196 96Q160 70 124 96Q94 90 90 60Z" fill="#FFFBF2" stroke="#9C8A76" stroke-width="3"/>
+    <circle cx="160" cy="112" r="30" fill="#FFE08A" stroke="#DDA42A" stroke-width="3"/>
+    <path d="M150 140L140 210M170 140L180 210" stroke="#9C8A76" stroke-width="3"/><path d="M146 140Q160 150 174 140L182 210L138 210Z" fill="#FFFBF2" stroke="#9C8A76" stroke-width="3"/>
+    <ellipse cx="150" cy="100" rx="9" ry="5" fill="#fff" opacity=".7"/>
+    <path d="M96 134A70 70 0 0 0 96 190" fill="none" stroke="#2F6B3A" stroke-width="4" marker-start="url(#jntArw)" marker-end="url(#jntArw)"/>
+    <path d="M224 134A70 70 0 0 1 224 190" fill="none" stroke="#2F6B3A" stroke-width="4" marker-start="url(#jntArw)" marker-end="url(#jntArw)"/>
+  </g>
+  <!-- hinge: elbow bends like a door -->
+  <g data-s="hinge">
+    <rect x="148" y="14" width="24" height="110" rx="12" fill="#FFFBF2" stroke="#9C8A76" stroke-width="3"/>
+    <g class="swing"><rect x="148" y="116" width="24" height="96" rx="12" fill="#FFFBF2" stroke="#9C8A76" stroke-width="3" transform="rotate(-50 160 124)"/></g>
+    <circle cx="160" cy="124" r="13" fill="#FFE08A" stroke="#DDA42A" stroke-width="3"/>
+    <path d="M166 196A74 74 0 0 0 226 164" fill="none" stroke="#2F6B3A" stroke-width="4" marker-start="url(#jntArw)" marker-end="url(#jntArw)"/>
+    <!-- door -->
+    <rect x="26" y="40" width="54" height="120" rx="6" fill="#FFEEBF" stroke="#DDA42A" stroke-width="3"/><circle cx="72" cy="100" r="4" fill="#8A6410"/>
+    <rect x="20" y="62" width="10" height="16" rx="3" fill="#9C8A76"/><rect x="20" y="122" width="10" height="16" rx="3" fill="#9C8A76"/>
+  </g>
+  <!-- gliding: bones slide a little -->
+  <g data-s="gliding">
+    <g fill="#FFFBF2" stroke="#9C8A76" stroke-width="3"><rect x="100" y="20" width="120" height="44" rx="14"/><rect x="108" y="84" width="120" height="44" rx="14"/><rect x="100" y="148" width="120" height="44" rx="14"/></g>
+    <g fill="#FFE08A" stroke="#DDA42A" stroke-width="2"><rect x="104" y="66" width="116" height="16" rx="8"/><rect x="104" y="130" width="116" height="16" rx="8"/></g>
+    <path d="M236 106h40" stroke="#2F6B3A" stroke-width="4" marker-start="url(#jntArw)" marker-end="url(#jntArw)"/>
+  </g>
+  <!-- fixed: skull bones, no movement -->
+  <g data-s="fixed">
+    <ellipse cx="160" cy="104" rx="84" ry="80" fill="#FFFBF2" stroke="#9C8A76" stroke-width="3"/>
+    <path d="M160 26l-8 16 12 12-10 14 10 14-8 14 8 12M84 96l18-4 10 10 14-6 12 8" fill="none" stroke="#9C8A76" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="258" cy="46" r="26" fill="#FFDCD0" stroke="#D9765A" stroke-width="3"/><path d="M246 34l24 24M270 34l-24 24" stroke="#A8412A" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- pivot: head turns and nods -->
+  <g data-s="pivot">
+    <circle cx="160" cy="84" r="54" fill="#FFF3E6" stroke="#E3C9AE" stroke-width="3"/>
+    <g fill="#6A5B50"><circle cx="142" cy="78" r="5"/><circle cx="178" cy="78" r="5"/></g><path d="M144 104Q160 116 176 104" fill="none" stroke="#6A5B50" stroke-width="4" stroke-linecap="round"/>
+    <rect x="148" y="136" width="24" height="16" rx="6" fill="#FFE08A" stroke="#DDA42A" stroke-width="3"/>
+    <rect x="148" y="156" width="24" height="16" rx="6" fill="#FFFBF2" stroke="#9C8A76" stroke-width="3"/><rect x="148" y="176" width="24" height="16" rx="6" fill="#FFFBF2" stroke="#9C8A76" stroke-width="3"/>
+    <path d="M86 150Q160 200 234 150" fill="none" stroke="#2F6B3A" stroke-width="4" marker-start="url(#jntArw)" marker-end="url(#jntArw)"/>
+  </g>
+</svg>

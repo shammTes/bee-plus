@@ -1,0 +1,3457 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "social-studies-2014-g8",
+    "year": "2014",
+    "subject": "Social Studies",
+    "grade": 8,
+    "version": "A",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2014 – Social Studies",
+    "duration": "1 hour and 10 minutes (70 minutes)",
+    "duration_minutes": 70,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "This examination paper has 50 multiple choice questions (1 to 50). Each question has 4 choices. Choose one best answer and blacken the letter of your choice on the separate answer sheet."
+      }
+    ],
+    "source": {
+      "document": "raw/2014-Social_Studies-V-A.pdf (7 pages, text layer; cover '2. Social Studies, Version A')",
+      "version_used": "A",
+      "other_version": "raw/2014-Social_Studies-V-B.pdf (same 50 questions reshuffled) – used only for cross-checking",
+      "notes": "Transcribed from the V-A text layer and checked against the page images. Bold-underlined emphasis words (not, does not, not a) are kept as <u>…</u>. Figures 1–5 (map of Eritrea with places 1–4, map of administrative regions, map of the Middle East, line A–B, shaded square) were cropped from the page images; Table 1 is given as a table.",
+      "printing_note": "Q49 and Q50 ask students to measure the printed figures with a ruler; the app cannot keep the printed size, so the explanations give the printed lengths (line A–B = 5 cm; Figure 5 outer square 5 cm, white square 3 cm, measured from the PDF). Q33 prints 'Easter Lowlands' for 'Eastern Lowlands'; Q41 option D ends '19th' without 'century'; Q46 prints 'Centeral'; Q48 prints 'Aman' (Oman); Q30 prints both 'Mustefa' and 'Mustofa'.",
+      "official_answer_key": false
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "textbooks": [
+      {
+        "subject": "Social Studies",
+        "grade": 6,
+        "file": "textbooks/social_studies_6.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Social Studies",
+        "grade": 7,
+        "file": "textbooks/social_studies_7.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      },
+      {
+        "subject": "Social Studies",
+        "grade": 8,
+        "file": "textbooks/social_studies_8.pdf",
+        "publisher": "Eritrea Ministry of Education"
+      }
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "id": "social-studies-2014-g8-p1-q01",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 1,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Archeological remains which can be used as sources of history include_____.",
+      "options": {
+        "A": "Tools",
+        "B": "Coins and weapons",
+        "C": "Buildings",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says: archaeological remains include materials found under the ground at historical places such as coins, tools, weapons, buildings etc. (Social Studies Grade 6, p. 2).",
+        "So all the options are archaeological remains. Answer: D."
+      ],
+      "explain_simple": "Tools, coins, weapons and buildings are all archaeological remains.",
+      "tips": [
+        "Archaeological remains = old things found in the ground."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one is an oral source of history?",
+          "options": {
+            "A": "An old coin",
+            "B": "A traditional song",
+            "C": "A diary",
+            "D": "A ruin"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Songs are passed by mouth. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-sources"
+      ],
+      "keywords": [
+        "archaeological remains",
+        "sources of history"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 1 – Sources, 1.2 Sources of history, p. 2",
+        "topic": "1.2 Sources of history",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 1 – Sources",
+        "section": "1.2 Sources of history",
+        "page": "2",
+        "pdf_page": 8,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q02",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 2,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The removal of natural vegetation is called:",
+      "options": {
+        "A": "Afforestation",
+        "B": "Forestation",
+        "C": "Deforestation",
+        "D": "Reforestation"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Deforestation is the removal of forests (natural vegetation) (Social Studies Grade 6, p. 102).",
+        "Afforestation and reforestation mean planting trees. Answer: C."
+      ],
+      "explain_simple": "Cutting down trees and plants is deforestation.",
+      "tips": [
+        "De- = take away."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Planting trees again where forests were cut is called:",
+          "options": {
+            "A": "deforestation",
+            "B": "reforestation",
+            "C": "erosion",
+            "D": "overgrazing"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "That is reforestation. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-environmental-problems"
+      ],
+      "keywords": [
+        "deforestation",
+        "natural vegetation"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 12 – Disaster, Deforestation, p. 102",
+        "topic": "Deforestation",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 12 – Disaster",
+        "section": "Deforestation",
+        "page": "102",
+        "pdf_page": 108,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q03",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 3,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following is <u>not</u> cultural heritage?",
+      "options": {
+        "A": "Coral",
+        "B": "Bisha",
+        "C": "Adulis",
+        "D": "Sahaba Mosque"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Cultural heritage is made by people: historical sites like Adulis, mosques and monasteries (Social Studies Grade 7, p. 91).",
+        "Coral is part of nature. It is a natural (marine) heritage (Grade 7, p. 95). Answer: A."
+      ],
+      "explain_simple": "Coral is made by nature, not by people. It is a natural heritage.",
+      "tips": [
+        "Natural heritage = from nature (coral, animals). Cultural heritage = made by people (Adulis, mosques)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one is a natural heritage?",
+          "options": {
+            "A": "Adulis",
+            "B": "Debre Bizen",
+            "C": "Mangrove forests",
+            "D": "Sahaba Mosque"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Mangroves are natural. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-heritage"
+      ],
+      "keywords": [
+        "cultural heritage",
+        "natural heritage",
+        "coral",
+        "Adulis"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 7 – Natural Heritages, 7.1 What is Heritage? – Cultural heritages, p. 91",
+        "topic": "7.1 What is Heritage? – Cultural heritages",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 7 – Natural Heritages",
+        "section": "7.1 What is Heritage? – Cultural heritages",
+        "page": "91",
+        "pdf_page": 97,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "Bisha (option B) is not in the textbook. Bisha is best known as a modern gold/copper mine, which is also not a cultural heritage. Keyed A (coral = natural heritage, the textbook answer). Teachers may check what 'Bisha' meant here."
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q04",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 4,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which statement is <u>not</u> true to Danakil Depression?",
+      "options": {
+        "A": "It is a hollow area",
+        "B": "It is enclosed by higher lands",
+        "C": "Its rivers do not have outlets",
+        "D": "It has permanent rivers"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook: a depression is a hollow or sunken area enclosed by higher lands. Depressions do not have an outlet (Social Studies Grade 8, p. 2). So A, B and C are true.",
+        "There are no permanent rivers in Eritrea (p. 16), and the Danakil is very dry. Answer: D."
+      ],
+      "explain_simple": "The Danakil has no permanent rivers.",
+      "tips": [
+        "Depression = low, closed area, no outlet."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which area of Eritrea is below sea level?",
+          "options": {
+            "A": "Hazemo",
+            "B": "Danakil Depression",
+            "C": "Keren",
+            "D": "Emba Soira"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The Danakil Depression is below sea level. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "Danakil Depression",
+        "depression",
+        "outlet"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, 1.1 What is Relief?, p. 2",
+        "topic": "1.1 What is Relief?",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "1.1 What is Relief?",
+        "page": "2",
+        "pdf_page": 8,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q05",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 5,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In Beni Amir society leaders at clan level were called",
+      "options": {
+        "A": "Omdas",
+        "B": "Diglal",
+        "C": "Sheik",
+        "D": "None of the above"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook says: the Diglal was the paramount (highest) leader of the tribes; Omdas were leaders at clan level (Social Studies Grade 7, p. 129).",
+        "Answer: A."
+      ],
+      "explain_simple": "Clan leaders of the Beni Amir were the Omdas.",
+      "tips": [
+        "Beni Amir: Diglal (top) → Omdas (clans) → Sheiks."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The highest leader of the Beni Amir was the:",
+          "options": {
+            "A": "Omda",
+            "B": "Diglal",
+            "C": "Sheik",
+            "D": "Naib"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The Diglal was the paramount chief. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-government"
+      ],
+      "keywords": [
+        "Beni Amir",
+        "Omdas",
+        "Diglal",
+        "clan"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 9 – Traditional Societies in Eritrea, Beni Amir society, p. 128-129",
+        "topic": "Beni Amir society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 9 – Traditional Societies in Eritrea",
+        "section": "Beni Amir society",
+        "page": "128-129",
+        "pdf_page": 134,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q06",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 6,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The capital of the Bahri Negassi in the early 16th century was",
+      "options": {
+        "A": "Massawa",
+        "B": "Debarwa",
+        "C": "Hirghigo",
+        "D": "Hazzega"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The capital of the Bahri Negasi was Debarwa (Social Studies Grade 6, p. 69; Grade 8, p. 65).",
+        "Later, in the 17th century, the centre of power moved to Hazzega (Grade 8, p. 70). Answer: B."
+      ],
+      "explain_simple": "In the early 1500s the capital was Debarwa.",
+      "tips": [
+        "Debarwa first; Hazzega later (17th century)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In the 17th century the centre of power moved from Debarwa to:",
+          "options": {
+            "A": "Massawa",
+            "B": "Hazzega",
+            "C": "Keren",
+            "D": "Adulis"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It moved to Hazzega. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat"
+      ],
+      "keywords": [
+        "Bahri Negasi",
+        "Debarwa",
+        "capital"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, 9.1 The Bahri Negestat, p. 69",
+        "topic": "9.1 The Bahri Negestat",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "9.1 The Bahri Negestat",
+        "page": "69",
+        "pdf_page": 75,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q07",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 7,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Decrease of soil fertility in Eritrea is because of ____.",
+      "options": {
+        "A": "Over-grazing",
+        "B": "Over-cultivation",
+        "C": "Absence of crop rotation",
+        "D": "All are correct"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Soil loses fertility when animals eat all the grass (over-grazing), when land is farmed too much (over-cultivation) and when there is no crop rotation or fallowing (Social Studies Grade 8, p. 43).",
+        "All three are causes. Answer: D."
+      ],
+      "explain_simple": "Over-grazing, over-cultivation and no crop rotation all make soil poor.",
+      "tips": [
+        "'Over-' activities damage the land."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which practice increases soil fertility?",
+          "options": {
+            "A": "Over-grazing",
+            "B": "Fallowing",
+            "C": "Deforestation",
+            "D": "Over-cultivation"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Fallowing rests the land. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-soil-conservation"
+      ],
+      "keywords": [
+        "soil fertility",
+        "over-grazing",
+        "over-cultivation",
+        "crop rotation"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 3 – The Environment, People and Development, Crop management problems, p. 43",
+        "topic": "Crop management problems",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 3 – The Environment, People and Development",
+        "section": "Crop management problems",
+        "page": "43",
+        "pdf_page": 49,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q08",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 8,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2014-g8-map1",
+      "stem": "Massawa is represented by number _____.",
+      "image": "media/social-studies-2014-q08.png",
+      "image_alt": "Figure 1: old map of Eritrea. 3 = a point on the coast east of Hamasien (opposite the islands); 1 = a point in Akkele Guzay; 2 = a point in Seraye near the Mereb; 4 = a point on the coast in the far south-east.",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "3",
+        "D": "2"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Massawa is a port on the Red Sea coast, east of Hamasien, opposite the Dahlak islands.",
+        "On the map, number 3 is on the coast at that place. Answer: C."
+      ],
+      "explain_simple": "Massawa is on the coast in the middle. That is number 3.",
+      "tips": [
+        "Massawa: middle coast (near Dahlak). Assab: far south-east coast."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The largest island group near Massawa is:",
+          "options": {
+            "A": "Dahlak",
+            "B": "Hawakil",
+            "C": "Zanzibar",
+            "D": "Socotra"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The Dahlak islands. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-map-reading",
+        "ss-eritrea-location"
+      ],
+      "keywords": [
+        "Massawa",
+        "map"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Map – Battles of Gundet and Gura (Figure 5.5), p. 69",
+        "topic": "Map – Battles of Gundet and Gura (Figure 5.5)",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Map – Battles of Gundet and Gura (Figure 5.5)",
+        "page": "69",
+        "pdf_page": 75,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q09",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 9,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2014-g8-map1",
+      "stem": "Assab is indicated by number ______.",
+      "image": "media/social-studies-2014-q08.png",
+      "image_alt": "Figure 1: old map of Eritrea. 3 = a point on the coast east of Hamasien (opposite the islands); 1 = a point in Akkele Guzay; 2 = a point in Seraye near the Mereb; 4 = a point on the coast in the far south-east.",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Assab is a port in the far south-east of Eritrea, near Djibouti.",
+        "On the map, number 4 is on the coast in the far south-east. Answer: A."
+      ],
+      "explain_simple": "Assab is in the far south-east. That is number 4.",
+      "tips": [
+        "Assab = southern port."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who bought Assab in 1869?",
+          "options": {
+            "A": "Giuseppe Sapeto",
+            "B": "Munzinger",
+            "C": "Ras Alula",
+            "D": "Ozdemir Pasha"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Sapeto bought it. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-map-reading",
+        "ss-eritrea-location"
+      ],
+      "keywords": [
+        "Assab",
+        "map"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Italian expansion – Buying of Assab, p. 74",
+        "topic": "Italian expansion – Buying of Assab",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Italian expansion – Buying of Assab",
+        "page": "74",
+        "pdf_page": 80,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q10",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 10,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2014-g8-map1",
+      "stem": "The battle of Gura is represented by number",
+      "image": "media/social-studies-2014-q08.png",
+      "image_alt": "Figure 1: old map of Eritrea. 3 = a point on the coast east of Hamasien (opposite the islands); 1 = a point in Akkele Guzay; 2 = a point in Seraye near the Mereb; 4 = a point on the coast in the far south-east.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "4",
+        "D": "3"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook map of the battles (Social Studies Grade 8, Figure 5.5, p. 69) shows Gura in Akkele Guzay, north of Gundet.",
+        "On Figure 1, number 1 is in Akkele Guzay. Answer: B."
+      ],
+      "explain_simple": "Gura is in Akkele Guzay. That is number 1.",
+      "tips": [
+        "Gura (1876) is north-east of Gundet (1875)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In which year was the Battle of Gura?",
+          "options": {
+            "A": "1875",
+            "B": "1876",
+            "C": "1885",
+            "D": "1887"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Gura was in 1876. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance",
+        "ss-map-reading"
+      ],
+      "keywords": [
+        "Gura",
+        "battle",
+        "map"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Egyptian expansion (Figure 5.5 Battles of Gundet and Gura), p. 68-69",
+        "topic": "Egyptian expansion (Figure 5.5 Battles of Gundet and Gura)",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Egyptian expansion (Figure 5.5 Battles of Gundet and Gura)",
+        "page": "68-69",
+        "pdf_page": 74,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "Map question: the answer follows the textbook map (G8 Figure 5.5), where Gura is in Akkele Guzay (1) and Gundet is further south-west, near the Mereb in Seraye (2)."
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q11",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 11,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2014-g8-map1",
+      "stem": "The battle of Gundet is represented by number",
+      "image": "media/social-studies-2014-q08.png",
+      "image_alt": "Figure 1: old map of Eritrea. 3 = a point on the coast east of Hamasien (opposite the islands); 1 = a point in Akkele Guzay; 2 = a point in Seraye near the Mereb; 4 = a point on the coast in the far south-east.",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "4",
+        "D": "2"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook map (Social Studies Grade 8, Figure 5.5, p. 69) shows Gundet south-west of Gura, near the Mereb.",
+        "On Figure 1, number 2 is in Seraye near the Mereb. Answer: D."
+      ],
+      "explain_simple": "Gundet is near the Mereb. That is number 2.",
+      "tips": [
+        "Gundet (1875) came first, then Gura (1876)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Egyptians were defeated at Gundet by the army of:",
+          "options": {
+            "A": "Yohannes",
+            "B": "Ozdemir Pasha",
+            "C": "the Italians",
+            "D": "the Mahdi"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The Abyssinian army of Yohannes. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance",
+        "ss-map-reading"
+      ],
+      "keywords": [
+        "Gundet",
+        "battle",
+        "map"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Egyptian expansion (Figure 5.5 Battles of Gundet and Gura), p. 68-69",
+        "topic": "Egyptian expansion (Figure 5.5 Battles of Gundet and Gura)",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Egyptian expansion (Figure 5.5 Battles of Gundet and Gura)",
+        "page": "68-69",
+        "pdf_page": 74,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "Map question: the answer follows the textbook map (G8 Figure 5.5)."
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q12",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 12,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Convert 1: 1,000,000 into scale statement.",
+      "options": {
+        "A": "1cm to 1 km",
+        "B": "1 cm to 10 km",
+        "C": "1 cm to 100 km",
+        "D": "1cm to 1000 km"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "1 : 1,000,000 means 1 cm on the map = 1,000,000 cm on the ground (Social Studies Grade 6, p. 16).",
+        "100 cm = 1 m, so 1,000,000 cm = 10,000 m. 1000 m = 1 km, so 10,000 m = 10 km.",
+        "Scale statement: 1 cm to 10 km. Answer: B."
+      ],
+      "explain_simple": "1,000,000 cm is 10 km. So 1 cm stands for 10 km.",
+      "tips": [
+        "To change cm to km, divide by 100,000."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Change 1 : 500,000 into a scale statement.",
+          "options": {
+            "A": "1 cm to 5 km",
+            "B": "1 cm to 50 km",
+            "C": "1 cm to 500 km",
+            "D": "1 cm to 0.5 km"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "500,000 cm = 5 km. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-scale"
+      ],
+      "keywords": [
+        "representative fraction",
+        "scale statement"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 3 – Distance and Scale, 3.2 Scale statement and representative fraction, p. 16",
+        "topic": "3.2 Scale statement and representative fraction",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 3 – Distance and Scale",
+        "section": "3.2 Scale statement and representative fraction",
+        "page": "16",
+        "pdf_page": 22,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q13",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 13,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In order to prevent lightning from destruction, we should:",
+      "options": {
+        "A": "Not plant trees close to our house,",
+        "B": "Cut off the branches of trees near our house",
+        "C": "Not use telephone during lightning",
+        "D": "All are correct"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook gives three rules: do not plant trees close to your houses; cut off the branches of trees near houses; do not use the telephone during lightning (Social Studies Grade 6, p. 107).",
+        "All three are correct. Answer: D."
+      ],
+      "explain_simple": "All three rules protect us from lightning.",
+      "tips": [
+        "Lightning often strikes tall trees."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Lightning is:",
+          "options": {
+            "A": "a flash of electricity from clouds",
+            "B": "a strong wind",
+            "C": "a long dry period",
+            "D": "an earthquake"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "It is a flash of electricity. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-disasters-eritrea"
+      ],
+      "keywords": [
+        "lightning",
+        "safety"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 12 – Disaster, 12.4 Lightning, p. 107",
+        "topic": "12.4 Lightning",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 12 – Disaster",
+        "section": "12.4 Lightning",
+        "page": "107",
+        "pdf_page": 113,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q14",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 14,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one is true of the Bahri Neghestat?",
+      "options": {
+        "A": "They ruled over the highlands of Midri Bahri",
+        "B": "They represented the Turks in Massawa",
+        "C": "Their capital was Debarwa",
+        "D": "A and C are answers"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The Bahri Negasi ruled Midri Bahri, the Eritrean highlands; their capital was Debarwa (Social Studies Grade 6, pp. 68–69).",
+        "The Turks were represented in Massawa by the Naibs, not the Bahri Negasi. So A and C are true. Answer: D."
+      ],
+      "explain_simple": "They ruled the highlands (Midri Bahri) from Debarwa. So A and C.",
+      "tips": [
+        "Naibs = Turkish deputies on the coast; Bahri Negasi = highland rulers."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Midri Bahri means:",
+          "options": {
+            "A": "Land by the Sea",
+            "B": "Land of Punt",
+            "C": "Western land",
+            "D": "Land of rivers"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "It means 'Land by the Sea'. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat"
+      ],
+      "keywords": [
+        "Bahri Negestat",
+        "Midri Bahri",
+        "Debarwa"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, 9.1 The Bahri Negestat, p. 68-69",
+        "topic": "9.1 The Bahri Negestat",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "9.1 The Bahri Negestat",
+        "page": "68-69",
+        "pdf_page": 74,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q15",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 15,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "At the early stage of human development, people moved from place to place:",
+      "options": {
+        "A": "Because they were able to grow crops",
+        "B": "In order to find things to eat",
+        "C": "To defend themselves from animals",
+        "D": "A and C are answers"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Early people lived by hunting and gathering fruits. When the food in one place was finished, they moved to find food (Social Studies Grade 7, p. 64).",
+        "They did not grow crops yet. Answer: B."
+      ],
+      "explain_simple": "Early people moved to find food.",
+      "tips": [
+        "Hunters and gatherers move; farmers settle."
+      ],
+      "similar_questions": [
+        {
+          "stem": "People began to live in one place when they started to:",
+          "options": {
+            "A": "hunt",
+            "B": "grow crops",
+            "C": "gather fruits",
+            "D": "use fire"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Farming made people settle. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "early humans",
+        "hunting and gathering"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, 5.1 Primitive Communal Society, p. 64-65",
+        "topic": "5.1 Primitive Communal Society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "5.1 Primitive Communal Society",
+        "page": "64-65",
+        "pdf_page": 70,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q16",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 16,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following statements is wrong about a scale?",
+      "options": {
+        "A": "Scale is the relationship between map distance and ground distance",
+        "B": "Scales help us to measure distance along a path",
+        "C": "Scales help us to calculate areas of places on map",
+        "D": "Scales can tell us the exact location of a place"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "A scale shows the relationship between map distance and ground distance; we use it to find distances and areas (Social Studies Grade 6, p. 16; Grade 7, Unit 1).",
+        "A scale does not give the location of a place; latitude and longitude do that. Answer: D."
+      ],
+      "explain_simple": "A scale gives distance, not location.",
+      "tips": [
+        "Location = latitude and longitude. Distance = scale."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What helps us find the exact location of a place on a map?",
+          "options": {
+            "A": "The scale",
+            "B": "Latitude and longitude",
+            "C": "The title",
+            "D": "The colours"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Latitude and longitude. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-scale"
+      ],
+      "keywords": [
+        "scale",
+        "map distance",
+        "location"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 3 – Distance and Scale, 3.2 Scale, p. 16",
+        "topic": "3.2 Scale",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 3 – Distance and Scale",
+        "section": "3.2 Scale",
+        "page": "16",
+        "pdf_page": 22,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q17",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 17,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The earliest stage of human development is known as:",
+      "options": {
+        "A": "Feudalism",
+        "B": "Capitalism",
+        "C": "Primitive Communal System",
+        "D": "Clan Society"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The first stage of social development is the Primitive Communal System (Social Studies Grade 7, p. 63). Answer: C."
+      ],
+      "explain_simple": "The first stage is the Primitive Communal System.",
+      "tips": [
+        "Primitive communal → slave → feudal."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In the primitive communal system, property was:",
+          "options": {
+            "A": "owned by kings",
+            "B": "shared by all",
+            "C": "owned by slave owners",
+            "D": "owned by lords"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "People shared everything. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "primitive communal",
+        "stages"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, 5.1 Primitive Communal Society, p. 63-64",
+        "topic": "5.1 Primitive Communal Society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "5.1 Primitive Communal Society",
+        "page": "63-64",
+        "pdf_page": 69,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q18",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 18,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following statements is <u>not</u> the result of Ozone depletion?",
+      "options": {
+        "A": "Water and land pollution",
+        "B": "Skin cancer and blindness",
+        "C": "Reduce the ability of people to respond to infection",
+        "D": "Destroy plankton in oceans"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "When the ozone layer is thin, ultra-violet rays reach the earth. The textbook says they cause skin cancer and blindness, reduce the ability to respond to infections, and destroy plankton (Social Studies Grade 7, p. 36).",
+        "Water and land pollution are not listed. Answer: A."
+      ],
+      "explain_simple": "Ozone holes cause skin cancer, weak health and loss of plankton, not land and water pollution.",
+      "tips": [
+        "Ozone layer = shield against ultra-violet rays."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The ozone layer protects us from:",
+          "options": {
+            "A": "rain",
+            "B": "ultra-violet rays",
+            "C": "wind",
+            "D": "earthquakes"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It blocks ultra-violet rays. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-environmental-problems"
+      ],
+      "keywords": [
+        "ozone depletion",
+        "ultra-violet rays"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 3 – People and the Environment, Depletion of the Ozone Layer, p. 36",
+        "topic": "Depletion of the Ozone Layer",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 3 – People and the Environment",
+        "section": "Depletion of the Ozone Layer",
+        "page": "36",
+        "pdf_page": 42,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q19",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 19,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The relief diversity in Eritrea has resulted in the variation of____.",
+      "options": {
+        "A": "Climate",
+        "B": "Soil types",
+        "C": "Natural vegetation",
+        "D": "All are correct"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says relief differences cause variations in climate, natural vegetation, soil and wild animals (Social Studies Grade 8, p. 3).",
+        "Answer: D."
+      ],
+      "explain_simple": "Different relief gives different climate, soils and plants.",
+      "tips": [
+        "Relief → climate → soil and vegetation."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Asmara is cooler than Massawa mainly because of its:",
+          "options": {
+            "A": "high altitude",
+            "B": "sea",
+            "C": "soil",
+            "D": "size"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Asmara is high. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "relief",
+        "climate",
+        "soil",
+        "vegetation"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, 1.1 What is Relief?, p. 3",
+        "topic": "1.1 What is Relief?",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "1.1 What is Relief?",
+        "page": "3",
+        "pdf_page": 9,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q20",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 20,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Deep and elongated U-shaped valleys are called:",
+      "options": {
+        "A": "Gorge",
+        "B": "Depression",
+        "C": "Trough",
+        "D": "Ridges"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook says: troughs are deep and elongated U-shaped valleys, for example Keren, Hazemo and Agrae troughs (Social Studies Grade 8, p. 4).",
+        "Gorges are steep, deep and narrow valleys. Answer: C."
+      ],
+      "explain_simple": "A long U-shaped valley is a trough.",
+      "tips": [
+        "Trough = U-shaped; gorge = narrow and steep."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Steep-sided, deep and narrow valleys are called:",
+          "options": {
+            "A": "troughs",
+            "B": "gorges",
+            "C": "plains",
+            "D": "plateaus"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "They are gorges. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "trough",
+        "gorge",
+        "valley"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, 1.2 The Central Highlands, p. 4",
+        "topic": "1.2 The Central Highlands",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "1.2 The Central Highlands",
+        "page": "4",
+        "pdf_page": 10,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q21",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 21,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "A long steep slope separating the highlands from the plains in Eritrea is called:",
+      "options": {
+        "A": "Trough",
+        "B": "Escarpment",
+        "C": "Plateau",
+        "D": "Gorges"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook says: an escarpment is a long steep slope or cliff separating an area of high ground or plateau from the plain below (Social Studies Grade 8, p. 4).",
+        "Answer: B."
+      ],
+      "explain_simple": "The steep slope between highlands and lowlands is an escarpment.",
+      "tips": [
+        "Eritrea has an eastern and a western escarpment."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A high, flat area of land is called a:",
+          "options": {
+            "A": "plateau",
+            "B": "gorge",
+            "C": "depression",
+            "D": "escarpment"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "It is a plateau. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "escarpment"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, 1.3 Escarpments, p. 4",
+        "topic": "1.3 Escarpments",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "1.3 Escarpments",
+        "page": "4",
+        "pdf_page": 10,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q22",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 22,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "An example of Block Mountain is____.",
+      "options": {
+        "A": "Alid",
+        "B": "Amba Soira",
+        "C": "Ghedem",
+        "D": "Dollah"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook says: Mount Ghedem is an example of block mountain (Social Studies Grade 8, p. 7).",
+        "Alid and Dollah are volcanoes; Emba Soira is an extinct volcano. Answer: C."
+      ],
+      "explain_simple": "Mount Ghedem is a block mountain.",
+      "tips": [
+        "Ghedem (near Massawa) = block mountain."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Mount Dollah in the Buri Peninsula is:",
+          "options": {
+            "A": "an active volcano",
+            "B": "a block mountain",
+            "C": "a trough",
+            "D": "a plateau"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "It is an active volcano. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "block mountain",
+        "Ghedem"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, 1.5 Eastern Lowlands, p. 7",
+        "topic": "1.5 Eastern Lowlands",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "1.5 Eastern Lowlands",
+        "page": "7",
+        "pdf_page": 13,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q23",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 23,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The occupation of Massawa by the Turks took place in___.",
+      "options": {
+        "A": "1540",
+        "B": "1885",
+        "C": "1557",
+        "D": "1869"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "In 1557 the Turks occupied Massawa and Hirghigo (Social Studies Grade 8, p. 64).",
+        "1885 is when the Italians took Massawa; 1869 is when Sapeto bought Assab. Answer: C."
+      ],
+      "explain_simple": "The Turks took Massawa in 1557.",
+      "tips": [
+        "1557 Turks; 1885 Italians."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who led the Turkish forces that captured Massawa?",
+          "options": {
+            "A": "Ozdemir Pasha",
+            "B": "Munzinger",
+            "C": "Ras Alula",
+            "D": "Arendrup"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Ozdemir Pasha. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "Turks",
+        "Massawa",
+        "1557"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, 5.1 Turkish expansion, p. 64",
+        "topic": "5.1 Turkish expansion",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "5.1 Turkish expansion",
+        "page": "64",
+        "pdf_page": 70,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q24",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 24,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The loss of moisture by the combination of evaporation and transpiration is called______.",
+      "options": {
+        "A": "Hydrological Cycle",
+        "B": "Hydrometeorology",
+        "C": "Evapo-transpiration",
+        "D": "Moisture circulation"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook says: the loss of moisture by the combination of evaporation and transpiration is called evapo-transpiration (Social Studies Grade 8, p. 12).",
+        "Answer: C."
+      ],
+      "explain_simple": "Evaporation + transpiration = evapo-transpiration.",
+      "tips": [
+        "The name joins the two words."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Water vapour released through the leaves of plants is called:",
+          "options": {
+            "A": "evaporation",
+            "B": "transpiration",
+            "C": "condensation",
+            "D": "infiltration"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "That is transpiration. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-water-cycle"
+      ],
+      "keywords": [
+        "evapo-transpiration"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, 2.1 What is Hydrology?, p. 12",
+        "topic": "2.1 What is Hydrology?",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "2.1 What is Hydrology?",
+        "page": "12",
+        "pdf_page": 18,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q25",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 25,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Why is the amount of groundwater in Hazemo Plain and Wia very High? Because these areas are covered by_____.",
+      "options": {
+        "A": "Limestone",
+        "B": "Alluvial Soils",
+        "C": "Dense Forests",
+        "D": "Impermeable Rocks"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook says: in places where there are alluvial soils there is a large amount of groundwater, for example Hazemo Plains, Tessenei, Alighider, Goluge and Wia (Social Studies Grade 8, pp. 23–24).",
+        "Limestone and impermeable rocks give poor groundwater. Answer: B."
+      ],
+      "explain_simple": "Hazemo and Wia have alluvial soils. Water sinks in easily.",
+      "tips": [
+        "Alluvial soil (from rivers) holds much groundwater."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Places with limestone or sandstone (like Adi Keih) have:",
+          "options": {
+            "A": "rich groundwater",
+            "B": "poor groundwater",
+            "C": "many lakes",
+            "D": "permanent rivers"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "The rocks do not let water seep down. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-groundwater"
+      ],
+      "keywords": [
+        "groundwater",
+        "alluvial soil",
+        "Hazemo",
+        "Wia"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 2 – Hydrology and River System in Eritrea, 2.3 Groundwater, p. 23-24",
+        "topic": "2.3 Groundwater",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 2 – Hydrology and River System in Eritrea",
+        "section": "2.3 Groundwater",
+        "page": "23-24",
+        "pdf_page": 29,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q26",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 26,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The Turkish military leader who led Turkish forces in the capture of Massawa was:",
+      "options": {
+        "A": "Raul Pasha",
+        "B": "Mohammed Ahmed",
+        "C": "Ozdemir Pasha",
+        "D": "Khedive Ismail"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The textbook says: the Turkish forces were led by Ozdemir Pasha (Social Studies Grade 8, p. 64).",
+        "Mohammed Ahmed was the Mahdi of Sudan; Khedive Ismail was the ruler of Egypt. Answer: C."
+      ],
+      "explain_simple": "Ozdemir Pasha led the Turks into Massawa.",
+      "tips": [
+        "Ozdemir Pasha = Turks 1557."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Khedive Ismail was the ruler of:",
+          "options": {
+            "A": "Turkey",
+            "B": "Egypt",
+            "C": "Sudan",
+            "D": "Italy"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "He ruled Egypt. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "Ozdemir Pasha",
+        "Turks",
+        "Massawa"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, 5.1 Turkish expansion, p. 64",
+        "topic": "5.1 Turkish expansion",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "5.1 Turkish expansion",
+        "page": "64",
+        "pdf_page": 70,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q27",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 27,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The diversity of economic activities in Eritrea is due to:",
+      "options": {
+        "A": "Climatic diversity",
+        "B": "Physical diversity",
+        "C": "Soil diversity",
+        "D": "All are correct"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Different climate, relief (physical features) and soils allow different activities: farming, herding, fishing and mining (Social Studies Grade 6, pp. 93–94).",
+        "Answer: D."
+      ],
+      "explain_simple": "Different climates, land and soils give different kinds of work.",
+      "tips": [
+        "Physical environment = soil, climate, relief, resources."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Fishing is common along the coast because of:",
+          "options": {
+            "A": "the sea",
+            "B": "the highlands",
+            "C": "cold weather",
+            "D": "forests"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The sea gives fish. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-economic-sectors"
+      ],
+      "keywords": [
+        "economic activities",
+        "physical environment",
+        "climate",
+        "soil"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 11 – Economic Activities, 11.1 The physical environment and economic activities, p. 93-94",
+        "topic": "11.1 The physical environment and economic activities",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 11 – Economic Activities",
+        "section": "11.1 The physical environment and economic activities",
+        "page": "93-94",
+        "pdf_page": 99,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q28",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 28,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2014-g8-crops",
+      "stem": "Which of the above groups of crops are oil Seeds?",
+      "options": {
+        "A": "Barley, wheat, maize, African millet",
+        "B": "Chick pea, broad bean, lentils, pea",
+        "C": "Niger seed, linseed, sesame, groundnut",
+        "D": "Barley, broad bean, Niger seed"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Oil seeds give oil: Niger seed, linseed, sesame and groundnut (Social Studies Grade 8, Unit 9).",
+        "A is cereals, B is pulses, D is mixed. Answer: C."
+      ],
+      "explain_simple": "Niger seed, linseed, sesame and groundnut give oil.",
+      "tips": [
+        "Cereals (grains), pulses (beans and peas), oil seeds."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which group is all cereals?",
+          "options": {
+            "A": "Barley, wheat, maize",
+            "B": "Sesame, linseed, groundnut",
+            "C": "Pea, lentil, bean",
+            "D": "Maize, sesame, pea"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Barley, wheat and maize are cereals. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-farming"
+      ],
+      "keywords": [
+        "oil seeds",
+        "sesame",
+        "linseed",
+        "groundnut",
+        "Niger seed"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 9 – Economic Activities in Eritrea, 9.1 Agriculture – crops, p. 131",
+        "topic": "9.1 Agriculture – crops",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 9 – Economic Activities in Eritrea",
+        "section": "9.1 Agriculture – crops",
+        "page": "131",
+        "pdf_page": 137,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q29",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 29,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2014-g8-areas",
+      "stem": "Which country is the largest of all?",
+      "stem_tables": [
+        {
+          "title": "Table 1",
+          "kind": "data",
+          "columns": [
+            "No",
+            "Country",
+            "Area in sq. km"
+          ],
+          "rows": [
+            [
+              "1",
+              "Malawi",
+              "118,480"
+            ],
+            [
+              "2",
+              "Benin",
+              "112,620"
+            ],
+            [
+              "3",
+              "Eritrea",
+              "124,330"
+            ],
+            [
+              "4",
+              "Liberia",
+              "111,370"
+            ]
+          ],
+          "align": [
+            "center",
+            "left",
+            "right"
+          ]
+        }
+      ],
+      "options": {
+        "A": "Malawi",
+        "B": "Benin",
+        "C": "Liberia",
+        "D": "Eritrea"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Compare the areas: Eritrea 124,330 km² is bigger than Malawi 118,480, Benin 112,620 and Liberia 111,370.",
+        "The textbook gives Eritrea's area as 124,330 km² (Social Studies Grade 8, p. 56). Answer: D."
+      ],
+      "explain_simple": "Eritrea has the biggest number, 124,330 km².",
+      "tips": [
+        "Compare the first digits, then the next ones."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which country in the table is the smallest?",
+          "options": {
+            "A": "Malawi",
+            "B": "Benin",
+            "C": "Eritrea",
+            "D": "Liberia"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "Liberia 111,370 is the smallest. Answer: D."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-eritrea-location"
+      ],
+      "keywords": [
+        "area",
+        "size of Eritrea",
+        "table"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 4 – Eritrea and Its Strategic Location, 4.2 Size of Eritrea, p. 56",
+        "topic": "4.2 Size of Eritrea",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 4 – Eritrea and Its Strategic Location",
+        "section": "4.2 Size of Eritrea",
+        "page": "56",
+        "pdf_page": 62,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q30",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 30,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2014-g8-jobs",
+      "stem": "Who is involved in primary economic activities?",
+      "options": {
+        "A": "Habtom",
+        "B": "Mustofa",
+        "C": "Seid",
+        "D": "Alem"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Primary activities take things from nature, like fishing (Social Studies Grade 6, p. 95).",
+        "Seid is a fisherman: primary. Alem (textile factory) is secondary. Mustefa (restaurant) and Habtom (merchant) are tertiary. Answer: C."
+      ],
+      "explain_simple": "Seid catches fish from nature. That is primary work.",
+      "tips": [
+        "Primary = nature; secondary = factory; tertiary = services and trade."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Alem works in a textile factory. His work is:",
+          "options": {
+            "A": "primary",
+            "B": "secondary",
+            "C": "tertiary",
+            "D": "quaternary"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Factory work is secondary. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-economic-sectors"
+      ],
+      "keywords": [
+        "primary activity",
+        "fishing",
+        "secondary",
+        "tertiary"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 11 – Economic Activities, 11.2 Types of economic activities, p. 95",
+        "topic": "11.2 Types of economic activities",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 11 – Economic Activities",
+        "section": "11.2 Types of economic activities",
+        "page": "95",
+        "pdf_page": 101,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q31",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 31,
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "social-studies-2014-g8-disasters",
+      "stem": "Which one is <u>not a</u> major disaster in Eritrea?",
+      "options": {
+        "A": "Droughts",
+        "B": "Pests",
+        "C": "War",
+        "D": "Epidemics"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The paragraph lists droughts, epidemics, pests, earthquakes, volcanism and war as disasters in Eritrea.",
+        "The textbook also says the major disasters in Eritrea are drought, earthquakes, volcanic eruption, epidemics, pest infestation and war (Social Studies Grade 7, p. 113).",
+        "So strictly, all four options are major disasters. War is the only one that is man-made (not natural), so C is the most likely intended answer."
+      ],
+      "explain_simple": "All four are named as disasters. War is the only man-made one, so C is the best guess.",
+      "tips": [
+        "Natural disasters: drought, earthquake, volcano. Man-made: war, pollution."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which one is a man-made disaster?",
+          "options": {
+            "A": "Earthquake",
+            "B": "Drought",
+            "C": "War",
+            "D": "Volcanic eruption"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "War is made by people. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-disasters-eritrea"
+      ],
+      "keywords": [
+        "disasters",
+        "drought",
+        "war",
+        "epidemics",
+        "pests"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 8 – Disasters in Eritrea, 8.1 What is Disaster?, p. 113",
+        "topic": "8.1 What is Disaster?",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 8 – Disasters in Eritrea",
+        "section": "8.1 What is Disaster?",
+        "page": "113",
+        "pdf_page": 119,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "low",
+      "review_flag": "No correct option: the paragraph and the textbook (G7 p. 113) list droughts, pests, war and epidemics all as major disasters in Eritrea. Keyed C (war, the only man-made one) as the most likely intended answer. Teacher decision needed."
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q32",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 32,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which event comes last?",
+      "options": {
+        "A": "Battle of Dogalli",
+        "B": "Battle of Gundet",
+        "C": "Battle of Gura",
+        "D": "Italian occupation of Massawa"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Gundet 1875, Gura 1876, Italian occupation of Massawa 1885, Battle of Dogali 1887 (Social Studies Grade 8, pp. 68–75).",
+        "The last is Dogali. Answer: A."
+      ],
+      "explain_simple": "Dogali (1887) came after the others.",
+      "tips": [
+        "1875 → 1876 → 1885 → 1887."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Battle of Dogali was fought between Ras Alula and the:",
+          "options": {
+            "A": "Italians",
+            "B": "Egyptians",
+            "C": "Turks",
+            "D": "British"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Ras Alula fought the Italians. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance",
+        "ss-chronology"
+      ],
+      "keywords": [
+        "Dogali",
+        "Gundet",
+        "Gura",
+        "Massawa 1885"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Italian expansion to the interior, p. 74-75",
+        "topic": "Italian expansion to the interior",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Italian expansion to the interior",
+        "page": "74-75",
+        "pdf_page": 80,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q33",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 33,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which is the characteristic of the Easter Lowlands?",
+      "options": {
+        "A": "Some lakes in Danakil Depression are below sea level,",
+        "B": "There are block Mountain and Active volcanoes,",
+        "C": "It has several hot springs and mountains emitting hot steams",
+        "D": "All are correct"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says the Eastern Lowlands include the Danakil Depression (below sea level), active volcanoes, the block mountain Ghedem and many hot springs (Social Studies Grade 8, pp. 6–7).",
+        "All are correct. Answer: D. ('Easter' is a misprint for 'Eastern'.)"
+      ],
+      "explain_simple": "The Eastern Lowlands have all these features.",
+      "tips": [
+        "Eastern Lowlands: Danakil, volcanoes, Ghedem, hot springs."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which hot spring is in the Eastern Lowlands?",
+          "options": {
+            "A": "Ailet",
+            "B": "Keren",
+            "C": "Mendefera",
+            "D": "Barentu"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Ailet in Gahtelay. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-relief-regions"
+      ],
+      "keywords": [
+        "Eastern Lowlands",
+        "volcanoes",
+        "hot springs",
+        "Danakil"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 1 – Relief in Eritrea, 1.5 Eastern Lowlands, p. 6-7",
+        "topic": "1.5 Eastern Lowlands",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 1 – Relief in Eritrea",
+        "section": "1.5 Eastern Lowlands",
+        "page": "6-7",
+        "pdf_page": 12,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q34",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 34,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The Battle of Halay marks _____.",
+      "options": {
+        "A": "The victory of the Italians over Ethiopia",
+        "B": "Victory of Deggiat Aberra Hailu over the Italians",
+        "C": "The defeat of Deggiat Hailu by Ras Woldemichael",
+        "D": "The defeat of Bahta Hagos by the Italians"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says Degiat Bahta Hagos fought an Italian force at Halay and was killed in this battle, the Battle of Halay, December 1894 (Social Studies Grade 8, p. 79).",
+        "Answer: D."
+      ],
+      "explain_simple": "At Halay (1894) the Italians defeated Bahta Hagos.",
+      "tips": [
+        "Bahta Hagos = resistance against the Italians, died at Halay 1894."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Bahta Hagos rose against the:",
+          "options": {
+            "A": "Italians",
+            "B": "Turks",
+            "C": "Egyptians",
+            "D": "British"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "He fought the Italians. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-italian-colonialism",
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "Halay",
+        "Bahta Hagos",
+        "1894"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Resistance against the Italians, p. 79",
+        "topic": "Resistance against the Italians",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Resistance against the Italians",
+        "page": "79",
+        "pdf_page": 85,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q35",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 35,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which sequence of events is correct?",
+      "options": {
+        "A": "Treaty of Addis Abeba → Seizing of Massawa by Italy → Battle of Dogalli → Italy occupies Assab",
+        "B": "Seizing of Massawa by Italy → Battle of Dogalli → Treaty of Addis Abeba → Italy occupies Assab",
+        "C": "Italy occupies Assab → Italy seizes Massawa → Battle of Dogalli → Treaty of Addis Abeba",
+        "D": "Battle of Dogalli → Italy occupies Assab → Treaty of Addis Abeba → Italy seizes Massawa"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Italy occupied Assab (1869/1882), took Massawa (1885), fought at Dogali (1887), and the Treaty of Addis Ababa was in 1896 (Social Studies Grade 8, pp. 74–76).",
+        "Answer: C."
+      ],
+      "explain_simple": "Assab → Massawa → Dogali → Treaty of Addis Ababa.",
+      "tips": [
+        "Italy moved from the south coast (Assab) to Massawa, then inland."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Treaty of Addis Ababa was signed in:",
+          "options": {
+            "A": "1885",
+            "B": "1889",
+            "C": "1896",
+            "D": "1941"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "It was in 1896. Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-italian-colonialism",
+        "ss-chronology"
+      ],
+      "keywords": [
+        "Assab",
+        "Massawa",
+        "Dogali",
+        "Treaty of Addis Ababa"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Italian expansion, p. 74-76",
+        "topic": "Italian expansion",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Italian expansion",
+        "page": "74-76",
+        "pdf_page": 80,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q36",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 36,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The first Eritrean political party was _____.",
+      "options": {
+        "A": "Mahber Fikri Hager",
+        "B": "The Moslem League",
+        "C": "Pro-Italy Party",
+        "D": "Mahber Netsanet Ebyet Ertra"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The textbook says: the Moslem League (founded in Keren on December 3, 1946) was the first Eritrean political party (Social Studies Grade 8, p. 81).",
+        "Mahber Fikri Hager (1941) was an association, not a party. Answer: B."
+      ],
+      "explain_simple": "The Moslem League (1946) was the first political party.",
+      "tips": [
+        "Mahber Fikri Hager = association (1941). Moslem League = first party (1946)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Moslem League was founded in:",
+          "options": {
+            "A": "Asmara",
+            "B": "Keren",
+            "C": "Massawa",
+            "D": "Assab"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It was founded in Keren. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-british-un"
+      ],
+      "keywords": [
+        "Moslem League",
+        "political parties",
+        "1946"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, 5.5 Political movements during the British Period, p. 81",
+        "topic": "5.5 Political movements during the British Period",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "5.5 Political movements during the British Period",
+        "page": "81",
+        "pdf_page": 87,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q37",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 37,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of these can be considered as a primary source of history?",
+      "options": {
+        "A": "Book written long after an event",
+        "B": "Oral tradition",
+        "C": "A legend",
+        "D": "An eye witness account"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says: eye-witness accounts, oral interviews and diaries are examples of primary sources (Social Studies Grade 6, p. 4).",
+        "A book written long after an event is a secondary source. Answer: D."
+      ],
+      "explain_simple": "An eye-witness saw the event. That is a primary source.",
+      "tips": [
+        "Primary = from people who were there. Secondary = written later by others."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A diary written by a soldier during a war is a:",
+          "options": {
+            "A": "primary source",
+            "B": "secondary source",
+            "C": "legend",
+            "D": "map"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "He was there, so it is primary. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-sources"
+      ],
+      "keywords": [
+        "primary source",
+        "eye-witness"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 1 – Sources, 1.3 Primary sources, p. 4",
+        "topic": "1.3 Primary sources",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 1 – Sources",
+        "section": "1.3 Primary sources",
+        "page": "4",
+        "pdf_page": 10,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q38",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 38,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What century are the years between 201 and 300 C.E?",
+      "options": {
+        "A": "3rd century",
+        "B": "5th century",
+        "C": "2nd century",
+        "D": "None of the above"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Years 1–100 C.E. are the 1st century, 101–200 the 2nd, and 201–300 the 3rd century (Social Studies Grade 6, p. 13).",
+        "Answer: A."
+      ],
+      "explain_simple": "201 to 300 is the 3rd century.",
+      "tips": [
+        "Hundreds + 1 = century (for 201–299)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The years 1801–1900 are the:",
+          "options": {
+            "A": "18th century",
+            "B": "19th century",
+            "C": "20th century",
+            "D": "17th century"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "They are the 19th century. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-time"
+      ],
+      "keywords": [
+        "century",
+        "C.E."
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 2 – Measuring Time, 2.3 B.C.E. and C.E., p. 13",
+        "topic": "2.3 B.C.E. and C.E.",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 2 – Measuring Time",
+        "section": "2.3 B.C.E. and C.E.",
+        "page": "13",
+        "pdf_page": 19,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q39",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 39,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following contributed to early human development?",
+      "options": {
+        "A": "The use of fire",
+        "B": "The invention of the bow and arrow",
+        "C": "The beginning of farming",
+        "D": "All of the above."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Early humans developed by using fire, inventing better tools like the bow and arrow, and starting farming (Social Studies Grade 7, pp. 64–66).",
+        "All helped. Answer: D."
+      ],
+      "explain_simple": "Fire, bow and arrow, and farming all helped people develop.",
+      "tips": [
+        "Better tools and new skills = human development."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What did the use of fire help early people to do?",
+          "options": {
+            "A": "cook food and keep warm",
+            "B": "write books",
+            "C": "build cars",
+            "D": "make money"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Fire gave cooking and warmth. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "early humans",
+        "fire",
+        "bow and arrow",
+        "farming"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, 5.1 Primitive Communal Society, p. 64-66",
+        "topic": "5.1 Primitive Communal Society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "5.1 Primitive Communal Society",
+        "page": "64-66",
+        "pdf_page": 70,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q40",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 40,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which statement is wrong about a map?",
+      "options": {
+        "A": "Maps show every thing of the area they represent",
+        "B": "Maps show the top view of landforms",
+        "C": "Map’s information reflect the title of the map",
+        "D": "A map is much smaller than the area it represents"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "A map is a flat picture of the earth's surface seen from above, and it is much smaller than the real area (Social Studies Grade 6, p. 15).",
+        "Because it is small, a map cannot show everything; it shows only what its title says. Answer: A."
+      ],
+      "explain_simple": "A map cannot show everything. It is too small.",
+      "tips": [
+        "A map shows only chosen things (roads, rivers, towns…)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A map is:",
+          "options": {
+            "A": "a flat picture of the earth's surface",
+            "B": "a photo of people",
+            "C": "a list of towns",
+            "D": "a ball"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "A map is a flat picture of the earth. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-map-reading"
+      ],
+      "keywords": [
+        "map",
+        "title",
+        "top view"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 3 – Distance and Scale, 3.1 What is a map?, p. 15",
+        "topic": "3.1 What is a map?",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 3 – Distance and Scale",
+        "section": "3.1 What is a map?",
+        "page": "15",
+        "pdf_page": 21,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q41",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 41,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which description refers to the Rashaida?",
+      "options": {
+        "A": "They live in western slopes and the Barka plains",
+        "B": "They live in south-western Eritrea around Barentu",
+        "C": "They live mainly along the south-east of the Red Sea coast",
+        "D": "They migrated from the Hijaz (Arabia) to north-east Africa in the 19th"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says: the Rashaida are people of Arab origin. They migrated from the Hijaz (Arabia) to north-east Africa in the 19th century (Social Studies Grade 6, p. 47).",
+        "A describes the Nara, B the Kunama, C the Afar. Answer: D."
+      ],
+      "explain_simple": "The Rashaida came from Arabia in the 1800s.",
+      "tips": [
+        "Nara = Barka plains; Kunama = Barentu; Afar = south-east coast; Rashaida = from Arabia."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Rashaida mainly raise:",
+          "options": {
+            "A": "goats and camels",
+            "B": "pigs",
+            "C": "fish",
+            "D": "horses"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "They raise goats and camels. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-ethnic-groups"
+      ],
+      "keywords": [
+        "Rashaida",
+        "Hijaz",
+        "ethnic groups"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 7 – Culture and Beliefs, 7.1 The different ethnic groups – Rashaida, p. 47",
+        "topic": "7.1 The different ethnic groups – Rashaida",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 7 – Culture and Beliefs",
+        "section": "7.1 The different ethnic groups – Rashaida",
+        "page": "47",
+        "pdf_page": 53,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q42",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 42,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one is true about slaves?",
+      "options": {
+        "A": "They made up the lowest class in Slave Society",
+        "B": "People who could not pay their debts could become slaves",
+        "C": "Often prisoners of war became slaves",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The textbook says slaves formed the lowest class, and people became slaves in different ways, for example prisoners of war and people who could not pay their debts (Social Studies Grade 7, pp. 71–72).",
+        "All are true. Answer: D."
+      ],
+      "explain_simple": "All three statements about slaves are true.",
+      "tips": [
+        "Slave society: slave owners and slaves."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In slave society, most of the work was done by:",
+          "options": {
+            "A": "slave owners",
+            "B": "slaves",
+            "C": "priests",
+            "D": "kings"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Slaves did most work. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-social-stages"
+      ],
+      "keywords": [
+        "slaves",
+        "slave society"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 5 – Social Development: Primitive Communal to Feudalism, 5.2 Slave Society, p. 71-72",
+        "topic": "5.2 Slave Society",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 5 – Social Development: Primitive Communal to Feudalism",
+        "section": "5.2 Slave Society",
+        "page": "71-72",
+        "pdf_page": 77,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q43",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 43,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following does <u>not</u> match?",
+      "options": {
+        "A": "Government → Body which controls and coordinates activities in society",
+        "B": "Judiciary → Branch of government which is made up of the Courts",
+        "C": "Centralized government system → System in which national government has overall authority",
+        "D": "Unitary State → System in which the national governments share some basic powers."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "A unitary state has one central government that decides all major policies (Social Studies Grade 7, p. 86).",
+        "A system in which national and regional governments share basic powers is a decentralized (federal) system. So D does not match. Answer: D."
+      ],
+      "explain_simple": "Sharing power is federal, not unitary. So D is wrong.",
+      "tips": [
+        "Unitary = one centre of power; federal = shared power."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Eritrea is a:",
+          "options": {
+            "A": "unitary state",
+            "B": "federal state",
+            "C": "feudal state",
+            "D": "colony"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Eritrea is unitary. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-government"
+      ],
+      "keywords": [
+        "unitary state",
+        "federal",
+        "judiciary"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 6 – Government, 6.3 Government systems, p. 86",
+        "topic": "6.3 Government systems",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 6 – Government",
+        "section": "6.3 Government systems",
+        "page": "86",
+        "pdf_page": 92,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q44",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 44,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The term Midri Bahri refers to _____.",
+      "options": {
+        "A": "The Eritrean highlands in the 16th century",
+        "B": "Turkish possessions along the Red Sea",
+        "C": "The Eritrean lowlands",
+        "D": "Funj possessions in Eritrea"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The land ruled by the Bahri Negasi in the highlands was called Midri Bahri, 'Land by the Sea' (Social Studies Grade 6, p. 68; Grade 8, p. 65).",
+        "It was the Eritrean highlands at the time of the Bahri Negestat (16th century). Answer: A."
+      ],
+      "explain_simple": "Midri Bahri was the name of the Eritrean highlands then.",
+      "tips": [
+        "Midri Bahri = the highlands of the Bahri Negasi."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The ruler of Midri Bahri was called the:",
+          "options": {
+            "A": "Bahri Negasi",
+            "B": "Naib",
+            "C": "Diglal",
+            "D": "Khedive"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The Bahri Negasi. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-bahri-negestat"
+      ],
+      "keywords": [
+        "Midri Bahri",
+        "highlands"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 9 – The Period of the Bahri Negestat, 9.1 The Bahri Negestat, p. 68",
+        "topic": "9.1 The Bahri Negestat",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 9 – The Period of the Bahri Negestat",
+        "section": "9.1 The Bahri Negestat",
+        "page": "68",
+        "pdf_page": 74,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q45",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 45,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following does <u>not</u> match?",
+      "options": {
+        "A": "Munzinger → was consular agent for the French in Massawa",
+        "B": "Naibs → local rulers of Massawa and surroundings who served as Turkish deputees",
+        "C": "Sultan Ibrahim → local ruler who sold Assab to Giuseppe Sapeto",
+        "D": "The Mahdi → led Egyptian forces into Eastern Eritrea"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The Mahdi (Muhammad Ahmad) was a Sudanese religious leader who fought against the Egyptians (Social Studies Grade 8, p. 68). He did not lead Egyptian forces.",
+        "Munzinger was a consular agent for the French (p. 68), the Naibs served the Turks (Grade 6, p. 71), and Sultan Ibrahim sold Assab to Sapeto (Grade 8, p. 74). Answer: D."
+      ],
+      "explain_simple": "The Mahdi fought against the Egyptians. He did not lead them.",
+      "tips": [
+        "Mahdi = Sudan, against Egypt."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The Naibs ruled Massawa for the:",
+          "options": {
+            "A": "Turks",
+            "B": "Italians",
+            "C": "British",
+            "D": "Portuguese"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "They were Turkish deputies. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "Mahdi",
+        "Munzinger",
+        "Naibs",
+        "Sultan Ibrahim"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, Egyptian expansion; Decline of Egyptian Power, p. 68",
+        "topic": "Egyptian expansion; Decline of Egyptian Power",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "Egyptian expansion; Decline of Egyptian Power",
+        "page": "68",
+        "pdf_page": 74,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q46",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 46,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Name the Administrative Regions numbered 1, 2, 3 on Figure 2 according to their sequential order:",
+      "image": "media/social-studies-2014-q46.png",
+      "image_alt": "Figure 2: map of Eritrea's regions. Asmara and Massawa are marked. 2 is north-west of Asmara, 3 is just south of Asmara, 1 is the long south-eastern coastal region that ends at Assab.",
+      "options": {
+        "A": "Northern Red Sea, Anseba, Centeral",
+        "B": "Southern Red Sea, Anseba, Southern",
+        "C": "Gash Barka, Southern, Anseba",
+        "D": "Anseba, Southern Red Sea, Southern"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Eritrea has six regions: Central, Anseba, Gash Barka, Southern, Northern Red Sea and Southern Red Sea (Social Studies Grade 7, p. 86).",
+        "On Figure 2: 1 is the long region in the south-east with Assab (Southern Red Sea); 2 is north-west of Asmara (Anseba); 3 is south of Asmara (Southern). Answer: B."
+      ],
+      "explain_simple": "1 = Southern Red Sea, 2 = Anseba, 3 = Southern.",
+      "tips": [
+        "Assab → Southern Red Sea; Keren → Anseba; Mendefera → Southern."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Keren is the capital of which region?",
+          "options": {
+            "A": "Anseba",
+            "B": "Central",
+            "C": "Gash Barka",
+            "D": "Southern"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Keren is in Anseba. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-government",
+        "ss-map-reading"
+      ],
+      "keywords": [
+        "administrative regions",
+        "Southern Red Sea",
+        "Anseba",
+        "Southern"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 6 – Government, Structure of Regional Administration, p. 86",
+        "topic": "Structure of Regional Administration",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 6 – Government",
+        "section": "Structure of Regional Administration",
+        "page": "86",
+        "pdf_page": 92,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q47",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 47,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Why the Tigrean rulers considered important the control of Eritrea in the 19th century?",
+      "options": {
+        "A": "to obtain resources and arms to fight the Abyssinian kings",
+        "B": "to prevent Egyptian expansion in the Eastern lowlands",
+        "C": "to protect the Kunama and Nara from Egyptian attacks",
+        "D": "B and C are answers"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The textbook says: Tigrean rulers were in a struggle for power against Abyssinian kings. They believed control of Eritrea would let them fight the Abyssinian kings by plundering Eritrea's resources and obtaining arms through the coast (Social Studies Grade 8, p. 70).",
+        "Answer: A."
+      ],
+      "explain_simple": "They wanted Eritrea's wealth and arms from the coast to fight the Abyssinian kings.",
+      "tips": [
+        "Tigrean rulers: plunder + arms through the coast."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which Tigrean ruler deposed Bahri Negasi Bokru in 1770?",
+          "options": {
+            "A": "Ras Michael Sehul",
+            "B": "Ras Alula",
+            "C": "Yohannes",
+            "D": "Tewodros"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Ras Michael Sehul. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-expansion-resistance"
+      ],
+      "keywords": [
+        "Tigrean rulers",
+        "Abyssinian kings",
+        "arms",
+        "resources"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 5 – Expansionism and Colonialism, 5.3 Abyssinian Expansion and Eritrean Resistance, p. 70",
+        "topic": "5.3 Abyssinian Expansion and Eritrean Resistance",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 5 – Expansionism and Colonialism",
+        "section": "5.3 Abyssinian Expansion and Eritrean Resistance",
+        "page": "70",
+        "pdf_page": 76,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q48",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 48,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which countries are numbered 1, 2, and 3 respectively?",
+      "image": "media/social-studies-2014-q48.png",
+      "image_alt": "Figure 3: map of the Middle East with the Mediterranean Sea and the Red Sea labelled, and Eritrea marked. 1 is north of the Mediterranean; 2 is south of the Mediterranean, west of the Red Sea; 3 is in the south-west of Arabia.",
+      "options": {
+        "A": "Greece, Egypt, and Yemen",
+        "B": "Egypt, Lebanon, and Israel",
+        "C": "Sudan, Yemen, and Aman",
+        "D": "Greece, Israel and Egypt"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "On Figure 3, number 1 is north of the Mediterranean Sea (Greece).",
+        "Number 2 is south of the Mediterranean and west of the Red Sea (Egypt). Number 3 is in the south-west of the Arabian Peninsula, across the Red Sea from Eritrea (Yemen). Answer: A."
+      ],
+      "explain_simple": "1 = Greece, 2 = Egypt, 3 = Yemen.",
+      "tips": [
+        "Use the seas as guides: the Mediterranean in the north, the Red Sea in the middle."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which country is across the Red Sea from Eritrea?",
+          "options": {
+            "A": "Egypt",
+            "B": "Yemen",
+            "C": "Greece",
+            "D": "Libya"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Yemen. Answer: B."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-strategic",
+        "ss-map-reading"
+      ],
+      "keywords": [
+        "Middle East",
+        "Greece",
+        "Egypt",
+        "Yemen"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 8 textbook – Unit 4 – Eritrea and Its Strategic Location, 4.1 Location and neighbours; strategic position, p. 54",
+        "topic": "4.1 Location and neighbours; strategic position",
+        "subject": "Social Studies",
+        "grade": 8,
+        "unit": "Unit 4 – Eritrea and Its Strategic Location",
+        "section": "4.1 Location and neighbours; strategic position",
+        "page": "54",
+        "pdf_page": 60,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q49",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 49,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What is the scale of the illustration?",
+      "image": "media/social-studies-2014-q49.png",
+      "image_alt": "Figure 4: a straight line from A to B. On the printed paper it is 5 cm long.",
+      "options": {
+        "A": "1cm. to 2 km.",
+        "B": "1 cm. to 40 km.",
+        "C": "1 cm. to 10 km.",
+        "D": "1 cm. to 200 km."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Instruction: the ground distance from A to B is 200 km. On the printed paper the line A–B measures 5 cm with a ruler (measured from the exam PDF; on a phone screen the size changes).",
+        "5 cm stands for 200 km, so 1 cm stands for 200 ÷ 5 = 40 km. Answer: B."
+      ],
+      "explain_simple": "The line is 5 cm and stands for 200 km. So 1 cm = 40 km.",
+      "tips": [
+        "Scale = ground distance ÷ map distance."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A line of 4 cm stands for 100 km. The scale is:",
+          "options": {
+            "A": "1 cm to 25 km",
+            "B": "1 cm to 4 km",
+            "C": "1 cm to 100 km",
+            "D": "1 cm to 400 km"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "100 ÷ 4 = 25. Answer: A."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-scale"
+      ],
+      "keywords": [
+        "scale",
+        "ruler",
+        "map distance"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 6 textbook – Unit 3 – Distance and Scale, 3.2 Scale statement, p. 16",
+        "topic": "3.2 Scale statement",
+        "subject": "Social Studies",
+        "grade": 6,
+        "unit": "Unit 3 – Distance and Scale",
+        "section": "3.2 Scale statement",
+        "page": "16",
+        "pdf_page": 22,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "Ruler question: the app cannot keep the printed size of Figure 4. On the paper, line A–B is 5 cm (measured from the PDF: about 4.9 cm)."
+    },
+    {
+      "id": "social-studies-2014-g8-p1-q50",
+      "exam_id": "social-studies-2014-g8",
+      "part": 1,
+      "number": 50,
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What is the area of the shaded part?",
+      "image": "media/social-studies-2014-q50.png",
+      "image_alt": "Figure 5: a big grey (shaded) square; inside it, touching the top edge, a smaller white square. On the printed paper the big square is 5 cm and the white square is 3 cm on each side.",
+      "options": {
+        "A": "400 square km",
+        "B": "144 square km",
+        "C": "200 square km",
+        "D": "256 square km"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Given: scale 1 cm to 4 km. On the printed paper the big square is 5 cm × 5 cm and the white square inside is 3 cm × 3 cm (measured from the exam PDF).",
+        "Big square: 5 × 4 = 20 km per side, area 20 × 20 = 400 km². White square: 3 × 4 = 12 km, area 12 × 12 = 144 km².",
+        "Shaded part = 400 − 144 = 256 km². Answer: D."
+      ],
+      "explain_simple": "Big square 400 km² minus white square 144 km² = 256 km².",
+      "tips": [
+        "Shaded area = whole area − white area. Change cm to km first."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Scale 1 cm to 2 km. A square is 3 cm on each side. What is its real area?",
+          "options": {
+            "A": "6 km²",
+            "B": "9 km²",
+            "C": "36 km²",
+            "D": "12 km²"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "3 × 2 = 6 km; 6 × 6 = 36 km². Answer: C."
+          ]
+        }
+      ],
+      "topics": [
+        "ss-scale"
+      ],
+      "keywords": [
+        "area",
+        "scale",
+        "shaded part"
+      ],
+      "textbook_ref": {
+        "source": "general",
+        "reference": "Eritrean MoE Social Studies Grade 7 textbook – Unit 1 – Scale and Measuring Distance, Scale – calculating area, p. 1-12",
+        "topic": "Scale – calculating area",
+        "subject": "Social Studies",
+        "grade": 7,
+        "unit": "Unit 1 – Scale and Measuring Distance",
+        "section": "Scale – calculating area",
+        "page": "1-12",
+        "pdf_page": 7,
+        "verified_in_text": true
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": "Ruler question: the app cannot keep the printed size of Figure 5. On the paper the outer square is 5 cm and the white square 3 cm (measured from the PDF, about 4.7 cm and 2.8 cm; the options only fit 5 cm and 3 cm)."
+    }
+  ],
+  "passages": [
+    {
+      "id": "social-studies-2014-g8-map1",
+      "kind": "context",
+      "title": "Figure 1 – Map of Eritrea (Questions 8 to 11)",
+      "instructions": "Answer questions 8 to 11 from Figure1",
+      "paragraphs": [
+        "Figure 1 is an old map of Eritrea with the names Habab, Hamasien, Akkele Guzay, Seraye and Mereb. Point 3 is on the coast opposite the islands (east of Hamasien). Point 1 is in Akkele Guzay. Point 2 is in Seraye, near the Mereb. Point 4 is on the coast in the far south-east."
+      ],
+      "question_numbers": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "part": 1
+    },
+    {
+      "id": "social-studies-2014-g8-crops",
+      "kind": "context",
+      "title": "Crops of Eritrea (Question 28)",
+      "instructions": "The different types of crops that grow in Eritrea are listed below.",
+      "paragraphs": [
+        "Barley, sesame, wheat, linseed, maize, African millet, Niger seeds, chick pea, broad bean, groundnut, and pea."
+      ],
+      "question_numbers": [
+        28
+      ],
+      "part": 1
+    },
+    {
+      "id": "social-studies-2014-g8-areas",
+      "kind": "context",
+      "title": "Table 1 – Areas of four countries (Question 29)",
+      "instructions": "Table 1, shows the areas of 4 countries. Based on the table answer question 29",
+      "paragraphs": [
+        "1 Malawi 118,480 sq. km; 2 Benin 112,620 sq. km; 3 Eritrea 124,330 sq. km; 4 Liberia 111,370 sq. km."
+      ],
+      "question_numbers": [
+        29
+      ],
+      "part": 1
+    },
+    {
+      "id": "social-studies-2014-g8-jobs",
+      "kind": "context",
+      "title": "Statements in the box (Question 30)",
+      "instructions": "Read the statements in the box and answer question 30.",
+      "paragraphs": [
+        "• Seid is a fisherman.",
+        "• Alem works in textile industry.",
+        "• Mustefa works in Restaurant.",
+        "• Habtom is a merchant."
+      ],
+      "question_numbers": [
+        30
+      ],
+      "part": 1
+    },
+    {
+      "id": "social-studies-2014-g8-disasters",
+      "kind": "context",
+      "title": "Disasters in Eritrea (Question 31)",
+      "instructions": "answer question 31 from the paragraph given below.",
+      "paragraphs": [
+        "The disasters in Eritrea include droughts, epidemics, pests like locusts and army worm, earthquakes, volcanism, war, etc."
+      ],
+      "question_numbers": [
+        31
+      ],
+      "part": 1
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 470">
+  <g fill="#FFFBF2" stroke="#9C8A76" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- skull (cranium) + jaw bone -->
+    <ellipse cx="130" cy="42" rx="32" ry="34"/>
+    <path d="M106 64Q106 92 130 94Q154 92 154 64Q142 74 130 74Q118 74 106 64Z"/>
+    <!-- spinal column -->
+    <g><rect x="122" y="96" width="16" height="12" rx="4"/><rect x="122" y="110" width="16" height="12" rx="4"/><rect x="122" y="178" width="16" height="12" rx="4"/><rect x="122" y="192" width="16" height="12" rx="4"/><rect x="122" y="206" width="16" height="12" rx="4"/><rect x="122" y="220" width="16" height="12" rx="4"/><rect x="122" y="234" width="16" height="12" rx="4"/></g>
+    <!-- collarbones -->
+    <path d="M124 124Q104 118 84 124M136 124Q156 118 176 124" fill="none" stroke-width="7"/>
+    <!-- ribs -->
+    <g fill="none" stroke-width="6"><path d="M128 134Q92 132 90 150Q92 160 124 150M132 134Q168 132 170 150Q168 160 136 150"/><path d="M128 148Q86 146 86 166Q90 178 124 166M132 148Q174 146 174 166Q170 178 136 166"/><path d="M128 162Q84 162 86 182Q92 194 124 182M132 162Q176 162 174 182Q168 194 136 182"/></g>
+    <!-- breastbone -->
+    <rect x="124" y="126" width="12" height="54" rx="5" fill="#FFE9C2"/>
+    <!-- pelvis -->
+    <path d="M130 248C112 246 90 252 88 270C88 290 104 298 116 300C122 290 138 290 144 300C156 298 172 290 172 270C170 252 148 246 130 248Z"/>
+    <!-- arm bones -->
+    <path d="M80 128L70 214" stroke-width="10"/><path d="M180 128L190 214" stroke-width="10"/>
+    <path d="M70 218L60 294M74 218L68 294" stroke-width="5"/><path d="M190 218L200 294M186 218L192 294" stroke-width="5"/>
+    <circle cx="80" cy="126" r="8"/><circle cx="180" cy="126" r="8"/>
+    <path d="M58 298l-8 26M63 300l-3 28M68 300l2 28M72 298l7 24" stroke-width="3.5"/>
+    <path d="M202 298l8 26M197 300l3 28M192 300l-2 28M188 298l-7 24" stroke-width="3.5"/>
+    <!-- leg bones -->
+    <path d="M110 300L102 392" stroke-width="12"/><path d="M150 300L158 392" stroke-width="12"/>
+    <path d="M102 408L100 448M106 408L108 448" stroke-width="6"/><path d="M158 408L160 448M154 408L152 448" stroke-width="6"/>
+    <path d="M92 452Q104 446 114 452L116 462L88 462Z"/><path d="M168 452Q156 446 146 452L144 462L172 462Z"/>
+  </g>
+  <!-- knee caps -->
+  <circle cx="102" cy="399" r="8" fill="#FFE08A" stroke="#DDA42A" stroke-width="2.5"/><circle cx="158" cy="399" r="8" fill="#FFE08A" stroke="#DDA42A" stroke-width="2.5"/>
+  <!-- eyes + highlights -->
+  <g fill="#9C8A76"><ellipse cx="118" cy="44" rx="7" ry="8"/><ellipse cx="142" cy="44" rx="7" ry="8"/><path d="M127 58h6l-3 6z"/></g>
+  <ellipse cx="118" cy="22" rx="10" ry="4" fill="#fff" opacity=".8"/>
+</svg>

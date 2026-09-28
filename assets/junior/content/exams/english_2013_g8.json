@@ -1,0 +1,3317 @@
+{
+  "schema_version": "1.0",
+  "exam": {
+    "id": "english-2013-g8",
+    "year": "2013",
+    "subject": "English",
+    "grade": 8,
+    "version": "A",
+    "school": "Eritrean Grade 8 National Examination",
+    "type": "national",
+    "semester": null,
+    "title": "Grade 8 National Examination 2013 – English",
+    "duration": "1 hour and 40 minutes (100 minutes)",
+    "duration_minutes": 100,
+    "total_points": 50,
+    "parts": [
+      {
+        "part": 1,
+        "title": "Multiple choice (Questions 1–50)",
+        "question_type": "mcq",
+        "question_count": 50,
+        "points": 50,
+        "instructions": "This paper has 50 multiple-choice questions (1 to 50). Each question has 4 choices. Choose ONE best answer and blacken its letter on the separate answer sheet. Sections: A. Dialogue (1–4), B. Grammar and vocabulary (5–34), C. Table (35–40), D. Reading passage (41–50)."
+      }
+    ],
+    "source": {
+      "document": "2013-English_-V-_A.pdf",
+      "version_used": "A",
+      "other_version": "B (2013-English_-V-_B.pdf)",
+      "notes": "Transcribed from the PDF text layer of Version A and checked against the page images. Bold words in the stems (e.g. true, was not, picked up) are plain text here; the paper has no underlining. V-B has the same questions, reordered, with options shuffled.",
+      "printing_note": "The passage has line numbers 5, 10, 15, 20 in the margin; they are shown as [line 5] etc. Q47 prints the question mark inside the quotation (“I didn’t steal our TV?”); the passage has a full stop/exclamation."
+    },
+    "answer_key_note": "No official key. Answers solved and checked against the Eritrean MoE Grade 6–8 textbooks.",
+    "notation": "unicode",
+    "textbooks": [
+      "English for Eritrea Grade 6",
+      "English for Eritrea Grade 7",
+      "English for Eritrea Grade 8"
+    ],
+    "content_version": "1.0.0",
+    "language": "en"
+  },
+  "passages": [
+    {
+      "id": "english-2013-dialogue",
+      "kind": "context",
+      "title": "Dialogue between a wife and her husband",
+      "instructions": "Complete the dialogue between a wife and her husband. Choose the husband’s correct answers from the choices given (A–D).",
+      "paragraphs": [
+        "Wife: Ahmed, when are you going to clean the kitchen?",
+        "Husband: ______ (1)",
+        "Wife: Are you going to buy vegetables?",
+        "Husband: ______ (2)",
+        "Wife: Then, what are you going to buy?",
+        "Husband: ______ (3)",
+        "Wife: So, let me give you some money.",
+        "Husband: ______ (4)",
+        "Choices given: A. Two kilos of fish and some fruits only.  B. No, thank you.  C. After I come back from shopping.  D. I think we have enough for this week."
+      ],
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "part": 1
+    },
+    {
+      "id": "english-2013-table",
+      "kind": "context",
+      "title": "Table: age, hobby, height and weight",
+      "instructions": "Answer questions 35–40 according to the information in the table.",
+      "paragraphs": [
+        "Name | age | hobby | height | weight",
+        "Negasi | 17 | swimming | 1.60 m | 72 kg",
+        "Hayat | 20 | travelling | 1.80 m | 59 kg",
+        "Simon | 18 | hunting | 1.75 m | 67 kg",
+        "Ali | 17 | reading | 1.85 m | 72 kg"
+      ],
+      "question_numbers": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "part": 1,
+      "note": "In the paper the table is printed with names across the top and age/hobby/height/weight as rows; here it is turned (one row per person).",
+      "table": {
+        "title": "Four students",
+        "kind": "data",
+        "columns": [
+          "Name",
+          "age",
+          "hobby",
+          "height",
+          "weight"
+        ],
+        "rows": [
+          [
+            "Negasi",
+            "17",
+            "swimming",
+            "1.60 m",
+            "72 kg"
+          ],
+          [
+            "Hayat",
+            "20",
+            "travelling",
+            "1.80 m",
+            "59 kg"
+          ],
+          [
+            "Simon",
+            "18",
+            "hunting",
+            "1.75 m",
+            "67 kg"
+          ],
+          [
+            "Ali",
+            "17",
+            "reading",
+            "1.85 m",
+            "72 kg"
+          ]
+        ],
+        "align": [
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ]
+      }
+    },
+    {
+      "id": "english-2013-passage",
+      "kind": "reading",
+      "title": "The broken lock (fingerprints)",
+      "instructions": "Read the passage and answer the questions (41–50) according to the information in the passage.",
+      "paragraphs": [
+        "When Peter and his mother came back from the shops, they found the front door open.",
+        "“What’s this?” said Mrs Sarah. “Peter, didn’t I lock the door before we went to the shops?”",
+        "“Yes,” said Peter, “of course you did. Maybe someone has come to visit.”",
+        "[line 5] “Peter, that’s not possible” said Mrs Sarah. “Only you and I have keys. No one else can get in!” Then Mrs Sarah put her hand to her mouth. “Peter, look! The lock is broken! Someone has broken into our house!”",
+        "Peter and his mother stepped into the house. The first thing they noticed was that the TV was gone. Then they saw that the radio was gone, too. Mrs Sarah picked up the phone [line 10] and called the police.",
+        "The police arrived, and one of them was a woman with a big black bag. She said, “I’m Police Officer Hayat. I’m here to take fingerprints.”",
+        "Peter watched as Police Officer Hayat opened her bag and took out a bottle of powder and a big, soft brush. She moved around the room, putting powder on the [line 15] door, the furniture and the walls. The powder helped her to see fingerprints clearly.",
+        "“Now I need to take your fingerprints,” said Police Officer Hayat to Peter and his mother.",
+        "Peter was suddenly nervous. He knew that the police used fingerprints to catch thieves. “I didn’t steal our TV!” he said.",
+        "“I know, Peter,” said Police Officer Hayat with a laugh. “I have to know what your [line 20] fingerprints look like, and your mother’s. Then I can tell which prints belong to you, and which belong to the thief.”",
+        "Police Officer Hayat put ink on Peter’s fingers and made him press them down on a special card. She wrote his name and address clearly on the card. She did the same with his mother. Then she packed up her bag and said goodbye.",
+        "Three days later, Peter got a phone call from Police Officer Hayat. “Good news, Peter,” she said. “We have caught the thief and she has told us where your TV and radio are.”"
+      ],
+      "question_numbers": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "part": 1,
+      "note": "Line numbers as printed in the margin (5, 10, 15, 20) are shown as [line N]. Bold in the questions: we (line 2), picked up (line 9), nervous (line 17)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "english-2013-g8-p1-q01",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 1,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-dialogue",
+      "stem": "Dialogue, gap (1). Wife: “Ahmed, when are you going to clean the kitchen?” Husband: “______”",
+      "options": {
+        "A": "Two kilos of fish and some fruits only.",
+        "B": "No, thank you.",
+        "C": "After I come back from shopping.",
+        "D": "I think we have enough for this week."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The wife asks “when?”, so the answer must be a time.",
+        "“After I come back from shopping” tells a time.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "“When?” asks about time. “After I come back from shopping” is a time.",
+      "tips": [
+        "When → a time answer (after …, at 5, tomorrow)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Teacher: When are you going to finish the work?  Pupil: ______",
+          "options": {
+            "A": "Before the lesson ends.",
+            "B": "Yes, I am.",
+            "C": "In the classroom.",
+            "D": "Because it is easy."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "When → time: before the lesson ends."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue",
+        "when"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q02",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 2,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-dialogue",
+      "stem": "Dialogue, gap (2). Wife: “Are you going to buy vegetables?” Husband: “______” Wife: “Then, what are you going to buy?”",
+      "options": {
+        "A": "Two kilos of fish and some fruits only.",
+        "B": "No, thank you.",
+        "C": "After I come back from shopping.",
+        "D": "I think we have enough for this week."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The next line (“Then, what are you going to buy?”) shows he is NOT buying vegetables.",
+        "“I think we have enough for this week” means “No, we don’t need vegetables”.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "He means “No, we have enough vegetables.”",
+      "tips": [
+        "Use the next line: “Then, what …?” shows the answer was “no”."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Son: Are you going to buy bread?  Mother: ______  Son: Then what will we eat?",
+          "options": {
+            "A": "No, we have enough flour to bake.",
+            "B": "Yes, ten loaves.",
+            "C": "At the shop.",
+            "D": "Thank you."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "The son’s next question shows the answer was “no”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q03",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 3,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-dialogue",
+      "stem": "Dialogue, gap (3). Wife: “Then, what are you going to buy?” Husband: “______”",
+      "options": {
+        "A": "Two kilos of fish and some fruits only.",
+        "B": "No, thank you.",
+        "C": "After I come back from shopping.",
+        "D": "I think we have enough for this week."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“What are you going to buy?” asks for things.",
+        "“Two kilos of fish and some fruits only” names the things.",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "She asks what he will buy. He says: fish and fruits.",
+      "tips": [
+        "What → a thing answer."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Friend: What are you going to eat?  You: ______",
+          "options": {
+            "A": "Some bread and tea.",
+            "B": "At seven o’clock.",
+            "C": "No, thank you.",
+            "D": "In the café."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "What → things: bread and tea."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue"
+      ],
+      "keywords": [
+        "dialogue",
+        "what"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q04",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 4,
+      "section": "A. Dialogue",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-dialogue",
+      "stem": "Dialogue, gap (4). Wife: “So, let me give you some money.” Husband: “______”",
+      "options": {
+        "A": "Two kilos of fish and some fruits only.",
+        "B": "No, thank you.",
+        "C": "After I come back from shopping.",
+        "D": "I think we have enough for this week."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The wife makes an offer (to give money).",
+        "The polite way to refuse an offer is “No, thank you.”",
+        "Textbook: English Grade 8, Unit 1 (p. 1–21): conversations."
+      ],
+      "explain_simple": "She offers money. He says “No, thank you.”",
+      "tips": [
+        "Offers: accept with “Yes, please” / refuse with “No, thank you”."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Host: Would you like more tea?  Guest: ______ I have had two cups.",
+          "options": {
+            "A": "No, thank you.",
+            "B": "Yes, you would.",
+            "C": "I am tea.",
+            "D": "Where is it?"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Refusing an offer politely: No, thank you."
+          ]
+        }
+      ],
+      "topics": [
+        "en-dialogue",
+        "en-functions"
+      ],
+      "keywords": [
+        "offer",
+        "no thank you"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "usage",
+        "topic": "Completing a dialogue",
+        "rule": "In a dialogue, the answer must fit the question before it AND the line after it.",
+        "note": "textbook: English Grade 8, Unit 1 (p. 1–21): conversations"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "usage",
+          "topic": "Everyday expressions (requests, offers, apologies, advice)",
+          "rule": "Use polite forms for requests (Can/Could I …?), apologies (I'm sorry …) and advice (You should …).",
+          "note": "textbook: English Grade 8, Unit 1 (p. 1–21); English Grade 6, p. 131"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q05",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 5,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Can you use a computer?",
+      "options": {
+        "A": "No, I can.",
+        "B": "Yes, you can.",
+        "C": "Yes, I can’t.",
+        "D": "No, I can’t."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“Can you …?” is answered with “I”: Yes, I can / No, I can’t.",
+        "Yes goes with can, No goes with can’t. So D is the only correct answer.",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "“Can you …?” → “No, I can’t.” (or “Yes, I can.”)",
+      "tips": [
+        "Yes + positive; No + negative (can’t)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Can you ride a bicycle?",
+          "options": {
+            "A": "Yes, I can’t.",
+            "B": "No, I can.",
+            "C": "Yes, I can.",
+            "D": "Yes, you can."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Can you …? → Yes, I can."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions",
+        "en-modals"
+      ],
+      "keywords": [
+        "short answer",
+        "can"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Modals (must, should, have to, can, may, might)",
+          "rule": "Modal verbs (must, should, can, may, might, will) are followed by the base verb without 'to'; have to / ought to keep 'to'.",
+          "note": "textbook: English Grade 7, p. 167–168, 187; English Grade 8, Unit 3 (p. 46–71)"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q06",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 6,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which sentence is correct?",
+      "options": {
+        "A": "Asmara is as big Keren.",
+        "B": "Asmara is bigger to Keren.",
+        "C": "Asmara is bigger than Keren.",
+        "D": "Asmara is big than Keren."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Comparative = adjective-er + than: bigger than.",
+        "A needs “as big as”; B uses “to”; D has no -er.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "We say “bigger than”.",
+      "tips": [
+        "-er + than (bigger than, taller than)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which sentence is correct?",
+          "options": {
+            "A": "Massawa is hotter than Asmara.",
+            "B": "Massawa is hot than Asmara.",
+            "C": "Massawa is hotter to Asmara.",
+            "D": "Massawa is as hot Asmara."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "hotter than."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "comparative",
+        "than"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q07",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 7,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My sister has two children. She loves ______ very much.",
+      "options": {
+        "A": "them",
+        "B": "her",
+        "C": "they",
+        "D": "him"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“two children” = more than one → them.",
+        "After the verb “loves” we need an object pronoun, so “they” is wrong.",
+        "Textbook: English Grade 6, p. 61; English Grade 7, p. 7–8."
+      ],
+      "explain_simple": "Two children → them.",
+      "tips": [
+        "Plural object → them."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I have three cats. I feed ______ every day.",
+          "options": {
+            "A": "they",
+            "B": "them",
+            "C": "it",
+            "D": "their"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "three cats → them."
+          ]
+        }
+      ],
+      "topics": [
+        "en-pronouns"
+      ],
+      "keywords": [
+        "object pronoun",
+        "them"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Subject, object and possessive pronouns",
+        "rule": "Use an object pronoun (me, him, her, us, them) after a verb or preposition; possessive pronouns (mine, yours, his, hers, ours, theirs) replace a noun.",
+        "note": "textbook: English Grade 6, p. 61; English Grade 7, p. 7–8"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q08",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 8,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Our school is going to be closed ______ July 30.",
+      "options": {
+        "A": "on",
+        "B": "at",
+        "C": "in",
+        "D": "for"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "With a date (a day) we use “on”: on July 30, on Monday.",
+        "“in” is for months and years (in July); “at” is for clock times.",
+        "Textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181."
+      ],
+      "explain_simple": "A date takes “on”: on July 30.",
+      "tips": [
+        "at + time, on + day/date, in + month/year."
+      ],
+      "similar_questions": [
+        {
+          "stem": "My birthday is ______ 12 May.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at",
+            "D": "for"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "date → on."
+          ]
+        }
+      ],
+      "topics": [
+        "en-prepositions"
+      ],
+      "keywords": [
+        "on",
+        "date"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Prepositions (place, time, transport)",
+        "rule": "Travel: by car/bus/plane; time: at 5 o'clock, on Monday, in June; place: in, on, under, between, next to.",
+        "note": "textbook: English Grade 7, p. 12; English Grade 8, p. 31, 181"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q09",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 9,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Mother, there is ______ egg in the basket.",
+      "options": {
+        "A": "a",
+        "B": "the",
+        "C": "an",
+        "D": "none"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“egg” starts with a vowel sound (e), so we use “an”.",
+        "“the” would mean a known egg; the speaker is giving new information.",
+        "Textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204."
+      ],
+      "explain_simple": "Egg starts with a vowel sound. So: an egg.",
+      "tips": [
+        "an + vowel sound (an egg, an orange); a + consonant sound (a book)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "She ate ______ orange.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "the",
+            "D": "some"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "orange starts with a vowel sound → an."
+          ]
+        }
+      ],
+      "topics": [
+        "en-articles"
+      ],
+      "keywords": [
+        "an",
+        "vowel"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Articles (a, an, the, zero)",
+        "rule": "Use 'the' for a thing that is the only one (the moon, the sun) or already known; a/an for one thing that is not specific.",
+        "note": "textbook: English Grade 7, p. 74; English Grade 8, p. 56–58, 204"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q10",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 10,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "How ______ milk and how ______ eggs do you need to make the cakes?",
+      "options": {
+        "A": "much / many",
+        "B": "many / many",
+        "C": "many / much",
+        "D": "much / much"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Milk cannot be counted → how much milk.",
+        "Eggs can be counted → how many eggs.",
+        "Textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7."
+      ],
+      "explain_simple": "Milk → much. Eggs → many.",
+      "tips": [
+        "much + uncountable (milk, water); many + plural countable (eggs, books)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How ______ sugar and how ______ cups do we need?",
+          "options": {
+            "A": "many / much",
+            "B": "much / many",
+            "C": "much / much",
+            "D": "many / many"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "sugar → much; cups → many."
+          ]
+        }
+      ],
+      "topics": [
+        "en-quantifiers"
+      ],
+      "keywords": [
+        "much",
+        "many",
+        "countable"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Quantity words (some, any, much, many, too, enough)",
+        "rule": "some = an amount with plural or uncountable nouns; too = more than is good; very = a lot; enough = as much as needed.",
+        "note": "textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q11",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 11,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "He is very intelligent; I am sure he ______ excellent results in his exam next week.",
+      "options": {
+        "A": "scored",
+        "B": "will score",
+        "C": "had scored",
+        "D": "has scored"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“next week” is the future.",
+        "Future: will + base verb → will score.",
+        "Textbook: English Grade 7, p. 20, 175."
+      ],
+      "explain_simple": "Next week = future. So “will score”.",
+      "tips": [
+        "Look for time words: next week, tomorrow → will."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I think it ______ tomorrow.",
+          "options": {
+            "A": "rained",
+            "B": "will rain",
+            "C": "has rained",
+            "D": "had rained"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "tomorrow → will rain."
+          ]
+        }
+      ],
+      "topics": [
+        "en-future"
+      ],
+      "keywords": [
+        "will",
+        "future"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Future (will / going to)",
+        "rule": "Future: will + base verb (I will go) or am/is/are going to + base verb.",
+        "note": "textbook: English Grade 7, p. 20, 175"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q12",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 12,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which one is your favourite sport, football ______ basketball?",
+      "options": {
+        "A": "and",
+        "B": "or",
+        "C": "but",
+        "D": "A and B"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The question asks us to choose ONE of two things.",
+        "For a choice we use “or”.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "A choice between two things → or.",
+      "tips": [
+        "or = choice; and = both; but = contrast."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Do you want tea ______ coffee?",
+          "options": {
+            "A": "and",
+            "B": "but",
+            "C": "or",
+            "D": "so"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "choice → or."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "or",
+        "choice"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q13",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 13,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which word is spelled wrongly?",
+      "options": {
+        "A": "September",
+        "B": "Saturday",
+        "C": "Wenesday",
+        "D": "August"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The correct spelling is “Wednesday” (with a silent d).",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "The right spelling is Wednesday.",
+      "tips": [
+        "Wednesday has a silent ‘d’: Wed-nes-day."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which word is spelled wrongly?",
+          "options": {
+            "A": "February",
+            "B": "Thursday",
+            "C": "Febuary",
+            "D": "Monday"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Correct: February."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "spelling",
+        "Wednesday"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q14",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 14,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "In which word is the prefix un used wrongly?",
+      "options": {
+        "A": "unlegal",
+        "B": "unhappy",
+        "C": "unlucky",
+        "D": "unknown"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "unhappy, unlucky and unknown are real words.",
+        "The opposite of “legal” is “illegal” (il- before l).",
+        "Textbook: English Grade 7, p. 191–192, 199, 232–234."
+      ],
+      "explain_simple": "We say “illegal”, not “unlegal”.",
+      "tips": [
+        "il- before l (illegal), im- before p/m (impossible), in- (incorrect)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "In which word is the prefix un used wrongly?",
+          "options": {
+            "A": "unfair",
+            "B": "unkind",
+            "C": "unpolite",
+            "D": "unsafe"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Correct: impolite."
+          ]
+        }
+      ],
+      "topics": [
+        "en-prefix-suffix"
+      ],
+      "keywords": [
+        "prefix",
+        "illegal"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Prefixes and suffixes",
+        "rule": "un-, dis-, in-, im-, il-, ir- mean 'not'; each word takes its own prefix (incorrect, not 'uncorrect').",
+        "note": "textbook: English Grade 7, p. 191–192, 199, 232–234"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q15",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 15,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "What is the opposite of low?",
+      "options": {
+        "A": "above",
+        "B": "up",
+        "C": "top",
+        "D": "high"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "low ↔ high.",
+        "Textbook: English Grade 7, p. 222; English Grade 8, p. 160."
+      ],
+      "explain_simple": "The opposite of low is high.",
+      "tips": [
+        "Learn opposites in pairs: low–high, short–tall, cheap–expensive."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What is the opposite of cheap?",
+          "options": {
+            "A": "poor",
+            "B": "expensive",
+            "C": "small",
+            "D": "new"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "cheap ↔ expensive."
+          ]
+        }
+      ],
+      "topics": [
+        "en-opposites-synonyms"
+      ],
+      "keywords": [
+        "opposite",
+        "high"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Opposites and words with the same meaning",
+        "rule": "A synonym has the same meaning (hit = strike); an opposite has the reverse meaning (happy – sad).",
+        "note": "textbook: English Grade 7, p. 222; English Grade 8, p. 160"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q16",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 16,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which pair of words is correct?",
+      "options": {
+        "A": "monkey - monkies",
+        "B": "boy - boyes",
+        "C": "country - countrys",
+        "D": "fly - flies"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Consonant + y → change y to i and add -es: fly → flies, country → countries.",
+        "Vowel + y → just add -s: monkey → monkeys, boy → boys.",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "fly → flies is correct.",
+      "tips": [
+        "consonant + y → -ies; vowel + y → -ys."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which plural is correct?",
+          "options": {
+            "A": "baby - babys",
+            "B": "key - keies",
+            "C": "city - cities",
+            "D": "day - daies"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "consonant + y → cities."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "plural",
+        "-ies"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q17",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 17,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "As knife is to a butcher, ______ is to a carpenter.",
+      "options": {
+        "A": "bottle",
+        "B": "hammer",
+        "C": "medicine",
+        "D": "chalk"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "A butcher works with a knife.",
+        "A carpenter works with a hammer.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "A butcher uses a knife. A carpenter uses a hammer.",
+      "tips": [
+        "Find the link in the first pair (worker – tool) and use it again."
+      ],
+      "similar_questions": [
+        {
+          "stem": "As chalk is to a teacher, ______ is to a farmer.",
+          "options": {
+            "A": "pen",
+            "B": "plough",
+            "C": "book",
+            "D": "car"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "teacher – chalk; farmer – plough."
+          ]
+        }
+      ],
+      "topics": [
+        "en-word-meaning"
+      ],
+      "keywords": [
+        "analogy",
+        "tools"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Word meaning in context",
+        "rule": "Read the whole sentence: the words before and after tell you the meaning of the new word.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q18",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 18,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My son ______ when I came home.",
+      "options": {
+        "A": "was study",
+        "B": "was studying",
+        "C": "is studying",
+        "D": "study"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The studying was going on at the moment I came home (past).",
+        "Past continuous: was + verb-ing → was studying.",
+        "Textbook: English Grade 6, p. 175–176."
+      ],
+      "explain_simple": "He was studying at the time I came home.",
+      "tips": [
+        "A long action in the past + “when” + a short action → past continuous."
+      ],
+      "similar_questions": [
+        {
+          "stem": "They ______ football when it started to rain.",
+          "options": {
+            "A": "were playing",
+            "B": "are playing",
+            "C": "were play",
+            "D": "play"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "were + -ing."
+          ]
+        }
+      ],
+      "topics": [
+        "en-past-continuous"
+      ],
+      "keywords": [
+        "past continuous",
+        "when"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Past continuous",
+        "rule": "Past continuous = was/were + verb-ing; it shows an action that was going on at a time in the past.",
+        "note": "textbook: English Grade 6, p. 175–176"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q19",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 19,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "She is the ______ girl in the football team.",
+      "options": {
+        "A": "strongest",
+        "B": "strong",
+        "C": "most strong",
+        "D": "stronger"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "“the … in the team” → superlative.",
+        "Short adjective strong → the strongest (not “most strong”).",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "the + strongest.",
+      "tips": [
+        "Short adjective: the -est."
+      ],
+      "similar_questions": [
+        {
+          "stem": "He is the ______ boy in our class.",
+          "options": {
+            "A": "tallest",
+            "B": "most tall",
+            "C": "taller",
+            "D": "tall"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "the tallest."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "superlative"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q20",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 20,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Semira is 1.5 metres tall and Alem is 1.4 metres tall. Which is true about Semira and Alem?",
+      "options": {
+        "A": "Alem is taller than Semira.",
+        "B": "Alem is shorter than Semira.",
+        "C": "Semira is shorter than Alem.",
+        "D": "Semira is as tall as Alem."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "1.4 m is less than 1.5 m. So Alem is shorter than Semira.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "Alem (1.4 m) is shorter than Semira (1.5 m).",
+      "tips": [
+        "Compare the numbers first, then choose the word."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A box weighs 5 kg and a bag weighs 7 kg. Which is true?",
+          "options": {
+            "A": "The box is heavier.",
+            "B": "The bag is lighter.",
+            "C": "The box is lighter than the bag.",
+            "D": "They weigh the same."
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "5 kg < 7 kg."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "comparative",
+        "taller",
+        "shorter"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q21",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 21,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "I ______ in the year 2000 in Barentu.",
+      "options": {
+        "A": "am born",
+        "B": "will born",
+        "C": "born",
+        "D": "was born"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "We say “be born” (passive form). 2000 is in the past → was born.",
+        "Textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12."
+      ],
+      "explain_simple": "We always say “I was born …”.",
+      "tips": [
+        "Birth in the past: I was born, they were born."
+      ],
+      "similar_questions": [
+        {
+          "stem": "My brother ______ in 2010.",
+          "options": {
+            "A": "born",
+            "B": "was born",
+            "C": "is born",
+            "D": "borned"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "was born."
+          ]
+        }
+      ],
+      "topics": [
+        "en-passive",
+        "en-past-simple"
+      ],
+      "keywords": [
+        "was born"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Passive voice",
+        "rule": "Passive = am/is/are/was/were + past participle (Cars are sold). Use it when the doer is not important.",
+        "note": "textbook: English Grade 6, p. 134; English Grade 7, p. 145; English Grade 8, p. 12"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Past simple",
+          "rule": "Past simple: verb-ed or irregular past form; questions and negatives use did + base verb (Did he call?).",
+          "note": "textbook: English Grade 7, p. 72; English Grade 8, p. 7"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q22",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 22,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "The doctor said, “Your temperature is improving.” The indirect speech form is:",
+      "options": {
+        "A": "The doctor said that your temperature is improving.",
+        "B": "The doctor said that my temperature was improving.",
+        "C": "The doctor said that my temperature is improving.",
+        "D": "The doctor said that your temperature has improved."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The doctor said this to me (the patient), so “your” becomes “my”.",
+        "After “said”, “is improving” moves back to “was improving”.",
+        "Only B makes both changes.",
+        "Textbook: English Grade 8, p. 151, 174–175."
+      ],
+      "explain_simple": "“your” → “my” and “is” → “was”.",
+      "tips": [
+        "Reported speech: change the pronoun and move the tense back."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The teacher said to me, “Your answer is correct.” Indirect speech:",
+          "options": {
+            "A": "The teacher said that my answer was correct.",
+            "B": "The teacher said that your answer is correct.",
+            "C": "The teacher said my answer is correct.",
+            "D": "The teacher says your answer was correct."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "your → my; is → was."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reported-speech"
+      ],
+      "keywords": [
+        "indirect speech"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Reported (indirect) speech",
+        "rule": "In reported speech after 'said', change the pronoun (I → he/she) and move the tense back (am → was, will → would).",
+        "note": "textbook: English Grade 8, p. 151, 174–175"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q23",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 23,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Question: ______  Answer: I bought it from Expo Book Shop.",
+      "options": {
+        "A": "When did you buy the book?",
+        "B": "How did you buy the book?",
+        "C": "Why did you buy the book?",
+        "D": "Where did you buy the book?"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "The answer tells a place (Expo Book Shop).",
+        "A place answers “Where?”.",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "The answer is a place. So the question starts with “Where”.",
+      "tips": [
+        "Where → place."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Question: ______  Answer: At the bus station.",
+          "options": {
+            "A": "Where did you meet him?",
+            "B": "When did you meet him?",
+            "C": "Why did you meet him?",
+            "D": "Who did you meet?"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "place → Where."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions"
+      ],
+      "keywords": [
+        "where"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q24",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 24,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which word is spelled correctly?",
+      "options": {
+        "A": "sceince",
+        "B": "contaminete",
+        "C": "money",
+        "D": "priposition"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Correct spellings: science, contaminate, money, preposition.",
+        "Only “money” is right.",
+        "Textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')."
+      ],
+      "explain_simple": "Only “money” is spelt correctly.",
+      "tips": [
+        "Say the word slowly and check each part: sci-ence, pre-po-si-tion."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which word is spelled correctly?",
+          "options": {
+            "A": "techer",
+            "B": "teacher",
+            "C": "teachar",
+            "D": "teatcher"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "teacher."
+          ]
+        }
+      ],
+      "topics": [
+        "en-spelling"
+      ],
+      "keywords": [
+        "spelling"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "vocabulary",
+        "topic": "Spelling",
+        "rule": "Learn the spelling of common words; the sound /s/ at the end of a word is often spelt -ce (justice, office).",
+        "note": "textbook: English Grade 8, p. 72–95 (spelling: doubling letters, dropping 'e')"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q25",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 25,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "We saw the lion but ______ didn’t see us.",
+      "options": {
+        "A": "it",
+        "B": "him",
+        "C": "its",
+        "D": "his"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The gap is the subject of “didn’t see”, so we need a subject pronoun.",
+        "For an animal we normally use “it”.",
+        "Textbook: English Grade 6, p. 61; English Grade 7, p. 7–8."
+      ],
+      "explain_simple": "The lion did not see us. Subject for an animal: it.",
+      "tips": [
+        "Subject pronoun before the verb: it/he/she/they."
+      ],
+      "similar_questions": [
+        {
+          "stem": "I called the dog, but ______ didn’t come.",
+          "options": {
+            "A": "its",
+            "B": "it",
+            "C": "him",
+            "D": "them"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "subject for an animal → it."
+          ]
+        }
+      ],
+      "topics": [
+        "en-pronouns"
+      ],
+      "keywords": [
+        "it",
+        "subject pronoun"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Subject, object and possessive pronouns",
+        "rule": "Use an object pronoun (me, him, her, us, them) after a verb or preposition; possessive pronouns (mine, yours, his, hers, ours, theirs) replace a noun.",
+        "note": "textbook: English Grade 6, p. 61; English Grade 7, p. 7–8"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q26",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 26,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "His uncle is ninety years old; ______, he can walk for more than 50 kilometres.",
+      "options": {
+        "A": "however",
+        "B": "and",
+        "C": "or",
+        "D": "A and B"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Old age and walking 50 km are a surprising contrast.",
+        "“however” shows contrast and comes after a semicolon with a comma.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "Very old, but he walks far. That is a contrast → however.",
+      "tips": [
+        "however = but (contrast), used with ; … , or at the start of a new sentence."
+      ],
+      "similar_questions": [
+        {
+          "stem": "It was raining; ______, we played football.",
+          "options": {
+            "A": "however",
+            "B": "because",
+            "C": "so",
+            "D": "and"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "contrast → however."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "however",
+        "contrast"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q27",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 27,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ the boys help their sisters at home?",
+      "options": {
+        "A": "Does",
+        "B": "Do",
+        "C": "Doesn’t",
+        "D": "Done"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“the boys” is plural (they).",
+        "Present simple question with they → Do.",
+        "Textbook: English Grade 6, p. 57; English Grade 8, p. 7."
+      ],
+      "explain_simple": "The boys = they → Do.",
+      "tips": [
+        "Do + I/you/we/they; Does + he/she/it."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ your parents live in Keren?",
+          "options": {
+            "A": "Does",
+            "B": "Do",
+            "C": "Is",
+            "D": "Done"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "parents = they → Do."
+          ]
+        }
+      ],
+      "topics": [
+        "en-present-simple",
+        "en-questions"
+      ],
+      "keywords": [
+        "do",
+        "question"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Present simple",
+        "rule": "Present simple: he/she/it takes -s (he watches); questions and negatives use do/does + base verb (Does he help?).",
+        "note": "textbook: English Grade 6, p. 57; English Grade 8, p. 7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q28",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 28,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ litres of water should we drink in a day?",
+      "options": {
+        "A": "How much",
+        "B": "Many",
+        "C": "How",
+        "D": "How many"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“litres” is a plural countable noun.",
+        "So we ask “How many litres …?”.",
+        "Textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7."
+      ],
+      "explain_simple": "Litres can be counted → How many.",
+      "tips": [
+        "How many + plural noun; How much + uncountable noun."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ glasses of milk did you drink?",
+          "options": {
+            "A": "How much",
+            "B": "How many",
+            "C": "Many",
+            "D": "How"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "glasses → How many."
+          ]
+        }
+      ],
+      "topics": [
+        "en-quantifiers",
+        "en-questions"
+      ],
+      "keywords": [
+        "how many"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Quantity words (some, any, much, many, too, enough)",
+        "rule": "some = an amount with plural or uncountable nouns; too = more than is good; very = a lot; enough = as much as needed.",
+        "note": "textbook: English Grade 6, p. 148, 274–276; English Grade 8, Units 6–7"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Questions and short answers",
+          "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+          "note": "textbook: English Grade 7, p. 100–101"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q29",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 29,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "We ______ respect and help old people.",
+      "options": {
+        "A": "have to",
+        "B": "may to",
+        "C": "must to",
+        "D": "can to"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "may, must and can are never followed by “to”.",
+        "“have to” is correct and shows a duty.",
+        "Textbook: English Grade 7, p. 167–168, 187; English Grade 8, Unit 3 (p. 46–71)."
+      ],
+      "explain_simple": "We say “have to respect”.",
+      "tips": [
+        "Only have to / ought to have ‘to’. Never “must to”."
+      ],
+      "similar_questions": [
+        {
+          "stem": "We ______ wash our hands before eating.",
+          "options": {
+            "A": "must to",
+            "B": "should to",
+            "C": "have to",
+            "D": "can to"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "have to."
+          ]
+        }
+      ],
+      "topics": [
+        "en-modals"
+      ],
+      "keywords": [
+        "have to",
+        "obligation"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Modals (must, should, have to, can, may, might)",
+        "rule": "Modal verbs (must, should, can, may, might, will) are followed by the base verb without 'to'; have to / ought to keep 'to'.",
+        "note": "textbook: English Grade 7, p. 167–168, 187; English Grade 8, Unit 3 (p. 46–71)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q30",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 30,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "If you ______ late to class, you will miss your lessons.",
+      "options": {
+        "A": "came",
+        "B": "had come",
+        "C": "comes",
+        "D": "come"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "First conditional: If + present simple, … will + verb.",
+        "Subject “you” → come (no -s).",
+        "Textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129."
+      ],
+      "explain_simple": "If you come late, you will miss… (present + will).",
+      "tips": [
+        "If + present, will + verb."
+      ],
+      "similar_questions": [
+        {
+          "stem": "If she ______ hard, she will pass.",
+          "options": {
+            "A": "study",
+            "B": "studies",
+            "C": "studied",
+            "D": "had studied"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "If + present (she studies), will pass."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conditionals"
+      ],
+      "keywords": [
+        "first conditional"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conditional sentences",
+        "rule": "First conditional: If + present simple, will + base verb. Zero conditional (always true): If + present, present. Second: If + past, would + base verb.",
+        "note": "textbook: English Grade 7, p. 161; English Grade 8, p. 34, 129"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q31",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 31,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "My friend built his house ______.",
+      "options": {
+        "A": "hiself",
+        "B": "herself",
+        "C": "himself",
+        "D": "B and C"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“his house” shows the friend is a man.",
+        "The reflexive pronoun for a man is “himself” (“hiself” is not a word).",
+        "Textbook: English Grade 8, p. 56, 112."
+      ],
+      "explain_simple": "His house → himself.",
+      "tips": [
+        "he → himself, she → herself."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Saba made the dress ______.",
+          "options": {
+            "A": "himself",
+            "B": "herself",
+            "C": "hisself",
+            "D": "itself"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Saba (she) → herself."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reflexive"
+      ],
+      "keywords": [
+        "himself"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Reflexive pronouns",
+        "rule": "Reflexive pronouns show that the subject and the object are the same person: you (plural) → yourselves.",
+        "note": "textbook: English Grade 8, p. 56, 112"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q32",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 32,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "______ I didn’t sleep the whole night, I woke up early in the morning.",
+      "options": {
+        "A": "Therefore",
+        "B": "Moreover",
+        "C": "Although",
+        "D": "However"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "Two ideas in contrast in ONE sentence: no sleep – but I woke up early.",
+        "“Although” joins two clauses with contrast.",
+        "“However” and “Therefore” start a new sentence or come after a semicolon; they do not join clauses like this.",
+        "Textbook: English Grade 8, p. 30, 68, 82, 98–99."
+      ],
+      "explain_simple": "Contrast in one sentence → Although.",
+      "tips": [
+        "Although + clause, clause."
+      ],
+      "similar_questions": [
+        {
+          "stem": "______ he was sick, he went to school.",
+          "options": {
+            "A": "Although",
+            "B": "Because",
+            "C": "So",
+            "D": "Therefore"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "contrast → although."
+          ]
+        }
+      ],
+      "topics": [
+        "en-conjunctions"
+      ],
+      "keywords": [
+        "although"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Conjunctions and linking words",
+        "rule": "because + reason; so that + purpose; but/however + contrast; and + addition; so + result.",
+        "note": "textbook: English Grade 8, p. 30, 68, 82, 98–99"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q33",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 33,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Do you go to the library?",
+      "options": {
+        "A": "No, I do.",
+        "B": "Yes, I don’t.",
+        "C": "Yes, you do.",
+        "D": "Yes, I do."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“Do you …?” → “Yes, I do.” or “No, I don’t.”",
+        "Textbook: English Grade 7, p. 100–101."
+      ],
+      "explain_simple": "“Do you …?” → “Yes, I do.”",
+      "tips": [
+        "Short answers repeat do/does: Yes, I do / No, I don’t."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Does she like tea?",
+          "options": {
+            "A": "Yes, she does.",
+            "B": "Yes, she do.",
+            "C": "No, she does.",
+            "D": "Yes, I do."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Yes, she does."
+          ]
+        }
+      ],
+      "topics": [
+        "en-questions"
+      ],
+      "keywords": [
+        "short answer",
+        "do"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Questions and short answers",
+        "rule": "Question word + auxiliary + subject + verb (Why did you travel?). Short answers repeat the auxiliary: Yes, you can.",
+        "note": "textbook: English Grade 7, p. 100–101"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q34",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 34,
+      "section": "B. Grammar and vocabulary",
+      "type": "mcq",
+      "marks": 1,
+      "stem": "Which of the following sentences is correct?",
+      "options": {
+        "A": "Selam is the intelligent girl in the school.",
+        "B": "Selam is the most intelligent girl in the school.",
+        "C": "Selam is most intelligent girl in the school.",
+        "D": "Selam is intelligent girl in the school."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“in the school” → superlative: the most intelligent.",
+        "C misses “the”; A and D have no superlative.",
+        "Textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109."
+      ],
+      "explain_simple": "the most intelligent girl in the school.",
+      "tips": [
+        "the + most + long adjective."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which sentence is correct?",
+          "options": {
+            "A": "This is the most beautiful place in Eritrea.",
+            "B": "This is most beautiful place.",
+            "C": "This is the beautifulest place.",
+            "D": "This is beautiful place in Eritrea."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "the most beautiful."
+          ]
+        }
+      ],
+      "topics": [
+        "en-comparison"
+      ],
+      "keywords": [
+        "superlative"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "grammar",
+        "topic": "Comparatives and superlatives",
+        "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+        "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q35",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 35,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-table",
+      "stem": "______ is most likely to visit historical places more often.",
+      "options": {
+        "A": "Hayat",
+        "B": "Negasi",
+        "C": "Simon",
+        "D": "Ali"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "People who like travelling visit places.",
+        "Hayat’s hobby is travelling.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Hayat likes travelling. So she visits places.",
+      "tips": [
+        "Link the question to the right column (hobby)."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who most likely goes to the sea or a pool often? (same table)",
+          "options": {
+            "A": "Hayat",
+            "B": "Negasi",
+            "C": "Simon",
+            "D": "Ali"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "Negasi likes swimming."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "table",
+        "hobby"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q36",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 36,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-table",
+      "stem": "______ likes something related with books.",
+      "options": {
+        "A": "Negasi",
+        "B": "Hayat",
+        "C": "Simon",
+        "D": "Ali"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Books are for reading. Ali’s hobby is reading.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Ali likes reading books.",
+      "tips": [
+        "Books → reading."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who likes something related with animals in the forest? (same table)",
+          "options": {
+            "A": "Negasi",
+            "B": "Hayat",
+            "C": "Simon",
+            "D": "Ali"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Simon likes hunting."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table"
+      ],
+      "keywords": [
+        "table",
+        "reading"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q37",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 37,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-table",
+      "stem": "Which statement is true?",
+      "options": {
+        "A": "Negasi is the shortest but the heaviest.",
+        "B": "Ali is as heavy as Negasi.",
+        "C": "Ali is the tallest and the heaviest.",
+        "D": "Simon is as old as Hayat."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Ali and Negasi both weigh 72 kg, so “Ali is as heavy as Negasi” is true.",
+        "A and C say one person is “the heaviest”, but Negasi and Ali weigh the same, so neither is the only heaviest.",
+        "D: Simon is 18, Hayat is 20. False.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Ali and Negasi are both 72 kg. They are equally heavy.",
+      "tips": [
+        "“as … as” = the same."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is true? (same table)",
+          "options": {
+            "A": "Negasi is as old as Ali.",
+            "B": "Hayat is the youngest.",
+            "C": "Simon is the tallest.",
+            "D": "Ali is the lightest."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Both are 17."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-comparison"
+      ],
+      "keywords": [
+        "as heavy as"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Comparatives and superlatives",
+          "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+          "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q38",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 38,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-table",
+      "stem": "The lightest person is ______.",
+      "options": {
+        "A": "Negasi",
+        "B": "Hayat",
+        "C": "Simon",
+        "D": "Ali"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Lightest = smallest weight. Hayat weighs 59 kg, the smallest.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Hayat is 59 kg, the least weight.",
+      "tips": [
+        "lightest = weighs the least; heaviest = weighs the most."
+      ],
+      "similar_questions": [
+        {
+          "stem": "The tallest person is ______ (same table).",
+          "options": {
+            "A": "Negasi",
+            "B": "Hayat",
+            "C": "Simon",
+            "D": "Ali"
+          },
+          "answer": "D",
+          "explanation_steps": [
+            "Ali 1.85 m."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-comparison"
+      ],
+      "keywords": [
+        "lightest"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Comparatives and superlatives",
+          "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+          "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q39",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 39,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-table",
+      "stem": "Who is shorter but heavier than Simon?",
+      "options": {
+        "A": "Hayat",
+        "B": "Negasi",
+        "C": "Ali",
+        "D": "All are correct answers."
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "Simon: 1.75 m, 67 kg.",
+        "Negasi: 1.60 m (shorter), 72 kg (heavier) → yes.",
+        "Hayat is taller and lighter; Ali is taller.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Negasi is shorter (1.60 m) and heavier (72 kg) than Simon.",
+      "tips": [
+        "Check both conditions for each person."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who is taller but lighter than Simon? (same table)",
+          "options": {
+            "A": "Hayat",
+            "B": "Negasi",
+            "C": "Ali",
+            "D": "Nobody"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "Hayat: 1.80 m, 59 kg."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-comparison"
+      ],
+      "keywords": [
+        "shorter",
+        "heavier"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Comparatives and superlatives",
+          "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+          "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q40",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 40,
+      "section": "C. Table",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-table",
+      "stem": "Which of the following is true?",
+      "options": {
+        "A": "Negasi is not as old as Ali.",
+        "B": "Ali is two years younger than Hayat.",
+        "C": "Simon and Ali are younger than Hayat.",
+        "D": "B and C are correct answers."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "A: Negasi and Ali are both 17 → same age, so A is false.",
+        "B: Ali 17, Hayat 20 → three years, not two. False.",
+        "C: Simon (18) and Ali (17) are both younger than Hayat (20). True. D is false because B is false.",
+        "Textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data."
+      ],
+      "explain_simple": "Hayat is 20. Simon (18) and Ali (17) are younger.",
+      "tips": [
+        "Do the maths for “two years younger” carefully."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Which is true? (same table)",
+          "options": {
+            "A": "Simon is one year older than Ali.",
+            "B": "Hayat is younger than Negasi.",
+            "C": "Ali is older than Simon.",
+            "D": "Negasi is 18."
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "18 − 17 = 1."
+          ]
+        }
+      ],
+      "topics": [
+        "en-table",
+        "en-comparison"
+      ],
+      "keywords": [
+        "younger",
+        "as old as"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Information from a table",
+        "rule": "Find the right row (person/thing) and the right column (fact); check every part of a statement before you call it true.",
+        "note": "textbook: English Grade 8, Unit 6 (p. 120–141): graphs and data"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "grammar",
+          "topic": "Comparatives and superlatives",
+          "rule": "Long adjectives: more ... than / the most ...; short adjectives: -er than / the -est. 'not as ... as' means 'less ... than'.",
+          "note": "textbook: English Grade 6, p. 58; English Grade 7, p. 16, 124; English Grade 8, p. 109"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q41",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 41,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "Which of the following is true?",
+      "options": {
+        "A": "Peter’s mother locked the door before going to the shops.",
+        "B": "Peter locked the door before going to the shops.",
+        "C": "Peter forgot to lock the door before going to the shops.",
+        "D": "A and C are answers."
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "Mrs Sarah asks: “didn’t I lock the door …?” Peter answers: “Yes, of course you did.”",
+        "So his mother locked the door.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Peter says: “Yes, of course you did.” His mother locked the door.",
+      "tips": [
+        "Short answers like “Yes, you did” repeat the other person’s action."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who has keys to the house? (passage)",
+          "options": {
+            "A": "Only Peter",
+            "B": "Only Mrs Sarah",
+            "C": "Peter and his mother",
+            "D": "Everybody"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "“Only you and I have keys.”"
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "true",
+        "detail"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q42",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 42,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "Who does “we” in (line 2) refer to?",
+      "options": {
+        "A": "Peter and the locks",
+        "B": "Peter and Mrs Sarah",
+        "C": "Peter and his mother",
+        "D": "B and C are answers."
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Mrs Sarah says to Peter: “didn’t I lock the door before we went to the shops?” So “we” = Mrs Sarah and Peter.",
+        "Mrs Sarah IS Peter’s mother, so B and C name the same two people. Both are correct → D.",
+        "Textbook: English Grade 7, p. 7–8 (pronouns)."
+      ],
+      "explain_simple": "“We” = Peter and his mother (Mrs Sarah). B and C are the same people.",
+      "tips": [
+        "Check if two options name the same people in different words."
+      ],
+      "similar_questions": [
+        {
+          "stem": "“Mrs Sarah and her son went home. They were tired.” ‘They’ refers to:",
+          "options": {
+            "A": "Mrs Sarah only",
+            "B": "Mrs Sarah and her son",
+            "C": "the house",
+            "D": "the police"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "They = the two people."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-reference"
+      ],
+      "keywords": [
+        "reference",
+        "we"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Reference words (he, she, it, them, this)",
+        "rule": "A pronoun (he, it, them, this) stands for a noun that came before it; read the sentences before it.",
+        "note": "textbook: English Grade 7, p. 7–8 (pronouns)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q43",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 43,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "One of the following was not stolen from Peter’s house.",
+      "options": {
+        "A": "television",
+        "B": "radio",
+        "C": "phone",
+        "D": "A and B"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "The TV and the radio were gone.",
+        "Mrs Sarah used the phone to call the police, so the phone was not stolen.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "She used the phone to call the police. It was not stolen.",
+      "tips": [
+        "“Not” questions: find the things that WERE stolen, then pick the other one."
+      ],
+      "similar_questions": [
+        {
+          "stem": "What did Police Officer Hayat take out of her bag? (passage)",
+          "options": {
+            "A": "a gun and a book",
+            "B": "powder and a brush",
+            "C": "a phone and keys",
+            "D": "a TV"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“a bottle of powder and a big, soft brush”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "was not",
+        "detail"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q44",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 44,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "What does “picked up” (line 9) mean?",
+      "options": {
+        "A": "called",
+        "B": "lifted",
+        "C": "told",
+        "D": "put"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "“Mrs Sarah picked up the phone and called the police.” She lifted the phone first, then called.",
+        "So “picked up” = lifted. “called” is a separate action.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "She lifted the phone, then called. Picked up = lifted.",
+      "tips": [
+        "Do not choose the word that comes right after (called); choose the same meaning."
+      ],
+      "similar_questions": [
+        {
+          "stem": "He picked up the pen from the floor. ‘Picked up’ means:",
+          "options": {
+            "A": "dropped",
+            "B": "lifted",
+            "C": "bought",
+            "D": "broke"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "picked up = lifted."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-vocab"
+      ],
+      "keywords": [
+        "picked up",
+        "lifted"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Word meaning in a text",
+        "rule": "Put each option in place of the word; the one that keeps the meaning of the sentence is correct.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q45",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 45,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "Why did Police Officer Hayat put powder on the door, walls and furniture?",
+      "options": {
+        "A": "To clean the house",
+        "B": "To find the TV and radio",
+        "C": "To teach Peter how to catch thieves",
+        "D": "To see the fingerprints clearly"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "“The powder helped her to see fingerprints clearly.”",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "The powder helps to see fingerprints.",
+      "tips": [
+        "“Why” questions: look for words like “helped her to …”, “because”, “so that”."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Why did Officer Hayat take Peter’s fingerprints? (passage)",
+          "options": {
+            "A": "Because he was the thief",
+            "B": "To know which prints were his and which were the thief’s",
+            "C": "To clean his hands",
+            "D": "To write his address"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“Then I can tell which prints belong to you, and which belong to the thief.”"
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "why",
+        "fingerprints"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q46",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 46,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "What does “nervous” (line 17) mean?",
+      "options": {
+        "A": "relaxed and angry",
+        "B": "angry and sad",
+        "C": "sick and tired",
+        "D": "worried and frightened"
+      },
+      "answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "explanation_steps": [
+        "Peter thought the police might think he was the thief. So he was worried and a little afraid.",
+        "nervous = worried and frightened.",
+        "Textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227."
+      ],
+      "explain_simple": "Peter was worried and afraid. That is nervous.",
+      "tips": [
+        "Think about how the person feels in the story."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Before the exam, Hana was nervous. ‘Nervous’ means:",
+          "options": {
+            "A": "worried",
+            "B": "happy",
+            "C": "hungry",
+            "D": "angry"
+          },
+          "answer": "A",
+          "explanation_steps": [
+            "nervous = worried."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-vocab"
+      ],
+      "keywords": [
+        "nervous"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Word meaning in a text",
+        "rule": "Put each option in place of the word; the one that keeps the meaning of the sentence is correct.",
+        "note": "textbook: English Grade 8, Appendix 1: Vocabulary list, p. 221–227"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q47",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 47,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "Who said, “I didn’t steal our TV?” (line 18)",
+      "options": {
+        "A": "Police Officer Hayat",
+        "B": "Mrs Sarah",
+        "C": "Peter",
+        "D": "Peter’s mother"
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“‘I didn’t steal our TV!’ he said.” “He” is Peter.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "Peter said it.",
+      "tips": [
+        "Find “said” and who “he/she” is."
+      ],
+      "similar_questions": [
+        {
+          "stem": "Who said, “I’m here to take fingerprints”?",
+          "options": {
+            "A": "Peter",
+            "B": "Mrs Sarah",
+            "C": "Police Officer Hayat",
+            "D": "the thief"
+          },
+          "answer": "C",
+          "explanation_steps": [
+            "Officer Hayat said it."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "speaker"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q48",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 48,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "Peter knew that:",
+      "options": {
+        "A": "the TV and radio were not stolen.",
+        "B": "the police officer came to arrest him.",
+        "C": "fingerprints were used to catch thieves.",
+        "D": "B and C are correct answers."
+      },
+      "answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "explanation_steps": [
+        "“He knew that the police used fingerprints to catch thieves.”",
+        "B is wrong: he was afraid, but the officer did not come to arrest him.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "The story says: he knew that the police used fingerprints to catch thieves.",
+      "tips": [
+        "Match the exact words “he knew that …”."
+      ],
+      "similar_questions": [
+        {
+          "stem": "How did Peter feel when the officer wanted his fingerprints?",
+          "options": {
+            "A": "happy",
+            "B": "nervous",
+            "C": "bored",
+            "D": "sleepy"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“Peter was suddenly nervous.”"
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail"
+      ],
+      "keywords": [
+        "detail"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q49",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 49,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "The thief was:",
+      "options": {
+        "A": "a woman",
+        "B": "a man",
+        "C": "not known",
+        "D": "their neighbour"
+      },
+      "answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "explanation_steps": [
+        "The officer said: “We have caught the thief and she has told us …”.",
+        "“she” shows the thief was a woman.",
+        "Textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)."
+      ],
+      "explain_simple": "The officer says “she”. The thief was a woman.",
+      "tips": [
+        "Small words like he/she can answer a question."
+      ],
+      "similar_questions": [
+        {
+          "stem": "When did the officer phone Peter?",
+          "options": {
+            "A": "the same day",
+            "B": "three days later",
+            "C": "one week later",
+            "D": "the next morning"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "“Three days later …”."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-detail",
+        "en-reading-reference"
+      ],
+      "keywords": [
+        "thief",
+        "she"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Finding facts (details)",
+        "rule": "Find the part of the text with the same words as the question; read that sentence carefully.",
+        "note": "textbook: English Grade 8, reading lessons (e.g. Unit 10, p. 199–220: stories)"
+      },
+      "additional_textbook_refs": [
+        {
+          "source": "grammar",
+          "area": "reading",
+          "topic": "Reference words (he, she, it, them, this)",
+          "rule": "A pronoun (he, it, them, this) stands for a noun that came before it; read the sentences before it.",
+          "note": "textbook: English Grade 7, p. 7–8 (pronouns)"
+        }
+      ],
+      "confidence": "high",
+      "review_flag": null
+    },
+    {
+      "id": "english-2013-g8-p1-q50",
+      "exam_id": "english-2013-g8",
+      "part": 1,
+      "number": 50,
+      "section": "D. Reading passage",
+      "type": "mcq",
+      "marks": 1,
+      "passage_id": "english-2013-passage",
+      "stem": "A good title for the passage is:",
+      "options": {
+        "A": "Mrs Sarah and Hayat",
+        "B": "Fingerprints",
+        "C": "TV and radio",
+        "D": "Police Officer Hayat"
+      },
+      "answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "explanation_steps": [
+        "The story is about a break-in and how the police use fingerprints to find the thief.",
+        "Fingerprints are in most of the story (powder, ink, the card, catching the thief). The other titles are only one part.",
+        "Textbook: English Grade 8, Unit 10 (p. 199–220)."
+      ],
+      "explain_simple": "Most of the story is about fingerprints.",
+      "tips": [
+        "Choose the title that fits the whole story."
+      ],
+      "similar_questions": [
+        {
+          "stem": "A text explains how bees make honey and why honey is good food. The best title is:",
+          "options": {
+            "A": "Bees",
+            "B": "Honey – from bee to table",
+            "C": "Flowers",
+            "D": "Good food"
+          },
+          "answer": "B",
+          "explanation_steps": [
+            "It covers the whole text."
+          ]
+        }
+      ],
+      "topics": [
+        "en-reading-main-idea"
+      ],
+      "keywords": [
+        "title"
+      ],
+      "textbook_ref": {
+        "source": "grammar",
+        "area": "reading",
+        "topic": "Main idea and best title",
+        "rule": "The best title covers the whole text, not only one part.",
+        "note": "textbook: English Grade 8, Unit 10 (p. 199–220)"
+      },
+      "additional_textbook_refs": [],
+      "confidence": "medium",
+      "review_flag": "Title question: B “Fingerprints” is the best choice (the officer and the fingerprints are the centre of the story), but D “Police Officer Hayat” is also arguable. Teacher check."
+    }
+  ]
+}

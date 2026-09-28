@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190">
+  <!-- artery: thick, muscular, elastic wall -->
+  <circle cx="62" cy="74" r="48" fill="#E4574A" stroke="#A8322A" stroke-width="3"/>
+  <circle cx="62" cy="74" r="22" fill="#FF9C8C"/>
+  <ellipse cx="44" cy="46" rx="12" ry="6" fill="#fff" opacity=".45"/>
+  <text x="62" y="152" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="900" font-size="17" fill="#A8322A">thick wall</text>
+  <!-- vein: thin wall, wide space -->
+  <ellipse cx="180" cy="74" rx="50" ry="40" fill="#7E8FC9" stroke="#3E4F8F" stroke-width="3"/>
+  <ellipse cx="180" cy="74" rx="41" ry="31" fill="#C2CBEA"/>
+  <ellipse cx="160" cy="50" rx="12" ry="5" fill="#fff" opacity=".45"/>
+  <text x="180" y="152" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="900" font-size="17" fill="#3E4F8F">thin wall</text>
+  <!-- capillary: tiny, very thin wall -->
+  <circle cx="270" cy="74" r="12" fill="#D9A0B0" stroke="#9C4A62" stroke-width="2"/>
+  <circle cx="270" cy="74" r="9" fill="#F6D2DC"/>
+  <text x="270" y="152" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="900" font-size="17" fill="#9C4A62">very thin</text>
+  <text x="270" y="172" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="800" font-size="14" fill="#8A7A6E">(microscopic)</text>
+</svg>

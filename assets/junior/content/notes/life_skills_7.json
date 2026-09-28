@@ -1,0 +1,4211 @@
+{
+ "book": {
+  "id": "life_skills_7",
+  "subject": "life_skills",
+  "grade": 7,
+  "title": "Life Skills Grade 7",
+  "pdf": "textbooks/life_skills_7.pdf",
+  "page_offset": 5,
+  "source": "Life Skills Based Health Education for Grade 7, Student's Text Book, Ministry of Education, State of Eritrea (Second Edition, 2015)"
+ },
+ "units": [
+  {
+   "id": "ls7-u1",
+   "number": 1,
+   "title": "Health",
+   "status": "done",
+   "pages": [
+    1,
+    5
+   ],
+   "tone": "mint",
+   "intro": "This unit asks: **what is health?** You will read three short stories (case studies), think about **health and gender**, **rules of health**, and a **health promoting school**.",
+   "intro_page": 1,
+   "diagrams": {
+    "aspects": {
+     "svg": "svg/life_skills_7/ls7_aspects.svg",
+     "title": "Three aspects of health",
+     "page": 2,
+     "pins": [
+      {
+       "id": "phy",
+       "text": "physical",
+       "x": 20.0,
+       "y": 24.0
+      },
+      {
+       "id": "men",
+       "text": "mental",
+       "x": 126.0,
+       "y": 24.0
+      },
+      {
+       "id": "soc",
+       "text": "social",
+       "x": 232.0,
+       "y": 24.0
+      }
+     ]
+    },
+    "cases": {
+     "svg": "svg/life_skills_7/ls7_cases.svg",
+     "title": "Three case studies",
+     "page": 1,
+     "pins": [
+      {
+       "id": "hab",
+       "text": "Case I: Ato Habte, 40, rich; eats and drinks a lot, goes to bars; a fierce father",
+       "x": 22,
+       "y": 22
+      },
+      {
+       "id": "hal",
+       "text": "Case II: Halima, grade 7, very clever; has a twisted leg; boys tease her",
+       "x": 126,
+       "y": 22
+      },
+      {
+       "id": "alm",
+       "text": "Case III: W/ro Almaz, 35, a widow with six children; works hard; sometimes lonely and sad",
+       "x": 230,
+       "y": 22
+      }
+     ]
+    },
+    "sexgen": {
+     "svg": "svg/life_skills_7/ls7_sexgen.svg",
+     "title": "Sex and gender",
+     "page": 3,
+     "pins": [
+      {
+       "id": "sex",
+       "text": "biological (sex) roles",
+       "x": 24.0,
+       "y": 24.0
+      },
+      {
+       "id": "gen",
+       "text": "social (gender) roles",
+       "x": 179.0,
+       "y": 24.0
+      }
+     ]
+    },
+    "school": {
+     "svg": "svg/life_skills_7/ls7_school.svg",
+     "title": "Health promoting or demoting?",
+     "page": 5,
+     "pins": [
+      {
+       "id": "pro",
+       "text": "a health promoting school",
+       "x": 22,
+       "y": 22
+      },
+      {
+       "id": "dem",
+       "text": "a health demoting school",
+       "x": 178,
+       "y": 22
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls7-u1-l1",
+     "number": "1.1",
+     "title": "What is health?",
+     "pages": [
+      1,
+      2
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "You will learn the **broad meaning of health**.",
+        "You will practise **life skills** and **healthy behaviour**."
+       ],
+       "page": 1
+      },
+      {
+       "type": "diagram",
+       "title": "Three case studies",
+       "diagram": "cases",
+       "mode": "explore",
+       "page": 1,
+       "body": [
+        "Tap each person. Read each story."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Case I: Ato Habte",
+       "body": [
+        "Ato Habte is **40** and very **rich**. He skips breakfast at home.",
+        "At work he orders **two dishes of zigni** and **two bottles of beer**.",
+        "He drinks in bars every evening and has risky relationships, though he always uses a condom.",
+        "At home he is a **fierce father**. His children are afraid of him."
+       ],
+       "page": 1
+      },
+      {
+       "type": "text",
+       "title": "Case II: Halima",
+       "body": [
+        "Halima is in **grade 7**. She is very **clever** and reads all the time.",
+        "Boys say she won't dance because of her **twisted leg**.",
+        "Halima says **their minds are more twisted than her leg**. But she wishes she had a good leg."
+       ],
+       "page": 1
+      },
+      {
+       "type": "text",
+       "title": "Case III: W/ro Almaz",
+       "body": [
+        "W/ro Almaz is **35**, a **widow** with **six children**. Her husband died in the **liberation war**.",
+        "She works hard in a **textile factory** but is poor. All her children go to school.",
+        "The children grow **vegetables** and raise **chickens**. The family **loves each other** and prays every day.",
+        "Sometimes she feels **lonely and sad**."
+       ],
+       "page": 2
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "The book asks: **Who is more healthy? Why?**",
+        "How could each person **improve** his or her health?"
+       ],
+       "page": 2
+      },
+      {
+       "type": "diagram",
+       "title": "Three aspects of health",
+       "diagram": "aspects",
+       "mode": "explore",
+       "page": 2,
+       "body": [
+        "The book names three aspects of health."
+       ]
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: P-M-S",
+       "page": 2,
+       "letters": [
+        {
+         "l": "P",
+         "w": "Physical",
+         "m": "body"
+        },
+        {
+         "l": "M",
+         "w": "Mental",
+         "m": "mind"
+        },
+        {
+         "l": "S",
+         "w": "Social",
+         "m": "people around you"
+        }
+       ],
+       "body": [
+        "Health = **P**hysical + **M**ental + **S**ocial."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Your health",
+       "body": [
+        "Which aspect (**physical, mental or social**) is most difficult for adolescents? Why?",
+        "Which of your health aspects would you like to **improve**? How?"
+       ],
+       "page": 2
+      },
+      {
+       "type": "check",
+       "q": "How did W/ro Almaz's husband die?",
+       "options": {
+        "A": "in a car accident",
+        "B": "during the liberation war",
+        "C": "from illness",
+        "D": "at sea"
+       },
+       "answer": "B",
+       "why": "\"Her husband died during the liberation war\" (p. 2).",
+       "page": 2
+      }
+     ]
+    },
+    {
+     "id": "ls7-u1-l2",
+     "number": "1.2",
+     "title": "Health and gender",
+     "pages": [
+      2,
+      3
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "A questionnaire",
+       "body": [
+        "You read 10 statements and tick **Agree**, **Disagree** or **Not sure**.",
+        "Examples: \"**Cooking is a girls' job.**\" \"**Education is not so important for girls.**\"",
+        "Others: \"**Nowadays boys and girls are sharing the household work.**\""
+       ],
+       "page": 2
+      },
+      {
+       "type": "diagram",
+       "title": "Sex and gender",
+       "diagram": "sexgen",
+       "mode": "explore",
+       "page": 3,
+       "body": [
+        "The book asks you to think about the difference."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What is the difference between **biological (sex)** and **social (gender)** roles?",
+        "Who is more affected by health problems, **boys or girls**? Why?"
+       ],
+       "page": 3
+      }
+     ]
+    },
+    {
+     "id": "ls7-u1-l3",
+     "number": "1.3",
+     "title": "Rules of health",
+     "pages": [
+      4,
+      4
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Make a list",
+       "body": [
+        "Write and display **five things** healthy people **should do**.",
+        "Then **five things** they **shouldn't do**.",
+        "Choose the **ten best** health practices from all the lists."
+       ],
+       "page": 4
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "Do you do things you **know** are not good for your health? Why?",
+        "Which **unhealthy behaviours** are most common among young people? How can they change?"
+       ],
+       "page": 4
+      }
+     ]
+    },
+    {
+     "id": "ls7-u1-l4",
+     "number": "1.4",
+     "title": "Health promoting school and project",
+     "pages": [
+      5,
+      5
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Health promoting or demoting?",
+       "diagram": "school",
+       "mode": "explore",
+       "page": 5,
+       "body": [
+        "Draw a picture of each kind of school."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Project",
+       "body": [
+        "Discuss **how health promoting** your school is.",
+        "Come up with **five actions (strategies)** to make it more health promoting."
+       ],
+       "page": 5
+      },
+      {
+       "type": "remember",
+       "title": "A health club",
+       "body": [
+        "Does your school have a **health club**?",
+        "If yes: how can it help? If no: how could one be started, and **who** should start it?",
+        "What should the **community** do to strengthen it?"
+       ],
+       "page": 5
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "health",
+     "meaning": "the state of being well",
+     "page": 1
+    },
+    {
+     "term": "physical",
+     "meaning": "about the body",
+     "page": 2
+    },
+    {
+     "term": "mental",
+     "meaning": "about the mind",
+     "page": 2
+    },
+    {
+     "term": "social",
+     "meaning": "about living with other people",
+     "page": 2
+    },
+    {
+     "term": "case study",
+     "meaning": "a short story to discuss",
+     "page": 1,
+     "forms": [
+      "case studies"
+     ]
+    },
+    {
+     "term": "widow",
+     "meaning": "a woman whose husband has died",
+     "page": 2
+    },
+    {
+     "term": "fierce",
+     "meaning": "angry and frightening",
+     "page": 1
+    },
+    {
+     "term": "gender",
+     "meaning": "the social roles of boys and girls",
+     "page": 2
+    },
+    {
+     "term": "sex",
+     "meaning": "the biological difference of male and female",
+     "page": 3
+    },
+    {
+     "term": "questionnaire",
+     "meaning": "a list of questions or statements to answer",
+     "page": 2
+    },
+    {
+     "term": "behaviour",
+     "meaning": "the way you act",
+     "page": 4,
+     "forms": [
+      "behaviours",
+      "behavior"
+     ]
+    },
+    {
+     "term": "promote",
+     "meaning": "to help something grow",
+     "page": 5,
+     "forms": [
+      "promoting"
+     ]
+    },
+    {
+     "term": "strategy",
+     "meaning": "a plan of action",
+     "page": 5,
+     "forms": [
+      "strategies"
+     ]
+    },
+    {
+     "term": "health club",
+     "meaning": "a school club that works for health",
+     "page": 5
+    },
+    {
+     "term": "adolescent",
+     "meaning": "a young person growing into an adult",
+     "page": 2,
+     "forms": [
+      "adolescents"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "Health has three aspects: **physical, mental, social**."
+    },
+    {
+     "text": "Read the cases: **who is more healthy?** Think of all three aspects."
+    },
+    {
+     "text": "Make your school **health promoting**."
+    }
+   ],
+   "games": [
+    {
+     "id": "ls7-u1-g1",
+     "type": "match",
+     "lesson": "ls7-u1-l1",
+     "title": "Who is it?",
+     "pairs": [
+      {
+       "a": "Ato Habte",
+       "b": "40, rich, a fierce father"
+      },
+      {
+       "a": "Halima",
+       "b": "grade 7, teased about her leg"
+      },
+      {
+       "a": "W/ro Almaz",
+       "b": "35, widow with six children"
+      }
+     ]
+    },
+    {
+     "id": "ls7-u1-g2",
+     "type": "sort",
+     "lesson": "ls7-u1-l1",
+     "title": "Which case?",
+     "groups": [
+      {
+       "id": "h",
+       "label": "Ato Habte"
+      },
+      {
+       "id": "l",
+       "label": "Halima"
+      },
+      {
+       "id": "a",
+       "label": "W/ro Almaz"
+      }
+     ],
+     "items": [
+      {
+       "text": "two dishes of zigni for breakfast",
+       "group": "h"
+      },
+      {
+       "text": "children afraid of him",
+       "group": "h"
+      },
+      {
+       "text": "reads books all the time",
+       "group": "l"
+      },
+      {
+       "text": "\"their minds are more twisted than my leg\"",
+       "group": "l"
+      },
+      {
+       "text": "works in a textile factory",
+       "group": "a"
+      },
+      {
+       "text": "children grow vegetables",
+       "group": "a"
+      }
+     ]
+    },
+    {
+     "id": "ls7-u1-g3",
+     "type": "label",
+     "lesson": "ls7-u1-l1",
+     "title": "Three case studies",
+     "diagram": "cases"
+    },
+    {
+     "id": "ls7-u1-g4",
+     "type": "label",
+     "lesson": "ls7-u1-l1",
+     "title": "Three aspects of health",
+     "diagram": "aspects"
+    },
+    {
+     "id": "ls7-u1-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Halima is in grade ___.",
+       "answer": "7",
+       "choices": [
+        "7",
+        "5",
+        "9"
+       ]
+      },
+      {
+       "text": "W/ro Almaz has ___ children.",
+       "answer": "six",
+       "choices": [
+        "six",
+        "two",
+        "ten"
+       ]
+      },
+      {
+       "text": "Ato Habte is ___ years old.",
+       "answer": "40",
+       "choices": [
+        "40",
+        "35",
+        "13"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls7-u1-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Halima goes to dances every week.",
+       "answer": false,
+       "why": "She does not go out to dances."
+      },
+      {
+       "text": "W/ro Almaz makes sure all her children go to school.",
+       "answer": true
+      },
+      {
+       "text": "Ato Habte eats breakfast at home.",
+       "answer": false
+      },
+      {
+       "text": "Almaz's family prays every day.",
+       "answer": true
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls7-u1-q1",
+      "type": "mcq",
+      "page": 1,
+      "q": "What does Ato Habte have for breakfast at work?",
+      "options": {
+       "A": "bread and tea",
+       "B": "two dishes of zigni and two bottles of beer",
+       "C": "milk",
+       "D": "nothing"
+      },
+      "answer": "B",
+      "why": [
+       "p. 1: \"he orders two dishes of zigni for breakfast and two bottles of beer.\""
+      ],
+      "tip": "Read Case I.",
+      "similar": [
+       {
+        "q": "What does he eat in the afternoon?",
+        "a": "a plate of chicken and a bottle of local drink"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u1-q2",
+      "type": "mcq",
+      "page": 1,
+      "q": "How is Ato Habte at home?",
+      "options": {
+       "A": "kind and gentle",
+       "B": "a fierce father; his children are afraid",
+       "C": "never at home",
+       "D": "funny"
+      },
+      "answer": "B",
+      "why": [
+       "p. 1: \"At home he is a fierce father and all his children are afraid of him.\""
+      ],
+      "tip": "Think of social health.",
+      "similar": [
+       {
+        "q": "Is he rich or poor?",
+        "a": "very rich"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u1-q3",
+      "type": "mcq",
+      "page": 1,
+      "q": "Why do boys say Halima is afraid of dancing?",
+      "options": {
+       "A": "she is shy",
+       "B": "she has a twisted leg",
+       "C": "she is sick",
+       "D": "she has no time"
+      },
+      "answer": "B",
+      "why": [
+       "p. 1: \"she is afraid of dancing because she has a twisted leg.\""
+      ],
+      "tip": "Read Case II.",
+      "similar": [
+       {
+        "q": "What does Halima say back?",
+        "a": "their minds are more twisted than her leg"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u1-q4",
+      "type": "mcq",
+      "page": 2,
+      "q": "Where does W/ro Almaz work?",
+      "options": {
+       "A": "a hospital",
+       "B": "a textile factory",
+       "C": "a school",
+       "D": "a farm"
+      },
+      "answer": "B",
+      "why": [
+       "p. 2: \"Now she works in a textile factory.\""
+      ],
+      "tip": "Read Case III.",
+      "similar": [
+       {
+        "q": "How old is she?",
+        "a": "35"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u1-q5",
+      "type": "mcq",
+      "page": 2,
+      "q": "What do Almaz's children do at home?",
+      "options": {
+       "A": "watch TV",
+       "B": "grow vegetables and raise chickens",
+       "C": "sleep",
+       "D": "sell clothes"
+      },
+      "answer": "B",
+      "why": [
+       "p. 2: \"At home her children grow vegetables and raise chicken.\""
+      ],
+      "tip": "They sell some and eat the rest.",
+      "similar": [
+       {
+        "q": "When does the family go to church?",
+        "a": "on Sundays"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u1-q6",
+      "type": "mcq",
+      "page": 2,
+      "q": "Which three aspects of health does the book name?",
+      "options": {
+       "A": "physical, mental, social",
+       "B": "rich, poor, old",
+       "C": "food, water, air",
+       "D": "home, school, work"
+      },
+      "answer": "A",
+      "why": [
+       "p. 2, Activity III: \"physical, mental or social\"."
+      ],
+      "tip": "P-M-S.",
+      "similar": [
+       {
+        "q": "Which one is about the mind?",
+        "a": "mental"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u1-q7",
+      "type": "tf",
+      "page": 2,
+      "q": "W/ro Almaz sometimes feels lonely and sad.",
+      "answer": true,
+      "why": [
+       "p. 2: \"some times, the mother feels lonely and sad.\""
+      ],
+      "tip": "Bringing up a big family alone is not easy.",
+      "similar": [
+       {
+        "q": "Why is it hard for her?",
+        "a": "she brings up six children on her own"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u1-q8",
+      "type": "fill",
+      "page": 5,
+      "q": "The book asks you to draw a health promoting school and a health ___ school.",
+      "choices": [
+       "demoting",
+       "happy",
+       "big",
+       "new"
+      ],
+      "answer": "demoting",
+      "why": [
+       "p. 5, 1.4 Activity: \"b. Health demoting school\"."
+      ],
+      "tip": "The opposite of promoting.",
+      "similar": [
+       {
+        "q": "What club could help?",
+        "a": "a school health club"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u1-q9",
+      "type": "short",
+      "page": 5,
+      "q": "Name five actions to make your school more health promoting.",
+      "answer": "Your own ideas; the book asks your group to agree five strategies (for example from your \"should do\" list).",
+      "why": [
+       "p. 5, Project Activity I b.",
+       "The book gives no model answer."
+      ],
+      "tip": "Use your health rules list.",
+      "similar": [
+       {
+        "q": "Who should help a health club?",
+        "a": "the book asks you to think: school and community"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u1-q10",
+      "type": "short",
+      "page": 2,
+      "q": "Who do you think is more healthy of the three people? Why?",
+      "answer": "Your own answer; think about physical, mental and social health for each person.",
+      "why": [
+       "p. 2, Question 1. The book gives no answer."
+      ],
+      "tip": "Compare all three aspects.",
+      "similar": [
+       {
+        "q": "What is one problem of Ato Habte?",
+        "a": "heavy drinking / a fierce father"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ls7-u2",
+   "number": 2,
+   "title": "Puberty",
+   "status": "done",
+   "pages": [
+    6,
+    9
+   ],
+   "tone": "lilac",
+   "intro": "**Puberty** is the time when a child's body starts to change into an adult's. This unit asks about **physical and behavioural changes**, **emotions and stress**, and **personal hygiene**.",
+   "intro_page": 6,
+   "diagrams": {
+    "change": {
+     "svg": "svg/life_skills_7/ls7_change.svg",
+     "title": "What this unit covers",
+     "page": 6,
+     "pins": [
+      {
+       "id": "phy",
+       "text": "physical changes (secondary sexual characteristics)",
+       "x": 24.0,
+       "y": 24.0
+      },
+      {
+       "id": "beh",
+       "text": "behavioural changes",
+       "x": 179.0,
+       "y": 24.0
+      },
+      {
+       "id": "emo",
+       "text": "coping with emotions and stress",
+       "x": 24.0,
+       "y": 104.0
+      },
+      {
+       "id": "hyg",
+       "text": "personal hygiene",
+       "x": 179.0,
+       "y": 104.0
+      }
+     ]
+    },
+    "dehab": {
+     "svg": "svg/life_skills_7/ls7_dehab.svg",
+     "title": "Dehab and Haile",
+     "page": 7,
+     "pins": [
+      {
+       "id": "deh",
+       "text": "Dehab, 13, dancing at a wedding",
+       "x": 120,
+       "y": 95
+      },
+      {
+       "id": "boy",
+       "text": "a boy about Haile's age",
+       "x": 190,
+       "y": 85
+      },
+      {
+       "id": "hai",
+       "text": "Haile, 15: he looks angry and pulls Dehab away",
+       "x": 275,
+       "y": 80
+      }
+     ]
+    },
+    "hyg": {
+     "svg": "svg/life_skills_7/ls7_hyg.svg",
+     "title": "Hygiene and body changes",
+     "page": 8,
+     "pins": [
+      {
+       "id": "center",
+       "text": "personal hygiene and physical changes",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "men",
+       "text": "menstruation",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "wet",
+       "text": "wet dreams",
+       "x": 226.7,
+       "y": 91.4
+      },
+      {
+       "id": "hair",
+       "text": "body hair",
+       "x": 187.1,
+       "y": 216.6
+      },
+      {
+       "id": "pim",
+       "text": "pimples",
+       "x": 58.9,
+       "y": 216.6
+      },
+      {
+       "id": "smell",
+       "text": "bad body smell",
+       "x": 19.3,
+       "y": 91.4
+      }
+     ]
+    },
+    "zahra": {
+     "svg": "svg/life_skills_7/ls7_zahra.svg",
+     "title": "Zahra and Senait",
+     "page": 9,
+     "pins": [
+      {
+       "id": "zah",
+       "text": "Zahra: \"Everyone is laughing at me about my face.\"",
+       "x": 100,
+       "y": 85
+      },
+      {
+       "id": "sen",
+       "text": "Senait: \"It is normal. It is a part of growing up.\"",
+       "x": 220,
+       "y": 85
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls7-u2-l1",
+     "number": "2.1",
+     "title": "How am I changing?",
+     "pages": [
+      6,
+      7
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "You will look at **secondary sexual characteristics**: the body changes of puberty.",
+        "You will also look at **behaviour changes** and how to **cope with emotions and stress**."
+       ],
+       "page": 6
+      },
+      {
+       "type": "diagram",
+       "title": "What this unit covers",
+       "diagram": "change",
+       "mode": "explore",
+       "page": 6,
+       "body": [
+        "Tap each part."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Physical changes",
+       "body": [
+        "**Girls' groups** list the physical changes in **boys**. **Boys' groups** list the changes in **girls**.",
+        "Then: which changes happen to **both** girls and boys?"
+       ],
+       "page": 6
+      },
+      {
+       "type": "text",
+       "title": "Behavioural changes",
+       "body": [
+        "Groups list the **behaviour changes** of puberty.",
+        "What **causes** these changes?"
+       ],
+       "page": 6
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "How can adolescents cope with **feeling shy**?",
+        "With a **strong attraction** to someone of the opposite sex?",
+        "With **wanting more independence**?"
+       ],
+       "page": 7
+      }
+     ]
+    },
+    {
+     "id": "ls7-u2-l2",
+     "number": "2.2",
+     "title": "Coping with emotions and stress",
+     "pages": [
+      7,
+      7
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "A strong emotion",
+       "body": [
+        "Remember a **strong emotion** you felt. Tell your group what it was, **what caused it**, and **what you did**.",
+        "Why is it important to **recognize** your emotions?"
+       ],
+       "page": 7
+      },
+      {
+       "type": "steps",
+       "title": "Dehab and Haile",
+       "diagram": "dehab",
+       "page": 7,
+       "steps": [
+        {
+         "text": "**Dehab** (13) and **Haile** (15) are close friends.",
+         "show": "deh",
+         "pins": [
+          "deh"
+         ]
+        },
+        {
+         "text": "At a **wedding**, Haile sees Dehab dancing with a boy about his age.",
+         "show": "boy",
+         "pins": [
+          "boy"
+         ]
+        },
+        {
+         "text": "Haile looks **angry** and forces Dehab away through the crowd.",
+         "show": "hai",
+         "pins": [
+          "hai"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "If you were Haile, what would you do?",
+        "What advice could you give Dehab?",
+        "Is it easy to cope with **stress**? Why?"
+       ],
+       "page": 7
+      }
+     ]
+    },
+    {
+     "id": "ls7-u2-l3",
+     "number": "2.3",
+     "title": "Personal hygiene and physical changes",
+     "pages": [
+      8,
+      9
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Hygiene and body changes",
+       "diagram": "hyg",
+       "mode": "explore",
+       "page": 8,
+       "body": [
+        "The book asks about each of these."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Menstruation: think and talk",
+       "body": [
+        "Why do women menstruate? Is menstruation a **sickness**?",
+        "What are the best **hygiene practices** for a girl during menstruation?",
+        "How is menstruation related to **pregnancy**?"
+       ],
+       "page": 8
+      },
+      {
+       "type": "text",
+       "title": "Yonas",
+       "body": [
+        "**Yonas** is **14**. He chats with **Almaz** at school and often dreams about her at night.",
+        "One morning he wakes up and finds his **underwear wet**."
+       ],
+       "page": 8
+      },
+      {
+       "type": "remember",
+       "title": "Wet dreams: think and talk",
+       "body": [
+        "What happened to Yonas? Does this also happen to girls?",
+        "**Who** should you ask for more information?",
+        "What **hygiene practices** should people take?"
+       ],
+       "page": 9
+      },
+      {
+       "type": "steps",
+       "title": "Zahra and Senait",
+       "diagram": "zahra",
+       "page": 9,
+       "steps": [
+        {
+         "text": "**Zahra** is sad. Everyone laughs at her **pimples**. Hair grows under her arms and sometimes she has a **bad smell**.",
+         "show": "zah",
+         "pins": [
+          "zah"
+         ]
+        },
+        {
+         "text": "**Senait** says: \"It is **normal**. It is a part of **growing up**.\"",
+         "show": "sen",
+         "pins": [
+          "sen"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Is it fair?",
+       "body": [
+        "Is it fair to **make fun** of someone with pimples or body smell?",
+        "How does poor **personal hygiene** affect relationships?"
+       ],
+       "page": 9
+      },
+      {
+       "type": "check",
+       "q": "What does Senait tell Zahra about pimples?",
+       "options": {
+        "A": "they are a sickness",
+        "B": "they are normal, part of growing up",
+        "C": "they never go away",
+        "D": "they are her fault"
+       },
+       "answer": "B",
+       "why": "Senait: \"But it is normal. It is a part of growing up.\" (p. 9)",
+       "page": 9
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "puberty",
+     "meaning": "the time when a child's body changes into an adult's",
+     "page": 6
+    },
+    {
+     "term": "secondary sexual characteristics",
+     "meaning": "the body changes of puberty",
+     "page": 6
+    },
+    {
+     "term": "physical change",
+     "meaning": "a change in the body",
+     "page": 6,
+     "forms": [
+      "physical changes"
+     ]
+    },
+    {
+     "term": "behavioural change",
+     "meaning": "a change in the way you act",
+     "page": 6,
+     "forms": [
+      "behavioral changes"
+     ]
+    },
+    {
+     "term": "emotion",
+     "meaning": "a strong feeling, like anger or joy",
+     "page": 7,
+     "forms": [
+      "emotions"
+     ]
+    },
+    {
+     "term": "stress",
+     "meaning": "a feeling of pressure or worry",
+     "page": 7
+    },
+    {
+     "term": "cope",
+     "meaning": "to deal with something hard",
+     "page": 7
+    },
+    {
+     "term": "independence",
+     "meaning": "doing things by yourself",
+     "page": 7
+    },
+    {
+     "term": "attraction",
+     "meaning": "liking someone very much",
+     "page": 7
+    },
+    {
+     "term": "hygiene",
+     "meaning": "keeping your body clean",
+     "page": 8,
+     "forms": [
+      "hygienic"
+     ]
+    },
+    {
+     "term": "menstruation",
+     "meaning": "the monthly period of girls and women",
+     "page": 8,
+     "forms": [
+      "menstruate"
+     ]
+    },
+    {
+     "term": "wet dream",
+     "meaning": "when a boy's underwear becomes wet during sleep",
+     "page": 8,
+     "forms": [
+      "wet dreams"
+     ]
+    },
+    {
+     "term": "pimple",
+     "meaning": "a small spot on the skin",
+     "page": 9,
+     "forms": [
+      "pimples"
+     ]
+    },
+    {
+     "term": "armpit",
+     "meaning": "the hollow under your arm",
+     "page": 9,
+     "forms": [
+      "armpits"
+     ]
+    },
+    {
+     "term": "adolescent",
+     "meaning": "a young person growing up",
+     "page": 7,
+     "forms": [
+      "adolescents"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "Changes in puberty are **normal**: \"a part of growing up\"."
+    },
+    {
+     "text": "Recognize your **emotions**; think before you act."
+    },
+    {
+     "text": "Keep good **personal hygiene**. Never make fun of others."
+    }
+   ],
+   "games": [
+    {
+     "id": "ls7-u2-g1",
+     "type": "match",
+     "lesson": null,
+     "title": "Who is it?",
+     "pairs": [
+      {
+       "a": "Dehab",
+       "b": "13, danced at a wedding"
+      },
+      {
+       "a": "Haile",
+       "b": "15, got angry"
+      },
+      {
+       "a": "Yonas",
+       "b": "14, woke up with wet underwear"
+      },
+      {
+       "a": "Zahra",
+       "b": "sad about pimples"
+      },
+      {
+       "a": "Senait",
+       "b": "\"it is normal\""
+      }
+     ]
+    },
+    {
+     "id": "ls7-u2-g2",
+     "type": "sort",
+     "lesson": null,
+     "title": "Which story?",
+     "groups": [
+      {
+       "id": "d",
+       "label": "Dehab and Haile"
+      },
+      {
+       "id": "y",
+       "label": "Yonas"
+      },
+      {
+       "id": "z",
+       "label": "Zahra and Senait"
+      }
+     ],
+     "items": [
+      {
+       "text": "a wedding ceremony",
+       "group": "d"
+      },
+      {
+       "text": "pulled away through the crowd",
+       "group": "d"
+      },
+      {
+       "text": "dreams about Almaz",
+       "group": "y"
+      },
+      {
+       "text": "underwear was wet",
+       "group": "y"
+      },
+      {
+       "text": "pimples on the face",
+       "group": "z"
+      },
+      {
+       "text": "hair under the arms",
+       "group": "z"
+      }
+     ]
+    },
+    {
+     "id": "ls7-u2-g3",
+     "type": "label",
+     "lesson": "ls7-u2-l3",
+     "title": "Hygiene and body changes",
+     "diagram": "hyg"
+    },
+    {
+     "id": "ls7-u2-g4",
+     "type": "label",
+     "lesson": "ls7-u2-l2",
+     "title": "Dehab and Haile",
+     "diagram": "dehab"
+    },
+    {
+     "id": "ls7-u2-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Dehab is ___ years old.",
+       "answer": "13",
+       "choices": [
+        "13",
+        "15",
+        "14"
+       ]
+      },
+      {
+       "text": "Yonas is ___ years old.",
+       "answer": "14",
+       "choices": [
+        "14",
+        "13",
+        "15"
+       ]
+      },
+      {
+       "text": "Haile saw Dehab dancing at a ___.",
+       "answer": "wedding",
+       "choices": [
+        "wedding",
+        "school",
+        "market"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls7-u2-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Dehab and Haile are close friends.",
+       "answer": true
+      },
+      {
+       "text": "Haile was happy to see Dehab dancing.",
+       "answer": false,
+       "why": "He looked angry."
+      },
+      {
+       "text": "Senait laughed at Zahra.",
+       "answer": false,
+       "why": "She said it is normal."
+      },
+      {
+       "text": "Yonas dreams about Almaz.",
+       "answer": true
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls7-u2-q1",
+      "type": "mcq",
+      "page": 7,
+      "q": "How old are Dehab and Haile?",
+      "options": {
+       "A": "13 and 15",
+       "B": "15 and 13",
+       "C": "14 and 14",
+       "D": "12 and 16"
+      },
+      "answer": "A",
+      "why": [
+       "p. 7: \"Dehab and Haile are 13 and 15 years old respectively.\""
+      ],
+      "tip": "\"Respectively\" keeps the order.",
+      "similar": [
+       {
+        "q": "Where do they spend much time?",
+        "a": "in school together"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u2-q2",
+      "type": "mcq",
+      "page": 7,
+      "q": "What did Haile do when he saw Dehab dancing?",
+      "options": {
+       "A": "he joined the dance",
+       "B": "he looked angry and forced her away",
+       "C": "he went home",
+       "D": "he laughed"
+      },
+      "answer": "B",
+      "why": [
+       "p. 7: \"Haile looked angry and force Dehab away through the crowd.\""
+      ],
+      "tip": "A strong emotion.",
+      "similar": [
+       {
+        "q": "What would you do if you were Haile?",
+        "a": "your own answer: think about coping with emotions"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u2-q3",
+      "type": "mcq",
+      "page": 8,
+      "q": "What did Yonas find one morning?",
+      "options": {
+       "A": "his book was lost",
+       "B": "his underwear was wet",
+       "C": "he was sick",
+       "D": "he was late"
+      },
+      "answer": "B",
+      "why": [
+       "p. 8: \"when he woke up, he found his under wear was wet.\""
+      ],
+      "tip": "Read 2.3.2.",
+      "similar": [
+       {
+        "q": "Who does Yonas chat with at school?",
+        "a": "Almaz"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u2-q4",
+      "type": "mcq",
+      "page": 9,
+      "q": "Why is Zahra sad?",
+      "options": {
+       "A": "she failed a test",
+       "B": "everyone laughs at her pimples",
+       "C": "she lost a friend",
+       "D": "she is hungry"
+      },
+      "answer": "B",
+      "why": [
+       "p. 9: \"Everyone is laughing at me about my face?\" \"Is that because of the pimples?\" \"Yes\""
+      ],
+      "tip": "Read the dialogue.",
+      "similar": [
+       {
+        "q": "What else does Zahra worry about?",
+        "a": "hair growing and sometimes a bad smell"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u2-q5",
+      "type": "tf",
+      "page": 9,
+      "q": "Senait says pimples are a part of growing up.",
+      "answer": true,
+      "why": [
+       "p. 9: \"But it is normal. It is a part of growing up.\""
+      ],
+      "tip": "A good friend helps.",
+      "similar": [
+       {
+        "q": "Is it fair to make fun of someone with pimples?",
+        "a": "the book asks you to think; making fun hurts people"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u2-q6",
+      "type": "mcq",
+      "page": 6,
+      "q": "What does the book call the physical changes of puberty?",
+      "options": {
+       "A": "secondary sexual characteristics",
+       "B": "emotions",
+       "C": "hygiene",
+       "D": "stress"
+      },
+      "answer": "A",
+      "why": [
+       "p. 6: \"List the Physical changes (secondary sexual characteristics)\"."
+      ],
+      "tip": "Look at 2.1.1.",
+      "similar": [
+       {
+        "q": "What other changes does 2.1.2 look at?",
+        "a": "behavioural changes"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u2-q7",
+      "type": "mcq",
+      "page": 7,
+      "q": "Which feeling does the book ask about coping with?",
+      "options": {
+       "A": "feeling shy",
+       "B": "feeling full",
+       "C": "feeling cold",
+       "D": "feeling tall"
+      },
+      "answer": "A",
+      "why": [
+       "p. 7: \"How do you think adolescents can cope with a. Feeling shy?\""
+      ],
+      "tip": "Also attraction and independence.",
+      "similar": [
+       {
+        "q": "Name another.",
+        "a": "wanting greater independence"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u2-q8",
+      "type": "fill",
+      "page": 8,
+      "q": "The book asks: \"Is menstruation a ___? Why?\"",
+      "choices": [
+       "sickness",
+       "game",
+       "holiday",
+       "food"
+      ],
+      "answer": "sickness",
+      "why": [
+       "p. 8, Activity II question 2."
+      ],
+      "tip": "Discuss with your group and teacher.",
+      "similar": [
+       {
+        "q": "What else does the book ask about menstruation?",
+        "a": "the best hygienic practices for a girl who is menstruating"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u2-q9",
+      "type": "short",
+      "page": 9,
+      "q": "How can you deal with bad body smell and pimples?",
+      "answer": "Discuss with your group; the book asks this and links it to personal hygiene.",
+      "why": [
+       "p. 9, Question 1. The book gives no model answer."
+      ],
+      "tip": "Think \"hygiene\".",
+      "similar": [
+       {
+        "q": "How does poor hygiene affect relationships?",
+        "a": "the book asks you to discuss"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u2-q10",
+      "type": "short",
+      "page": 7,
+      "q": "What advice could you give to Dehab?",
+      "answer": "Your own answer; think about emotions, stress and friendship.",
+      "why": [
+       "p. 7, Question 2. The book gives no model answer."
+      ],
+      "tip": "Be kind and calm.",
+      "similar": [
+       {
+        "q": "Is it easy to cope with stress?",
+        "a": "the book asks you to discuss why"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ls7-u3",
+   "number": 3,
+   "title": "Nutrition",
+   "status": "done",
+   "pages": [
+    10,
+    13
+   ],
+   "tone": "peach",
+   "intro": "This unit asks how **nutrients** relate to **health**, and how **food** is linked to **climate, age and sex**.",
+   "intro_page": 10,
+   "diagrams": {
+    "nut": {
+     "svg": "svg/life_skills_7/ls7_nut.svg",
+     "title": "Nutritional requirements",
+     "page": 11,
+     "pins": [
+      {
+       "id": "pro",
+       "text": "proteins",
+       "x": 49.0,
+       "y": 24.0
+      },
+      {
+       "id": "car",
+       "text": "carbohydrates",
+       "x": 49.0,
+       "y": 78.0
+      },
+      {
+       "id": "fat",
+       "text": "fats and oils",
+       "x": 49.0,
+       "y": 132.0
+      },
+      {
+       "id": "vit",
+       "text": "vitamins",
+       "x": 49.0,
+       "y": 186.0
+      },
+      {
+       "id": "wat",
+       "text": "water",
+       "x": 49.0,
+       "y": 240.0
+      }
+     ]
+    },
+    "climate": {
+     "svg": "svg/life_skills_7/ls7_climate.svg",
+     "title": "Two families",
+     "page": 11,
+     "pins": [
+      {
+       "id": "low",
+       "text": "Ato Musa and Fozia: lowlands; garden with green vegetables and fruits; drink a lot of water",
+       "x": 22,
+       "y": 22
+      },
+      {
+       "id": "high",
+       "text": "Ato Ibrahim and Sofia: highlands; eat food that keeps them warm",
+       "x": 178,
+       "y": 22
+      }
+     ]
+    },
+    "proj": {
+     "svg": "svg/life_skills_7/ls7_proj.svg",
+     "title": "Project: diet and...",
+     "page": 13,
+     "pins": [
+      {
+       "id": "center",
+       "text": "what people eat",
+       "x": 160.0,
+       "y": 161.0
+      },
+      {
+       "id": "cli",
+       "text": "climate: hot areas and cold areas",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "age",
+       "text": "age: young people and old people",
+       "x": 217.4,
+       "y": 152.0
+      },
+      {
+       "id": "occ",
+       "text": "occupation: daily labourers and office workers",
+       "x": 28.6,
+       "y": 152.0
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls7-u3-l1",
+     "number": "3.1",
+     "title": "Nutrition and social attitudes",
+     "pages": [
+      10,
+      11
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "You will compare **nutrients** and **health**.",
+        "You will see how food is linked to **climate, age and sex**."
+       ],
+       "page": 10
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What are **nutrients**?",
+        "What is a **balanced diet**?"
+       ],
+       "page": 10
+      },
+      {
+       "type": "diagram",
+       "title": "Nutritional requirements",
+       "diagram": "nut",
+       "mode": "explore",
+       "page": 11,
+       "body": [
+        "The book's table lists these five."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "The table",
+       "body": [
+        "For **childhood**, **adolescents** and **old** people, write **high**, **moderate** or **low** for each nutrient.",
+        "Work it out in class with your teacher."
+       ],
+       "page": 11
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What would happen if you always eat the **same type of food**?",
+        "Which popular foods and drinks do **little** for young people's nutrition? Why are they popular?"
+       ],
+       "page": 11
+      }
+     ]
+    },
+    {
+     "id": "ls7-u3-l2",
+     "number": "3.2",
+     "title": "Influences on nutrition",
+     "pages": [
+      11,
+      12
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Factors",
+       "body": [
+        "The book asks: what **factors** influence nutrition?"
+       ],
+       "page": 11
+      },
+      {
+       "type": "diagram",
+       "title": "Two families",
+       "diagram": "climate",
+       "mode": "explore",
+       "page": 11,
+       "body": [
+        "Compare the two case studies."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Case I: Ato Musa",
+       "body": [
+        "Ato Musa and his wife **Fozia** have **five children**. They live in the **lowlands**.",
+        "Their garden gives **green vegetables and fruits**. They eat enough breakfast.",
+        "Lunch and dinner are **light and soft**. They drink **too much water**."
+       ],
+       "page": 11
+      },
+      {
+       "type": "text",
+       "title": "Case II: Ato Ibrahim",
+       "body": [
+        "Ato Ibrahim and his wife **Sofia** have **five children**. They live in the **highlands**.",
+        "They usually eat food that **keeps them warm**."
+       ],
+       "page": 11
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What food should Musa's family **reduce**? What should Ibrahim's family **include**? Why?",
+        "How does **climate** influence your food choices?"
+       ],
+       "page": 12
+      }
+     ]
+    },
+    {
+     "id": "ls7-u3-l3",
+     "number": "3.3",
+     "title": "Nutrition and adolescents",
+     "pages": [
+      12,
+      12
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Agree or disagree?",
+       "body": [
+        "You read 9 statements and tick **Agree**, **Disagree** or **Not sure**.",
+        "Examples: \"**Taking alcoholic drinks leads to health risks and other problems.**\"",
+        "\"**Milk products are recommended to adolescents each day.**\""
+       ],
+       "page": 12
+      },
+      {
+       "type": "text",
+       "title": "More statements",
+       "body": [
+        "\"**Obesity** in adolescents can bring psychological and social problems.\"",
+        "\"Adolescents prefer foods which are chosen by their **peers**.\"",
+        "Discuss each one with your group and teacher."
+       ],
+       "page": 12
+      }
+     ]
+    },
+    {
+     "id": "ls7-u3-l4",
+     "number": "3.4",
+     "title": "Project: diet, climate, age and occupation",
+     "pages": [
+      13,
+      13
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Project: diet and...",
+       "diagram": "proj",
+       "mode": "explore",
+       "page": 13,
+       "body": [
+        "Interview grandparents, elder neighbours or family friends."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Interview questions",
+       "body": [
+        "What food do people prefer in **hot** areas? In **cold** areas?",
+        "What food do **young** people prefer? **Old** people?",
+        "Who needs more energy: **daily labourers** or **office workers**? Why?"
+       ],
+       "page": 13
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: C-A-O",
+       "page": 13,
+       "letters": [
+        {
+         "l": "C",
+         "w": "Climate",
+         "m": "hot or cold"
+        },
+        {
+         "l": "A",
+         "w": "Age",
+         "m": "young or old"
+        },
+        {
+         "l": "O",
+         "w": "Occupation",
+         "m": "the work you do"
+        }
+       ],
+       "body": [
+        "Food depends on **C**limate, **A**ge and **O**ccupation."
+       ]
+      },
+      {
+       "type": "check",
+       "q": "In the project, who does the book tell you to interview?",
+       "options": {
+        "A": "only classmates",
+        "B": "grandparents, elder neighbours or family friends",
+        "C": "doctors only",
+        "D": "nobody"
+       },
+       "answer": "B",
+       "why": "p. 13: \"by interviewing grand parents, elder neighbours or family friends\".",
+       "page": 13
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "nutrition",
+     "meaning": "the food we eat and how it feeds the body",
+     "page": 10
+    },
+    {
+     "term": "nutrient",
+     "meaning": "a part of food the body needs",
+     "page": 10,
+     "forms": [
+      "nutrients"
+     ]
+    },
+    {
+     "term": "balanced diet",
+     "meaning": "eating the right mix of foods",
+     "page": 10
+    },
+    {
+     "term": "protein",
+     "meaning": "one of the nutrients in the book's table",
+     "page": 11,
+     "forms": [
+      "proteins"
+     ]
+    },
+    {
+     "term": "carbohydrate",
+     "meaning": "one of the nutrients in the book's table",
+     "page": 11,
+     "forms": [
+      "carbohydrates"
+     ]
+    },
+    {
+     "term": "vitamin",
+     "meaning": "one of the nutrients in the book's table",
+     "page": 11,
+     "forms": [
+      "vitamins"
+     ]
+    },
+    {
+     "term": "fats and oils",
+     "meaning": "one of the nutrient groups in the book's table",
+     "page": 11
+    },
+    {
+     "term": "climate",
+     "meaning": "the usual weather of a place",
+     "page": 10
+    },
+    {
+     "term": "lowlands",
+     "meaning": "low, hot land",
+     "page": 11
+    },
+    {
+     "term": "highlands",
+     "meaning": "high, cool land",
+     "page": 11
+    },
+    {
+     "term": "influence",
+     "meaning": "to change or affect something",
+     "page": 11,
+     "forms": [
+      "influences"
+     ]
+    },
+    {
+     "term": "obesity",
+     "meaning": "being very overweight",
+     "page": 12
+    },
+    {
+     "term": "peer",
+     "meaning": "a person of your own age",
+     "page": 12,
+     "forms": [
+      "peers"
+     ]
+    },
+    {
+     "term": "occupation",
+     "meaning": "a job or work",
+     "page": 13
+    },
+    {
+     "term": "labourer",
+     "meaning": "a person who does hard physical work",
+     "page": 13,
+     "forms": [
+      "labourers"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "Five nutrient groups in the table: **proteins, carbohydrates, fats and oils, vitamins, water**."
+    },
+    {
+     "text": "Food is linked to **climate, age and occupation**."
+    },
+    {
+     "text": "Always eating the **same food** is something to think about."
+    }
+   ],
+   "games": [
+    {
+     "id": "ls7-u3-g1",
+     "type": "match",
+     "lesson": "ls7-u3-l2",
+     "title": "Families and places",
+     "pairs": [
+      {
+       "a": "Ato Musa",
+       "b": "wife Fozia"
+      },
+      {
+       "a": "Ato Ibrahim",
+       "b": "wife Sofia"
+      },
+      {
+       "a": "lowlands",
+       "b": "Musa's family"
+      },
+      {
+       "a": "highlands",
+       "b": "Ibrahim's family"
+      }
+     ]
+    },
+    {
+     "id": "ls7-u3-g2",
+     "type": "sort",
+     "lesson": "ls7-u3-l2",
+     "title": "Which case?",
+     "groups": [
+      {
+       "id": "m",
+       "label": "Ato Musa"
+      },
+      {
+       "id": "i",
+       "label": "Ato Ibrahim"
+      }
+     ],
+     "items": [
+      {
+       "text": "lives in the lowlands",
+       "group": "m"
+      },
+      {
+       "text": "light and soft lunch",
+       "group": "m"
+      },
+      {
+       "text": "drinks too much water",
+       "group": "m"
+      },
+      {
+       "text": "lives in the highlands",
+       "group": "i"
+      },
+      {
+       "text": "food that keeps them warm",
+       "group": "i"
+      },
+      {
+       "text": "wife is Sofia",
+       "group": "i"
+      }
+     ]
+    },
+    {
+     "id": "ls7-u3-g3",
+     "type": "label",
+     "lesson": "ls7-u3-l1",
+     "title": "Nutritional requirements",
+     "diagram": "nut"
+    },
+    {
+     "id": "ls7-u3-g4",
+     "type": "label",
+     "lesson": "ls7-u3-l4",
+     "title": "Project: diet and...",
+     "diagram": "proj"
+    },
+    {
+     "id": "ls7-u3-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Ato Musa's wife is ___.",
+       "answer": "Fozia",
+       "choices": [
+        "Fozia",
+        "Sofia",
+        "Almaz"
+       ]
+      },
+      {
+       "text": "Both families have ___ children.",
+       "answer": "five",
+       "choices": [
+        "five",
+        "two",
+        "six"
+       ]
+      },
+      {
+       "text": "Ato Ibrahim's family lives in the ___.",
+       "answer": "highlands",
+       "choices": [
+        "highlands",
+        "lowlands",
+        "city"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls7-u3-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Ato Musa's family has a garden.",
+       "answer": true
+      },
+      {
+       "text": "Ato Ibrahim's family eats light and soft food.",
+       "answer": false,
+       "why": "That is Musa's family."
+      },
+      {
+       "text": "The table uses high, moderate and low.",
+       "answer": true
+      },
+      {
+       "text": "The project compares labourers and office workers.",
+       "answer": true
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls7-u3-q1",
+      "type": "mcq",
+      "page": 11,
+      "q": "Where does Ato Musa's family live?",
+      "options": {
+       "A": "highlands",
+       "B": "lowlands",
+       "C": "city centre",
+       "D": "by a lake"
+      },
+      "answer": "B",
+      "why": [
+       "p. 11: \"They live in lowlands and own a garden\"."
+      ],
+      "tip": "Read Case study I.",
+      "similar": [
+       {
+        "q": "What does their garden produce?",
+        "a": "green vegetables, fruits etc."
+       }
+      ]
+     },
+     {
+      "id": "ls7-u3-q2",
+      "type": "mcq",
+      "page": 11,
+      "q": "What do Ato Ibrahim's family usually eat?",
+      "options": {
+       "A": "cold drinks",
+       "B": "food that keeps them warm",
+       "C": "only fruit",
+       "D": "fast food"
+      },
+      "answer": "B",
+      "why": [
+       "p. 11: \"They live in highland and usually eat food that keeps them warm.\""
+      ],
+      "tip": "Highlands are cold.",
+      "similar": [
+       {
+        "q": "Who is Ibrahim's wife?",
+        "a": "Sofia"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u3-q3",
+      "type": "mcq",
+      "page": 11,
+      "q": "What do Musa's family drink a lot of?",
+      "options": {
+       "A": "milk",
+       "B": "water",
+       "C": "tea",
+       "D": "soda"
+      },
+      "answer": "B",
+      "why": [
+       "p. 11: \"they usually drink too much water.\""
+      ],
+      "tip": "Lowlands are hot.",
+      "similar": [
+       {
+        "q": "How are their lunch and dinner?",
+        "a": "light and soft"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u3-q4",
+      "type": "mcq",
+      "page": 11,
+      "q": "Which is NOT one of the five nutrients in the book's table?",
+      "options": {
+       "A": "proteins",
+       "B": "vitamins",
+       "C": "water",
+       "D": "sugar cane"
+      },
+      "answer": "D",
+      "why": [
+       "p. 11 table: proteins, carbohydrates, fats and oils, vitamins, water."
+      ],
+      "tip": "Look at the table rows.",
+      "similar": [
+       {
+        "q": "Name the three stages in the table.",
+        "a": "childhood, adolescents, old"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u3-q5",
+      "type": "mcq",
+      "page": 11,
+      "q": "The table asks you to rate needs as...",
+      "options": {
+       "A": "good, bad, ugly",
+       "B": "high, moderate, low",
+       "C": "yes, no",
+       "D": "big, small"
+      },
+      "answer": "B",
+      "why": [
+       "p. 10: \"fill the table below with the words: high, moderate and low.\""
+      ],
+      "tip": "Three words.",
+      "similar": [
+       {
+        "q": "For which ages?",
+        "a": "childhood, adolescents and old people"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u3-q6",
+      "type": "tf",
+      "page": 12,
+      "q": "One of the statements says milk products are recommended to adolescents each day.",
+      "answer": true,
+      "why": [
+       "p. 12, statement 7."
+      ],
+      "tip": "Read the statement list.",
+      "similar": [
+       {
+        "q": "What does statement 3 say?",
+        "a": "taking alcoholic drinks leads to health risks and other problems"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u3-q7",
+      "type": "fill",
+      "page": 13,
+      "q": "The project asks who needs more energy: daily labourers or ___ workers.",
+      "choices": [
+       "office",
+       "night",
+       "young",
+       "old"
+      ],
+      "answer": "office",
+      "why": [
+       "p. 13, question 3."
+      ],
+      "tip": "Think about the work they do.",
+      "similar": [
+       {
+        "q": "What else does the project compare?",
+        "a": "hot and cold areas; young and old people"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u3-q8",
+      "type": "mcq",
+      "page": 13,
+      "q": "In the project, diet is linked to climate, age and...",
+      "options": {
+       "A": "occupation",
+       "B": "colour",
+       "C": "height",
+       "D": "name"
+      },
+      "answer": "A",
+      "why": [
+       "p. 13: \"Relationship of diet with climate, age and occupation\"."
+      ],
+      "tip": "C-A-O.",
+      "similar": [
+       {
+        "q": "Who do you interview?",
+        "a": "grandparents, elder neighbours or family friends"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u3-q9",
+      "type": "short",
+      "page": 12,
+      "q": "How does climate influence your food choices?",
+      "answer": "Discuss using the two families: lowland family (light food, lots of water) and highland family (warm food).",
+      "why": [
+       "p. 11–12. The book gives no model answer."
+      ],
+      "tip": "Compare Musa and Ibrahim.",
+      "similar": [
+       {
+        "q": "What would happen if you always eat the same food?",
+        "a": "the book asks you to discuss"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u3-q10",
+      "type": "short",
+      "page": 10,
+      "q": "What is a balanced diet?",
+      "answer": "The book asks this; discuss in class with your teacher.",
+      "why": [
+       "p. 10, Activity I b. No answer is printed."
+      ],
+      "tip": "Think of many kinds of food.",
+      "similar": [
+       {
+        "q": "What are nutrients?",
+        "a": "the book asks you to discuss; see the five in the table"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ls7-u4",
+   "number": 4,
+   "title": "What are my values?",
+   "status": "done",
+   "pages": [
+    14,
+    17
+   ],
+   "tone": "butter",
+   "intro": "What is a **value**? This unit asks you to rank values, look at messages from your **family**, **tradition**, **conflicting values**, and **media and peer pressure**.",
+   "intro_page": 14,
+   "diagrams": {
+    "values": {
+     "svg": "svg/life_skills_7/ls7_values.svg",
+     "title": "Sixteen values to rank",
+     "page": 14,
+     "pins": [
+      {
+       "id": "hon",
+       "text": "honesty",
+       "x": 15.0,
+       "y": 24.0
+      },
+      {
+       "id": "fai",
+       "text": "faithfulness",
+       "x": 97.0,
+       "y": 24.0
+      },
+      {
+       "id": "lov",
+       "text": "love",
+       "x": 179.0,
+       "y": 24.0
+      },
+      {
+       "id": "edu",
+       "text": "education",
+       "x": 261.0,
+       "y": 24.0
+      },
+      {
+       "id": "hea",
+       "text": "health",
+       "x": 15.0,
+       "y": 88.0
+      },
+      {
+       "id": "wea",
+       "text": "wealth",
+       "x": 97.0,
+       "y": 88.0
+      },
+      {
+       "id": "pop",
+       "text": "popularity",
+       "x": 179.0,
+       "y": 88.0
+      },
+      {
+       "id": "res",
+       "text": "respect",
+       "x": 261.0,
+       "y": 88.0
+      },
+      {
+       "id": "wis",
+       "text": "wisdom",
+       "x": 15.0,
+       "y": 152.0
+      },
+      {
+       "id": "sup",
+       "text": "support",
+       "x": 97.0,
+       "y": 152.0
+      },
+      {
+       "id": "rel",
+       "text": "religion",
+       "x": 179.0,
+       "y": 152.0
+      },
+      {
+       "id": "she",
+       "text": "shelter",
+       "x": 261.0,
+       "y": 152.0
+      },
+      {
+       "id": "bea",
+       "text": "beauty",
+       "x": 15.0,
+       "y": 216.0
+      },
+      {
+       "id": "fam",
+       "text": "family",
+       "x": 97.0,
+       "y": 216.0
+      },
+      {
+       "id": "fri",
+       "text": "friends",
+       "x": 179.0,
+       "y": 216.0
+      },
+      {
+       "id": "nat",
+       "text": "nation",
+       "x": 261.0,
+       "y": 216.0
+      }
+     ]
+    },
+    "fammsg": {
+     "svg": "svg/life_skills_7/ls7_fammsg.svg",
+     "title": "Messages from your family about...",
+     "page": 14,
+     "pins": [
+      {
+       "id": "center",
+       "text": "your family",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "alc",
+       "text": "alcohol",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "bf",
+       "text": "having a boyfriend or girlfriend",
+       "x": 217.4,
+       "y": 70.0
+      },
+      {
+       "id": "edu",
+       "text": "education",
+       "x": 217.4,
+       "y": 182.0
+      },
+      {
+       "id": "rel",
+       "text": "going to church or mosque",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "smo",
+       "text": "smoking cigarettes",
+       "x": 28.6,
+       "y": 182.0
+      },
+      {
+       "id": "mar",
+       "text": "marriage",
+       "x": 28.6,
+       "y": 70.0
+      }
+     ]
+    },
+    "hagos": {
+     "svg": "svg/life_skills_7/ls7_hagos.svg",
+     "title": "Ato Hagos's family",
+     "page": 15,
+     "pins": [
+      {
+       "id": "par",
+       "text": "Ato Hagos and his wife, parents of six children",
+       "x": 85,
+       "y": 70
+      },
+      {
+       "id": "hab",
+       "text": "Habtom, the youngest, fetched water to wash hands",
+       "x": 200,
+       "y": 120
+      },
+      {
+       "id": "guest",
+       "text": "a guest arrives; the children are sent out",
+       "x": 280,
+       "y": 70
+      }
+     ]
+    },
+    "drama": {
+     "svg": "svg/life_skills_7/ls7_drama.svg",
+     "title": "Awet and Sara",
+     "page": 16,
+     "pins": [
+      {
+       "id": "awet",
+       "text": "Awet: \"It is time to try alcohol and cigarettes.\"",
+       "x": 90,
+       "y": 80
+      },
+      {
+       "id": "sara",
+       "text": "Sara: \"I choose not to smoke and drink.\"",
+       "x": 230,
+       "y": 85
+      }
+     ]
+    },
+    "press": {
+     "svg": "svg/life_skills_7/ls7_press.svg",
+     "title": "Sara and Musa: pressure",
+     "page": 17,
+     "pins": [
+      {
+       "id": "gos",
+       "text": "friends laugh and gossip about Sara and Musa's friendship",
+       "x": 92.0,
+       "y": 38.0
+      },
+      {
+       "id": "man",
+       "text": "friends tell Musa he must make love to Sara to \"show he is a man\"",
+       "x": 92.0,
+       "y": 100.0
+      },
+      {
+       "id": "film",
+       "text": "a friend uses a violent film to say alcohol makes you \"brave\"",
+       "x": 92.0,
+       "y": 162.0
+      },
+      {
+       "id": "no",
+       "text": "Musa disagrees",
+       "x": 92.0,
+       "y": 224.0
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls7-u4-l1",
+     "number": "4.1",
+     "title": "My values",
+     "pages": [
+      14,
+      14
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "You will describe what a **value** means.",
+        "You will explore values in your **society** and what **influences** them."
+       ],
+       "page": 14
+      },
+      {
+       "type": "diagram",
+       "title": "Sixteen values to rank",
+       "diagram": "values",
+       "mode": "explore",
+       "page": 14,
+       "body": [
+        "Choose and rank the **five most important** values."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "Was it **easy** to agree when ranking values in your group? Why?"
+       ],
+       "page": 14
+      }
+     ]
+    },
+    {
+     "id": "ls7-u4-l2",
+     "number": "4.2",
+     "title": "Family",
+     "pages": [
+      14,
+      15
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Messages from your family about...",
+       "diagram": "fammsg",
+       "mode": "explore",
+       "page": 14,
+       "body": [
+        "What does your family tell you about each one?"
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "Do **boys and girls** get different advice from their family?",
+        "Do **men** give different messages from **women**?",
+        "Do **younger** family members give different messages from **older** ones?"
+       ],
+       "page": 15
+      }
+     ]
+    },
+    {
+     "id": "ls7-u4-l3",
+     "number": "4.3",
+     "title": "Tradition",
+     "pages": [
+      15,
+      15
+     ],
+     "cards": [
+      {
+       "type": "steps",
+       "title": "Ato Hagos's family",
+       "diagram": "hagos",
+       "page": 15,
+       "steps": [
+        {
+         "text": "Ato Hagos has **six children**. One Sunday his wife prepares **lunch**.",
+         "show": "par",
+         "pins": [
+          "par"
+         ]
+        },
+        {
+         "text": "The youngest, **Habtom**, fetches **water** to wash hands.",
+         "show": "hab",
+         "pins": [
+          "hab"
+         ]
+        },
+        {
+         "text": "A **guest** arrives. **All the children are sent out**. The guest admires the family's **hospitality**.",
+         "show": "guest",
+         "pins": [
+          "guest"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What do you think of sending the children out? What would **you** do?",
+        "How would you feel if your lunch was interrupted by a guest?",
+        "What values do the **family** and the **guest** show? Are they acceptable?"
+       ],
+       "page": 15
+      }
+     ]
+    },
+    {
+     "id": "ls7-u4-l4",
+     "number": "4.4",
+     "title": "Conflicting values",
+     "pages": [
+      16,
+      16
+     ],
+     "cards": [
+      {
+       "type": "steps",
+       "title": "Awet and Sara",
+       "diagram": "drama",
+       "page": 16,
+       "steps": [
+        {
+         "text": "**Awet**: \"We are grown up. It is time to try **alcohol and cigarettes**.\" Even their friend **Thomas** smokes and drinks.",
+         "show": "awet",
+         "pins": [
+          "awet"
+         ]
+        },
+        {
+         "text": "**Sara**: our **religion**, **tradition** and **family** forbid it. Alcohol and cigarettes **destroy our health and economy**.",
+         "show": "sara",
+         "pins": [
+          "sara"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Sara's joke",
+       "body": [
+        "Sara: \"If God wanted me to smoke, he would have put a **chimney** on my head.\"",
+        "\"If God wanted me to drink, he would have put a **barrel** in my stomach.\""
+       ],
+       "page": 16
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What would you do if you were Awet or Sara? What advice for **Thomas**?",
+        "Is it good if your values are **dictated by others**?",
+        "How do you **maintain** your values?"
+       ],
+       "page": 16
+      }
+     ]
+    },
+    {
+     "id": "ls7-u4-l5",
+     "number": "4.5",
+     "title": "Media and peer pressure",
+     "pages": [
+      17,
+      17
+     ],
+     "cards": [
+      {
+       "type": "steps",
+       "title": "Sara and Musa: pressure",
+       "diagram": "press",
+       "page": 17,
+       "steps": [
+        {
+         "text": "Friends **laugh and gossip** about Sara and Musa's friendship.",
+         "show": "gos",
+         "pins": [
+          "gos"
+         ]
+        },
+        {
+         "text": "Musa's friends say he must **make love to Sara** to show he is a man.",
+         "show": "man",
+         "pins": [
+          "man"
+         ]
+        },
+        {
+         "text": "Another friend points to a **film**: a drunk man attacked a school girl. He says alcohol makes you \"brave\".",
+         "show": "film",
+         "pins": [
+          "film"
+         ]
+        },
+        {
+         "text": "**Musa disagrees.**",
+         "show": "no",
+         "pins": [
+          "no"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What **influences** affect Sara and Musa? Which is **strongest**?",
+        "What should you do when your values go **against** your friends' values?",
+        "How can you **resist** influences and keep good relationships?"
+       ],
+       "page": 17
+      },
+      {
+       "type": "check",
+       "q": "What did Musa do when his friends pressured him?",
+       "options": {
+        "A": "he agreed",
+        "B": "he disagreed",
+        "C": "he ran away",
+        "D": "he told a teacher"
+       },
+       "answer": "B",
+       "why": "p. 17: \"but Musa disagreed.\"",
+       "page": 17
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "value",
+     "meaning": "something you believe is important",
+     "page": 14,
+     "forms": [
+      "values"
+     ]
+    },
+    {
+     "term": "rank",
+     "meaning": "to put in order of importance",
+     "page": 14
+    },
+    {
+     "term": "faithfulness",
+     "meaning": "being loyal and true",
+     "page": 14
+    },
+    {
+     "term": "popularity",
+     "meaning": "being liked by many people",
+     "page": 14
+    },
+    {
+     "term": "wisdom",
+     "meaning": "good judgement",
+     "page": 14
+    },
+    {
+     "term": "message",
+     "meaning": "an idea someone tells you",
+     "page": 14,
+     "forms": [
+      "messages"
+     ]
+    },
+    {
+     "term": "tradition",
+     "meaning": "customs passed down in a society",
+     "page": 15
+    },
+    {
+     "term": "hospitality",
+     "meaning": "welcoming guests kindly",
+     "page": 15
+    },
+    {
+     "term": "conflicting",
+     "meaning": "going against each other",
+     "page": 16
+    },
+    {
+     "term": "forbid",
+     "meaning": "to not allow",
+     "page": 16,
+     "forms": [
+      "forbids"
+     ]
+    },
+    {
+     "term": "economy",
+     "meaning": "money and wealth",
+     "page": 16
+    },
+    {
+     "term": "dictate",
+     "meaning": "to order what someone must do",
+     "page": 16,
+     "forms": [
+      "dictated"
+     ]
+    },
+    {
+     "term": "media",
+     "meaning": "films, TV, radio and newspapers",
+     "page": 17
+    },
+    {
+     "term": "peer pressure",
+     "meaning": "pressure from friends your age",
+     "page": 17
+    },
+    {
+     "term": "gossip",
+     "meaning": "talk about other people's private lives",
+     "page": 17,
+     "forms": [
+      "gossiping"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "Know **your own values**, and rank what matters most."
+    },
+    {
+     "text": "Your values come from **family**, **tradition**, **friends** and **media**."
+    },
+    {
+     "text": "Like Sara and Musa, you can **say no**."
+    }
+   ],
+   "games": [
+    {
+     "id": "ls7-u4-g1",
+     "type": "match",
+     "lesson": null,
+     "title": "Who is it?",
+     "pairs": [
+      {
+       "a": "Habtom",
+       "b": "fetched water for washing hands"
+      },
+      {
+       "a": "Awet",
+       "b": "wanted to try alcohol and cigarettes"
+      },
+      {
+       "a": "Sara (4.4)",
+       "b": "\"I choose not to smoke and drink\""
+      },
+      {
+       "a": "Thomas",
+       "b": "a friend who smokes and drinks"
+      },
+      {
+       "a": "Musa",
+       "b": "disagreed with his friends"
+      }
+     ]
+    },
+    {
+     "id": "ls7-u4-g2",
+     "type": "sort",
+     "lesson": "ls7-u4-l4",
+     "title": "What did Sara say?",
+     "groups": [
+      {
+       "id": "s",
+       "label": "Sara said it"
+      },
+      {
+       "id": "a",
+       "label": "Awet said it"
+      }
+     ],
+     "items": [
+      {
+       "text": "our religion forbids such practices",
+       "group": "s"
+      },
+      {
+       "text": "alcohol and cigarettes destroy health and economy",
+       "group": "s"
+      },
+      {
+       "text": "a chimney on my head",
+       "group": "s"
+      },
+      {
+       "text": "it is time to try alcohol and cigarettes",
+       "group": "a"
+      },
+      {
+       "text": "Thomas is in the right way",
+       "group": "a"
+      },
+      {
+       "text": "we will be part of the modern group",
+       "group": "a"
+      }
+     ]
+    },
+    {
+     "id": "ls7-u4-g3",
+     "type": "label",
+     "lesson": "ls7-u4-l1",
+     "title": "Sixteen values to rank",
+     "diagram": "values"
+    },
+    {
+     "id": "ls7-u4-g4",
+     "type": "label",
+     "lesson": "ls7-u4-l2",
+     "title": "Messages from your family about...",
+     "diagram": "fammsg"
+    },
+    {
+     "id": "ls7-u4-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Ato Hagos has ___ children.",
+       "answer": "six",
+       "choices": [
+        "six",
+        "five",
+        "two"
+       ]
+      },
+      {
+       "text": "The youngest child is ___.",
+       "answer": "Habtom",
+       "choices": [
+        "Habtom",
+        "Musa",
+        "Awet"
+       ]
+      },
+      {
+       "text": "Sara says God would put a ___ on her head.",
+       "answer": "chimney",
+       "choices": [
+        "chimney",
+        "hat",
+        "crown"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls7-u4-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "The guest admired the family's hospitality.",
+       "answer": true
+      },
+      {
+       "text": "Sara agreed to smoke.",
+       "answer": false
+      },
+      {
+       "text": "Musa agreed with his friends.",
+       "answer": false,
+       "why": "He disagreed."
+      },
+      {
+       "text": "The book lists 16 values to rank.",
+       "answer": true
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls7-u4-q1",
+      "type": "mcq",
+      "page": 14,
+      "q": "How many values should you rank as most important?",
+      "options": {
+       "A": "three",
+       "B": "five",
+       "C": "ten",
+       "D": "sixteen"
+      },
+      "answer": "B",
+      "why": [
+       "p. 14: \"Rank five most important values from the list given\"."
+      ],
+      "tip": "From a list of 16.",
+      "similar": [
+       {
+        "q": "Name two values in the list.",
+        "a": "honesty, love, education, health, family..."
+       }
+      ]
+     },
+     {
+      "id": "ls7-u4-q2",
+      "type": "mcq",
+      "page": 15,
+      "q": "What happened when the guest arrived at Ato Hagos's house?",
+      "options": {
+       "A": "the guest left",
+       "B": "all the children were sent out",
+       "C": "they ate together",
+       "D": "the children sang"
+      },
+      "answer": "B",
+      "why": [
+       "p. 15: \"all the children were sent out from the house leaving the parents and the guest alone.\""
+      ],
+      "tip": "Read the case study.",
+      "similar": [
+       {
+        "q": "What did the guest admire?",
+        "a": "the hospitality of the family"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u4-q3",
+      "type": "mcq",
+      "page": 16,
+      "q": "According to Sara, alcohol and cigarettes destroy...",
+      "options": {
+       "A": "only money",
+       "B": "both our health and economy",
+       "C": "only friendships",
+       "D": "nothing"
+      },
+      "answer": "B",
+      "why": [
+       "p. 16: \"Alcohol and cigarettes destroy both our health and economy.\""
+      ],
+      "tip": "Two things.",
+      "similar": [
+       {
+        "q": "Who does Sara want to advise?",
+        "a": "Thomas, to stop smoking and drinking"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u4-q4",
+      "type": "mcq",
+      "page": 16,
+      "q": "Which reasons does Sara give for refusing?",
+      "options": {
+       "A": "religion, tradition and family expectations",
+       "B": "the price only",
+       "C": "she is sick",
+       "D": "her teacher"
+      },
+      "answer": "A",
+      "why": [
+       "p. 16: \"our religion as well as our tradition and family expectations forbids such practices.\""
+      ],
+      "tip": "Three sources of values.",
+      "similar": [
+       {
+        "q": "What does Awet say smoking will make them?",
+        "a": "part of the modern group"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u4-q5",
+      "type": "mcq",
+      "page": 17,
+      "q": "What were Sara's and Musa's friends doing about their friendship?",
+      "options": {
+       "A": "helping them study",
+       "B": "laughing and gossiping",
+       "C": "ignoring them",
+       "D": "writing letters"
+      },
+      "answer": "B",
+      "why": [
+       "p. 17: \"Many of Sara's and Musa's friends were laughing and gossiping about their friendship.\""
+      ],
+      "tip": "Peer pressure.",
+      "similar": [
+       {
+        "q": "What did Musa decide?",
+        "a": "he disagreed"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u4-q6",
+      "type": "tf",
+      "page": 15,
+      "q": "Habtom is the youngest child of Ato Hagos.",
+      "answer": true,
+      "why": [
+       "p. 15: \"the youngest child, Habtom fetched water\"."
+      ],
+      "tip": "Read the case study.",
+      "similar": [
+       {
+        "q": "What day was it?",
+        "a": "Sunday"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u4-q7",
+      "type": "fill",
+      "page": 14,
+      "q": "The book asks what messages you get from your family about alcohol, smoking, education, marriage, going to church or mosque, and having a ___.",
+      "choices": [
+       "boy/girlfriend",
+       "bicycle",
+       "job",
+       "phone"
+      ],
+      "answer": "boy/girlfriend",
+      "why": [
+       "p. 14, 4.2 Activity I list."
+      ],
+      "tip": "Six topics.",
+      "similar": [
+       {
+        "q": "Do boys and girls get different advice?",
+        "a": "the book asks you to give examples"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u4-q8",
+      "type": "mcq",
+      "page": 17,
+      "q": "Section 4.5 is about...",
+      "options": {
+       "A": "media and peer pressure",
+       "B": "nutrition",
+       "C": "puberty",
+       "D": "goals"
+      },
+      "answer": "A",
+      "why": [
+       "p. 17: \"4.5 Media and peer-pressure\"."
+      ],
+      "tip": "Films and friends.",
+      "similar": [
+       {
+        "q": "What influenced Musa's friend's idea?",
+        "a": "a film they saw"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u4-q9",
+      "type": "short",
+      "page": 16,
+      "q": "Is it good if your values are dictated by others? Why?",
+      "answer": "Your own answer; think of Sara, who kept her own values.",
+      "why": [
+       "p. 16, Question 3. The book gives no model answer."
+      ],
+      "tip": "Think of Sara.",
+      "similar": [
+       {
+        "q": "How do you maintain your values?",
+        "a": "the book asks you to discuss"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u4-q10",
+      "type": "short",
+      "page": 17,
+      "q": "What should you do when your values go against the values of friends?",
+      "answer": "Your own answer; think of Musa, who disagreed with his friends.",
+      "why": [
+       "p. 17, Question 4. The book gives no model answer."
+      ],
+      "tip": "Think of Musa.",
+      "similar": [
+       {
+        "q": "What is the strongest influence?",
+        "a": "the book asks you to decide and explain"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ls7-u5",
+   "number": 5,
+   "title": "Planning for the future",
+   "status": "done",
+   "pages": [
+    18,
+    20
+   ],
+   "tone": "blue",
+   "intro": "This unit is about **goals**. It asks about **gender and goals**, and two **obstacles**: **substance abuse** and **stressors**.",
+   "intro_page": 18,
+   "diagrams": {
+    "pitch": {
+     "svg": "svg/life_skills_7/ls7_pitch.svg",
+     "title": "Life is like a football game",
+     "page": 18,
+     "pins": [
+      {
+       "id": "goal",
+       "text": "a goal",
+       "x": 294,
+       "y": 56
+      },
+      {
+       "id": "foul",
+       "text": "\"fouls\": what would they be in real life?",
+       "x": 120,
+       "y": 36
+      },
+      {
+       "id": "pen",
+       "text": "\"penalties\": what would they be in real life?",
+       "x": 220,
+       "y": 126
+      },
+      {
+       "id": "play",
+       "text": "you, the player",
+       "x": 70,
+       "y": 72
+      }
+     ]
+    },
+    "roles": {
+     "svg": "svg/life_skills_7/ls7_roles.svg",
+     "title": "Who said it?",
+     "page": 19,
+     "pins": [
+      {
+       "id": "doc",
+       "text": "\"Doctor, come quick, the patient is sick.\" \"Ok! Nurse, calm down.\"",
+       "x": 49.0,
+       "y": 24.0
+      },
+      {
+       "id": "boss",
+       "text": "\"Please finish typing this report before lunch.\" \"Yes, boss.\"",
+       "x": 49.0,
+       "y": 78.0
+      },
+      {
+       "id": "math",
+       "text": "\"Why do I fail in Mathematics all the time?\"",
+       "x": 49.0,
+       "y": 132.0
+      },
+      {
+       "id": "cook",
+       "text": "\"The children should be back from school. Let me finish the cooking.\"",
+       "x": 49.0,
+       "y": 186.0
+      },
+      {
+       "id": "sol",
+       "text": "\"The life of a soldier is tough but it is good to fight for your country.\"",
+       "x": 49.0,
+       "y": 240.0
+      }
+     ]
+    },
+    "obst": {
+     "svg": "svg/life_skills_7/ls7_obst.svg",
+     "title": "Obstacles to goals",
+     "page": 19,
+     "pins": [
+      {
+       "id": "center",
+       "text": "my goals",
+       "x": 160.0,
+       "y": 151.0
+      },
+      {
+       "id": "sub",
+       "text": "substance abuse",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "str",
+       "text": "stressors",
+       "x": 123.0,
+       "y": 178.0
+      }
+     ]
+    },
+    "rahwa": {
+     "svg": "svg/life_skills_7/ls7_rahwa.svg",
+     "title": "Rahwa's story",
+     "page": 20,
+     "pins": [
+      {
+       "id": "top",
+       "text": "Rahwa, grade 7, the most clever in her class, the eldest child",
+       "x": 97.0,
+       "y": 37.0
+      },
+      {
+       "id": "loss",
+       "text": "her father died in a car accident four months ago",
+       "x": 97.0,
+       "y": 95.0
+      },
+      {
+       "id": "sell",
+       "text": "she helps her mother by selling groundnuts",
+       "x": 97.0,
+       "y": 153.0
+      },
+      {
+       "id": "low",
+       "text": "she has less time to study; her marks become low",
+       "x": 97.0,
+       "y": 211.0
+      },
+      {
+       "id": "stop",
+       "text": "she is planning to stop going to school",
+       "x": 97.0,
+       "y": 269.0
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls7-u5-l1",
+     "number": "5.1",
+     "title": "What are my goals?",
+     "pages": [
+      18,
+      18
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "You will explain what a **goal**, a **stereotype** and **substance abuse** are.",
+        "You will identify **stressors** and ways to **cope** with them."
+       ],
+       "page": 18
+      },
+      {
+       "type": "diagram",
+       "title": "Life is like a football game",
+       "diagram": "pitch",
+       "mode": "explore",
+       "page": 18,
+       "body": [
+        "The book compares life to football."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What is a **goal**? What is similar between **football** and **real life**?",
+        "What happens if a person tries and **fails** to reach a goal?",
+        "Can all goals be reached in the **same length of time**?"
+       ],
+       "page": 18
+      }
+     ]
+    },
+    {
+     "id": "ls7-u5-l2",
+     "number": "5.2",
+     "title": "Gender and goals",
+     "pages": [
+      19,
+      19
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Who said it?",
+       "diagram": "roles",
+       "mode": "explore",
+       "page": 19,
+       "body": [
+        "Draw each situation and the people who spoke."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "When you drew the people, did you draw **men or women**? Why?",
+        "This activity helps you think about **stereotypes** and goals."
+       ],
+       "page": 19
+      }
+     ]
+    },
+    {
+     "id": "ls7-u5-l3",
+     "number": "5.3",
+     "title": "Obstacles: substance abuse",
+     "pages": [
+      19,
+      19
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Obstacles to goals",
+       "diagram": "obst",
+       "mode": "explore",
+       "page": 19,
+       "body": [
+        "The book names two obstacles."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Role play",
+       "body": [
+        "Role play: try to **persuade a prize-winner student** to drink alcohol.",
+        "How does the student **say no**?"
+       ],
+       "page": 19
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "How are young people **exposed** to substance abuse? What are its **effects**?",
+        "How can young people **keep their stand** against it?",
+        "How can substance abuse affect **your goals**?"
+       ],
+       "page": 19
+      }
+     ]
+    },
+    {
+     "id": "ls7-u5-l4",
+     "number": "5.4",
+     "title": "Obstacles: stressors",
+     "pages": [
+      20,
+      20
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Not always easy",
+       "body": [
+        "The book asks: is it always easy to reach your goals **as planned**? Why?"
+       ],
+       "page": 20
+      },
+      {
+       "type": "steps",
+       "title": "Rahwa's story",
+       "diagram": "rahwa",
+       "page": 20,
+       "steps": [
+        {
+         "text": "**Rahwa** is in **grade 7**. She was the **most clever** in her class. She is the **eldest** child.",
+         "show": "top",
+         "pins": [
+          "top"
+         ]
+        },
+        {
+         "text": "Her father died in a **car accident** four months ago.",
+         "show": "loss",
+         "pins": [
+          "loss"
+         ]
+        },
+        {
+         "text": "She helps her mother by **selling groundnuts**.",
+         "show": "sell",
+         "pins": [
+          "sell"
+         ]
+        },
+        {
+         "text": "She has less time to study. Her **marks become low**.",
+         "show": "low",
+         "pins": [
+          "low"
+         ]
+        },
+        {
+         "text": "She is planning to **stop going to school**.",
+         "show": "stop",
+         "pins": [
+          "stop"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "What **stressors** did Rahwa face?",
+        "What **other stressors** can stop students reaching their goals?"
+       ],
+       "page": 20
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: G-O-S",
+       "page": 20,
+       "letters": [
+        {
+         "l": "G",
+         "w": "Goals",
+         "m": "where you want to go"
+        },
+        {
+         "l": "O",
+         "w": "Obstacles",
+         "m": "what blocks the way"
+        },
+        {
+         "l": "S",
+         "w": "Stand",
+         "m": "keep your stand"
+        }
+       ],
+       "body": [
+        "Set **G**oals, know the **O**bstacles, keep your **S**tand."
+       ]
+      },
+      {
+       "type": "check",
+       "q": "Why does Rahwa have less time to study?",
+       "options": {
+        "A": "she plays football",
+        "B": "she helps her mother by selling groundnuts",
+        "C": "she is sick",
+        "D": "she moved away"
+       },
+       "answer": "B",
+       "why": "p. 20: \"she has begun to help her mother by selling groundnuts.\"",
+       "page": 20
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "goal",
+     "meaning": "something you want to achieve",
+     "page": 18,
+     "forms": [
+      "goals"
+     ]
+    },
+    {
+     "term": "foul",
+     "meaning": "breaking a rule in a game",
+     "page": 18,
+     "forms": [
+      "fouls"
+     ]
+    },
+    {
+     "term": "penalty",
+     "meaning": "a punishment in a game",
+     "page": 18,
+     "forms": [
+      "penalties"
+     ]
+    },
+    {
+     "term": "stereotype",
+     "meaning": "a fixed idea about a group of people",
+     "page": 18
+    },
+    {
+     "term": "gender",
+     "meaning": "the social roles of men and women",
+     "page": 19
+    },
+    {
+     "term": "obstacle",
+     "meaning": "something that blocks the way",
+     "page": 19,
+     "forms": [
+      "obstacles"
+     ]
+    },
+    {
+     "term": "substance abuse",
+     "meaning": "harmful use of drinks or drugs such as alcohol",
+     "page": 19
+    },
+    {
+     "term": "persuade",
+     "meaning": "to try to make someone agree",
+     "page": 19
+    },
+    {
+     "term": "exposed",
+     "meaning": "open to something harmful",
+     "page": 19
+    },
+    {
+     "term": "stressor",
+     "meaning": "something that causes stress",
+     "page": 20,
+     "forms": [
+      "stressors"
+     ]
+    },
+    {
+     "term": "stress",
+     "meaning": "a feeling of pressure or worry",
+     "page": 20
+    },
+    {
+     "term": "cope",
+     "meaning": "to deal with something hard",
+     "page": 18
+    },
+    {
+     "term": "eldest",
+     "meaning": "the oldest child",
+     "page": 20
+    },
+    {
+     "term": "groundnuts",
+     "meaning": "peanuts",
+     "page": 20
+    },
+    {
+     "term": "achieve",
+     "meaning": "to reach a goal",
+     "page": 18
+    }
+   ],
+   "tips": [
+    {
+     "text": "A goal is like a goal in football: there are **fouls** and **penalties** on the way."
+    },
+    {
+     "text": "Two obstacles: **substance abuse** and **stressors**."
+    },
+    {
+     "text": "Keep your **stand**."
+    }
+   ],
+   "games": [
+    {
+     "id": "ls7-u5-g1",
+     "type": "match",
+     "lesson": "ls7-u5-l2",
+     "title": "Who said it?",
+     "pairs": [
+      {
+       "a": "\"Doctor, come quick\"",
+       "b": "a nurse"
+      },
+      {
+       "a": "\"Yes, boss\"",
+       "b": "a typist"
+      },
+      {
+       "a": "\"Let me finish the cooking\"",
+       "b": "someone cooking at home"
+      },
+      {
+       "a": "\"good to fight for your country\"",
+       "b": "about a soldier's life"
+      }
+     ]
+    },
+    {
+     "id": "ls7-u5-g2",
+     "type": "sort",
+     "lesson": "ls7-u5-l4",
+     "title": "Rahwa's story: before or after?",
+     "groups": [
+      {
+       "id": "b",
+       "label": "Before her father died"
+      },
+      {
+       "id": "a",
+       "label": "After her father died"
+      }
+     ],
+     "items": [
+      {
+       "text": "the most clever in her class",
+       "group": "b"
+      },
+      {
+       "text": "enough time to study",
+       "group": "b"
+      },
+      {
+       "text": "selling groundnuts",
+       "group": "a"
+      },
+      {
+       "text": "low marks",
+       "group": "a"
+      },
+      {
+       "text": "planning to stop school",
+       "group": "a"
+      }
+     ]
+    },
+    {
+     "id": "ls7-u5-g3",
+     "type": "label",
+     "lesson": "ls7-u5-l4",
+     "title": "Rahwa's story",
+     "diagram": "rahwa"
+    },
+    {
+     "id": "ls7-u5-g4",
+     "type": "label",
+     "lesson": "ls7-u5-l1",
+     "title": "Life is like a football game",
+     "diagram": "pitch"
+    },
+    {
+     "id": "ls7-u5-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Rahwa is in grade ___.",
+       "answer": "seven",
+       "choices": [
+        "seven",
+        "five",
+        "eight"
+       ]
+      },
+      {
+       "text": "Rahwa's father died ___ months ago.",
+       "answer": "four",
+       "choices": [
+        "four",
+        "two",
+        "ten"
+       ]
+      },
+      {
+       "text": "Rahwa helps her mother by selling ___.",
+       "answer": "groundnuts",
+       "choices": [
+        "groundnuts",
+        "bread",
+        "eggs"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls7-u5-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Rahwa is the youngest in her family.",
+       "answer": false,
+       "why": "She is the eldest."
+      },
+      {
+       "text": "Her father died in a car accident.",
+       "answer": true
+      },
+      {
+       "text": "Rahwa's marks went up.",
+       "answer": false,
+       "why": "They became low."
+      },
+      {
+       "text": "The book names substance abuse as an obstacle to goals.",
+       "answer": true
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls7-u5-q1",
+      "type": "mcq",
+      "page": 20,
+      "q": "How did Rahwa's father die?",
+      "options": {
+       "A": "illness",
+       "B": "a car accident",
+       "C": "in war",
+       "D": "at sea"
+      },
+      "answer": "B",
+      "why": [
+       "p. 20: \"Her father died in a car accident four months ago.\""
+      ],
+      "tip": "Read the story.",
+      "similar": [
+       {
+        "q": "When?",
+        "a": "four months ago"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u5-q2",
+      "type": "mcq",
+      "page": 20,
+      "q": "What is Rahwa planning to do?",
+      "options": {
+       "A": "change school",
+       "B": "stop going to school",
+       "C": "become a teacher",
+       "D": "move to Asmara"
+      },
+      "answer": "B",
+      "why": [
+       "p. 20: \"she is planning to stop going to school.\""
+      ],
+      "tip": "Last line of the story.",
+      "similar": [
+       {
+        "q": "Why?",
+        "a": "her marks became low because she had no time to study"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u5-q3",
+      "type": "mcq",
+      "page": 20,
+      "q": "Before her father died, Rahwa was...",
+      "options": {
+       "A": "the most clever one in her class",
+       "B": "often absent",
+       "C": "a football player",
+       "D": "in grade 5"
+      },
+      "answer": "A",
+      "why": [
+       "p. 20: \"She was the most clever one in her class.\""
+      ],
+      "tip": "First lines.",
+      "similar": [
+       {
+        "q": "Is she the eldest or youngest?",
+        "a": "the eldest"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u5-q4",
+      "type": "mcq",
+      "page": 19,
+      "q": "Which two obstacles to goals does the book name?",
+      "options": {
+       "A": "substance abuse and stressors",
+       "B": "rain and wind",
+       "C": "money and time",
+       "D": "teachers and parents"
+      },
+      "answer": "A",
+      "why": [
+       "p. 19–20: 5.3 \"substance abuse\" and 5.4 \"stressors\"."
+      ],
+      "tip": "Section titles.",
+      "similar": [
+       {
+        "q": "What role play does 5.3 suggest?",
+        "a": "persuading a prize winner student to drink alcohol"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u5-q5",
+      "type": "mcq",
+      "page": 18,
+      "q": "In football there are \"fouls\" and \"penalties\". The book asks what these would be in...",
+      "options": {
+       "A": "real life",
+       "B": "the classroom only",
+       "C": "a film",
+       "D": "a song"
+      },
+      "answer": "A",
+      "why": [
+       "p. 18: \"what would this be in real life?\""
+      ],
+      "tip": "Life is like a game.",
+      "similar": [
+       {
+        "q": "What else does the book ask about football?",
+        "a": "the similarities between a football game and real life"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u5-q6",
+      "type": "tf",
+      "page": 19,
+      "q": "One situation in 5.2 is \"Why do I fail in Mathematics all the time?\"",
+      "answer": true,
+      "why": [
+       "p. 19, situation c."
+      ],
+      "tip": "Draw who says it.",
+      "similar": [
+       {
+        "q": "Who says \"Yes, boss\"?",
+        "a": "the person typing the report"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u5-q7",
+      "type": "fill",
+      "page": 19,
+      "q": "In the role play, you try to persuade a ___ student to drink alcohol.",
+      "choices": [
+       "prize winner",
+       "new",
+       "sick",
+       "young"
+      ],
+      "answer": "prize winner",
+      "why": [
+       "p. 19: \"Try to persuade a prize winner student to drink alcohol.\""
+      ],
+      "tip": "Then practise saying no.",
+      "similar": [
+       {
+        "q": "How can substance abuse affect your goals?",
+        "a": "the book asks you to discuss"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u5-q8",
+      "type": "mcq",
+      "page": 18,
+      "q": "Which words does this unit want you to explain?",
+      "options": {
+       "A": "goal, stereotype, substance abuse",
+       "B": "river, mountain, sea",
+       "C": "noun, verb, adjective",
+       "D": "add, subtract, multiply"
+      },
+      "answer": "A",
+      "why": [
+       "p. 18, learning outcome: \"Explain what a goal, stereotype and substance abuse are\"."
+      ],
+      "tip": "Look at the outcomes.",
+      "similar": [
+       {
+        "q": "What else will you identify?",
+        "a": "stressors and ways of coping with them"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u5-q9",
+      "type": "short",
+      "page": 20,
+      "q": "Mention the stressors Rahwa faced.",
+      "answer": "Her father's death, having to sell groundnuts to help her mother, less time to study, and low marks.",
+      "why": [
+       "p. 20: the story."
+      ],
+      "tip": "List what changed in her life.",
+      "similar": [
+       {
+        "q": "Name another stressor for students.",
+        "a": "your own answer"
+       }
+      ]
+     },
+     {
+      "id": "ls7-u5-q10",
+      "type": "short",
+      "page": 18,
+      "q": "What will happen if a person tries and fails to achieve a goal?",
+      "answer": "Your own answer; discuss with your group (think of a football team that loses and tries again).",
+      "why": [
+       "p. 18, Question 4. The book gives no model answer."
+      ],
+      "tip": "Think of football.",
+      "similar": [
+       {
+        "q": "Can all goals be achieved in the same time?",
+        "a": "the book asks you to discuss why"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" font-family="Nunito,sans-serif" font-weight="900">
+
+<rect x="40" y="40" width="240" height="140" fill="#DDEFD8" stroke="none" rx="6"/>
+<g data-s="dist"><path d="M50 190L270 190L270 50" fill="none" stroke="#DDA42A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><g ><path d="M270.0 90.0L270.0 68.0" stroke="#DDA42A" stroke-width="7" stroke-linecap="round"/><path d="M270.0 56.0L263.0 68.0L277.0 68.0Z" fill="#DDA42A" stroke="#DDA42A" stroke-width="2" stroke-linejoin="round"/></g>
+ <text x="160" y="214" font-size="17" fill="#DDA42A" text-anchor="middle" >400 m</text><text x="300" y="124" font-size="15" fill="#DDA42A" text-anchor="middle" transform="rotate(90 300 124)">300 m</text></g>
+<g data-s="disp"><g ><path d="M52.0 188.0L251.7 65.5" stroke="#A8412A" stroke-width="7" stroke-linecap="round"/><path d="M264.0 58.0L247.3 58.4L256.1 72.7Z" fill="#A8412A" stroke="#A8412A" stroke-width="2" stroke-linejoin="round"/></g><text x="140" y="110" font-size="18" fill="#A8412A" text-anchor="middle" transform="rotate(-31 140 110)">500 m</text></g>
+<circle cx="50" cy="190" r="12" fill="#5F90C4"/><circle cx="270" cy="190" r="12" fill="#9C8A76"/><circle cx="270" cy="50" r="12" fill="#6A4C9C"/>
+<text x="50" y="196" font-size="15" fill="#fff" text-anchor="middle" >C</text><text x="270" y="196" font-size="15" fill="#fff" text-anchor="middle" >B</text><text x="270" y="56" font-size="15" fill="#fff" text-anchor="middle" >L</text>
+</svg>

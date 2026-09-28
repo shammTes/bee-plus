@@ -1,1 +1,9 @@
+analyzer:
+  exclude:
+    - build/**
+    - android/**
 include: package:flutter_lints/flutter.yaml
+linter:
+  rules:
+    use_super_parameters: false
+    avoid_renaming_method_parameters: false

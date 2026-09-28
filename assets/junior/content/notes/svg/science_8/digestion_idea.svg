@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect x="148" y="14" width="24" height="62" rx="8" fill="#E8D9C6" stroke="#B89C80" stroke-width="2"/>
+  <rect x="148" y="108" width="24" height="62" rx="8" fill="#E8D9C6" stroke="#B89C80" stroke-width="2"/>
+  <text x="74" y="172" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="800" font-size="16" fill="#6A5B50">outside</text>
+  <text x="246" y="172" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="800" font-size="16" fill="#6A5B50">inside</text>
+  <g data-s="big">
+    <rect x="44" y="62" width="68" height="60" rx="14" fill="#F7A58C" stroke="#D9765A" stroke-width="2.5"/>
+    <ellipse cx="62" cy="72" rx="12" ry="5" fill="#fff" opacity=".6"/>
+    <path d="M120 92h20" stroke="#6A5B50" stroke-width="3" stroke-linecap="round"/>
+    <g stroke="#C23E33" stroke-width="5" stroke-linecap="round"><path d="M150 80l20 24M170 80l-20 24"/></g>
+  </g>
+  <g data-s="small">
+    <rect x="46" y="64" width="26" height="24" rx="7" fill="#F7A58C" stroke="#D9765A" stroke-width="2"/>
+    <rect x="80" y="98" width="26" height="24" rx="7" fill="#F7A58C" stroke="#D9765A" stroke-width="2"/>
+    <rect x="148" y="80" width="24" height="24" rx="7" fill="#F7A58C" stroke="#D9765A" stroke-width="2"/>
+    <rect x="206" y="66" width="26" height="24" rx="7" fill="#F7A58C" stroke="#D9765A" stroke-width="2"/>
+    <rect x="248" y="96" width="26" height="24" rx="7" fill="#F7A58C" stroke="#D9765A" stroke-width="2"/>
+    <path d="M112 92h26M182 92h16" stroke="#5CA75C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M194 85l8 7-8 7" fill="none" stroke="#5CA75C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="290" cy="40" r="14" fill="#9ED39A" stroke="#5CA75C" stroke-width="2"/>
+    <path d="M283 40l5 5 9-10" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

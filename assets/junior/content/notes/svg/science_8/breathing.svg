@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 280">
+  <!-- trachea -->
+  <rect x="152" y="14" width="16" height="60" rx="6" fill="#D9E8F7" stroke="#5F90C4" stroke-width="2"/>
+  <!-- air arrows -->
+  <g data-s="in"><path d="M196 18L196 60" stroke="#5CA75C" stroke-width="6" stroke-linecap="round"/><path d="M187 50l9 11 9-11" fill="none" stroke="#5CA75C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><text x="210" y="42" font-family="Nunito,sans-serif" font-weight="900" font-size="18" fill="#2F6B3A">air in</text></g>
+  <g data-s="out"><path d="M196 60L196 18" stroke="#A8412A" stroke-width="6" stroke-linecap="round"/><path d="M187 28l9-11 9 11" fill="none" stroke="#A8412A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><text x="210" y="42" font-family="Nunito,sans-serif" font-weight="900" font-size="18" fill="#A8412A">air out</text></g>
+  <!-- chest wall (ribs): up when breathing in -->
+  <g data-s="in" fill="none" stroke="#C9B49C" stroke-width="7" stroke-linecap="round">
+    <path d="M150 78C90 72 50 110 44 170M170 78C230 72 270 110 276 170"/><path d="M150 100C98 96 64 128 58 180M170 100C222 96 256 128 262 180"/><path d="M150 124C106 122 78 148 72 190M170 124C214 122 242 148 248 190"/>
+  </g>
+  <g data-s="out" fill="none" stroke="#C9B49C" stroke-width="7" stroke-linecap="round">
+    <path d="M150 90C98 88 64 124 60 184M170 90C222 88 256 124 260 184"/><path d="M150 112C106 110 78 140 74 192M170 112C214 110 242 140 246 192"/><path d="M150 134C114 134 90 158 86 200M170 134C206 134 230 158 234 200"/>
+  </g>
+  <!-- lungs: big (in) / small (out) -->
+  <g data-s="in">
+    <path d="M152 76C120 70 78 96 70 150C64 196 74 222 104 226C128 228 146 218 152 204Z" fill="#FFC9BA" stroke="#D9765A" stroke-width="3"/>
+    <path d="M168 76C200 70 242 96 250 150C256 196 246 222 216 226C192 228 174 218 168 204Z" fill="#FFC9BA" stroke="#D9765A" stroke-width="3"/>
+    <ellipse cx="100" cy="112" rx="14" ry="7" fill="#fff" opacity=".6"/><ellipse cx="220" cy="112" rx="14" ry="7" fill="#fff" opacity=".6"/>
+  </g>
+  <g data-s="out">
+    <path d="M152 86C126 82 96 104 92 146C88 180 96 196 118 198C136 200 148 192 152 180Z" fill="#FFDCD0" stroke="#D9765A" stroke-width="3"/>
+    <path d="M168 86C194 82 224 104 228 146C232 180 224 196 202 198C184 200 172 192 168 180Z" fill="#FFDCD0" stroke="#D9765A" stroke-width="3"/>
+    <ellipse cx="116" cy="118" rx="11" ry="6" fill="#fff" opacity=".6"/><ellipse cx="204" cy="118" rx="11" ry="6" fill="#fff" opacity=".6"/>
+  </g>
+  <!-- diaphragm: flat and low (in) / dome and high (out) -->
+  <g data-s="in"><path d="M40 244Q160 226 280 244" fill="none" stroke="#B8704F" stroke-width="14" stroke-linecap="round"/><path d="M40 244Q160 226 280 244" fill="none" stroke="#E9A07E" stroke-width="9" stroke-linecap="round"/>
+    <path d="M160 250L160 272" stroke="#6A5B50" stroke-width="4" stroke-linecap="round"/><path d="M153 264l7 9 7-9" fill="none" stroke="#6A5B50" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g data-s="out"><path d="M40 244Q160 170 280 244" fill="none" stroke="#B8704F" stroke-width="14" stroke-linecap="round"/><path d="M40 244Q160 170 280 244" fill="none" stroke="#E9A07E" stroke-width="9" stroke-linecap="round"/>
+    <path d="M160 272L160 236" stroke="#6A5B50" stroke-width="4" stroke-linecap="round"/><path d="M153 244l7-9 7 9" fill="none" stroke="#6A5B50" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

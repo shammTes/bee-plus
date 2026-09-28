@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+  <!-- blood split: plasma 55 %, cells 45 % -->
+  <rect x="24" y="16" width="84" height="208" rx="22" fill="#fff" stroke="#B89C80" stroke-width="3"/>
+  <path d="M27 38Q27 19 46 19L86 19Q105 19 105 38L105 130L27 130Z" fill="#FFE9A8"/>
+  <path d="M27 130L105 130L105 202Q105 221 86 221L46 221Q27 221 27 202Z" fill="#E4574A"/>
+  <ellipse cx="46" cy="40" rx="9" ry="16" fill="#fff" opacity=".6"/>
+  <text x="66" y="82" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="900" font-size="22" fill="#8A6410">55%</text>
+  <text x="66" y="182" text-anchor="middle" font-family="Nunito,sans-serif" font-weight="900" font-size="22" fill="#fff">45%</text>
+  <!-- red blood cell -->
+  <g transform="translate(200 52)"><ellipse rx="38" ry="30" fill="#EE6A58" stroke="#C23E33" stroke-width="3"/><ellipse rx="18" ry="13" fill="#D94A3E"/><ellipse cx="-14" cy="-14" rx="10" ry="5" fill="#fff" opacity=".5"/></g>
+  <!-- white blood cell -->
+  <g transform="translate(200 142)"><circle r="34" fill="#EAE0F7" stroke="#6A4C9C" stroke-width="3"/><path d="M-14 -6C-18 -18 -2 -20 0 -10C4 -22 20 -14 12 -2C24 4 12 18 2 10C-4 22 -20 14 -12 4C-24 0 -20 -10 -14 -6Z" fill="#C5B0EA" stroke="#6A4C9C" stroke-width="2"/><ellipse cx="-14" cy="-18" rx="9" ry="4" fill="#fff" opacity=".7"/></g>
+  <!-- platelets -->
+  <g fill="#FFD9A8" stroke="#C98A3A" stroke-width="2"><path d="M180 206l8-6 9 3 1 8-9 4-8-2z"/><path d="M210 200l7-3 6 5-2 7-8 1-4-5z"/><path d="M236 212l6-5 7 2 1 6-7 3-6-2z"/></g>
+</svg>

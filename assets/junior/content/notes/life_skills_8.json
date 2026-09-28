@@ -1,0 +1,5956 @@
+{
+ "book": {
+  "id": "life_skills_8",
+  "subject": "life_skills",
+  "grade": 8,
+  "title": "Life Skills Grade 8",
+  "pdf": "textbooks/life_skills_8.pdf",
+  "page_offset": 5,
+  "source": "Life Skills Based Health Education for Grade 8, Student's Text Book, Ministry of Education, State of Eritrea (Second Edition, 2015)"
+ },
+ "units": [
+  {
+   "id": "ls8-u1",
+   "number": 1,
+   "title": "Risk Taking",
+   "status": "done",
+   "pages": [
+    1,
+    5
+   ],
+   "tone": "peach",
+   "intro": "This unit asks **why people take risks** in life. You will read short stories (case studies) and think about **risky behaviours**, **sexual risk taking**, and **what makes a risk justifiable**.",
+   "intro_page": 1,
+   "diagrams": {
+    "cases": {
+     "svg": "svg/life_skills_8/ls8_cases.svg",
+     "title": "Two case studies",
+     "page": 1,
+     "pins": [
+      {
+       "id": "c1",
+       "text": "Case 1: a popular artist, 19, died after a long illness (it was rumoured she had AIDS). She left a baby of six months.",
+       "x": 22,
+       "y": 22
+      },
+      {
+       "id": "c2",
+       "text": "Case 2: a long distance bus hit a bicycle. Two students riding home from school died at the spot.",
+       "x": 178,
+       "y": 22
+      }
+     ]
+    },
+    "light": {
+     "svg": "svg/life_skills_8/ls8_light.svg",
+     "title": "Red, yellow, green",
+     "page": 2,
+     "pins": [
+      {
+       "id": "red",
+       "text": "red = definitely risky",
+       "x": 215,
+       "y": 55
+      },
+      {
+       "id": "yel",
+       "text": "yellow = probably risky",
+       "x": 215,
+       "y": 130
+      },
+      {
+       "id": "grn",
+       "text": "green = not risky",
+       "x": 215,
+       "y": 205
+      }
+     ]
+    },
+    "aster": {
+     "svg": "svg/life_skills_8/ls8_aster.svg",
+     "title": "Aster and Solomon",
+     "page": 3,
+     "pins": [
+      {
+       "id": "aster",
+       "text": "Aster, 15 years old",
+       "x": 80,
+       "y": 120
+      },
+      {
+       "id": "sol",
+       "text": "Solomon, 17 years old",
+       "x": 240,
+       "y": 110
+      }
+     ]
+    },
+    "yonas": {
+     "svg": "svg/life_skills_8/ls8_yonas.svg",
+     "title": "Yonas and the river",
+     "page": 4,
+     "pins": [
+      {
+       "id": "home",
+       "text": "his mother: \"If you don't bring wood, food will not be cooked.\"",
+       "x": 24,
+       "y": 24
+      },
+      {
+       "id": "yon",
+       "text": "Yonas, 14, lives in a village",
+       "x": 100,
+       "y": 110
+      },
+      {
+       "id": "river",
+       "text": "the river he has to cross",
+       "x": 170,
+       "y": 90
+      },
+      {
+       "id": "wood",
+       "text": "the wood is beyond the river",
+       "x": 258,
+       "y": 170
+      }
+     ]
+    },
+    "amina": {
+     "svg": "svg/life_skills_8/ls8_amina.svg",
+     "title": "Amina's problem",
+     "page": 4,
+     "pins": [
+      {
+       "id": "center",
+       "text": "Amina, 16, grade 8, good at her studies",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "mom",
+       "text": "she lives with her sick mother; the boyfriend promised to send her mother to hospital",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "sch",
+       "text": "he wants to marry her before she finishes school",
+       "x": 217.4,
+       "y": 182.0
+      },
+      {
+       "id": "ask",
+       "text": "he asked her to have sex before marriage; she does not want to, but she does not want to lose him",
+       "x": 28.6,
+       "y": 182.0
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls8-u1-l1",
+     "number": "1.1",
+     "title": "What makes adolescents vulnerable or invulnerable?",
+     "pages": [
+      1,
+      1
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What this unit is about",
+       "body": [
+        "By the end of this unit you will be able to find out **why people take risks** in life.",
+        "You will also name the **consequences** (results) of risk."
+       ],
+       "page": 1
+      },
+      {
+       "type": "text",
+       "title": "Two new words",
+       "body": [
+        "The book asks: what do **vulnerable** and **invulnerable** mean?",
+        "**Vulnerable**: you can be hurt easily.",
+        "**Invulnerable**: you cannot be hurt.",
+        "(These are word meanings to help your English.)"
+       ],
+       "page": 1
+      },
+      {
+       "type": "diagram",
+       "title": "Two case studies",
+       "diagram": "cases",
+       "mode": "explore",
+       "page": 1,
+       "body": [
+        "Tap the dots. Read each story."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Case 1: the artist",
+       "body": [
+        "A **popular artist** died after a long illness.",
+        "People said for some time that she had **AIDS**.",
+        "She was just **19**. She left a **baby of six months** behind."
+       ],
+       "page": 1
+      },
+      {
+       "type": "text",
+       "title": "Case 2: the two students",
+       "body": [
+        "A **long distance bus** hit a **bicycle**.",
+        "Two students were riding it **home after school**.",
+        "Both students **died at the spot**."
+       ],
+       "page": 1
+      },
+      {
+       "type": "remember",
+       "title": "Think and talk",
+       "body": [
+        "The book asks you to compare the two deaths.",
+        "- Which risk has the **least chance** to affect your life? Why?",
+        "- Why do adolescents face such problems?",
+        "- What do we learn from the case studies?"
+       ],
+       "page": 1
+      },
+      {
+       "type": "check",
+       "q": "In Case 1, how old was the artist when she died?",
+       "options": {
+        "A": "16",
+        "B": "19",
+        "C": "six months",
+        "D": "45"
+       },
+       "answer": "B",
+       "why": "\"She was just 19 when she died\" (p. 1). The baby was six months old.",
+       "page": 1
+      }
+     ]
+    },
+    {
+     "id": "ls8-u1-l2",
+     "number": "1.2",
+     "title": "Risk taking behaviours",
+     "pages": [
+      2,
+      3
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What is risk taking?",
+       "body": [
+        "The book asks: **What is risk taking?**",
+        "Then you sort **15 behaviours** into three colours."
+       ],
+       "page": 2
+      },
+      {
+       "type": "diagram",
+       "title": "Red, yellow, green",
+       "diagram": "light",
+       "mode": "explore",
+       "page": 2,
+       "body": [
+        "Tap each light."
+       ]
+      },
+      {
+       "type": "mnemonic",
+       "title": "Memory trick: the traffic light",
+       "page": 2,
+       "letters": [
+        {
+         "l": "R",
+         "w": "Red",
+         "m": "definitely risky"
+        },
+        {
+         "l": "Y",
+         "w": "Yellow",
+         "m": "probably risky"
+        },
+        {
+         "l": "G",
+         "w": "Green",
+         "m": "not risky"
+        }
+       ],
+       "body": [
+        "Like a road light: **red** = stop, **yellow** = be careful, **green** = go."
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Behaviours in the table (1–8)",
+       "page": 2,
+       "head": [
+        "No.",
+        "Behaviour"
+       ],
+       "rows": [
+        [
+         "1",
+         "Driving when drunk"
+        ],
+        [
+         "2",
+         "Crossing a road"
+        ],
+        [
+         "3",
+         "Having unprotected sex"
+        ],
+        [
+         "4",
+         "Walking alone at night"
+        ],
+        [
+         "5",
+         "Dropping out of school"
+        ],
+        [
+         "6",
+         "Hanging on the outside of a vehicle"
+        ],
+        [
+         "7",
+         "Accepting a lift from a stranger"
+        ],
+        [
+         "8",
+         "Accepting a lift from a person you know"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Behaviours in the table (9–15)",
+       "page": 3,
+       "head": [
+        "No.",
+        "Behaviour"
+       ],
+       "rows": [
+        [
+         "9",
+         "Sleeping without a mosquito net in a mosquito area"
+        ],
+        [
+         "10",
+         "Getting married and having children before the age of 20"
+        ],
+        [
+         "11",
+         "Riding a bicycle at night without lights"
+        ],
+        [
+         "12",
+         "Doing what your friends do"
+        ],
+        [
+         "13",
+         "Unprotected sex with your long time boyfriend or girlfriend"
+        ],
+        [
+         "14",
+         "Riding a bicycle without holding the handle bars"
+        ],
+        [
+         "15",
+         "Going to a disco or party"
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Your turn",
+       "body": [
+        "Put each behaviour under **red**, **yellow** or **green**.",
+        "Then think: are these risky behaviours **common in your area**? Why?",
+        "The book gives no answer key. Talk with your class and teacher."
+       ],
+       "page": 3
+      },
+      {
+       "type": "check",
+       "q": "In the table, what does \"yellow\" mean?",
+       "options": {
+        "A": "not risky",
+        "B": "definitely risky",
+        "C": "probably risky",
+        "D": "not sure"
+       },
+       "answer": "C",
+       "why": "Red = definitely risky, yellow = probably risky, green = not risky (p. 2).",
+       "page": 2
+      }
+     ]
+    },
+    {
+     "id": "ls8-u1-l3",
+     "number": "1.3",
+     "title": "Sexual risk taking",
+     "pages": [
+      3,
+      3
+     ],
+     "cards": [
+      {
+       "type": "states",
+       "title": "Aster and Solomon",
+       "diagram": "aster",
+       "page": 3,
+       "states": [
+        {
+         "key": "study",
+         "label": "Friends",
+         "text": "Aster (15) and Solomon (17) are classmates since elementary school. In grade 8 they sit on the same bench and do homework together."
+        },
+        {
+         "key": "love",
+         "label": "\"I love you\"",
+         "text": "One day, studying at Aster's house, Solomon says \"I love you.\" Aster says \"I love you too.\""
+        },
+        {
+         "key": "choice",
+         "label": "What next?",
+         "text": "The book asks: What would **you** do if you were Aster? Will they **abstain** from making love? If not, what problems will they face?"
+        }
+       ],
+       "body": [
+        "Move the slider."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Key word: abstain",
+       "body": [
+        "To **abstain** means to choose **not to do** something.",
+        "The book asks if Aster and Solomon will abstain from making love, and why."
+       ],
+       "page": 3
+      },
+      {
+       "type": "check",
+       "q": "Where were Aster and Solomon when Solomon said \"I love you\"?",
+       "options": {
+        "A": "at school",
+        "B": "at Aster's house",
+        "C": "at a party",
+        "D": "on a bus"
+       },
+       "answer": "B",
+       "why": "\"One day while they were studying in Aster's house...\" (p. 3).",
+       "page": 3
+      }
+     ]
+    },
+    {
+     "id": "ls8-u1-l4",
+     "number": "1.4",
+     "title": "What makes a risk justifiable?",
+     "pages": [
+      4,
+      5
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Justifiable or not?",
+       "body": [
+        "A risk can be **justifiable** (there is a good reason for it) or **unjustifiable** (there is no good reason).",
+        "The book gives two case studies. You decide."
+       ],
+       "page": 4
+      },
+      {
+       "type": "steps",
+       "title": "Case study 1: Yonas",
+       "diagram": "yonas",
+       "page": 4,
+       "steps": [
+        {
+         "text": "Yonas is **14**. He lives in a **village**.",
+         "show": "yon",
+         "pins": [
+          "yon"
+         ]
+        },
+        {
+         "text": "His mother tells him to collect wood. If he does not, **food will not be cooked**.",
+         "show": "home",
+         "pins": [
+          "home"
+         ]
+        },
+        {
+         "text": "The wood is **beyond a river**.",
+         "show": "wood",
+         "pins": [
+          "wood"
+         ]
+        },
+        {
+         "text": "So he **has to cross the river** to bring the wood.",
+         "show": "river",
+         "pins": [
+          "river"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "Case study 2: Amina",
+       "diagram": "amina",
+       "mode": "explore",
+       "page": 4,
+       "body": [
+        "Tap the dots to see Amina's problem."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Amina's choice",
+       "body": [
+        "Amina does **not want** to have sex.",
+        "But she does **not want to lose** her boyfriend too."
+       ],
+       "page": 4
+      },
+      {
+       "type": "remember",
+       "title": "Questions to discuss",
+       "body": [
+        "- If you were Amina or Yonas, what would you do? Why?",
+        "- What advice would you give them?",
+        "- If you were Amina's boyfriend, what would you do?",
+        "- Which risk is **justifiable**, and which is **unjustifiable**? Why?"
+       ],
+       "page": 5
+      },
+      {
+       "type": "check",
+       "q": "Why does Yonas have to cross the river?",
+       "options": {
+        "A": "to swim",
+        "B": "because the wood is beyond the river",
+        "C": "to visit a friend",
+        "D": "to go to school"
+       },
+       "answer": "B",
+       "why": "\"He saw that woods were beyond a river. So he had to cross the river\" (p. 4).",
+       "page": 4
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "risk",
+     "meaning": "a chance that something bad may happen",
+     "page": 1,
+     "forms": [
+      "risks"
+     ]
+    },
+    {
+     "term": "vulnerable",
+     "meaning": "can be hurt easily (word meaning)",
+     "page": 1
+    },
+    {
+     "term": "invulnerable",
+     "meaning": "cannot be hurt (word meaning)",
+     "page": 1
+    },
+    {
+     "term": "adolescent",
+     "meaning": "a young person growing from child to adult",
+     "page": 1,
+     "forms": [
+      "adolescents"
+     ]
+    },
+    {
+     "term": "case study",
+     "meaning": "a short true-to-life story to discuss",
+     "page": 1,
+     "forms": [
+      "case studies",
+      "case-studies"
+     ]
+    },
+    {
+     "term": "AIDS",
+     "meaning": "the illness the artist in Case 1 was said to have",
+     "page": 1
+    },
+    {
+     "term": "behaviour",
+     "meaning": "the way a person acts",
+     "page": 2,
+     "forms": [
+      "behaviours"
+     ]
+    },
+    {
+     "term": "unprotected sex",
+     "meaning": "sex without protection (listed as a behaviour in the table)",
+     "page": 2
+    },
+    {
+     "term": "mosquito net",
+     "meaning": "a net over a bed that keeps mosquitoes away",
+     "page": 2
+    },
+    {
+     "term": "abstain",
+     "meaning": "choose not to do something",
+     "page": 3
+    },
+    {
+     "term": "justifiable",
+     "meaning": "having a good reason",
+     "page": 4
+    },
+    {
+     "term": "unjustifiable",
+     "meaning": "having no good reason",
+     "page": 5
+    }
+   ],
+   "tips": [
+    {
+     "text": "Read each case study twice. Find **who**, **how old**, **what happened**."
+    },
+    {
+     "text": "Traffic light: **red** definitely risky, **yellow** probably risky, **green** not risky."
+    },
+    {
+     "text": "For \"justifiable\" questions, ask: **is there a good reason** to take this risk?"
+    },
+    {
+     "text": "Many questions have no single answer. Give a reason for your answer."
+    }
+   ],
+   "games": [
+    {
+     "id": "ls8-u1-g1",
+     "type": "sort",
+     "lesson": "ls8-u1-l1",
+     "title": "Which case study?",
+     "groups": [
+      {
+       "id": "a",
+       "label": "Case 1: the artist"
+      },
+      {
+       "id": "s",
+       "label": "Case 2: the students"
+      }
+     ],
+     "items": [
+      {
+       "text": "died after a long illness",
+       "group": "a"
+      },
+      {
+       "text": "was just 19",
+       "group": "a"
+      },
+      {
+       "text": "left a baby of six months",
+       "group": "a"
+      },
+      {
+       "text": "rumoured to have AIDS",
+       "group": "a"
+      },
+      {
+       "text": "a long distance bus",
+       "group": "s"
+      },
+      {
+       "text": "riding a bicycle",
+       "group": "s"
+      },
+      {
+       "text": "going home after school",
+       "group": "s"
+      },
+      {
+       "text": "died at the spot",
+       "group": "s"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u1-g2",
+     "type": "label",
+     "lesson": "ls8-u1-l2",
+     "title": "Red, yellow, green",
+     "diagram": "light"
+    },
+    {
+     "id": "ls8-u1-g3",
+     "type": "match",
+     "lesson": "ls8-u1-l4",
+     "title": "Who is who?",
+     "pairs": [
+      {
+       "a": "Aster",
+       "b": "15 years old, grade 8"
+      },
+      {
+       "a": "Solomon",
+       "b": "17 years old, grade 8"
+      },
+      {
+       "a": "Yonas",
+       "b": "14 years old, lives in a village"
+      },
+      {
+       "a": "Amina",
+       "b": "16 years old, lives with her sick mother"
+      },
+      {
+       "a": "the artist",
+       "b": "died at 19"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u1-g4",
+     "type": "sort",
+     "lesson": "ls8-u1-l4",
+     "title": "Yonas or Amina?",
+     "groups": [
+      {
+       "id": "y",
+       "label": "Yonas"
+      },
+      {
+       "id": "m",
+       "label": "Amina"
+      }
+     ],
+     "items": [
+      {
+       "text": "lives in a village",
+       "group": "y"
+      },
+      {
+       "text": "must fetch wood",
+       "group": "y"
+      },
+      {
+       "text": "has to cross a river",
+       "group": "y"
+      },
+      {
+       "text": "food will not be cooked without wood",
+       "group": "y"
+      },
+      {
+       "text": "good at her studies",
+       "group": "m"
+      },
+      {
+       "text": "has a sick mother",
+       "group": "m"
+      },
+      {
+       "text": "her boyfriend promised a hospital visit",
+       "group": "m"
+      },
+      {
+       "text": "does not want to lose her boyfriend",
+       "group": "m"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u1-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Red means definitely ___.",
+       "answer": "risky",
+       "choices": [
+        "risky",
+        "safe",
+        "fun"
+       ]
+      },
+      {
+       "text": "Aster and Solomon sit on the same ___.",
+       "answer": "bench",
+       "choices": [
+        "bench",
+        "bus",
+        "bed"
+       ]
+      },
+      {
+       "text": "The wood was beyond a ___.",
+       "answer": "river",
+       "choices": [
+        "river",
+        "school",
+        "road"
+       ]
+      },
+      {
+       "text": "Amina's boyfriend wants to marry her before she finishes ___.",
+       "answer": "school",
+       "choices": [
+        "school",
+        "work",
+        "lunch"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls8-u1-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "The two students in Case 2 were riding a bicycle.",
+       "answer": true
+      },
+      {
+       "text": "Aster is older than Solomon.",
+       "answer": false,
+       "why": "Aster is 15, Solomon is 17."
+      },
+      {
+       "text": "Green means not risky.",
+       "answer": true
+      },
+      {
+       "text": "Amina wants to have sex before marriage.",
+       "answer": false,
+       "why": "She does not want to, but she does not want to lose him."
+      },
+      {
+       "text": "Yonas lives in a big city.",
+       "answer": false,
+       "why": "He lives in a village."
+      }
+     ]
+    },
+    {
+     "id": "ls8-u1-g7",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "vulnerable",
+       "back": "can be hurt easily"
+      },
+      {
+       "front": "invulnerable",
+       "back": "cannot be hurt"
+      },
+      {
+       "front": "abstain",
+       "back": "choose not to do something"
+      },
+      {
+       "front": "justifiable risk",
+       "back": "a risk with a good reason"
+      },
+      {
+       "front": "yellow",
+       "back": "probably risky"
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls8-u1-q1",
+      "type": "mcq",
+      "page": 1,
+      "q": "In Case 2, what hit the bicycle?",
+      "options": {
+       "A": "a car",
+       "B": "a long distance bus",
+       "C": "a train",
+       "D": "a truck"
+      },
+      "answer": "B",
+      "why": [
+       "p. 1: \"a long distance bus crushed with a bicycle\"."
+      ],
+      "tip": "Find the vehicle words in the story.",
+      "similar": [
+       {
+        "q": "Where were the students going?",
+        "a": "home, after school"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q2",
+      "type": "mcq",
+      "page": 1,
+      "q": "What did the artist leave behind?",
+      "options": {
+       "A": "a house",
+       "B": "a baby of six months",
+       "C": "a car",
+       "D": "a school"
+      },
+      "answer": "B",
+      "why": [
+       "p. 1: \"left a baby of six months behind\"."
+      ],
+      "tip": "Look at the last sentence of Case 1.",
+      "similar": [
+       {
+        "q": "What illness was she rumoured to have?",
+        "a": "AIDS"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q3",
+      "type": "mcq",
+      "page": 2,
+      "q": "In the risk table, which colour is for \"not risky\"?",
+      "options": {
+       "A": "red",
+       "B": "yellow",
+       "C": "green",
+       "D": "blue"
+      },
+      "answer": "C",
+      "why": [
+       "p. 2: green for not risky behaviours."
+      ],
+      "tip": "Green light = go.",
+      "similar": [
+       {
+        "q": "Which colour is \"definitely risky\"?",
+        "a": "red"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q4",
+      "type": "tf",
+      "page": 3,
+      "q": "Aster and Solomon have been classmates since elementary school.",
+      "answer": true,
+      "why": [
+       "p. 3: \"They are classmates since elementary school.\""
+      ],
+      "tip": "Check the second sentence.",
+      "similar": [
+       {
+        "q": "What grade are they in now?",
+        "a": "grade 8"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q5",
+      "type": "fill",
+      "page": 3,
+      "q": "Aster is ___ years old.",
+      "choices": [
+       "15",
+       "17",
+       "14",
+       "16"
+      ],
+      "answer": "15",
+      "why": [
+       "p. 3: \"Aster and Solomon are 15 and 17 years old respectively.\"",
+       "\"Respectively\" means in the same order: Aster 15, Solomon 17."
+      ],
+      "tip": "\"Respectively\" = in the same order.",
+      "similar": [
+       {
+        "q": "How old is Solomon?",
+        "a": "17"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q6",
+      "type": "mcq",
+      "page": 4,
+      "q": "Why did Yonas's mother send him to the forest?",
+      "options": {
+       "A": "to play",
+       "B": "to collect wood so food can be cooked",
+       "C": "to find water",
+       "D": "to visit his aunt"
+      },
+      "answer": "B",
+      "why": [
+       "p. 4: if he did not bring wood, food would not be cooked."
+      ],
+      "tip": "Find the mother's words.",
+      "similar": [
+       {
+        "q": "What was between Yonas and the wood?",
+        "a": "a river"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q7",
+      "type": "mcq",
+      "page": 4,
+      "q": "What did Amina's boyfriend promise?",
+      "options": {
+       "A": "to buy her a car",
+       "B": "to send her mother to hospital",
+       "C": "to pay her school fees",
+       "D": "to take her to a party"
+      },
+      "answer": "B",
+      "why": [
+       "p. 4: \"Her boyfriend has promised to help her by sending her mother to hospital.\""
+      ],
+      "tip": "Read what he offers and what he asks.",
+      "similar": [
+       {
+        "q": "What did he ask her to do?",
+        "a": "to have sex before marriage"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q8",
+      "type": "tf",
+      "page": 4,
+      "q": "Amina is in grade 8 and good at her studies.",
+      "answer": true,
+      "why": [
+       "p. 4: \"She is in grade 8 and good at her studies.\""
+      ],
+      "tip": "Look for her school facts.",
+      "similar": [
+       {
+        "q": "Who does Amina live with?",
+        "a": "her sick mother"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q9",
+      "type": "fill",
+      "page": 4,
+      "q": "Yonas is ___ years old.",
+      "choices": [
+       "14",
+       "15",
+       "16",
+       "19"
+      ],
+      "answer": "14",
+      "why": [
+       "p. 4: \"Yonas is 14 years old.\""
+      ],
+      "tip": "First sentence of Case study 1.",
+      "similar": [
+       {
+        "q": "How old is Amina?",
+        "a": "16"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q10",
+      "type": "short",
+      "page": 2,
+      "q": "In the risk table, what do the three colours mean?",
+      "answer": "Red = definitely risky, yellow = probably risky, green = not risky.",
+      "why": [
+       "p. 2 instructions."
+      ],
+      "tip": "Traffic light order: red, yellow, green.",
+      "similar": [
+       {
+        "q": "How many behaviours are in the table?",
+        "a": "15"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u1-q11",
+      "type": "short",
+      "page": 5,
+      "q": "What is the difference between a justifiable and an unjustifiable risk?",
+      "answer": "A justifiable risk has a good reason. An unjustifiable risk has no good reason.",
+      "why": [
+       "p. 4–5 asks you to sort the risks into these two groups.",
+       "Justifiable = can be justified (defended with a good reason)."
+      ],
+      "tip": "Ask: is there a good reason?",
+      "similar": [
+       {
+        "q": "Name the two people in the p. 4 case studies.",
+        "a": "Yonas and Amina"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ls8-u2",
+   "number": 2,
+   "title": "Consequences of Risk Taking",
+   "status": "done",
+   "pages": [
+    6,
+    11
+   ],
+   "tone": "butter",
+   "intro": "This unit is about the **results (consequences)** of taking risks: **accidents**, **tobacco and alcohol**, **STIs**, **HIV** and **pregnancy**. It ends with a picture **project**.",
+   "intro_page": 6,
+   "diagrams": {
+    "tsegay": {
+     "svg": "svg/life_skills_8/ls8_tsegay.svg",
+     "title": "Tsegay's story",
+     "page": 6,
+     "pins": [
+      {
+       "id": "jump",
+       "text": "he wants to go home during classes and jumps over the fence",
+       "x": 97.0,
+       "y": 38.0
+      },
+      {
+       "id": "fall",
+       "text": "he falls down and is seriously injured",
+       "x": 97.0,
+       "y": 102.0
+      },
+      {
+       "id": "aid",
+       "text": "he gets first aid; the director calls an ambulance",
+       "x": 97.0,
+       "y": 166.0
+      },
+      {
+       "id": "bed",
+       "text": "the doctor says he has to sleep in the hospital",
+       "x": 97.0,
+       "y": 230.0
+      },
+      {
+       "id": "pay",
+       "text": "his mother cannot afford to pay the hospital expenses",
+       "x": 97.0,
+       "y": 294.0
+      }
+     ]
+    },
+    "smoke": {
+     "svg": "svg/life_skills_8/ls8_smoke.svg",
+     "title": "Think about tobacco and alcohol",
+     "page": 8,
+     "pins": [
+      {
+       "id": "center",
+       "text": "agree, disagree, or not sure?",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "cig",
+       "text": "\"Smoking is mostly started during teenage years\" (statement 4)",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "alc",
+       "text": "\"Young people are often pressurized to take alcohol by their friends\" (statement 8)",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "glue",
+       "text": "\"Inhalants such as glue and benzene are dangerous to health\" (statement 10)",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "fam",
+       "text": "\"Drinking alcohol/smoking can lead to divorce\" (statement 12)",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    },
+    "cards": {
+     "svg": "svg/life_skills_8/ls8_cards.svg",
+     "title": "The card game",
+     "page": 9,
+     "pins": [
+      {
+       "id": "agrp",
+       "text": "the group who received the \"A\" card",
+       "x": 100,
+       "y": 20
+      },
+      {
+       "id": "rest",
+       "text": "the rest of the students",
+       "x": 40,
+       "y": 120
+      }
+     ]
+    },
+    "paths": {
+     "svg": "svg/life_skills_8/ls8_paths.svg",
+     "title": "Two friends, two decisions",
+     "page": 10,
+     "pins": [
+      {
+       "id": "am",
+       "text": "Amina and her boyfriend agreed not to have sex before marriage",
+       "x": 24,
+       "y": 126
+      },
+      {
+       "id": "lem",
+       "text": "Lemlem's boyfriend always asks her for sex; during a summer festival she spends one night with him",
+       "x": 184,
+       "y": 126
+      },
+      {
+       "id": "preg",
+       "text": "after one month, Lemlem is found pregnant",
+       "x": 184,
+       "y": 240
+      }
+     ]
+    },
+    "project": {
+     "svg": "svg/life_skills_8/ls8_project.svg",
+     "title": "The project statements",
+     "page": 11,
+     "pins": [
+      {
+       "id": "s1",
+       "text": "1. A bus driver drives very fast, saying \"Many of my friends died because of high speed drive.\"",
+       "x": 24.0,
+       "y": 24.0
+      },
+      {
+       "id": "s2",
+       "text": "2. A chain smoker doctor says \"Smoking causes lung cancer.\"",
+       "x": 179.0,
+       "y": 24.0
+      },
+      {
+       "id": "s3",
+       "text": "3. A man and a woman kiss in bed, but the woman says \"AIDS kills many people.\"",
+       "x": 24.0,
+       "y": 104.0
+      },
+      {
+       "id": "s4",
+       "text": "4. A person travelling by bus to visit family faces a car crash and is injured.",
+       "x": 179.0,
+       "y": 104.0
+      },
+      {
+       "id": "s5",
+       "text": "5. A person dies during an operation in a hospital.",
+       "x": 24.0,
+       "y": 184.0
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls8-u2-l1",
+     "number": "2.1",
+     "title": "Accidents and injuries",
+     "pages": [
+      6,
+      7
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What you will learn",
+       "body": [
+        "In this unit you will look at the **feeling of invulnerability** (\"nothing bad can happen to me\") and its **consequences**.",
+        "You will also look at the **effect of tobacco and alcohol**."
+       ],
+       "page": 6
+      },
+      {
+       "type": "steps",
+       "title": "Tsegay's story",
+       "diagram": "tsegay",
+       "page": 6,
+       "steps": [
+        {
+         "text": "Tsegay, a grade 8 student, wants to **go home during classes**. He **jumps over the fence**.",
+         "show": "jump",
+         "pins": [
+          "jump"
+         ]
+        },
+        {
+         "text": "He **falls down** and is **seriously injured**.",
+         "show": "fall",
+         "pins": [
+          "fall"
+         ]
+        },
+        {
+         "text": "He gets **first aid**. The director calls an **ambulance**.",
+         "show": "aid",
+         "pins": [
+          "aid"
+         ]
+        },
+        {
+         "text": "The doctor says he has to **sleep in the hospital**.",
+         "show": "bed",
+         "pins": [
+          "bed"
+         ]
+        },
+        {
+         "text": "But his mother **cannot afford** to pay the hospital expenses.",
+         "show": "pay",
+         "pins": [
+          "pay"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "One risk, many results",
+       "body": [
+        "One risky jump led to: a **serious injury**, the **hospital**, and **money problems** for his mother."
+       ],
+       "page": 6
+      },
+      {
+       "type": "text",
+       "title": "Questions to think about",
+       "body": [
+        "- Why do you think Tsegay took such a risk?",
+        "- What advice would you give students like him?",
+        "- What common accidents happen in your area?"
+       ],
+       "page": 7
+      },
+      {
+       "type": "check",
+       "q": "Why did Tsegay jump over the fence?",
+       "options": {
+        "A": "to play football",
+        "B": "to go home during classes",
+        "C": "to help a friend",
+        "D": "to catch a bus"
+       },
+       "answer": "B",
+       "why": "\"One day he wanted to go home during classes. While jumping over the fence, he fell\" (p. 6).",
+       "page": 6
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-l2",
+     "number": "2.2",
+     "title": "Tobacco and alcohol",
+     "pages": [
+      7,
+      8
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Agree, disagree, not sure",
+       "body": [
+        "The book gives **12 statements** about smoking and alcohol.",
+        "Put **√** if you agree, **X** if you disagree, **?** if you are not sure."
+       ],
+       "page": 7
+      },
+      {
+       "type": "table",
+       "title": "Statements 1–6",
+       "page": 8,
+       "head": [
+        "No.",
+        "Statement"
+       ],
+       "rows": [
+        [
+         "1",
+         "Smoking is not a serious risk like drinking alcohol"
+        ],
+        [
+         "2",
+         "Drinking alcohol makes you more confident"
+        ],
+        [
+         "3",
+         "People who smoke and drink alcohol should be punished"
+        ],
+        [
+         "4",
+         "Smoking is mostly started during teenage years"
+        ],
+        [
+         "5",
+         "Alcohol affects some people more than others"
+        ],
+        [
+         "6",
+         "Alcohol helps people handle their problems"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Statements 7–12",
+       "page": 8,
+       "head": [
+        "No.",
+        "Statement"
+       ],
+       "rows": [
+        [
+         "7",
+         "Smoking will hurt a pregnant woman but not her baby"
+        ],
+        [
+         "8",
+         "Young people are often pressurized to take alcohol by their friends"
+        ],
+        [
+         "9",
+         "Most alcoholics end up as homeless people"
+        ],
+        [
+         "10",
+         "Inhalants such as glue and benzene are dangerous to health"
+        ],
+        [
+         "11",
+         "Both smoking and alcohol constantly damage the lungs"
+        ],
+        [
+         "12",
+         "Drinking alcohol/smoking can lead to divorce"
+        ]
+       ]
+      },
+      {
+       "type": "diagram",
+       "title": "Four statements to discuss",
+       "diagram": "smoke",
+       "mode": "explore",
+       "page": 8,
+       "body": [
+        "Tap the dots. Do you agree?"
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "If you were the director",
+       "body": [
+        "The book asks: if you were the **director** of your school, what **rules** would you make about smoking and alcohol?",
+        "And what could help **smokers stop smoking** and **alcoholics stop drinking**?"
+       ],
+       "page": 8
+      },
+      {
+       "type": "check",
+       "q": "Which two things does statement 10 call \"inhalants\"?",
+       "options": {
+        "A": "tea and coffee",
+        "B": "glue and benzene",
+        "C": "bread and milk",
+        "D": "water and soap"
+       },
+       "answer": "B",
+       "why": "Statement 10: \"Inhalants such as glue and benzene are dangerous to health\" (p. 8).",
+       "page": 8
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-l3",
+     "number": "2.3",
+     "title": "Sexually Transmitted Infections (STIs)",
+     "pages": [
+      8,
+      9
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What are STIs?",
+       "body": [
+        "**STI** stands for **Sexually Transmitted Infection**.",
+        "The book asks you: **What are STIs?**"
+       ],
+       "page": 8
+      },
+      {
+       "type": "text",
+       "title": "Helen's case",
+       "body": [
+        "Helen is a grade 8 student. She lives with her **aunt**.",
+        "One day, when her aunt was away, Helen was **raped** (forced to have sex) by her **neighbour**.",
+        "She **kept it secret**."
+       ],
+       "page": 9
+      },
+      {
+       "type": "remember",
+       "title": "Questions the book asks",
+       "body": [
+        "- If you were Helen, what would you do? Why?",
+        "- What could happen if she **keeps the rape secret**?",
+        "- What **health problems** could Helen face?",
+        "- What should the **community** do in such cases?"
+       ],
+       "page": 9
+      },
+      {
+       "type": "text",
+       "title": "A study tip",
+       "body": [
+        "These are hard questions. Talk about them with your **teacher** or a **trusted adult**."
+       ],
+       "page": 9
+      },
+      {
+       "type": "check",
+       "q": "Who did Helen live with?",
+       "options": {
+        "A": "her parents",
+        "B": "her aunt",
+        "C": "her friend",
+        "D": "her grandmother"
+       },
+       "answer": "B",
+       "why": "\"Helen is a student in grade 8 and lives with her aunt\" (p. 9).",
+       "page": 9
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-l4",
+     "number": "2.4",
+     "title": "Human Immunodeficiency Virus (HIV)",
+     "pages": [
+      9,
+      9
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What does HIV stand for?",
+       "body": [
+        "**HIV** = **Human Immunodeficiency Virus**."
+       ],
+       "page": 9
+      },
+      {
+       "type": "diagram",
+       "title": "The card game",
+       "diagram": "cards",
+       "mode": "explore",
+       "page": 9,
+       "body": [
+        "Your class plays a card game. Some students get the \"A\" card."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "For the \"A\" card group",
+       "body": [
+        "- Were you expecting the \"A\" card?",
+        "- How did you feel? How do you respond to your feeling?",
+        "- In which round did you get \"A\"?"
+       ],
+       "page": 9
+      },
+      {
+       "type": "text",
+       "title": "For the rest of the students",
+       "body": [
+        "- Why did some students get the \"A\" card?",
+        "- How do you feel about them?",
+        "- Will you **never** get the \"A\" card if you keep playing?",
+        "- What would you do if you got HIV infection?"
+       ],
+       "page": 9
+      },
+      {
+       "type": "check",
+       "q": "What does the \"I\" in HIV stand for?",
+       "options": {
+        "A": "Infection",
+        "B": "Immunodeficiency",
+        "C": "Illness",
+        "D": "Injury"
+       },
+       "answer": "B",
+       "why": "HIV = Human Immunodeficiency Virus (p. 9, lesson title).",
+       "page": 9
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-l5",
+     "number": "2.5",
+     "title": "Pregnancy",
+     "pages": [
+      10,
+      10
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Two close friends",
+       "body": [
+        "**Amina** and **Lemlem** are grade 8 students and very close friends.",
+        "They spend most of their time talking about their **boyfriends**."
+       ],
+       "page": 10
+      },
+      {
+       "type": "states",
+       "title": "Two decisions",
+       "diagram": "paths",
+       "page": 10,
+       "states": [
+        {
+         "key": "am",
+         "label": "Amina",
+         "text": "Amina and her boyfriend **agreed not to have sex before marriage**."
+        },
+        {
+         "key": "lem",
+         "label": "Lemlem",
+         "text": "Lemlem's boyfriend **always asks** her for sex. During a **summer festival**, she spends one night with him."
+        },
+        {
+         "key": "preg",
+         "label": "The result",
+         "text": "After **one month**, Lemlem is found **pregnant**."
+        }
+       ],
+       "body": [
+        "Move the slider."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Questions",
+       "body": [
+        "- What would you do if you were Lemlem?",
+        "- Do you agree with Lemlem's or Amina's decision? Why?",
+        "- How could Lemlem have **avoided** this?"
+       ],
+       "page": 10
+      },
+      {
+       "type": "check",
+       "q": "When was Lemlem found pregnant?",
+       "options": {
+        "A": "after one week",
+        "B": "after one month",
+        "C": "after one year",
+        "D": "at the festival"
+       },
+       "answer": "B",
+       "why": "\"After one month, she was found pregnant\" (p. 10).",
+       "page": 10
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-l6",
+     "number": "2.6",
+     "title": "Project: risk taking behaviours and their consequences",
+     "pages": [
+      11,
+      11
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "The project",
+       "body": [
+        "Draw each of the **5 statements** as a picture.",
+        "Write the **risk taking behaviour** and its **consequence** on each picture.",
+        "Then sort them into **justifiable** and **unjustifiable** risks."
+       ],
+       "page": 11
+      },
+      {
+       "type": "diagram",
+       "title": "The five statements",
+       "diagram": "project",
+       "mode": "explore",
+       "page": 11,
+       "body": [
+        "Tap each picture."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "A clue for sorting",
+       "body": [
+        "In statements 1, 2 and 3 the person **says the danger out loud**, but still does the risky thing.",
+        "In statements 4 and 5 the person did something needed (travel, an operation) and the bad thing **happened to them**."
+       ],
+       "page": 11
+      },
+      {
+       "type": "check",
+       "q": "In statement 2, what does the chain smoker doctor say?",
+       "options": {
+        "A": "Smoking is good",
+        "B": "Smoking causes lung cancer",
+        "C": "AIDS kills many people",
+        "D": "Drive slowly"
+       },
+       "answer": "B",
+       "why": "Statement 2: \"A chain smoker doctor says, Smoking causes lung cancer\" (p. 11).",
+       "page": 11
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "consequence",
+     "meaning": "the result of something you do",
+     "page": 6,
+     "forms": [
+      "consequences"
+     ]
+    },
+    {
+     "term": "invulnerability",
+     "meaning": "the feeling that nothing can hurt you",
+     "page": 6
+    },
+    {
+     "term": "accident",
+     "meaning": "something bad that happens suddenly, like a fall or a crash",
+     "page": 6,
+     "forms": [
+      "accidents"
+     ]
+    },
+    {
+     "term": "injury",
+     "meaning": "harm to the body",
+     "page": 6,
+     "forms": [
+      "injuries",
+      "injured"
+     ]
+    },
+    {
+     "term": "first aid",
+     "meaning": "quick help given to a hurt person before a doctor comes",
+     "page": 6
+    },
+    {
+     "term": "ambulance",
+     "meaning": "a car that takes sick or hurt people to hospital",
+     "page": 6
+    },
+    {
+     "term": "afford",
+     "meaning": "have enough money to pay",
+     "page": 6
+    },
+    {
+     "term": "tobacco",
+     "meaning": "the plant used to make cigarettes",
+     "page": 7
+    },
+    {
+     "term": "alcohol",
+     "meaning": "the drink in beer and similar drinks",
+     "page": 7
+    },
+    {
+     "term": "alcoholic",
+     "meaning": "a person who cannot stop drinking alcohol",
+     "page": 8,
+     "forms": [
+      "alcoholics"
+     ]
+    },
+    {
+     "term": "inhalant",
+     "meaning": "something breathed in, like glue or benzene",
+     "page": 8,
+     "forms": [
+      "inhalants"
+     ]
+    },
+    {
+     "term": "STI",
+     "meaning": "Sexually Transmitted Infection",
+     "page": 8,
+     "forms": [
+      "STIs"
+     ]
+    },
+    {
+     "term": "HIV",
+     "meaning": "Human Immunodeficiency Virus",
+     "page": 9
+    },
+    {
+     "term": "pregnant",
+     "meaning": "having a baby growing inside the body",
+     "page": 10,
+     "forms": [
+      "pregnancy"
+     ]
+    },
+    {
+     "term": "chain smoker",
+     "meaning": "a person who smokes one cigarette after another",
+     "page": 11
+    }
+   ],
+   "tips": [
+    {
+     "text": "For each story, write: **risk** → **consequence**. Example: jumped the fence → injured."
+    },
+    {
+     "text": "Learn the full names: **STI** = Sexually Transmitted Infection; **HIV** = Human Immunodeficiency Virus."
+    },
+    {
+     "text": "Agree/disagree tables have no single answer key. Give a **reason** for each answer."
+    },
+    {
+     "text": "Justifiable or not? Ask: was there a **good reason**, and did the person **know** the danger?"
+    }
+   ],
+   "games": [
+    {
+     "id": "ls8-u2-g1",
+     "type": "label",
+     "lesson": "ls8-u2-l1",
+     "title": "Tsegay's story",
+     "diagram": "tsegay"
+    },
+    {
+     "id": "ls8-u2-g2",
+     "type": "match",
+     "lesson": null,
+     "title": "Who is who?",
+     "pairs": [
+      {
+       "a": "Tsegay",
+       "b": "jumped over the school fence"
+      },
+      {
+       "a": "Helen",
+       "b": "lives with her aunt"
+      },
+      {
+       "a": "Lemlem",
+       "b": "found pregnant after one month"
+      },
+      {
+       "a": "Amina",
+       "b": "agreed not to have sex before marriage"
+      },
+      {
+       "a": "the director",
+       "b": "called an ambulance"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-g3",
+     "type": "sort",
+     "lesson": "ls8-u2-l6",
+     "title": "Says the danger out loud, or it happened to them?",
+     "groups": [
+      {
+       "id": "say",
+       "label": "Says the danger but still does it"
+      },
+      {
+       "id": "hap",
+       "label": "Doing something needed; the bad thing happened"
+      }
+     ],
+     "items": [
+      {
+       "text": "the fast bus driver",
+       "group": "say"
+      },
+      {
+       "text": "the chain smoker doctor",
+       "group": "say"
+      },
+      {
+       "text": "the woman in bed saying \"AIDS kills\"",
+       "group": "say"
+      },
+      {
+       "text": "the traveller hurt in a car crash",
+       "group": "hap"
+      },
+      {
+       "text": "the person who died in an operation",
+       "group": "hap"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-g4",
+     "type": "sort",
+     "lesson": null,
+     "title": "Which lesson?",
+     "groups": [
+      {
+       "id": "acc",
+       "label": "Accidents"
+      },
+      {
+       "id": "tob",
+       "label": "Tobacco and alcohol"
+      },
+      {
+       "id": "preg",
+       "label": "Pregnancy"
+      }
+     ],
+     "items": [
+      {
+       "text": "jumping over a fence",
+       "group": "acc"
+      },
+      {
+       "text": "first aid and an ambulance",
+       "group": "acc"
+      },
+      {
+       "text": "glue and benzene",
+       "group": "tob"
+      },
+      {
+       "text": "rules a school director could make",
+       "group": "tob"
+      },
+      {
+       "text": "a summer festival night",
+       "group": "preg"
+      },
+      {
+       "text": "Lemlem and Amina",
+       "group": "preg"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Tsegay's mother could not ___ the hospital expenses.",
+       "answer": "afford",
+       "choices": [
+        "afford",
+        "find",
+        "see"
+       ]
+      },
+      {
+       "text": "STI stands for Sexually Transmitted ___.",
+       "answer": "Infection",
+       "choices": [
+        "Infection",
+        "Illness",
+        "Idea"
+       ]
+      },
+      {
+       "text": "HIV stands for Human ___ Virus.",
+       "answer": "Immunodeficiency",
+       "choices": [
+        "Immunodeficiency",
+        "Infection",
+        "Injury"
+       ]
+      },
+      {
+       "text": "Lemlem spent one night with her boyfriend during a summer ___.",
+       "answer": "festival",
+       "choices": [
+        "festival",
+        "school",
+        "market"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-g6",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "STI",
+       "back": "Sexually Transmitted Infection"
+      },
+      {
+       "front": "HIV",
+       "back": "Human Immunodeficiency Virus"
+      },
+      {
+       "front": "inhalants (p. 8)",
+       "back": "glue and benzene"
+      },
+      {
+       "front": "consequence",
+       "back": "the result of an action"
+      },
+      {
+       "front": "first aid",
+       "back": "quick help before the doctor"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u2-g7",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Tsegay was given first aid.",
+       "answer": true
+      },
+      {
+       "text": "Helen told everyone what happened.",
+       "answer": false,
+       "why": "She kept it secret."
+      },
+      {
+       "text": "Lemlem and Amina are grade 8 students.",
+       "answer": true
+      },
+      {
+       "text": "The project has 5 statements.",
+       "answer": true
+      },
+      {
+       "text": "In statement 4, the traveller was driving very fast.",
+       "answer": false,
+       "why": "That is statement 1. In statement 4 the person was travelling by bus to visit family."
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls8-u2-q1",
+      "type": "mcq",
+      "page": 6,
+      "q": "What happened to Tsegay when he jumped over the fence?",
+      "options": {
+       "A": "He ran home",
+       "B": "He fell down and was seriously injured",
+       "C": "He met the director",
+       "D": "He lost his book"
+      },
+      "answer": "B",
+      "why": [
+       "p. 6: \"he fell down and injured seriously\"."
+      ],
+      "tip": "Find the verb after \"jumping\".",
+      "similar": [
+       {
+        "q": "Who called the ambulance?",
+        "a": "the director"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q2",
+      "type": "mcq",
+      "page": 6,
+      "q": "What was the problem after the doctor said Tsegay must sleep in hospital?",
+      "options": {
+       "A": "The hospital was full",
+       "B": "His mother could not afford the expenses",
+       "C": "There was no doctor",
+       "D": "He did not want to stay"
+      },
+      "answer": "B",
+      "why": [
+       "p. 6: \"his mother couldn't afford to pay the hospital expenses\"."
+      ],
+      "tip": "Read the last sentence.",
+      "similar": [
+       {
+        "q": "What grade was Tsegay in?",
+        "a": "grade 8"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q3",
+      "type": "tf",
+      "page": 8,
+      "q": "In the table, statement 7 says: \"Smoking will hurt a pregnant woman but not her baby.\"",
+      "answer": true,
+      "why": [
+       "p. 8, statement 7."
+      ],
+      "tip": "This asks what the statement says, not whether it is true.",
+      "similar": [
+       {
+        "q": "What is statement 4?",
+        "a": "Smoking is mostly started during teenage years"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q4",
+      "type": "mcq",
+      "page": 8,
+      "q": "How do you mark a statement you are not sure about?",
+      "options": {
+       "A": "√",
+       "B": "X",
+       "C": "?",
+       "D": "O"
+      },
+      "answer": "C",
+      "why": [
+       "p. 7: \"√\" if you agree, \"X\" if you disagree, \"?\" if not sure."
+      ],
+      "tip": "Question mark = not sure.",
+      "similar": [
+       {
+        "q": "What mark means \"agree\"?",
+        "a": "√"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q5",
+      "type": "fill",
+      "page": 8,
+      "q": "STI stands for Sexually Transmitted ___.",
+      "choices": [
+       "Infection",
+       "Illness",
+       "Injury",
+       "Idea"
+      ],
+      "answer": "Infection",
+      "why": [
+       "p. 8, lesson 2.3 title."
+      ],
+      "tip": "Learn the full name.",
+      "similar": [
+       {
+        "q": "What does HIV stand for?",
+        "a": "Human Immunodeficiency Virus"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q6",
+      "type": "mcq",
+      "page": 9,
+      "q": "Who raped Helen?",
+      "options": {
+       "A": "a stranger",
+       "B": "her neighbour",
+       "C": "a classmate",
+       "D": "a teacher"
+      },
+      "answer": "B",
+      "why": [
+       "p. 9: \"Helen was raped by her neighbour\"."
+      ],
+      "tip": "Read the case slowly.",
+      "similar": [
+       {
+        "q": "What did Helen do after it happened?",
+        "a": "she kept it secret"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q7",
+      "type": "mcq",
+      "page": 10,
+      "q": "What did Amina and her boyfriend agree?",
+      "options": {
+       "A": "to marry at once",
+       "B": "not to have sex before marriage",
+       "C": "to go to a festival",
+       "D": "to leave school"
+      },
+      "answer": "B",
+      "why": [
+       "p. 10: \"Amina and her boyfriend agreed not to have sex before marriage\"."
+      ],
+      "tip": "Compare the two friends.",
+      "similar": [
+       {
+        "q": "What happened to Lemlem after one month?",
+        "a": "she was found pregnant"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q8",
+      "type": "tf",
+      "page": 10,
+      "q": "Lemlem's boyfriend always asked her to have sex.",
+      "answer": true,
+      "why": [
+       "p. 10: \"Lemlem's boyfriend always asks her to have sex.\""
+      ],
+      "tip": "Look for \"always\".",
+      "similar": [
+       {
+        "q": "Where did Lemlem spend the night?",
+        "a": "with her boyfriend, during a summer festival"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q9",
+      "type": "mcq",
+      "page": 11,
+      "q": "In project statement 1, why is the bus driver's risk surprising?",
+      "options": {
+       "A": "He is driving slowly",
+       "B": "He drives very fast while saying many friends died because of high speed",
+       "C": "He has no bus",
+       "D": "He is a doctor"
+      },
+      "answer": "B",
+      "why": [
+       "p. 11, statement 1: a man driving a bus at very high speed, saying \"Many of my friends died because of high speed drive\"."
+      ],
+      "tip": "The person knows the danger but still takes the risk.",
+      "similar": [
+       {
+        "q": "What does the woman in statement 3 say?",
+        "a": "\"AIDS kills many people\""
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q10",
+      "type": "short",
+      "page": 11,
+      "q": "Name the two things you must write on each project picture.",
+      "answer": "The risk taking behaviour and its consequence.",
+      "why": [
+       "p. 11: \"Write the risk taking behaviours and their consequences in each picture/statement.\""
+      ],
+      "tip": "Risk → consequence.",
+      "similar": [
+       {
+        "q": "Into which two groups do you sort the pictures?",
+        "a": "justifiable and unjustifiable risks"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u2-q11",
+      "type": "short",
+      "page": 6,
+      "q": "Give two consequences of Tsegay's risk.",
+      "answer": "He was seriously injured and had to sleep in hospital (and his mother could not pay the expenses).",
+      "why": [
+       "p. 6 story."
+      ],
+      "tip": "List what happened after the jump.",
+      "similar": [
+       {
+        "q": "What is a consequence?",
+        "a": "the result of an action"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ls8-u3",
+   "number": 3,
+   "title": "Protecting My Life",
+   "status": "done",
+   "pages": [
+    12,
+    17
+   ],
+   "tone": "sage",
+   "intro": "This unit helps you **protect yourself**: respecting the **laws and norms** of society, **sensing danger**, being **assertive**, **making and sticking to decisions**, **underage marriage**, **malaria and TB**, and **personal hygiene**.",
+   "intro_page": 12,
+   "diagrams": {
+    "wedding": {
+     "svg": "svg/life_skills_8/ls8_wedding.svg",
+     "title": "At the wedding",
+     "page": 12,
+     "pins": [
+      {
+       "id": "eld",
+       "text": "the village elders arrive",
+       "x": 274,
+       "y": 100
+      },
+      {
+       "id": "boy",
+       "text": "a young boy stays in one of the best seats beside the elders",
+       "x": 214,
+       "y": 122
+      }
+     ]
+    },
+    "tesfay": {
+     "svg": "svg/life_skills_8/ls8_tesfay.svg",
+     "title": "Tesfay's case",
+     "page": 12,
+     "pins": [
+      {
+       "id": "steal",
+       "text": "Tesfay, a grade 8 student, stole Ato Ahmed's goat",
+       "x": 97.0,
+       "y": 39.0
+      },
+      {
+       "id": "sell",
+       "text": "he sold it in the market",
+       "x": 97.0,
+       "y": 109.0
+      },
+      {
+       "id": "tell",
+       "text": "his close friends Omer and Mebrahtu informed the police",
+       "x": 97.0,
+       "y": 179.0
+      },
+      {
+       "id": "jail",
+       "text": "he was taken to jail",
+       "x": 97.0,
+       "y": 249.0
+      }
+     ]
+    },
+    "drama": {
+     "svg": "svg/life_skills_8/ls8_drama.svg",
+     "title": "The mini drama",
+     "page": 13,
+     "pins": [
+      {
+       "id": "inv",
+       "text": "Ahmed invites Hayat to a party",
+       "x": 97.0,
+       "y": 36.0
+      },
+      {
+       "id": "busy",
+       "text": "Hayat: \"Sorry Ahmed, today I am busy.\"",
+       "x": 97.0,
+       "y": 92.0
+      },
+      {
+       "id": "car",
+       "text": "Ahmed: it is at night and he has a car. Hayat agrees but must go home early",
+       "x": 97.0,
+       "y": 148.0
+      },
+      {
+       "id": "love",
+       "text": "at the party: \"I love you so much, I will do everything you need\"",
+       "x": 97.0,
+       "y": 204.0
+      },
+      {
+       "id": "hotel",
+       "text": "Ahmed has booked a hotel room and says \"let us go there\"",
+       "x": 97.0,
+       "y": 260.0
+      },
+      {
+       "id": "no",
+       "text": "Hayat: \"No Ahmed, we are together and can do this another time.\"",
+       "x": 97.0,
+       "y": 316.0
+      }
+     ]
+    },
+    "hana": {
+     "svg": "svg/life_skills_8/ls8_hana.svg",
+     "title": "Hana's decision",
+     "page": 14,
+     "pins": [
+      {
+       "id": "center",
+       "text": "Hana, grade 8. She refused.",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "poor",
+       "text": "she is from a poor family; they find it hard to buy food",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "money",
+       "text": "neighbour Samson has given her money several times; it helped a lot at home",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "ring",
+       "text": "Samson says he loves her and wants her to leave school and marry him",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "muna",
+       "text": "Hana's friend Muna supported Samson's idea",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    },
+    "marco": {
+     "svg": "svg/life_skills_8/ls8_marco.svg",
+     "title": "Marco's family",
+     "page": 15,
+     "pins": [
+      {
+       "id": "house",
+       "text": "Sifora, Marco's wife, does the household work",
+       "x": 30,
+       "y": 30
+      },
+      {
+       "id": "girls",
+       "text": "the daughters Dawa and Silvana clear the bushes and grass around the house",
+       "x": 40,
+       "y": 170
+      },
+      {
+       "id": "marco",
+       "text": "Marco misses his farm work to help drain the swamp",
+       "x": 170,
+       "y": 120
+      },
+      {
+       "id": "swamp",
+       "text": "the swamp around the house",
+       "x": 250,
+       "y": 196
+      },
+      {
+       "id": "sil",
+       "text": "Silvana has a headache and fever, so she does not take part",
+       "x": 290,
+       "y": 90
+      }
+     ]
+    },
+    "henok": {
+     "svg": "svg/life_skills_8/ls8_henok.svg",
+     "title": "Henok at the clinic",
+     "page": 17,
+     "pins": [
+      {
+       "id": "center",
+       "text": "Henok, 14, a hard working student",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "tooth",
+       "text": "toothache",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "skin",
+       "text": "skin infection",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "dia",
+       "text": "frequent diarrhoea",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "day",
+       "text": "after eating dinner, he goes to bed immediately",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls8-u3-l1",
+     "number": "3.1",
+     "title": "Laws and norms of the society",
+     "pages": [
+      12,
+      12
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What you will learn",
+       "body": [
+        "In this unit you will build **decision making**, **assertiveness** and **negotiation** skills.",
+        "You will also learn the **causes and prevention** of **malaria** and **tuberculosis**."
+       ],
+       "page": 12
+      },
+      {
+       "type": "states",
+       "title": "Case I: at the wedding",
+       "diagram": "wedding",
+       "page": 12,
+       "states": [
+        {
+         "key": "arrive",
+         "label": "The elders arrive",
+         "text": "The guests immediately **give their seats** to the village elders."
+        },
+        {
+         "key": "boy",
+         "label": "One boy stays",
+         "text": "A young boy stays in **one of the best seats** beside the elders."
+        },
+        {
+         "key": "whisper",
+         "label": "A whisper",
+         "text": "An elder calls the boy and **whispers** some words. The boy **immediately leaves** his seat."
+        }
+       ],
+       "body": [
+        "Move the slider."
+       ]
+      },
+      {
+       "type": "steps",
+       "title": "Case II: Tesfay",
+       "diagram": "tesfay",
+       "page": 12,
+       "steps": [
+        {
+         "text": "Tesfay **stole** Ato Ahmed's goat.",
+         "show": "steal",
+         "pins": [
+          "steal"
+         ]
+        },
+        {
+         "text": "He **sold** it in the market.",
+         "show": "sell",
+         "pins": [
+          "sell"
+         ]
+        },
+        {
+         "text": "His close friends **Omer and Mebrahtu** informed the police.",
+         "show": "tell",
+         "pins": [
+          "tell"
+         ]
+        },
+        {
+         "text": "He was taken to **jail**.",
+         "show": "jail",
+         "pins": [
+          "jail"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Norms and laws",
+       "body": [
+        "Case I shows a **norm** (a custom of the society): giving your seat to **elders**.",
+        "Case II shows the **law**: stealing leads to **jail**."
+       ],
+       "page": 12
+      },
+      {
+       "type": "text",
+       "title": "Questions to discuss",
+       "body": [
+        "- Why did the boys leave their seats for the elders?",
+        "- What punishment do you suggest for Tesfay?",
+        "- What would you do if you were Omer and Mebrahtu?",
+        "- What words did the elder whisper?"
+       ],
+       "page": 12
+      },
+      {
+       "type": "check",
+       "q": "Who informed the police about Tesfay?",
+       "options": {
+        "A": "Ato Ahmed",
+        "B": "Omer and Mebrahtu",
+        "C": "the elders",
+        "D": "his teacher"
+       },
+       "answer": "B",
+       "why": "\"Omer and Mebrahtu, Tesfay's close friends, informed the police\" (p. 12).",
+       "page": 12
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-l2",
+     "number": "3.2",
+     "title": "Sensing and avoiding danger",
+     "pages": [
+      13,
+      13
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "The situation",
+       "body": [
+        "Anwar's family went to visit relatives. He is **alone at home**.",
+        "He invites **Sara**, his classmate, to come to his home."
+       ],
+       "page": 13
+      },
+      {
+       "type": "remember",
+       "title": "Sense the danger",
+       "body": [
+        "The book asks:",
+        "- What could happen to Sara if she **accepts**?",
+        "- Why did Anwar invite her?",
+        "- What would **you** do if you were Sara? Why?"
+       ],
+       "page": 13
+      },
+      {
+       "type": "text",
+       "title": "In your area",
+       "body": [
+        "What **dangers** are common in your area? How could they be **avoided**?"
+       ],
+       "page": 13
+      },
+      {
+       "type": "check",
+       "q": "Why is Anwar alone at home?",
+       "options": {
+        "A": "he is sick",
+        "B": "his family went to visit relatives",
+        "C": "it is a holiday",
+        "D": "he missed school"
+       },
+       "answer": "B",
+       "why": "\"Anwar's family went to visit their relatives leaving him alone at home\" (p. 13).",
+       "page": 13
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-l3",
+     "number": "3.3",
+     "title": "Assertiveness and negotiation",
+     "pages": [
+      13,
+      14
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Two skills",
+       "body": [
+        "**Assertive**: you say clearly and calmly what you want and what you do not want.",
+        "**Negotiation**: talking to reach an agreement.",
+        "(Word meanings to help your English.)"
+       ],
+       "page": 13
+      },
+      {
+       "type": "steps",
+       "title": "The mini drama: Ahmed and Hayat",
+       "diagram": "drama",
+       "page": 13,
+       "steps": [
+        {
+         "text": "Ahmed says Hayat looks nice and **invites her to a party**.",
+         "show": "inv",
+         "pins": [
+          "inv"
+         ]
+        },
+        {
+         "text": "Hayat: \"**Sorry Ahmed, today I am busy.**\"",
+         "show": "busy",
+         "pins": [
+          "busy"
+         ]
+        },
+        {
+         "text": "Ahmed: it is at night and **I have got a car**. Hayat agrees, but says she must **go home early**.",
+         "show": "car",
+         "pins": [
+          "car"
+         ]
+        },
+        {
+         "text": "At the party Ahmed says: \"I love you so much and I will do everything you need.\"",
+         "show": "love",
+         "pins": [
+          "love"
+         ]
+        },
+        {
+         "text": "Ahmed says he **booked a hotel room**: \"let us go there\". He says it is a chance they must not miss.",
+         "show": "hotel",
+         "pins": [
+          "hotel"
+         ]
+        },
+        {
+         "text": "Hayat: \"**No Ahmed**, we are together and can do this another time.\"",
+         "show": "no",
+         "pins": [
+          "no"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Questions",
+       "body": [
+        "- Did Hayat act **assertively**? Why?",
+        "- What do you think of her **negotiating** skills?",
+        "- What can you say about **Ahmed**?",
+        "- How would **you** respond if you were Hayat?"
+       ],
+       "page": 14
+      },
+      {
+       "type": "check",
+       "q": "What did Ahmed say he had booked?",
+       "options": {
+        "A": "a bus ticket",
+        "B": "a table at a restaurant",
+        "C": "a room in a hotel",
+        "D": "a party hall"
+       },
+       "answer": "C",
+       "why": "\"Hayat, now I booked a room in a hotel down town and let us go there\" (p. 13).",
+       "page": 14
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-l4",
+     "number": "3.4",
+     "title": "Decision making and sticking to decisions",
+     "pages": [
+      14,
+      14
+     ],
+     "cards": [
+      {
+       "type": "diagram",
+       "title": "Hana's decision",
+       "diagram": "hana",
+       "mode": "explore",
+       "page": 14,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "What Hana did",
+       "body": [
+        "Samson wants Hana to **leave school** and **marry** him. Even her friend Muna agreed with Samson.",
+        "But **Hana refused**."
+       ],
+       "page": 14
+      },
+      {
+       "type": "remember",
+       "title": "Think about it",
+       "body": [
+        "- Was it **easy** for Hana to decide? Why?",
+        "- What would happen if she accepted?",
+        "- Will she **stick to** her decision?",
+        "- What makes a decision **good or bad**?"
+       ],
+       "page": 14
+      },
+      {
+       "type": "check",
+       "q": "What did Samson want Hana to do?",
+       "options": {
+        "A": "study harder",
+        "B": "leave school and marry him",
+        "C": "work in his shop",
+        "D": "visit his family"
+       },
+       "answer": "B",
+       "why": "\"He... wants Hana to leave school and marry him\" (p. 14).",
+       "page": 14
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-l5",
+     "number": "3.5",
+     "title": "Project: underage marriage",
+     "pages": [
+      14,
+      15
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "The project",
+       "body": [
+        "The book asks: **What is underage marriage?** Is it common in your community?",
+        "(**Underage** means younger than the age the law allows.)"
+       ],
+       "page": 14
+      },
+      {
+       "type": "table",
+       "title": "Consequences to find",
+       "page": 15,
+       "head": [
+        "Area",
+        "Question"
+       ],
+       "rows": [
+        [
+         "health",
+         "What are the health consequences of underage marriage?"
+        ],
+        [
+         "social",
+         "What are the social consequences?"
+        ],
+        [
+         "economic",
+         "What are the economic (money) consequences?"
+        ]
+       ]
+      },
+      {
+       "type": "text",
+       "title": "Sayings and norms",
+       "body": [
+        "Find **sayings** in your mother tongue that **encourage** or **discourage** underage marriage.",
+        "Interview people. Which marriage **norms and laws** would you like to **continue**, and which would you like to **modify** (change)?"
+       ],
+       "page": 15
+      },
+      {
+       "type": "check",
+       "q": "The project asks about consequences in three areas. Which list is right?",
+       "options": {
+        "A": "health, social, economic",
+        "B": "sport, music, art",
+        "C": "school, road, food",
+        "D": "weather, animals, plants"
+       },
+       "answer": "A",
+       "why": "p. 15: consequences related to a. health, b. social, c. economic.",
+       "page": 15
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-l6",
+     "number": "3.6",
+     "title": "Disease prevention: malaria and TB",
+     "pages": [
+      15,
+      17
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "3.6.1 Malaria",
+       "body": [
+        "The book asks: **What is malaria?** What are the ways of **preventing** it?"
+       ],
+       "page": 15
+      },
+      {
+       "type": "diagram",
+       "title": "Marco's family",
+       "diagram": "marco",
+       "mode": "explore",
+       "page": 15,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "The case study",
+       "body": [
+        "Marco and his family live in **Tokombia**, near **River Gash**.",
+        "Today everyone works to **drain the swamp** and clear bushes around the house.",
+        "Only **Silvana** does not: she has a **headache and fever**."
+       ],
+       "page": 15
+      },
+      {
+       "type": "remember",
+       "title": "Malaria questions",
+       "body": [
+        "- What health problem threatens Marco's family?",
+        "- What is the cause of Silvana's illness? How can the family help her?",
+        "- What advice would you give **neighbours** and people who **travel** to malaria areas?"
+       ],
+       "page": 16
+      },
+      {
+       "type": "text",
+       "title": "3.6.2 Tuberculosis (TB)",
+       "body": [
+        "Mark each statement: **agree**, **disagree** or **not sure**."
+       ],
+       "page": 16
+      },
+      {
+       "type": "table",
+       "title": "TB statements 1–5",
+       "page": 16,
+       "head": [
+        "No.",
+        "Statement"
+       ],
+       "rows": [
+        [
+         "1",
+         "TB affects only old people"
+        ],
+        [
+         "2",
+         "We can avoid TB by taking traditional medicine"
+        ],
+        [
+         "3",
+         "People who always cough have TB"
+        ],
+        [
+         "4",
+         "Only poor people contract TB"
+        ],
+        [
+         "5",
+         "TB can be spread by sharing utensils"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "title": "TB statements 6–10",
+       "page": 16,
+       "head": [
+        "No.",
+        "Statement"
+       ],
+       "rows": [
+        [
+         "6",
+         "Coughing among overcrowded people has less chance to spread TB"
+        ],
+        [
+         "7",
+         "TB is a curable disease"
+        ],
+        [
+         "8",
+         "A person with TB must take medicine under the supervision of a health worker"
+        ],
+        [
+         "9",
+         "Rates of TB infection are highest where people are poor and overcrowded"
+        ],
+        [
+         "10",
+         "A person with TB must be kept in a separate room"
+        ]
+       ]
+      },
+      {
+       "type": "text",
+       "title": "TB questions",
+       "body": [
+        "- What are the **symptoms** of TB?",
+        "- Why does TB mostly occur where people are **poor and overcrowded**?",
+        "- Should a TB patient be kept separately? Why?",
+        "- What are the ways of **preventing** TB?"
+       ],
+       "page": 17
+      },
+      {
+       "type": "check",
+       "q": "Where do Marco and his family live?",
+       "options": {
+        "A": "in Asmara, near the sea",
+        "B": "in Tokombia, near River Gash",
+        "C": "in Massawa",
+        "D": "in Agordat"
+       },
+       "answer": "B",
+       "why": "\"Marco and his family live in Tokombia near River Gash\" (p. 15).",
+       "page": 15
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-l7",
+     "number": "3.7",
+     "title": "Personal hygiene",
+     "pages": [
+      17,
+      17
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Henok's day",
+       "body": [
+        "Henok is a **14** year old, hard working student.",
+        "Every day he **feeds the chickens**, goes to **school**, **looks after the cattle**, and **plays** with friends.",
+        "After dinner he **immediately goes to bed**."
+       ],
+       "page": 17
+      },
+      {
+       "type": "diagram",
+       "title": "Henok at the clinic",
+       "diagram": "henok",
+       "mode": "explore",
+       "page": 17,
+       "body": [
+        "Tap the dots: why did he go to the clinic?"
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Personal hygiene",
+       "body": [
+        "**Hygiene** means keeping yourself clean to stay healthy.",
+        "The book asks: Why did Henok get **skin infection, toothache and diarrhoea**? What would you do? How do **you** keep your personal hygiene?"
+       ],
+       "page": 17
+      },
+      {
+       "type": "check",
+       "q": "Which three problems did Henok have?",
+       "options": {
+        "A": "headache, fever, cough",
+        "B": "toothache, skin infection, frequent diarrhoea",
+        "C": "a broken leg and a cut",
+        "D": "TB and malaria"
+       },
+       "answer": "B",
+       "why": "\"...he went to the nearby clinic because toothache, skin infection and frequent diarrhoea\" (p. 17).",
+       "page": 17
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "norm",
+     "meaning": "a custom or rule that a society follows",
+     "page": 12,
+     "forms": [
+      "norms"
+     ]
+    },
+    {
+     "term": "law",
+     "meaning": "a rule made by the government",
+     "page": 12,
+     "forms": [
+      "laws"
+     ]
+    },
+    {
+     "term": "elder",
+     "meaning": "an old, respected person",
+     "page": 12,
+     "forms": [
+      "elders"
+     ]
+    },
+    {
+     "term": "danger",
+     "meaning": "something that can hurt you",
+     "page": 13,
+     "forms": [
+      "dangers"
+     ]
+    },
+    {
+     "term": "assertive",
+     "meaning": "saying clearly and calmly what you want or do not want",
+     "page": 13,
+     "forms": [
+      "assertively",
+      "assertiveness"
+     ]
+    },
+    {
+     "term": "negotiation",
+     "meaning": "talking to reach an agreement",
+     "page": 13,
+     "forms": [
+      "negotiating"
+     ]
+    },
+    {
+     "term": "decision",
+     "meaning": "a choice you make",
+     "page": 14,
+     "forms": [
+      "decisions"
+     ]
+    },
+    {
+     "term": "underage marriage",
+     "meaning": "marriage of a person younger than the law allows",
+     "page": 14
+    },
+    {
+     "term": "malaria",
+     "meaning": "a disease; the book asks how to prevent it",
+     "page": 15
+    },
+    {
+     "term": "swamp",
+     "meaning": "wet, muddy land with standing water",
+     "page": 15
+    },
+    {
+     "term": "drain",
+     "meaning": "take away the water",
+     "page": 15,
+     "forms": [
+      "draining"
+     ]
+    },
+    {
+     "term": "tuberculosis (TB)",
+     "meaning": "a disease; the book asks about its symptoms and prevention",
+     "page": 16,
+     "forms": [
+      "TB",
+      "tuberculosis"
+     ]
+    },
+    {
+     "term": "symptom",
+     "meaning": "a sign of illness, like fever",
+     "page": 17,
+     "forms": [
+      "symptoms"
+     ]
+    },
+    {
+     "term": "hygiene",
+     "meaning": "keeping yourself clean to stay healthy",
+     "page": 17
+    },
+    {
+     "term": "diarrhoea",
+     "meaning": "loose, watery stool (poo) many times",
+     "page": 17
+    }
+   ],
+   "tips": [
+    {
+     "text": "In each story find the **person**, the **problem**, and the **choice** they made."
+    },
+    {
+     "text": "**Hayat** is the one who says \"No\". **Hana** is the one who refused Samson."
+    },
+    {
+     "text": "Learn the place names: Marco lives in **Tokombia** near **River Gash**."
+    },
+    {
+     "text": "Henok's three problems: **tooth**, **skin**, **diarrhoea**."
+    }
+   ],
+   "games": [
+    {
+     "id": "ls8-u3-g1",
+     "type": "sort",
+     "lesson": "ls8-u3-l3",
+     "title": "Who said it: Ahmed or Hayat?",
+     "groups": [
+      {
+       "id": "a",
+       "label": "Ahmed"
+      },
+      {
+       "id": "h",
+       "label": "Hayat"
+      }
+     ],
+     "items": [
+      {
+       "text": "\"Would you mind if I invite you for a party?\"",
+       "group": "a"
+      },
+      {
+       "text": "\"It is at night and I have got a car.\"",
+       "group": "a"
+      },
+      {
+       "text": "\"I booked a room in a hotel.\"",
+       "group": "a"
+      },
+      {
+       "text": "\"This is the only night we met.\"",
+       "group": "a"
+      },
+      {
+       "text": "\"Sorry, today I am busy.\"",
+       "group": "h"
+      },
+      {
+       "text": "\"I have to go back home early.\"",
+       "group": "h"
+      },
+      {
+       "text": "\"Why do you say like this?\"",
+       "group": "h"
+      },
+      {
+       "text": "\"We can do this another time.\"",
+       "group": "h"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-g2",
+     "type": "match",
+     "lesson": "ls8-u3-l6",
+     "title": "Marco's family: who does what?",
+     "pairs": [
+      {
+       "a": "Sifora",
+       "b": "does the household work"
+      },
+      {
+       "a": "Dawa",
+       "b": "clears bushes and grass"
+      },
+      {
+       "a": "Marco",
+       "b": "misses farm work to drain the swamp"
+      },
+      {
+       "a": "Silvana",
+       "b": "has a headache and fever"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-g3",
+     "type": "label",
+     "lesson": "ls8-u3-l7",
+     "title": "Henok at the clinic",
+     "diagram": "henok"
+    },
+    {
+     "id": "ls8-u3-g4",
+     "type": "sort",
+     "lesson": null,
+     "title": "Which case study?",
+     "groups": [
+      {
+       "id": "w",
+       "label": "Wedding (Case I)"
+      },
+      {
+       "id": "t",
+       "label": "Tesfay (Case II)"
+      },
+      {
+       "id": "h",
+       "label": "Hana"
+      }
+     ],
+     "items": [
+      {
+       "text": "village elders arrive",
+       "group": "w"
+      },
+      {
+       "text": "an elder whispers to a boy",
+       "group": "w"
+      },
+      {
+       "text": "a stolen goat",
+       "group": "t"
+      },
+      {
+       "text": "friends inform the police",
+       "group": "t"
+      },
+      {
+       "text": "taken to jail",
+       "group": "t"
+      },
+      {
+       "text": "a neighbour gives money",
+       "group": "h"
+      },
+      {
+       "text": "Muna supports the idea",
+       "group": "h"
+      },
+      {
+       "text": "refused to leave school",
+       "group": "h"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "The guests gave their seats to the village ___.",
+       "answer": "elders",
+       "choices": [
+        "elders",
+        "children",
+        "police"
+       ]
+      },
+      {
+       "text": "Tesfay stole Ato Ahmed's ___.",
+       "answer": "goat",
+       "choices": [
+        "goat",
+        "car",
+        "book"
+       ]
+      },
+      {
+       "text": "Marco decided to help drain the ___.",
+       "answer": "swamp",
+       "choices": [
+        "swamp",
+        "river",
+        "well"
+       ]
+      },
+      {
+       "text": "Henok went to the ___ because of toothache, skin infection and diarrhoea.",
+       "answer": "clinic",
+       "choices": [
+        "clinic",
+        "market",
+        "school"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Hana accepted Samson's request.",
+       "answer": false,
+       "why": "Hana refused."
+      },
+      {
+       "text": "Sara is Anwar's classmate.",
+       "answer": true
+      },
+      {
+       "text": "Silvana helped drain the swamp.",
+       "answer": false,
+       "why": "She had a headache and fever."
+      },
+      {
+       "text": "Henok goes to bed right after dinner.",
+       "answer": true
+      },
+      {
+       "text": "Omer and Mebrahtu are Tesfay's close friends.",
+       "answer": true
+      }
+     ]
+    },
+    {
+     "id": "ls8-u3-g7",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "assertive",
+       "back": "saying clearly what you want or do not want"
+      },
+      {
+       "front": "negotiation",
+       "back": "talking to reach an agreement"
+      },
+      {
+       "front": "norm",
+       "back": "a custom a society follows"
+      },
+      {
+       "front": "hygiene",
+       "back": "keeping clean to stay healthy"
+      },
+      {
+       "front": "TB",
+       "back": "tuberculosis"
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls8-u3-q1",
+      "type": "mcq",
+      "page": 12,
+      "q": "What did the boy do after the elder whispered to him?",
+      "options": {
+       "A": "He laughed",
+       "B": "He immediately left his seat",
+       "C": "He went home",
+       "D": "He sat closer"
+      },
+      "answer": "B",
+      "why": [
+       "p. 12: \"the boy immediately left his seat\"."
+      ],
+      "tip": "Read the end of Case I.",
+      "similar": [
+       {
+        "q": "Who arrived at the wedding?",
+        "a": "the village elders"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q2",
+      "type": "mcq",
+      "page": 12,
+      "q": "What happened to Tesfay in the end?",
+      "options": {
+       "A": "He was forgiven",
+       "B": "He was taken to jail",
+       "C": "He bought another goat",
+       "D": "He ran away"
+      },
+      "answer": "B",
+      "why": [
+       "p. 12: \"he was taken to jail\"."
+      ],
+      "tip": "Follow the story to the end.",
+      "similar": [
+       {
+        "q": "Where did he sell the goat?",
+        "a": "in the market"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q3",
+      "type": "tf",
+      "page": 13,
+      "q": "Anwar invited Sara to his home when his family was away.",
+      "answer": true,
+      "why": [
+       "p. 13: his family went to visit relatives leaving him alone; he invited Sara."
+      ],
+      "tip": "Read both sentences.",
+      "similar": [
+       {
+        "q": "Who is Sara?",
+        "a": "Anwar's classmate"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q4",
+      "type": "mcq",
+      "page": 13,
+      "q": "What was Hayat's first answer to Ahmed's invitation?",
+      "options": {
+       "A": "\"Yes, let's go\"",
+       "B": "\"Sorry Ahmed, today I am busy.\"",
+       "C": "\"I love you too\"",
+       "D": "\"Where is the party?\""
+      },
+      "answer": "B",
+      "why": [
+       "p. 13: \"Sorry Ahmed, today I am busy.\""
+      ],
+      "tip": "Look at Hayat's first reply after the invitation.",
+      "similar": [
+       {
+        "q": "What did Hayat say at the end?",
+        "a": "\"No Ahmed, we are together and can do this another time.\""
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q5",
+      "type": "mcq",
+      "page": 14,
+      "q": "Who supported Samson's idea?",
+      "options": {
+       "A": "Hana's mother",
+       "B": "Hana's friend Muna",
+       "C": "Hana's teacher",
+       "D": "nobody"
+      },
+      "answer": "B",
+      "why": [
+       "p. 14: \"Even Hana's friend, Muna, supported Samson's idea.\""
+      ],
+      "tip": "Look for \"Even\".",
+      "similar": [
+       {
+        "q": "What did Hana do?",
+        "a": "she refused"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q6",
+      "type": "fill",
+      "page": 14,
+      "q": "Samson wanted Hana to leave school and ___ him.",
+      "choices": [
+       "marry",
+       "help",
+       "pay",
+       "visit"
+      ],
+      "answer": "marry",
+      "why": [
+       "p. 14."
+      ],
+      "tip": "Samson's wish has two parts.",
+      "similar": [
+       {
+        "q": "Why was Samson's money important to Hana's family?",
+        "a": "they were poor and had difficulty buying food"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q7",
+      "type": "mcq",
+      "page": 15,
+      "q": "Why did Silvana not take part in the work?",
+      "options": {
+       "A": "she was at school",
+       "B": "she had a headache and fever",
+       "C": "she was playing",
+       "D": "she went to the market"
+      },
+      "answer": "B",
+      "why": [
+       "p. 15: \"Except Silvana who is suffering from headache and fever, everybody is participating\"."
+      ],
+      "tip": "Look for \"Except\".",
+      "similar": [
+       {
+        "q": "What did Marco miss that day?",
+        "a": "his farm work"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q8",
+      "type": "tf",
+      "page": 16,
+      "q": "In the TB table, statement 7 says \"TB is a curable disease\".",
+      "answer": true,
+      "why": [
+       "p. 16, statement 7."
+      ],
+      "tip": "This asks what the table says.",
+      "similar": [
+       {
+        "q": "What does statement 10 say?",
+        "a": "A person with TB must be kept in a separate room."
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q9",
+      "type": "mcq",
+      "page": 17,
+      "q": "What does Henok do right after eating dinner?",
+      "options": {
+       "A": "brushes his teeth",
+       "B": "goes to bed immediately",
+       "C": "washes his hands",
+       "D": "does homework"
+      },
+      "answer": "B",
+      "why": [
+       "p. 17: \"After eating his dinner, immediately he goes to bed.\""
+      ],
+      "tip": "Find \"After eating his dinner\".",
+      "similar": [
+       {
+        "q": "How old is Henok?",
+        "a": "14"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q10",
+      "type": "short",
+      "page": 15,
+      "q": "Name the three areas of consequences of underage marriage the project asks about.",
+      "answer": "health, social and economic",
+      "why": [
+       "p. 15, Activity II question 2."
+      ],
+      "tip": "H-S-E: Health, Social, Economic.",
+      "similar": [
+       {
+        "q": "What two things must you decide about marriage norms and laws?",
+        "a": "which to continue and which to modify"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u3-q11",
+      "type": "short",
+      "page": 13,
+      "q": "Name the two skills in lesson 3.3.",
+      "answer": "assertiveness and negotiation",
+      "why": [
+       "p. 13, lesson title."
+      ],
+      "tip": "A and N.",
+      "similar": [
+       {
+        "q": "Which skills does the unit want you to develop?",
+        "a": "decision making, assertiveness and negotiation skills"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ls8-u4",
+   "number": 4,
+   "title": "Building Good Relationships",
+   "status": "done",
+   "pages": [
+    18,
+    21
+   ],
+   "tone": "lilac",
+   "intro": "This unit is about **friends**: the **circles of friendship**, **making friends** (pen pals), and **resisting peer pressure**.",
+   "intro_page": 18,
+   "diagrams": {
+    "circles": {
+     "svg": "svg/life_skills_8/ls8_circles.svg",
+     "title": "Circles of friendship",
+     "page": 18,
+     "pins": [
+      {
+       "id": "clo",
+       "text": "closest friends",
+       "x": 190,
+       "y": 150
+      },
+      {
+       "id": "cas",
+       "text": "casual friends",
+       "x": 160,
+       "y": 72
+      },
+      {
+       "id": "acq",
+       "text": "acquaintances",
+       "x": 60,
+       "y": 240
+      }
+     ]
+    },
+    "penpal": {
+     "svg": "svg/life_skills_8/ls8_penpal.svg",
+     "title": "Three pen pal adverts",
+     "page": 19,
+     "pins": [
+      {
+       "id": "ab",
+       "text": "A: Abdela, 12, grade 7, 130 cm tall. Likes farm work in summer, reading, children's TV, music. P.O. Box 1718, Asmara.",
+       "x": 24,
+       "y": 44
+      },
+      {
+       "id": "ah",
+       "text": "B: Abraha, 15, grade 8. Likes visiting friends, reading, riding a bicycle. Wants a friend whose name starts with \"A\", aged 15 to 17. P.O. Box 300, Agordat.",
+       "x": 126,
+       "y": 44
+      },
+      {
+       "id": "sa",
+       "text": "C: Salina, 16, grade 6. Likes swimming, basketball, volleyball. Wants a boy aged 16 to 20 with similar interests. P.O. Box 300, Massawa.",
+       "x": 228,
+       "y": 44
+      }
+     ]
+    },
+    "peer": {
+     "svg": "svg/life_skills_8/ls8_peer.svg",
+     "title": "Two role plays",
+     "page": 21,
+     "pins": [
+      {
+       "id": "s1",
+       "text": "Situation 1: say \"No\" to a friend who asks you to miss class, without losing him or her",
+       "x": 24.0,
+       "y": 24.0
+      },
+      {
+       "id": "s2",
+       "text": "Situation 2: a friend asks you to steal a book from a classmate",
+       "x": 179.0,
+       "y": 24.0
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls8-u4-l1",
+     "number": "4.1",
+     "title": "Circles of friendship",
+     "pages": [
+      18,
+      19
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What you will learn",
+       "body": [
+        "You will **identify circles of friendship**.",
+        "You will build behaviours that **promote healthy relationships**."
+       ],
+       "page": 18
+      },
+      {
+       "type": "text",
+       "title": "Are all friends the same?",
+       "body": [
+        "The book asks: **Are all friends the same?**",
+        "It names three kinds: **closest**, **casual**, and **acquaintance**."
+       ],
+       "page": 18
+      },
+      {
+       "type": "diagram",
+       "title": "Circles of friendship",
+       "diagram": "circles",
+       "mode": "explore",
+       "page": 18,
+       "body": [
+        "Tap each circle."
+       ]
+      },
+      {
+       "type": "table",
+       "title": "The three case studies",
+       "page": 18,
+       "head": [
+        "Case",
+        "Who",
+        "What they do"
+       ],
+       "rows": [
+        [
+         "I",
+         "Ato Gebriel (45, rich) and Ato Mustofa (40)",
+         "old classmates; Mustofa sometimes watches TV at Gebriel's house; they go for recreation"
+        ],
+        [
+         "II",
+         "Mohammed and students from other schools",
+         "45 days of summer work campaign: digging, planting, weeding, mending"
+        ],
+        [
+         "III",
+         "Ato Tecle and Ato Saleh",
+         "same town, same university; they share secrets; their families visit each other in joys and sorrows"
+        ]
+       ]
+      },
+      {
+       "type": "states",
+       "title": "Which case fits which circle?",
+       "diagram": "circles",
+       "page": 19,
+       "states": [
+        {
+         "key": "clo",
+         "label": "Closest",
+         "text": "Case III: Tecle and Saleh **share their secrets**, and their families visit each other in **joys and sorrows**."
+        },
+        {
+         "key": "cas",
+         "label": "Casual",
+         "text": "Case I: Gebriel and Mustofa meet **on some occasions** to watch TV or for recreation."
+        },
+        {
+         "key": "acq",
+         "label": "Acquaintance",
+         "text": "Case II: Mohammed was **familiar with** all the students from the summer campaign."
+        }
+       ],
+       "body": [
+        "Move the slider. (The book asks this question; these answers use the facts in each case.)"
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "A friend in need",
+       "body": [
+        "Proverb: \"**A friend in need is a friend indeed.**\"",
+        "The book asks which case study matches this, and why.",
+        "Can one person have **all three** kinds of friends?"
+       ],
+       "page": 19
+      },
+      {
+       "type": "check",
+       "q": "In Case II, how long was Mohammed's summer work campaign?",
+       "options": {
+        "A": "15 days",
+        "B": "30 days",
+        "C": "45 days",
+        "D": "one year"
+       },
+       "answer": "C",
+       "why": "\"He came back home after 45 days of work\" (p. 18).",
+       "page": 18
+      }
+     ]
+    },
+    {
+     "id": "ls8-u4-l2",
+     "number": "4.2",
+     "title": "Making friends",
+     "pages": [
+      19,
+      20
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Pen pals",
+       "body": [
+        "A **pen pal** is a friend you write **letters** to.",
+        "First, write a short **description of yourself** for a pen pal advert.",
+        "Then read three adverts and choose one."
+       ],
+       "page": 19
+      },
+      {
+       "type": "diagram",
+       "title": "Three pen pal adverts",
+       "diagram": "penpal",
+       "mode": "explore",
+       "page": 19,
+       "body": [
+        "Tap each letter."
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Who wants whom?",
+       "page": 20,
+       "head": [
+        "Advert",
+        "Wants a friend who..."
+       ],
+       "rows": [
+        [
+         "A: Abdela",
+         "has similar interests"
+        ],
+        [
+         "B: Abraha",
+         "has a name starting with \"A\" and is 15 to 17 years old"
+        ],
+        [
+         "C: Salina",
+         "is a boy, 16 to 20 years old, with similar interests"
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Birds of a feather",
+       "body": [
+        "\"**Birds of the same feather flock together.**\"",
+        "The book says relationships are **influenced by values**. How does this proverb fit?",
+        "Also: what happens when one person wants to be a friend and the other does not?"
+       ],
+       "page": 20
+      },
+      {
+       "type": "check",
+       "q": "Abraha wants a friend aged 15 to 17 whose name starts with \"A\". Can Abdela be his pen pal?",
+       "options": {
+        "A": "yes, his name starts with \"A\"",
+        "B": "no, Abdela is only 12",
+        "C": "yes, they both live in Asmara",
+        "D": "no, Abdela does not like reading"
+       },
+       "answer": "B",
+       "why": "Abdela's name starts with \"A\", but he is 12 years old (p. 19). Abraha wants someone aged 15 to 17 (p. 20).",
+       "page": 20
+      }
+     ]
+    },
+    {
+     "id": "ls8-u4-l3",
+     "number": "4.3",
+     "title": "Resisting peer pressure",
+     "pages": [
+      21,
+      21
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What is peer pressure?",
+       "body": [
+        "**Peers** are people of your own age, like classmates.",
+        "**Peer pressure** is when peers push you to do something.",
+        "The book asks: **What is peer pressure?**"
+       ],
+       "page": 21
+      },
+      {
+       "type": "diagram",
+       "title": "Two role plays",
+       "diagram": "peer",
+       "mode": "explore",
+       "page": 21,
+       "body": [
+        "Tap each situation. Act them in class."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "After the role plays",
+       "body": [
+        "- Which role play showed the **strongest pressure**? The **strongest resistance**?",
+        "- Have peers ever got you **into trouble**? Or **saved** you from trouble?",
+        "- How can you **resist** influence and **remain good friends**?"
+       ],
+       "page": 21
+      },
+      {
+       "type": "check",
+       "q": "In Situation 1, what must you do?",
+       "options": {
+        "A": "miss class with your friend",
+        "B": "say \"No\" without losing your friend",
+        "C": "steal a book",
+        "D": "tell the teacher"
+       },
+       "answer": "B",
+       "why": "Situation 1: \"Saying exactly No to a friend who asks you to miss class without losing him/her\" (p. 21).",
+       "page": 21
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "relationship",
+     "meaning": "the way people are connected, like friends or family",
+     "page": 18,
+     "forms": [
+      "relationships"
+     ]
+    },
+    {
+     "term": "closest friend",
+     "meaning": "a very near friend you share secrets with",
+     "page": 18,
+     "forms": [
+      "closest"
+     ]
+    },
+    {
+     "term": "casual friend",
+     "meaning": "a friend you meet sometimes",
+     "page": 18,
+     "forms": [
+      "casual"
+     ]
+    },
+    {
+     "term": "acquaintance",
+     "meaning": "a person you know a little",
+     "page": 18
+    },
+    {
+     "term": "recreation",
+     "meaning": "things you do for fun and rest",
+     "page": 18
+    },
+    {
+     "term": "campaign",
+     "meaning": "a planned group work for some days",
+     "page": 18
+    },
+    {
+     "term": "pen pal",
+     "meaning": "a friend you write letters to",
+     "page": 19,
+     "forms": [
+      "pen pals"
+     ]
+    },
+    {
+     "term": "advert",
+     "meaning": "a short notice asking for something",
+     "page": 19,
+     "forms": [
+      "adverts",
+      "advertisement"
+     ]
+    },
+    {
+     "term": "interest",
+     "meaning": "something you like doing",
+     "page": 19,
+     "forms": [
+      "interests"
+     ]
+    },
+    {
+     "term": "value",
+     "meaning": "an idea you believe is important",
+     "page": 20,
+     "forms": [
+      "values"
+     ]
+    },
+    {
+     "term": "proverb",
+     "meaning": "a short, old wise saying",
+     "page": 20
+    },
+    {
+     "term": "peer",
+     "meaning": "a person of your own age",
+     "page": 21,
+     "forms": [
+      "peers"
+     ]
+    },
+    {
+     "term": "peer pressure",
+     "meaning": "when peers push you to do something",
+     "page": 21
+    },
+    {
+     "term": "resist",
+     "meaning": "say no; not give in",
+     "page": 21,
+     "forms": [
+      "resistance"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "Circles: **closest** (share secrets), **casual** (meet sometimes), **acquaintance** (know a little)."
+    },
+    {
+     "text": "For pen pal questions, check **name**, **age**, **boy or girl** and **interests** against what each person wants."
+    },
+    {
+     "text": "Two proverbs: \"A friend in need is a friend indeed\"; \"Birds of the same feather flock together\"."
+    },
+    {
+     "text": "Peer pressure: say **No** clearly, and stay friends."
+    }
+   ],
+   "games": [
+    {
+     "id": "ls8-u4-g1",
+     "type": "label",
+     "lesson": "ls8-u4-l1",
+     "title": "Circles of friendship",
+     "diagram": "circles"
+    },
+    {
+     "id": "ls8-u4-g2",
+     "type": "sort",
+     "lesson": "ls8-u4-l1",
+     "title": "Which case study?",
+     "groups": [
+      {
+       "id": "i",
+       "label": "Case I: Gebriel & Mustofa"
+      },
+      {
+       "id": "ii",
+       "label": "Case II: Mohammed"
+      },
+      {
+       "id": "iii",
+       "label": "Case III: Tecle & Saleh"
+      }
+     ],
+     "items": [
+      {
+       "text": "a villa, a supermarket and a Mercedes",
+       "group": "i"
+      },
+      {
+       "text": "watching TV programmes",
+       "group": "i"
+      },
+      {
+       "text": "Barka secondary school",
+       "group": "ii"
+      },
+      {
+       "text": "digging, planting, weeding",
+       "group": "ii"
+      },
+      {
+       "text": "45 days of work",
+       "group": "ii"
+      },
+      {
+       "text": "share their secrets",
+       "group": "iii"
+      },
+      {
+       "text": "families visit in joys and sorrows",
+       "group": "iii"
+      },
+      {
+       "text": "one works for the government",
+       "group": "iii"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u4-g3",
+     "type": "sort",
+     "lesson": "ls8-u4-l2",
+     "title": "Whose advert?",
+     "groups": [
+      {
+       "id": "ab",
+       "label": "Abdela"
+      },
+      {
+       "id": "ah",
+       "label": "Abraha"
+      },
+      {
+       "id": "sa",
+       "label": "Salina"
+      }
+     ],
+     "items": [
+      {
+       "text": "12 years old",
+       "group": "ab"
+      },
+      {
+       "text": "130 cm tall",
+       "group": "ab"
+      },
+      {
+       "text": "P.O. Box 1718, Asmara",
+       "group": "ab"
+      },
+      {
+       "text": "riding a bicycle",
+       "group": "ah"
+      },
+      {
+       "text": "lives in Agordat",
+       "group": "ah"
+      },
+      {
+       "text": "name must start with \"A\"",
+       "group": "ah"
+      },
+      {
+       "text": "swimming and basketball",
+       "group": "sa"
+      },
+      {
+       "text": "16 years old, grade 6",
+       "group": "sa"
+      },
+      {
+       "text": "lives in Massawa",
+       "group": "sa"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u4-g4",
+     "type": "match",
+     "lesson": null,
+     "title": "Match the words",
+     "pairs": [
+      {
+       "a": "closest friend",
+       "b": "you share secrets"
+      },
+      {
+       "a": "acquaintance",
+       "b": "you know them a little"
+      },
+      {
+       "a": "pen pal",
+       "b": "you write letters"
+      },
+      {
+       "a": "peer",
+       "b": "a person your age"
+      },
+      {
+       "a": "resist",
+       "b": "say no"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u4-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "A friend in need is a friend ___.",
+       "answer": "indeed",
+       "choices": [
+        "indeed",
+        "inside",
+        "in bed"
+       ]
+      },
+      {
+       "text": "Birds of the same feather flock ___.",
+       "answer": "together",
+       "choices": [
+        "together",
+        "away",
+        "alone"
+       ]
+      },
+      {
+       "text": "Relationships are influenced by ___.",
+       "answer": "values",
+       "choices": [
+        "values",
+        "money",
+        "weather"
+       ]
+      },
+      {
+       "text": "Abraha wants a friend aged 15 to ___.",
+       "answer": "17",
+       "choices": [
+        "17",
+        "20",
+        "12"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls8-u4-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Ato Gebriel is a rich man.",
+       "answer": true
+      },
+      {
+       "text": "Abdela is in grade 8.",
+       "answer": false,
+       "why": "Abdela is in grade 7. Abraha is in grade 8."
+      },
+      {
+       "text": "Salina wants a girl pen pal.",
+       "answer": false,
+       "why": "She wants a boy aged 16 to 20."
+      },
+      {
+       "text": "Tecle and Saleh studied at the same university.",
+       "answer": true
+      },
+      {
+       "text": "Situation 2 is about stealing a book.",
+       "answer": true
+      }
+     ]
+    },
+    {
+     "id": "ls8-u4-g7",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "three circles",
+       "back": "closest, casual, acquaintance"
+      },
+      {
+       "front": "pen pal",
+       "back": "a friend you write letters to"
+      },
+      {
+       "front": "peer pressure",
+       "back": "peers pushing you to do something"
+      },
+      {
+       "front": "Case III",
+       "back": "Tecle and Saleh: closest friends"
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls8-u4-q1",
+      "type": "mcq",
+      "page": 18,
+      "q": "What does Ato Gebriel own?",
+      "options": {
+       "A": "a farm and a bus",
+       "B": "a big villa, a supermarket and a Mercedes car",
+       "C": "a school",
+       "D": "a hotel"
+      },
+      "answer": "B",
+      "why": [
+       "p. 18: \"He owns a big villa, a supermarket and a Mercedes car.\""
+      ],
+      "tip": "List the three things.",
+      "similar": [
+       {
+        "q": "How old is Ato Mustofa?",
+        "a": "40 years old"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u4-q2",
+      "type": "mcq",
+      "page": 19,
+      "q": "In Case III, what do Tecle and Saleh share?",
+      "options": {
+       "A": "a car",
+       "B": "their secrets",
+       "C": "a house",
+       "D": "a shop"
+      },
+      "answer": "B",
+      "why": [
+       "p. 18: \"They share their secrets.\""
+      ],
+      "tip": "Sharing secrets is a sign of a very close friend.",
+      "similar": [
+       {
+        "q": "Where does Saleh work?",
+        "a": "in a governmental organization"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u4-q3",
+      "type": "tf",
+      "page": 18,
+      "q": "Mohammed was familiar with all the students in the summer campaign.",
+      "answer": true,
+      "why": [
+       "p. 18: \"Mohammed was familiar with all the students.\""
+      ],
+      "tip": "Find \"familiar\".",
+      "similar": [
+       {
+        "q": "What school does Mohammed go to?",
+        "a": "Barka secondary school"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u4-q4",
+      "type": "mcq",
+      "page": 20,
+      "q": "Salina wants a boy pen pal aged 16 to 20 with similar interests. Who in the adverts is closest in age?",
+      "options": {
+       "A": "Abdela (12)",
+       "B": "Abraha (15)",
+       "C": "neither is a boy",
+       "D": "Abdela, because he is tall"
+      },
+      "answer": "B",
+      "why": [
+       "Abdela is 12 (p. 19). Abraha is 15 (p. 20).",
+       "15 is closer to 16, but still younger than 16."
+      ],
+      "tip": "Compare the ages with 16 to 20.",
+      "similar": [
+       {
+        "q": "Is Abraha old enough for Salina?",
+        "a": "no, he is 15 and she wants 16 to 20"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u4-q5",
+      "type": "fill",
+      "page": 19,
+      "q": "Abdela lives in ___.",
+      "choices": [
+       "Asmara",
+       "Agordat",
+       "Massawa",
+       "Keren"
+      ],
+      "answer": "Asmara",
+      "why": [
+       "p. 19: P.O. box 1718, Asmara, Eritrea."
+      ],
+      "tip": "Look at the address.",
+      "similar": [
+       {
+        "q": "Where does Salina live?",
+        "a": "Massawa"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u4-q6",
+      "type": "mcq",
+      "page": 20,
+      "q": "Which advert says the person likes riding a bicycle?",
+      "options": {
+       "A": "A: Abdela",
+       "B": "B: Abraha",
+       "C": "C: Salina",
+       "D": "none"
+      },
+      "answer": "B",
+      "why": [
+       "p. 20: Abraha likes visiting friends, reading books, riding a bicycle during holidays."
+      ],
+      "tip": "Read each list of likes.",
+      "similar": [
+       {
+        "q": "What sports does Salina like?",
+        "a": "swimming, basketball and volleyball"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u4-q7",
+      "type": "tf",
+      "page": 21,
+      "q": "Situation 2 is a friend asking you to steal a book from a classmate.",
+      "answer": true,
+      "why": [
+       "p. 21, Situation 2."
+      ],
+      "tip": "Two role plays: miss class, steal a book.",
+      "similar": [
+       {
+        "q": "What is Situation 1?",
+        "a": "saying No to a friend who asks you to miss class, without losing him or her"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u4-q8",
+      "type": "short",
+      "page": 18,
+      "q": "Name the three kinds of friendship in lesson 4.1.",
+      "answer": "closest, casual and acquaintance",
+      "why": [
+       "p. 19, question 1: a. closest, b. casual, c. acquaintance."
+      ],
+      "tip": "C-C-A.",
+      "similar": [
+       {
+        "q": "Which case shows the closest friendship, and why?",
+        "a": "Case III: Tecle and Saleh share secrets and their families visit each other in joys and sorrows"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u4-q9",
+      "type": "short",
+      "page": 20,
+      "q": "Write the two proverbs in this unit.",
+      "answer": "\"A friend in need is a friend indeed\" and \"Birds of the same feather flock together\".",
+      "why": [
+       "p. 19 and p. 20."
+      ],
+      "tip": "One is about help, one is about being alike.",
+      "similar": [
+       {
+        "q": "What does the book say influences relationships?",
+        "a": "values"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u4-q10",
+      "type": "mcq",
+      "page": 21,
+      "q": "The book asks how you can resist influence and...",
+      "options": {
+       "A": "make new enemies",
+       "B": "remain good friends",
+       "C": "leave school",
+       "D": "tell everyone"
+      },
+      "answer": "B",
+      "why": [
+       "p. 21, question 4: \"How can you resist influence and remain good friends?\""
+      ],
+      "tip": "You can say No and still stay friends.",
+      "similar": [
+       {
+        "q": "What are peers?",
+        "a": "people of your own age"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ls8-u5",
+   "number": 5,
+   "title": "Relationships with the Community",
+   "status": "done",
+   "pages": [
+    22,
+    29
+   ],
+   "tone": "mint",
+   "intro": "This unit helps you take the **right actions** for a healthy community: **sanitation** (malaria, water borne and air borne diseases, removing wastes) and **community work** (orphans, the elderly, the disabled).",
+   "intro_page": 22,
+   "diagrams": {
+    "child": {
+     "svg": "svg/life_skills_8/ls8_child.svg",
+     "title": "The child in Aligidr",
+     "page": 22,
+     "pins": [
+      {
+       "id": "center",
+       "text": "Ato Hassen's five year old child died of malaria in mid September",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "fever",
+       "text": "a very high fever",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "head",
+       "text": "headache",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "eat",
+       "text": "lost appetite",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "pale",
+       "text": "looked anaemic",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    },
+    "night": {
+     "svg": "svg/life_skills_8/ls8_night.svg",
+     "title": "Late night coffee",
+     "page": 22,
+     "pins": [
+      {
+       "id": "fam",
+       "text": "many families in Aligidr stay outside until late at night",
+       "x": 40,
+       "y": 150
+      },
+      {
+       "id": "coffee",
+       "text": "enjoying their coffee ceremony",
+       "x": 200,
+       "y": 160
+      },
+      {
+       "id": "mos",
+       "text": "malaria is common in most families in Aligidr",
+       "x": 170,
+       "y": 100
+      }
+     ]
+    },
+    "dam": {
+     "svg": "svg/life_skills_8/ls8_dam.svg",
+     "title": "The village and the dam",
+     "page": 23,
+     "pins": [
+      {
+       "id": "far",
+       "text": "before: the village had a shortage of drinking water; people travelled two hours to fetch water",
+       "x": 97.0,
+       "y": 39.0
+      },
+      {
+       "id": "dam",
+       "text": "in 1993 the Ministry of Agriculture built a dam half a kilometre from the village",
+       "x": 97.0,
+       "y": 107.0
+      },
+      {
+       "id": "lots",
+       "text": "people got plenty of water for their homes and their animals",
+       "x": 97.0,
+       "y": 175.0
+      },
+      {
+       "id": "lab",
+       "text": "but health centre lab results showed many people were infected with different diseases",
+       "x": 97.0,
+       "y": 243.0
+      }
+     ]
+    },
+    "waste": {
+     "svg": "svg/life_skills_8/ls8_waste.svg",
+     "title": "The cleaning campaign",
+     "page": 25,
+     "pins": [
+      {
+       "id": "meet",
+       "text": "Idris went to the school meeting",
+       "x": 97.0,
+       "y": 37.0
+      },
+      {
+       "id": "sun",
+       "text": "next Sunday there will be a cleaning campaign; attendance will be taken",
+       "x": 97.0,
+       "y": 97.0
+      },
+      {
+       "id": "bring",
+       "text": "students must bring materials",
+       "x": 97.0,
+       "y": 157.0
+      },
+      {
+       "id": "load",
+       "text": "machines will level the ground; the rubbish will be loaded on cars",
+       "x": 97.0,
+       "y": 217.0
+      },
+      {
+       "id": "fire",
+       "text": "\"They ordered us not to burn anything.\"",
+       "x": 97.0,
+       "y": 277.0
+      }
+     ]
+    },
+    "almaz": {
+     "svg": "svg/life_skills_8/ls8_almaz.svg",
+     "title": "Almaz's story",
+     "page": 27,
+     "pins": [
+      {
+       "id": "center",
+       "text": "Almaz, 12, lost both parents three years ago; she lives with her uncle Kiflom's family",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "work",
+       "text": "after school she fetches water and sweeps the courtyard",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "boil",
+       "text": "she boils water for the children's bath and gets very tired",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "eat",
+       "text": "Tsirha, Kiflom's wife, complains about her; Almaz is not allowed to eat with the family",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "sen",
+       "text": "Senait feels sorry for her and always tries to help",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    },
+    "elder": {
+     "svg": "svg/life_skills_8/ls8_elder.svg",
+     "title": "Helping an elder",
+     "page": 28,
+     "pins": [
+      {
+       "id": "wom",
+       "text": "a 70 year old woman carrying a basket of shopping",
+       "x": 90,
+       "y": 110
+      },
+      {
+       "id": "boy",
+       "text": "a boy who offers to help",
+       "x": 210,
+       "y": 124
+      }
+     ]
+    },
+    "hermon": {
+     "svg": "svg/life_skills_8/ls8_hermon.svg",
+     "title": "Hermon",
+     "page": 28,
+     "pins": [
+      {
+       "id": "center",
+       "text": "Hermon, a physically disabled student",
+       "x": 160.0,
+       "y": 181.0
+      },
+      {
+       "id": "car",
+       "text": "her legs were seriously injured in a car accident",
+       "x": 123.0,
+       "y": 14.0
+      },
+      {
+       "id": "sch",
+       "text": "she has a problem going to school",
+       "x": 232.0,
+       "y": 126.0
+      },
+      {
+       "id": "day",
+       "text": "on the school parents' day, support for the disabled was discussed",
+       "x": 123.0,
+       "y": 238.0
+      },
+      {
+       "id": "help",
+       "text": "the book asks: what help should she get, and who should help?",
+       "x": 14.0,
+       "y": 126.0
+      }
+     ]
+    }
+   },
+   "lessons": [
+    {
+     "id": "ls8-u5-l1",
+     "number": "5.1.1",
+     "title": "Malaria",
+     "pages": [
+      22,
+      22
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "What you will learn",
+       "body": [
+        "In this unit you learn to take the **right actions**.",
+        "They help you build **healthy relations** with your community."
+       ],
+       "page": 22
+      },
+      {
+       "type": "text",
+       "title": "How is malaria transmitted?",
+       "body": [
+        "The book asks: **How is malaria transmitted** (passed on)?"
+       ],
+       "page": 22
+      },
+      {
+       "type": "diagram",
+       "title": "The child in Aligidr",
+       "diagram": "child",
+       "mode": "explore",
+       "page": 22,
+       "body": [
+        "Tap the dots to see the signs of illness."
+       ]
+      },
+      {
+       "type": "text",
+       "title": "A common problem",
+       "body": [
+        "Ato Hassen is a **farmer** in **Aligidr**. His **five year old** child died of malaria in **mid September**.",
+        "This problem is **common** in most families in Aligidr.",
+        "People now use some **protective measures**."
+       ],
+       "page": 22
+      },
+      {
+       "type": "diagram",
+       "title": "Late night coffee",
+       "diagram": "night",
+       "mode": "explore",
+       "page": 22,
+       "body": [
+        "But look at what many families do at night."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Questions",
+       "body": [
+        "- Are the people taking the **right actions**?",
+        "- What should the **community** do to stop the spread of malaria?",
+        "- How does **environmental sanitation** help prevent malaria?",
+        "- Malaria kills people. Why do people still sleep **without nets** in mosquito areas?"
+       ],
+       "page": 22
+      },
+      {
+       "type": "check",
+       "q": "Where do many families in Aligidr stay until late at night?",
+       "options": {
+        "A": "in bed under nets",
+        "B": "outside, enjoying their coffee ceremony",
+        "C": "at the clinic",
+        "D": "at school"
+       },
+       "answer": "B",
+       "why": "\"...many of the families stay outside until late night enjoying their coffee ceremony\" (p. 22).",
+       "page": 22
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-l2",
+     "number": "5.1.2",
+     "title": "Water borne diseases",
+     "pages": [
+      23,
+      24
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "How is water contaminated?",
+       "body": [
+        "**Water borne** diseases are diseases carried by **water**.",
+        "The book asks: **How is water contaminated** (made dirty)?"
+       ],
+       "page": 23
+      },
+      {
+       "type": "steps",
+       "title": "The village and the dam",
+       "diagram": "dam",
+       "page": 23,
+       "steps": [
+        {
+         "text": "A village in the **southern zone** had little drinking water. People walked **two hours** to fetch water.",
+         "show": "far",
+         "pins": [
+          "far"
+         ]
+        },
+        {
+         "text": "In **1993** the **Ministry of Agriculture** built a dam **half a kilometre** from the village.",
+         "show": "dam",
+         "pins": [
+          "dam"
+         ]
+        },
+        {
+         "text": "People got **plenty of water** for their homes and animals.",
+         "show": "lots",
+         "pins": [
+          "lots"
+         ]
+        },
+        {
+         "text": "But the health centre's **laboratory results** showed many people were **infected** with different diseases.",
+         "show": "lab",
+         "pins": [
+          "lab"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Think",
+       "body": [
+        "- What diseases might the people have?",
+        "- How can the community keep the water **clean**?",
+        "- What can be done **at home** to make dam water safe to drink?",
+        "- Is water that **looks clean** always safe to drink? Why?"
+       ],
+       "page": 24
+      },
+      {
+       "type": "check",
+       "q": "Who built the dam, and when?",
+       "options": {
+        "A": "the villagers, in 2003",
+        "B": "the Ministry of Agriculture, in 1993",
+        "C": "the health centre, in 1993",
+        "D": "the Ministry of Education, in 1991"
+       },
+       "answer": "B",
+       "why": "\"In 1993 a dam was built by the Ministry of Agriculture\" (p. 23).",
+       "page": 23
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-l3",
+     "number": "5.1.3",
+     "title": "Air borne diseases",
+     "pages": [
+      24,
+      25
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Air borne diseases",
+       "body": [
+        "**Air borne** diseases are carried through the **air**.",
+        "Mark each statement: **√** agree, **X** do not agree, **?** do not know."
+       ],
+       "page": 24
+      },
+      {
+       "type": "table",
+       "title": "Statements 1–4",
+       "page": 25,
+       "head": [
+        "No.",
+        "Statement"
+       ],
+       "rows": [
+        [
+         "1",
+         "Only poor people are infected by air borne diseases."
+        ],
+        [
+         "2",
+         "If you are coughing, you have got TB."
+        ],
+        [
+         "3",
+         "Air borne diseases can be transmitted by food and water."
+        ],
+        [
+         "4",
+         "HIV positive and HIV negative people have equal chance of being infected with TB."
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "title": "Statements 5–8",
+       "page": 25,
+       "head": [
+        "No.",
+        "Statement"
+       ],
+       "rows": [
+        [
+         "5",
+         "Smoking cigarette enhances air borne disease infection."
+        ],
+        [
+         "6",
+         "Air borne diseases are spread by sexual intercourse."
+        ],
+        [
+         "7",
+         "The spread of TB is fast in overcrowded area."
+        ],
+        [
+         "8",
+         "Many air borne diseases have no cure."
+        ]
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Questions",
+       "body": [
+        "- Can traditional medicines treat air borne diseases? How?",
+        "- **Who** needs more care concerning air borne diseases? Why?",
+        "- How can air borne diseases be **prevented**?",
+        "- What should the **community** do?"
+       ],
+       "page": 25
+      },
+      {
+       "type": "check",
+       "q": "In the table, what mark means \"I don't know\"?",
+       "options": {
+        "A": "√",
+        "B": "X",
+        "C": "?",
+        "D": "!"
+       },
+       "answer": "C",
+       "why": "p. 24: \"√\" if you agree, \"X\" if you don't agree and \"?\" if you don't know.",
+       "page": 25
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-l4",
+     "number": "5.1.4",
+     "title": "Removal of wastes",
+     "pages": [
+      25,
+      26
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Tecle and Idris",
+       "body": [
+        "Idris went to the **school meeting**. Tecle asks what it was about."
+       ],
+       "page": 25
+      },
+      {
+       "type": "steps",
+       "title": "The cleaning campaign",
+       "diagram": "waste",
+       "page": 25,
+       "steps": [
+        {
+         "text": "Idris went to the school meeting.",
+         "show": "meet",
+         "pins": [
+          "meet"
+         ]
+        },
+        {
+         "text": "Next **Sunday** there is a **cleaning campaign**. Tecle does not want to work on Sunday. Idris agrees they need rest. But he says: \"Our area is **full of rubbish**.\" Attendance will be taken.",
+         "show": "sun",
+         "pins": [
+          "sun"
+         ]
+        },
+        {
+         "text": "Students must **bring materials**.",
+         "show": "bring",
+         "pins": [
+          "bring"
+         ]
+        },
+        {
+         "text": "**Machines** will level the ground. They will **load the rubbish on cars**.",
+         "show": "load",
+         "pins": [
+          "load"
+         ]
+        },
+        {
+         "text": "Tecle: \"Why don't you burn the rubbish?\" Idris: \"They ordered us **not to burn anything**.\"",
+         "show": "fire",
+         "pins": [
+          "fire"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Questions",
+       "body": [
+        "- Why were the students told **not to burn** the rubbish?",
+        "- What advice would you give Tecle?",
+        "- What could we use **instead of plastic bags** to carry goods?",
+        "- What should the community do to keep the environment **clean and healthy**?"
+       ],
+       "page": 26
+      },
+      {
+       "type": "check",
+       "q": "What were the students ordered not to do?",
+       "options": {
+        "A": "bring materials",
+        "B": "burn anything",
+        "C": "come on Sunday",
+        "D": "load the cars"
+       },
+       "answer": "B",
+       "why": "Idris: \"They ordered us not to burn anything\" (p. 26).",
+       "page": 26
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-l5",
+     "number": "5.2.1",
+     "title": "Community work: orphans",
+     "pages": [
+      27,
+      27
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Almaz's story",
+       "body": [
+        "An **orphan** is a child whose parents have died.",
+        "Almaz is **12**. She lost **both parents** three years ago.",
+        "Her uncle **Kiflom** brought her to his home so she can **continue her studies**."
+       ],
+       "page": 27
+      },
+      {
+       "type": "diagram",
+       "title": "Almaz's story",
+       "diagram": "almaz",
+       "mode": "explore",
+       "page": 27,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Questions",
+       "body": [
+        "- How could Almaz's health be affected **physically**, **mentally** and **socially**?",
+        "- Could Senait have done more? How?",
+        "- If you were Tsirha, what would you do?",
+        "- How should **orphans** be treated?"
+       ],
+       "page": 27
+      },
+      {
+       "type": "check",
+       "q": "Who always tries to help Almaz?",
+       "options": {
+        "A": "Tsirha",
+        "B": "Kiflom",
+        "C": "Senait",
+        "D": "her teacher"
+       },
+       "answer": "C",
+       "why": "\"Senait feels sorry about Almaz's situation and always tries to help her\" (p. 27).",
+       "page": 27
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-l6",
+     "number": "5.2.2",
+     "title": "The elderly",
+     "pages": [
+      28,
+      28
+     ],
+     "cards": [
+      {
+       "type": "states",
+       "title": "Helping an elder",
+       "diagram": "elder",
+       "page": 28,
+       "states": [
+        {
+         "key": "meet",
+         "label": "Meeting",
+         "text": "A **70 year old** woman carries a basket from the market. A boy says \"Good afternoon mother. **May I help you?**\" She says \"No problem my son, it is not heavy.\""
+        },
+        {
+         "key": "help",
+         "label": "Helping",
+         "text": "The boy says \"No matter; let me help you\" and **takes the basket**. She says \"**God bless you** my son.\""
+        },
+        {
+         "key": "home",
+         "label": "At home",
+         "text": "\"We have arrived home, please come in.\" The boy says he is in a hurry. \"Thank you, good bye.\" Boy: \"**It is my pleasure.**\""
+        }
+       ],
+       "body": [
+        "Move the slider."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Questions",
+       "body": [
+        "- Do you feel **responsible** to help elders? How do you help them?",
+        "- **Who** is responsible to help elders in your community? Why?",
+        "- Is there a need for an **elderly organization** in your community?"
+       ],
+       "page": 28
+      },
+      {
+       "type": "check",
+       "q": "What did the boy say at the very end?",
+       "options": {
+        "A": "\"I am tired\"",
+        "B": "\"It is my pleasure.\"",
+        "C": "\"Give me money\"",
+        "D": "\"Good morning\""
+       },
+       "answer": "B",
+       "why": "The last line of the dialogue: \"Boy: It is my pleasure.\" (p. 28).",
+       "page": 28
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-l7",
+     "number": "5.2.3",
+     "title": "The disabled",
+     "pages": [
+      28,
+      29
+     ],
+     "cards": [
+      {
+       "type": "text",
+       "title": "Disabilities",
+       "body": [
+        "A **disability** is a problem with the body or mind that makes some things hard to do.",
+        "The book asks you to **name different disabilities** you know."
+       ],
+       "page": 28
+      },
+      {
+       "type": "diagram",
+       "title": "Hermon",
+       "diagram": "hermon",
+       "mode": "explore",
+       "page": 28,
+       "body": [
+        "Tap the dots."
+       ]
+      },
+      {
+       "type": "remember",
+       "title": "Questions",
+       "body": [
+        "- What help should Hermon get?",
+        "- If you were her **classmate**, what would you do?",
+        "- If you were Hermon, what help would you expect?",
+        "- **Who** should help the disabled?"
+       ],
+       "page": 29
+      },
+      {
+       "type": "check",
+       "q": "How were Hermon's legs injured?",
+       "options": {
+        "A": "in a fall from a tree",
+        "B": "in a car accident",
+        "C": "playing football",
+        "D": "at birth"
+       },
+       "answer": "B",
+       "why": "\"...her legs were seriously injured in a car accident\" (p. 28).",
+       "page": 28
+      }
+     ]
+    }
+   ],
+   "glossary": [
+    {
+     "term": "community",
+     "meaning": "the people who live in an area",
+     "page": 22
+    },
+    {
+     "term": "sanitation",
+     "meaning": "keeping places clean to protect health",
+     "page": 22
+    },
+    {
+     "term": "transmit",
+     "meaning": "pass from one person to another",
+     "page": 22,
+     "forms": [
+      "transmitted"
+     ]
+    },
+    {
+     "term": "appetite",
+     "meaning": "the wish to eat",
+     "page": 22
+    },
+    {
+     "term": "anaemic",
+     "meaning": "weak and pale because of too little blood",
+     "page": 22
+    },
+    {
+     "term": "protective measure",
+     "meaning": "an action that protects you",
+     "page": 22,
+     "forms": [
+      "protective measures"
+     ]
+    },
+    {
+     "term": "contaminated",
+     "meaning": "made dirty or unsafe",
+     "page": 23
+    },
+    {
+     "term": "water borne disease",
+     "meaning": "a disease carried by water",
+     "page": 23,
+     "forms": [
+      "water borne diseases"
+     ]
+    },
+    {
+     "term": "dam",
+     "meaning": "a wall that holds back water to store it",
+     "page": 23
+    },
+    {
+     "term": "laboratory",
+     "meaning": "a room where tests are done",
+     "page": 23
+    },
+    {
+     "term": "air borne disease",
+     "meaning": "a disease carried through the air",
+     "page": 24,
+     "forms": [
+      "air borne diseases"
+     ]
+    },
+    {
+     "term": "overcrowded",
+     "meaning": "with too many people in one place",
+     "page": 25
+    },
+    {
+     "term": "waste",
+     "meaning": "rubbish, things thrown away",
+     "page": 25,
+     "forms": [
+      "wastes",
+      "rubbish"
+     ]
+    },
+    {
+     "term": "campaign",
+     "meaning": "a planned group work",
+     "page": 25
+    },
+    {
+     "term": "orphan",
+     "meaning": "a child whose parents have died",
+     "page": 27,
+     "forms": [
+      "orphans"
+     ]
+    },
+    {
+     "term": "elderly",
+     "meaning": "old people",
+     "page": 28,
+     "forms": [
+      "elders"
+     ]
+    },
+    {
+     "term": "disabled",
+     "meaning": "having a disability",
+     "page": 28,
+     "forms": [
+      "disability",
+      "disabilities"
+     ]
+    }
+   ],
+   "tips": [
+    {
+     "text": "Know the case places: **Aligidr** (malaria), **southern zone** village (dam, 1993)."
+    },
+    {
+     "text": "Three kinds of disease spread: by **mosquitoes** (malaria), by **water**, and through the **air**."
+    },
+    {
+     "text": "For community-work stories, name the **person who needs help** and the **person who helps**: Almaz ← Senait; the old woman ← the boy; Hermon ← ?"
+    },
+    {
+     "text": "Almaz's health: think **physically**, **mentally** and **socially**."
+    }
+   ],
+   "games": [
+    {
+     "id": "ls8-u5-g1",
+     "type": "label",
+     "lesson": "ls8-u5-l1",
+     "title": "The child in Aligidr",
+     "diagram": "child"
+    },
+    {
+     "id": "ls8-u5-g2",
+     "type": "sort",
+     "lesson": null,
+     "title": "Which story?",
+     "groups": [
+      {
+       "id": "mal",
+       "label": "Malaria in Aligidr"
+      },
+      {
+       "id": "dam",
+       "label": "The dam village"
+      },
+      {
+       "id": "was",
+       "label": "The cleaning campaign"
+      }
+     ],
+     "items": [
+      {
+       "text": "a five year old child died",
+       "group": "mal"
+      },
+      {
+       "text": "coffee ceremony late at night",
+       "group": "mal"
+      },
+      {
+       "text": "two hours to fetch water",
+       "group": "dam"
+      },
+      {
+       "text": "built in 1993",
+       "group": "dam"
+      },
+      {
+       "text": "laboratory results",
+       "group": "dam"
+      },
+      {
+       "text": "next Sunday",
+       "group": "was"
+      },
+      {
+       "text": "do not burn anything",
+       "group": "was"
+      },
+      {
+       "text": "rubbish loaded on cars",
+       "group": "was"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-g3",
+     "type": "match",
+     "lesson": "ls8-u5-l5",
+     "title": "Who is who?",
+     "pairs": [
+      {
+       "a": "Almaz",
+       "b": "a 12 year old orphan"
+      },
+      {
+       "a": "Kiflom",
+       "b": "Almaz's uncle"
+      },
+      {
+       "a": "Tsirha",
+       "b": "Kiflom's wife, who complains"
+      },
+      {
+       "a": "Senait",
+       "b": "always tries to help Almaz"
+      },
+      {
+       "a": "Hermon",
+       "b": "a physically disabled student"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-g4",
+     "type": "sort",
+     "lesson": null,
+     "title": "Needs help or gives help?",
+     "groups": [
+      {
+       "id": "need",
+       "label": "Needs help"
+      },
+      {
+       "id": "give",
+       "label": "Gives help"
+      }
+     ],
+     "items": [
+      {
+       "text": "Almaz",
+       "group": "need"
+      },
+      {
+       "text": "the 70 year old woman",
+       "group": "need"
+      },
+      {
+       "text": "Hermon",
+       "group": "need"
+      },
+      {
+       "text": "Senait",
+       "group": "give"
+      },
+      {
+       "text": "the boy with the basket",
+       "group": "give"
+      },
+      {
+       "text": "Kiflom (brought Almaz so she can study)",
+       "group": "give"
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-g5",
+     "type": "fill",
+     "lesson": null,
+     "title": "Fill the gap",
+     "items": [
+      {
+       "text": "Ato Hassen's child died of ___.",
+       "answer": "malaria",
+       "choices": [
+        "malaria",
+        "TB",
+        "an accident"
+       ]
+      },
+      {
+       "text": "The dam was built half a ___ from the village.",
+       "answer": "kilometre",
+       "choices": [
+        "kilometre",
+        "metre",
+        "day"
+       ]
+      },
+      {
+       "text": "The students were told not to ___ the rubbish.",
+       "answer": "burn",
+       "choices": [
+        "burn",
+        "load",
+        "carry"
+       ]
+      },
+      {
+       "text": "Almaz is not allowed to ___ with the family.",
+       "answer": "eat",
+       "choices": [
+        "eat",
+        "sleep",
+        "study"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-g6",
+     "type": "tf",
+     "lesson": null,
+     "title": "Speed round",
+     "seconds": 12,
+     "items": [
+      {
+       "text": "Ato Hassen is a farmer.",
+       "answer": true
+      },
+      {
+       "text": "Before the dam, people travelled two hours to fetch water.",
+       "answer": true
+      },
+      {
+       "text": "Tecle was happy to work on Sunday.",
+       "answer": false,
+       "why": "He asked \"Why are they keeping us busy on Sunday?\""
+      },
+      {
+       "text": "The old woman was 70 years old.",
+       "answer": true
+      },
+      {
+       "text": "Hermon was injured by falling from a tree.",
+       "answer": false,
+       "why": "In a car accident."
+      }
+     ]
+    },
+    {
+     "id": "ls8-u5-g7",
+     "type": "flash",
+     "lesson": null,
+     "title": "Flashcards",
+     "cards": [
+      {
+       "front": "water borne disease",
+       "back": "carried by water"
+      },
+      {
+       "front": "air borne disease",
+       "back": "carried through the air"
+      },
+      {
+       "front": "orphan",
+       "back": "a child whose parents have died"
+      },
+      {
+       "front": "sanitation",
+       "back": "keeping places clean for health"
+      },
+      {
+       "front": "anaemic",
+       "back": "weak and pale; too little blood"
+      }
+     ]
+    }
+   ],
+   "exercise": {
+    "questions": [
+     {
+      "id": "ls8-u5-q1",
+      "type": "mcq",
+      "page": 22,
+      "q": "Which of these was NOT a sign of illness in Ato Hassen's child?",
+      "options": {
+       "A": "very high fever",
+       "B": "headache",
+       "C": "lost appetite",
+       "D": "a broken leg"
+      },
+      "answer": "D",
+      "why": [
+       "p. 22: high fever, headache, lost appetite, looking anaemic.",
+       "A broken leg is not in the list."
+      ],
+      "tip": "Tick off each sign from the text.",
+      "similar": [
+       {
+        "q": "When did the child die?",
+        "a": "in mid September"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u5-q2",
+      "type": "tf",
+      "page": 22,
+      "q": "Malaria is common in most of the families in Aligidr.",
+      "answer": true,
+      "why": [
+       "p. 22: \"This problem is common in most of the families in Aligidr.\""
+      ],
+      "tip": "Find \"common\".",
+      "similar": [
+       {
+        "q": "How old was the child?",
+        "a": "five years old"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u5-q3",
+      "type": "mcq",
+      "page": 23,
+      "q": "Before the dam, how long did the villagers travel to fetch water?",
+      "options": {
+       "A": "half an hour",
+       "B": "one hour",
+       "C": "two hours",
+       "D": "one day"
+      },
+      "answer": "C",
+      "why": [
+       "p. 23: \"They had to travel two hours to fetch water.\""
+      ],
+      "tip": "Look for a time.",
+      "similar": [
+       {
+        "q": "How far is the dam from the village?",
+        "a": "half a kilometre"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u5-q4",
+      "type": "mcq",
+      "page": 23,
+      "q": "What did the health centre's laboratory results show?",
+      "options": {
+       "A": "everyone was healthy",
+       "B": "a number of people were infected with different diseases",
+       "C": "the water was clean",
+       "D": "the dam was broken"
+      },
+      "answer": "B",
+      "why": [
+       "p. 23: the results showed that a number of people were infected with different diseases."
+      ],
+      "tip": "Read the last sentence.",
+      "similar": [
+       {
+        "q": "Who built the dam?",
+        "a": "the Ministry of Agriculture"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u5-q5",
+      "type": "fill",
+      "page": 25,
+      "q": "In the air borne table, statement 7 says: \"The spread of TB is fast in ___ area.\"",
+      "choices": [
+       "overcrowded",
+       "cold",
+       "rural",
+       "dry"
+      ],
+      "answer": "overcrowded",
+      "why": [
+       "p. 25, statement 7."
+      ],
+      "tip": "This asks what the statement says.",
+      "similar": [
+       {
+        "q": "What does statement 2 say?",
+        "a": "If you are coughing, you have got TB."
+       }
+      ]
+     },
+     {
+      "id": "ls8-u5-q6",
+      "type": "mcq",
+      "page": 26,
+      "q": "According to Idris, what will the machines do?",
+      "options": {
+       "A": "burn the rubbish",
+       "B": "level the ground",
+       "C": "take attendance",
+       "D": "carry students"
+      },
+      "answer": "B",
+      "why": [
+       "p. 26: \"There will be machines to level the ground and we will load the rubbish on the cars.\""
+      ],
+      "tip": "Find \"machines\".",
+      "similar": [
+       {
+        "q": "Where will the rubbish be loaded?",
+        "a": "on the cars"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u5-q7",
+      "type": "mcq",
+      "page": 27,
+      "q": "Why did Kiflom bring Almaz to his home?",
+      "options": {
+       "A": "to do house work",
+       "B": "so that she can continue her studies",
+       "C": "to sell goods",
+       "D": "to look after cattle"
+      },
+      "answer": "B",
+      "why": [
+       "p. 27: \"her uncle (Kiflom) brought her to his home so that she will be able to continue her studies\"."
+      ],
+      "tip": "Find \"so that\".",
+      "similar": [
+       {
+        "q": "What does Tsirha say about Almaz?",
+        "a": "\"She doesn't want to work, yet she doesn't miss any meal and eats too much.\""
+       }
+      ]
+     },
+     {
+      "id": "ls8-u5-q8",
+      "type": "tf",
+      "page": 28,
+      "q": "At first, the old woman said the basket was not heavy.",
+      "answer": true,
+      "why": [
+       "p. 28: \"No problem my son, it is not heavy.\""
+      ],
+      "tip": "Read her first reply.",
+      "similar": [
+       {
+        "q": "What did she say when he took the basket?",
+        "a": "\"God bless you my son.\""
+       }
+      ]
+     },
+     {
+      "id": "ls8-u5-q9",
+      "type": "short",
+      "page": 29,
+      "q": "When was the issue of support for the disabled discussed in Hermon's school?",
+      "answer": "During the school parents' day.",
+      "why": [
+       "p. 29: \"During the school parents' day, the issue of support for the disabled was raised and discussed.\""
+      ],
+      "tip": "Find \"parents' day\".",
+      "similar": [
+       {
+        "q": "Why does Hermon have a problem going to school?",
+        "a": "her legs were seriously injured in a car accident"
+       }
+      ]
+     },
+     {
+      "id": "ls8-u5-q10",
+      "type": "short",
+      "page": 27,
+      "q": "List three jobs Almaz does after school.",
+      "answer": "She fetches water, sweeps the courtyard and boils water for the children's bath.",
+      "why": [
+       "p. 27."
+      ],
+      "tip": "Three verbs: fetch, sweep, boil.",
+      "similar": [
+       {
+        "q": "How long ago did Almaz lose her parents?",
+        "a": "three years ago"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
