@@ -34,6 +34,7 @@ class UnitPage extends StatefulWidget with NoNavPage {
 
 class UnitPageState extends State<UnitPage> {
   NotesBook? _book;
+  Object? _error;
   bool _ready = false;
   final _scroll = ScrollController();
   final _cardKeys = <String, GlobalKey>{};
@@ -58,20 +59,29 @@ class UnitPageState extends State<UnitPage> {
   }
 
   Future<void> _load() async {
-    final s = AppScope.read(context);
-    final b = await s.repo.book(widget.bookId);
-    final u = b.unit(widget.unitId);
-    if (u != null) {
-      final ctx = UnitCtx(u, widget.bookId, s.repo.svgPath);
-      await SvgStore.preload(s.repo.bundle, ctx.svgPaths);
+    try {
+      final s = AppScope.read(context);
+      final b = await s.repo.book(widget.bookId);
+      final u = b.unit(widget.unitId);
+      if (u != null) {
+        final ctx = UnitCtx(u, widget.bookId, s.repo.svgPath);
+        await SvgStore.preload(s.repo.bundle, ctx.svgPaths);
+      }
+      if (!mounted) return;
+      s.setLast(widget.bookId, widget.unitId);
+      setState(() {
+        _book = b;
+        _error = null;
+        _ready = true;
+      });
+      WidgetsBinding.instance.addPostFrameCallback((_) => _afterFirstLayout());
+    } catch (e) {
+      if (!mounted) return;
+      setState(() {
+        _error = e;
+        _ready = true;
+      });
     }
-    if (!mounted) return;
-    s.setLast(widget.bookId, widget.unitId);
-    setState(() {
-      _book = b;
-      _ready = true;
-    });
-    WidgetsBinding.instance.addPostFrameCallback((_) => _afterFirstLayout());
   }
 
   void _afterFirstLayout() {
@@ -174,6 +184,15 @@ class UnitPageState extends State<UnitPage> {
   Widget build(BuildContext context) {
     final k = Kit.of(context), u = unit;
     final top = BackTop(u == null ? '' : k.t('unitN', {'n': u.number}), onBack: () => Shell.of(context).pop());
+    if (_error != null) {
+      return PageShell(
+        top: top,
+        body: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Tx('Could not open this unit.\n$_error', style: ts(16, FontWeight.w700, k.p.ink)),
+        ),
+      );
+    }
     if (!_ready || u == null) return PageShell(top: top, body: const SizedBox.shrink());
     return PageShell(
       top: top,

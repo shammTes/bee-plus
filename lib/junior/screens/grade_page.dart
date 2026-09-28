@@ -40,7 +40,12 @@ class _GradePageState extends State<GradePage> {
         future: _load,
         initialData: k.s.repo.booksOfGradeIfLoaded(widget.grade),
         builder: (context, snap) {
-          if (snap.hasError) debugPrint('grade ${widget.grade}: ${snap.error}');
+          if (snap.hasError) {
+            return Padding(
+              padding: const EdgeInsets.all(24),
+              child: Tx('Notes did not load.\n${snap.error}', style: ts(16, FontWeight.w700, p.ink)),
+            );
+          }
           final loaded = {for (final b in snap.data ?? const <NotesBook>[]) b.info.id: b};
           return ScreenScroll(
             children: [

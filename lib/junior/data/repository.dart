@@ -9,7 +9,7 @@ import 'exam_models.dart';
 import 'notes_models.dart';
 
 class ContentRepo {
-  ContentRepo({AssetBundle? bundle, this.useIsolate = true}) : bundle = bundle ?? rootBundle;
+  ContentRepo({AssetBundle? bundle, this.useIsolate = false}) : bundle = bundle ?? rootBundle;
   final AssetBundle bundle;
   final bool useIsolate;
   static const base = 'assets/junior/content';
@@ -29,7 +29,7 @@ class ContentRepo {
     manifest = NotesManifest.fromJson(jsonDecode(await bundle.loadString('$base/notes/manifest.json')));
   }
 
-  Future<T> _run<T>(T Function() f) => useIsolate ? Isolate.run(f) : Future.value(f());
+  Future<Object?> _decode(String s) => useIsolate ? Isolate.run(() => jsonDecode(s)) : Future.value(jsonDecode(s));
 
   bool hasBook(String id) => bookFiles.contains('$id.json');
   NotesBook? bookIfLoaded(String id) => _books[id];
@@ -40,7 +40,8 @@ class ContentRepo {
     return _bookLoads[id] ??= () async {
       final file = '$id.json';
       final s = await bundle.loadString('$base/notes/$file', cache: false);
-      final b = await _run(() => NotesBook.fromJson(jsonDecode(s), file));
+      // jsonDecode's maps can cross isolates. NotesBook cannot, so build it here.
+      final b = NotesBook.fromJson(await _decode(s), file);
       _books[id] = b;
       return b;
     }();
@@ -67,7 +68,8 @@ class ContentRepo {
     return _paperLoad ??= () async {
       final raw = await Future.wait([for (final f in examFiles) bundle.loadString('$base/exams/$f', cache: false)]);
       final files = examFiles;
-      final list = await _run(() => [for (var i = 0; i < raw.length; i++) Paper.fromJson(jsonDecode(raw[i]), files[i])]);
+      final decoded = await Future.wait([for (final s in raw) _decode(s)]);
+      final list = [for (var i = 0; i < decoded.length; i++) Paper.fromJson(decoded[i], files[i])];
       return _papers = list;
     }();
   }

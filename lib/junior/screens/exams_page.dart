@@ -29,13 +29,19 @@ class _ExamsPageState extends State<ExamsPage> {
       body: FutureBuilder<List<Paper>>(
         future: _load,
         builder: (context, snap) {
-          final papers = snap.data ?? const <Paper>[];
+          if (snap.hasError) {
+            return Padding(
+              padding: const EdgeInsets.all(24),
+              child: Tx('Exams did not load.\n${snap.error}', style: ts(16, FontWeight.w700, p.ink)),
+            );
+          }
           return ScreenScroll(
             children: [
               Padding(padding: const EdgeInsets.only(top: 4, bottom: 18), child: lead(k.t('examLead'), p.ink2)),
               if (snap.hasData) const _RunContinue(),
               for (final s in ExamSubject.all)
-                if (papers.any((e) => e.subject?.id == s.id)) _SubjectExams(subject: s, papers: papers.where((e) => e.subject?.id == s.id).toList()),
+                if ((snap.data ?? const <Paper>[]).any((e) => e.subject?.id == s.id))
+                  _SubjectExams(subject: s, papers: (snap.data ?? const <Paper>[]).where((e) => e.subject?.id == s.id).toList()),
             ],
           );
         },
