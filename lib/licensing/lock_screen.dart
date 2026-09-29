@@ -45,6 +45,20 @@ class _LockScreenState extends State<LockScreen> with SingleTickerProviderStateM
     super.dispose();
   }
 
+  Future<void> _paste() async {
+    final data = await Clipboard.getData(Clipboard.kTextPlain);
+    final text = data?.text?.trim() ?? '';
+    if (!mounted) return;
+    if (text.isEmpty) {
+      setState(() => _message = 'Clipboard is empty. Copy the code, then paste.');
+      return;
+    }
+    _code.text = text;
+    _code.selection = TextSelection.collapsed(offset: _code.text.length);
+    _focus.requestFocus();
+    setState(() => _message = null);
+  }
+
   Future<void> _apply(String raw) async {
     if (_busy) return;
     setState(() {
@@ -78,6 +92,7 @@ class _LockScreenState extends State<LockScreen> with SingleTickerProviderStateM
     final p = Palette.light;
     final clay = Clay(p);
     final pad = MediaQuery.paddingOf(context);
+    final keyboard = MediaQuery.viewInsetsOf(context).bottom;
     return ColoredBox(
       color: const Color(0xFF1A120C),
       child: DecoratedBox(
@@ -89,7 +104,7 @@ class _LockScreenState extends State<LockScreen> with SingleTickerProviderStateM
           ),
         ),
         child: ListView(
-          padding: EdgeInsets.fromLTRB(20, pad.top + 18, 20, pad.bottom + 28),
+          padding: EdgeInsets.fromLTRB(20, pad.top + 18, 20, pad.bottom + 28 + keyboard),
           children: [
             Text('Bee Plus', textAlign: TextAlign.center, style: ts(18, FontWeight.w900, const Color(0xFFFFC9A3))),
             const SizedBox(height: 4),
@@ -176,22 +191,47 @@ class _LockScreenState extends State<LockScreen> with SingleTickerProviderStateM
             ),
             const SizedBox(height: 22),
             Text('Already have a code?', style: ts(16, FontWeight.w900, white)),
+            const SizedBox(height: 4),
+            Text('Type it, or paste it from Bee Seller.', style: ts(13, FontWeight.w700, const Color(0xFFFFE7D4))),
             const SizedBox(height: 8),
             DecoratedBox(
               decoration: BoxDecoration(color: const Color(0x33FFFFFF), borderRadius: BorderRadius.circular(18)),
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-                child: EditableText(
-                  controller: _code,
-                  focusNode: _focus,
-                  style: ts(15, FontWeight.w700, white),
-                  cursorColor: p.primary,
-                  backgroundCursorColor: p.peach.tile,
-                  maxLines: 3,
-                  minLines: 2,
-                  keyboardType: TextInputType.text,
+                child: GestureDetector(
+                  onTap: () => _focus.requestFocus(),
+                  child: EditableText(
+                    controller: _code,
+                    focusNode: _focus,
+                    style: ts(15, FontWeight.w700, white),
+                    cursorColor: p.primary,
+                    backgroundCursorColor: p.peach.tile,
+                    maxLines: 4,
+                    minLines: 2,
+                    keyboardType: TextInputType.multiline,
+                    textInputAction: TextInputAction.newline,
+                  ),
                 ),
               ),
+            ),
+            const SizedBox(height: 10),
+            Row(
+              children: [
+                Expanded(child: _Btn(label: 'Paste', filled: false, onTap: _busy ? null : _paste)),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: _Btn(
+                    label: 'Clear',
+                    filled: false,
+                    onTap: _busy
+                        ? null
+                        : () {
+                            _code.clear();
+                            _focus.requestFocus();
+                          },
+                  ),
+                ),
+              ],
             ),
             const SizedBox(height: 12),
             _Btn(label: _busy ? 'Checking…' : 'Unlock Bee Plus', onTap: _busy ? null : () => _apply(_code.text)),
@@ -255,7 +295,18 @@ class _ScanLayer extends StatefulWidget {
 }
 
 class _ScanLayerState extends State<_ScanLayer> {
+  final _camera = MobileScannerController(
+    detectionSpeed: DetectionSpeed.noDuplicates,
+    facing: CameraFacing.back,
+    formats: const [BarcodeFormat.qrCode],
+  );
   bool _done = false;
+
+  @override
+  void dispose() {
+    _camera.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -263,14 +314,30 @@ class _ScanLayerState extends State<_ScanLayer> {
     return ColoredBox(
       color: black,
       child: Stack(
+        fit: StackFit.expand,
         children: [
           MobileScanner(
+            controller: _camera,
             onDetect: (capture) {
               if (_done) return;
-              final raw = capture.barcodes.map((b) => b.rawValue).whereType<String>().where((s) => s.contains('BEE1|')).firstOrNull;
-              if (raw == null) return;
-              _done = true;
-              widget.onCode(raw);
+              for (final b in capture.barcodes) {
+                final raw = b.rawValue?.trim();
+                if (raw == null || raw.isEmpty) continue;
+                _done = true;
+                widget.onCode(raw);
+                return;
+              }
+            },
+            errorBuilder: (context, error, child) {
+              return ColoredBox(
+                color: black,
+                child: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.all(24),
+                    child: Text('Camera did not open.\n\nAllow the camera, or go back and paste the code.', textAlign: TextAlign.center, style: ts(16, FontWeight.w800, white)),
+                  ),
+                ),
+              );
             },
           ),
           Positioned(
@@ -290,7 +357,7 @@ class _ScanLayerState extends State<_ScanLayer> {
                   ),
                 ),
                 const SizedBox(width: 12),
-                Expanded(child: Text('Scan the Bee Seller unlock QR', style: ts(15, FontWeight.w800, white))),
+                Expanded(child: Text('Point at the Bee Seller unlock QR', style: ts(15, FontWeight.w800, white))),
               ],
             ),
           ),
