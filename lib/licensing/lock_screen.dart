@@ -45,6 +45,20 @@ class _LockScreenState extends State<LockScreen> with SingleTickerProviderStateM
     super.dispose();
   }
 
+  Future<void> _openScan() async {
+    await _Secure.set(false);
+    if (mounted) setState(() => _scanning = true);
+  }
+
+  Future<void> _closeScan([String? code]) async {
+    if (mounted) {
+      if (code != null) _code.text = code;
+      setState(() => _scanning = false);
+    }
+    await _Secure.set(true);
+    if (code != null) await _apply(code);
+  }
+
   Future<void> _paste() async {
     final data = await Clipboard.getData(Clipboard.kTextPlain);
     final text = data?.text?.trim() ?? '';
@@ -81,12 +95,8 @@ class _LockScreenState extends State<LockScreen> with SingleTickerProviderStateM
   Widget build(BuildContext context) {
     if (_scanning) {
       return _ScanLayer(
-        onClose: () => setState(() => _scanning = false),
-        onCode: (code) {
-          _code.text = code;
-          setState(() => _scanning = false);
-          _apply(code);
-        },
+        onClose: () => _closeScan(),
+        onCode: (code) => _closeScan(code),
       );
     }
     final p = Palette.light;
@@ -236,7 +246,7 @@ class _LockScreenState extends State<LockScreen> with SingleTickerProviderStateM
             const SizedBox(height: 12),
             _Btn(label: _busy ? 'Checking…' : 'Unlock Bee Plus', onTap: _busy ? null : () => _apply(_code.text)),
             const SizedBox(height: 8),
-            _Btn(label: 'Scan seller QR', filled: false, onTap: _busy ? null : () => setState(() => _scanning = true)),
+            _Btn(label: 'Scan seller QR', filled: false, onTap: _busy ? null : _openScan),
             if (_message != null) ...[
               const SizedBox(height: 12),
               Text(_message!, textAlign: TextAlign.center, style: ts(14, FontWeight.w800, const Color(0xFFFFC9A3))),
@@ -283,6 +293,15 @@ class _Btn extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+class _Secure {
+  static const _channel = MethodChannel('er.junior.app/secure');
+  static Future<void> set(bool on) async {
+    try {
+      await _channel.invokeMethod<void>('set', on);
+    } catch (_) {}
   }
 }
 
